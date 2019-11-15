@@ -1,0 +1,74 @@
+[
+  {
+    "code": "BTC",
+    "name": "Bitcoin",
+    "decimals": 8
+  },
+  {
+    "code": "ETH",
+    "name": "Ethereum",
+    "decimals": 18
+  },
+  {
+    "code": "BCH",
+    "name": "Bitcoin Cash",
+    "decimals": 8
+  },
+  {
+    "code": "XLM",
+    "name": "Stellar Lumen",
+    "decimals": 7
+  },
+  {
+    "code": "BSV",
+    "name": "Bitcoin Satoshis Vision",
+    "removed": true,
+    "decimals": 8
+  },
+  {
+    "code": "PAX",
+    "name": "Paxos USD",
+    "decimals": 18
+  },
+  {
+    "code": "TEST1",
+    "name": "Test ERC20 1",
+    "decimals": 18
+
+  },
+  {
+    "code": "TEST2",
+    "name": "Test ERC20 2",
+    "decimals": 18
+  },
+  {
+    "code": "LTC",
+    "name": "Litecoin",
+    "decimals": 8
+  },
+  {
+    "code": "EOS",
+    "name": "EOS",
+    "decimals": 4
+  },
+  {
+    "code": "XRP",
+    "name": "Ripple",
+    "decimals": 6
+  },
+  {
+    "code": "USDT",
+    "name": "Tether",
+    "decimals": 6
+  },
+  {
+    "code": "ALGO",
+    "name": "Algorand",
+    "decimals": 6
+  },
+  {
+    "code": "DGLD",
+    "name": "Digital Gold",
+    "decimals": 8
+  }
+]
