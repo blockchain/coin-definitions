@@ -2,73 +2,87 @@
   {
     "code": "BTC",
     "name": "Bitcoin",
-    "decimals": 8
+    "precision": 8,
+    "dust": 0.0000546
   },
   {
     "code": "ETH",
     "name": "Ethereum",
-    "decimals": 18
+    "precision": 18,
+    "dust": 0.00084
   },
   {
     "code": "BCH",
     "name": "Bitcoin Cash",
-    "decimals": 8
+    "precision": 8,
+    "dust": 0.0000546
   },
   {
     "code": "XLM",
     "name": "Stellar Lumen",
-    "decimals": 7
+    "precision": 7,
+    "dust": 0.0
   },
   {
     "code": "BSV",
     "name": "Bitcoin Satoshis Vision",
     "removed": true,
-    "decimals": 8
+    "precision": 8,
+    "dust": 0.0000546
   },
   {
     "code": "PAX",
     "name": "Paxos USD",
-    "decimals": 18
+    "precision": 18,
+    "dust": 1.0
   },
   {
     "code": "TEST1",
     "name": "Test ERC20 1",
-    "decimals": 18
+    "precision": 18,
+    "dust": 0.00084
 
   },
   {
     "code": "TEST2",
     "name": "Test ERC20 2",
-    "decimals": 18
+    "precision": 18,
+    "dust": 0.00084
   },
   {
     "code": "LTC",
     "name": "Litecoin",
-    "decimals": 8
+    "precision": 8,
+    "dust": 0.0000546
   },
   {
     "code": "EOS",
     "name": "EOS",
-    "decimals": 4
+    "precision": 4,
+    "dust": 0.0
   },
   {
     "code": "XRP",
     "name": "Ripple",
-    "decimals": 6
+    "precision": 6,
+    "dust": 0.0
   },
   {
     "code": "USDT",
     "name": "Tether",
-    "decimals": 6
+    "precision": 6,
+    "dust": 1.0
   },
   {
     "code": "ALGO",
     "name": "Algorand",
-    "decimals": 6
+    "precision": 6,
+    "dust": 3.0
   },
   {
     "code": "DGLD",
     "name": "Digital Gold",
-    "decimals": 8
+    "precision": 8,
+    "dust": 0.0000546
   }
 ]
