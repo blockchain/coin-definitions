@@ -25,14 +25,14 @@
   },
   {
     "code": "BSV",
-    "name": "Bitcoin Satoshis Vision",
+    "name": "Bitcoin Satoshi Vision",
     "removed": true,
     "precision": 8,
     "dust": 0.0000546
   },
   {
     "code": "PAX",
-    "name": "Paxos USD",
+    "name": "USD PAX",
     "precision": 18,
     "dust": 1.0
   },
