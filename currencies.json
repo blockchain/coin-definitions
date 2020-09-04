@@ -84,5 +84,29 @@
     "name": "Digital Gold",
     "precision": 8,
     "dust": 0.0000546
+  },
+  {
+    "code": "OGN",
+    "name": "Origin Token",
+    "precision": 18,
+    "dust": 2.0
+  },
+  {
+    "code": "ENJ",
+    "name": "Enjin Coin",
+    "precision": 18,
+    "dust": 5.0
+  },
+  {
+    "code": "YFI",
+    "name": "yearn.finance",
+    "precision": 18,
+    "dust": 0.000025
+  },
+  {
+    "code": "LEND",
+    "name": "Aave",
+    "precision": 18,
+    "dust": 1
   }
 ]
