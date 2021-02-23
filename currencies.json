@@ -86,6 +86,12 @@
     "dust": 0.0000546
   },
   {
+    "code": "XTZ",
+    "name": "Tezos",
+    "precision": 6,
+    "dust": 0.3
+  },
+  {
     "code": "OGN",
     "name": "Origin Token",
     "precision": 18,
@@ -105,8 +111,44 @@
   },
   {
     "code": "LEND",
+    "name": "ETHLend",
+    "precision": 18,
+    "dust": 1
+  },
+  {
+    "code": "AAVE",
     "name": "Aave",
     "precision": 18,
     "dust": 1
+  },
+  {
+    "code": "WDGLD",
+    "name": "wrapped-DGLD",
+    "precision": 8,
+    "dust": 1
+  },
+  {
+    "code": "DOT",
+    "name": "Polkadot",
+    "precision": 10,
+    "dust": 1
+  },
+  {
+    "code": "USDC",
+    "name": "USD Coin",
+    "precision": 6,
+    "dust": 1
+  },
+  {
+    "code": "ZRX",
+    "name": "0x Token",
+    "precision": 18,
+    "dust": 1
+  },
+  {
+    "code": "UNI",
+    "name": "Uniswap",
+    "precision": 18,
+    "dust": 0.05
   }
 ]
