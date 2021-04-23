@@ -150,5 +150,11 @@
     "name": "Uniswap",
     "precision": 18,
     "dust": 0.05
+  },
+  {
+    "code": "DOGE",
+    "name": "Dogecoin",
+    "precision": 8,
+    "dust": 1
   }
 ]
