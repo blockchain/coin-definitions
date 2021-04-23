@@ -1,0 +1,3 @@
+[submodule "ethereum-lists"]
+	path = ethereum-lists
+	url = https://github.com/MyEtherWallet/ethereum-lists
