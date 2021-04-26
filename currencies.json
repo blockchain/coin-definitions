@@ -1,160 +1,134 @@
 [
   {
-    "code": "BTC",
+    "symbol": "BTC",
     "name": "Bitcoin",
-    "precision": 8,
-    "dust": 0.0000546
+    "decimals": 8
   },
   {
-    "code": "ETH",
+    "symbol": "ETH",
     "name": "Ethereum",
-    "precision": 18,
-    "dust": 0.00084
+    "decimals": 18
   },
   {
-    "code": "BCH",
+    "symbol": "BCH",
     "name": "Bitcoin Cash",
-    "precision": 8,
-    "dust": 0.0000546
+    "decimals": 8
   },
   {
-    "code": "XLM",
+    "symbol": "XLM",
     "name": "Stellar Lumen",
-    "precision": 7,
-    "dust": 0.0
+    "decimals": 7
   },
   {
-    "code": "BSV",
+    "symbol": "BSV",
     "name": "Bitcoin Satoshi Vision",
     "removed": true,
-    "precision": 8,
-    "dust": 0.0000546
+    "decimals": 8
   },
   {
-    "code": "PAX",
+    "symbol": "PAX",
     "name": "USD PAX",
-    "precision": 18,
-    "dust": 1.0
+    "decimals": 18
   },
   {
-    "code": "TEST1",
+    "symbol": "TEST1",
     "name": "Test ERC20 1",
-    "precision": 18,
-    "dust": 0.00084
+    "decimals": 18
 
   },
   {
-    "code": "TEST2",
+    "symbol": "TEST2",
     "name": "Test ERC20 2",
-    "precision": 18,
-    "dust": 0.00084
+    "decimals": 18
   },
   {
-    "code": "LTC",
+    "symbol": "LTC",
     "name": "Litecoin",
-    "precision": 8,
-    "dust": 0.0000546
+    "decimals": 8
   },
   {
-    "code": "EOS",
+    "symbol": "EOS",
     "name": "EOS",
-    "precision": 4,
-    "dust": 0.0
+    "decimals": 4
   },
   {
-    "code": "XRP",
+    "symbol": "XRP",
     "name": "Ripple",
-    "precision": 6,
-    "dust": 0.0
+    "decimals": 6
   },
   {
-    "code": "USDT",
+    "symbol": "USDT",
     "name": "Tether",
-    "precision": 6,
-    "dust": 1.0
+    "decimals": 6
   },
   {
-    "code": "ALGO",
+    "symbol": "ALGO",
     "name": "Algorand",
-    "precision": 6,
-    "dust": 3.0
+    "decimals": 6
   },
   {
-    "code": "DGLD",
+    "symbol": "DGLD",
     "name": "Digital Gold",
-    "precision": 8,
-    "dust": 0.0000546
+    "decimals": 8
   },
   {
-    "code": "XTZ",
+    "symbol": "XTZ",
     "name": "Tezos",
-    "precision": 6,
-    "dust": 0.3
+    "decimals": 6
   },
   {
-    "code": "OGN",
+    "symbol": "OGN",
     "name": "Origin Token",
-    "precision": 18,
-    "dust": 2.0
+    "decimals": 18
   },
   {
-    "code": "ENJ",
+    "symbol": "ENJ",
     "name": "Enjin Coin",
-    "precision": 18,
-    "dust": 5.0
+    "decimals": 18
   },
   {
-    "code": "YFI",
+    "symbol": "YFI",
     "name": "yearn.finance",
-    "precision": 18,
-    "dust": 0.000025
+    "decimals": 18
   },
   {
-    "code": "LEND",
+    "symbol": "LEND",
     "name": "ETHLend",
-    "precision": 18,
-    "dust": 1
+    "decimals": 18
   },
   {
-    "code": "AAVE",
+    "symbol": "AAVE",
     "name": "Aave",
-    "precision": 18,
-    "dust": 1
+    "decimals": 18
   },
   {
-    "code": "WDGLD",
+    "symbol": "WDGLD",
     "name": "wrapped-DGLD",
-    "precision": 8,
-    "dust": 1
+    "decimals": 8
   },
   {
-    "code": "DOT",
+    "symbol": "DOT",
     "name": "Polkadot",
-    "precision": 10,
-    "dust": 1
+    "decimals": 10
   },
   {
-    "code": "USDC",
+    "symbol": "USDC",
     "name": "USD Coin",
-    "precision": 6,
-    "dust": 1
+    "decimals": 6
   },
   {
-    "code": "ZRX",
+    "symbol": "ZRX",
     "name": "0x Token",
-    "precision": 18,
-    "dust": 1
+    "decimals": 18
   },
   {
-    "code": "UNI",
+    "symbol": "UNI",
     "name": "Uniswap",
-    "precision": 18,
-    "dust": 0.05
+    "decimals": 18
   },
   {
-    "code": "DOGE",
+    "symbol": "DOGE",
     "name": "Dogecoin",
-    "precision": 8,
-    "dust": 1
+    "decimals": 8
   }
 ]
