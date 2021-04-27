@@ -4,6 +4,8 @@ import sys
 import json
 import argparse
 
+from urllib.parse import urljoin
+
 def read_json(path):
     with open(path) as json_file:
         return json.load(json_file)
@@ -23,15 +25,21 @@ def build_assets_list(assets_dir):
 
 def to_bc_format(asset):
     return dict(
-        name=asset['name'],
-        symbol=asset['symbol'],
         address=asset['id'],
         decimals=asset['decimals'],
+        logo=asset['logo'],
+        name=asset['name'],
+        symbol=asset['symbol'],
         website=asset['website']
     )
 
+def build_token_logo(base_path, address):
+    asset_path = urljoin(base_path, address + "/")
+    return urljoin(asset_path, "logo.png")
+
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("public_assets_dir", help="Path to the PUBLIC assets directory")
     parser.add_argument("assets_dir", help="Path to the assets directory")
     parser.add_argument("allowlist", help="Path to the allow list file")
     parser.add_argument("denylist", help="Path to the allow list file")
@@ -52,6 +60,12 @@ def main():
     # Make sure the asset is in the allowlist and NOT in the denylist:
     assets = filter(lambda x: x['id'].lower() in allowlist, assets)
     assets = filter(lambda x: x['id'].lower() not in denylist, assets)
+
+    # Inject logos:
+    assets = map(
+        lambda x: {**x, **dict(logo=build_token_logo(args.public_assets_dir, x['id']))},
+        assets
+    )
 
     # Convert to our format:
     assets = list(map(to_bc_format, assets))
