@@ -1,0 +1,107 @@
+[
+  {
+    "symbol": "BTC",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "ETH",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "BCH",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "XLM",
+    "custodialPrecision": 7
+  },
+  {
+    "symbol": "BSV",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "PAX",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "TEST1",
+    "custodialPrecision": 8
+
+  },
+  {
+    "symbol": "TEST2",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "LTC",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "EOS",
+    "custodialPrecision": 4
+  },
+  {
+    "symbol": "XRP",
+    "custodialPrecision": 6
+  },
+  {
+    "symbol": "USDT",
+    "custodialPrecision": 6
+  },
+  {
+    "symbol": "ALGO",
+    "custodialPrecision": 6
+  },
+  {
+    "symbol": "DGLD",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "XTZ",
+    "custodialPrecision": 6
+  },
+  {
+    "symbol": "OGN",
+    "custodialPrecision": 18
+  },
+  {
+    "symbol": "ENJ",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "YFI",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "LEND",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "AAVE",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "WDGLD",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "DOT",
+    "custodialPrecision": 9
+  },
+  {
+    "symbol": "USDC",
+    "custodialPrecision": 6
+  },
+  {
+    "symbol": "ZRX",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "UNI",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "DOGE",
+    "custodialPrecision": 8
+  }
+]
