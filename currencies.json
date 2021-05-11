@@ -31,17 +31,6 @@
     "decimals": 18
   },
   {
-    "symbol": "TEST1",
-    "name": "Test ERC20 1",
-    "decimals": 18
-
-  },
-  {
-    "symbol": "TEST2",
-    "name": "Test ERC20 2",
-    "decimals": 18
-  },
-  {
     "symbol": "LTC",
     "name": "Litecoin",
     "decimals": 8
