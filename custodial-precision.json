@@ -103,5 +103,53 @@
   {
     "symbol": "DOGE",
     "custodialPrecision": 8
+  },
+  {
+    "symbol": "BNB",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "BNB",
+    "custodialPrecision": 9
+  },
+  {
+    "symbol": "BNB",
+    "custodialPrecision": 9
+  },
+  {
+    "symbol": "LEO",
+    "custodialPrecision": 9
+  },
+  {
+    "symbol": "LINK",
+    "custodialPrecision": 9
+  },
+  {
+    "symbol": "STX",
+    "custodialPrecision": 6
+  },
+  {
+    "symbol": "ZEC",
+    "custodialPrecision": 8
+  },
+  {
+    "symbol": "THETA",
+    "custodialPrecision": 9
+  },
+  {
+    "symbol": "TFUEL",
+    "custodialPrecision": 9
+  },
+  {
+    "symbol": "NEAR",
+    "custodialPrecision": 9
+  },
+  {
+    "symbol": "ADA",
+    "custodialPrecision": 6
+  },
+  {
+    "symbol": "FIL",
+    "custodialPrecision": 9
   }
 ]
