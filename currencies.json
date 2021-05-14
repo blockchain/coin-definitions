@@ -2,122 +2,218 @@
   {
     "symbol": "BTC",
     "name": "Bitcoin",
+    "type": "COIN",
     "decimals": 8
   },
   {
     "symbol": "ETH",
     "name": "Ethereum",
+    "type": "COIN",
     "decimals": 18
   },
   {
     "symbol": "BCH",
     "name": "Bitcoin Cash",
+    "type": "COIN",
     "decimals": 8
   },
   {
     "symbol": "XLM",
     "name": "Stellar Lumen",
+    "type": "COIN",
     "decimals": 7
   },
   {
     "symbol": "BSV",
     "name": "Bitcoin Satoshi Vision",
+    "type": "COIN",
     "removed": true,
     "decimals": 8
   },
   {
     "symbol": "PAX",
     "name": "USD PAX",
+    "type": "ERC20",
     "decimals": 18
   },
   {
     "symbol": "LTC",
     "name": "Litecoin",
+    "type": "COIN",
     "decimals": 8
   },
   {
     "symbol": "EOS",
     "name": "EOS",
+    "type": "COIN",
     "decimals": 4
   },
   {
     "symbol": "XRP",
     "name": "Ripple",
+    "type": "COIN",
     "decimals": 6
   },
   {
     "symbol": "USDT",
     "name": "Tether",
+    "type": "ERC20",
     "decimals": 6
   },
   {
     "symbol": "ALGO",
     "name": "Algorand",
+    "type": "COIN",
     "decimals": 6
   },
   {
     "symbol": "DGLD",
     "name": "Digital Gold",
+    "type": "COIN",
     "decimals": 8
   },
   {
     "symbol": "XTZ",
     "name": "Tezos",
+    "type": "COIN",
     "decimals": 6
   },
   {
     "symbol": "OGN",
     "name": "Origin Token",
+    "type": "ERC20",
     "decimals": 18
   },
   {
     "symbol": "ENJ",
     "name": "Enjin Coin",
+    "type": "ERC20",
     "decimals": 18
   },
   {
     "symbol": "YFI",
     "name": "yearn.finance",
+    "type": "ERC20",
     "decimals": 18
   },
   {
     "symbol": "LEND",
     "name": "ETHLend",
+    "type": "ERC20",
     "decimals": 18
   },
   {
     "symbol": "AAVE",
     "name": "Aave",
+    "type": "ERC20",
     "decimals": 18
   },
   {
     "symbol": "WDGLD",
     "name": "wrapped-DGLD",
+    "type": "ERC20",
     "decimals": 8
   },
   {
     "symbol": "DOT",
     "name": "Polkadot",
+    "type": "COIN",
     "decimals": 10
   },
   {
     "symbol": "USDC",
     "name": "USD Coin",
+    "type": "ERC20",
     "decimals": 6
   },
   {
     "symbol": "ZRX",
     "name": "0x Token",
+    "type": "ERC20",
     "decimals": 18
   },
   {
     "symbol": "UNI",
     "name": "Uniswap",
+    "type": "ERC20",
     "decimals": 18
   },
   {
     "symbol": "DOGE",
     "name": "Dogecoin",
+    "type": "COIN",
     "decimals": 8
+  },
+  {
+    "symbol": "BNB",
+    "name": "Binance Chain",
+    "type": "COIN",
+    "decimals": 8
+  },
+  {
+    "symbol": "BNB",
+    "name": "Binance Smart Chain",
+    "type": "BSC",
+    "decimals": 18
+  },
+  {
+    "symbol": "BNB",
+    "name": "Binance Coin (ERC20)",
+    "type": "ERC20",
+    "decimals": 18
+  },
+  {
+    "symbol": "LEO",
+    "name": "Bitfinex LEO Token",
+    "type": "ERC20",
+    "decimals": 18
+  },
+  {
+    "symbol": "LINK",
+    "name": "Chainlink",
+    "type": "ERC20",
+    "decimals": 18
+  },
+  {
+    "symbol": "STX",
+    "name": "Stacks",
+    "type": "COIN",
+    "decimals": 6
+  },
+  {
+    "symbol": "ZEC",
+    "name": "Zcash",
+    "type": "COIN",
+    "decimals": 8
+  },
+  {
+    "symbol": "THETA",
+    "name": "Theta Network",
+    "type": "COIN",
+    "decimals": 18
+  },
+  {
+    "symbol": "TFUEL",
+    "name": "Theta Fuel",
+    "type": "COIN",
+    "decimals": 18
+  },
+  {
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
+    "type": "COIN",
+    "decimals": 24
+  },
+  {
+    "symbol": "ADA",
+    "name": "Cardano",
+    "type": "COIN",
+    "decimals": 6
+  },
+  {
+    "symbol": "FIL",
+    "name": "Filecoin",
+    "type": "COIN",
+    "decimals": 18
   }
 ]
