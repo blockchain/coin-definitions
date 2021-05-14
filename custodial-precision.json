@@ -24,15 +24,6 @@
     "custodialPrecision": 8
   },
   {
-    "symbol": "TEST1",
-    "custodialPrecision": 8
-
-  },
-  {
-    "symbol": "TEST2",
-    "custodialPrecision": 8
-  },
-  {
     "symbol": "LTC",
     "custodialPrecision": 8
   },
@@ -109,11 +100,11 @@
     "custodialPrecision": 8
   },
   {
-    "symbol": "BNB",
+    "symbol": "BNBBSC",
     "custodialPrecision": 9
   },
   {
-    "symbol": "BNB",
+    "symbol": "BNBERC20",
     "custodialPrecision": 9
   },
   {
