@@ -146,20 +146,8 @@
   },
   {
     "symbol": "BNB",
-    "name": "Binance Chain",
-    "type": "COIN",
-    "decimals": 8
-  },
-  {
-    "symbol": "BNB",
     "name": "Binance Smart Chain",
-    "type": "BSC",
-    "decimals": 18
-  },
-  {
-    "symbol": "BNB",
-    "name": "Binance Coin (ERC20)",
-    "type": "ERC20",
+    "type": "COIN",
     "decimals": 18
   },
   {
