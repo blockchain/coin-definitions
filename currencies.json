@@ -203,5 +203,11 @@
     "name": "Filecoin",
     "type": "COIN",
     "decimals": 18
+  },
+  {
+    "symbol": "CLOUT",
+    "name": "BitClout",
+    "type": "COIN",
+    "decimals": 9
   }
 ]
