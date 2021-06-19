@@ -4,9 +4,20 @@ import sys
 import json
 import argparse
 
+import itertools
 from dataclasses import asdict, dataclass
+from typing import Iterator, TypeVar
 
+from urllib import parse, request
 from urllib.parse import urljoin
+
+T = TypeVar('T')
+
+def chunks(iterator: Iterator[T], n: int) -> Iterator[Iterator[T]]:
+    for first in iterator:
+        rest_of_chunk = itertools.islice(iterator, 0, n - 1)
+        yield itertools.chain([first], rest_of_chunk)
+
 
 @dataclass
 class ERC20Token:
@@ -61,6 +72,21 @@ def build_assets_list(assets_dir):
 
         yield read_json(asset_info_path)
 
+BASE_URL = "https://min-api.cryptocompare.com/data/pricemulti"
+
+def filter_cryptocompare_supported(tokens: Iterator[ERC20Token]) -> Iterator[ERC20Token]:
+    for chunk in chunks(tokens, 50):
+        token_map = {t.symbol: t for t in chunk}
+        params = {
+            "fsyms": ",".join(token_map.keys()),
+            "tsyms": "USD"
+        }
+        url = BASE_URL + "?" + parse.urlencode(params)
+        response = request.urlopen(url).read()
+        for currency in json.loads(response):
+            if currency in token_map:
+                yield token_map[currency]
+
 def build_token_logo(base_path, address):
     asset_path = urljoin(base_path, address + "/")
     return urljoin(asset_path, "logo.png")
@@ -91,6 +117,9 @@ def main():
     # Make sure the asset is in the allowlist and NOT in the denylist:
     tokens = filter(lambda x: x.address.lower() in allowlist, tokens)
     tokens = filter(lambda x: x.address.lower() not in denylist, tokens)
+
+    print(f"Fetching pairs from ${BASE_URL}")
+    tokens = filter_cryptocompare_supported(tokens)
 
     # Inject logos:
     tokens = map(lambda x: x.copy(logo=build_token_logo(args.public_assets_dir, x.address)), tokens)
