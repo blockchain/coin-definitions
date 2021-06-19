@@ -4,7 +4,45 @@ import sys
 import json
 import argparse
 
+from dataclasses import asdict, dataclass
+
 from urllib.parse import urljoin
+
+@dataclass
+class ERC20Token:
+    address: str
+    decimals: int
+    logo: str
+    name: str
+    symbol: str
+    website: str
+
+    @staticmethod
+    def from_asset_dict(asset):
+        return ERC20Token(
+            address=asset['id'],
+            decimals=asset['decimals'],
+            logo='',
+            name=asset['name'],
+            symbol=asset['symbol'],
+            website=asset['website']
+        )
+
+    def copy(self, address=None,
+                   decimals=None,
+                   logo=None,
+                   name=None,
+                   symbol=None,
+                   website=None):
+        return ERC20Token(
+            address or self.address,
+            decimals or self.decimals,
+            logo or self.logo,
+            name or self.name,
+            symbol or self.symbol,
+            website or self.website
+        )
+
 
 def read_json(path):
     with open(path) as json_file:
@@ -22,16 +60,6 @@ def build_assets_list(assets_dir):
             continue
 
         yield read_json(asset_info_path)
-
-def to_bc_format(asset):
-    return dict(
-        address=asset['id'],
-        decimals=asset['decimals'],
-        logo=asset['logo'],
-        name=asset['name'],
-        symbol=asset['symbol'],
-        website=asset['website']
-    )
 
 def build_token_logo(base_path, address):
     asset_path = urljoin(base_path, address + "/")
@@ -57,21 +85,21 @@ def main():
     # Keep only the active ones:
     assets = filter(lambda x: x['status'] == 'active', assets)
 
+    # Convert to Token instances:
+    tokens = (ERC20Token.from_asset_dict(asset) for asset in assets)
+
     # Make sure the asset is in the allowlist and NOT in the denylist:
-    assets = filter(lambda x: x['id'].lower() in allowlist, assets)
-    assets = filter(lambda x: x['id'].lower() not in denylist, assets)
+    tokens = filter(lambda x: x.address.lower() in allowlist, tokens)
+    tokens = filter(lambda x: x.address.lower() not in denylist, tokens)
 
     # Inject logos:
-    assets = map(
-        lambda x: {**x, **dict(logo=build_token_logo(args.public_assets_dir, x['id']))},
-        assets
-    )
+    tokens = map(lambda x: x.copy(logo=build_token_logo(args.public_assets_dir, x.address)), tokens)
 
-    # Convert to our format:
-    assets = list(map(to_bc_format, assets))
+    # Convert back to plain dicts:
+    tokens = list(map(asdict, tokens))
 
-    print(f"Writing {len(assets)} assets to {args.output_file}")
-    write_json(assets, args.output_file)
+    print(f"Writing {len(tokens)} tokens to {args.output_file}")
+    write_json(tokens, args.output_file)
 
 
 if __name__ == '__main__':
