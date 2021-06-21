@@ -7,6 +7,8 @@ import argparse
 import itertools
 from dataclasses import asdict, dataclass, replace
 from typing import Iterator, TypeVar
+from functools import reduce
+from datetime import datetime
 
 from urllib import parse, request
 from urllib.parse import urljoin
@@ -17,7 +19,6 @@ def chunks(iterator: Iterator[T], n: int) -> Iterator[Iterator[T]]:
     for first in iterator:
         rest_of_chunk = itertools.islice(iterator, 0, n - 1)
         yield itertools.chain([first], rest_of_chunk)
-
 
 @dataclass
 class ERC20Token:
@@ -39,6 +40,9 @@ class ERC20Token:
             website=asset['website']
         )
 
+ETHERSCAN_TOKEN_URL = "https://etherscan.io/token/"
+CRYPTO_COMPARE_BASE_URL = "https://min-api.cryptocompare.com/data/pricemulti"
+COIN_GECKO_TOKEN_PRICE_URL = "https://api.coingecko.com/api/v3/simple/token_price/ethereum"
 
 def read_json(path):
     with open(path) as json_file:
@@ -64,21 +68,31 @@ def build_assets_list(assets_dir):
 
         yield read_json(asset_info_path)
 
-ETHERSCAN_TOKEN_URL = "https://etherscan.io/token/"
-BASE_URL = "https://min-api.cryptocompare.com/data/pricemulti"
-
 def filter_cryptocompare_supported(tokens: Iterator[ERC20Token]) -> Iterator[ERC20Token]:
+    print(f"Fetching pairs from {CRYPTO_COMPARE_BASE_URL}")
+
     for chunk in chunks(tokens, 50):
         token_map = {t.symbol: t for t in chunk}
         params = {
             "fsyms": ",".join(token_map.keys()),
             "tsyms": "USD"
         }
-        url = BASE_URL + "?" + parse.urlencode(params)
+        url = CRYPTO_COMPARE_BASE_URL + "?" + parse.urlencode(params)
         response = request.urlopen(url).read()
         for currency in json.loads(response):
             if currency in token_map:
                 yield token_map[currency]
+
+def fetch_token_prices(addresses):
+    print(f"Fetching pairs from {COIN_GECKO_TOKEN_PRICE_URL}")
+    params = {
+        "contract_addresses": ",".join(addresses),
+        "vs_currencies": "USD",
+        "include_market_cap": "true"
+    }
+    url = COIN_GECKO_TOKEN_PRICE_URL + "?" + parse.urlencode(params)
+    response = request.urlopen(url).read()
+    return json.loads(response)
 
 def build_token_logo(base_path, address):
     asset_path = urljoin(base_path, address + "/")
@@ -92,12 +106,20 @@ def assert_no_duplicate_symbols(tokens):
     if not duplicates:
         return
 
+    tokens = reduce(lambda a, x: a + x[1], duplicates, [])
+    addresses = [x.address for x in tokens]
+    now = datetime.now().isoformat()
+    prices = fetch_token_prices(addresses)
+
     print(f"Found {len(duplicates)} duplicate symbols:")
 
     for symbol, tokens in duplicates:
         print(f"# '{symbol}' is shared by:")
         for token in tokens:
+            market_cap = prices.get(token.address.lower(), {}).get("usd_market_cap", 0.0)
             print(f"# - {urljoin(ETHERSCAN_TOKEN_URL, token.address)} ({token.name}): {token.website}")
+            print(f"#   USD Market cap on {now}: ${market_cap:,.2f}")
+            print(f"# {token.address}")
 
     raise Exception("Duplicate symbol(s) found")
 
@@ -131,12 +153,11 @@ def main():
     tokens = filter(lambda x: x.address.lower() not in tw_denylist, tokens)
     tokens = filter(lambda x: x.address.lower() not in bc_denylist, tokens)
 
-    # Filter out tokens not listed on cryptocompare.com
-    print(f"Fetching pairs from ${BASE_URL}")
-    tokens = filter_cryptocompare_supported(tokens)
-
-    # Health checks:
+    # Clean up:
     assert_no_duplicate_symbols(tokens)
+
+    # Filter out tokens not listed on cryptocompare.com
+    tokens = filter_cryptocompare_supported(tokens)
 
     # Inject logos:
     tokens = map(lambda x: replace(x, logo=build_token_logo(args.public_assets_dir, x.address)), tokens)
