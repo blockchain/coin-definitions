@@ -90,7 +90,7 @@
 # 0x0391D2021f89DC339F60Fff84546EA23E337750f
 # - https://etherscan.io/token/0x5Dc02Ea99285E17656b8350722694c35154DB1E8 (BOND): https://bonded.finance/
 #   USD Market cap on 2021-06-21T14:54:25.057956: $5,193,298.07
-# 0x5Dc02Ea99285E17656b8350722694c35154DB1E8
+0x5Dc02Ea99285E17656b8350722694c35154DB1E8 # REVIEW
 
 # 'BOX' is shared by:
 # - https://etherscan.io/token/0x63f584FA56E60e4D0fE8802b27C7e6E3b33E007f (BOX Token): https://contentbox.one/
@@ -98,7 +98,7 @@
 # 0x63f584FA56E60e4D0fE8802b27C7e6E3b33E007f
 # - https://etherscan.io/token/0xe1A178B681BD05964d3e3Ed33AE731577d9d96dD (BOX Token): https://box.la
 #   USD Market cap on 2021-06-21T14:54:25.057956: $1,057,357.73
-# 0xe1A178B681BD05964d3e3Ed33AE731577d9d96dD
+0xe1A178B681BD05964d3e3Ed33AE731577d9d96dD # REVIEW
 
 # 'BPT' is shared by:
 # - https://etherscan.io/token/0x283669123bd83dA2536bB534e20512101c18E5D8 (Bitpayer Token): https://bitpayer.io/
@@ -205,7 +205,7 @@
 # 0xa150Db9b1Fa65b44799d4dD949D922c0a33Ee606
 # - https://etherscan.io/token/0xb78B3320493a4EFaa1028130C5Ba26f0B6085Ef8 (Dracula Protocol): https://dracula.sucks/
 #   USD Market cap on 2021-06-21T14:54:25.057956: $2,427,921.63
-# 0xb78B3320493a4EFaa1028130C5Ba26f0B6085Ef8
+0xb78B3320493a4EFaa1028130C5Ba26f0B6085Ef8 # REVIEW
 
 # 'ECU' is shared by:
 # - https://etherscan.io/token/0x8fc9b6354E839AB1c8B31F4afa53607092B8C2e5 (ECOSCU): https://www.ecosc.io
@@ -261,7 +261,7 @@
 # 0x6c6EE5e31d828De241282B9606C8e98Ea48526E2
 # - https://etherscan.io/token/0x9AF839687F6C94542ac5ece2e317dAAE355493A1 (Hydro Protocol): https://hydroprotocol.io
 #   USD Market cap on 2021-06-21T14:54:25.057956: $2,795,752.41
-# 0x9AF839687F6C94542ac5ece2e317dAAE355493A1
+0x9AF839687F6C94542ac5ece2e317dAAE355493A1 # REVIEW
 
 # 'HUB' is shared by:
 # - https://etherscan.io/token/0x4790f605CBDBa5fCe4F209868B5A05B3bFf7272c (HUB): https://swaphub.finance/
@@ -362,7 +362,7 @@
 # 'NTK' is shared by:
 # - https://etherscan.io/token/0x5D4d57cd06Fa7fe99e26fdc481b468f77f05073C (Netkoin): https://netkoin.com
 #   USD Market cap on 2021-06-21T14:54:25.057956: $262,699.00
-# 0x5D4d57cd06Fa7fe99e26fdc481b468f77f05073C
+0x5D4d57cd06Fa7fe99e26fdc481b468f77f05073C # REVIEW
 # - https://etherscan.io/token/0x69BEaB403438253f13b6e92Db91F7FB849258263 (NeuroToken): https://neuromation.io
 #   USD Market cap on 2021-06-21T14:54:25.057956: $5,427,598.87
 # 0x69BEaB403438253f13b6e92Db91F7FB849258263
@@ -370,7 +370,7 @@
 # 'OPT' is shared by:
 # - https://etherscan.io/token/0x4355fC160f74328f9b383dF2EC589bB3dFd82Ba0 (Opus Token): http://opus-foundation.org/
 #   USD Market cap on 2021-06-21T14:54:25.057956: $359,290.09
-# 0x4355fC160f74328f9b383dF2EC589bB3dFd82Ba0
+0x4355fC160f74328f9b383dF2EC589bB3dFd82Ba0 # REVIEW
 # - https://etherscan.io/token/0x4FE5851C9af07df9e5AD8217aFAE1ea72737Ebda (OpenPredict): https://openpredict.io/
 #   USD Market cap on 2021-06-21T14:54:25.057956: $1,263,088.04
 # 0x4FE5851C9af07df9e5AD8217aFAE1ea72737Ebda
@@ -389,7 +389,7 @@
 # 0x1BeEF31946fbbb40B877a72E4ae04a8D1A5Cee06
 # - https://etherscan.io/token/0x68037790A0229e9Ce6EaA8A99ea92964106C4703 (PAR Stablecoin (PAR)): https://mimo.capital
 #   USD Market cap on 2021-06-21T14:54:25.057956: $2,637,534.89
-# 0x68037790A0229e9Ce6EaA8A99ea92964106C4703
+0x68037790A0229e9Ce6EaA8A99ea92964106C4703 # REVIEW
 
 # 'PLA' is shared by:
 # - https://etherscan.io/token/0x0198f46f520F33cd4329bd4bE380a25a90536CD5 (PlayChip): https://www.playchip.global/
@@ -402,7 +402,7 @@
 # 'PNT' is shared by:
 # - https://etherscan.io/token/0x53066cdDBc0099eb6c96785d9b3DF2AAeEDE5DA3 (Penta Network Token): https://www.penta.global
 #   USD Market cap on 2021-06-21T14:54:25.057956: $1,590,852.68
-0x53066cdDBc0099eb6c96785d9b3DF2AAeEDE5DA3
+0x53066cdDBc0099eb6c96785d9b3DF2AAeEDE5DA3 # REVIEW
 # - https://etherscan.io/token/0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD (pNetwork): https://p.network
 #   USD Market cap on 2021-06-21T14:54:25.057956: $37,470,691.93
 # 0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD
@@ -429,7 +429,7 @@
 # 0x1c79ab32C66aCAa1e9E81952B8AAa581B43e54E7
 # - https://etherscan.io/token/0xb05AF453011d7ad68a92b0065FFD9d1277eD2741 (Team Finance): https://team.finance
 #   USD Market cap on 2021-06-21T14:54:25.057956: $8,419.06
-# 0xb05AF453011d7ad68a92b0065FFD9d1277eD2741
+0xb05AF453011d7ad68a92b0065FFD9d1277eD2741 # REVIEW
 
 # 'TIME' is shared by:
 # - https://etherscan.io/token/0x485d17A6f1B8780392d53D64751824253011A260 (ChronoTech TIME): https://chrono.tech
@@ -477,7 +477,7 @@
 # 'YLD' is shared by:
 # - https://etherscan.io/token/0xDcB01cc464238396E213a6fDd933E36796eAfF9f (Yield): https://yield.credit/
 #   USD Market cap on 2021-06-21T14:54:25.057956: $2,574,101.19
-# 0xDcB01cc464238396E213a6fDd933E36796eAfF9f
+0xDcB01cc464238396E213a6fDd933E36796eAfF9f # REVIEW
 # - https://etherscan.io/token/0xF94b5C5651c888d928439aB6514B93944eEE6F48 (Yield): https://yield.app
 #   USD Market cap on 2021-06-21T14:54:25.057956: $31,317,865.36
 # 0xF94b5C5651c888d928439aB6514B93944eEE6F48
