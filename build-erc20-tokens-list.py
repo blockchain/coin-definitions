@@ -5,7 +5,7 @@ import json
 import argparse
 
 import itertools
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, replace
 from typing import Iterator, TypeVar
 
 from urllib import parse, request
@@ -39,25 +39,17 @@ class ERC20Token:
             website=asset['website']
         )
 
-    def copy(self, address=None,
-                   decimals=None,
-                   logo=None,
-                   name=None,
-                   symbol=None,
-                   website=None):
-        return ERC20Token(
-            address or self.address,
-            decimals or self.decimals,
-            logo or self.logo,
-            name or self.name,
-            symbol or self.symbol,
-            website or self.website
-        )
-
 
 def read_json(path):
     with open(path) as json_file:
         return json.load(json_file)
+
+def read_txt(path):
+    with open(path) as txt_file:
+        lines = txt_file.readlines()
+        lines = [line[:line.find('#')].strip() for line in lines]
+        lines = [line for line in lines if line]
+        return lines
 
 def write_json(data, path):
     with open(path, "w") as json_file:
@@ -72,6 +64,7 @@ def build_assets_list(assets_dir):
 
         yield read_json(asset_info_path)
 
+ETHERSCAN_TOKEN_URL = "https://etherscan.io/token/"
 BASE_URL = "https://min-api.cryptocompare.com/data/pricemulti"
 
 def filter_cryptocompare_supported(tokens: Iterator[ERC20Token]) -> Iterator[ERC20Token]:
@@ -91,18 +84,37 @@ def build_token_logo(base_path, address):
     asset_path = urljoin(base_path, address + "/")
     return urljoin(asset_path, "logo.png")
 
+def assert_no_duplicate_symbols(tokens):
+    groups = itertools.groupby(sorted(tokens, key=lambda t: t.symbol), lambda t: t.symbol)
+    groups = [(symbol, list(tokens)) for symbol, tokens in groups]
+    duplicates = [(symbol, tokens) for symbol, tokens in groups if len(tokens) > 1]
+
+    if not duplicates:
+        return
+
+    print(f"Found {len(duplicates)} duplicate symbols:")
+
+    for symbol, tokens in duplicates:
+        print(f"# '{symbol}' is shared by:")
+        for token in tokens:
+            print(f"# - {urljoin(ETHERSCAN_TOKEN_URL, token.address)} ({token.name}): {token.website}")
+
+    raise Exception("Duplicate symbol(s) found")
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("public_assets_dir", help="Path to the PUBLIC assets directory")
     parser.add_argument("assets_dir", help="Path to the assets directory")
-    parser.add_argument("allowlist", help="Path to the allow list file")
-    parser.add_argument("denylist", help="Path to the allow list file")
+    parser.add_argument("tw_allowlist", help="Path to the allow list file")
+    parser.add_argument("tw_denylist", help="Path to the deny list file")
+    parser.add_argument("bc_denylist", help="Path to custom blacklist file")
     parser.add_argument("output_file", help="Output file name")
     args = parser.parse_args()
 
     # Build the allow/deny lists:
-    allowlist = set(map(lambda x: x.lower(), read_json(args.allowlist)))
-    denylist = set(map(lambda x: x.lower(), read_json(args.denylist)))
+    tw_allowlist = set(map(lambda x: x.lower(), read_json(args.tw_allowlist)))
+    tw_denylist = set(map(lambda x: x.lower(), read_json(args.tw_denylist)))
+    bc_denylist = set(map(lambda x: x.lower(), read_txt(args.bc_denylist)))
 
     # Fetch and parse all info.json files:
     print(f"Reading assets from {args.assets_dir}")
@@ -114,15 +126,20 @@ def main():
     # Convert to Token instances:
     tokens = (ERC20Token.from_asset_dict(asset) for asset in assets)
 
-    # Make sure the asset is in the allowlist and NOT in the denylist:
-    tokens = filter(lambda x: x.address.lower() in allowlist, tokens)
-    tokens = filter(lambda x: x.address.lower() not in denylist, tokens)
+    # Make sure the asset is in the tw_allowlist and NOT in the denylists:
+    tokens = filter(lambda x: x.address.lower() in tw_allowlist, tokens)
+    tokens = filter(lambda x: x.address.lower() not in tw_denylist, tokens)
+    tokens = filter(lambda x: x.address.lower() not in bc_denylist, tokens)
 
+    # Filter out tokens not listed on cryptocompare.com
     print(f"Fetching pairs from ${BASE_URL}")
     tokens = filter_cryptocompare_supported(tokens)
 
+    # Health checks:
+    assert_no_duplicate_symbols(tokens)
+
     # Inject logos:
-    tokens = map(lambda x: x.copy(logo=build_token_logo(args.public_assets_dir, x.address)), tokens)
+    tokens = map(lambda x: replace(x, logo=build_token_logo(args.public_assets_dir, x.address)), tokens)
 
     # Convert back to plain dicts:
     tokens = list(map(asdict, tokens))
