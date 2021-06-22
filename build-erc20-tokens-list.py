@@ -33,7 +33,6 @@ class ERC20Token:
         )
 
 ETHERSCAN_TOKEN_URL = "https://etherscan.io/token/"
-CRYPTO_COMPARE_BASE_URL = "https://min-api.cryptocompare.com/data/pricemulti"
 COIN_GECKO_TOKEN_PRICE_URL = "https://api.coingecko.com/api/v3/simple/token_price/ethereum"
 
 def chunks(lst, n):
@@ -66,24 +65,18 @@ def build_assets_list(assets_dir):
 
 def filter_tokens_with_price(tokens):
     for chunk in chunks(tokens, 50):
-        symbols = [t.symbol for t in chunk]
-        prices = fetch_token_prices_by_symbol(symbols)
+        addresses = [t.address for t in chunk]
+        prices = fetch_token_prices(addresses)
         print(f"Got {len(prices.keys())} pairs back")
         for token in chunk:
-            if token.symbol in prices:
+            address = token.address.lower()
+            if address not in prices:
+                continue
+            market_cap = prices[address].get("usd_market_cap", None)
+            if market_cap is not None and market_cap > 0:
                 yield token
 
-def fetch_token_prices_by_symbol(symbols):
-    print(f"Fetching {len(symbols)} pairs from {CRYPTO_COMPARE_BASE_URL}")
-    params = {
-        "fsyms": ",".join(symbols),
-        "tsyms": "USD"
-    }
-    url = CRYPTO_COMPARE_BASE_URL + "?" + parse.urlencode(params)
-    response = request.urlopen(url).read()
-    return json.loads(response)
-
-def fetch_token_prices_by_address(addresses):
+def fetch_token_prices(addresses):
     print(f"Fetching {len(addresses)} pairs from {COIN_GECKO_TOKEN_PRICE_URL}")
     params = {
         "contract_addresses": ",".join(addresses),
@@ -113,7 +106,7 @@ def dump_duplicates(duplicates):
     tokens = reduce(lambda a, x: a + x[1], duplicates, [])
     addresses = [x.address for x in tokens]
     now = datetime.now().isoformat()
-    prices = fetch_token_prices_by_address(addresses)
+    prices = fetch_token_prices(addresses)
 
     for symbol, tokens in duplicates:
         print(f"# '{symbol}' is shared by:")
