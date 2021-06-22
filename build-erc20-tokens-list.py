@@ -6,19 +6,11 @@ import argparse
 
 import itertools
 from dataclasses import asdict, dataclass, replace
-from typing import Iterator, TypeVar
 from functools import reduce
 from datetime import datetime
 
 from urllib import parse, request
 from urllib.parse import urljoin
-
-T = TypeVar('T')
-
-def chunks(iterator: Iterator[T], n: int) -> Iterator[Iterator[T]]:
-    for first in iterator:
-        rest_of_chunk = itertools.islice(iterator, 0, n - 1)
-        yield itertools.chain([first], rest_of_chunk)
 
 @dataclass
 class ERC20Token:
@@ -44,6 +36,10 @@ ETHERSCAN_TOKEN_URL = "https://etherscan.io/token/"
 CRYPTO_COMPARE_BASE_URL = "https://min-api.cryptocompare.com/data/pricemulti"
 COIN_GECKO_TOKEN_PRICE_URL = "https://api.coingecko.com/api/v3/simple/token_price/ethereum"
 
+def chunks(lst, n):
+    for i in range(0, len(lst), n):
+        yield lst[i:i + n]
+
 def read_json(path):
     with open(path) as json_file:
         return json.load(json_file)
@@ -68,23 +64,27 @@ def build_assets_list(assets_dir):
 
         yield read_json(asset_info_path)
 
-def filter_cryptocompare_supported(tokens: Iterator[ERC20Token]) -> Iterator[ERC20Token]:
-    print(f"Fetching pairs from {CRYPTO_COMPARE_BASE_URL}")
-
+def filter_tokens_with_price(tokens):
     for chunk in chunks(tokens, 50):
-        token_map = {t.symbol: t for t in chunk}
-        params = {
-            "fsyms": ",".join(token_map.keys()),
-            "tsyms": "USD"
-        }
-        url = CRYPTO_COMPARE_BASE_URL + "?" + parse.urlencode(params)
-        response = request.urlopen(url).read()
-        for currency in json.loads(response):
-            if currency in token_map:
-                yield token_map[currency]
+        symbols = [t.symbol for t in chunk]
+        prices = fetch_token_prices_by_symbol(symbols)
+        print(f"Got {len(prices.keys())} pairs back")
+        for token in chunk:
+            if token.symbol in prices:
+                yield token
 
-def fetch_token_prices(addresses):
-    print(f"Fetching pairs from {COIN_GECKO_TOKEN_PRICE_URL}")
+def fetch_token_prices_by_symbol(symbols):
+    print(f"Fetching {len(symbols)} pairs from {CRYPTO_COMPARE_BASE_URL}")
+    params = {
+        "fsyms": ",".join(symbols),
+        "tsyms": "USD"
+    }
+    url = CRYPTO_COMPARE_BASE_URL + "?" + parse.urlencode(params)
+    response = request.urlopen(url).read()
+    return json.loads(response)
+
+def fetch_token_prices_by_address(addresses):
+    print(f"Fetching {len(addresses)} pairs from {COIN_GECKO_TOKEN_PRICE_URL}")
     params = {
         "contract_addresses": ",".join(addresses),
         "vs_currencies": "USD",
@@ -103,15 +103,17 @@ def assert_no_duplicate_symbols(tokens):
     groups = [(symbol, list(tokens)) for symbol, tokens in groups]
     duplicates = [(symbol, tokens) for symbol, tokens in groups if len(tokens) > 1]
 
-    if not duplicates:
-        return
+    if duplicates:
+        dump_duplicates(duplicates)
+        raise Exception("Duplicate symbol(s) found")
+
+def dump_duplicates(duplicates):
+    print(f"Found {len(duplicates)} duplicate symbols:")
 
     tokens = reduce(lambda a, x: a + x[1], duplicates, [])
     addresses = [x.address for x in tokens]
     now = datetime.now().isoformat()
-    prices = fetch_token_prices(addresses)
-
-    print(f"Found {len(duplicates)} duplicate symbols:")
+    prices = fetch_token_prices_by_address(addresses)
 
     for symbol, tokens in duplicates:
         print(f"# '{symbol}' is shared by:")
@@ -120,8 +122,6 @@ def assert_no_duplicate_symbols(tokens):
             print(f"# - {urljoin(ETHERSCAN_TOKEN_URL, token.address)} ({token.name}): {token.website}")
             print(f"#   USD Market cap on {now}: ${market_cap:,.2f}")
             print(f"# {token.address}")
-
-    raise Exception("Duplicate symbol(s) found")
 
 def main():
     parser = argparse.ArgumentParser()
@@ -152,12 +152,13 @@ def main():
     tokens = filter(lambda x: x.address.lower() in tw_allowlist, tokens)
     tokens = filter(lambda x: x.address.lower() not in tw_denylist, tokens)
     tokens = filter(lambda x: x.address.lower() not in bc_denylist, tokens)
+    tokens = list(tokens)
 
     # Clean up:
     assert_no_duplicate_symbols(tokens)
 
     # Filter out tokens not listed on cryptocompare.com
-    tokens = filter_cryptocompare_supported(tokens)
+    tokens = filter_tokens_with_price(tokens)
 
     # Inject logos:
     tokens = map(lambda x: replace(x, logo=build_token_logo(args.public_assets_dir, x.address)), tokens)
