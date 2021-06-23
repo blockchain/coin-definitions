@@ -118,6 +118,13 @@ def dump_duplicates(duplicates, prices):
             print(f"#   USD Market cap on {now}: ${market_cap:,.2f}")
             print(f"# {token.address}")
 
+def merge_lists(a, b, key):
+    to_dict = lambda l: dict((key(x), x) for x in l)
+    to_list = lambda d: sorted(d.values(), key=key)
+    d = to_dict(a)
+    d.update(to_dict(b))
+    return to_list(d)
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("public_assets_dir", help="Path to the PUBLIC assets directory")
@@ -125,6 +132,7 @@ def main():
     parser.add_argument("tw_allowlist", help="Path to the allow list file")
     parser.add_argument("tw_denylist", help="Path to the deny list file")
     parser.add_argument("bc_denylist", help="Path to custom blacklist file")
+    parser.add_argument("bc_overrides", help="Path to custom overrides file")
     parser.add_argument("output_file", help="Output file name")
     args = parser.parse_args()
 
@@ -132,6 +140,7 @@ def main():
     tw_allowlist = set(map(lambda x: x.lower(), read_json(args.tw_allowlist)))
     tw_denylist = set(map(lambda x: x.lower(), read_json(args.tw_denylist)))
     bc_denylist = set(map(lambda x: x.lower(), read_txt(args.bc_denylist)))
+    bc_overrides = map(lambda x: ERC20Token(**x), read_json(args.bc_overrides))
 
     # Fetch and parse all info.json files:
     print(f"Reading assets from {args.assets_dir}")
@@ -161,6 +170,9 @@ def main():
 
     # Inject logos:
     tokens = map(lambda x: replace(x, logo=build_token_logo(args.public_assets_dir, x.address)), tokens)
+
+    # Merge with overrides dict:
+    tokens = merge_lists(tokens, bc_overrides, lambda t: t.address)
 
     # Convert back to plain dicts:
     tokens = list(map(asdict, tokens))
