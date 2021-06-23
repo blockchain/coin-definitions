@@ -1,0 +1,10 @@
+[
+    {
+        "address": "0x123151402076fc819B7564510989e475c9cD93CA",
+        "decimals": 8,
+        "logo": "https://login.blockchain.com/img/wdgld.png",
+        "name": "Wrapped-DGLD",
+        "symbol": "wDGLD",
+        "website": "https://dgld.ch/"
+    }
+]

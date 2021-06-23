@@ -848,6 +848,14 @@
         "website": "https://www.italianlira.ws/"
     },
     {
+        "address": "0x123151402076fc819B7564510989e475c9cD93CA",
+        "decimals": 8,
+        "logo": "https://login.blockchain.com/img/wdgld.png",
+        "name": "Wrapped-DGLD",
+        "symbol": "wDGLD",
+        "website": "https://dgld.ch/"
+    },
+    {
         "address": "0x12B19D3e2ccc14Da04FAe33e63652ce469b3F2FD",
         "decimals": 12,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x12B19D3e2ccc14Da04FAe33e63652ce469b3F2FD/logo.png",
