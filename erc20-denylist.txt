@@ -269,3 +269,11 @@
 # - https://etherscan.io/token/0xBd0793332e9fB844A52a205A233EF27a5b34B927 (ZB Token): https://zb.com
 #   Price: $0.32 Market cap: $28,990,334.95 (2021-06-23T13:50:46.614452)
 # 0xBd0793332e9fB844A52a205A233EF27a5b34B927
+
+# 'STX' (Stox) conflicts with Stacks (STX):
+# - https://etherscan.io/token/0x006BeA43Baa3f7A6f765F14f10A1a1b08334EF45 (Stox): https://www.stox.com/
+0x006BeA43Baa3f7A6f765F14f10A1a1b08334EF45
+
+# 'TRY' (Trias Token) conflics with the Turkish Lira (TRY):
+# - https://etherscan.io/token/0xe431a4c5DB8B73c773e06cf2587dA1EB53c41373 (Trias Token): https://www.trias.one
+0xe431a4c5DB8B73c773e06cf2587dA1EB53c41373

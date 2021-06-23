@@ -209,5 +209,131 @@
     "name": "BitClout",
     "type": "COIN",
     "decimals": 9
+  },
+  {
+    "symbol": "SUSHI",
+    "name": "Sushi",
+    "type": "COIN",
+    "decimals": 18
+  },
+  {
+    "symbol": "ETC",
+    "name": "Ethereum Classic",
+    "type": "COIN",
+    "decimals": 18
+  },
+  {
+    "symbol": "MOB",
+    "name": "Mobile Coin",
+    "type": "COIN",
+    "decimals": 12
+  },
+  {
+    "symbol": "HEX",
+    "name": "HEX",
+    "type": "COIN",
+    "decimals": 8
+  },
+  {
+    "symbol": "REPv2",
+    "name": "Augur",
+    "type": "COIN",
+    "decimals": 18
+  },
+  {
+    "symbol": "MATIC",
+    "name": "Matic Network",
+    "type": "COIN",
+    "decimals": 18
+  },
+  {
+    "symbol": "SOL",
+    "name": "Solana",
+    "type": "COIN",
+    "decimals": 9
+  },
+  {
+    "symbol": "WBTC",
+    "name": "Wrapped Bitcoin",
+    "type": "COIN",
+    "decimals": 8
+  },
+  {
+    "symbol": "DAI",
+    "name": "Multi-collateral DAI",
+    "type": "COIN",
+    "decimals": 18
+  },
+  {
+    "symbol": "MKR",
+    "name": "Maker",
+    "type": "COIN",
+    "decimals": 18
+  },
+  {
+    "symbol": "COMP",
+    "name": "Compound",
+    "type": "COIN",
+    "decimals": 18
+  },
+  {
+    "symbol": "SNX",
+    "name": "Synthetix Network Token",
+    "type": "COIN",
+    "decimals": 18
+  },
+  {
+    "symbol": "BAT",
+    "name": "Basic Attention Token",
+    "type": "COIN",
+    "decimals": 18
+  },
+  {
+    "symbol": "UMA",
+    "name": "UMA",
+    "type": "COIN",
+    "decimals": 18
+  },
+  {
+    "symbol": "REN",
+    "name": "Ren",
+    "type": "COIN",
+    "decimals": 18
+  },
+  {
+    "symbol": "AVAX",
+    "name": "Avalanche",
+    "type": "COIN",
+    "decimals": 9
+  },
+  {
+    "symbol": "XMR",
+    "name": "Monero",
+    "type": "COIN",
+    "decimals": 12
+  },
+  {
+    "symbol": "MIOTA",
+    "name": "IOTA",
+    "type": "COIN",
+    "decimals": 6
+  },
+  {
+    "symbol": "AR",
+    "name": "Arweave",
+    "type": "COIN",
+    "decimals": 8
+  },
+  {
+    "symbol": "ATOM",
+    "name": "Cosmos",
+    "type": "COIN",
+    "decimals": 6
+  },
+  {
+    "symbol": "TRX",
+    "name": "TRON",
+    "type": "COIN",
+    "decimals": 6
   }
 ]

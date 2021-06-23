@@ -80,14 +80,6 @@
         "website": "https://ip.sx/"
     },
     {
-        "address": "0x006BeA43Baa3f7A6f765F14f10A1a1b08334EF45",
-        "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x006BeA43Baa3f7A6f765F14f10A1a1b08334EF45/logo.png",
-        "name": "Stox",
-        "symbol": "STX",
-        "website": "https://www.stox.com/en"
-    },
-    {
         "address": "0x00B7db6B4431e345eee5cc23D21E8dbC1d5cADA3",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x00B7db6B4431e345eee5cc23D21E8dbC1d5cADA3/logo.png",
@@ -12630,14 +12622,6 @@
         "name": "PILLAR",
         "symbol": "PLR",
         "website": "https://pillarproject.io/"
-    },
-    {
-        "address": "0xe431a4c5DB8B73c773e06cf2587dA1EB53c41373",
-        "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xe431a4c5DB8B73c773e06cf2587dA1EB53c41373/logo.png",
-        "name": "Trias Token",
-        "symbol": "TRY",
-        "website": "https://www.trias.one"
     },
     {
         "address": "0xe469c4473af82217B30CF17b10BcDb6C8c796e75",
