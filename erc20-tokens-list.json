@@ -2264,6 +2264,14 @@
         "website": "https://www.futurax.global/"
     },
     {
+        "address": "0x419B8ED155180A8c9C64145e76DaD49c0A4Efb97",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x419B8ED155180A8c9C64145e76DaD49c0A4Efb97/logo.png",
+        "name": "AltEstate token",
+        "symbol": "\"\"",
+        "website": "https://alt.estate"
+    },
+    {
         "address": "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b",
         "decimals": 8,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b/logo.png",
@@ -7534,6 +7542,14 @@
         "name": "YGGDRASH",
         "symbol": "YEED",
         "website": "https://yggdrash.io"
+    },
+    {
+        "address": "0xcAaa93712BDAc37f736C323C93D4D5fDEFCc31CC",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xcAaa93712BDAc37f736C323C93D4D5fDEFCc31CC/logo.png",
+        "name": "CryptalDash",
+        "symbol": "CRD",
+        "website": "https://www.cryptaldash.com"
     },
     {
         "address": "0xcD62b1C403fa761BAadFC74C525ce2B51780b184",

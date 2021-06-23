@@ -63,21 +63,16 @@ def build_assets_list(assets_dir):
 
         yield read_json(asset_info_path)
 
-def filter_tokens_with_price(tokens):
-    for chunk in chunks(tokens, 50):
-        addresses = [t.address for t in chunk]
-        prices = fetch_token_prices(addresses)
-        print(f"Got {len(prices.keys())} pairs back")
-        for token in chunk:
-            address = token.address.lower()
-            if address not in prices:
-                continue
-            market_cap = prices[address].get("usd_market_cap", None)
-            if market_cap is not None and market_cap > 0:
-                yield token
+def filter_by_market_cap(tokens, prices):
+    for token in tokens:
+        address = token.address.lower()
+        if address not in prices:
+            continue
+        market_cap = prices[address].get("usd_market_cap", None)
+        if market_cap is not None and market_cap > 0:
+            yield token
 
 def fetch_token_prices(addresses):
-    print(f"Fetching {len(addresses)} pairs from {COIN_GECKO_TOKEN_PRICE_URL}")
     params = {
         "contract_addresses": ",".join(addresses),
         "vs_currencies": "USD",
@@ -87,26 +82,33 @@ def fetch_token_prices(addresses):
     response = request.urlopen(url).read()
     return json.loads(response)
 
+def fetch_all_prices(tokens):
+    print(f"Fetching {len(tokens)} pairs from {COIN_GECKO_TOKEN_PRICE_URL}")
+    ret = {}
+    progress = 0
+    for chunk in chunks(tokens, 50):
+        ret.update(fetch_token_prices([t.address for t in chunk]))
+        progress += 50
+        sys.stdout.write(f"...{int(progress/len(tokens)*100)}%")
+        sys.stdout.flush()
+    sys.stdout.write("\n")
+    return ret
+
 def build_token_logo(base_path, address):
     asset_path = urljoin(base_path, address + "/")
     return urljoin(asset_path, "logo.png")
 
-def assert_no_duplicate_symbols(tokens):
+def find_duplicates(tokens):
     groups = itertools.groupby(sorted(tokens, key=lambda t: t.symbol), lambda t: t.symbol)
     groups = [(symbol, list(tokens)) for symbol, tokens in groups]
-    duplicates = [(symbol, tokens) for symbol, tokens in groups if len(tokens) > 1]
+    return [(symbol, tokens) for symbol, tokens in groups if len(tokens) > 1]
 
-    if duplicates:
-        dump_duplicates(duplicates)
-        raise Exception("Duplicate symbol(s) found")
-
-def dump_duplicates(duplicates):
+def dump_duplicates(duplicates, prices):
     print(f"Found {len(duplicates)} duplicate symbols:")
 
     tokens = reduce(lambda a, x: a + x[1], duplicates, [])
     addresses = [x.address for x in tokens]
     now = datetime.now().isoformat()
-    prices = fetch_token_prices(addresses)
 
     for symbol, tokens in duplicates:
         print(f"# '{symbol}' is shared by:")
@@ -145,13 +147,17 @@ def main():
     tokens = filter(lambda x: x.address.lower() in tw_allowlist, tokens)
     tokens = filter(lambda x: x.address.lower() not in tw_denylist, tokens)
     tokens = filter(lambda x: x.address.lower() not in bc_denylist, tokens)
+
     tokens = list(tokens)
+    prices = fetch_all_prices(tokens)
 
     # Clean up:
-    assert_no_duplicate_symbols(tokens)
+    tokens = list(filter_by_market_cap(tokens, prices))
+    duplicates = find_duplicates(tokens)
 
-    # Filter out tokens not listed on cryptocompare.com
-    tokens = filter_tokens_with_price(tokens)
+    if duplicates:
+        dump_duplicates(duplicates, prices)
+        return
 
     # Inject logos:
     tokens = map(lambda x: replace(x, logo=build_token_logo(args.public_assets_dir, x.address)), tokens)
