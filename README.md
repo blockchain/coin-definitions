@@ -11,6 +11,10 @@ The file `erc20-tokens-list.json` is a single JSON file that contains the info f
  - those with a status other than "active"
  - those that are NOT listed in the "allowlist" (https://github.com/trustwallet/assets/blob/master/blockchains/ethereum/allowlist.json)
  - those that are listed in the "denylist" (https://github.com/trustwallet/assets/blob/master/blockchains/ethereum/denylist.json)
+ - those listed in `erc20-denylist.txt` (used mostly to disambiguate between tokens that have the same symbol)
+ - those with either no price or a price in $0 USD, according to https://www.coingecko.com/
+
+Additionally, the contents of `erc20-overrides.json` are merged with the resulting dataset.
 
 For each asset, we include:
  - address (string)
