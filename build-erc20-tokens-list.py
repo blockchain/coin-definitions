@@ -63,12 +63,12 @@ def build_assets_list(assets_dir):
 
         yield read_json(asset_info_path)
 
-def filter_by_market_cap(tokens, prices):
+def filter_by_price(tokens, prices):
     for token in tokens:
         address = token.address.lower()
         if address not in prices:
             continue
-        market_cap = prices[address].get("usd_market_cap", None)
+        market_cap = prices[address].get("usd", None)
         if market_cap is not None and market_cap > 0:
             yield token
 
@@ -113,9 +113,11 @@ def dump_duplicates(duplicates, prices):
     for symbol, tokens in duplicates:
         print(f"# '{symbol}' is shared by:")
         for token in tokens:
-            market_cap = prices.get(token.address.lower(), {}).get("usd_market_cap", 0.0)
+            price = prices.get(token.address.lower(), {})
+            usd = price.get("usd")
+            usd_market_cap = price.get("usd_market_cap")
             print(f"# - {urljoin(ETHERSCAN_TOKEN_URL, token.address)} ({token.name}): {token.website}")
-            print(f"#   USD Market cap on {now}: ${market_cap:,.2f}")
+            print(f"#   Price: ${usd:,.6f} Market cap: ${usd_market_cap:,.2f} ({now})")
             print(f"# {token.address}")
 
 def merge_lists(a, b, key):
@@ -161,7 +163,7 @@ def main():
     prices = fetch_all_prices(tokens)
 
     # Clean up:
-    tokens = list(filter_by_market_cap(tokens, prices))
+    tokens = list(filter_by_price(tokens, prices))
     duplicates = find_duplicates(tokens)
 
     if duplicates:

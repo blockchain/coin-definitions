@@ -101,3 +101,171 @@
 # - https://etherscan.io/token/0xF5DCe57282A584D2746FaF1593d3121Fcac444dC (Compound Dai): https://compound.finance/
 #   USD Market cap on 2021-06-21T14:54:25.057956: $2,356,843.28
 0xF5DCe57282A584D2746FaF1593d3121Fcac444dC
+
+# '""' is shared by:
+# - https://etherscan.io/token/0x419B8ED155180A8c9C64145e76DaD49c0A4Efb97 (AltEstate token): https://alt.estate
+#   Price: $0.00 Market cap: $174,820.09 (2021-06-23T13:50:46.614452)
+# 0x419B8ED155180A8c9C64145e76DaD49c0A4Efb97
+# - https://etherscan.io/token/0xe7E4279b80D319EDe2889855135A22021baf0907 (ZeusNetwork): https://zeusfundme.com
+#   Price: $0.00 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0xe7E4279b80D319EDe2889855135A22021baf0907
+
+# 'BID' is shared by:
+# - https://etherscan.io/token/0x1dA01e84F3d4e6716F274c987Ae4bEE5DC3C8288 (DefiBids): https://defibids.com
+#   Price: $0.02 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0x1dA01e84F3d4e6716F274c987Ae4bEE5DC3C8288
+# - https://etherscan.io/token/0x25e1474170c4c0aA64fa98123bdc8dB49D7802fa (Bidao): https://bidaochain.com/
+#   Price: $0.02 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0x25e1474170c4c0aA64fa98123bdc8dB49D7802fa
+
+# 'BTR' is shared by:
+# - https://etherscan.io/token/0x499A6B77bc25C26bCf8265E2102B1B3dd1617024 (Bitether):
+#   Price: $0.00 Market cap: $1,592.67 (2021-06-23T13:50:46.614452)
+0x499A6B77bc25C26bCf8265E2102B1B3dd1617024
+# - https://etherscan.io/token/0xd433138d12beB9929FF6fd583DC83663eea6Aaa5 (Bitrue Coin): https://www.bitrue.com/
+#   Price: $0.12 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+# 0xd433138d12beB9929FF6fd583DC83663eea6Aaa5
+
+# 'CTT' is shared by:
+# - https://etherscan.io/token/0x13c2B7F851E756415cF7d51d04dcF4F94A5b382E (CitexToken): https://www.citex.io/
+#   Price: $0.01 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0x13c2B7F851E756415cF7d51d04dcF4F94A5b382E
+# - https://etherscan.io/token/0x1A4743Cf1af4C289351390A2B3fe7c13D2F7C235 (CASTWEET): https://www.castweet.com/
+#   Price: $0.10 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+# 0x1A4743Cf1af4C289351390A2B3fe7c13D2F7C235
+
+# 'DELTA' is shared by:
+# - https://etherscan.io/token/0x9EA3b5b4EC044b70375236A281986106457b20EF (Delta Financial): https://delta.financial
+#   Price: $2.35 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0x9EA3b5b4EC044b70375236A281986106457b20EF
+# - https://etherscan.io/token/0xDE1E0AE6101b46520cF66fDC0B1059c5cC3d106c (DeltaChain Token): https://deltachain.tech/
+#   Price: $0.00 Market cap: $27,059.18 (2021-06-23T13:50:46.614452)
+# 0xDE1E0AE6101b46520cF66fDC0B1059c5cC3d106c
+
+# 'ECU' is shared by:
+# - https://etherscan.io/token/0x8fc9b6354E839AB1c8B31F4afa53607092B8C2e5 (ECOSCU): https://www.ecosc.io
+#   Price: $0.01 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0x8fc9b6354E839AB1c8B31F4afa53607092B8C2e5
+# - https://etherscan.io/token/0xd3CDc4e75750DC1e59F8342200742B6B29490e70 (Decurian): https://ecucoins.com/
+#   Price: $949.99 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+# 0xd3CDc4e75750DC1e59F8342200742B6B29490e70
+
+# 'EVC' is shared by:
+# - https://etherscan.io/token/0xAa843f65872a25D6E9552eA0B360Fb1d5E333124 (EVC): https://ecovaluecoin.com
+#   Price: $0.01 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0xAa843f65872a25D6E9552eA0B360Fb1d5E333124
+# - https://etherscan.io/token/0xb62d18DeA74045E822352CE4B3EE77319DC5ff2F (EventChain): https://eventchain.io
+#   Price: $0.02 Market cap: $700,227.73 (2021-06-23T13:50:46.614452)
+# 0xb62d18DeA74045E822352CE4B3EE77319DC5ff2F
+
+# 'GTC' is shared by:
+# - https://etherscan.io/token/0xB70835D7822eBB9426B56543E391846C107bd32C (Game.com Token): http://www.game.com
+#   Price: $0.00 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0xB70835D7822eBB9426B56543E391846C107bd32C
+# - https://etherscan.io/token/0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F (Gitcoin): https://gitcoin.co/quadraticlands/
+#   Price: $5.73 Market cap: $81,559,966.39 (2021-06-23T13:50:46.614452)
+# 0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F
+
+# 'IMT' is shared by:
+# - https://etherscan.io/token/0x13119E34E140097a507B07a5564bDe1bC375D9e6 (MoneyToken): http://moneytoken.eu/
+#   Price: $0.00 Market cap: $3,224,948.69 (2021-06-23T13:50:46.614452)
+# 0x13119E34E140097a507B07a5564bDe1bC375D9e6
+# - https://etherscan.io/token/0xBfE03707aDb75b478Add9A01978057803F480E44 (IMSMART): https://imsmart.io/
+#   Price: $0.01 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0xBfE03707aDb75b478Add9A01978057803F480E44
+
+# 'KICK' is shared by:
+# - https://etherscan.io/token/0xC12D1c73eE7DC3615BA4e37E4ABFdbDDFA38907E (KickToken): https://www.kickico.com
+#   Price: $0.00 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+# 0xC12D1c73eE7DC3615BA4e37E4ABFdbDDFA38907E
+# - https://etherscan.io/token/0xD91a6162F146EF85922d9A15eE6eB14A00344586 (Sessia Kicks): https://sessia.com
+#   Price: $0.05 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0xD91a6162F146EF85922d9A15eE6eB14A00344586
+
+# 'LBK' is shared by:
+# - https://etherscan.io/token/0x9cB1AEaFcc8A9406632C5B084246Ea72f62d37b6 (LBK): https://www.lbank.info/
+#   Price: $0.01 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0x9cB1AEaFcc8A9406632C5B084246Ea72f62d37b6
+# - https://etherscan.io/token/0xd9af2d11d788da0097076f4Eb21bd1C5533743D9 (Legal Block Token): https://legal-block.com/
+#   Price: $0.00 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0xd9af2d11d788da0097076f4Eb21bd1C5533743D9
+
+# 'LIKE' is shared by:
+# - https://etherscan.io/token/0x02F61Fd266DA6E8B102D4121f5CE7b992640CF98 (LikeCoin): https://like.co/
+#   Price: $0.01 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+# 0x02F61Fd266DA6E8B102D4121f5CE7b992640CF98
+# - https://etherscan.io/token/0x92298Fa0647b5dcFf6eEaBAb97c9Bd81b5c30D06 (LikeApp): -
+#   Price: $0.03 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0x92298Fa0647b5dcFf6eEaBAb97c9Bd81b5c30D06
+
+# 'LOCK' is shared by:
+# - https://etherscan.io/token/0x95172ccBe8344fecD73D0a30F54123652981BD6F (Meridian Network): https://meridian-network.co
+#   Price: $0.04 Market cap: $435,728.15 (2021-06-23T13:50:46.614452)
+# 0x95172ccBe8344fecD73D0a30F54123652981BD6F
+# - https://etherscan.io/token/0xB9464ef80880c5aeA54C7324c0b8Dd6ca6d05A90 (LOCK): https://sherlocksecurity.io
+#   Price: $0.50 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0xB9464ef80880c5aeA54C7324c0b8Dd6ca6d05A90
+
+# 'MPH' is shared by:
+# - https://etherscan.io/token/0x6369c3DadfC00054A42BA8B2c09c48131dd4Aa38 (Morpher Token): https://morpher.com
+#   Price: $0.02 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0x6369c3DadfC00054A42BA8B2c09c48131dd4Aa38
+# - https://etherscan.io/token/0x8888801aF4d980682e47f1A9036e589479e835C5 (88mph.app): https://88mph.app
+#   Price: $27.50 Market cap: $10,024,677.74 (2021-06-23T13:50:46.614452)
+# 0x8888801aF4d980682e47f1A9036e589479e835C5
+
+# 'NDX' is shared by:
+# - https://etherscan.io/token/0x1966d718A565566e8E202792658D7b5Ff4ECe469 (nDEX): https://ndexnetwork.com
+#   Price: $0.00 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0x1966d718A565566e8E202792658D7b5Ff4ECe469
+# - https://etherscan.io/token/0x86772b1409b61c639EaAc9Ba0AcfBb6E238e5F83 (Indexed Finance): https://indexed.finance
+#   Price: $4.21 Market cap: $14,523,266.00 (2021-06-23T13:50:46.614452)
+# 0x86772b1409b61c639EaAc9Ba0AcfBb6E238e5F83
+
+# 'ORS' is shared by:
+# - https://etherscan.io/token/0xEB9A4B185816C354dB92DB09cC3B50bE60b901b6 (OriginSport Token): https://originsport.io
+#   Price: $0.00 Market cap: $881,833.68 (2021-06-23T13:50:46.614452)
+# 0xEB9A4B185816C354dB92DB09cC3B50bE60b901b6
+# - https://etherscan.io/token/0xac2e58A06E6265F1Cf5084EE58da68e5d75b49CA (ORS Token): https://www.orsgroup.io/
+#   Price: $0.01 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0xac2e58A06E6265F1Cf5084EE58da68e5d75b49CA
+
+# 'PLA' is shared by:
+# - https://etherscan.io/token/0x0198f46f520F33cd4329bd4bE380a25a90536CD5 (PlayChip): https://www.playchip.global/
+#   Price: $0.01 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+# 0x0198f46f520F33cd4329bd4bE380a25a90536CD5
+# - https://etherscan.io/token/0x307d45Afbb7E84F82ef3D251A6bb0F00Edf632E4 (PLANET): https://planet-world.io
+#   Price: $0.01 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0x307d45Afbb7E84F82ef3D251A6bb0F00Edf632E4
+
+# 'SGT' is shared by:
+# - https://etherscan.io/token/0x84810bcF08744d5862B8181f12d17bfd57d3b078 (SharedStake Governance Token): https://www.sharedstake.org
+#   Price: $0.07 Market cap: $35,257.45 (2021-06-23T13:50:46.614452)
+# 0x84810bcF08744d5862B8181f12d17bfd57d3b078
+# - https://etherscan.io/token/0xc4199fB6FFDb30A829614becA030f9042f1c3992 (snglsDAO Governance Token): https://snglsDAO.io
+#   Price: $0.00 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0xc4199fB6FFDb30A829614becA030f9042f1c3992
+
+# 'TIME' is shared by:
+# - https://etherscan.io/token/0x485d17A6f1B8780392d53D64751824253011A260 (ChronoTech TIME): https://chrono.tech
+#   Price: $18.55 Market cap: $13,171,547.36 (2021-06-23T13:50:46.614452)
+# 0x485d17A6f1B8780392d53D64751824253011A260
+# - https://etherscan.io/token/0xA54C67bd320Da4F9725a6f585b7635a0c09B122e (TimeMiner): https://TimeMiner.site
+#   Price: $1.86 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0xA54C67bd320Da4F9725a6f585b7635a0c09B122e
+
+# 'YAM' is shared by:
+# - https://etherscan.io/token/0x0AaCfbeC6a24756c20D41914F2caba817C0d8521 (YAM): https://yam.finance/
+#   Price: $0.79 Market cap: $9,796,300.24 (2021-06-23T13:50:46.614452)
+# 0x0AaCfbeC6a24756c20D41914F2caba817C0d8521
+# - https://etherscan.io/token/0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16 (YAM): http://yam.finance
+#   Price: $0.00 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16
+
+# 'ZB' is shared by:
+# - https://etherscan.io/token/0x182A603541a4483c308475147D621bbB4E2587c6 (ZBToken): https://zerobank.cash/
+#   Price: $0.01 Market cap: $0.00 (2021-06-23T13:50:46.614452)
+0x182A603541a4483c308475147D621bbB4E2587c6
+# - https://etherscan.io/token/0xBd0793332e9fB844A52a205A233EF27a5b34B927 (ZB Token): https://zb.com
+#   Price: $0.32 Market cap: $28,990,334.95 (2021-06-23T13:50:46.614452)
+# 0xBd0793332e9fB844A52a205A233EF27a5b34B927
