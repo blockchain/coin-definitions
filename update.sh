@@ -14,4 +14,5 @@ python3 build-erc20-tokens-list.py \
 	assets/blockchains/ethereum/assets/ \
 	assets/blockchains/ethereum/allowlist.json \
 	assets/blockchains/ethereum/denylist.json \
+	erc20-denylist.txt \
 	erc20-tokens-list.json
