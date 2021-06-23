@@ -316,13 +316,13 @@
     "symbol": "MIOTA",
     "name": "IOTA",
     "type": "COIN",
-    "decimals": 6
+    "decimals": 15
   },
   {
     "symbol": "AR",
     "name": "Arweave",
     "type": "COIN",
-    "decimals": 8
+    "decimals": 12
   },
   {
     "symbol": "ATOM",
