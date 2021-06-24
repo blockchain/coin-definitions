@@ -129,9 +129,12 @@ def main():
         ref = token or blockchain
 
         if ref:
-            if currency.name == ref.name and currency.decimals == ref.decimals:
+            type_ = "ERC20" if token else "COIN"
+            if currency.type == type_ and currency.name == ref.name and currency.decimals == ref.decimals:
                 print(f" - ✅ {currency.symbol}: OK")
                 continue
+            if currency.type != type_:
+                print(f" - ❌ {currency.symbol}: Type mismatch: '{currency.type}' vs '{type_}'")
             if currency.name != ref.name:
                 print(f" - ❌ {currency.symbol}: Name mismatch: '{currency.name}' vs '{ref.name}'")
             if currency.decimals != ref.decimals:
