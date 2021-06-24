@@ -43,7 +43,21 @@ blockchains_denylist = [
     ('AVAX', 'Avalanche C-Chain'),
     ('AVAX', 'Avalanche X-Chain'),
     ('BCH', 'smartBCH'),
-    ('BNB', 'Smart Chain')
+    ('BNB', 'BNB coin')
+]
+
+# These can not be checked automatically, we must make sure the parameters are correct:
+currencies_ignorelist = [
+    'AR',
+    'BSV',
+    'CLOUT',
+    'DGLD',
+    'MIOTA', # https://github.com/iotaledger/firefly/blob/1a99270d2d836a9b5f2bdcbf62ddee713301866c/packages/shared/lib/units.ts#L11-L18
+    'MOB', # https://github.com/mobilecoinfoundation/mobilecoin/blob/2f90154a445c769594dfad881463a2d4a003d7d6/mobilecoind/clients/python/lib/mobilecoin/utilities.py#L3
+    'STX',
+    'TFUEL',
+    'WDGLD',
+    'XMR', # https://github.com/trezor/trezor-firmware/blob/f93a8514e8e25b17b02360d9955c0a30999adf68/common/defs/misc/misc.json#L36
 ]
 
 def read_json(path):
@@ -78,8 +92,8 @@ def main():
     currencies = map(lambda x: Currency(**x), read_json(args.currencies))
     fiat_currencies = map(lambda x: Currency(**x, type="FIAT"), read_json(args.fiat_currencies))
     erc20_tokens = map(lambda x: ERC20Token(**x), read_json(args.erc20_tokens))
-    blockchains = map(lambda x: Blockchain(**x), 
-                      filter(lambda x: x.get('symbol'), 
+    blockchains = map(lambda x: Blockchain(**x),
+                      filter(lambda x: x.get('symbol'),
                              read_blockchains_list(args.blockchains_dir)))
 
     blockchains = [b for b in blockchains 
@@ -122,6 +136,8 @@ def main():
                 print(f" - ❌ {currency.symbol}: Name mismatch: '{currency.name}' vs '{ref.name}'")
             if currency.decimals != ref.decimals:
                 print(f" - ❌ {currency.symbol}: Decimals mismatch: {currency.decimals} vs {ref.decimals}")
+        elif currency.symbol in currencies_ignorelist:
+            print(f" - ✅ {currency.symbol}: Whitelisted")
         else:
             print(f" - ❓ {currency.symbol} ({currency.name}): Can't verify")
 
