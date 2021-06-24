@@ -335,5 +335,285 @@
     "name": "TRON",
     "type": "COIN",
     "decimals": 6
-  }
+  },
+  {
+    "symbol": "1INCH", 
+    "name": "1INCH Token", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "AMP", 
+    "name": "Amp", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "ANKR", 
+    "name": "Ankr", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "BADGER", 
+    "name": "Badger", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "BAL", 
+    "name": "Balancer", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "BAND", 
+    "name": "Band Protocol", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "BNT", 
+    "name": "Bancor", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "BUSD", 
+    "name": "Binance USD", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "CHZ", 
+    "name": "Chiliz", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "CKB", 
+    "name": "Nervos Network", 
+    "type": "COIN", 
+    "decimals": 8},
+  {
+    "symbol": "CRV", 
+    "name": "Curve DAO Token", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "CTSI", 
+    "name": "Cartesi Token", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "CVC", 
+    "name": "Civic", 
+    "type": "COIN", 
+    "decimals": 8},
+  {
+    "symbol": "DASH", 
+    "name": "Dash", 
+    "type": "COIN", 
+    "decimals": 8},
+  {
+    "symbol": "DCR", 
+    "name": "Decred", 
+    "type": "COIN", 
+    "decimals": 8},
+  {
+    "symbol": "DNT", 
+    "name": "district0x Network Token", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "FARM", 
+    "name": "Harvest Reward Token", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "FEI", 
+    "name": "Fei", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "FLOW", 
+    "name": "Flow Protocol", 
+    "type": "COIN", 
+    "decimals": 9},
+  {
+    "symbol": "FOAM", 
+    "name": "FOAM Token", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "FORTH", 
+    "name": "Ampleforth Governance (FORTH)", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "GRT", 
+    "name": "The Graph", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "GTC", 
+    "name": "Gitcoin", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "GUSD", 
+    "name": "Gemini dollar", 
+    "type": "COIN", 
+    "decimals": 2},
+  {
+    "symbol": "HT", 
+    "name": "Huobi Token", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "KAVA", 
+    "name": "Kava", 
+    "type": "COIN", 
+    "decimals": 6},
+  {
+    "symbol": "KEEP", 
+    "name": "KEEP Token", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "KIN", 
+    "name": "Kin", 
+    "type": "COIN", 
+    "decimals": 5},
+  {
+    "symbol": "LOOM", 
+    "name": "Loom Token", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "LPT", 
+    "name": "Livepeer Token", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "LRC", 
+    "name": "Loopring", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "LUNA", 
+    "name": "LUNA Token", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "MANA", 
+    "name": "Decentraland", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "MIR", 
+    "name": "MIR Token", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "MLN", 
+    "name": "Melon", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "NEXO", 
+    "name": "Nexo", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "NKN", 
+    "name": "NKN", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "NMR", 
+    "name": "Numeraire", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "NU", 
+    "name": "NuCypher (NU)", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "OKB", 
+    "name": "OKB", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "OMG", 
+    "name": "OMG", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "OXT", 
+    "name": "Orchid", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "POLY", 
+    "name": "Polymath", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "PROPS", 
+    "name": "Props Token", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "RLC", 
+    "name": "iExec RLC", 
+    "type": "COIN", 
+    "decimals": 9},
+  {
+    "symbol": "RUNE", 
+    "name": "THORChain ETH.RUNE", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "SHIB", 
+    "name": "Shiba INU", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "SKL", 
+    "name": "Skale", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "STORJ", 
+    "name": "Storj", 
+    "type": "COIN", 
+    "decimals": 8},
+  {
+    "symbol": "SXP", 
+    "name": "Swipe", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "TBTC", 
+    "name": "tBTC", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "TEL", 
+    "name": "Telcoin", 
+    "type": "COIN", 
+    "decimals": 2},
+  {
+    "symbol": "TRB", 
+    "name": "Tellor", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "TUSD", 
+    "name": "TrueUSD", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "XYO", 
+    "name": "XY Oracle", 
+    "type": "COIN", 
+    "decimals": 18},
+  {
+    "symbol": "ZIL", 
+    "name": "Zilliqa", 
+    "type": "COIN", 
+    "decimals": 12}
 ]
