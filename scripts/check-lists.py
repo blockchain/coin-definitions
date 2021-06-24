@@ -48,7 +48,7 @@ blockchains_denylist = [
 
 # These can not be checked automatically, we must make sure the parameters are correct:
 currencies_ignorelist = [
-    'AR',
+    'AR', # https://docs.arweave.org/developers/server/http-api#ar-and-winston
     'BSV',
     'CLOUT',
     'DGLD',
