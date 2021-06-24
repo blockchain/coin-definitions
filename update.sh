@@ -9,7 +9,7 @@ git submodule foreach git checkout master
 git submodule foreach git pull
 
 echo '[+] Updating master tokens list...'
-python3 build-erc20-tokens-list.py \
+python3 scripts/build-erc20-tokens-list.py \
 	https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/ \
 	assets/blockchains/ethereum/assets/ \
 	assets/blockchains/ethereum/allowlist.json \
