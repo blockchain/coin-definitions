@@ -277,3 +277,11 @@
 # 'TRY' (Trias Token) conflics with the Turkish Lira (TRY):
 # - https://etherscan.io/token/0xe431a4c5DB8B73c773e06cf2587dA1EB53c41373 (Trias Token): https://www.trias.one
 0xe431a4c5DB8B73c773e06cf2587dA1EB53c41373
+
+# 'uSD' is shared by:
+# - https://etherscan.io/token/0x44086035439E676c02D411880FcCb9837CE37c57 (unified Stable Dollar): https://unifihub.com
+#   Price: $0.650041 Market cap: $0.00 (2021-06-25T10:45:07.776396)
+0x44086035439E676c02D411880FcCb9837CE37c57
+# - https://etherscan.io/token/0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8 (Wrapped USD): https://covenants.eth.link
+#   Price: $0.990892 Market cap: $0.00 (2021-06-25T10:45:07.776396)
+0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8

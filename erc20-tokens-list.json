@@ -1212,7 +1212,7 @@
         "decimals": 8,
         "logo": "https://login.blockchain.com/img/wdgld.png",
         "name": "Wrapped-DGLD",
-        "symbol": "wDGLD",
+        "symbol": "WDGLD",
         "website": "https://dgld.ch/"
     },
     {
@@ -3974,14 +3974,6 @@
         "name": "DODO",
         "symbol": "DODO",
         "website": "https://dodoex.io/"
-    },
-    {
-        "address": "0x44086035439E676c02D411880FcCb9837CE37c57",
-        "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x44086035439E676c02D411880FcCb9837CE37c57/logo.png",
-        "name": "unified Stable Dollar",
-        "symbol": "uSD",
-        "website": "https://unifihub.com"
     },
     {
         "address": "0x44197A4c44D6A059297cAf6be4F7e172BD56Caaf",
@@ -7918,6 +7910,14 @@
         "name": "DeCash",
         "symbol": "DESH",
         "website": "https://www.decash.co/"
+    },
+    {
+        "address": "0x95eFD1Fe6099F65a7ED524DEF487483221094947",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x95eFD1Fe6099F65a7ED524DEF487483221094947/logo.png",
+        "name": "CryptoBonusMiles",
+        "symbol": "CBM",
+        "website": "https://cryptobonusmiles.com/"
     },
     {
         "address": "0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17",
