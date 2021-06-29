@@ -1,0 +1,7 @@
+{
+    "name": "Mobile Coin",
+    "symbol": "MOB", 
+    "type": "COIN", 
+    "decimals": 12,
+    "status": "active"
+}

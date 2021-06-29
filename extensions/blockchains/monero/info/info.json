@@ -1,0 +1,7 @@
+{
+    "name": "Monero",
+    "symbol": "XMR", 
+    "type": "COIN", 
+    "decimals": 12,
+    "status": "active"
+}

@@ -2,7 +2,6 @@ import os
 import sys
 
 import json
-import argparse
 
 import itertools
 from dataclasses import asdict, dataclass, fields, replace
@@ -33,6 +32,28 @@ class ERC20Token:
         )
 
 @dataclass
+class Currency:
+    symbol: str
+    name: str
+    type: str
+    decimals: int
+    # removed: bool
+
+    @staticmethod
+    def from_blockchain(blockchain):
+        return Currency(
+            symbol=blockchain.symbol,
+            name=blockchain.name,
+            type="COIN",
+            decimals=blockchain.decimals,
+            # removed=False
+        )
+
+def build_dataclass_from_dict(cls, dict_):
+    class_fields = {f.name for f in fields(cls)}
+    return cls(**{k: v for k, v in dict_.items() if k in class_fields})
+
+@dataclass
 class Asset:
     id: str
     decimals: int
@@ -43,20 +64,55 @@ class Asset:
 
     @classmethod
     def from_dict(cls, dict_):
-        class_fields = {f.name for f in fields(cls)}
-        return cls(**{k: v for k, v in dict_.items() if k in class_fields})
+        return build_dataclass_from_dict(cls, dict_)
+
+@dataclass
+class Blockchain:
+    name: str
+    symbol: str = None
+    decimals: int = None
+    status: str = None
+
+    def is_valid(self):
+        return self.symbol is not None and \
+               self.decimals is not None and \
+               self.status is not None
+
+    def is_active(self):
+        return self.status == 'active'
+
+    def is_removed(self):
+        return self.status == 'removed'
+
+    @classmethod
+    def from_dict(cls, dict_):
+        return build_dataclass_from_dict(cls, dict_)
 
 
+# External URLs
 ETHERSCAN_TOKEN_URL = "https://etherscan.io/token/"
 COIN_GECKO_TOKEN_PRICE_URL = "https://api.coingecko.com/api/v3/simple/token_price/ethereum"
 
+# ERC-20 params
 ETH_ASSETS = "assets/blockchains/ethereum/assets/"
-ETH_ASSETS_EXTENSIONS = "extensions/blockchains/ethereum/assets/"
 ETH_ASSETS_ALLOWLIST = "assets/blockchains/ethereum/allowlist.json"
 ETH_ASSETS_DENYLIST = "assets/blockchains/ethereum/denylist.json"
 
+ETH_EXT_ASSETS = "extensions/blockchains/ethereum/assets/"
+ETH_EXT_ASSETS_DENYLIST = "extensions/blockchains/ethereum/denylist.txt"
+
 PUBLIC_ETH_ASSETS_DIR = "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/"
-PUBLIC_ETH_ASSETS_EXTENSIONS_DIR = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/"
+PUBLIC_ETH_EXT_ASSETS_DIR = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/"
+
+# Currency params
+BLOCKCHAINS = "assets/blockchains/"
+
+EXT_BLOCKCHAINS = "extensions/blockchains/"
+EXT_BLOCKCHAINS_DENYLIST = "extensions/blockchains/denylist.txt"
+
+PUBLIC_BLOCKCHAINS_DIR = "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/"
+PUBLIC_EXT_BLOCKCHAINS_DIR = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/"
+
 
 def chunks(lst, n):
     for i in range(0, len(lst), n):
@@ -77,6 +133,10 @@ def write_json(data, path):
     with open(path, "w") as json_file:
         return json.dump(data, json_file, sort_keys=True, indent=4)
 
+def write_txt(data, path):
+    with open(path, "w") as txt_file:
+        return txt_file.write(data)
+
 def read_assets(assets_dir):
     for asset_dir in sorted(os.listdir(assets_dir)):
         asset_info_path = os.path.join(assets_dir, asset_dir, "info.json")
@@ -85,6 +145,15 @@ def read_assets(assets_dir):
             continue
 
         yield read_json(asset_info_path)
+
+def read_blockchains(blockchains_dir):
+    for blockchain_dir in sorted(os.listdir(blockchains_dir)):
+        blockchain_info_path = os.path.join(blockchains_dir, blockchain_dir, "info/info.json")
+
+        if not os.path.exists(blockchain_info_path):
+            continue
+
+        yield read_json(blockchain_info_path)
 
 def filter_by_price(tokens, prices):
     for token in tokens:
@@ -118,8 +187,8 @@ def fetch_all_prices(tokens):
     return ret
 
 def build_token_logo(address):
-    if os.path.exists(os.path.join(ETH_ASSETS_EXTENSIONS, address, "logo.png")):
-        base_path = PUBLIC_ETH_ASSETS_EXTENSIONS_DIR
+    if os.path.exists(os.path.join(ETH_EXT_ASSETS, address, "logo.png")):
+        base_path = PUBLIC_ETH_EXT_ASSETS_DIR
     else:
         base_path = PUBLIC_ETH_ASSETS_DIR
     asset_path = urljoin(base_path, address + "/")
@@ -147,16 +216,45 @@ def dump_duplicates(duplicates, prices):
             print(f"#   Price: ${usd:,.6f} Market cap: ${usd_market_cap:,.2f} ({now})")
             print(f"# {token.address}")
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("bc_denylist", help="Path to custom blacklist file")
-    parser.add_argument("output_file", help="Output file name")
-    args = parser.parse_args()
 
+def build_currencies_list(output_file):
+    # Fetch and parse all info.json files:
+    print(f"Reading blockchains from {BLOCKCHAINS}")
+    chains = map(lambda x: Blockchain.from_dict(x), read_blockchains(BLOCKCHAINS))
+    chains = filter(lambda x: x.is_valid() and x.is_active(), chains)
+
+    # Build the denylists:
+    denylist = set(map(lambda x: (x["symbol"], x["name"]), read_json(EXT_BLOCKCHAINS_DENYLIST)))
+
+    # Keep only the active ones:
+    chains = filter(lambda x: x.status == 'active', chains)
+
+    # Make sure the asset is in the tw_allowlist and NOT in the denylists:
+    chains = filter(lambda x: (x.symbol, x.name) not in denylist, chains)
+
+    # Convert to Token instances:
+    currencies = map(Currency.from_blockchain, chains)
+
+    # Merge with extensions:
+    print(f"Reading blockchain extensions from {EXT_BLOCKCHAINS}")
+    extensions = map(lambda x: Blockchain.from_dict(x), read_blockchains(EXT_BLOCKCHAINS))
+    extensions = map(Currency.from_blockchain, extensions)
+
+    currencies = sorted(itertools.chain(currencies, extensions), key=lambda t: t.symbol)
+
+    # Convert back to plain dicts:
+    currencies = list(map(asdict, currencies))
+
+    print(f"Writing {len(currencies)} currencies to {output_file}")
+    dump = "[\n  " + ',\n  '.join(json.dumps(x) for x in currencies) + "\n]\n"
+    write_txt(dump, output_file)
+
+
+def build_erc20_list(output_file):
     # Build the allow/deny lists:
     tw_allowlist = set(map(lambda x: x.lower(), read_json(ETH_ASSETS_ALLOWLIST)))
     tw_denylist = set(map(lambda x: x.lower(), read_json(ETH_ASSETS_DENYLIST)))
-    bc_denylist = set(map(lambda x: x.lower(), read_txt(args.bc_denylist)))
+    bc_denylist = set(map(lambda x: x.lower(), read_txt(ETH_EXT_ASSETS_DENYLIST)))
 
     # Fetch and parse all info.json files:
     print(f"Reading ETH assets from {ETH_ASSETS}")
@@ -185,8 +283,8 @@ def main():
         return
 
     # Merge with extensions:
-    print(f"Reading ETH asset extensions from {ETH_ASSETS_EXTENSIONS}")
-    extensions = map(lambda x: Asset.from_dict(x), read_assets(ETH_ASSETS_EXTENSIONS))
+    print(f"Reading ETH asset extensions from {ETH_EXT_ASSETS}")
+    extensions = map(lambda x: Asset.from_dict(x), read_assets(ETH_EXT_ASSETS))
     extensions = map(ERC20Token.from_asset, extensions)
     tokens = sorted(itertools.chain(tokens, extensions), key=lambda t: t.address)
 
@@ -196,8 +294,13 @@ def main():
     # Convert back to plain dicts:
     tokens = list(map(asdict, tokens))
 
-    print(f"Writing {len(tokens)} tokens to {args.output_file}")
-    write_json(tokens, args.output_file)
+    print(f"Writing {len(tokens)} tokens to {output_file}")
+    write_json(tokens, output_file)
+
+
+def main():
+    build_erc20_list("erc20-tokens-list.json")
+    build_currencies_list("currencies.json")
 
 
 if __name__ == '__main__':

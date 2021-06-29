@@ -1,0 +1,7 @@
+{
+    "name": "Arweave",
+    "symbol": "AR", 
+    "type": "COIN", 
+    "decimals": 12,
+    "status": "active"
+}

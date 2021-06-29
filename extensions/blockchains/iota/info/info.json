@@ -1,0 +1,7 @@
+{
+    "name": "IOTA",
+    "symbol": "MIOTA", 
+    "type": "COIN", 
+    "decimals": 15,
+    "status": "active"
+}
