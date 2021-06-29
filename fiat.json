@@ -1,137 +1,29 @@
 [
-  {
-    "symbol": "USD",
-    "name": "US Dollar",
-    "decimals": 2
-  },
-  {
-    "symbol": "EUR",
-    "name": "Euro",
-    "decimals": 2
-  },
-  {
-    "symbol": "GBP",
-    "name": "British Pound",
-    "decimals": 2
-  },
-  {
-    "symbol": "AUD",
-    "name": "Australian Dollar",
-    "decimals": 2
-  },
-  {
-    "symbol": "BRL",
-    "name": "Brazilian Real",
-    "decimals": 2
-  },
-  {
-    "symbol": "CAD",
-    "name": "Canadian Dollar",
-    "decimals": 2
-  },
-  {
-    "symbol": "TRY",
-    "name": "Turkish Lira",
-    "decimals": 2
-  },
-  {
-    "symbol": "CLP",
-    "name": "Chilean Peso",
-    "decimals": 0
-  },
-  {
-    "symbol": "ISK",
-    "name": "Icelandic Crown",
-    "decimals": 0
-  },
-  {
-    "symbol": "JPY",
-    "name": "Japanese Yen",
-    "decimals": 0
-  },
-  {
-    "symbol": "KRW",
-    "name": "South Korean Won",
-    "decimals": 0
-  },
-  {
-    "symbol": "CHF",
-    "name": "Swiss Franc",
-    "decimals": 2
-  },
-  {
-    "symbol": "CNY",
-    "name": "Chinese Yuan",
-    "decimals": 2
-  },
-  {
-    "symbol": "CZK",
-    "name": "Czech Koruna",
-    "decimals": 2
-  },
-  {
-    "symbol": "DKK",
-    "name": "Danish Krone",
-    "decimals": 2
-  },
-  {
-    "symbol": "HKD",
-    "name": "Hong Kong Dollar",
-    "decimals": 2
-  },
-  {
-    "symbol": "HUF",
-    "name": "Hungarian Florint",
-    "decimals": 2
-  },
-  {
-    "symbol": "HRK",
-    "name": "Croatian Kuna",
-    "decimals": 2
-  },
-  {
-    "symbol": "INR",
-    "name": "Indian Rupee",
-    "decimals": 2
-  },
-  {
-    "symbol": "NZD",
-    "name": "New Zealand Dollar",
-    "decimals": 2
-  },
-  {
-    "symbol": "PLN",
-    "name": "Polish złoty",
-    "decimals": 2
-  },
-  {
-    "symbol": "RON",
-    "name": "Romanian Leu",
-    "decimals": 2
-  },
-  {
-    "symbol": "RUB",
-    "name": "Russian Ruble",
-    "decimals": 2
-  },
-  {
-    "symbol": "SEK",
-    "name": "Swedish Krona",
-    "decimals": 2
-  },
-  {
-    "symbol": "SGD",
-    "name": "Singapore Dollar",
-    "decimals": 2
-  },
-  {
-    "symbol": "THB",
-    "name": "Thai Baht",
-    "decimals": 2
-  },
-  {
-    "symbol": "TWD",
-    "name": "New Taiwan Dollar",
-    "decimals": 2
-  }
+  {"symbol": "AUD", "name": "Australian Dollar",  "decimals": 2},
+  {"symbol": "BRL", "name": "Brazilian Real",     "decimals": 2},
+  {"symbol": "CAD", "name": "Canadian Dollar",    "decimals": 2},
+  {"symbol": "CHF", "name": "Swiss Franc",        "decimals": 2},
+  {"symbol": "CLP", "name": "Chilean Peso",       "decimals": 0},
+  {"symbol": "CNY", "name": "Chinese Yuan",       "decimals": 2},
+  {"symbol": "CZK", "name": "Czech Koruna",       "decimals": 2},
+  {"symbol": "DKK", "name": "Danish Krone",       "decimals": 2},
+  {"symbol": "EUR", "name": "Euro",               "decimals": 2},
+  {"symbol": "GBP", "name": "British Pound",      "decimals": 2},
+  {"symbol": "HKD", "name": "Hong Kong Dollar",   "decimals": 2},
+  {"symbol": "HRK", "name": "Croatian Kuna",      "decimals": 2},
+  {"symbol": "HUF", "name": "Hungarian Florint",  "decimals": 2},
+  {"symbol": "INR", "name": "Indian Rupee",       "decimals": 2},
+  {"symbol": "ISK", "name": "Icelandic Crown",    "decimals": 0},
+  {"symbol": "JPY", "name": "Japanese Yen",       "decimals": 0},
+  {"symbol": "KRW", "name": "South Korean Won",   "decimals": 0},
+  {"symbol": "NZD", "name": "New Zealand Dollar", "decimals": 2},
+  {"symbol": "PLN", "name": "Polish złoty",       "decimals": 2},
+  {"symbol": "RON", "name": "Romanian Leu",       "decimals": 2},
+  {"symbol": "RUB", "name": "Russian Ruble",      "decimals": 2},
+  {"symbol": "SEK", "name": "Swedish Krona",      "decimals": 2},
+  {"symbol": "SGD", "name": "Singapore Dollar",   "decimals": 2},
+  {"symbol": "THB", "name": "Thai Baht",          "decimals": 2},
+  {"symbol": "TRY", "name": "Turkish Lira",       "decimals": 2},
+  {"symbol": "TWD", "name": "New Taiwan Dollar",  "decimals": 2},
+  {"symbol": "USD", "name": "US Dollar",          "decimals": 2}
 ]
