@@ -119,9 +119,11 @@ def chunks(lst, n):
     for i in range(0, len(lst), n):
         yield lst[i:i + n]
 
-def read_json(path):
+def read_json(path, comment_marker=None):
     with open(path) as json_file:
-        return json.load(json_file)
+        clean_line = lambda l: l if comment_marker is None else l.split(comment_marker)[0]
+        raw_data = "".join(map(clean_line, json_file.readlines()))
+        return json.loads(raw_data)
 
 def read_txt(path):
     with open(path) as txt_file:
@@ -147,14 +149,14 @@ def read_assets(assets_dir):
 
         yield read_json(asset_info_path)
 
-def read_blockchains(blockchains_dir):
+def read_blockchains(blockchains_dir, comment_marker=None):
     for blockchain_dir in sorted(os.listdir(blockchains_dir)):
         info_path = os.path.join(blockchains_dir, blockchain_dir, "info/info.json")
 
         if not os.path.exists(info_path):
             continue
 
-        yield (blockchain_dir, read_json(info_path))
+        yield (blockchain_dir, read_json(info_path, comment_marker=comment_marker))
 
 def filter_by_price(tokens, prices):
     for token in tokens:
@@ -203,10 +205,10 @@ def build_currency_logo(key):
     else:
         return None
 
-def find_duplicates(tokens):
-    groups = itertools.groupby(sorted(tokens, key=lambda t: t.symbol), lambda t: t.symbol)
-    groups = [(symbol, list(tokens)) for symbol, tokens in groups]
-    return [(symbol, tokens) for symbol, tokens in groups if len(tokens) > 1]
+def find_duplicates(items, key):
+    groups = itertools.groupby(sorted(items, key=key), key)
+    groups = [(symbol, list(items)) for symbol, items in groups]
+    return [(symbol, items) for symbol, items in groups if len(items) > 1]
 
 def dump_duplicates(duplicates, prices):
     print(f"Found {len(duplicates)} duplicate symbols:")
@@ -245,12 +247,17 @@ def build_currencies_list(output_file):
     # Merge with extensions:
     print(f"Reading blockchain extensions from {EXT_BLOCKCHAINS}")
     extensions = [KeyedChain(key, Blockchain.from_dict(chain))
-                  for key, chain in read_blockchains(EXT_BLOCKCHAINS)]
+                  for key, chain in read_blockchains(EXT_BLOCKCHAINS, "//")]
 
     chains = sorted(itertools.chain(chains, extensions), key=lambda t: t.chain.symbol)
 
     # Convert to Currency instances:
-    currencies = map(Currency.from_keyed_chain, chains)
+    currencies = list(map(Currency.from_keyed_chain, chains))
+
+    duplicates = find_duplicates(currencies, lambda c: c.symbol)
+
+    if duplicates:
+        raise Exception(f"Duplicates found: {[key for key, group in duplicates]}")
 
     # Convert back to plain dicts:
     currencies = list(map(asdict, currencies))
@@ -285,7 +292,7 @@ def build_erc20_list(output_file):
 
     # Clean up:
     tokens = list(filter_by_price(tokens, prices))
-    duplicates = find_duplicates(tokens)
+    duplicates = find_duplicates(tokens, lambda t: t.symbol)
 
     if duplicates:
         dump_duplicates(duplicates, prices)
@@ -308,8 +315,8 @@ def build_erc20_list(output_file):
 
 
 def main():
-    build_erc20_list("erc20-tokens-list.json")
     build_currencies_list("currencies.json")
+    build_erc20_list("erc20-tokens-list.json")
 
 
 if __name__ == '__main__':
