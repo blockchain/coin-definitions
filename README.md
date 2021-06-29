@@ -16,7 +16,7 @@ The file `erc20-tokens-list.json` is a single JSON file that contains the info f
  - those listed in `erc20-denylist.txt` (used mostly to disambiguate between tokens that have the same symbol)
  - those with either no price or a price of $0 USD, according to https://www.coingecko.com/
 
-Additionally, all assets defined in `overrides/blockchains/ethereum/assets` are added to the dataset (but these are not subject to the filters described above).
+Additionally, all assets defined in `extensions/blockchains/ethereum/assets` are added to the dataset (but these are not subject to the filters described above).
 
 For each asset, we include:
  - address (string)
@@ -62,12 +62,12 @@ Add the new file(s) -in PNG format- to the corresponding directory:
 NOTE: the address must be in checksum format
 
 ```
-overrides/blockchains/ethereum/assets/{{token_address}}/logo.json
+extensions/blockchains/ethereum/assets/{{token_address}}/logo.json
 ```
 
 For example:
 ```
-overrides/blockchains/ethereum/assets/0x123151402076fc819B7564510989e475c9cD93CA/logo.png
+extensions/blockchains/ethereum/assets/0x123151402076fc819B7564510989e475c9cD93CA/logo.png
 ```
 
 Then run `build.sh` at the root:

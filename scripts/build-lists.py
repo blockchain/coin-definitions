@@ -51,12 +51,12 @@ ETHERSCAN_TOKEN_URL = "https://etherscan.io/token/"
 COIN_GECKO_TOKEN_PRICE_URL = "https://api.coingecko.com/api/v3/simple/token_price/ethereum"
 
 ETH_ASSETS = "assets/blockchains/ethereum/assets/"
-ETH_ASSETS_OVERRIDES = "overrides/blockchains/ethereum/assets/"
+ETH_ASSETS_EXTENSIONS = "extensions/blockchains/ethereum/assets/"
 ETH_ASSETS_ALLOWLIST = "assets/blockchains/ethereum/allowlist.json"
 ETH_ASSETS_DENYLIST = "assets/blockchains/ethereum/denylist.json"
 
 PUBLIC_ETH_ASSETS_DIR = "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/"
-PUBLIC_ETH_ASSETS_OVERRIDES_DIR = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/overrides/blockchains/ethereum/assets/"
+PUBLIC_ETH_ASSETS_EXTENSIONS_DIR = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/"
 
 def chunks(lst, n):
     for i in range(0, len(lst), n):
@@ -118,8 +118,8 @@ def fetch_all_prices(tokens):
     return ret
 
 def build_token_logo(address):
-    if os.path.exists(os.path.join(ETH_ASSETS_OVERRIDES, address, "logo.png")):
-        base_path = PUBLIC_ETH_ASSETS_OVERRIDES_DIR
+    if os.path.exists(os.path.join(ETH_ASSETS_EXTENSIONS, address, "logo.png")):
+        base_path = PUBLIC_ETH_ASSETS_EXTENSIONS_DIR
     else:
         base_path = PUBLIC_ETH_ASSETS_DIR
     asset_path = urljoin(base_path, address + "/")
@@ -184,11 +184,11 @@ def main():
         dump_duplicates(duplicates, prices)
         return
 
-    # Merge with overrides:
-    print(f"Reading ETH asset overrides from {ETH_ASSETS_OVERRIDES}")
-    bc_overrides = map(lambda x: Asset.from_dict(x), read_assets(ETH_ASSETS_OVERRIDES))
-    bc_overrides = map(ERC20Token.from_asset, bc_overrides)
-    tokens = sorted(itertools.chain(tokens, bc_overrides), key=lambda t: t.address)
+    # Merge with extensions:
+    print(f"Reading ETH asset extensions from {ETH_ASSETS_EXTENSIONS}")
+    extensions = map(lambda x: Asset.from_dict(x), read_assets(ETH_ASSETS_EXTENSIONS))
+    extensions = map(ERC20Token.from_asset, extensions)
+    tokens = sorted(itertools.chain(tokens, extensions), key=lambda t: t.address)
 
     # Inject logos:
     tokens = map(lambda x: replace(x, logo=build_token_logo(x.address)), tokens)
