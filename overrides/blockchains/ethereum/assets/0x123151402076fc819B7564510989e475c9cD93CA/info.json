@@ -1,0 +1,11 @@
+{
+    "name": "Wrapped-DGLD",
+    "website": "https://dgld.ch/",
+    "description": "",
+    "explorer": "",
+    "type": "ERC20",
+    "symbol": "WDGLD",
+    "decimals": 8,
+    "status": "active",
+    "id": "0x123151402076fc819B7564510989e475c9cD93CA"
+}

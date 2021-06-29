@@ -5,7 +5,7 @@ import json
 import argparse
 
 import itertools
-from dataclasses import asdict, dataclass, replace
+from dataclasses import asdict, dataclass, fields, replace
 from functools import reduce
 from datetime import datetime
 
@@ -22,18 +22,41 @@ class ERC20Token:
     website: str
 
     @staticmethod
-    def from_asset_dict(asset):
+    def from_asset(asset):
         return ERC20Token(
-            address=asset['id'],
-            decimals=asset['decimals'],
+            address=asset.id,
+            decimals=asset.decimals,
             logo='',
-            name=asset['name'],
-            symbol=asset['symbol'],
-            website=asset['website']
+            name=asset.name,
+            symbol=asset.symbol,
+            website=asset.website
         )
+
+@dataclass
+class Asset:
+    id: str
+    decimals: int
+    name: str
+    symbol: str
+    website: str
+    status: str
+
+    @classmethod
+    def from_dict(cls, dict_):
+        class_fields = {f.name for f in fields(cls)}
+        return cls(**{k: v for k, v in dict_.items() if k in class_fields})
+
 
 ETHERSCAN_TOKEN_URL = "https://etherscan.io/token/"
 COIN_GECKO_TOKEN_PRICE_URL = "https://api.coingecko.com/api/v3/simple/token_price/ethereum"
+
+ETH_ASSETS = "assets/blockchains/ethereum/assets/"
+ETH_ASSETS_OVERRIDES = "overrides/blockchains/ethereum/assets/"
+ETH_ASSETS_ALLOWLIST = "assets/blockchains/ethereum/allowlist.json"
+ETH_ASSETS_DENYLIST = "assets/blockchains/ethereum/denylist.json"
+
+PUBLIC_ETH_ASSETS_DIR = "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/"
+PUBLIC_ETH_ASSETS_OVERRIDES_DIR = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/overrides/blockchains/ethereum/assets/"
 
 def chunks(lst, n):
     for i in range(0, len(lst), n):
@@ -54,7 +77,7 @@ def write_json(data, path):
     with open(path, "w") as json_file:
         return json.dump(data, json_file, sort_keys=True, indent=4)
 
-def build_assets_list(assets_dir):
+def read_assets(assets_dir):
     for asset_dir in sorted(os.listdir(assets_dir)):
         asset_info_path = os.path.join(assets_dir, asset_dir, "info.json")
 
@@ -94,7 +117,11 @@ def fetch_all_prices(tokens):
     sys.stdout.write("\n")
     return ret
 
-def build_token_logo(base_path, address):
+def build_token_logo(address):
+    if os.path.exists(os.path.join(ETH_ASSETS_OVERRIDES, address, "logo.png")):
+        base_path = PUBLIC_ETH_ASSETS_OVERRIDES_DIR
+    else:
+        base_path = PUBLIC_ETH_ASSETS_DIR
     asset_path = urljoin(base_path, address + "/")
     return urljoin(asset_path, "logo.png")
 
@@ -120,39 +147,26 @@ def dump_duplicates(duplicates, prices):
             print(f"#   Price: ${usd:,.6f} Market cap: ${usd_market_cap:,.2f} ({now})")
             print(f"# {token.address}")
 
-def merge_lists(a, b, key):
-    to_dict = lambda l: dict((key(x), x) for x in l)
-    to_list = lambda d: sorted(d.values(), key=key)
-    d = to_dict(a)
-    d.update(to_dict(b))
-    return to_list(d)
-
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("public_assets_dir", help="Path to the PUBLIC assets directory")
-    parser.add_argument("assets_dir", help="Path to the assets directory")
-    parser.add_argument("tw_allowlist", help="Path to the allow list file")
-    parser.add_argument("tw_denylist", help="Path to the deny list file")
     parser.add_argument("bc_denylist", help="Path to custom blacklist file")
-    parser.add_argument("bc_overrides", help="Path to custom overrides file")
     parser.add_argument("output_file", help="Output file name")
     args = parser.parse_args()
 
     # Build the allow/deny lists:
-    tw_allowlist = set(map(lambda x: x.lower(), read_json(args.tw_allowlist)))
-    tw_denylist = set(map(lambda x: x.lower(), read_json(args.tw_denylist)))
+    tw_allowlist = set(map(lambda x: x.lower(), read_json(ETH_ASSETS_ALLOWLIST)))
+    tw_denylist = set(map(lambda x: x.lower(), read_json(ETH_ASSETS_DENYLIST)))
     bc_denylist = set(map(lambda x: x.lower(), read_txt(args.bc_denylist)))
-    bc_overrides = map(lambda x: ERC20Token(**x), read_json(args.bc_overrides))
 
     # Fetch and parse all info.json files:
-    print(f"Reading assets from {args.assets_dir}")
-    assets = build_assets_list(args.assets_dir)
+    print(f"Reading ETH assets from {ETH_ASSETS}")
+    assets = map(lambda x: Asset.from_dict(x), read_assets(ETH_ASSETS))
 
     # Keep only the active ones:
-    assets = filter(lambda x: x['status'] == 'active', assets)
+    assets = filter(lambda x: x.status == 'active', assets)
 
     # Convert to Token instances:
-    tokens = (ERC20Token.from_asset_dict(asset) for asset in assets)
+    tokens = (ERC20Token.from_asset(asset) for asset in assets)
 
     # Make sure the asset is in the tw_allowlist and NOT in the denylists:
     tokens = filter(lambda x: x.address.lower() in tw_allowlist, tokens)
@@ -170,11 +184,14 @@ def main():
         dump_duplicates(duplicates, prices)
         return
 
-    # Inject logos:
-    tokens = map(lambda x: replace(x, logo=build_token_logo(args.public_assets_dir, x.address)), tokens)
+    # Merge with overrides:
+    print(f"Reading ETH asset overrides from {ETH_ASSETS_OVERRIDES}")
+    bc_overrides = map(lambda x: Asset.from_dict(x), read_assets(ETH_ASSETS_OVERRIDES))
+    bc_overrides = map(ERC20Token.from_asset, bc_overrides)
+    tokens = sorted(itertools.chain(tokens, bc_overrides), key=lambda t: t.address)
 
-    # Merge with overrides dict:
-    tokens = merge_lists(tokens, bc_overrides, lambda t: t.address)
+    # Inject logos:
+    tokens = map(lambda x: replace(x, logo=build_token_logo(x.address)), tokens)
 
     # Convert back to plain dicts:
     tokens = list(map(asdict, tokens))
