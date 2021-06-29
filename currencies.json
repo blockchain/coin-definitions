@@ -1,37 +1,247 @@
 [
-  {"symbol": "ADA", "name": "Cardano", "type": "COIN", "decimals": 6},
-  {"symbol": "ALGO", "name": "Algorand", "type": "COIN", "decimals": 6},
-  {"symbol": "AR", "name": "Arweave", "type": "COIN", "decimals": 12},
-  {"symbol": "ATOM", "name": "Cosmos", "type": "COIN", "decimals": 6},
-  {"symbol": "AVAX", "name": "Avalanche", "type": "COIN", "decimals": 9},
-  {"symbol": "BCH", "name": "Bitcoin Cash", "type": "COIN", "decimals": 8},
-  {"symbol": "BNB", "name": "Binance Smart Chain", "type": "COIN", "decimals": 18},
-  {"symbol": "BTC", "name": "Bitcoin", "type": "COIN", "decimals": 8},
-  {"symbol": "CLOUT", "name": "BitClout", "type": "COIN", "decimals": 9},
-  {"symbol": "DASH", "name": "Dash", "type": "COIN", "decimals": 8},
-  {"symbol": "DCR", "name": "Decred", "type": "COIN", "decimals": 8},
-  {"symbol": "DGLD", "name": "Digital Gold", "type": "COIN", "decimals": 8},
-  {"symbol": "DOGE", "name": "Dogecoin", "type": "COIN", "decimals": 8},
-  {"symbol": "DOT", "name": "Polkadot", "type": "COIN", "decimals": 10},
-  {"symbol": "EOS", "name": "EOS", "type": "COIN", "decimals": 4},
-  {"symbol": "ETC", "name": "Ethereum Classic", "type": "COIN", "decimals": 18},
-  {"symbol": "ETH", "name": "Ethereum", "type": "COIN", "decimals": 18},
-  {"symbol": "FIL", "name": "Filecoin", "type": "COIN", "decimals": 18},
-  {"symbol": "KAVA", "name": "Kava", "type": "COIN", "decimals": 6},
-  {"symbol": "KIN", "name": "Kin", "type": "COIN", "decimals": 5},
-  {"symbol": "LTC", "name": "Litecoin", "type": "COIN", "decimals": 8},
-  {"symbol": "MIOTA", "name": "IOTA", "type": "COIN", "decimals": 15},
-  {"symbol": "MOB", "name": "Mobile Coin", "type": "COIN", "decimals": 12},
-  {"symbol": "NEAR", "name": "NEAR Protocol", "type": "COIN", "decimals": 24},
-  {"symbol": "SOL", "name": "Solana", "type": "COIN", "decimals": 9},
-  {"symbol": "STX", "name": "Stacks", "type": "COIN", "decimals": 6},
-  {"symbol": "TFUEL", "name": "Theta Fuel", "type": "COIN", "decimals": 18},
-  {"symbol": "THETA", "name": "Theta Network", "type": "COIN", "decimals": 18},
-  {"symbol": "TRX", "name": "TRON", "type": "COIN", "decimals": 6},
-  {"symbol": "XLM", "name": "Stellar Lumen", "type": "COIN", "decimals": 7},
-  {"symbol": "XMR", "name": "Monero", "type": "COIN", "decimals": 12},
-  {"symbol": "XRP", "name": "Ripple", "type": "COIN", "decimals": 6},
-  {"symbol": "XTZ", "name": "Tezos", "type": "COIN", "decimals": 6},
-  {"symbol": "ZEC", "name": "Zcash", "type": "COIN", "decimals": 8},
-  {"symbol": "ZIL", "name": "Zilliqa", "type": "COIN", "decimals": 12}
+  {
+    "symbol": "ADA",
+    "name": "Cardano",
+    "type": "COIN",
+    "decimals": 6,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/cardano/info/logo.png"
+  },
+  {
+    "symbol": "ALGO",
+    "name": "Algorand",
+    "type": "COIN",
+    "decimals": 6,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/algorand/info/logo.png"
+  },
+  {
+    "symbol": "AR",
+    "name": "Arweave",
+    "type": "COIN",
+    "decimals": 12,
+    "logo": null
+  },
+  {
+    "symbol": "ATOM",
+    "name": "Cosmos",
+    "type": "COIN",
+    "decimals": 6,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/cosmos/info/logo.png"
+  },
+  {
+    "symbol": "AVAX",
+    "name": "Avalanche",
+    "type": "COIN",
+    "decimals": 9,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanche/info/logo.png"
+  },
+  {
+    "symbol": "BCH",
+    "name": "Bitcoin Cash",
+    "type": "COIN",
+    "decimals": 8,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/bitcoincash/info/logo.png"
+  },
+  {
+    "symbol": "BNB",
+    "name": "Binance Smart Chain",
+    "type": "COIN",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/info/logo.png"
+  },
+  {
+    "symbol": "BTC",
+    "name": "Bitcoin",
+    "type": "COIN",
+    "decimals": 8,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/bitcoin/info/logo.png"
+  },
+  {
+    "symbol": "CLOUT",
+    "name": "BitClout",
+    "type": "COIN",
+    "decimals": 9,
+    "logo": null
+  },
+  {
+    "symbol": "DASH",
+    "name": "Dash",
+    "type": "COIN",
+    "decimals": 8,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/dash/info/logo.png"
+  },
+  {
+    "symbol": "DCR",
+    "name": "Decred",
+    "type": "COIN",
+    "decimals": 8,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/decred/info/logo.png"
+  },
+  {
+    "symbol": "DGLD",
+    "name": "Digital Gold",
+    "type": "COIN",
+    "decimals": 8,
+    "logo": null
+  },
+  {
+    "symbol": "DOGE",
+    "name": "Dogecoin",
+    "type": "COIN",
+    "decimals": 8,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/doge/info/logo.png"
+  },
+  {
+    "symbol": "DOT",
+    "name": "Polkadot",
+    "type": "COIN",
+    "decimals": 10,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polkadot/info/logo.png"
+  },
+  {
+    "symbol": "EOS",
+    "name": "EOS",
+    "type": "COIN",
+    "decimals": 4,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/eos/info/logo.png"
+  },
+  {
+    "symbol": "ETC",
+    "name": "Ethereum Classic",
+    "type": "COIN",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/classic/info/logo.png"
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "type": "COIN",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png"
+  },
+  {
+    "symbol": "FIL",
+    "name": "Filecoin",
+    "type": "COIN",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/filecoin/info/logo.png"
+  },
+  {
+    "symbol": "KAVA",
+    "name": "Kava",
+    "type": "COIN",
+    "decimals": 6,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/kava/info/logo.png"
+  },
+  {
+    "symbol": "KIN",
+    "name": "Kin",
+    "type": "COIN",
+    "decimals": 5,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/kin/info/logo.png"
+  },
+  {
+    "symbol": "LTC",
+    "name": "Litecoin",
+    "type": "COIN",
+    "decimals": 8,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/litecoin/info/logo.png"
+  },
+  {
+    "symbol": "MIOTA",
+    "name": "IOTA",
+    "type": "COIN",
+    "decimals": 15,
+    "logo": null
+  },
+  {
+    "symbol": "MOB",
+    "name": "Mobile Coin",
+    "type": "COIN",
+    "decimals": 12,
+    "logo": null
+  },
+  {
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
+    "type": "COIN",
+    "decimals": 24,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/near/info/logo.png"
+  },
+  {
+    "symbol": "SOL",
+    "name": "Solana",
+    "type": "COIN",
+    "decimals": 9,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/info/logo.png"
+  },
+  {
+    "symbol": "STX",
+    "name": "Stacks",
+    "type": "COIN",
+    "decimals": 6,
+    "logo": null
+  },
+  {
+    "symbol": "TFUEL",
+    "name": "Theta Fuel",
+    "type": "COIN",
+    "decimals": 18,
+    "logo": null
+  },
+  {
+    "symbol": "THETA",
+    "name": "Theta Network",
+    "type": "COIN",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/theta/info/logo.png"
+  },
+  {
+    "symbol": "TRX",
+    "name": "TRON",
+    "type": "COIN",
+    "decimals": 6,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/tron/info/logo.png"
+  },
+  {
+    "symbol": "XLM",
+    "name": "Stellar Lumen",
+    "type": "COIN",
+    "decimals": 7,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/stellar/info/logo.png"
+  },
+  {
+    "symbol": "XMR",
+    "name": "Monero",
+    "type": "COIN",
+    "decimals": 12,
+    "logo": null
+  },
+  {
+    "symbol": "XRP",
+    "name": "Ripple",
+    "type": "COIN",
+    "decimals": 6,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ripple/info/logo.png"
+  },
+  {
+    "symbol": "XTZ",
+    "name": "Tezos",
+    "type": "COIN",
+    "decimals": 6,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/tezos/info/logo.png"
+  },
+  {
+    "symbol": "ZEC",
+    "name": "Zcash",
+    "type": "COIN",
+    "decimals": 8,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/zcash/info/logo.png"
+  },
+  {
+    "symbol": "ZIL",
+    "name": "Zilliqa",
+    "type": "COIN",
+    "decimals": 12,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/zilliqa/info/logo.png"
+  }
 ]

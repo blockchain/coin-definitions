@@ -37,16 +37,16 @@ class Currency:
     name: str
     type: str
     decimals: int
-    # removed: bool
+    logo: str
 
     @staticmethod
-    def from_blockchain(blockchain):
+    def from_keyed_chain(kc):
         return Currency(
-            symbol=blockchain.symbol,
-            name=blockchain.name,
+            symbol=kc.chain.symbol,
+            name=kc.chain.name,
+            logo=build_currency_logo(kc.key),
             type="COIN",
-            decimals=blockchain.decimals,
-            # removed=False
+            decimals=kc.chain.decimals,
         )
 
 def build_dataclass_from_dict(cls, dict_):
@@ -88,6 +88,10 @@ class Blockchain:
     def from_dict(cls, dict_):
         return build_dataclass_from_dict(cls, dict_)
 
+@dataclass
+class KeyedChain:
+    key: str
+    chain: Blockchain
 
 # External URLs
 ETHERSCAN_TOKEN_URL = "https://etherscan.io/token/"
@@ -101,17 +105,14 @@ ETH_ASSETS_DENYLIST = "assets/blockchains/ethereum/denylist.json"
 ETH_EXT_ASSETS = "extensions/blockchains/ethereum/assets/"
 ETH_EXT_ASSETS_DENYLIST = "extensions/blockchains/ethereum/denylist.txt"
 
-PUBLIC_ETH_ASSETS_DIR = "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/"
-PUBLIC_ETH_EXT_ASSETS_DIR = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/"
+TW_REPO_ROOT = "https://raw.githubusercontent.com/trustwallet/assets/master/"
+BC_REPO_ROOT = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/"
 
 # Currency params
 BLOCKCHAINS = "assets/blockchains/"
 
 EXT_BLOCKCHAINS = "extensions/blockchains/"
 EXT_BLOCKCHAINS_DENYLIST = "extensions/blockchains/denylist.txt"
-
-PUBLIC_BLOCKCHAINS_DIR = "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/"
-PUBLIC_EXT_BLOCKCHAINS_DIR = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/"
 
 
 def chunks(lst, n):
@@ -129,9 +130,9 @@ def read_txt(path):
         lines = [line for line in lines if line]
         return lines
 
-def write_json(data, path):
+def write_json(data, path, sort_keys=True, indent=4):
     with open(path, "w") as json_file:
-        return json.dump(data, json_file, sort_keys=True, indent=4)
+        return json.dump(data, json_file, sort_keys=sort_keys, indent=indent)
 
 def write_txt(data, path):
     with open(path, "w") as txt_file:
@@ -148,12 +149,12 @@ def read_assets(assets_dir):
 
 def read_blockchains(blockchains_dir):
     for blockchain_dir in sorted(os.listdir(blockchains_dir)):
-        blockchain_info_path = os.path.join(blockchains_dir, blockchain_dir, "info/info.json")
+        info_path = os.path.join(blockchains_dir, blockchain_dir, "info/info.json")
 
-        if not os.path.exists(blockchain_info_path):
+        if not os.path.exists(info_path):
             continue
 
-        yield read_json(blockchain_info_path)
+        yield (blockchain_dir, read_json(info_path))
 
 def filter_by_price(tokens, prices):
     for token in tokens:
@@ -188,11 +189,19 @@ def fetch_all_prices(tokens):
 
 def build_token_logo(address):
     if os.path.exists(os.path.join(ETH_EXT_ASSETS, address, "logo.png")):
-        base_path = PUBLIC_ETH_EXT_ASSETS_DIR
+        base_path = BC_REPO_ROOT + "extensions/blockchains/ethereum/assets/"
     else:
-        base_path = PUBLIC_ETH_ASSETS_DIR
+        base_path = TW_REPO_ROOT + "blockchains/ethereum/assets/"
     asset_path = urljoin(base_path, address + "/")
     return urljoin(asset_path, "logo.png")
+
+def build_currency_logo(key):
+    if os.path.exists(os.path.join(EXT_BLOCKCHAINS, key, "info", "logo.png")):
+        return BC_REPO_ROOT + os.path.join(EXT_BLOCKCHAINS, key, "info", "logo.png")
+    elif os.path.exists(os.path.join(BLOCKCHAINS, key, "info", "logo.png")):
+        return TW_REPO_ROOT + os.path.join("blockchains", key, "info", "logo.png")
+    else:
+        return None
 
 def find_duplicates(tokens):
     groups = itertools.groupby(sorted(tokens, key=lambda t: t.symbol), lambda t: t.symbol)
@@ -220,34 +229,34 @@ def dump_duplicates(duplicates, prices):
 def build_currencies_list(output_file):
     # Fetch and parse all info.json files:
     print(f"Reading blockchains from {BLOCKCHAINS}")
-    chains = map(lambda x: Blockchain.from_dict(x), read_blockchains(BLOCKCHAINS))
-    chains = filter(lambda x: x.is_valid() and x.is_active(), chains)
+    chains = [KeyedChain(key, Blockchain.from_dict(chain))
+              for key, chain in read_blockchains(BLOCKCHAINS)]
+    chains = filter(lambda x: x.chain.is_valid() and x.chain.is_active(), chains)
 
     # Build the denylists:
     denylist = set(map(lambda x: (x["symbol"], x["name"]), read_json(EXT_BLOCKCHAINS_DENYLIST)))
 
     # Keep only the active ones:
-    chains = filter(lambda x: x.status == 'active', chains)
+    chains = filter(lambda x: x.chain.status == 'active', chains)
 
-    # Make sure the asset is in the tw_allowlist and NOT in the denylists:
-    chains = filter(lambda x: (x.symbol, x.name) not in denylist, chains)
-
-    # Convert to Token instances:
-    currencies = map(Currency.from_blockchain, chains)
+    # Make sure the chain is NOT in the denylist:
+    chains = filter(lambda x: (x.chain.symbol, x.chain.name) not in denylist, chains)
 
     # Merge with extensions:
     print(f"Reading blockchain extensions from {EXT_BLOCKCHAINS}")
-    extensions = map(lambda x: Blockchain.from_dict(x), read_blockchains(EXT_BLOCKCHAINS))
-    extensions = map(Currency.from_blockchain, extensions)
+    extensions = [KeyedChain(key, Blockchain.from_dict(chain))
+                  for key, chain in read_blockchains(EXT_BLOCKCHAINS)]
 
-    currencies = sorted(itertools.chain(currencies, extensions), key=lambda t: t.symbol)
+    chains = sorted(itertools.chain(chains, extensions), key=lambda t: t.chain.symbol)
+
+    # Convert to Currency instances:
+    currencies = map(Currency.from_keyed_chain, chains)
 
     # Convert back to plain dicts:
     currencies = list(map(asdict, currencies))
 
     print(f"Writing {len(currencies)} currencies to {output_file}")
-    dump = "[\n  " + ',\n  '.join(json.dumps(x) for x in currencies) + "\n]\n"
-    write_txt(dump, output_file)
+    write_json(currencies, output_file, sort_keys=False, indent=2)
 
 
 def build_erc20_list(output_file):
