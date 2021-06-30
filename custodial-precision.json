@@ -80,10 +80,6 @@
     "custodialPrecision": 8
   },
   {
-    "symbol": "WDGLD",
-    "custodialPrecision": 8
-  },
-  {
     "symbol": "DOT",
     "custodialPrecision": 9
   },

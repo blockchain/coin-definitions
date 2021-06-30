@@ -4,8 +4,11 @@ import argparse
 import itertools
 from dataclasses import dataclass, replace
 
+class Error(Exception): pass
+class Warning(Exception): pass
+
 @dataclass
-class CurrencySettings:
+class CustodialSettings:
     minConfirmations: int
     minWithdrawal: int
     custodialPrecision: int
@@ -16,9 +19,59 @@ class Currency:
     name: str
     type: str
     decimals: int
-    settings: CurrencySettings
-    logo: str = None
-    removed: bool = False
+    settings: CustodialSettings
+    logo: str
+
+    def __post_init__(self):
+        if self.settings:
+            self.settings = CustodialSettings(**self.settings)
+
+    def __str__(self):
+        return f"[{self.symbol}, {self.type}]"
+
+    def check(self):
+        if self.logo is None:
+            raise Warning(f"No logo")
+        
+        if self.type != 'COIN':
+            raise Error(f"Invalid type '{self.type}'")
+        
+        if self.settings is None:
+            raise Warning(f"No custodial settings")
+        
+        check_custodial_precision(self)
+
+@dataclass
+class ERC20Token:
+    address: str
+    decimals: int
+    logo: str
+    name: str
+    settings: CustodialSettings
+    symbol: str
+    website: str
+
+    def __post_init__(self):
+        if self.settings:
+            self.settings = CustodialSettings(**self.settings)
+
+    def __str__(self):
+        return f"[{self.symbol}, ERC20]"
+
+    def check(self):
+        if self.logo is None:
+            raise Warning(f"No logo")
+        
+        if self.settings is not None:
+            check_custodial_precision(self)
+
+
+def check_custodial_precision(item):
+    precision = item.settings.custodialPrecision
+    expected = min(item.decimals, 9)
+        
+    if precision != expected:
+        raise Error(f"custodialPrecision {precision}, expected {expected}")
 
 
 def read_json(path):
@@ -45,27 +98,26 @@ def log_error(msg):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("currencies", help="Path to currencies JSON file")
+    parser.add_argument("erc20_tokens", help="Path to erc20 tokens JSON file")
     args = parser.parse_args()
 
     currencies = map(lambda x: Currency(**x), read_json(args.currencies))
-    currencies = list(map(lambda x: replace(x, settings=CurrencySettings(**x.settings)) if x.settings else x,
-                          currencies))
+    erc20_tokens = map(lambda x: ERC20Token(**x), read_json(args.erc20_tokens))
 
-    duplicates = find_duplicates(currencies, lambda t: t.symbol)
+    items = list(itertools.chain(currencies, erc20_tokens))
+
+    duplicates = find_duplicates(items, lambda t: t.symbol)
 
     if duplicates:
-        print(f"Duplicate blockchains found: {compress_duplicates(duplicates)}")
-        return
+        raise Exception(f"Duplicate currencies found: {compress_duplicates(duplicates)}")
 
-    for currency in currencies:
-        if currency.logo is None:
-            log_warning(f"{currency.symbol}: No logo")
-        elif currency.settings is None:
-            log_error(f"{currency.symbol}: No settings")
-        elif currency.settings.custodialPrecision != min(currency.decimals, 9):
-            log_error(f"{currency.symbol}: Unexpected custodialPrecision {currency.settings.custodialPrecision}")
-        else:
-            log_success(f"{currency.symbol}: OK")
+    for item in items:
+        try:
+            item.check()
+        except Warning as e:
+            log_warning(f"{item}: {e}")
+        except Error as e:
+            log_error(f"{item}: {e}")
 
 
 if __name__ == '__main__':

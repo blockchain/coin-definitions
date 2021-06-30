@@ -12,11 +12,18 @@ from urllib import parse, request
 from urllib.parse import urljoin
 
 @dataclass
+class CustodialSettings:
+    minConfirmations: int
+    minWithdrawal: int
+    custodialPrecision: int
+
+@dataclass
 class ERC20Token:
     address: str
     decimals: int
     logo: str
     name: str
+    settings: CustodialSettings
     symbol: str
     website: str
 
@@ -25,17 +32,12 @@ class ERC20Token:
         return ERC20Token(
             address=asset.id,
             decimals=asset.decimals,
-            logo='',
+            logo=build_token_logo(asset.id),
             name=asset.name,
+            settings=fetch_token_settings(asset.id),
             symbol=asset.symbol,
             website=asset.website
         )
-
-@dataclass
-class CurrencySettings:
-    minConfirmations: int
-    minWithdrawal: int
-    custodialPrecision: int
 
 @dataclass
 class Currency:
@@ -44,7 +46,7 @@ class Currency:
     type: str
     decimals: int
     logo: str
-    settings: CurrencySettings
+    settings: CustodialSettings
 
     @staticmethod
     def from_keyed_chain(kc):
@@ -205,7 +207,15 @@ def fetch_currency_settings(key):
     settings = os.path.join(EXT_BLOCKCHAINS, key, "info", "settings.json")
 
     if os.path.exists(settings):
-        return CurrencySettings(**read_json(settings, comment_marker="//"))
+        return CustodialSettings(**read_json(settings, comment_marker="//"))
+
+    return None
+
+def fetch_token_settings(address):
+    settings = os.path.join(ETH_EXT_ASSETS, address, "settings.json")
+
+    if os.path.exists(settings):
+        return CustodialSettings(**read_json(settings, comment_marker="//"))
 
     return None
 
@@ -315,9 +325,6 @@ def build_erc20_list(output_file):
     extensions = [Asset.from_dict(info) for key, info in read_assets(ETH_EXT_ASSETS)]
     extensions = map(ERC20Token.from_asset, extensions)
     tokens = sorted(itertools.chain(tokens, extensions), key=lambda t: t.address)
-
-    # Inject logos:
-    tokens = map(lambda x: replace(x, logo=build_token_logo(x.address)), tokens)
 
     # Convert back to plain dicts:
     tokens = list(map(asdict, tokens))
