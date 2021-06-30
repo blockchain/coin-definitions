@@ -104,7 +104,7 @@ def main():
     currencies = map(lambda x: Currency(**x), read_json(args.currencies))
     erc20_tokens = map(lambda x: ERC20Token(**x), read_json(args.erc20_tokens))
 
-    items = list(itertools.chain(currencies, erc20_tokens))
+    items = list(sorted(itertools.chain(currencies, erc20_tokens), key=lambda x: x.symbol))
 
     duplicates = find_duplicates(items, lambda t: t.symbol)
 
@@ -114,6 +114,8 @@ def main():
     for item in items:
         try:
             item.check()
+            if item.settings:
+                log_success(f"{item}: OK")
         except Warning as e:
             log_warning(f"{item}: {e}")
         except Error as e:

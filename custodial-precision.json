@@ -1,9 +1,5 @@
 [
   {
-    "symbol": "BTC",
-    "custodialPrecision": 8
-  },
-  {
     "symbol": "ETH",
     "custodialPrecision": 8
   },

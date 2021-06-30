@@ -61,7 +61,11 @@
     "type": "COIN",
     "decimals": 8,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/bitcoin/info/logo.png",
-    "settings": null
+    "settings": {
+      "minConfirmations": 2,
+      "minWithdrawal": 5460,
+      "custodialPrecision": 8
+    }
   },
   {
     "symbol": "CLOUT",
