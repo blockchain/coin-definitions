@@ -1,6 +1,6 @@
 import os
 import sys
-
+import glob
 import json
 
 import itertools
@@ -32,12 +32,19 @@ class ERC20Token:
         )
 
 @dataclass
+class CurrencySettings:
+    minConfirmations: int
+    minWithdrawal: int
+    custodialPrecision: int
+
+@dataclass
 class Currency:
     symbol: str
     name: str
     type: str
     decimals: int
     logo: str
+    settings: CurrencySettings
 
     @staticmethod
     def from_keyed_chain(kc):
@@ -47,6 +54,7 @@ class Currency:
             logo=build_currency_logo(kc.key),
             type="COIN",
             decimals=kc.chain.decimals,
+            settings=fetch_currency_settings(kc.key)
         )
 
 def build_dataclass_from_dict(cls, dict_):
@@ -121,9 +129,12 @@ def chunks(lst, n):
 
 def read_json(path, comment_marker=None):
     with open(path) as json_file:
-        clean_line = lambda l: l if comment_marker is None else l.split(comment_marker)[0]
-        raw_data = "".join(map(clean_line, json_file.readlines()))
-        return json.loads(raw_data)
+        if comment_marker:
+            clean_line = lambda l: l.split(comment_marker)[0]
+            raw_data = "".join(map(clean_line, json_file.readlines()))
+            return json.loads(raw_data)
+        else:
+            return json.load(json_file)
 
 def read_txt(path):
     with open(path) as txt_file:
@@ -140,23 +151,16 @@ def write_txt(data, path):
     with open(path, "w") as txt_file:
         return txt_file.write(data)
 
+def multiread_json(base_dir, pattern, comment_marker=None):
+    for target in sorted(glob.glob(base_dir + pattern)):
+        key = target.replace(base_dir, '').partition("/")[0]
+        yield (key, read_json(target, comment_marker=comment_marker))
+
 def read_assets(assets_dir):
-    for asset_dir in sorted(os.listdir(assets_dir)):
-        asset_info_path = os.path.join(assets_dir, asset_dir, "info.json")
-
-        if not os.path.exists(asset_info_path):
-            continue
-
-        yield read_json(asset_info_path)
+    yield from multiread_json(assets_dir, "/*/info.json")
 
 def read_blockchains(blockchains_dir, comment_marker=None):
-    for blockchain_dir in sorted(os.listdir(blockchains_dir)):
-        info_path = os.path.join(blockchains_dir, blockchain_dir, "info/info.json")
-
-        if not os.path.exists(info_path):
-            continue
-
-        yield (blockchain_dir, read_json(info_path, comment_marker=comment_marker))
+    yield from multiread_json(blockchains_dir, "/*/info/info.json", comment_marker)
 
 def filter_by_price(tokens, prices):
     for token in tokens:
@@ -196,6 +200,14 @@ def build_token_logo(address):
         base_path = TW_REPO_ROOT + "blockchains/ethereum/assets/"
     asset_path = urljoin(base_path, address + "/")
     return urljoin(asset_path, "logo.png")
+
+def fetch_currency_settings(key):
+    settings = os.path.join(EXT_BLOCKCHAINS, key, "info", "settings.json")
+
+    if os.path.exists(settings):
+        return CurrencySettings(**read_json(settings, comment_marker="//"))
+
+    return None
 
 def build_currency_logo(key):
     if os.path.exists(os.path.join(EXT_BLOCKCHAINS, key, "info", "logo.png")):
@@ -274,7 +286,7 @@ def build_erc20_list(output_file):
 
     # Fetch and parse all info.json files:
     print(f"Reading ETH assets from {ETH_ASSETS}")
-    assets = map(lambda x: Asset.from_dict(x), read_assets(ETH_ASSETS))
+    assets = [Asset.from_dict(info) for key, info in read_assets(ETH_ASSETS)]
 
     # Keep only the active ones:
     assets = filter(lambda x: x.status == 'active', assets)
@@ -300,7 +312,7 @@ def build_erc20_list(output_file):
 
     # Merge with extensions:
     print(f"Reading ETH asset extensions from {ETH_EXT_ASSETS}")
-    extensions = map(lambda x: Asset.from_dict(x), read_assets(ETH_EXT_ASSETS))
+    extensions = [Asset.from_dict(info) for key, info in read_assets(ETH_EXT_ASSETS)]
     extensions = map(ERC20Token.from_asset, extensions)
     tokens = sorted(itertools.chain(tokens, extensions), key=lambda t: t.address)
 

@@ -2,7 +2,13 @@ import json
 import argparse
 
 import itertools
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
+
+@dataclass
+class CurrencySettings:
+    minConfirmations: int
+    minWithdrawal: int
+    custodialPrecision: int
 
 @dataclass
 class Currency:
@@ -10,6 +16,7 @@ class Currency:
     name: str
     type: str
     decimals: int
+    settings: CurrencySettings
     logo: str = None
     removed: bool = False
 
@@ -40,7 +47,9 @@ def main():
     parser.add_argument("currencies", help="Path to currencies JSON file")
     args = parser.parse_args()
 
-    currencies = list(map(lambda x: Currency(**x), read_json(args.currencies)))
+    currencies = map(lambda x: Currency(**x), read_json(args.currencies))
+    currencies = list(map(lambda x: replace(x, settings=CurrencySettings(**x.settings)) if x.settings else x,
+                          currencies))
 
     duplicates = find_duplicates(currencies, lambda t: t.symbol)
 
@@ -50,7 +59,11 @@ def main():
 
     for currency in currencies:
         if currency.logo is None:
-            log_error(f"{currency.symbol}: No logo")
+            log_warning(f"{currency.symbol}: No logo")
+        elif currency.settings is None:
+            log_error(f"{currency.symbol}: No settings")
+        elif currency.settings.custodialPrecision != min(currency.decimals, 9):
+            log_error(f"{currency.symbol}: Unexpected custodialPrecision {currency.settings.custodialPrecision}")
         else:
             log_success(f"{currency.symbol}: OK")
 
