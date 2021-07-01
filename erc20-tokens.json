@@ -9216,14 +9216,6 @@
         "website": "https://duckdao.io"
     },
     {
-        "address": "0xC12D1c73eE7DC3615BA4e37E4ABFdbDDFA38907E",
-        "decimals": 8,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC12D1c73eE7DC3615BA4e37E4ABFdbDDFA38907E/logo.png",
-        "name": "KickToken",
-        "symbol": "KICK",
-        "website": "https://www.kickico.com"
-    },
-    {
         "address": "0xC16b542ff490e01fcc0DC58a60e1EFdc3e357cA6",
         "decimals": 0,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC16b542ff490e01fcc0DC58a60e1EFdc3e357cA6/logo.png",
@@ -11462,14 +11454,6 @@
         "name": "CXN Network",
         "symbol": "CXN",
         "website": "https://cxn.network"
-    },
-    {
-        "address": "0xb525Ecee288B99216CD481C56b6EFbdbE9bF90b5",
-        "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xb525Ecee288B99216CD481C56b6EFbdbE9bF90b5/logo.png",
-        "name": "Kuma Inu Token",
-        "symbol": "KUMA",
-        "website": "https://kumatoken.com"
     },
     {
         "address": "0xb526FD41360c98929006f3bDcBd16d55dE4b0069",

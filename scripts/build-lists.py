@@ -3,6 +3,7 @@ import sys
 import glob
 import json
 
+import argparse
 import itertools
 from dataclasses import asdict, dataclass, fields, replace
 from functools import reduce
@@ -20,6 +21,16 @@ class ERC20Token:
     symbol: str
     website: str
 
+    def regen(self):
+        return ERC20Token(
+            address=self.address,
+            decimals=self.decimals,
+            logo=build_token_logo(self.address),
+            name=self.name,
+            symbol=self.symbol,
+            website=self.website
+        )
+
     @staticmethod
     def from_asset(asset):
         return ERC20Token(
@@ -35,16 +46,27 @@ class ERC20Token:
 class Coin:
     symbol: str
     name: str
+    key: str
     decimals: int
     logo: str
 
-    @staticmethod
-    def from_keyed_chain(kc):
+    def regen(self):
         return Coin(
-            symbol=kc.chain.symbol,
-            name=kc.chain.name,
-            logo=build_currency_logo(kc.key),
-            decimals=kc.chain.decimals
+            symbol=self.symbol,
+            name=self.name,
+            key=self.key,
+            logo=build_currency_logo(self.key),
+            decimals=self.decimals
+        )
+
+    @staticmethod
+    def from_chain(chain):
+        return Coin(
+            symbol=chain.symbol,
+            name=chain.name,
+            key=chain.key,
+            logo=build_currency_logo(chain.key),
+            decimals=chain.decimals
         )
 
 def build_dataclass_from_dict(cls, dict_):
@@ -67,6 +89,7 @@ class Asset:
 @dataclass
 class Blockchain:
     name: str
+    key: str
     symbol: str = None
     decimals: int = None
     status: str = None
@@ -83,13 +106,10 @@ class Blockchain:
         return self.status == 'removed'
 
     @classmethod
-    def from_dict(cls, dict_):
+    def from_dict(cls, key, dict_):
+        dict_ = dict(dict_.items())
+        dict_.update(dict(key=key))
         return build_dataclass_from_dict(cls, dict_)
-
-@dataclass
-class KeyedChain:
-    key: str
-    chain: Blockchain
 
 
 # External URLs
@@ -223,31 +243,31 @@ def dump_duplicates(duplicates, prices):
             print(f"# {token.address}")
 
 
-def build_currencies_list(output_file):
+def build_coins_list(output_file):
     # Fetch and parse all info.json files:
     print(f"Reading blockchains from {BLOCKCHAINS}")
-    chains = [KeyedChain(key, Blockchain.from_dict(chain))
+    chains = [Blockchain.from_dict(key, chain)
               for key, chain in read_blockchains(BLOCKCHAINS)]
-    chains = filter(lambda x: x.chain.is_valid() and x.chain.is_active(), chains)
+    chains = filter(lambda x: x.is_valid() and x.is_active(), chains)
 
     # Build the denylists:
     denylist = set(map(lambda x: (x["symbol"], x["name"]), read_json(EXT_BLOCKCHAINS_DENYLIST)))
 
     # Keep only the active ones:
-    chains = filter(lambda x: x.chain.status == 'active', chains)
+    chains = filter(lambda x: x.status == 'active', chains)
 
     # Make sure the chain is NOT in the denylist:
-    chains = filter(lambda x: (x.chain.symbol, x.chain.name) not in denylist, chains)
+    chains = filter(lambda x: (x.symbol, x.name) not in denylist, chains)
 
     # Merge with extensions:
     print(f"Reading blockchain extensions from {EXT_BLOCKCHAINS}")
-    extensions = [KeyedChain(key, Blockchain.from_dict(chain))
+    extensions = [Blockchain.from_dict(key, chain)
                   for key, chain in read_blockchains(EXT_BLOCKCHAINS, "//")]
 
-    chains = sorted(itertools.chain(chains, extensions), key=lambda t: t.chain.symbol)
+    chains = sorted(itertools.chain(chains, extensions), key=lambda x: x.symbol)
 
     # Convert to Coin instances:
-    coins = list(map(Coin.from_keyed_chain, chains))
+    coins = list(map(Coin.from_chain, chains))
 
     duplicates = find_duplicates(coins, lambda c: c.symbol)
 
@@ -260,8 +280,7 @@ def build_currencies_list(output_file):
     print(f"Writing {len(coins)} coins to {output_file}")
     write_json(coins, output_file, sort_keys=False, indent=2)
 
-
-def build_erc20_list(output_file):
+def build_erc20_tokens_list(output_file):
     # Build the allow/deny lists:
     tw_allowlist = set(map(lambda x: x.lower(), read_json(ETH_ASSETS_ALLOWLIST)))
     tw_denylist = set(map(lambda x: x.lower(), read_json(ETH_ASSETS_DENYLIST)))
@@ -305,10 +324,35 @@ def build_erc20_list(output_file):
     print(f"Writing {len(tokens)} tokens to {output_file}")
     write_json(tokens, output_file)
 
+def regen_coins_list(json_file):
+    coins = map(lambda x: Coin(**x), read_json(json_file))
+    coins = map(lambda x: x.regen(), coins)
+    coins = list(map(asdict, coins))
+
+    print(f"Writing {len(coins)} coins to {json_file}")
+    write_json(coins, json_file, sort_keys=False, indent=2)
+
+def regen_erc20_tokens_list(json_file):
+    tokens = map(lambda x: ERC20Token(**x), read_json(json_file))
+    tokens = map(lambda x: x.regen(), tokens)
+    tokens = list(map(asdict, tokens))
+
+    print(f"Writing {len(tokens)} tokens to {json_file}")
+    write_json(tokens, json_file)
 
 def main():
-    build_currencies_list("coins.json")
-    build_erc20_list("erc20-tokens.json")
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--regen', action='store_true')
+    args = parser.parse_args()
+
+    if args.regen:
+        # "light" regen rebuild mode:
+        regen_coins_list("coins.json")
+        regen_erc20_tokens_list("erc20-tokens.json")
+    else:
+        # full build mode:
+        build_coins_list("coins.json")
+        build_erc20_tokens_list("erc20-tokens.json")
 
 
 if __name__ == '__main__':

@@ -10,15 +10,20 @@ class CheckResult:
         self.ref = ref
         self.msg = msg
 
+    def is_blocker(self):
+        return self.BLOCKER
+
     def __str__(self):
         return f"{self.PREFIX} {self.ref}: {self.msg}"
 
 
 class Error(CheckResult):
     PREFIX = " 🛑 "
+    BLOCKER = True
 
 class Warning(CheckResult):
     PREFIX = " ⚠️  "
+    BLOCKER = False
 
 
 @dataclass
@@ -182,10 +187,14 @@ def main():
     if duplicates:
         raise Exception(f"Duplicate elements found: {compress_duplicates(duplicates)}")
 
-    issues = check_currencies(currencies, coins, erc20_tokens)
+    blocker_found = False
 
-    for issue in issues:
+    for issue in check_currencies(currencies, coins, erc20_tokens):
+        blocker_found = blocker_found or issue.is_blocker()
         print(issue)
+
+    if blocker_found:
+        raise Exception("Blocker issue(s) found")
 
 
 if __name__ == '__main__':
