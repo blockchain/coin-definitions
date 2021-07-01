@@ -32,13 +32,19 @@ class HWSSettings:
     minWithdrawal: int
 
 @dataclass
+class NabuSettings:
+    custodialPrecision: int
+
+@dataclass
 class Currency:
     symbol: str
     type: str
+    nabuSettings: NabuSettings
     hwsSettings: HWSSettings
-    custodialPrecision: int
 
     def __post_init__(self):
+        self.nabuSettings = NabuSettings(**self.nabuSettings)
+
         if self.hwsSettings:
             self.hwsSettings = HWSSettings(**self.hwsSettings)
 
@@ -80,7 +86,7 @@ class Currency:
             yield Error(self, f"minConfirmations {self.hwsSettings.minConfirmations}, expected 30")
 
     def check_precision(self, ref):
-        precision = self.custodialPrecision
+        precision = self.nabuSettings.custodialPrecision
 
         if self.symbol == "ETH":
             expected = [8]
