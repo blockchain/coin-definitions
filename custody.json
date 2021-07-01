@@ -2,7 +2,7 @@
   {
     "symbol": "1INCH",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -32,13 +32,13 @@
   {
     "symbol": "AMP",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "ANKR",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -62,25 +62,25 @@
   {
     "symbol": "BADGER",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "BAL",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "BAND",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "BAT",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -101,7 +101,7 @@
   {
     "symbol": "BNT",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -116,13 +116,13 @@
   {
     "symbol": "BUSD",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "CHZ",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -137,19 +137,19 @@
   {
     "symbol": "COMP",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "CRV",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "CTSI",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -161,7 +161,7 @@
   {
     "symbol": "DAI",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -188,7 +188,7 @@
   {
     "symbol": "DNT",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -245,13 +245,13 @@
   {
     "symbol": "FARM",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "FEI",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -263,31 +263,31 @@
   {
     "symbol": "FLOW",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "FOAM",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "FORTH",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "GRT",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "GTC",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -305,7 +305,7 @@
   {
     "symbol": "HT",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -317,7 +317,7 @@
   {
     "symbol": "KEEP",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -338,31 +338,31 @@
   {
     "symbol": "LEO",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "LINK",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "LOOM",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "LPT",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "LRC",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -377,19 +377,19 @@
   {
     "symbol": "LUNA",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "MANA",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "MATIC",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -401,19 +401,19 @@
   {
     "symbol": "MIR",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "MKR",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "MLN",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -431,25 +431,25 @@
   {
     "symbol": "NEXO",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "NKN",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "NMR",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "NU",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -464,19 +464,19 @@
   {
     "symbol": "OKB",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "OMG",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "OXT",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -491,55 +491,55 @@
   {
     "symbol": "POLY",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "PROPS",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "REN",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "REPv2",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "RLC",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "RUNE",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "SHIB",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "SKL",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "SNX",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -566,19 +566,19 @@
   {
     "symbol": "SUSHI",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "SXP",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "TBTC",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -602,7 +602,7 @@
   {
     "symbol": "TRB",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -614,13 +614,13 @@
   {
     "symbol": "TUSD",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
     "symbol": "UMA",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {
@@ -701,7 +701,7 @@
   {
     "symbol": "XYO",
     "type": "ERC20",
-    "custodialPrecision": 9,
+    "custodialPrecision": 8,
     "hwsSettings": null
   },
   {

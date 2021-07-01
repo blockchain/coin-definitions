@@ -95,6 +95,7 @@ class Currency:
 class Coin:
     symbol: str
     name: str
+    key: str
     decimals: int
     logo: str
 
