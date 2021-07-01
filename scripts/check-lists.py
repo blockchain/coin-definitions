@@ -65,16 +65,21 @@ class Currency:
         if self.hwsSettings is None:
             return
 
+        minWithdrawal = self.hwsSettings.minWithdrawal
+
+        if minWithdrawal == 0:
+            return
+
         try:
             price = ref.get_price()
         except Exception as e:
             yield Warning(self, f"No price: {e}")
             return
 
-        minWithdrawalValue = self.hwsSettings.minWithdrawal * 1.0 / (10**ref.decimals) * price
+        minWithdrawalValue = minWithdrawal * 1.0 / (10**ref.decimals) * price
 
         if not (0.01 < minWithdrawalValue < 10):
-            yield Warning(self, f"minWithdrawal {self.hwsSettings.minWithdrawal} -> "
+            yield Warning(self, f"minWithdrawal {minWithdrawal} -> "
                                 f"${minWithdrawalValue:.3f} not in the $0.01-$10 USD range")
 
     def check_min_confirmations(self):

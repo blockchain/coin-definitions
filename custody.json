@@ -180,7 +180,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 3e15
+    }
   },
   {
     "symbol": "CRV",
@@ -212,7 +215,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 1e18
+    }
   },
   {
     "symbol": "DASH",
@@ -449,7 +455,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 6e16
+    }
   },
   {
     "symbol": "LOOM",
@@ -757,7 +766,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 3e14
+    }
   },
   {
     "symbol": "TEL",
@@ -854,7 +866,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 3030
+    }
   },
   {
     "symbol": "WDGLD",
