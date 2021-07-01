@@ -3,8 +3,23 @@ import json
 import itertools
 from dataclasses import dataclass, replace
 
-class Error(Exception): pass
-class Warning(Exception): pass
+from urllib import parse, request
+
+class CheckResult:
+    def __init__(self, ref, msg):
+        self.ref = ref
+        self.msg = msg
+
+    def __str__(self):
+        return f"{self.PREFIX} {self.ref}: {self.msg}"
+
+
+class Error(CheckResult):
+    PREFIX = " 🛑 "
+
+class Warning(CheckResult):
+    PREFIX = " ⚠️  "
+
 
 @dataclass
 class HWSSettings:
@@ -26,8 +41,25 @@ class Currency:
         return f"[{self.symbol}, {self.type}]"
 
     def check(self, ref):
-        self.check_precision(ref)
-        self.check_min_confirmations()
+        yield from self.check_precision(ref)
+        yield from self.check_min_confirmations()
+        yield from self.check_price(ref)
+
+    def check_price(self, ref):
+        if self.hwsSettings is None:
+            return
+
+        try:
+            price = ref.get_price()
+        except Exception as e:
+            yield Warning(self, f"No price: {e}")
+            return
+
+        minWithdrawalValue = self.hwsSettings.minWithdrawal * 1.0 / (10**ref.decimals) * price
+
+        if not (0.01 < minWithdrawalValue < 10):
+            yield Warning(self, f"minWithdrawal {self.hwsSettings.minWithdrawal} -> "
+                                f"${minWithdrawalValue:.3f} not in the $0.01-$10 USD range")
 
     def check_min_confirmations(self):
         if self.hwsSettings is None:
@@ -35,7 +67,7 @@ class Currency:
 
         if (self.symbol == "ETH" or self.type == "ERC20") and \
             self.hwsSettings.minConfirmations != 30:
-            raise Error(f"minConfirmations {self.hwsSettings.minConfirmations}, expected 30")
+            yield Error(self, f"minConfirmations {self.hwsSettings.minConfirmations}, expected 30")
 
     def check_precision(self, ref):
         precision = self.custodialPrecision
@@ -47,10 +79,11 @@ class Currency:
         elif self.type == "ERC20":
             expected = min(ref.decimals, 8)
         else:
-            raise Error(f"Invalid type {self.type}")
+            yield Error(self, f"Invalid type {self.type}")
+            return
         
         if precision != expected:
-            raise Error(f"custodialPrecision {precision}, expected {expected}")
+            yield Error(self, f"custodialPrecision {precision}, expected {expected}")
 
 
 @dataclass
@@ -63,9 +96,21 @@ class Coin:
     def __str__(self):
         return f"[{self.symbol}, COIN]"
 
+    def get_price(self):
+        base_url = "https://min-api.cryptocompare.com/data/price"
+        params = {
+            "fsym": self.symbol,
+            "tsyms": "USD"
+        }
+        url = base_url + "?" + parse.urlencode(params)
+        response = json.loads(request.urlopen(url).read())
+        if response.get("Response") == "Error":
+            raise Exception(response.get("Message"))
+        return response["USD"]
+
     def check(self):
         if self.logo is None:
-            raise Warning(f"No logo")
+            yield Warning(self, f"No logo")
 
 
 @dataclass
@@ -80,10 +125,20 @@ class ERC20Token:
     def __str__(self):
         return f"[{self.symbol}, ERC20]"
 
+    def get_price(self):
+        base_url = "https://api.coingecko.com/api/v3/simple/token_price/ethereum"
+        params = {
+            "contract_addresses": self.address,
+            "vs_currencies": "USD",
+            "include_market_cap": "true"
+        }
+        url = base_url + "?" + parse.urlencode(params)
+        response = request.urlopen(url).read()
+        return json.loads(response)[self.address.lower()]["usd"]
+
     def check(self):
         if self.logo is None:
-            raise Warning(f"No logo")
-
+            yield Warning(self, f"No logo")
 
 
 def read_json(path):
@@ -98,14 +153,22 @@ def find_duplicates(items, key):
 def compress_duplicates(duplicates):
     return [(symbol, [x.name for x in group]) for symbol, group in duplicates]
 
-def log_success(msg): 
-    print(" ✅ " + msg)
+def check_currencies(currencies, coins, erc20_tokens):
+    coins = {x.symbol: x for x in coins}
+    erc20_tokens = {x.symbol: x for x in erc20_tokens}
 
-def log_warning(msg): 
-    print(" ⚠️  " + msg)
+    for currency in currencies:
+        if currency.type == "COIN":
+            ref = coins.get(currency.symbol)
+        else:
+            ref = erc20_tokens.get(currency.symbol)
 
-def log_error(msg): 
-    print(" 🛑 " + msg)
+        if ref is None:
+            yield Error(currency, "Reference not found")
+            continue
+
+        yield from itertools.chain(ref.check(), currency.check(ref))
+
 
 def main():
     coins = list(map(lambda x: Coin(**x), read_json("coins.json")))
@@ -119,27 +182,10 @@ def main():
     if duplicates:
         raise Exception(f"Duplicate elements found: {compress_duplicates(duplicates)}")
 
-    coins = {x.symbol: x for x in coins}
-    erc20_tokens = {x.symbol: x for x in erc20_tokens}
+    issues = check_currencies(currencies, coins, erc20_tokens)
 
-    for currency in currencies:
-        try:
-            if currency.type == "COIN":
-                ref = coins.get(currency.symbol)
-            else:
-                ref = erc20_tokens.get(currency.symbol)
-
-            if ref is None:
-                raise Error("Reference not found")
-
-            ref.check()
-            currency.check(ref)
-
-            log_success(f"{currency}: OK")
-        except Warning as e:
-            log_warning(f"{currency}: {e}")
-        except Error as e:
-            log_error(f"{currency}: {e}")
+    for issue in issues:
+        print(issue)
 
 
 if __name__ == '__main__':

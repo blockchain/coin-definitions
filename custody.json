@@ -9,7 +9,10 @@
     "symbol": "AAVE",
     "type": "ERC20",
     "custodialPrecision": 8,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 1e16
+    }
   },
   {
     "symbol": "ADA",
@@ -21,7 +24,10 @@
     "symbol": "ALGO",
     "type": "COIN",
     "custodialPrecision": 6,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 3e6
+    }
   },
   {
     "symbol": "AMP",
@@ -81,7 +87,10 @@
     "symbol": "BCH",
     "type": "COIN",
     "custodialPrecision": 8,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 3,
+      "minWithdrawal": 5460
+    }
   },
   {
     "symbol": "BNB",
@@ -171,7 +180,10 @@
     "symbol": "DGLD",
     "type": "COIN",
     "custodialPrecision": 8,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 5460
+    }
   },
   {
     "symbol": "DNT",
@@ -183,25 +195,37 @@
     "symbol": "DOGE",
     "type": "COIN",
     "custodialPrecision": 8,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 40,
+      "minWithdrawal": 5460
+    }
   },
   {
     "symbol": "DOT",
     "type": "COIN",
     "custodialPrecision": 9,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 2500000000
+    }
   },
   {
     "symbol": "ENJ",
     "type": "ERC20",
     "custodialPrecision": 8,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 5e18
+    }
   },
   {
     "symbol": "EOS",
     "type": "COIN",
     "custodialPrecision": 4,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "ETC",
@@ -213,7 +237,10 @@
     "symbol": "ETH",
     "type": "COIN",
     "custodialPrecision": 8,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 1e15
+    }
   },
   {
     "symbol": "FARM",
@@ -303,7 +330,10 @@
     "symbol": "LEND",
     "type": "ERC20",
     "custodialPrecision": 8,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 1e18
+    }
   },
   {
     "symbol": "LEO",
@@ -339,7 +369,10 @@
     "symbol": "LTC",
     "type": "COIN",
     "custodialPrecision": 8,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 12,
+      "minWithdrawal": 5460
+    }
   },
   {
     "symbol": "LUNA",
@@ -423,7 +456,10 @@
     "symbol": "OGN",
     "type": "ERC20",
     "custodialPrecision": 8,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 2e18
+    }
   },
   {
     "symbol": "OKB",
@@ -447,7 +483,10 @@
     "symbol": "PAX",
     "type": "ERC20",
     "custodialPrecision": 8,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 1e18
+    }
   },
   {
     "symbol": "POLY",
@@ -519,7 +558,10 @@
     "symbol": "STX",
     "type": "COIN",
     "custodialPrecision": 6,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 2,
+      "minWithdrawal": 1000000
+    }
   },
   {
     "symbol": "SUSHI",
@@ -585,19 +627,28 @@
     "symbol": "UNI",
     "type": "ERC20",
     "custodialPrecision": 8,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 2e16
+    }
   },
   {
     "symbol": "USDC",
     "type": "ERC20",
     "custodialPrecision": 6,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 1e6
+    }
   },
   {
     "symbol": "USDT",
     "type": "ERC20",
     "custodialPrecision": 6,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 1e6
+    }
   },
   {
     "symbol": "WBTC",
@@ -618,7 +669,10 @@
     "symbol": "XLM",
     "type": "COIN",
     "custodialPrecision": 7,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "XMR",
@@ -630,13 +684,19 @@
     "symbol": "XRP",
     "type": "COIN",
     "custodialPrecision": 6,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "XTZ",
     "type": "COIN",
     "custodialPrecision": 6,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 300000
+    }
   },
   {
     "symbol": "XYO",
@@ -648,7 +708,10 @@
     "symbol": "YFI",
     "type": "ERC20",
     "custodialPrecision": 8,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 25e12
+    }
   },
   {
     "symbol": "ZEC",
@@ -666,6 +729,9 @@
     "symbol": "ZRX",
     "type": "ERC20",
     "custodialPrecision": 8,
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 1e18
+    }
   }
 ]
