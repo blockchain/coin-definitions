@@ -46,9 +46,14 @@ class Currency:
         return f"[{self.symbol}, {self.type}]"
 
     def check(self, ref):
+        yield from self.check_type()
         yield from self.check_precision(ref)
         yield from self.check_min_confirmations()
         yield from self.check_price(ref)
+
+    def check_type(self):
+        if self.type not in ("COIN", "ERC20"):
+            yield Error(self, f"Invalid type {self.type}")
 
     def check_price(self, ref):
         if self.hwsSettings is None:
@@ -78,16 +83,13 @@ class Currency:
         precision = self.custodialPrecision
 
         if self.symbol == "ETH":
-            expected = 8
-        elif self.type == "COIN":
-            expected = min(ref.decimals, 9)
-        elif self.type == "ERC20":
-            expected = min(ref.decimals, 8)
+            expected = [8]
+        elif ref.decimals < 9:
+            expected = [ref.decimals]
         else:
-            yield Error(self, f"Invalid type {self.type}")
-            return
+            expected = [8, 9]
         
-        if precision != expected:
+        if precision not in expected:
             yield Error(self, f"custodialPrecision {precision}, expected {expected}")
 
 
