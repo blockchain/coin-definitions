@@ -12,18 +12,11 @@ from urllib import parse, request
 from urllib.parse import urljoin
 
 @dataclass
-class CustodialSettings:
-    minConfirmations: int
-    minWithdrawal: int
-    custodialPrecision: int
-
-@dataclass
 class ERC20Token:
     address: str
     decimals: int
     logo: str
     name: str
-    settings: CustodialSettings
     symbol: str
     website: str
 
@@ -34,29 +27,24 @@ class ERC20Token:
             decimals=asset.decimals,
             logo=build_token_logo(asset.id),
             name=asset.name,
-            settings=fetch_token_settings(asset.id),
             symbol=asset.symbol,
             website=asset.website
         )
 
 @dataclass
-class Currency:
+class Coin:
     symbol: str
     name: str
-    type: str
     decimals: int
     logo: str
-    settings: CustodialSettings
 
     @staticmethod
     def from_keyed_chain(kc):
-        return Currency(
+        return Coin(
             symbol=kc.chain.symbol,
             name=kc.chain.name,
             logo=build_currency_logo(kc.key),
-            type="COIN",
-            decimals=kc.chain.decimals,
-            settings=fetch_currency_settings(kc.key)
+            decimals=kc.chain.decimals
         )
 
 def build_dataclass_from_dict(cls, dict_):
@@ -103,6 +91,7 @@ class KeyedChain:
     key: str
     chain: Blockchain
 
+
 # External URLs
 ETHERSCAN_TOKEN_URL = "https://etherscan.io/token/"
 COIN_GECKO_TOKEN_PRICE_URL = "https://api.coingecko.com/api/v3/simple/token_price/ethereum"
@@ -118,7 +107,7 @@ ETH_EXT_ASSETS_DENYLIST = "extensions/blockchains/ethereum/denylist.txt"
 TW_REPO_ROOT = "https://raw.githubusercontent.com/trustwallet/assets/master/"
 BC_REPO_ROOT = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/"
 
-# Currency params
+# Coin params
 BLOCKCHAINS = "assets/blockchains/"
 
 EXT_BLOCKCHAINS = "extensions/blockchains/"
@@ -203,22 +192,6 @@ def build_token_logo(address):
     asset_path = urljoin(base_path, address + "/")
     return urljoin(asset_path, "logo.png")
 
-def fetch_currency_settings(key):
-    settings = os.path.join(EXT_BLOCKCHAINS, key, "info", "settings.json")
-
-    if os.path.exists(settings):
-        return CustodialSettings(**read_json(settings, comment_marker="//"))
-
-    return None
-
-def fetch_token_settings(address):
-    settings = os.path.join(ETH_EXT_ASSETS, address, "settings.json")
-
-    if os.path.exists(settings):
-        return CustodialSettings(**read_json(settings, comment_marker="//"))
-
-    return None
-
 def build_currency_logo(key):
     if os.path.exists(os.path.join(EXT_BLOCKCHAINS, key, "info", "logo.png")):
         return BC_REPO_ROOT + os.path.join(EXT_BLOCKCHAINS, key, "info", "logo.png")
@@ -273,19 +246,19 @@ def build_currencies_list(output_file):
 
     chains = sorted(itertools.chain(chains, extensions), key=lambda t: t.chain.symbol)
 
-    # Convert to Currency instances:
-    currencies = list(map(Currency.from_keyed_chain, chains))
+    # Convert to Coin instances:
+    coins = list(map(Coin.from_keyed_chain, chains))
 
-    duplicates = find_duplicates(currencies, lambda c: c.symbol)
+    duplicates = find_duplicates(coins, lambda c: c.symbol)
 
     if duplicates:
         raise Exception(f"Duplicates found: {[key for key, group in duplicates]}")
 
     # Convert back to plain dicts:
-    currencies = list(map(asdict, currencies))
+    coins = list(map(asdict, coins))
 
-    print(f"Writing {len(currencies)} currencies to {output_file}")
-    write_json(currencies, output_file, sort_keys=False, indent=2)
+    print(f"Writing {len(coins)} coins to {output_file}")
+    write_json(coins, output_file, sort_keys=False, indent=2)
 
 
 def build_erc20_list(output_file):
@@ -334,8 +307,8 @@ def build_erc20_list(output_file):
 
 
 def main():
-    build_currencies_list("currencies.json")
-    build_erc20_list("erc20-tokens-list.json")
+    build_currencies_list("coins.json")
+    build_erc20_list("erc20-tokens.json")
 
 
 if __name__ == '__main__':

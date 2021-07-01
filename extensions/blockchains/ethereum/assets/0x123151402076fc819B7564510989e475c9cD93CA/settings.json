@@ -1,5 +1,0 @@
-{
-    "minConfirmations": 30,
-    "minWithdrawal": 518134, // 10**8 / 193 (~$1? as of 2020-11-06)
-    "custodialPrecision": 8
-}
