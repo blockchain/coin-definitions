@@ -78,7 +78,6 @@
   {"symbol": "POLY", "name": "Polymath", "type": "ERC20", "decimals": 18},
   {"symbol": "PROPS", "name": "Props Token", "type": "ERC20", "decimals": 18},
   {"symbol": "REN", "name": "Ren", "type": "ERC20", "decimals": 18},
-  {"symbol": "REPv2", "name": "Augur", "type": "ERC20", "decimals": 18},
   {"symbol": "RLC", "name": "iExec RLC", "type": "ERC20", "decimals": 9},
   {"symbol": "RUNE", "name": "THORChain ETH.RUNE", "type": "ERC20", "decimals": 18},
   {"symbol": "SHIB", "name": "Shiba INU", "type": "ERC20", "decimals": 18},
