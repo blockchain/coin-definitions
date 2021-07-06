@@ -794,7 +794,7 @@
     {
         "address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
         "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0D8775F648430679A709E98d2b0Cb6250d2887EF/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x0D8775F648430679A709E98d2b0Cb6250d2887EF/logo.png",
         "name": "Basic Attention Token",
         "symbol": "BAT",
         "website": "https://basicattentiontoken.org"
@@ -914,7 +914,7 @@
     {
         "address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
         "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png",
         "name": "yearn.finance",
         "symbol": "YFI",
         "website": "https://yearn.finance/"
@@ -2066,7 +2066,7 @@
     {
         "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
         "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
         "name": "Uniswap",
         "symbol": "UNI",
         "website": "https://uniswap.org"
@@ -4658,7 +4658,7 @@
     {
         "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
         "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
         "name": "Chainlink",
         "symbol": "LINK",
         "website": "https://chain.link"
@@ -5898,7 +5898,7 @@
     {
         "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
         "name": "Multi-collateral DAI",
         "symbol": "DAI",
         "website": "http://makerdao.com"
@@ -6754,7 +6754,7 @@
     {
         "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
         "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9/logo.png",
         "name": "Aave",
         "symbol": "AAVE",
         "website": "https://aave.com"
@@ -6962,7 +6962,7 @@
     {
         "address": "0x8207c1FfC5B6804F6024322CcF34F29c3541Ae26",
         "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8207c1FfC5B6804F6024322CcF34F29c3541Ae26/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x8207c1FfC5B6804F6024322CcF34F29c3541Ae26/logo.png",
         "name": "Origin Token (OGN)",
         "symbol": "OGN",
         "website": "https://originprotocol.com"
@@ -7450,7 +7450,7 @@
     {
         "address": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
         "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8E870D67F660D95d5be530380D0eC0bd388289E1/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x8E870D67F660D95d5be530380D0eC0bd388289E1/logo.png",
         "name": "Paxos Standard",
         "symbol": "PAX",
         "website": "https://paxos.com/standard"
@@ -8338,7 +8338,7 @@
     {
         "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
         "name": "USD Coin",
         "symbol": "USDC",
         "website": "https://centre.io/usdc"
@@ -9986,7 +9986,7 @@
     {
         "address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
         "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE41d2489571d322189246DaFA5ebDe1F4699F498/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xE41d2489571d322189246DaFA5ebDe1F4699F498/logo.png",
         "name": "ZRX",
         "symbol": "ZRX",
         "website": "https://0x.org"
@@ -10562,7 +10562,7 @@
     {
         "address": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
         "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c/logo.png",
         "name": "Enjin Coin",
         "symbol": "ENJ",
         "website": "https://enjin.io"
@@ -11754,7 +11754,7 @@
     {
         "address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
         "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png",
         "name": "Compound",
         "symbol": "COMP",
         "website": "https://compound.finance"
@@ -12394,7 +12394,7 @@
     {
         "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
         "name": "Tether",
         "symbol": "USDT",
         "website": "https://tether.to"

@@ -11,7 +11,7 @@
     "name": "Algorand",
     "key": "algorand",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/algorand/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/algorand/info/logo.png"
   },
   {
     "symbol": "AR",
@@ -39,7 +39,7 @@
     "name": "Bitcoin Cash",
     "key": "bitcoincash",
     "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/bitcoincash/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/bitcoincash/info/logo.png"
   },
   {
     "symbol": "BNB",
@@ -53,7 +53,7 @@
     "name": "Bitcoin",
     "key": "bitcoin",
     "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/bitcoin/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/bitcoin/info/logo.png"
   },
   {
     "symbol": "CLOUT",
@@ -88,21 +88,21 @@
     "name": "Dogecoin",
     "key": "doge",
     "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/doge/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/doge/info/logo.png"
   },
   {
     "symbol": "DOT",
     "name": "Polkadot",
     "key": "polkadot",
     "decimals": 10,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polkadot/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/polkadot/info/logo.png"
   },
   {
     "symbol": "EOS",
     "name": "EOS",
     "key": "eos",
     "decimals": 4,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/eos/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/eos/info/logo.png"
   },
   {
     "symbol": "ETC",
@@ -116,7 +116,7 @@
     "name": "Ethereum",
     "key": "ethereum",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/info/logo.png"
   },
   {
     "symbol": "FIL",
@@ -144,7 +144,7 @@
     "name": "Litecoin",
     "key": "litecoin",
     "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/litecoin/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/litecoin/info/logo.png"
   },
   {
     "symbol": "MIOTA",
@@ -193,7 +193,7 @@
     "name": "Theta Network",
     "key": "theta",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/theta/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/theta/info/logo.png"
   },
   {
     "symbol": "TRX",
@@ -207,7 +207,7 @@
     "name": "Stellar Lumen",
     "key": "stellar",
     "decimals": 7,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/stellar/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/stellar/info/logo.png"
   },
   {
     "symbol": "XMR",
@@ -228,7 +228,7 @@
     "name": "Tezos",
     "key": "tezos",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/tezos/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/tezos/info/logo.png"
   },
   {
     "symbol": "ZEC",
