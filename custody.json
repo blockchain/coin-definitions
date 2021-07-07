@@ -670,14 +670,6 @@
     "hwsSettings": null
   },
   {
-    "symbol": "REPv2",
-    "type": "ERC20",
-    "nabuSettings": {
-      "custodialPrecision": 8
-    },
-    "hwsSettings": null
-  },
-  {
     "symbol": "RLC",
     "type": "ERC20",
     "nabuSettings": {

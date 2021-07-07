@@ -177,6 +177,9 @@ def check_currencies(currencies, coins, erc20_tokens):
     erc20_tokens = {x.symbol: x for x in erc20_tokens}
 
     for currency in currencies:
+        if currency.symbol.upper() != currency.symbol:
+            yield Error(currency, f"Contains mix of lower and upper case letters")
+
         if currency.type == "COIN":
             ref = coins.get(currency.symbol)
         else:
