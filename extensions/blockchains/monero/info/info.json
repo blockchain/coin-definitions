@@ -1,0 +1,7 @@
+{
+    "name": "Monero",
+    "symbol": "XMR", 
+    "type": "COIN", 
+    "decimals": 12, // https://github.com/trezor/trezor-firmware/blob/f93a8514e8e25b17b02360d9955c0a30999adf68/common/defs/misc/misc.json#L36
+    "status": "active"
+}

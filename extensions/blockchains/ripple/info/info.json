@@ -1,0 +1,7 @@
+{
+    "name": "Ripple",
+    "symbol": "XRP",
+    "type": "COIN",
+    "decimals": 6,
+    "status": "active"
+}

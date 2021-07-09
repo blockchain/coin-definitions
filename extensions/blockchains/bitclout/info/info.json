@@ -1,0 +1,7 @@
+{
+    "name": "BitClout",
+    "symbol": "CLOUT", 
+    "type": "COIN", 
+    "decimals": 9,
+    "status": "active"
+}

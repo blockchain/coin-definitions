@@ -1,17 +1,136 @@
-import os
 import json
-import argparse
 
 import itertools
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
+
+from urllib import parse, request
+
+class CheckResult:
+    def __init__(self, ref, msg):
+        self.ref = ref
+        self.msg = msg
+
+    def is_blocker(self):
+        return self.BLOCKER
+
+    def __str__(self):
+        return f"{self.PREFIX} {self.ref}: {self.msg}"
+
+
+class Error(CheckResult):
+    PREFIX = " 🛑 "
+    BLOCKER = True
+
+class Warning(CheckResult):
+    PREFIX = " ⚠️  "
+    BLOCKER = False
+
+
+@dataclass
+class HWSSettings:
+    minConfirmations: int
+    minWithdrawal: int
+
+@dataclass
+class NabuSettings:
+    custodialPrecision: int
 
 @dataclass
 class Currency:
     symbol: str
-    name: str
     type: str
+    nabuSettings: NabuSettings
+    hwsSettings: HWSSettings
+
+    def __post_init__(self):
+        self.nabuSettings = NabuSettings(**self.nabuSettings)
+
+        if self.hwsSettings:
+            self.hwsSettings = HWSSettings(**self.hwsSettings)
+
+    def __str__(self):
+        return f"[{self.symbol}, {self.type}]"
+
+    def check(self, ref):
+        yield from self.check_type()
+        yield from self.check_precision(ref)
+        yield from self.check_min_confirmations()
+        yield from self.check_price(ref)
+
+    def check_type(self):
+        if self.type not in ("COIN", "ERC20"):
+            yield Error(self, f"Invalid type {self.type}")
+
+    def check_price(self, ref):
+        if self.hwsSettings is None:
+            return
+
+        minWithdrawal = self.hwsSettings.minWithdrawal
+
+        if minWithdrawal == 0:
+            return
+
+        try:
+            price = ref.get_price()
+        except Exception as e:
+            yield Warning(self, f"No price: {e}")
+            return
+
+        minWithdrawalValue = minWithdrawal * 1.0 / (10**ref.decimals) * price
+
+        if not (0.01 < minWithdrawalValue < 10):
+            yield Warning(self, f"minWithdrawal {minWithdrawal} -> "
+                                f"${minWithdrawalValue:.3f} not in the $0.01-$10 USD range")
+
+    def check_min_confirmations(self):
+        if self.hwsSettings is None:
+            return
+
+        if (self.symbol == "ETH" or self.type == "ERC20") and \
+            self.hwsSettings.minConfirmations != 30:
+            yield Error(self, f"minConfirmations {self.hwsSettings.minConfirmations}, expected 30")
+
+    def check_precision(self, ref):
+        precision = self.nabuSettings.custodialPrecision
+
+        if self.symbol == "ETH":
+            expected = [8]
+        elif ref.decimals < 9:
+            expected = [ref.decimals]
+        else:
+            expected = [8, 9]
+        
+        if precision not in expected:
+            yield Error(self, f"custodialPrecision {precision}, expected {expected}")
+
+
+@dataclass
+class Coin:
+    symbol: str
+    name: str
+    key: str
     decimals: int
-    removed: bool = False
+    logo: str
+
+    def __str__(self):
+        return f"[{self.symbol}, COIN]"
+
+    def get_price(self):
+        base_url = "https://min-api.cryptocompare.com/data/price"
+        params = {
+            "fsym": self.symbol,
+            "tsyms": "USD"
+        }
+        url = base_url + "?" + parse.urlencode(params)
+        response = json.loads(request.urlopen(url).read())
+        if response.get("Response") == "Error":
+            raise Exception(response.get("Message"))
+        return response["USD"]
+
+    def check(self):
+        if self.logo is None:
+            yield Warning(self, f"No logo")
+
 
 @dataclass
 class ERC20Token:
@@ -22,43 +141,24 @@ class ERC20Token:
     symbol: str
     website: str
 
-@dataclass
-class Blockchain:
-    decimals: int
-    description: str
-    explorer: str
-    name: str
-    symbol: str
-    type: str
-    website: str
-    status: str = None
-    short_description: str = None
-    source_code: str = None
-    white_paper: str = None
-    research: str = None
-    socials: object = None
-    tags: str = None
+    def __str__(self):
+        return f"[{self.symbol}, ERC20]"
 
-blockchains_denylist = [
-    ('AVAX', 'Avalanche C-Chain'),
-    ('AVAX', 'Avalanche X-Chain'),
-    ('BCH', 'smartBCH'),
-    ('BNB', 'BNB coin')
-]
+    def get_price(self):
+        base_url = "https://api.coingecko.com/api/v3/simple/token_price/ethereum"
+        params = {
+            "contract_addresses": self.address,
+            "vs_currencies": "USD",
+            "include_market_cap": "true"
+        }
+        url = base_url + "?" + parse.urlencode(params)
+        response = request.urlopen(url).read()
+        return json.loads(response)[self.address.lower()]["usd"]
 
-# These can not be checked automatically, we must make sure the parameters are correct:
-currencies_ignorelist = [
-    'AR', # https://docs.arweave.org/developers/server/http-api#ar-and-winston
-    'BSV',
-    'CLOUT',
-    'DGLD',
-    'MIOTA', # https://github.com/iotaledger/firefly/blob/1a99270d2d836a9b5f2bdcbf62ddee713301866c/packages/shared/lib/units.ts#L11-L18
-    'MOB', # https://github.com/mobilecoinfoundation/mobilecoin/blob/2f90154a445c769594dfad881463a2d4a003d7d6/mobilecoind/clients/python/lib/mobilecoin/utilities.py#L3
-    'STX',
-    'TFUEL',
-    'WDGLD',
-    'XMR', # https://github.com/trezor/trezor-firmware/blob/f93a8514e8e25b17b02360d9955c0a30999adf68/common/defs/misc/misc.json#L36
-]
+    def check(self):
+        if self.logo is None:
+            yield Warning(self, f"No logo")
+
 
 def read_json(path):
     with open(path) as json_file:
@@ -72,77 +172,46 @@ def find_duplicates(items, key):
 def compress_duplicates(duplicates):
     return [(symbol, [x.name for x in group]) for symbol, group in duplicates]
 
-def read_blockchains_list(blockchains_dir):
-    for blockchain_dir in sorted(os.listdir(blockchains_dir)):
-        blockchain_info_path = os.path.join(blockchains_dir, blockchain_dir, "info", "info.json")
-
-        if not os.path.exists(blockchain_info_path):
-            continue
-
-        yield read_json(blockchain_info_path)
-
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("currencies", help="Path to currencies JSON file")
-    parser.add_argument("fiat_currencies", help="Path to fiat currencies JSON file")
-    parser.add_argument("blockchains_dir", help="Path to the blockchains directory")
-    parser.add_argument("erc20_tokens", help="Path to erc20 tokens JSON file")
-    args = parser.parse_args()
-
-    currencies = map(lambda x: Currency(**x), read_json(args.currencies))
-    fiat_currencies = map(lambda x: Currency(**x, type="FIAT"), read_json(args.fiat_currencies))
-    erc20_tokens = map(lambda x: ERC20Token(**x), read_json(args.erc20_tokens))
-    blockchains = map(lambda x: Blockchain(**x),
-                      filter(lambda x: x.get('symbol'),
-                             read_blockchains_list(args.blockchains_dir)))
-
-    blockchains = [b for b in blockchains 
-                   if (b.symbol, b.name) not in blockchains_denylist]
-
-    duplicates = find_duplicates(blockchains, lambda t: t.symbol)
-
-    if duplicates:
-        print(f"Duplicate blockchains found: {compress_duplicates(duplicates)}")
-        return
-
-    currencies = list(currencies) + list(fiat_currencies)
-    duplicates = find_duplicates(currencies, lambda t: t.symbol)
-
-    if duplicates:
-        print(f"Duplicate currencies found: {compress_duplicates(duplicates)}")
-        return
-
-    # erc20_tokens = list(erc20_tokens)
-    # duplicates = find_duplicates(blockchains + erc20_tokens, lambda t: t.symbol)
-
-    # if duplicates:
-    #     print(f"Conflicting blockchains and tokens found: {compress_duplicates(duplicates)}")
-    #     return
-
-    blockchains_by_symbol = {x.symbol: x for x in blockchains if x.symbol}
-    tokens_by_symbol = {x.symbol: x for x in erc20_tokens}
+def check_currencies(currencies, coins, erc20_tokens):
+    coins = {x.symbol: x for x in coins}
+    erc20_tokens = {x.symbol: x for x in erc20_tokens}
 
     for currency in currencies:
-        token = tokens_by_symbol.get(currency.symbol)
-        blockchain = blockchains_by_symbol.get(currency.symbol)
+        if currency.symbol.upper() != currency.symbol:
+            yield Error(currency, f"Contains mix of lower and upper case letters")
 
-        ref = token or blockchain
-
-        if ref:
-            type_ = "ERC20" if token else "COIN"
-            if currency.type == type_ and currency.name == ref.name and currency.decimals == ref.decimals:
-                print(f" - ✅ {currency.symbol}: OK")
-                continue
-            if currency.type != type_:
-                print(f" - ❌ {currency.symbol}: Type mismatch: '{currency.type}' vs '{type_}'")
-            if currency.name != ref.name:
-                print(f" - ❌ {currency.symbol}: Name mismatch: '{currency.name}' vs '{ref.name}'")
-            if currency.decimals != ref.decimals:
-                print(f" - ❌ {currency.symbol}: Decimals mismatch: {currency.decimals} vs {ref.decimals}")
-        elif currency.symbol in currencies_ignorelist:
-            print(f" - ✅ {currency.symbol}: Whitelisted")
+        if currency.type == "COIN":
+            ref = coins.get(currency.symbol)
         else:
-            print(f" - ❓ {currency.symbol} ({currency.name}): Can't verify")
+            ref = erc20_tokens.get(currency.symbol)
+
+        if ref is None:
+            yield Error(currency, "Reference not found")
+            continue
+
+        yield from itertools.chain(ref.check(), currency.check(ref))
+
+
+def main():
+    coins = list(map(lambda x: Coin(**x), read_json("coins.json")))
+    erc20_tokens = list(map(lambda x: ERC20Token(**x), read_json("erc20-tokens.json")))
+
+    currencies = map(lambda x: Currency(**x), read_json("custody.json"))
+
+    combined = sorted(itertools.chain(coins, erc20_tokens), key=lambda x: x.symbol)
+    duplicates = find_duplicates(combined, lambda t: t.symbol)
+
+    if duplicates:
+        raise Exception(f"Duplicate elements found: {compress_duplicates(duplicates)}")
+
+    blocker_found = False
+
+    for issue in check_currencies(currencies, coins, erc20_tokens):
+        blocker_found = blocker_found or issue.is_blocker()
+        print(issue)
+
+    if blocker_found:
+        raise Exception("Blocker issue(s) found")
 
 
 if __name__ == '__main__':

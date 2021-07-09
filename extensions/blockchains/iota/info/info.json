@@ -1,0 +1,7 @@
+{
+    "name": "IOTA",
+    "symbol": "MIOTA", 
+    "type": "COIN", 
+    "decimals": 15, // https://github.com/iotaledger/firefly/blob/1a99270d2d836a9b5f2bdcbf62ddee713301866c/packages/shared/lib/units.ts#L11-L18
+    "status": "active"
+}

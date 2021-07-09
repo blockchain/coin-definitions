@@ -1,0 +1,7 @@
+{
+    "name": "Arweave",
+    "symbol": "AR", 
+    "type": "COIN", 
+    "decimals": 12, // https://docs.arweave.org/developers/server/http-api#ar-and-winston
+    "status": "active"
+}
