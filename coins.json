@@ -49,6 +49,13 @@
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/info/logo.png"
   },
   {
+    "symbol": "BSV",
+    "name": "Bitcoin Satoshi Vision",
+    "key": "bitcoinsv",
+    "decimals": 8,
+    "logo": null
+  },
+  {
     "symbol": "BTC",
     "name": "Bitcoin",
     "key": "bitcoin",
