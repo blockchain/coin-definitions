@@ -41,6 +41,7 @@ class Currency:
     type: str
     nabuSettings: NabuSettings
     hwsSettings: HWSSettings
+    removed: bool = False
 
     def __post_init__(self):
         self.nabuSettings = NabuSettings(**self.nabuSettings)

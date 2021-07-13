@@ -137,6 +137,15 @@
     "hwsSettings": null
   },
   {
+    "symbol": "BSV",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null,
+    "removed": true
+  },
+  {
     "symbol": "BTC",
     "type": "COIN",
     "nabuSettings": {
