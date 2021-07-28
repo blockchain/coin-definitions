@@ -1,0 +1,11 @@
+{
+    "name": "Efinity Token",
+    "website": "https://enjin.io/",
+    "description": "",
+    "explorer": "",
+    "type": "ERC20",
+    "symbol": "EFI",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x656C00e1BcD96f256F224AD9112FF426Ef053733"
+}
