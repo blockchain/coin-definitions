@@ -690,6 +690,17 @@
     "hwsSettings": null
   },
   {
+    "symbol": "RENBTC",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "RLC",
     "type": "ERC20",
     "nabuSettings": {

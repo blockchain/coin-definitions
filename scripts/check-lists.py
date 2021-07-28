@@ -174,17 +174,17 @@ def compress_duplicates(duplicates):
     return [(symbol, [x.name for x in group]) for symbol, group in duplicates]
 
 def check_currencies(currencies, coins, erc20_tokens):
-    coins = {x.symbol: x for x in coins}
-    erc20_tokens = {x.symbol: x for x in erc20_tokens}
+    coins = {x.symbol.upper(): x for x in coins}
+    erc20_tokens = {x.symbol.upper(): x for x in erc20_tokens}
 
     for currency in currencies:
         if currency.symbol.upper() != currency.symbol:
             yield Error(currency, f"Contains mix of lower and upper case letters")
 
         if currency.type == "COIN":
-            ref = coins.get(currency.symbol)
+            ref = coins.get(currency.symbol.upper())
         else:
-            ref = erc20_tokens.get(currency.symbol)
+            ref = erc20_tokens.get(currency.symbol.upper())
 
         if ref is None:
             yield Error(currency, "Reference not found")
