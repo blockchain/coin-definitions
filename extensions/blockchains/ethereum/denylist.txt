@@ -285,3 +285,11 @@
 # - https://etherscan.io/token/0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8 (Wrapped USD): https://covenants.eth.link
 #   Price: $0.990892 Market cap: $0.00 (2021-06-25T10:45:07.776396)
 0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8
+
+# 'AXS' is shared by:
+# - https://etherscan.io/token/0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b (Axie Infinity Shard): https://axieinfinity.com
+#   Price: $46.560000 Market cap: $2,539,484,896.43 (2021-07-28T12:25:44.730742)
+# 0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b
+# - https://etherscan.io/token/0xF0c5831EC3Da15f3696B4DAd8B21c7Ce2f007f28 (AXIS Token): https://axistoken.io
+#   Price: $0.089745 Market cap: $0.00 (2021-07-28T12:25:44.730742)
+0xF0c5831EC3Da15f3696B4DAd8B21c7Ce2f007f28

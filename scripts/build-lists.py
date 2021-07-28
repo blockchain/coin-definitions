@@ -272,7 +272,7 @@ def build_coins_list(output_file):
     duplicates = find_duplicates(coins, lambda c: c.symbol)
 
     if duplicates:
-        raise Exception(f"Duplicates found: {[key for key, group in duplicates]}")
+        raise Exception(f"Duplicates found: {duplicates}")
 
     # Convert back to plain dicts:
     coins = list(map(asdict, coins))
