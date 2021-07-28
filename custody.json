@@ -690,7 +690,7 @@
     "hwsSettings": null
   },
   {
-    "symbol": "renBTC",
+    "symbol": "RENBTC",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
