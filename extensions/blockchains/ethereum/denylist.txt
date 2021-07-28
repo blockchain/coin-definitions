@@ -294,5 +294,20 @@
 #   Price: $0.089745 Market cap: $0.00 (2021-07-28T12:25:44.730742)
 0xF0c5831EC3Da15f3696B4DAd8B21c7Ce2f007f28
 
+# 'GENE' is shared by:
+# - https://etherscan.io/token/0x6DD4e4Aad29A40eDd6A409b9c1625186C9855b4D GENE "GENE TOKEN (PARKGENE)": https://parkgene.io
+#   Price: $0.001266 Market cap: $367,671.51 (2021-07-28T15:28:35.859650)
+# 0x6DD4e4Aad29A40eDd6A409b9c1625186C9855b4D
+# - https://etherscan.io/token/0x884181554dfA9e578d36379919C05C25dC4a15bB Gene "Gene Source Code Chain": http://www.gscchain.org
+#   Price: $0.001099 Market cap: $486,785.71 (2021-07-28T15:28:35.859650)
+0x884181554dfA9e578d36379919C05C25dC4a15bB
+# 'RAI' is shared by:
+# - https://etherscan.io/token/0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919 RAI "Rai Reflex Index": https://reflexer.finance
+#   Price: $3.000000 Market cap: $28,218,824.33 (2021-07-28T15:28:35.859650)
+# 0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919
+# - https://etherscan.io/token/0xf30547ff2Df1F1CBE5C8DD758B3dd098C856e38f Rai "Rai Finance": https://rai.finance
+#   Price: $0.599149 Market cap: $0.00 (2021-07-28T15:28:35.859650)
+0xf30547ff2Df1F1CBE5C8DD758B3dd098C856e38f
+
 # Use our own version of renBTC:
 0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D

@@ -7344,14 +7344,6 @@
         "website": "https://uquidcoin.com/"
     },
     {
-        "address": "0x884181554dfA9e578d36379919C05C25dC4a15bB",
-        "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x884181554dfA9e578d36379919C05C25dC4a15bB/logo.png",
-        "name": "Gene Source Code Chain",
-        "symbol": "Gene",
-        "website": "http://www.gscchain.org"
-    },
-    {
         "address": "0x887168120cb89Fb06F3E74Dc4AF20D67dF0977f6",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x887168120cb89Fb06F3E74Dc4AF20D67dF0977f6/logo.png",
@@ -13174,14 +13166,6 @@
         "name": "UNC",
         "symbol": "UNC",
         "website": "https://unicrypt.network"
-    },
-    {
-        "address": "0xf30547ff2Df1F1CBE5C8DD758B3dd098C856e38f",
-        "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xf30547ff2Df1F1CBE5C8DD758B3dd098C856e38f/logo.png",
-        "name": "Rai Finance",
-        "symbol": "Rai",
-        "website": "https://rai.finance"
     },
     {
         "address": "0xf34960d9d60be18cC1D5Afc1A6F012A723a28811",

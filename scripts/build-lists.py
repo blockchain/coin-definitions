@@ -238,7 +238,7 @@ def dump_duplicates(duplicates, prices):
             price = prices.get(token.address.lower(), {})
             usd = price.get("usd")
             usd_market_cap = price.get("usd_market_cap")
-            print(f"# - {urljoin(ETHERSCAN_TOKEN_URL, token.address)} ({token.name}): {token.website}")
+            print(f"# - {urljoin(ETHERSCAN_TOKEN_URL, token.address)} [{token.symbol}] (\"{token.name}\"): {token.website}")
             print(f"#   Price: ${usd:,.6f} Market cap: ${usd_market_cap:,.2f} ({now})")
             print(f"# {token.address}")
 
@@ -269,7 +269,7 @@ def build_coins_list(output_file):
     # Convert to Coin instances:
     coins = list(map(Coin.from_chain, chains))
 
-    duplicates = find_duplicates(coins, lambda c: c.symbol)
+    duplicates = find_duplicates(coins, lambda c: c.symbol.upper())
 
     if duplicates:
         raise Exception(f"Duplicates found: {duplicates}")
@@ -304,19 +304,21 @@ def build_erc20_tokens_list(output_file):
     tokens = list(tokens)
     prices = fetch_all_prices(tokens)
 
-    # Clean up:
+    # Clean up by price:
     tokens = list(filter_by_price(tokens, prices))
-    duplicates = find_duplicates(tokens, lambda t: t.symbol)
-
-    if duplicates:
-        dump_duplicates(duplicates, prices)
-        return
 
     # Merge with extensions:
     print(f"Reading ETH asset extensions from {ETH_EXT_ASSETS}")
     extensions = [Asset.from_dict(info) for key, info in read_assets(ETH_EXT_ASSETS)]
     extensions = map(ERC20Token.from_asset, extensions)
     tokens = sorted(itertools.chain(tokens, extensions), key=lambda t: t.address)
+
+    # Check for duplicates
+    duplicates = find_duplicates(tokens, lambda t: t.symbol.upper())
+
+    if duplicates:
+        dump_duplicates(duplicates, prices)
+        return
 
     # Convert back to plain dicts:
     tokens = list(map(asdict, tokens))
