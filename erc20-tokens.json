@@ -5624,6 +5624,14 @@
         "website": "http://molecular.cc"
     },
     {
+        "address": "0x656C00e1BcD96f256F224AD9112FF426Ef053733",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x656C00e1BcD96f256F224AD9112FF426Ef053733/logo.png",
+        "name": "Efinity Token",
+        "symbol": "EFI",
+        "website": "https://enjin.io/"
+    },
+    {
         "address": "0x65cCD72c0813CE6f2703593B633202a0F3Ca6a0c",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x65cCD72c0813CE6f2703593B633202a0F3Ca6a0c/logo.png",

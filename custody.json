@@ -287,6 +287,17 @@
     }
   },
   {
+    "symbol": "EFI",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "ENJ",
     "type": "ERC20",
     "nabuSettings": {
