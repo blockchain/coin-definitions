@@ -30,6 +30,8 @@ class Warning(CheckResult):
 class HWSSettings:
     minConfirmations: int
     minWithdrawal: int
+    supportsMemo: bool
+    requiresMemo: bool
 
 @dataclass
 class NabuSettings:
