@@ -15,9 +15,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 1e16,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 1e16
     }
   },
   {
@@ -36,9 +34,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 1,
-      "minWithdrawal": 3e6,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 3e6
     }
   },
   {
@@ -121,9 +117,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 3,
-      "minWithdrawal": 5460,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 5460
     }
   },
   {
@@ -159,9 +153,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 2,
-      "minWithdrawal": 5460,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 5460
     }
   },
   {
@@ -188,9 +180,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 4,
-      "minWithdrawal": 2000,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 2000
     }
   },
   {
@@ -201,9 +191,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 3e15,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 3e15
     }
   },
   {
@@ -238,9 +226,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 1e18,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 1e18
     }
   },
   {
@@ -267,9 +253,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 1,
-      "minWithdrawal": 5460,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 5460
     }
   },
   {
@@ -288,9 +272,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 40,
-      "minWithdrawal": 5460,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 5460
     }
   },
   {
@@ -301,9 +283,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 1,
-      "minWithdrawal": 2500000000,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 2500000000
     }
   },
   {
@@ -314,9 +294,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 0,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 0
     }
   },
   {
@@ -327,9 +305,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 5e18,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 5e18
     }
   },
   {
@@ -340,9 +316,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 1,
-      "minWithdrawal": 0,
-      "supportsMemo": true,
-      "requiresMemo": true
+      "minWithdrawal": 0
     }
   },
   {
@@ -361,9 +335,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 1e15,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 1e15
     }
   },
   {
@@ -486,9 +458,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 1e18,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 1e18
     }
   },
   {
@@ -507,9 +477,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 6e16,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 6e16
     }
   },
   {
@@ -544,9 +512,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 12,
-      "minWithdrawal": 5460,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 5460
     }
   },
   {
@@ -661,9 +627,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 2e18,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 2e18
     }
   },
   {
@@ -698,9 +662,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 1e18,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 1e18
     }
   },
   {
@@ -791,9 +753,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 2,
-      "minWithdrawal": 1000000,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 1000000
     }
   },
   {
@@ -804,9 +764,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 0,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 0
     }
   },
   {
@@ -825,9 +783,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 3e14,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 3e14
     }
   },
   {
@@ -894,9 +850,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 2e16,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 2e16
     }
   },
   {
@@ -907,9 +861,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 1e6,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 1e6
     }
   },
   {
@@ -920,9 +872,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 1e6,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 1e6
     }
   },
   {
@@ -933,9 +883,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 3030,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 3030
     }
   },
   {
@@ -946,9 +894,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 518134,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 518134
     }
   },
   {
@@ -959,9 +905,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 1,
-      "minWithdrawal": 0,
-      "supportsMemo": true,
-      "requiresMemo": true
+      "minWithdrawal": 0
     }
   },
   {
@@ -980,9 +924,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 1,
-      "minWithdrawal": 0,
-      "supportsMemo": true,
-      "requiresMemo": true
+      "minWithdrawal": 0
     }
   },
   {
@@ -993,9 +935,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 300000,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 300000
     }
   },
   {
@@ -1014,9 +954,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 25e12,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 25e12
     }
   },
   {
@@ -1043,9 +981,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 1e18,
-      "supportsMemo": false,
-      "requiresMemo": false
+      "minWithdrawal": 1e18
     }
   }
 ]
