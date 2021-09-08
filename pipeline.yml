@@ -29,7 +29,7 @@ resources:
     icon: source-branch
     check_every: 1m
     source:
-      repository: blockchain/coin_definitions
+      repository: blockchain/coin-definitions
       <<: *github_access_token
 
 jobs:
