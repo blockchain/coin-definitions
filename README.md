@@ -65,11 +65,14 @@ Example:
 The file `custody.json` is a list of manually curated assets, combining both L1 coins and ERC20 tokens. Each entry contains:
 
  - symbol: string
+ - displaySymbol: string (nullable)
  - type: string ('COIN' or 'ERC20')
- - custodialPrecision: int
- - hwsSettings: (object, optional)
+ - nabuSettings: object
+    - custodialPrecision: int
+ - hwsSettings: object (nullable)
     - minConfirmations: int
     - minWithdrawal: int
+ - removed: bool (optional)
 
 The `hwsSettings` is optional, it's only set when this particular asset is explicitly supported by the HWS.
 
@@ -77,6 +80,7 @@ Example:
 ```json
   {
     "symbol": "BTC",
+    "displaySymbol": null,
     "type": "COIN",
     "custodialPrecision": 8,
     "hwsSettings": {

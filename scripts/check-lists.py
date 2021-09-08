@@ -38,6 +38,7 @@ class NabuSettings:
 @dataclass
 class Currency:
     symbol: str
+    displaySymbol: str
     type: str
     nabuSettings: NabuSettings
     hwsSettings: HWSSettings
@@ -53,10 +54,15 @@ class Currency:
         return f"[{self.symbol}, {self.type}]"
 
     def check(self, ref):
+        yield from self.check_symbol()
         yield from self.check_type()
         yield from self.check_precision(ref)
         yield from self.check_min_confirmations()
         yield from self.check_price(ref)
+
+    def check_symbol(self):
+        if self.symbol != self.displaySymbol:
+            yield Warning(self, f"displayed as: {self.displaySymbol}")
 
     def check_type(self):
         if self.type not in ("COIN", "ERC20"):
