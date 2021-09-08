@@ -517,9 +517,9 @@
   },
   {
     "symbol": "LUNA",
-    "type": "ERC20",
+    "type": "COIN",
     "nabuSettings": {
-      "custodialPrecision": 8
+      "custodialPrecision": 6
     },
     "hwsSettings": null
   },
@@ -902,6 +902,14 @@
       "minConfirmations": 30,
       "minWithdrawal": 518134
     }
+  },
+  {
+    "symbol": "WLUNA",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null
   },
   {
     "symbol": "XLM",

@@ -293,3 +293,6 @@
 # - https://etherscan.io/token/0xF0c5831EC3Da15f3696B4DAd8B21c7Ce2f007f28 (AXIS Token): https://axistoken.io
 #   Price: $0.089745 Market cap: $0.00 (2021-07-28T12:25:44.730742)
 0xF0c5831EC3Da15f3696B4DAd8B21c7Ce2f007f28
+
+# Disabling the original LUNA token to override its symbol with 'WLUNA':
+0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9

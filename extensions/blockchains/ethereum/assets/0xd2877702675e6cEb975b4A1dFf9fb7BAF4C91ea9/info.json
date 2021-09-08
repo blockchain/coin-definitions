@@ -1,0 +1,11 @@
+{
+    "name": "LUNA Token",
+    "website": "https://terra.money",
+    "description": "",
+    "explorer": "",
+    "type": "ERC20",
+    "symbol": "WLUNA",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9"
+}

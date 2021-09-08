@@ -20,7 +20,6 @@
   {"symbol": "ICX", "name": "ICON"},
   {"symbol": "IOTX", "name": "IoTeX"},
   {"symbol": "KSM", "name": "Kusama"},
-  {"symbol": "LUNA", "name": "Terra"},
   {"symbol": "MATIC", "name": "Polygon"},
   {"symbol": "NANO", "name": "Nano"},
   {"symbol": "NAS", "name": "Nebulas"},
