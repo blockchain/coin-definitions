@@ -5,7 +5,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "AAVE",
