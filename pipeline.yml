@@ -24,14 +24,6 @@ resource_types:
       repository: cfcommunity/slack-notification-resource
 
 resources:
-  - name: master-branch
-    type: git
-    icon: source-branch
-    source:
-      branch: master
-      private_key: ((private_key_coin_definitions))
-      uri: git@github.com:blockchain/coin_definitions.git
-
   - name: pull-request
     type: pull-request-resource
     icon: source-branch
@@ -39,29 +31,6 @@ resources:
     source:
       repository: blockchain/coin_definitions
       <<: *github_access_token
-
-  - name: commit-status
-    type: github-status
-    icon: github
-    source:
-      repository: blockchain/service-nabu-core
-      <<: *github_access_token
-      context: ci/master
-  - name: pr-dev-label
-    type: pull-request-resource
-    check_every: 1m
-    icon: source-branch
-    source:
-      repository: blockchain/service-nabu-core
-      labels:
-        - build-dev-image
-      <<: *github_access_token
-
-  - name: slack-alert
-    type: slack-notification
-    icon: slack
-    source:
-      url: ((slack_hook))
 
 jobs:
   - name: check
