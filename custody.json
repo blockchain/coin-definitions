@@ -806,7 +806,10 @@
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 2.7e18
+    }
   },
   {
     "symbol": "THETA",
@@ -814,7 +817,10 @@
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 1e17
+    }
   },
   {
     "symbol": "TRB",
