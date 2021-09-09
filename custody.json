@@ -1,6 +1,7 @@
 [
   {
     "symbol": "1INCH",
+    "displaySymbol": "1INCH",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -9,6 +10,7 @@
   },
   {
     "symbol": "AAVE",
+    "displaySymbol": "AAVE",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -20,6 +22,7 @@
   },
   {
     "symbol": "ADA",
+    "displaySymbol": "ADA",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 6
@@ -28,6 +31,7 @@
   },
   {
     "symbol": "ALGO",
+    "displaySymbol": "ALGO",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 6
@@ -39,6 +43,7 @@
   },
   {
     "symbol": "AMP",
+    "displaySymbol": "AMP",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -47,6 +52,7 @@
   },
   {
     "symbol": "ANKR",
+    "displaySymbol": "ANKR",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -55,6 +61,7 @@
   },
   {
     "symbol": "AR",
+    "displaySymbol": "AR",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
@@ -63,6 +70,7 @@
   },
   {
     "symbol": "ATOM",
+    "displaySymbol": "ATOM",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 6
@@ -71,6 +79,7 @@
   },
   {
     "symbol": "AVAX",
+    "displaySymbol": "AVAX",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
@@ -79,6 +88,7 @@
   },
   {
     "symbol": "BADGER",
+    "displaySymbol": "BADGER",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -87,6 +97,7 @@
   },
   {
     "symbol": "BAL",
+    "displaySymbol": "BAL",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -95,6 +106,7 @@
   },
   {
     "symbol": "BAND",
+    "displaySymbol": "BAND",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -103,6 +115,7 @@
   },
   {
     "symbol": "BAT",
+    "displaySymbol": "BAT",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -111,6 +124,7 @@
   },
   {
     "symbol": "BCH",
+    "displaySymbol": "BCH",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -122,6 +136,7 @@
   },
   {
     "symbol": "BNB",
+    "displaySymbol": "BNB",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
@@ -130,6 +145,7 @@
   },
   {
     "symbol": "BNT",
+    "displaySymbol": "BNT",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -138,6 +154,7 @@
   },
   {
     "symbol": "BSV",
+    "displaySymbol": "BSV",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -147,6 +164,7 @@
   },
   {
     "symbol": "BTC",
+    "displaySymbol": "BTC",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -158,6 +176,7 @@
   },
   {
     "symbol": "BUSD",
+    "displaySymbol": "BUSD",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -166,6 +185,7 @@
   },
   {
     "symbol": "CHZ",
+    "displaySymbol": "CHZ",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -174,6 +194,7 @@
   },
   {
     "symbol": "CLOUT",
+    "displaySymbol": "CLOUT",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
@@ -185,6 +206,7 @@
   },
   {
     "symbol": "COMP",
+    "displaySymbol": "COMP",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -196,6 +218,7 @@
   },
   {
     "symbol": "CRV",
+    "displaySymbol": "CRV",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -204,6 +227,7 @@
   },
   {
     "symbol": "CTSI",
+    "displaySymbol": "CTSI",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -212,6 +236,7 @@
   },
   {
     "symbol": "CVC",
+    "displaySymbol": "CVC",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -220,6 +245,7 @@
   },
   {
     "symbol": "DAI",
+    "displaySymbol": "DAI",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -231,6 +257,7 @@
   },
   {
     "symbol": "DASH",
+    "displaySymbol": "DASH",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -239,6 +266,7 @@
   },
   {
     "symbol": "DCR",
+    "displaySymbol": "DCR",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -247,6 +275,7 @@
   },
   {
     "symbol": "DGLD",
+    "displaySymbol": "DGLD",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -258,6 +287,7 @@
   },
   {
     "symbol": "DNT",
+    "displaySymbol": "DNT",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -266,6 +296,7 @@
   },
   {
     "symbol": "DOGE",
+    "displaySymbol": "DOGE",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -277,6 +308,7 @@
   },
   {
     "symbol": "DOT",
+    "displaySymbol": "DOT",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
@@ -288,6 +320,7 @@
   },
   {
     "symbol": "EFI",
+    "displaySymbol": "EFI",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -299,6 +332,7 @@
   },
   {
     "symbol": "ENJ",
+    "displaySymbol": "ENJ",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -310,6 +344,7 @@
   },
   {
     "symbol": "EOS",
+    "displaySymbol": "EOS",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 4
@@ -321,6 +356,7 @@
   },
   {
     "symbol": "ETC",
+    "displaySymbol": "ETC",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
@@ -329,6 +365,7 @@
   },
   {
     "symbol": "ETH",
+    "displaySymbol": "ETH",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -340,6 +377,7 @@
   },
   {
     "symbol": "FARM",
+    "displaySymbol": "FARM",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -348,6 +386,7 @@
   },
   {
     "symbol": "FEI",
+    "displaySymbol": "FEI",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -356,6 +395,7 @@
   },
   {
     "symbol": "FIL",
+    "displaySymbol": "FIL",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
@@ -364,6 +404,7 @@
   },
   {
     "symbol": "FLOW",
+    "displaySymbol": "FLOW",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -372,6 +413,7 @@
   },
   {
     "symbol": "FOAM",
+    "displaySymbol": "FOAM",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -380,6 +422,7 @@
   },
   {
     "symbol": "FORTH",
+    "displaySymbol": "FORTH",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -388,6 +431,7 @@
   },
   {
     "symbol": "GRT",
+    "displaySymbol": "GRT",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -396,6 +440,7 @@
   },
   {
     "symbol": "GTC",
+    "displaySymbol": "GTC",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -404,6 +449,7 @@
   },
   {
     "symbol": "GUSD",
+    "displaySymbol": "GUSD",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 2
@@ -412,6 +458,7 @@
   },
   {
     "symbol": "HEX",
+    "displaySymbol": "HEX",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -420,6 +467,7 @@
   },
   {
     "symbol": "HT",
+    "displaySymbol": "HT",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -428,6 +476,7 @@
   },
   {
     "symbol": "KAVA",
+    "displaySymbol": "KAVA",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 6
@@ -436,6 +485,7 @@
   },
   {
     "symbol": "KEEP",
+    "displaySymbol": "KEEP",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -444,6 +494,7 @@
   },
   {
     "symbol": "KIN",
+    "displaySymbol": "KIN",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 5
@@ -460,6 +511,7 @@
   },
   {
     "symbol": "LEND",
+    "displaySymbol": "LEND",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -471,6 +523,7 @@
   },
   {
     "symbol": "LEO",
+    "displaySymbol": "LEO",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -479,6 +532,7 @@
   },
   {
     "symbol": "LINK",
+    "displaySymbol": "LINK",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -490,6 +544,7 @@
   },
   {
     "symbol": "LOOM",
+    "displaySymbol": "LOOM",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -498,6 +553,7 @@
   },
   {
     "symbol": "LPT",
+    "displaySymbol": "LPT",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -506,6 +562,7 @@
   },
   {
     "symbol": "LRC",
+    "displaySymbol": "LRC",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -514,6 +571,7 @@
   },
   {
     "symbol": "LTC",
+    "displaySymbol": "LTC",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -525,6 +583,7 @@
   },
   {
     "symbol": "LUNA",
+    "displaySymbol": "LUNA",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -533,6 +592,7 @@
   },
   {
     "symbol": "MANA",
+    "displaySymbol": "MANA",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -541,6 +601,7 @@
   },
   {
     "symbol": "MATIC",
+    "displaySymbol": "MATIC",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -552,6 +613,7 @@
   },
   {
     "symbol": "MIOTA",
+    "displaySymbol": "MIOTA",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
@@ -560,6 +622,7 @@
   },
   {
     "symbol": "MIR",
+    "displaySymbol": "MIR",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -568,6 +631,7 @@
   },
   {
     "symbol": "MKR",
+    "displaySymbol": "MKR",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -579,6 +643,7 @@
   },
   {
     "symbol": "MLN",
+    "displaySymbol": "MLN",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -587,6 +652,7 @@
   },
   {
     "symbol": "MOB",
+    "displaySymbol": "MOB",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
@@ -595,6 +661,7 @@
   },
   {
     "symbol": "NEAR",
+    "displaySymbol": "NEAR",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
@@ -603,6 +670,7 @@
   },
   {
     "symbol": "NEXO",
+    "displaySymbol": "NEXO",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -611,6 +679,7 @@
   },
   {
     "symbol": "NKN",
+    "displaySymbol": "NKN",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -619,6 +688,7 @@
   },
   {
     "symbol": "NMR",
+    "displaySymbol": "NMR",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -627,6 +697,7 @@
   },
   {
     "symbol": "NU",
+    "displaySymbol": "NU",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -635,6 +706,7 @@
   },
   {
     "symbol": "OGN",
+    "displaySymbol": "OGN",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -646,6 +718,7 @@
   },
   {
     "symbol": "OKB",
+    "displaySymbol": "OKB",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -654,6 +727,7 @@
   },
   {
     "symbol": "OMG",
+    "displaySymbol": "OMG",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -662,6 +736,7 @@
   },
   {
     "symbol": "OXT",
+    "displaySymbol": "OXT",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -670,6 +745,7 @@
   },
   {
     "symbol": "PAX",
+    "displaySymbol": "USDP",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -681,6 +757,7 @@
   },
   {
     "symbol": "POLY",
+    "displaySymbol": "POLY",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -689,6 +766,7 @@
   },
   {
     "symbol": "PROPS",
+    "displaySymbol": "PROPS",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -697,6 +775,7 @@
   },
   {
     "symbol": "REN",
+    "displaySymbol": "REN",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -705,6 +784,7 @@
   },
   {
     "symbol": "RLC",
+    "displaySymbol": "RLC",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -713,6 +793,7 @@
   },
   {
     "symbol": "RUNE",
+    "displaySymbol": "RUNE",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -721,6 +802,7 @@
   },
   {
     "symbol": "SHIB",
+    "displaySymbol": "SHIB",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -729,6 +811,7 @@
   },
   {
     "symbol": "SKL",
+    "displaySymbol": "SKL",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -737,6 +820,7 @@
   },
   {
     "symbol": "SNX",
+    "displaySymbol": "SNX",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -745,6 +829,7 @@
   },
   {
     "symbol": "SOL",
+    "displaySymbol": "SOL",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
@@ -753,6 +838,7 @@
   },
   {
     "symbol": "STORJ",
+    "displaySymbol": "STORJ",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -761,6 +847,7 @@
   },
   {
     "symbol": "STX",
+    "displaySymbol": "STX",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 6
@@ -772,6 +859,7 @@
   },
   {
     "symbol": "SUSHI",
+    "displaySymbol": "SUSHI",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -783,6 +871,7 @@
   },
   {
     "symbol": "SXP",
+    "displaySymbol": "SXP",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -791,6 +880,7 @@
   },
   {
     "symbol": "TBTC",
+    "displaySymbol": "TBTC",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -802,6 +892,7 @@
   },
   {
     "symbol": "TEL",
+    "displaySymbol": "TEL",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 2
@@ -810,22 +901,31 @@
   },
   {
     "symbol": "TFUEL",
+    "displaySymbol": "TFUEL",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 2.7e18
+    }
   },
   {
     "symbol": "THETA",
+    "displaySymbol": "THETA",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 1e17
+    }
   },
   {
     "symbol": "TRB",
+    "displaySymbol": "TRB",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -834,6 +934,7 @@
   },
   {
     "symbol": "TRX",
+    "displaySymbol": "TRX",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 6
@@ -842,6 +943,7 @@
   },
   {
     "symbol": "TUSD",
+    "displaySymbol": "TUSD",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -850,6 +952,7 @@
   },
   {
     "symbol": "UMA",
+    "displaySymbol": "UMA",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -858,6 +961,7 @@
   },
   {
     "symbol": "UNI",
+    "displaySymbol": "UNI",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -869,6 +973,7 @@
   },
   {
     "symbol": "USDC",
+    "displaySymbol": "USDC",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 6
@@ -880,6 +985,7 @@
   },
   {
     "symbol": "USDT",
+    "displaySymbol": "USDT",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 6
@@ -891,6 +997,7 @@
   },
   {
     "symbol": "WBTC",
+    "displaySymbol": "WBTC",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -902,6 +1009,7 @@
   },
   {
     "symbol": "WDGLD",
+    "displaySymbol": "WDGLD",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -913,6 +1021,7 @@
   },
   {
     "symbol": "XLM",
+    "displaySymbol": "XLM",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 7
@@ -924,6 +1033,7 @@
   },
   {
     "symbol": "XMR",
+    "displaySymbol": "XMR",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
@@ -932,6 +1042,7 @@
   },
   {
     "symbol": "XRP",
+    "displaySymbol": "XRP",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 6
@@ -943,6 +1054,7 @@
   },
   {
     "symbol": "XTZ",
+    "displaySymbol": "XTZ",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 6
@@ -954,6 +1066,7 @@
   },
   {
     "symbol": "XYO",
+    "displaySymbol": "XYO",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -962,6 +1075,7 @@
   },
   {
     "symbol": "YFI",
+    "displaySymbol": "YFI",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -973,6 +1087,7 @@
   },
   {
     "symbol": "ZEC",
+    "displaySymbol": "ZEC",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -981,6 +1096,7 @@
   },
   {
     "symbol": "ZIL",
+    "displaySymbol": "ZIL",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
@@ -989,6 +1105,7 @@
   },
   {
     "symbol": "ZRX",
+    "displaySymbol": "ZRX",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
