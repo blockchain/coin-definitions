@@ -502,6 +502,15 @@
     "hwsSettings": null
   },
   {
+    "symbol": "KNC",
+    "displaySymbol": "KNC",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "LEND",
     "displaySymbol": "LEND",
     "type": "ERC20",
