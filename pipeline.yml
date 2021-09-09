@@ -80,7 +80,7 @@ jobs:
 
                 chmod +x check.sh
 
-                echo $(./check.sh) >> ../comment/txt
+                ./check.sh &> ../comment/txt
 
         on_failure:
           put: pull-request
@@ -94,5 +94,5 @@ jobs:
           params:
             path: pull-request
             comment_file: comment/txt
-            context: test
+            context: check
             status: success

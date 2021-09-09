@@ -1,7 +1,9 @@
 import json
 
 import itertools
+import operator
 from dataclasses import dataclass, replace
+from functools import reduce
 
 from urllib import parse, request
 
@@ -205,13 +207,13 @@ def main():
     if duplicates:
         raise Exception(f"Duplicate elements found: {compress_duplicates(duplicates)}")
 
-    blocker_found = False
+    issues = list(check_currencies(currencies, coins, erc20_tokens))
+    
+    print("")
+    print(reduce(operator.add, map(lambda i: "\n- " + str(i), issues)))
+    print("")
 
-    for issue in check_currencies(currencies, coins, erc20_tokens):
-        blocker_found = blocker_found or issue.is_blocker()
-        print("\n" + issue)
-
-    if blocker_found:
+    if any(i.is_blocker() for i in issues):
         raise Exception("Blocker issue(s) found")
 
 
