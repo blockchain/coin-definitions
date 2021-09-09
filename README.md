@@ -65,7 +65,7 @@ Example:
 The file `custody.json` is a list of manually curated assets, combining both L1 coins and ERC20 tokens. Each entry contains:
 
  - symbol: string
- - displaySymbol: string (nullable)
+ - displaySymbol: string
  - type: string ('COIN' or 'ERC20')
  - nabuSettings: object
     - custodialPrecision: int
@@ -80,7 +80,7 @@ Example:
 ```json
   {
     "symbol": "BTC",
-    "displaySymbol": null,
+    "displaySymbol": "BTC",
     "type": "COIN",
     "custodialPrecision": 8,
     "hwsSettings": {
