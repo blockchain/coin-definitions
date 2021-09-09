@@ -1,0 +1,98 @@
+groups:
+  - name: verify
+    jobs:
+      - check
+
+__github_access_token: &github_access_token
+  access_token: ((github-access-token))
+
+
+resource_types:
+  - name: pull-request-resource
+    type: docker-image
+    source:
+      repository: teliaoss/github-pr-resource
+      tag: v0.21.0 # see https://github.com/telia-oss/github-pr-resource/issues/233
+  - name: github-status
+    type: docker-image
+    source:
+      repository: "dpb587/github-status-resource"
+      tag: "master"
+  - name: slack-notification
+    type: docker-image
+    source:
+      repository: cfcommunity/slack-notification-resource
+
+resources:
+  - name: pull-request
+    type: pull-request-resource
+    icon: source-branch
+    check_every: 1m
+    source:
+      repository: blockchain/coin-definitions
+      <<: *github_access_token
+  - name: jre-image
+    type: docker-image
+    icon: language-java
+    source:
+      repository: eu.gcr.io/blockchain-internal/build_common
+      username: _json_key
+      password: ((docker-credentials))
+      tag: latest
+
+jobs:
+  - name: check
+    plan:
+      - in_parallel:
+          - do:
+              - get: pull-request
+                trigger: true
+                version: every
+              - put: update-pr-status
+                resource: pull-request
+                params:
+                  path: pull-request
+                  context: check
+                  status: pending
+          - get: jre-image
+      - task: check
+        image: jre-image
+        config:
+          platform: linux
+          outputs:
+            - name: comment
+          inputs:
+            - name: pull-request
+          run:
+            path: /bin/bash
+            args:
+              - -c
+              - |
+                #!/bin/bash
+                export TERM=dumb
+                set -euxo pipefail
+
+                cd pull-request
+
+                mkdir -p ../comment
+
+                echo "## Coin Definition Check Result" >> ../comment/txt
+
+                chmod +x check.sh
+
+                ./check.sh &> ../comment/txt
+
+        on_failure:
+          put: pull-request
+          params:
+            path: pull-request
+            context: test
+            status: failure
+
+      - in_parallel:
+        - put: pull-request
+          params:
+            path: pull-request
+            comment_file: comment/txt
+            context: check
+            status: success
