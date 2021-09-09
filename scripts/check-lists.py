@@ -22,7 +22,7 @@ class Error(CheckResult):
     BLOCKER = True
 
 class Warning(CheckResult):
-    PREFIX = " ⚠️  "
+    PREFIX = " ⚠️ "
     BLOCKER = False
 
 
@@ -209,7 +209,7 @@ def main():
 
     for issue in check_currencies(currencies, coins, erc20_tokens):
         blocker_found = blocker_found or issue.is_blocker()
-        print(issue)
+        print("\n" + issue)
 
     if blocker_found:
         raise Exception("Blocker issue(s) found")

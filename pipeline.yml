@@ -31,6 +31,14 @@ resources:
     source:
       repository: blockchain/coin-definitions
       <<: *github_access_token
+  - name: jre-image
+    type: docker-image
+    icon: language-java
+    source:
+      repository: eu.gcr.io/blockchain-internal/build_common
+      username: _json_key
+      password: ((docker-credentials))
+      tag: latest
 
 jobs:
   - name: check
@@ -46,12 +54,15 @@ jobs:
                   path: pull-request
                   context: check
                   status: pending
+          - get: jre-image
       - task: check
         image: jre-image
         config:
           platform: linux
           outputs:
             - name: comment
+          inputs:
+            - name: pull-request
           run:
             path: /bin/bash
             args:
@@ -59,15 +70,17 @@ jobs:
               - |
                 #!/bin/bash
                 export TERM=dumb
-                set -e
+                set -euxo pipefail
 
                 cd pull-request
 
-                mkdir -p output
+                mkdir -p ../comment
 
-                echo "## Coin Definition Check Result" >> comment/txt
+                echo "## Coin Definition Check Result" >> ../comment/txt
 
-                echo $(./check.sh) >> comment/txt
+                chmod +x check.sh
+
+                echo $(./check.sh) >> ../comment/txt
 
         on_failure:
           put: pull-request
