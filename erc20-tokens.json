@@ -2274,7 +2274,7 @@
     {
         "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "decimals": 8,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
         "name": "Wrapped Bitcoin",
         "symbol": "WBTC",
         "website": "https://wbtc.network"
