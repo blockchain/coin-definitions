@@ -296,3 +296,6 @@
 
 # Disabling the original LUNA token to override its symbol with 'WLUNA':
 0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9
+
+# Disabling the original DAI token to override its name:
+0x6B175474E89094C44Da98b954EedeAC495271d0F
