@@ -5979,7 +5979,7 @@
         "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
-        "name": "Multi-collateral DAI",
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "website": "http://makerdao.com"
     },
