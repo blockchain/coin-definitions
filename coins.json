@@ -64,7 +64,7 @@
   },
   {
     "symbol": "CLOUT",
-    "name": "BitClout",
+    "name": "DeSo",
     "key": "bitclout",
     "decimals": 9,
     "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/bitclout/info/logo.png"
