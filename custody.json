@@ -752,7 +752,7 @@
   },
   {
     "symbol": "PAX",
-    "displaySymbol": "USDP",
+    "displaySymbol": "PAX",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
