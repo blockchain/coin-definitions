@@ -364,7 +364,10 @@
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 10000,
+      "minWithdrawal": 1e15
+    }
   },
   {
     "symbol": "ETH",
