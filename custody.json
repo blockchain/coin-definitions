@@ -197,7 +197,7 @@
   },
   {
     "symbol": "CLOUT",
-    "displaySymbol": "CLOUT",
+    "displaySymbol": "DESO",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
@@ -364,7 +364,10 @@
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 10000,
+      "minWithdrawal": 1e15
+    }
   },
   {
     "symbol": "ETH",
@@ -749,7 +752,7 @@
   },
   {
     "symbol": "PAX",
-    "displaySymbol": "USDP",
+    "displaySymbol": "PAX",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
