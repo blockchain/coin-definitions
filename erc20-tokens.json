@@ -1194,7 +1194,7 @@
     {
         "address": "0x111111111117dC0aa78b770fA6A738034120C302",
         "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png",
         "name": "1INCH Token",
         "symbol": "1INCH",
         "website": "https://1inch.exchange/"
