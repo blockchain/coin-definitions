@@ -274,9 +274,8 @@ def fetch_coins():
     return list(coins)
 
 def fetch_coin_prices():
-    print(f"Fetching {len(tokens)} pairs from {CRYPTO_COMPARE_COIN_PRICE_URL}")
-
     coins = fetch_coins()
+    print(f"Fetching {len(coins)} pairs from {CRYPTO_COMPARE_COIN_PRICE_URL}")
     prices = dict(
         timestamp=datetime.now().isoformat(),
         prices={coin.symbol: fetch_coin_price(coin.symbol) for coin in coins}
