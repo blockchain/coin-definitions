@@ -21,16 +21,6 @@ class ERC20Token:
     symbol: str
     website: str
 
-    def regen(self):
-        return ERC20Token(
-            address=self.address,
-            decimals=self.decimals,
-            logo=build_token_logo(self.address),
-            name=self.name,
-            symbol=self.symbol,
-            website=self.website
-        )
-
     @staticmethod
     def from_asset(asset):
         return ERC20Token(
@@ -49,15 +39,6 @@ class Coin:
     key: str
     decimals: int
     logo: str
-
-    def regen(self):
-        return Coin(
-            symbol=self.symbol,
-            name=self.name,
-            key=self.key,
-            logo=build_currency_logo(self.key),
-            decimals=self.decimals
-        )
 
     @staticmethod
     def from_chain(chain):
@@ -115,6 +96,7 @@ class Blockchain:
 # External URLs
 ETHERSCAN_TOKEN_URL = "https://etherscan.io/token/"
 COIN_GECKO_TOKEN_PRICE_URL = "https://api.coingecko.com/api/v3/simple/token_price/ethereum"
+CRYPTO_COMPARE_COIN_PRICE_URL = "https://min-api.cryptocompare.com/data/price"
 
 # ERC-20 params
 ETH_ASSETS = "assets/blockchains/ethereum/assets/"
@@ -123,6 +105,7 @@ ETH_ASSETS_DENYLIST = "assets/blockchains/ethereum/denylist.json"
 
 ETH_EXT_ASSETS = "extensions/blockchains/ethereum/assets/"
 ETH_EXT_ASSETS_DENYLIST = "extensions/blockchains/ethereum/denylist.txt"
+ETH_EXT_ASSETS_PRICES = "extensions/blockchains/ethereum/assets/prices.json"
 
 TW_REPO_ROOT = "https://raw.githubusercontent.com/trustwallet/assets/master/"
 BC_REPO_ROOT = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/"
@@ -132,6 +115,7 @@ BLOCKCHAINS = "assets/blockchains/"
 
 EXT_BLOCKCHAINS = "extensions/blockchains/"
 EXT_BLOCKCHAINS_DENYLIST = "extensions/blockchains/denylist.txt"
+EXT_BLOCKCHAINS_PRICES = "extensions/blockchains/prices.json"
 
 
 def chunks(lst, n):
@@ -192,6 +176,18 @@ def fetch_token_prices(addresses):
     response = request.urlopen(url).read()
     return json.loads(response)
 
+def fetch_coin_price(symbol):
+    base_url = CRYPTO_COMPARE_COIN_PRICE_URL
+    params = {
+        "fsym": symbol,
+        "tsyms": "USD"
+    }
+    url = base_url + "?" + parse.urlencode(params)
+    response = json.loads(request.urlopen(url).read())
+    if response.get("Response") == "Error":
+        raise Exception(response.get("Message"))
+    return response["USD"]
+
 def fetch_all_prices(tokens):
     print(f"Fetching {len(tokens)} pairs from {COIN_GECKO_TOKEN_PRICE_URL}")
     ret = {}
@@ -230,20 +226,21 @@ def dump_duplicates(duplicates, prices):
 
     tokens = reduce(lambda a, x: a + x[1], duplicates, [])
     addresses = [x.address for x in tokens]
-    now = datetime.now().isoformat()
+    now = prices['timestamp']
 
     for symbol, tokens in duplicates:
         print(f"# '{symbol}' is shared by:")
         for token in tokens:
-            price = prices.get(token.address.lower(), {})
+            price = prices['prices'].get(token.address.lower(), {})
             usd = price.get("usd")
             usd_market_cap = price.get("usd_market_cap")
             print(f"# - {urljoin(ETHERSCAN_TOKEN_URL, token.address)} ({token.name}): {token.website}")
             print(f"#   Price: ${usd:,.6f} Market cap: ${usd_market_cap:,.2f} ({now})")
             print(f"# {token.address}")
+        print(f"#")
 
 
-def build_coins_list(output_file):
+def fetch_coins():
     # Fetch and parse all info.json files:
     print(f"Reading blockchains from {BLOCKCHAINS}")
     chains = [Blockchain.from_dict(key, chain)
@@ -274,13 +271,27 @@ def build_coins_list(output_file):
     if duplicates:
         raise Exception(f"Duplicates found: {duplicates}")
 
-    # Convert back to plain dicts:
-    coins = list(map(asdict, coins))
+    return list(coins)
+
+def fetch_coin_prices():
+    print(f"Fetching {len(tokens)} pairs from {CRYPTO_COMPARE_COIN_PRICE_URL}")
+
+    coins = fetch_coins()
+    prices = dict(
+        timestamp=datetime.now().isoformat(),
+        prices={coin.symbol: fetch_coin_price(coin.symbol) for coin in coins}
+    )
+    print(f"Writing coin prices to {EXT_BLOCKCHAINS_PRICES}")
+
+    write_json(prices, EXT_BLOCKCHAINS_PRICES)
+
+def build_coins_list(output_file):
+    coins = list(map(asdict, fetch_coins()))
 
     print(f"Writing {len(coins)} coins to {output_file}")
     write_json(coins, output_file, sort_keys=False, indent=2)
 
-def build_erc20_tokens_list(output_file):
+def fetch_erc20_tokens():
     # Build the allow/deny lists:
     tw_allowlist = set(map(lambda x: x.lower(), read_json(ETH_ASSETS_ALLOWLIST)))
     tw_denylist = set(map(lambda x: x.lower(), read_json(ETH_ASSETS_DENYLIST)))
@@ -301,11 +312,25 @@ def build_erc20_tokens_list(output_file):
     tokens = filter(lambda x: x.address.lower() not in tw_denylist, tokens)
     tokens = filter(lambda x: x.address.lower() not in bc_denylist, tokens)
 
-    tokens = list(tokens)
-    prices = fetch_all_prices(tokens)
+    return list(tokens)
+
+def fetch_erc20_token_prices():
+    tokens = fetch_erc20_tokens()
+    prices = dict(
+        timestamp=datetime.now().isoformat(),
+        prices=fetch_all_prices(tokens)
+    )
+    print(f"Writing ETH asset prices to {ETH_EXT_ASSETS_PRICES}")
+    write_json(prices, ETH_EXT_ASSETS_PRICES)
+
+def build_erc20_tokens_list(output_file):
+    tokens = fetch_erc20_tokens()
+
+    print(f"Reading ETH asset prices from {ETH_EXT_ASSETS_PRICES}")
+    prices = read_json(ETH_EXT_ASSETS_PRICES)
 
     # Clean up:
-    tokens = list(filter_by_price(tokens, prices))
+    tokens = list(filter_by_price(tokens, prices['prices']))
     duplicates = find_duplicates(tokens, lambda t: t.symbol)
 
     if duplicates:
@@ -324,33 +349,15 @@ def build_erc20_tokens_list(output_file):
     print(f"Writing {len(tokens)} tokens to {output_file}")
     write_json(tokens, output_file)
 
-def regen_coins_list(json_file):
-    coins = map(lambda x: Coin(**x), read_json(json_file))
-    coins = map(lambda x: x.regen(), coins)
-    coins = list(map(asdict, coins))
-
-    print(f"Writing {len(coins)} coins to {json_file}")
-    write_json(coins, json_file, sort_keys=False, indent=2)
-
-def regen_erc20_tokens_list(json_file):
-    tokens = map(lambda x: ERC20Token(**x), read_json(json_file))
-    tokens = map(lambda x: x.regen(), tokens)
-    tokens = list(map(asdict, tokens))
-
-    print(f"Writing {len(tokens)} tokens to {json_file}")
-    write_json(tokens, json_file)
-
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--regen', action='store_true')
+    parser.add_argument('--fetch-prices', action='store_true')
     args = parser.parse_args()
 
-    if args.regen:
-        # "light" regen rebuild mode:
-        regen_coins_list("coins.json")
-        regen_erc20_tokens_list("erc20-tokens.json")
+    if args.fetch_prices:
+        fetch_coin_prices()
+        fetch_erc20_token_prices()
     else:
-        # full build mode:
         build_coins_list("coins.json")
         build_erc20_tokens_list("erc20-tokens.json")
 

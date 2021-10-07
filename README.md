@@ -98,7 +98,7 @@ To update the definitions, just run `update.sh`:
 $ bash update.sh
 ```
 
-This will bring the `trustwallet` repo up to date, and re-build all lists, and check the results. This can possibly lead to conflicts, in case new tokens that use already existing symbols are added, or prices change and tokens that were ignored previously are not anymore.
+This will bring the `trustwallet` repo up to date, refresh cached prices, re-build all lists, and check the results. This can possibly lead to conflicts, in case new tokens that use already existing symbols are added, or prices change and tokens that were ignored previously are not anymore.
 
 ## Overriding logos:
 
@@ -120,10 +120,10 @@ _For example:_
 extensions/blockchains/ethereum/assets/0x123151402076fc819B7564510989e475c9cD93CA/logo.png
 ```
 
-Then run `build.sh --regen` at the root:
+Then run `build.sh` at the root:
 
 ```
-$ bash build.sh --regen
+$ bash build.sh
 ```
 
 This will re-generate both `coins.json` and `erc20-tokens.json`.
