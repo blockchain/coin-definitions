@@ -32,6 +32,12 @@ class ERC20Token:
             website=asset.website
         )
 
+    def __eq__(self, other):
+        return self.address == other.address
+
+    def __hash__(self):
+        return hash(self.address)
+
 @dataclass
 class Coin:
     symbol: str
@@ -117,6 +123,8 @@ EXT_BLOCKCHAINS = "extensions/blockchains/"
 EXT_BLOCKCHAINS_DENYLIST = "extensions/blockchains/denylist.txt"
 EXT_BLOCKCHAINS_PRICES = "extensions/blockchains/prices.json"
 
+FINAL_BLOCKCHAINS_LIST="coins.json"
+FINAL_ERC20_TOKENS_LIST="erc20-tokens.json"
 
 def chunks(lst, n):
     for i in range(0, len(lst), n):
@@ -232,8 +240,8 @@ def dump_duplicates(duplicates, prices):
         print(f"# '{symbol}' is shared by:")
         for token in tokens:
             price = prices['prices'].get(token.address.lower(), {})
-            usd = price.get("usd")
-            usd_market_cap = price.get("usd_market_cap")
+            usd = price.get("usd") or 0.0
+            usd_market_cap = price.get("usd_market_cap") or 0.0
             print(f"# - {urljoin(ETHERSCAN_TOKEN_URL, token.address)} ({token.name}): {token.website}")
             print(f"#   Price: ${usd:,.6f} Market cap: ${usd_market_cap:,.2f} ({now})")
             print(f"# {token.address}")
@@ -284,11 +292,11 @@ def fetch_coin_prices():
 
     write_json(prices, EXT_BLOCKCHAINS_PRICES)
 
-def build_coins_list(output_file):
+def build_coins_list():
     coins = list(map(asdict, fetch_coins()))
 
-    print(f"Writing {len(coins)} coins to {output_file}")
-    write_json(coins, output_file, sort_keys=False, indent=2)
+    print(f"Writing {len(coins)} coins to {FINAL_BLOCKCHAINS_LIST}")
+    write_json(coins, FINAL_BLOCKCHAINS_LIST, sort_keys=False, indent=2)
 
 def fetch_erc20_tokens():
     # Build the allow/deny lists:
@@ -322,31 +330,38 @@ def fetch_erc20_token_prices():
     print(f"Writing ETH asset prices to {ETH_EXT_ASSETS_PRICES}")
     write_json(prices, ETH_EXT_ASSETS_PRICES)
 
-def build_erc20_tokens_list(output_file):
+def build_erc20_tokens_list():
     tokens = fetch_erc20_tokens()
 
     print(f"Reading ETH asset prices from {ETH_EXT_ASSETS_PRICES}")
     prices = read_json(ETH_EXT_ASSETS_PRICES)
 
-    # Clean up:
+    # Clean up by price:
     tokens = list(filter_by_price(tokens, prices['prices']))
+
+    # Include already selected tokens (to make sure we don't remove a token we had previously selected)
+    print(f"Reading existing assets in {FINAL_ERC20_TOKENS_LIST}")
+    current_tokens = list(map(lambda x: ERC20Token(**x), read_json(FINAL_ERC20_TOKENS_LIST)))
+    tokens = list(set(tokens) | set(current_tokens))
+
+    # Merge with extensions:
+    print(f"Reading ETH asset extensions from {ETH_EXT_ASSETS}")
+    extensions = [Asset.from_dict(info) for key, info in read_assets(ETH_EXT_ASSETS)]
+    extensions = map(ERC20Token.from_asset, extensions)
+    tokens = sorted(set(tokens) | set(extensions), key=lambda t: t.address)
+
+    # Look for duplicates:
     duplicates = find_duplicates(tokens, lambda t: t.symbol)
 
     if duplicates:
         dump_duplicates(duplicates, prices)
         return
 
-    # Merge with extensions:
-    print(f"Reading ETH asset extensions from {ETH_EXT_ASSETS}")
-    extensions = [Asset.from_dict(info) for key, info in read_assets(ETH_EXT_ASSETS)]
-    extensions = map(ERC20Token.from_asset, extensions)
-    tokens = sorted(itertools.chain(tokens, extensions), key=lambda t: t.address)
-
     # Convert back to plain dicts:
     tokens = list(map(asdict, tokens))
 
-    print(f"Writing {len(tokens)} tokens to {output_file}")
-    write_json(tokens, output_file)
+    print(f"Writing {len(tokens)} tokens to {FINAL_ERC20_TOKENS_LIST}")
+    write_json(tokens, FINAL_ERC20_TOKENS_LIST)
 
 def main():
     parser = argparse.ArgumentParser()
@@ -357,8 +372,8 @@ def main():
         fetch_coin_prices()
         fetch_erc20_token_prices()
     else:
-        build_coins_list("coins.json")
-        build_erc20_tokens_list("erc20-tokens.json")
+        build_coins_list()
+        build_erc20_tokens_list()
 
 
 if __name__ == '__main__':

@@ -2272,6 +2272,14 @@
         "website": "https://clv.surge.sh/"
     },
     {
+        "address": "0x224DB5E6180761df4C3d8936585f6b8b83879770",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x224DB5E6180761df4C3d8936585f6b8b83879770/logo.png",
+        "name": "OM Lira",
+        "symbol": "OML",
+        "website": "https://omlira.com"
+    },
+    {
         "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "decimals": 8,
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
@@ -4262,6 +4270,14 @@
         "name": "Ether Kingdoms Token",
         "symbol": "IMP",
         "website": "https://imps.me/"
+    },
+    {
+        "address": "0x48f07301E9E29c3C38a80ae8d9ae771F224f1054",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x48f07301E9E29c3C38a80ae8d9ae771F224f1054/logo.png",
+        "name": "South African Tether",
+        "symbol": "XZAR",
+        "website": "http://www.xzar.co.za/"
     },
     {
         "address": "0x491604c0FDF08347Dd1fa4Ee062a822A5DD06B5D",
@@ -7432,6 +7448,14 @@
         "website": "https://bloodyfi.org/"
     },
     {
+        "address": "0x898BAD2774EB97cF6b94605677F43b41871410B1",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x898BAD2774EB97cF6b94605677F43b41871410B1/logo.png",
+        "name": "vEth2",
+        "symbol": "vETH2",
+        "website": "https://www.sharedstake.org"
+    },
+    {
         "address": "0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD/logo.png",
@@ -8256,6 +8280,14 @@
         "website": "https://dego.finance"
     },
     {
+        "address": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E32b13ce7f2E80A01932B42553652E053D6ed8e/logo.png",
+        "name": "Metis Token",
+        "symbol": "Metis",
+        "website": "https://metis.io"
+    },
+    {
         "address": "0x9E46A38F5DaaBe8683E10793b06749EEF7D733d1",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E46A38F5DaaBe8683E10793b06749EEF7D733d1/logo.png",
@@ -8590,6 +8622,14 @@
         "name": "Folder Protocol Token",
         "symbol": "FOL",
         "website": "https://folderlabs.io/"
+    },
+    {
+        "address": "0xA866F0198208Eb07c83081d5136BE7f775c2399e",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA866F0198208Eb07c83081d5136BE7f775c2399e/logo.png",
+        "name": "KORE Vault",
+        "symbol": "KORE",
+        "website": "https://kVault.finance"
     },
     {
         "address": "0xA89ac6e529aCf391CfbBD377F3aC9D93eae9664e",
@@ -9672,6 +9712,14 @@
         "website": "https://flapptoken.io/"
     },
     {
+        "address": "0xD01ef7C0A5d8c432fc2d1a85c66cF2327362E5C6",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD01ef7C0A5d8c432fc2d1a85c66cF2327362E5C6/logo.png",
+        "name": "aETHb",
+        "symbol": "aETHb",
+        "website": "https://stkr.io/"
+    },
+    {
         "address": "0xD04785C4d8195e4A54d9dEc3a9043872875ae9E2",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD04785C4d8195e4A54d9dEc3a9043872875ae9E2/logo.png",
@@ -9942,6 +9990,14 @@
         "name": "TrustUSD",
         "symbol": "TRUSD",
         "website": "https://unitedtrust.co/"
+    },
+    {
+        "address": "0xDDB3422497E61e13543BeA06989C0789117555c5",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xDDB3422497E61e13543BeA06989C0789117555c5/logo.png",
+        "name": "COTI",
+        "symbol": "COTI",
+        "website": "https://coti.io/"
     },
     {
         "address": "0xDDD460bBD9F79847ea08681563e8A9696867210C",
@@ -11504,6 +11560,14 @@
         "website": "https://www.megabonk.com/"
     },
     {
+        "address": "0xad3E3Fc59dff318BecEaAb7D00EB4F68b1EcF195",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xad3E3Fc59dff318BecEaAb7D00EB4F68b1EcF195/logo.png",
+        "name": "wCUSD",
+        "symbol": "wCUSD",
+        "website": "https://www.wrapped.com"
+    },
+    {
         "address": "0xae353DaEed8DCc7a9a12027F7e070c0A50B7b6A4",
         "decimals": 6,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xae353DaEed8DCc7a9a12027F7e070c0A50B7b6A4/logo.png",
@@ -12544,6 +12608,14 @@
         "website": "https://dav.network"
     },
     {
+        "address": "0xd83C569268930fadAd4cdE6D0cB64450fef32b65",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd83C569268930fadAd4cdE6D0cB64450fef32b65/logo.png",
+        "name": "InvictusCapital.com Token",
+        "symbol": "ICAP",
+        "website": "https://invictuscapital.com/en/icap"
+    },
+    {
         "address": "0xd8446236FA95b9b5f9fd0f8E7Df1a944823c683d",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd8446236FA95b9b5f9fd0f8E7Df1a944823c683d/logo.png",
@@ -12766,6 +12838,14 @@
         "name": "The People's Coin",
         "symbol": "PEEPS",
         "website": "https://thepeoplescoin.money/"
+    },
+    {
+        "address": "0xe172F366678EC7B559F6C2913a437BaaDfd4e6c8",
+        "decimals": 8,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xe172F366678EC7B559F6C2913a437BaaDfd4e6c8/logo.png",
+        "name": "Kauri",
+        "symbol": "KAU",
+        "website": "https://kauricrypto.com"
     },
     {
         "address": "0xe25b0BBA01Dc5630312B6A21927E578061A13f55",
