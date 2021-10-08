@@ -81,15 +81,6 @@
     "hwsSettings": null
   },
   {
-    "symbol": "AVAX",
-    "displaySymbol": "AVAX",
-    "type": "COIN",
-    "nabuSettings": {
-      "custodialPrecision": 9
-    },
-    "hwsSettings": null
-  },
-  {
     "symbol": "BADGER",
     "displaySymbol": "BADGER",
     "type": "ERC20",

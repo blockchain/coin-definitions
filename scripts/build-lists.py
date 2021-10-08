@@ -106,8 +106,6 @@ CRYPTO_COMPARE_COIN_PRICE_URL = "https://min-api.cryptocompare.com/data/price"
 
 # ERC-20 params
 ETH_ASSETS = "assets/blockchains/ethereum/assets/"
-ETH_ASSETS_ALLOWLIST = "assets/blockchains/ethereum/allowlist.json"
-ETH_ASSETS_DENYLIST = "assets/blockchains/ethereum/denylist.json"
 
 ETH_EXT_ASSETS = "extensions/blockchains/ethereum/assets/"
 ETH_EXT_ASSETS_DENYLIST = "extensions/blockchains/ethereum/denylist.txt"
@@ -283,11 +281,20 @@ def fetch_coins():
 
 def fetch_coin_prices():
     coins = fetch_coins()
-    print(f"Fetching {len(coins)} pairs from {CRYPTO_COMPARE_COIN_PRICE_URL}")
     prices = dict(
         timestamp=datetime.now().isoformat(),
-        prices={coin.symbol: fetch_coin_price(coin.symbol) for coin in coins}
+        prices=dict()
     )
+
+    print(f"Fetching {len(coins)} pairs from {CRYPTO_COMPARE_COIN_PRICE_URL}")
+
+    for coin in coins:
+        prices['prices'][coin.symbol] = fetch_coin_price(coin.symbol)
+        sys.stdout.write(".")
+        sys.stdout.flush()
+
+    sys.stdout.write("\n")
+
     print(f"Writing coin prices to {EXT_BLOCKCHAINS_PRICES}")
 
     write_json(prices, EXT_BLOCKCHAINS_PRICES)
@@ -299,11 +306,6 @@ def build_coins_list():
     write_json(coins, FINAL_BLOCKCHAINS_LIST, sort_keys=False, indent=2)
 
 def fetch_erc20_tokens():
-    # Build the allow/deny lists:
-    tw_allowlist = set(map(lambda x: x.lower(), read_json(ETH_ASSETS_ALLOWLIST)))
-    tw_denylist = set(map(lambda x: x.lower(), read_json(ETH_ASSETS_DENYLIST)))
-    bc_denylist = set(map(lambda x: x.lower(), read_txt(ETH_EXT_ASSETS_DENYLIST)))
-
     # Fetch and parse all info.json files:
     print(f"Reading ETH assets from {ETH_ASSETS}")
     assets = [Asset.from_dict(info) for key, info in read_assets(ETH_ASSETS)]
@@ -313,11 +315,6 @@ def fetch_erc20_tokens():
 
     # Convert to Token instances:
     tokens = (ERC20Token.from_asset(asset) for asset in assets)
-
-    # Make sure the asset is in the tw_allowlist and NOT in the denylists:
-    tokens = filter(lambda x: x.address.lower() in tw_allowlist, tokens)
-    tokens = filter(lambda x: x.address.lower() not in tw_denylist, tokens)
-    tokens = filter(lambda x: x.address.lower() not in bc_denylist, tokens)
 
     return list(tokens)
 
@@ -343,6 +340,10 @@ def build_erc20_tokens_list():
     print(f"Reading existing assets in {FINAL_ERC20_TOKENS_LIST}")
     current_tokens = list(map(lambda x: ERC20Token(**x), read_json(FINAL_ERC20_TOKENS_LIST)))
     tokens = list(set(tokens) | set(current_tokens))
+
+    # Make sure the asset is NOT in the denylist:
+    bc_denylist = set(map(lambda x: x.lower(), read_txt(ETH_EXT_ASSETS_DENYLIST)))
+    tokens = filter(lambda x: x.address.lower() not in bc_denylist, tokens)
 
     # Merge with extensions:
     print(f"Reading ETH asset extensions from {ETH_EXT_ASSETS}")
