@@ -349,7 +349,7 @@ def build_erc20_tokens_list():
     print(f"Reading ETH asset extensions from {ETH_EXT_ASSETS}")
     extensions = [Asset.from_dict(info) for key, info in read_assets(ETH_EXT_ASSETS)]
     extensions = map(ERC20Token.from_asset, extensions)
-    tokens = sorted(set(tokens) | set(extensions), key=lambda t: t.address)
+    tokens = sorted(set(extensions) | set(tokens), key=lambda t: t.address)
 
     # Look for duplicates:
     duplicates = find_duplicates(tokens, lambda t: t.symbol)
