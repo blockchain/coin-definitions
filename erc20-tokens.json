@@ -11672,6 +11672,14 @@
         "website": "https://tokelite.io"
     },
     {
+        "address": "0xa774FFB4AF6B0A91331C084E1aebAE6Ad535e6F3",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xa774FFB4AF6B0A91331C084E1aebAE6Ad535e6F3/logo.png",
+        "name": "flexUSD",
+        "symbol": "flexUSD",
+        "website": "https://coinflex.com/"
+    },
+    {
         "address": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa7DE087329BFcda5639247F96140f9DAbe3DeED1/logo.png",
