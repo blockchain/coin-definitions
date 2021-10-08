@@ -32,8 +32,6 @@ Example:
 The auto-generated file `erc20-tokens.json` is a single JSON file that contains the info from each asset listed in https://github.com/trustwallet/assets/tree/master/blockchains/ethereum/assets/, except:
 
  - those with a status other than "active"
- - those that are NOT listed in the "allowlist" (https://github.com/trustwallet/assets/blob/master/blockchains/ethereum/allowlist.json)
- - those that are listed in the "denylist" (https://github.com/trustwallet/assets/blob/master/blockchains/ethereum/denylist.json)
  - those listed in `extensions/blockchains/ethereum/denylist.txt` (used mostly to disambiguate between tokens that have the same symbol)
  - those with either no price or a price of $0 USD, according to https://www.coingecko.com/
 
