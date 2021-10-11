@@ -2,10 +2,8 @@ import json
 
 import itertools
 import operator
-from dataclasses import dataclass, replace
+from dataclasses import dataclass
 from functools import reduce
-
-from urllib import parse, request
 
 class CheckResult:
     def __init__(self, ref, msg):
@@ -55,12 +53,12 @@ class Currency:
     def __str__(self):
         return f"[{self.symbol}, {self.type}]"
 
-    def check(self, ref):
+    def check(self, ref, prices):
         yield from self.check_symbol()
         yield from self.check_type()
         yield from self.check_precision(ref)
         yield from self.check_min_confirmations()
-        yield from self.check_price(ref)
+        yield from self.check_price(ref, prices)
 
     def check_symbol(self):
         if self.symbol != self.displaySymbol:
@@ -70,7 +68,7 @@ class Currency:
         if self.type not in ("COIN", "ERC20"):
             yield Error(self, f"Invalid type {self.type}")
 
-    def check_price(self, ref):
+    def check_price(self, ref, prices):
         if self.hwsSettings is None:
             return
 
@@ -80,7 +78,7 @@ class Currency:
             return
 
         try:
-            price = ref.get_price()
+            price = ref.get_price(prices)
         except Exception as e:
             yield Warning(self, f"No price: {e}")
             return
@@ -124,17 +122,8 @@ class Coin:
     def __str__(self):
         return f"[{self.symbol}, COIN]"
 
-    def get_price(self):
-        base_url = "https://min-api.cryptocompare.com/data/price"
-        params = {
-            "fsym": self.symbol,
-            "tsyms": "USD"
-        }
-        url = base_url + "?" + parse.urlencode(params)
-        response = json.loads(request.urlopen(url).read())
-        if response.get("Response") == "Error":
-            raise Exception(response.get("Message"))
-        return response["USD"]
+    def get_price(self, prices):
+        return prices['coins']['prices'][self.symbol]
 
     def check(self):
         if self.logo is None:
@@ -153,16 +142,8 @@ class ERC20Token:
     def __str__(self):
         return f"[{self.symbol}, ERC20]"
 
-    def get_price(self):
-        base_url = "https://api.coingecko.com/api/v3/simple/token_price/ethereum"
-        params = {
-            "contract_addresses": self.address,
-            "vs_currencies": "USD",
-            "include_market_cap": "true"
-        }
-        url = base_url + "?" + parse.urlencode(params)
-        response = request.urlopen(url).read()
-        return json.loads(response)[self.address.lower()]["usd"]
+    def get_price(self, prices):
+        return prices['erc20_tokens']['prices'][self.address.lower()]["usd"]
 
     def check(self):
         if self.logo is None:
@@ -181,7 +162,7 @@ def find_duplicates(items, key):
 def compress_duplicates(duplicates):
     return [(symbol, [x.name for x in group]) for symbol, group in duplicates]
 
-def check_currencies(currencies, coins, erc20_tokens):
+def check_currencies(currencies, coins, erc20_tokens, prices):
     coins = {x.symbol: x for x in coins}
     erc20_tokens = {x.symbol: x for x in erc20_tokens}
 
@@ -198,7 +179,11 @@ def check_currencies(currencies, coins, erc20_tokens):
             yield Error(currency, "Reference not found")
             continue
 
-        yield from itertools.chain(ref.check(), currency.check(ref))
+        yield from itertools.chain(ref.check(), currency.check(ref, prices))
+
+
+ETH_EXT_ASSETS_PRICES = "extensions/blockchains/ethereum/assets/prices.json"
+EXT_BLOCKCHAINS_PRICES = "extensions/blockchains/prices.json"
 
 
 def main():
@@ -213,7 +198,11 @@ def main():
     if duplicates:
         raise Exception(f"Duplicate elements found: {compress_duplicates(duplicates)}")
 
-    issues = list(check_currencies(currencies, coins, erc20_tokens))
+    prices = dict(
+        coins=read_json(EXT_BLOCKCHAINS_PRICES),
+        erc20_tokens=read_json(ETH_EXT_ASSETS_PRICES),
+    )
+    issues = list(check_currencies(currencies, coins, erc20_tokens, prices))
     
     print("")
     print(reduce(operator.add, map(lambda i: "\n- " + str(i), issues)))

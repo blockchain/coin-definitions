@@ -29,10 +29,10 @@
   },
   {
     "symbol": "AVAX",
-    "name": "Avalanche",
-    "key": "avalanche",
+    "name": "Avalanche X-Chain",
+    "key": "avalanchex",
     "decimals": 9,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanche/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchex/info/logo.png"
   },
   {
     "symbol": "BCH",
