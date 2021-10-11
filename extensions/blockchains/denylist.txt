@@ -3,7 +3,6 @@
   {"symbol": "AION", "name": "Aion"},
   {"symbol": "ARETH", "name": "Arbitrum"},
   {"symbol": "AVAX", "name": "Avalanche C-Chain"},
-  {"symbol": "AVAX", "name": "Avalanche X-Chain"},
   {"symbol": "BAND", "name": "BandChain"},
   {"symbol": "BCH", "name": "smartBCH"},
   {"symbol": "BLZ", "name": "Bluzelle"},

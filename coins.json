@@ -28,6 +28,13 @@
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/cosmos/info/logo.png"
   },
   {
+    "symbol": "AVAX",
+    "name": "Avalanche X-Chain",
+    "key": "avalanchex",
+    "decimals": 9,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchex/info/logo.png"
+  },
+  {
     "symbol": "BCH",
     "name": "Bitcoin Cash",
     "key": "bitcoincash",
