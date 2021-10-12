@@ -41,7 +41,6 @@ class Currency:
     symbol: str
     displaySymbol: str
     type: str
-    chain: str
     nabuSettings: NabuSettings
     hwsSettings: HWSSettings
     removed: bool = False
@@ -53,12 +52,10 @@ class Currency:
             self.hwsSettings = HWSSettings(**self.hwsSettings)
 
     def __str__(self):
-        chain = f":{self.chain}" if self.chain else ""
-        return f"[{self.symbol}, {self.type}{chain}]"
+        return f"[{self.symbol}, {self.type}]"
 
     def check(self, ref, prices):
         yield from self.check_symbol()
-        yield from self.check_type()
         yield from self.check_precision(ref)
         yield from self.check_min_confirmations()
         yield from self.check_price(ref, prices)
@@ -66,10 +63,6 @@ class Currency:
     def check_symbol(self):
         if self.symbol != self.displaySymbol:
             yield Warning(self, f"displayed as: {self.displaySymbol}")
-
-    def check_type(self):
-        if self.type not in ("COIN", "ERC20"):
-            yield Error(self, f"Invalid type {self.type}")
 
     def check_price(self, ref, prices):
         if self.hwsSettings is None:
@@ -182,10 +175,9 @@ def check_currencies(currencies, coins, erc20_tokens, chains, prices):
         if currency.type == "COIN":
             ref = coins.get(currency.symbol)
         elif currency.type == "ERC20":
-            if currency.chain == "ethereum":
-                ref = erc20_tokens.get(currency.symbol)
-            else:
-                ret = chains.get(currency.chain).get(currency.symbol)
+            ref = erc20_tokens.get(currency.symbol)
+        elif currency.type == "CELO_TOKEN":
+            ref = chains.get("celo").get(currency.symbol)
         else:
             yield Error(currency, "Invalid type")
             continue

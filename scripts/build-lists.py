@@ -121,9 +121,6 @@ EXT_BLOCKCHAINS = "extensions/blockchains/"
 EXT_BLOCKCHAINS_DENYLIST = "extensions/blockchains/denylist.txt"
 EXT_BLOCKCHAINS_PRICES = "extensions/blockchains/prices.json"
 
-CELO_ASSETS="extensions/blockchains/celo/assets/"
-FINAL_CELO_TOKENS_LIST="chain/celo/tokens.json"
-
 FINAL_BLOCKCHAINS_LIST="coins.json"
 FINAL_ERC20_TOKENS_LIST="erc20-tokens.json"
 
@@ -376,6 +373,14 @@ def build_custom_assets(assets_dir, output_file):
     print(f"Writing {len(assets)} assets to {output_file}")
     write_json(assets, output_file)
 
+def build_custom_chain_lists():
+    chains = ["celo"]
+
+    for chain in chains:
+        assets_dir = f"extensions/blockchains/{chain}/assets/"
+        output_file = f"chain/{chain}/tokens.json"
+        build_custom_assets(assets_dir, output_file)
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--fetch-prices', action='store_true')
@@ -387,7 +392,7 @@ def main():
     else:
         build_coins_list()
         build_erc20_tokens_list()
-        build_custom_assets(CELO_ASSETS, FINAL_CELO_TOKENS_LIST)
+        build_custom_chain_lists()
 
 
 if __name__ == '__main__':
