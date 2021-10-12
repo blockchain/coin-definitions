@@ -1,3 +1,4 @@
+import glob
 import json
 
 import itertools
@@ -40,6 +41,7 @@ class Currency:
     symbol: str
     displaySymbol: str
     type: str
+    chain: str
     nabuSettings: NabuSettings
     hwsSettings: HWSSettings
     removed: bool = False
@@ -51,7 +53,8 @@ class Currency:
             self.hwsSettings = HWSSettings(**self.hwsSettings)
 
     def __str__(self):
-        return f"[{self.symbol}, {self.type}]"
+        chain = f":{self.chain}" if self.chain else ""
+        return f"[{self.symbol}, {self.type}{chain}]"
 
     def check(self, ref, prices):
         yield from self.check_symbol()
@@ -154,6 +157,11 @@ def read_json(path):
     with open(path) as json_file:
         return json.load(json_file)
 
+def multiread_json(base_dir, pattern):
+    for target in sorted(glob.glob(base_dir + pattern)):
+        key = target.replace(base_dir, '').partition("/")[0]
+        yield (key, read_json(target))
+
 def find_duplicates(items, key):
     groups = itertools.groupby(sorted(items, key=key), key)
     groups = [(symbol, list(items)) for symbol, items in groups]
@@ -162,9 +170,10 @@ def find_duplicates(items, key):
 def compress_duplicates(duplicates):
     return [(symbol, [x.name for x in group]) for symbol, group in duplicates]
 
-def check_currencies(currencies, coins, erc20_tokens, prices):
+def check_currencies(currencies, coins, erc20_tokens, chains, prices):
     coins = {x.symbol: x for x in coins}
     erc20_tokens = {x.symbol: x for x in erc20_tokens}
+    chains = {k: {t.symbol: t for t in v} for k, v in chains.items()}
 
     for currency in currencies:
         if currency.symbol.upper() != currency.symbol:
@@ -172,8 +181,14 @@ def check_currencies(currencies, coins, erc20_tokens, prices):
 
         if currency.type == "COIN":
             ref = coins.get(currency.symbol)
+        elif currency.type == "ERC20":
+            if currency.chain == "ethereum":
+                ref = erc20_tokens.get(currency.symbol)
+            else:
+                ret = chains.get(currency.chain).get(currency.symbol)
         else:
-            ref = erc20_tokens.get(currency.symbol)
+            yield Error(currency, "Invalid type")
+            continue
 
         if ref is None:
             yield Error(currency, "Reference not found")
@@ -189,6 +204,8 @@ EXT_BLOCKCHAINS_PRICES = "extensions/blockchains/prices.json"
 def main():
     coins = list(map(lambda x: Coin(**x), read_json("coins.json")))
     erc20_tokens = list(map(lambda x: ERC20Token(**x), read_json("erc20-tokens.json")))
+    chains = dict(multiread_json("chain/", "*/tokens.json"))
+    chains = {k: list(map(lambda x: ERC20Token(**x), v)) for k, v in chains.items()}
 
     currencies = map(lambda x: Currency(**x), read_json("custody.json"))
 
@@ -202,7 +219,7 @@ def main():
         coins=read_json(EXT_BLOCKCHAINS_PRICES),
         erc20_tokens=read_json(ETH_EXT_ASSETS_PRICES),
     )
-    issues = list(check_currencies(currencies, coins, erc20_tokens, prices))
+    issues = list(check_currencies(currencies, coins, erc20_tokens, chains, prices))
     
     print("")
     print(reduce(operator.add, map(lambda i: "\n- " + str(i), issues)))
