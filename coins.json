@@ -70,11 +70,25 @@
     "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/celo/info/logo.png"
   },
   {
+    "symbol": "CEUR",
+    "name": "Celo EUR",
+    "key": "ceur",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ceur/info/logo.png"
+  },
+  {
     "symbol": "CLOUT",
     "name": "DeSo",
     "key": "bitclout",
     "decimals": 9,
     "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/bitclout/info/logo.png"
+  },
+  {
+    "symbol": "CUSD",
+    "name": "Celo USD",
+    "key": "cusd",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/cusd/info/logo.png"
   },
   {
     "symbol": "DASH",
