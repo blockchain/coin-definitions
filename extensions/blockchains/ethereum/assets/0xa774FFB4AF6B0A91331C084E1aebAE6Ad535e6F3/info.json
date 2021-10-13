@@ -1,0 +1,11 @@
+{
+    "name": "flexUSD",
+    "website": "https://coinflex.com/",
+    "description": "",
+    "explorer": "",
+    "type": "ERC20",
+    "symbol": "flexUSD",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xa774FFB4AF6B0A91331C084E1aebAE6Ad535e6F3"
+}

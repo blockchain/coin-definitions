@@ -8,5 +8,6 @@ echo '[+] Updating submodules to latest master version...'
 git submodule foreach git checkout master
 git submodule foreach git pull
 
+bash build.sh --fetch-prices
 bash build.sh
 bash check.sh

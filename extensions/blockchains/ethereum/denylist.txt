@@ -299,3 +299,61 @@
 
 # Disabling the original DAI token to override its name:
 0x6B175474E89094C44Da98b954EedeAC495271d0F
+
+# 'BANK' is shared by:
+# - https://etherscan.io/token/0x24A6A37576377F63f194Caa5F518a60f45b42921 (Float BANK): https://floatprotocol.com/
+#   Price: $109.070000 Market cap: $18,714,766.93 (2021-10-07T18:07:53.384094)
+# 0x24A6A37576377F63f194Caa5F518a60f45b42921
+# - https://etherscan.io/token/0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198 (Bankless DAO): https://bankless.community
+#   Price: $0.087106 Market cap: $22,460,378.22 (2021-10-07T18:07:53.384094)
+0x2d94AA3e47d9D5024503Ca8491fcE9A2fB4DA198
+#
+# 'BIRD' is shared by:
+# - https://etherscan.io/token/0x026e62dDEd1a6aD07D93D39f96b9eabd59665e0d (BirdCoin): https://www.birdchain.io/
+#   Price: $0.001300 Market cap: $0.00 (2021-10-07T18:07:53.384094)
+0x026e62dDEd1a6aD07D93D39f96b9eabd59665e0d
+# - https://etherscan.io/token/0x70401dFD142A16dC7031c56E862Fc88Cb9537Ce0 (Bird.Money (BIRD)): https://bird.money
+#   Price: $78.660000 Market cap: $6,913,237.78 (2021-10-07T18:07:53.384094)
+# 0x70401dFD142A16dC7031c56E862Fc88Cb9537Ce0
+#
+# 'CLV' is shared by:
+# - https://etherscan.io/token/0x22222C03318440305aC3e8a7820563d6A9FD777F (Clover): https://clv.surge.sh/
+#   Price: $7.050000 Market cap: $0.00 (2021-10-07T18:07:53.384094)
+# 0x22222C03318440305aC3e8a7820563d6A9FD777F
+# - https://etherscan.io/token/0x80C62FE4487E1351b47Ba49809EBD60ED085bf52 (Clover Finance): https://clover.finance
+#   Price: $1.210000 Market cap: $156,500,192.05 (2021-10-07T18:07:53.384094)
+0x80C62FE4487E1351b47Ba49809EBD60ED085bf52
+#
+# 'CRC' is shared by:
+# - https://etherscan.io/token/0xF41e5Fbc2F6Aac200Dd8619E121CE1f05D150077 (CryCash Token): https://crycash.io/
+#   Price: $0.027629 Market cap: $133,723.83 (2021-10-07T18:07:53.384094)
+# 0xF41e5Fbc2F6Aac200Dd8619E121CE1f05D150077
+# - https://etherscan.io/token/0xFB19C03a02a519a44542343803F3D42578CBc243 (CR Coin): https://crcoinico.com/
+#   Price: $3.720000 Market cap: $0.00 (2021-10-07T18:07:53.384094)
+0xFB19C03a02a519a44542343803F3D42578CBc243
+#
+# 'DATA' is shared by:
+# - https://etherscan.io/token/0x0Cf0Ee63788A0849fE5297F3407f701E122cC023 (Streamr DATAcoin): https://streamr.com
+#   Price: $0.123411 Market cap: $86,051,188.07 (2021-10-07T18:07:53.384094)
+# 0x0Cf0Ee63788A0849fE5297F3407f701E122cC023
+# - https://etherscan.io/token/0x33d63Ba1E57E54779F7dDAeaA7109349344cf5F1 (Data Economy Index): https://www.indexcoop.com/data
+#   Price: $93.440000 Market cap: $1,370,819.47 (2021-10-07T18:07:53.384094)
+0x33d63Ba1E57E54779F7dDAeaA7109349344cf5F1
+#
+# 'EGG' is shared by:
+# - https://etherscan.io/token/0x65cCD72c0813CE6f2703593B633202a0F3Ca6a0c (Nestree): https://www.nestree.io/
+#   Price: $0.004452 Market cap: $0.00 (2021-10-07T18:07:53.384094)
+# 0x65cCD72c0813CE6f2703593B633202a0F3Ca6a0c
+# - https://etherscan.io/token/0xd0983dD6a0334c71d0478255D1F794508026b888 (EGG Protocol): https://cocoricos.io/
+#   Price: $0.019018 Market cap: $0.00 (2021-10-07T18:07:53.384094)
+0xd0983dD6a0334c71d0478255D1F794508026b888
+#
+
+# 'BLANK' is shared by:
+# - https://etherscan.io/token/0x41A3Dba3D677E573636BA691a70ff2D606c29666 (GoBlank): https://www.goblank.io
+#   Price: $0.469728 Market cap: $10,293,097.70 (2021-10-08T16:30:08.872714)
+0x41A3Dba3D677E573636BA691a70ff2D606c29666
+# - https://etherscan.io/token/0xAec7e1f531Bb09115103C53ba76829910Ec48966 (Blank): https://www.goblank.io
+#   Price: $0.000000 Market cap: $0.00 (2021-10-08T16:30:08.872714)
+# 0xAec7e1f531Bb09115103C53ba76829910Ec48966
+#

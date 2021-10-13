@@ -1,0 +1,11 @@
+{
+    "name": "Yield Guild Games Token",
+    "website": "https://yieldguild.io/",
+    "description": "",
+    "explorer": "",
+    "type": "ERC20",
+    "symbol": "YGG",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x25f8087EAD173b73D6e8B84329989A8eEA16CF73"
+}
