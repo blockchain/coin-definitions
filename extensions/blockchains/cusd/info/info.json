@@ -1,7 +1,0 @@
-{
-    "name": "Celo USD",
-    "symbol": "CUSD",
-    "type": "coin",
-    "decimals": 18,
-    "status": "active"
-}

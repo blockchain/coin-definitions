@@ -201,7 +201,7 @@
   {
     "symbol": "CEUR",
     "displaySymbol": "cEUR",
-    "type": "COIN",
+    "type": "CELO_TOKEN",
     "nabuSettings": {
       "custodialPrecision": 9
     },
@@ -264,7 +264,7 @@
   {
     "symbol": "CUSD",
     "displaySymbol": "cUSD",
-    "type": "COIN",
+    "type": "CELO_TOKEN",
     "nabuSettings": {
       "custodialPrecision": 9
     },
