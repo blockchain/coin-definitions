@@ -121,10 +121,6 @@ EXT_BLOCKCHAINS = "extensions/blockchains/"
 EXT_BLOCKCHAINS_DENYLIST = "extensions/blockchains/denylist.txt"
 EXT_BLOCKCHAINS_PRICES = "extensions/blockchains/prices.json"
 
-# BC data cache
-BC_SUPPORTED_SYMBOLS = "extensions/bc_symbols.json"
-
-# Final lists
 FINAL_BLOCKCHAINS_LIST="coins.json"
 FINAL_ERC20_TOKENS_LIST="erc20-tokens.json"
 
@@ -306,10 +302,6 @@ def fetch_coin_prices():
 def build_coins_list():
     coins = list(map(asdict, fetch_coins()))
 
-    # Make sure the asset is in the supported symbols list:
-    bc_supported_symbols = set(read_json(BC_SUPPORTED_SYMBOLS)['symbols'])
-    coins = list(filter(lambda x: x['symbol'] in bc_supported_symbols, coins))
-
     print(f"Writing {len(coins)} coins to {FINAL_BLOCKCHAINS_LIST}")
     write_json(coins, FINAL_BLOCKCHAINS_LIST, sort_keys=False, indent=2)
 
@@ -335,28 +327,6 @@ def fetch_erc20_token_prices():
     print(f"Writing ETH asset prices to {ETH_EXT_ASSETS_PRICES}")
     write_json(prices, ETH_EXT_ASSETS_PRICES)
 
-def read_json_url(url):
-    response = request.urlopen(url).read()
-    return json.loads(response)
-
-def fetch_bc_supported_symbols():
-    print(f"Fetching supported symbols from BC APIs")
-
-    custodials = read_json_url('https://api.blockchain.info/assets/currencies/custodial')['currencies']
-    custodials = list(filter(lambda c: c['type']['name'] != 'FIAT', custodials))
-    custodials = list(filter(lambda c: 'CustodialWalletBalance' in c['products'], custodials))
-    custodials = set([c['symbol'] for c in custodials])
-
-    price_symbols = read_json_url('https://api.blockchain.info/price/symbols')['Base']
-    price_symbols = set([k for k, v in price_symbols.items() if v['fiat'] == False])
-
-    symbols = dict(
-        timestamp=datetime.now().isoformat(),
-        symbols=sorted(custodials | price_symbols)
-    )
-    print(f"Writing BC supported symbols to {BC_SUPPORTED_SYMBOLS}")
-    write_json(symbols, BC_SUPPORTED_SYMBOLS)
-
 def build_erc20_tokens_list():
     tokens = fetch_erc20_tokens()
 
@@ -374,10 +344,6 @@ def build_erc20_tokens_list():
     # Make sure the asset is NOT in the denylist:
     bc_denylist = set(map(lambda x: x.lower(), read_txt(ETH_EXT_ASSETS_DENYLIST)))
     tokens = filter(lambda x: x.address.lower() not in bc_denylist, tokens)
-
-    # Make sure the asset is in the supported symbols list:
-    bc_supported_symbols = set(read_json(BC_SUPPORTED_SYMBOLS)['symbols'])
-    tokens = filter(lambda x: x.symbol in bc_supported_symbols, tokens)
 
     # Merge with extensions:
     print(f"Reading ETH asset extensions from {ETH_EXT_ASSETS}")
@@ -406,7 +372,6 @@ def main():
     if args.fetch_prices:
         fetch_coin_prices()
         fetch_erc20_token_prices()
-        fetch_bc_supported_symbols()
     else:
         build_coins_list()
         build_erc20_tokens_list()
