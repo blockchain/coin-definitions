@@ -104,7 +104,6 @@ ETH_ASSETS = "assets/blockchains/ethereum/assets/"
 
 ETH_EXT_ASSETS = "extensions/blockchains/ethereum/assets/"
 ETH_EXT_ASSETS_DENYLIST = "extensions/blockchains/ethereum/denylist.txt"
-ETH_EXT_ASSETS_PRICES = "extensions/blockchains/ethereum/assets/prices.json"
 
 TW_REPO_ROOT = "https://raw.githubusercontent.com/trustwallet/assets/master/"
 BC_REPO_ROOT = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/"
@@ -114,7 +113,8 @@ BLOCKCHAINS = "assets/blockchains/"
 
 EXT_BLOCKCHAINS = "extensions/blockchains/"
 EXT_BLOCKCHAINS_DENYLIST = "extensions/blockchains/denylist.txt"
-EXT_BLOCKCHAINS_PRICES = "extensions/blockchains/prices.json"
+
+EXT_PRICES = "extensions/prices.json"
 
 FINAL_BLOCKCHAINS_LIST="coins.json"
 FINAL_ERC20_TOKENS_LIST="erc20-tokens.json"
@@ -172,14 +172,6 @@ def cryptocompare_pricemulti(symbols):
     if response.get("Response") == "Error":
         raise Exception(response.get("Message"))
     return {curr: price["USD"] for curr, price in response.items()}
-
-def fetch_all_prices(tokens):
-    symbols = list(set([t.symbol for t in tokens]))
-    print(f"Fetching {len(symbols)} exchange pairs")
-    ret = {}
-    for chunk in map_chunked(cryptocompare_pricemulti, symbols, 25):
-        ret.update(chunk)
-    return ret
 
 def map_chunked(f, items, chunk_size):
     progress = 0
@@ -255,32 +247,6 @@ def fetch_coins():
 
     return list(coins)
 
-def fetch_coin_prices():
-    coins = fetch_coins()
-    prices = dict(
-        timestamp=datetime.now().isoformat(),
-        prices=dict()
-    )
-
-    print(f"Fetching {len(coins)} pairs")
-
-    for coin in coins:
-        prices['prices'][coin.symbol] = cryptocompare_pricemulti(coin.symbol)
-        sys.stdout.write(".")
-        sys.stdout.flush()
-
-    sys.stdout.write("\n")
-
-    print(f"Writing coin prices to {EXT_BLOCKCHAINS_PRICES}")
-
-    write_json(prices, EXT_BLOCKCHAINS_PRICES)
-
-def build_coins_list():
-    coins = list(map(asdict, fetch_coins()))
-
-    print(f"Writing {len(coins)} coins to {FINAL_BLOCKCHAINS_LIST}")
-    write_json(coins, FINAL_BLOCKCHAINS_LIST, sort_keys=False, indent=2)
-
 def fetch_erc20_tokens():
     # Fetch and parse all info.json files:
     print(f"Reading ETH assets from {ETH_ASSETS}")
@@ -294,20 +260,37 @@ def fetch_erc20_tokens():
 
     return list(tokens)
 
-def fetch_erc20_token_prices():
+def fetch_prices():
+    coins = fetch_coins()
     tokens = fetch_erc20_tokens()
+
+    symbols = list(set([c.symbol for c in coins] + [t.symbol for t in tokens]))
+
+    print(f"Fetching {len(symbols)} exchange pairs")
+
     prices = dict(
         timestamp=datetime.now().isoformat(),
-        prices=fetch_all_prices(tokens)
+        prices=dict()
     )
-    print(f"Writing ETH asset prices to {ETH_EXT_ASSETS_PRICES}")
-    write_json(prices, ETH_EXT_ASSETS_PRICES)
+
+    for chunk in map_chunked(cryptocompare_pricemulti, symbols, 25):
+        prices['prices'].update(chunk)
+
+    print(f"Writing coin prices to {EXT_PRICES}")
+
+    write_json(prices, EXT_PRICES)
+
+def build_coins_list():
+    coins = list(map(asdict, fetch_coins()))
+
+    print(f"Writing {len(coins)} coins to {FINAL_BLOCKCHAINS_LIST}")
+    write_json(coins, FINAL_BLOCKCHAINS_LIST, sort_keys=False, indent=2)
 
 def build_erc20_tokens_list():
     tokens = fetch_erc20_tokens()
 
-    print(f"Reading ETH asset prices from {ETH_EXT_ASSETS_PRICES}")
-    prices = read_json(ETH_EXT_ASSETS_PRICES)
+    print(f"Reading ETH asset prices from {EXT_PRICES}")
+    prices = read_json(EXT_PRICES)
 
     # Clean up by price:
     tokens = list(filter(lambda token: token.symbol in prices['prices'], tokens))
@@ -346,8 +329,7 @@ def main():
     args = parser.parse_args()
 
     if args.fetch_prices:
-        fetch_coin_prices()
-        fetch_erc20_token_prices()
+        fetch_prices()
     else:
         build_coins_list()
         build_erc20_tokens_list()

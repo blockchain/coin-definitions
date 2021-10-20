@@ -2632,14 +2632,6 @@
         "website": "https://sandbox.game/en"
     },
     {
-        "address": "0x3883f5e181fccaF8410FA61e12b59BAd963fb645",
-        "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3883f5e181fccaF8410FA61e12b59BAd963fb645/logo.png",
-        "name": "Theta Network",
-        "symbol": "THETA",
-        "website": ""
-    },
-    {
         "address": "0x38A2fDc11f526Ddd5a607C1F251C065f40fBF2f7",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x38A2fDc11f526Ddd5a607C1F251C065f40fBF2f7/logo.png",
@@ -5848,14 +5840,6 @@
         "website": "https://indexed.finance"
     },
     {
-        "address": "0x86Fa049857E0209aa7D9e616F7eb3b3B78ECfdb0",
-        "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x86Fa049857E0209aa7D9e616F7eb3b3B78ECfdb0/logo.png",
-        "name": "EOS",
-        "symbol": "EOS",
-        "website": ""
-    },
-    {
         "address": "0x86e6A4F512b1290c043970B04E0b570D4FC98291",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x86e6A4F512b1290c043970B04E0b570D4FC98291/logo.png",
@@ -7358,14 +7342,6 @@
         "name": "ArdCoin",
         "symbol": "ARDX",
         "website": "https://ardcoin.com"
-    },
-    {
-        "address": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
-        "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB8c77482e45F1F44dE1745F52C74426C631bDD52/logo.png",
-        "name": "BNB",
-        "symbol": "BNB",
-        "website": "https://www.binance.com"
     },
     {
         "address": "0xB97048628DB6B661D4C2aA833e95Dbe1A905B280",
