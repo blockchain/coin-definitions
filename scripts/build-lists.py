@@ -99,11 +99,6 @@ class Blockchain:
         return build_dataclass_from_dict(cls, dict_)
 
 
-# External URLs
-ETHERSCAN_TOKEN_URL = "https://etherscan.io/token/"
-COIN_GECKO_TOKEN_PRICE_URL = "https://api.coingecko.com/api/v3/simple/token_price/ethereum"
-CRYPTO_COMPARE_COIN_PRICE_URL = "https://min-api.cryptocompare.com/data/price"
-
 # ERC-20 params
 ETH_ASSETS = "assets/blockchains/ethereum/assets/"
 
@@ -137,6 +132,10 @@ def read_json(path, comment_marker=None):
         else:
             return json.load(json_file)
 
+def read_json_url(url):
+    response = request.urlopen(url).read()
+    return json.loads(response)
+
 def read_txt(path):
     with open(path) as txt_file:
         lines = txt_file.readlines()
@@ -163,48 +162,33 @@ def read_assets(assets_dir):
 def read_blockchains(blockchains_dir, comment_marker=None):
     yield from multiread_json(blockchains_dir, "/*/info/info.json", comment_marker)
 
-def filter_by_price(tokens, prices):
-    for token in tokens:
-        address = token.address.lower()
-        if address not in prices:
-            continue
-        market_cap = prices[address].get("usd", None)
-        if market_cap is not None and market_cap > 0:
-            yield token
-
-def fetch_token_prices(addresses):
+def cryptocompare_pricemulti(symbols):
     params = {
-        "contract_addresses": ",".join(addresses),
-        "vs_currencies": "USD",
-        "include_market_cap": "true"
-    }
-    url = COIN_GECKO_TOKEN_PRICE_URL + "?" + parse.urlencode(params)
-    response = request.urlopen(url).read()
-    return json.loads(response)
-
-def fetch_coin_price(symbol):
-    base_url = CRYPTO_COMPARE_COIN_PRICE_URL
-    params = {
-        "fsym": symbol,
+        "fsyms": ",".join(symbols),
         "tsyms": "USD"
     }
-    url = base_url + "?" + parse.urlencode(params)
-    response = json.loads(request.urlopen(url).read())
+    url = "https://min-api.cryptocompare.com/data/pricemulti" + "?" + parse.urlencode(params)
+    response = read_json_url(url)
     if response.get("Response") == "Error":
         raise Exception(response.get("Message"))
-    return response["USD"]
+    return {curr: price["USD"] for curr, price in response.items()}
 
 def fetch_all_prices(tokens):
-    print(f"Fetching {len(tokens)} pairs from {COIN_GECKO_TOKEN_PRICE_URL}")
+    symbols = list(set([t.symbol for t in tokens]))
+    print(f"Fetching {len(symbols)} exchange pairs")
     ret = {}
+    for chunk in map_chunked(cryptocompare_pricemulti, symbols, 25):
+        ret.update(chunk)
+    return ret
+
+def map_chunked(f, items, chunk_size):
     progress = 0
-    for chunk in chunks(tokens, 50):
-        ret.update(fetch_token_prices([t.address for t in chunk]))
-        progress += 50
-        sys.stdout.write(f"...{int(progress/len(tokens)*100)}%")
+    for chunk in chunks(items, chunk_size):
+        yield f(chunk)
+        progress += chunk_size
+        sys.stdout.write(f"...{int(progress/len(items)*100)}%")
         sys.stdout.flush()
     sys.stdout.write("\n")
-    return ret
 
 def build_token_logo(address):
     if os.path.exists(os.path.join(ETH_EXT_ASSETS, address, "logo.png")):
@@ -227,24 +211,16 @@ def find_duplicates(items, key):
     groups = [(symbol, list(items)) for symbol, items in groups]
     return [(symbol, items) for symbol, items in groups if len(items) > 1]
 
-def dump_duplicates(duplicates, prices):
+def dump_duplicates(duplicates):
     print(f"Found {len(duplicates)} duplicate symbols:")
-
-    tokens = reduce(lambda a, x: a + x[1], duplicates, [])
-    addresses = [x.address for x in tokens]
-    now = prices['timestamp']
 
     for symbol, tokens in duplicates:
         print(f"# '{symbol}' is shared by:")
         for token in tokens:
-            price = prices['prices'].get(token.address.lower(), {})
-            usd = price.get("usd") or 0.0
-            usd_market_cap = price.get("usd_market_cap") or 0.0
-            print(f"# - {urljoin(ETHERSCAN_TOKEN_URL, token.address)} ({token.name}): {token.website}")
-            print(f"#   Price: ${usd:,.6f} Market cap: ${usd_market_cap:,.2f} ({now})")
+            etherscan_url = urljoin("https://etherscan.io/token/", token.address)
+            print(f"# - {etherscan_url} ({token.name}): {token.website}")
             print(f"# {token.address}")
         print(f"#")
-
 
 def fetch_coins():
     # Fetch and parse all info.json files:
@@ -286,10 +262,10 @@ def fetch_coin_prices():
         prices=dict()
     )
 
-    print(f"Fetching {len(coins)} pairs from {CRYPTO_COMPARE_COIN_PRICE_URL}")
+    print(f"Fetching {len(coins)} pairs")
 
     for coin in coins:
-        prices['prices'][coin.symbol] = fetch_coin_price(coin.symbol)
+        prices['prices'][coin.symbol] = cryptocompare_pricemulti(coin.symbol)
         sys.stdout.write(".")
         sys.stdout.flush()
 
@@ -334,7 +310,7 @@ def build_erc20_tokens_list():
     prices = read_json(ETH_EXT_ASSETS_PRICES)
 
     # Clean up by price:
-    tokens = list(filter_by_price(tokens, prices['prices']))
+    tokens = list(filter(lambda token: token.symbol in prices['prices'], tokens))
 
     # Include already selected tokens (to make sure we don't remove a token we had previously selected)
     print(f"Reading existing assets in {FINAL_ERC20_TOKENS_LIST}")
@@ -355,7 +331,7 @@ def build_erc20_tokens_list():
     duplicates = find_duplicates(tokens, lambda t: t.symbol)
 
     if duplicates:
-        dump_duplicates(duplicates, prices)
+        dump_duplicates(duplicates)
         return
 
     # Convert back to plain dicts:
