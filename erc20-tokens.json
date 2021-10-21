@@ -5640,14 +5640,6 @@
         "website": "https://deus.finance/"
     },
     {
-        "address": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03",
-        "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03/logo.png",
-        "name": "Aave",
-        "symbol": "LEND",
-        "website": "https://aave.com"
-    },
-    {
         "address": "0x814F67fA286f7572B041D041b1D99b432c9155Ee",
         "decimals": 8,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x814F67fA286f7572B041D041b1D99b432c9155Ee/logo.png",
