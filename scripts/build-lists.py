@@ -1,4 +1,5 @@
 import os
+import re
 import sys
 import glob
 import json
@@ -20,6 +21,10 @@ class ERC20Token:
     name: str
     symbol: str
     website: str
+
+    def is_valid(self):
+        # At most 6 letters and digits:
+        return re.match("^[a-zA-Z0-9]{1,6}$", self.symbol) != None
 
     @staticmethod
     def from_asset(asset):
@@ -303,6 +308,9 @@ def build_erc20_tokens_list():
     # Make sure the asset is NOT in the denylist:
     bc_denylist = set(map(lambda x: x.lower(), read_txt(ETH_EXT_ASSETS_DENYLIST)))
     tokens = filter(lambda x: x.address.lower() not in bc_denylist, tokens)
+
+    # Make sure the asset is valid:
+    tokens = filter(lambda x: x.is_valid(), tokens)
 
     # Merge with extensions:
     print(f"Reading ETH asset extensions from {ETH_EXT_ASSETS}")
