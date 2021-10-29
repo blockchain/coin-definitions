@@ -1,0 +1,9 @@
+{
+    "name": "Aave (old)",
+    "website": "https://aave.com",
+    "type": "ERC20",
+    "symbol": "LEND",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03"
+}

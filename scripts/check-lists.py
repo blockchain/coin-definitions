@@ -119,7 +119,7 @@ class Coin:
         return f"[{self.symbol}, COIN]"
 
     def get_price(self, prices):
-        return prices['coins']['prices'][self.symbol]
+        return prices[self.symbol]
 
     def check(self):
         if self.logo is None:
@@ -139,7 +139,7 @@ class ERC20Token:
         return f"[{self.symbol}, ERC20]"
 
     def get_price(self, prices):
-        return prices['erc20_tokens']['prices'][self.address.lower()]["usd"]
+        return prices[self.symbol]
 
     def check(self):
         if self.logo is None:
@@ -189,10 +189,6 @@ def check_currencies(currencies, coins, erc20_tokens, chains, prices):
         yield from itertools.chain(ref.check(), currency.check(ref, prices))
 
 
-ETH_EXT_ASSETS_PRICES = "extensions/blockchains/ethereum/assets/prices.json"
-EXT_BLOCKCHAINS_PRICES = "extensions/blockchains/prices.json"
-
-
 def main():
     coins = list(map(lambda x: Coin(**x), read_json("coins.json")))
     erc20_tokens = list(map(lambda x: ERC20Token(**x), read_json("erc20-tokens.json")))
@@ -207,10 +203,7 @@ def main():
     if duplicates:
         raise Exception(f"Duplicate elements found: {compress_duplicates(duplicates)}")
 
-    prices = dict(
-        coins=read_json(EXT_BLOCKCHAINS_PRICES),
-        erc20_tokens=read_json(ETH_EXT_ASSETS_PRICES),
-    )
+    prices = read_json("extensions/prices.json")['prices']
     issues = list(check_currencies(currencies, coins, erc20_tokens, chains, prices))
     
     print("")
