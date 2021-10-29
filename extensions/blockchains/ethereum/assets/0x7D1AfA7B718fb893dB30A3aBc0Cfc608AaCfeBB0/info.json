@@ -1,0 +1,9 @@
+{
+    "name": "Matic Token",
+    "website": "https://matic.network",
+    "type": "ERC20",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
+}
