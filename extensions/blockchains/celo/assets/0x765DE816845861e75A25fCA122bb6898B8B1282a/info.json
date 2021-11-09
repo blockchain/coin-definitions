@@ -1,9 +1,0 @@
-{
-    "name": "Celo USD",
-    "website": "https://celo.org/",
-    "type": "ERC20",
-    "symbol": "CUSD",
-    "decimals": 18,
-    "status": "active",
-    "id": "0x765DE816845861e75A25fCA122bb6898B8B1282a"
-}

@@ -63,13 +63,6 @@
     "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/bitcoin/info/logo.png"
   },
   {
-    "symbol": "CELO",
-    "name": "Celo",
-    "key": "celo",
-    "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/celo/info/logo.png"
-  },
-  {
     "symbol": "CLOUT",
     "name": "DeSo",
     "key": "bitclout",
