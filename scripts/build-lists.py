@@ -27,11 +27,11 @@ class ERC20Token:
         return re.match("^[a-zA-Z0-9]{1,6}$", self.symbol) != None
 
     @staticmethod
-    def from_asset(asset):
+    def from_asset(asset, chain='ethereum'):
         return ERC20Token(
             address=asset.id,
             decimals=asset.decimals,
-            logo=build_token_logo(asset.id),
+            logo=build_token_logo(asset.id, chain),
             name=asset.name,
             symbol=asset.symbol,
             website=asset.website
@@ -187,11 +187,11 @@ def map_chunked(f, items, chunk_size):
         sys.stdout.flush()
     sys.stdout.write("\n")
 
-def build_token_logo(address):
-    if os.path.exists(os.path.join(ETH_EXT_ASSETS, address, "logo.png")):
-        base_path = BC_REPO_ROOT + "extensions/blockchains/ethereum/assets/"
+def build_token_logo(address, chain):
+    if os.path.exists(os.path.join(f"extensions/blockchains/{chain}/assets/", address, "logo.png")):
+        base_path = BC_REPO_ROOT + f"extensions/blockchains/{chain}/assets/"
     else:
-        base_path = TW_REPO_ROOT + "blockchains/ethereum/assets/"
+        base_path = TW_REPO_ROOT + f"blockchains/{chain}/assets/"
     asset_path = urljoin(base_path, address + "/")
     return urljoin(asset_path, "logo.png")
 
@@ -331,10 +331,10 @@ def build_erc20_tokens_list():
     print(f"Writing {len(tokens)} tokens to {FINAL_ERC20_TOKENS_LIST}")
     write_json(tokens, FINAL_ERC20_TOKENS_LIST)
 
-def build_custom_assets(assets_dir, output_file):
+def build_custom_assets(chain, assets_dir, output_file):
     print(f"Reading custom asset from {assets_dir}")
     assets = [Asset.from_dict(info) for key, info in read_assets(assets_dir)]
-    assets = map(ERC20Token.from_asset, assets)
+    assets = map(lambda asset: ERC20Token.from_asset(asset, chain), assets)
     assets = list(map(asdict, assets))
 
     print(f"Writing {len(assets)} assets to {output_file}")
@@ -346,7 +346,7 @@ def build_custom_chain_lists():
     for chain in chains:
         assets_dir = f"extensions/blockchains/{chain}/assets/"
         output_file = f"chain/{chain}/tokens.json"
-        build_custom_assets(assets_dir, output_file)
+        build_custom_assets(chain, assets_dir, output_file)
 
 def main():
     parser = argparse.ArgumentParser()
