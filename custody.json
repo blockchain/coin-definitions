@@ -187,6 +187,30 @@
     "hwsSettings": null
   },
   {
+    "symbol": "CELO",
+    "displaySymbol": "CELO",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "CEUR",
+    "displaySymbol": "cEUR",
+    "type": "CELO_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "CHZ",
     "displaySymbol": "CHZ",
     "type": "ERC20",
@@ -236,6 +260,18 @@
       "custodialPrecision": 8
     },
     "hwsSettings": null
+  },
+  {
+    "symbol": "CUSD",
+    "displaySymbol": "cUSD",
+    "type": "CELO_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "CVC",
