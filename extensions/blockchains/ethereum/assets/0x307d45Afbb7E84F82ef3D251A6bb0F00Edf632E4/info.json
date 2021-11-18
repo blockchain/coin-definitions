@@ -1,0 +1,11 @@
+{
+    "name": "PLANET",
+    "website": "http://planet-world.io/index_english.html",
+    "description": "",
+    "explorer": "",
+    "type": "ERC20",
+    "symbol": "PLA",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x307d45Afbb7E84F82ef3D251A6bb0F00Edf632E4"
+}
