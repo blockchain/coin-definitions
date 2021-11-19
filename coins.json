@@ -189,20 +189,6 @@
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/near/info/logo.png"
   },
   {
-    "symbol": "OSMO",
-    "name": "Osmosis",
-    "key": "osmosis",
-    "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/osmosis/info/logo.png"
-  },
-  {
-    "symbol": "RON",
-    "name": "Ronin",
-    "key": "ronin",
-    "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ronin/info/logo.png"
-  },
-  {
     "symbol": "SOL",
     "name": "Solana",
     "key": "solana",
