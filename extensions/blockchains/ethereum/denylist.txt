@@ -549,3 +549,24 @@
 
 # THETA
 0x3883f5e181fccaF8410FA61e12b59BAd963fb645
+
+# 'KUMA' is shared by:
+# - https://etherscan.io/token/0x48C276e8d03813224bb1e55F953adB6d02FD3E02 (Kuma Inu Token): https://kumatoken.com
+# 0x48C276e8d03813224bb1e55F953adB6d02FD3E02
+# - https://etherscan.io/token/0xb525Ecee288B99216CD481C56b6EFbdbE9bF90b5 (Kuma Inu Token): https://kumatoken.com
+0xb525Ecee288B99216CD481C56b6EFbdbE9bF90b5
+#
+# 'LTO' is shared by:
+# - https://etherscan.io/token/0x3DB6Ba6ab6F95efed1a6E794caD492fAAabF294D (LTO Network Token): https://lto.network/
+# (Old)
+0x3DB6Ba6ab6F95efed1a6E794caD492fAAabF294D
+# - https://etherscan.io/token/0xd01409314aCb3b245CEa9500eCE3F6Fd4d70ea30 (LTO Network): https://www.ltonetwork.com/
+# 0xd01409314aCb3b245CEa9500eCE3F6Fd4d70ea30
+#
+
+# 'PLA' is shared by:
+# - https://etherscan.io/token/0x0198f46f520F33cd4329bd4bE380a25a90536CD5 (PlayChip): https://www.playchip.global/
+0x0198f46f520F33cd4329bd4bE380a25a90536CD5
+# - https://etherscan.io/token/0x307d45Afbb7E84F82ef3D251A6bb0F00Edf632E4 (PLANET): http://planet-world.io/index_english.html
+# 0x307d45Afbb7E84F82ef3D251A6bb0F00Edf632E4
+#
