@@ -1,0 +1,53 @@
+{
+  "dev": {
+    "swap": {
+      "eth": "0x619b99779B0502b63C01a7b99f08870Fd36d4980"
+    },
+    "exchange": {
+      "eth": "0xee23B629b414d1dF733A0beC2E9480b3efF03dE4"
+    },
+    "simplebuy": {
+      "eth": "0xe08Ae0c6702769304c8797D85f1E128B0bc38DE8"
+    },
+    "lending": {
+      "eth": "0x714b10756A4eD325792887c3406b8b818A28d6D9"
+    },
+    "rewards": {
+      "eth": "0xeB44C3ce01140BB1746e35882D3BC612B2c1e28D"
+    }
+  },
+  "staging": {
+    "swap": {
+      "eth": "0xC05f893248D843192A989AEE6dC26d21426E78AF"
+    },
+    "exchange": {
+      "eth": "0x95eFeFA0A4564BfABfBB1Ee08A359C062EB0A94b"
+    },
+    "simplebuy": {
+      "eth": "0xFF202CBC6C794516164E45621143acDe4a3FEa24"
+    },
+    "lending": {
+      "eth": "0xBA0145434A0a53E58D10680254756F679c359463"
+    },
+    "rewards": {
+      "eth": "0x7d9d70c1A99FcC952d48b781947FAa0a3795083E"
+    }
+  },
+  "prod": {
+    "swap": {
+      "eth": "0xC88F7666330b4b511358b7742dC2a3234710e7B1"
+    },
+    "exchange": {
+      "eth": "0x9AA65464b4cFbe3Dc2BDB3dF412AeE2B3De86687"
+    },
+    "simplebuy": {
+      "eth": "0x23f4569002a5A07f0Ecf688142eEB6bcD883eeF8"
+    },
+    "lending": {
+      "eth": "0x67f889e6C1CE3E817705E00D528eB7F8be492B9E"
+    },
+    "rewards": {
+      "eth": "0xA00E2A7652248AbEb209398227DAE413E9479e52"
+    }
+  }
+}
