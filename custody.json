@@ -709,7 +709,10 @@
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 100,
+      "minWithdrawal": 0.01
+    }
   },
   {
     "symbol": "NEXO",
