@@ -186,7 +186,7 @@
     "name": "NEAR Protocol",
     "key": "near",
     "decimals": 24,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/near/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/near/info/logo.png"
   },
   {
     "symbol": "SOL",
