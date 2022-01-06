@@ -10648,6 +10648,14 @@
         "website": "https://imbrex.io"
     },
     {
+        "address": "0xf091867EC603A6628eD83D274E835539D82e9cc8",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xf091867EC603A6628eD83D274E835539D82e9cc8/logo.png",
+        "name": "Zeta",
+        "symbol": "ZETA",
+        "website": ""
+    },
+    {
         "address": "0xf0A0F3A6FA6bED75345171a5EA18AbcadF6453BA",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xf0A0F3A6FA6bED75345171a5EA18AbcadF6453BA/logo.png",
