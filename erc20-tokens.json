@@ -800,6 +800,14 @@
         "website": "https://UNIFIDEFI.com"
     },
     {
+        "address": "0x0f2D719407FdBeFF09D87557AbB7232601FD9F29",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x0f2D719407FdBeFF09D87557AbB7232601FD9F29/logo.png",
+        "name": "Synapse",
+        "symbol": "SYN",
+        "website": ""
+    },
+    {
         "address": "0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0f7F961648aE6Db43C75663aC7E5414Eb79b5704/logo.png",
@@ -7590,6 +7598,14 @@
         "name": "Wrapped Ether",
         "symbol": "WETH",
         "website": "https://weth.io/"
+    },
+    {
+        "address": "0xC08512927D12348F6620a698105e1BAac6EcD911",
+        "decimals": 6,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xC08512927D12348F6620a698105e1BAac6EcD911/logo.png",
+        "name": "GMO JPY",
+        "symbol": "GYEN",
+        "website": ""
     },
     {
         "address": "0xC0E47007e084EEF3EE58eb33D777b3B4Ca98622f",
