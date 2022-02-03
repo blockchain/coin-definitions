@@ -5704,14 +5704,6 @@
         "website": "https://aluna.social"
     },
     {
-        "address": "0x81B1bFD6CB9Ad42DB395c2a27F73D4DCf5777e2D",
-        "decimals": 4,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x81B1bFD6CB9Ad42DB395c2a27F73D4DCf5777e2D/logo.png",
-        "name": "Rare",
-        "symbol": "RARE",
-        "website": ""
-    },
-    {
         "address": "0x81c9151de0C8bafCd325a57E3dB5a5dF1CEBf79c",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x81c9151de0C8bafCd325a57E3dB5a5dF1CEBf79c/logo.png",
@@ -9670,6 +9662,14 @@
         "name": "Hub",
         "symbol": "HUB",
         "website": "https://hubtoken.org"
+    },
+    {
+        "address": "0xba5BDe662c17e2aDFF1075610382B9B691296350",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xba5BDe662c17e2aDFF1075610382B9B691296350/logo.png",
+        "name": "SuperRare",
+        "symbol": "RARE",
+        "website": "https://superrare.com/"
     },
     {
         "address": "0xba9d4199faB4f26eFE3551D490E3821486f135Ba",
