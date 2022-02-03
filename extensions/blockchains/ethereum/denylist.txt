@@ -570,3 +570,9 @@
 # - https://etherscan.io/token/0x307d45Afbb7E84F82ef3D251A6bb0F00Edf632E4 (PLANET): http://planet-world.io/index_english.html
 # 0x307d45Afbb7E84F82ef3D251A6bb0F00Edf632E4
 #
+
+# Replace this RARE with 0xba5BDe662c17e2aDFF1075610382B9B691296350
+0x81B1bFD6CB9Ad42DB395c2a27F73D4DCf5777e2D
+
+# Use our own version of renBTC:
+# 0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D

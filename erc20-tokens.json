@@ -5704,14 +5704,6 @@
         "website": "https://aluna.social"
     },
     {
-        "address": "0x81B1bFD6CB9Ad42DB395c2a27F73D4DCf5777e2D",
-        "decimals": 4,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x81B1bFD6CB9Ad42DB395c2a27F73D4DCf5777e2D/logo.png",
-        "name": "Rare",
-        "symbol": "RARE",
-        "website": ""
-    },
-    {
         "address": "0x81c9151de0C8bafCd325a57E3dB5a5dF1CEBf79c",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x81c9151de0C8bafCd325a57E3dB5a5dF1CEBf79c/logo.png",
@@ -7586,7 +7578,7 @@
     {
         "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
         "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png",
         "name": "Synthetix Network",
         "symbol": "SNX",
         "website": "https://synthetix.io"
@@ -8002,7 +7994,7 @@
     {
         "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
         "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png",
         "name": "Curve DAO Token",
         "symbol": "CRV",
         "website": "https://curve.fi"
@@ -8486,6 +8478,14 @@
         "name": "Fuel Token",
         "symbol": "FUEL",
         "website": "https://etherparty.io/"
+    },
+    {
+        "address": "0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D",
+        "decimals": 8,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D/logo.png",
+        "name": "renBTC",
+        "symbol": "RENBTC",
+        "website": "https://renproject.io"
     },
     {
         "address": "0xEB9951021698B42e4399f9cBb6267Aa35F82D59D",
@@ -9670,6 +9670,14 @@
         "name": "Hub",
         "symbol": "HUB",
         "website": "https://hubtoken.org"
+    },
+    {
+        "address": "0xba5BDe662c17e2aDFF1075610382B9B691296350",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xba5BDe662c17e2aDFF1075610382B9B691296350/logo.png",
+        "name": "SuperRare",
+        "symbol": "RARE",
+        "website": "https://superrare.com/"
     },
     {
         "address": "0xba9d4199faB4f26eFE3551D490E3821486f135Ba",
