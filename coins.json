@@ -4,7 +4,7 @@
     "name": "Cardano",
     "key": "cardano",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/cardano/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/cardano/info/logo.png"
   },
   {
     "symbol": "ALGO",
