@@ -1,0 +1,7 @@
+{
+    "name": "Polygon",
+    "symbol": "MATIC.POLY",
+    "type": "COIN", 
+    "decimals": 18,
+    "status": "active"
+}

@@ -168,7 +168,7 @@
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/terra/info/logo.png"
   },
   {
-    "symbol": "MATIC",
+    "symbol": "MATIC.POLY",
     "name": "Polygon",
     "key": "polygon",
     "decimals": 18,
