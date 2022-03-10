@@ -1,6 +1,7 @@
 [
   {
     "network": "POLYGON",
+    "native": "MATIC",
     "type": "ERC20",
     "website": "https://https://polygon.technology/"
   }
