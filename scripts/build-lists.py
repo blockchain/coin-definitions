@@ -131,6 +131,13 @@ ERC20_NETWORKS = [
         ext_assets_dir="extensions/blockchains/ethereum/assets/",
         denylist="extensions/blockchains/ethereum/denylist.txt",
         output_file="erc20-tokens.json"
+    ),
+    ERC20Network(
+        name="polygon",
+        assets_dir="assets/blockchains/polygon/assets/",
+        ext_assets_dir="extensions/blockchains/polygon/assets/",
+        denylist="extensions/blockchains/polygon/denylist.txt",
+        output_file="chain/polygon/tokens.json"
     )
 ]
 

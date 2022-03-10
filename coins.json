@@ -168,6 +168,13 @@
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/terra/info/logo.png"
   },
   {
+    "symbol": "MATIC",
+    "name": "Polygon",
+    "key": "polygon",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polygon/info/logo.png"
+  },
+  {
     "symbol": "MIOTA",
     "name": "IOTA",
     "key": "iota",
