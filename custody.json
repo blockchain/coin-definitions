@@ -664,6 +664,18 @@
     }
   },
   {
+    "symbol": "MATIC.POLY",
+    "displaySymbol": "MATIC.POLY",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 128,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "MIOTA",
     "displaySymbol": "MIOTA",
     "type": "COIN",
