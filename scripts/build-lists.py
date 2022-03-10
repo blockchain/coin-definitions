@@ -37,6 +37,11 @@ class ERC20Token:
             website=asset.website
         )
 
+    def with_suffix(self, suffix):
+        if not suffix:
+            return self
+        return replace(self, symbol=f"{self.symbol}.{suffix}")
+
     def __eq__(self, other):
         return self.address == other.address
 
@@ -110,6 +115,7 @@ class ERC20Network:
     ext_assets_dir: str
     denylist: str
     output_file: str
+    symbol_suffix: str
 
 TW_REPO_ROOT = "https://raw.githubusercontent.com/trustwallet/assets/master/"
 BC_REPO_ROOT = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/"
@@ -130,14 +136,16 @@ ERC20_NETWORKS = [
         assets_dir="assets/blockchains/ethereum/assets/",
         ext_assets_dir="extensions/blockchains/ethereum/assets/",
         denylist="extensions/blockchains/ethereum/denylist.txt",
-        output_file="erc20-tokens.json"
+        output_file="erc20-tokens.json",
+        symbol_suffix=""
     ),
     ERC20Network(
         name="polygon",
         assets_dir="assets/blockchains/polygon/assets/",
         ext_assets_dir="extensions/blockchains/polygon/assets/",
         denylist="extensions/blockchains/polygon/denylist.txt",
-        output_file="chain/polygon/tokens.json"
+        output_file="chain/polygon/tokens.json",
+        symbol_suffix="POLY"
     )
 ]
 
@@ -342,6 +350,9 @@ def build_erc20_tokens_list(erc20_network):
     if duplicates:
         dump_duplicates(duplicates)
         return
+
+    # Add network suffix before final dump:
+    tokens = map(lambda t: t.with_suffix(erc20_network.symbol_suffix), tokens)
 
     # Convert back to plain dicts:
     tokens = list(map(asdict, tokens))
