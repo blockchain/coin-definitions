@@ -664,8 +664,8 @@
     }
   },
   {
-    "symbol": "MATIC.POLY",
-    "displaySymbol": "MATIC.POLY",
+    "symbol": "MATIC.MATIC",
+    "displaySymbol": "MATIC.MATIC",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
