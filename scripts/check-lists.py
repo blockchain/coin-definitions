@@ -145,6 +145,11 @@ class ERC20Token:
         if self.logo is None:
             yield Warning(self, f"No logo")
 
+@dataclass
+class Chain:
+    chain: str
+    native: str
+    tokens: str
 
 def read_json(path):
     with open(path) as json_file:
@@ -192,7 +197,8 @@ def check_currencies(currencies, coins, erc20_tokens, chains, prices):
 def main():
     coins = list(map(lambda x: Coin(**x), read_json("coins.json")))
     erc20_tokens = list(map(lambda x: ERC20Token(**x), read_json("erc20-tokens.json")))
-    chains = dict(multiread_json("chain/", "*/tokens.json"))
+    chains = list(map(lambda x: Chain(**x), read_json("chain/list.json")))
+    chains = dict((c.chain, read_json(c.tokens)) for c in chains)
     chains = {k: list(map(lambda x: ERC20Token(**x), v)) for k, v in chains.items()}
 
     currencies = map(lambda x: Currency(**x), read_json("custody.json"))
