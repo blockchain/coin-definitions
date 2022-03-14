@@ -5,6 +5,6 @@
   },
   {
     "parentSymbol":  "USDT",
-    "childSymbols": ["USDC.MATIC"]
+    "childSymbols": ["USDT.MATIC"]
   }
 ]
