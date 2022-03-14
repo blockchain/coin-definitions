@@ -103,7 +103,7 @@ def main():
         [map(lambda x: x.symbol, itertools.chain(*chains.values())),
          map(lambda x: x.symbol, coins),
          map(lambda x: x.symbol, erc20_tokens)]))
-    dicList = list()
+    dicList = dict()
     no_symbol = list()
     for sym in map_symbols:
         if sym in crypto_compare_data:
@@ -111,7 +111,8 @@ def main():
             desc = dict(symbol=sym, description=crypto_details['Description'])
             if 'AssetWhitepaperUrl' in crypto_details:
                 desc['whitepaper'] = crypto_details['AssetWhitepaperUrl']
-            dicList.append(desc)
+            dicList[sym]= crypto_details['Description']
+            # dicList.append(desc)
         else:
             no_symbol.append(sym)
 
