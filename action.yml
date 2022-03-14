@@ -1,0 +1,5 @@
+- uses: sudosubin/setup-lokalise-action@v1
+  with:
+    lokalise-version: 'latest' # or specify version (ex. '2.6.3')
+
+- run: 'lokalise2 --version'
