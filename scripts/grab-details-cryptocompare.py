@@ -115,7 +115,8 @@ def main():
         else:
             no_symbol.append(sym)
 
-    write_json(dicList, 'en.json')
+    write_json(dicList, './description/en.json')
+    print('Warning No Description Found For These:', no_symbol)
 
 
 if __name__ == '__main__':
