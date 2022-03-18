@@ -63,6 +63,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "APE",
+    "displaySymbol": "APE",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "AR",
     "displaySymbol": "AR",
     "type": "COIN",
