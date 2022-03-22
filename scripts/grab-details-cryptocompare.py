@@ -105,18 +105,22 @@ def main():
          map(lambda x: x.symbol, erc20_tokens)]))
     dicList = dict()
     no_symbol = list()
+    objectArray = []
     for sym in map_symbols:
         if sym in crypto_compare_data:
             crypto_details = crypto_compare_data[sym]
-            desc = dict(symbol=sym, description=crypto_details['Description'])
+            desc = dict(symbol=sym)
+            if 'AssetWebsiteUrl' in crypto_details:
+                desc['websiteurl'] = crypto_details['AssetWebsiteUrl']
             if 'AssetWhitepaperUrl' in crypto_details:
                 desc['whitepaper'] = crypto_details['AssetWhitepaperUrl']
             dicList[sym]= crypto_details['Description']
-            # dicList.append(desc)
+            objectArray.append(desc)
         else:
             no_symbol.append(sym)
 
     write_json(dicList, './description/en.json')
+    write_json(objectArray, './description/info.json')
     print('Warning No Description Found For These:', no_symbol)
 
 
