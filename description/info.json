@@ -1,0 +1,6104 @@
+[
+    {
+        "symbol": "DEXTF",
+        "websiteurl": "https://dextf.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AERGO",
+        "websiteurl": "https://www.aergo.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BETHER"
+    },
+    {
+        "symbol": "HLC",
+        "websiteurl": "https://www.qitmeer.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CAG"
+    },
+    {
+        "symbol": "BCDT",
+        "websiteurl": "https://www.evidenz.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RST",
+        "websiteurl": null,
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HUNT",
+        "websiteurl": "https://token.hunt.town/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RSV",
+        "websiteurl": "https://reserve.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ECO",
+        "websiteurl": "http://eco-system.io/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553579/ormeus-ecosystem-whitepaper-24062019-1.pdf"
+    },
+    {
+        "symbol": "BONDLY",
+        "websiteurl": "https://www.bondly.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WPR",
+        "websiteurl": "https://wepower.com/wpr-token.html",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CRWNY",
+        "websiteurl": "https://crowny.io/en/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NBC"
+    },
+    {
+        "symbol": "ULT",
+        "websiteurl": "https://www.ultiledger.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SAKE"
+    },
+    {
+        "symbol": "CEN"
+    },
+    {
+        "symbol": "BNTY",
+        "websiteurl": "https://www.bitmex.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AMM",
+        "websiteurl": "https://www.micromoney.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CQT",
+        "websiteurl": "https://www.covalenthq.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "OKB",
+        "websiteurl": "https://www.okex.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "STRK",
+        "websiteurl": "https://strike.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DEXT",
+        "websiteurl": "https://www.dextools.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CRV",
+        "websiteurl": "https://www.curve.fi/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FX",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FNX",
+        "websiteurl": "https://www.finnexus.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PMA",
+        "websiteurl": "https://pumapay.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RVP",
+        "websiteurl": "https://revolutionpopuli.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UFT",
+        "websiteurl": "https://unilend.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BIZZ",
+        "websiteurl": "https://bizzcoin.com/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "IZI"
+    },
+    {
+        "symbol": "ELAMA",
+        "websiteurl": "https://www.elamachain.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LUNA",
+        "websiteurl": "https://terra.money/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553798/terra_white_paper.pdf"
+    },
+    {
+        "symbol": "IHF"
+    },
+    {
+        "symbol": "RLY",
+        "websiteurl": "https://rally.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "REVV",
+        "websiteurl": "https://www.revvmotorsport.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DRT",
+        "websiteurl": "https://www.domraider.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CTSI",
+        "websiteurl": "https://cartesi.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DDX",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HT",
+        "websiteurl": "https://www.huobi.pro/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DACC",
+        "websiteurl": "http://www.dacc.co/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AUDIO",
+        "websiteurl": "https://audius.co/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ONL",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LIKE",
+        "websiteurl": "https://like.co/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WOO"
+    },
+    {
+        "symbol": "DRG",
+        "websiteurl": "https://drgtoken.io/index.html",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BLOC",
+        "websiteurl": "https://www.block-cloud.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ISR",
+        "websiteurl": "http://insureum.co",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RLC",
+        "websiteurl": "http://iex.ec/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BSC",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ORS",
+        "websiteurl": "https://www.orsgroup.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ETHV",
+        "websiteurl": "https://ethverse.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PDOG",
+        "websiteurl": "https://polkadog.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CBC",
+        "websiteurl": "https://casinobettingcoin.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EUM",
+        "websiteurl": "https://www.elitium.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "OAX",
+        "websiteurl": "https://www.openanx.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WISE"
+    },
+    {
+        "symbol": "MINX",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BBC"
+    },
+    {
+        "symbol": "XCHF",
+        "websiteurl": "https://www.swisscryptotokens.ch/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ACXT",
+        "websiteurl": "https://www.acdx.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ROCK2"
+    },
+    {
+        "symbol": "EQZ",
+        "websiteurl": "https://equalizer.finance/#firstPage",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "COMP",
+        "websiteurl": "https://compound.finance/governance/comp",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "VISR",
+        "websiteurl": "https://www.visor.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FWB",
+        "websiteurl": "https://www.fwb.help/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GT",
+        "websiteurl": "https://gatechain.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NYE",
+        "websiteurl": "https://www.nyecoin.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EBTC"
+    },
+    {
+        "symbol": "INO"
+    },
+    {
+        "symbol": "CIV",
+        "websiteurl": "https://www.civfund.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EGG",
+        "websiteurl": "https://goosefinance.medium.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "METM"
+    },
+    {
+        "symbol": "DATA",
+        "websiteurl": "https://streamr.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ARI"
+    },
+    {
+        "symbol": "CVP",
+        "websiteurl": "https://powerpool.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AVAX",
+        "websiteurl": "https://www.avax.network/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553799/avalanche-native-token-dynamics.pdf"
+    },
+    {
+        "symbol": "PIPL",
+        "websiteurl": "https://piplcoin.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "REX",
+        "websiteurl": "https://imbrex.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BST",
+        "websiteurl": "https://www.beshare-token.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DKA",
+        "websiteurl": "https://dkargo.io/main_en.html",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MAHA",
+        "websiteurl": "https://mahadao.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SNOW",
+        "websiteurl": "https://snowswap.org/iearn",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KEANU",
+        "websiteurl": "",
+        "whitepaper": "https://www.cryptocompare.com/media/38553498/keanu-inu-whitepaper-august-2021_compressed.pdf"
+    },
+    {
+        "symbol": "QBC",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UNI",
+        "websiteurl": "https://uniswap.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BRD",
+        "websiteurl": "https://token.breadapp.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NDX",
+        "websiteurl": "https://indexed.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "STAR"
+    },
+    {
+        "symbol": "BDP",
+        "websiteurl": "https://bigdataprotocol.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BPLC"
+    },
+    {
+        "symbol": "GMEE",
+        "websiteurl": "https://token.gamee.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ESZ"
+    },
+    {
+        "symbol": "ELY",
+        "websiteurl": "https://elycoin.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "COFI",
+        "websiteurl": "https://sale.coinfi.com/?utm_source=icolisting&utm_medium=native&utm_campaign=cryptocompare_ico_listing",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HMR",
+        "websiteurl": "https://homerosnet.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "OVR",
+        "websiteurl": "https://www.ovr.ai/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "VLT",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CRC"
+    },
+    {
+        "symbol": "VSP",
+        "websiteurl": "https://vesper.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TNS"
+    },
+    {
+        "symbol": "PICKLE",
+        "websiteurl": "https://pickle.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TXL",
+        "websiteurl": "https://tixl.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RARI",
+        "websiteurl": "https://app.rarible.com/rari",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MYST",
+        "websiteurl": "https://mysterium.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RED",
+        "websiteurl": "https://token.red-lang.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BETR"
+    },
+    {
+        "symbol": "BEZOGE",
+        "websiteurl": "https://bezoge.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/38554061/whitepaper-v2.pdf"
+    },
+    {
+        "symbol": "WRC"
+    },
+    {
+        "symbol": "DEC"
+    },
+    {
+        "symbol": "GMR",
+        "websiteurl": "https://gmr.center/",
+        "whitepaper": "https://whitepaper.gmr.center/"
+    },
+    {
+        "symbol": "LEASH",
+        "websiteurl": "https://www.shibatoken.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LAYER",
+        "websiteurl": "https://unilayer.app/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BORA",
+        "websiteurl": "https://island.boraecosystem.com/",
+        "whitepaper": "https://cryptocompare.com/media/39500792/bora_whitepaper_en.pdf"
+    },
+    {
+        "symbol": "HDAO",
+        "websiteurl": "https://hyperdao.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PYLNT"
+    },
+    {
+        "symbol": "TRAC",
+        "websiteurl": "https://origintrail.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SURE"
+    },
+    {
+        "symbol": "WOM",
+        "websiteurl": "https://womprotocol.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KAI",
+        "websiteurl": "https://www.kardiachain.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CTCN"
+    },
+    {
+        "symbol": "FAT",
+        "websiteurl": "https://www.fatbtc.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "VOCO",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AXN",
+        "websiteurl": "https://axion.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GNO",
+        "websiteurl": "http://gnosis.pm",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "STA"
+    },
+    {
+        "symbol": "CORX"
+    },
+    {
+        "symbol": "GSC",
+        "websiteurl": "https://www.gsc.social/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ICE",
+        "websiteurl": "https://popsicle.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CHP",
+        "websiteurl": "https://coinpoker.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SHOPX",
+        "websiteurl": "https://splytcore.org/index.html",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "APPC",
+        "websiteurl": "https://appcoins.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ERN",
+        "websiteurl": "https://ethernity.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HOPR",
+        "websiteurl": "https://hoprnet.org/pt",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NKN",
+        "websiteurl": "https://nkn.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BQTX",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XAMP"
+    },
+    {
+        "symbol": "FOL",
+        "websiteurl": "https://www.folderlabs.io/",
+        "whitepaper": "https://cryptocompare.com/media/38554099/153e62_82f13fc4baf24a049bfc2e9093df2114.pdf"
+    },
+    {
+        "symbol": "ZIPT"
+    },
+    {
+        "symbol": "ORAI"
+    },
+    {
+        "symbol": "DOGEGF",
+        "websiteurl": "https://www.dogegf.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DOWS",
+        "websiteurl": "https://shadows.link/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SBTC",
+        "websiteurl": "http://superbtc.org",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "VDG"
+    },
+    {
+        "symbol": "CEUR"
+    },
+    {
+        "symbol": "KEY",
+        "websiteurl": "https://selfkey.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PTOY",
+        "websiteurl": "http://www.patientory.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SRM",
+        "websiteurl": "https://projectserum.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "QRX",
+        "websiteurl": "https://quiverx.io/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501429/quiverxwhitepaper.pdf"
+    },
+    {
+        "symbol": "ALN"
+    },
+    {
+        "symbol": "VRA",
+        "websiteurl": "https://www.verasity.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LEVL",
+        "websiteurl": "https://ito.levolution.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DSD"
+    },
+    {
+        "symbol": "DAX"
+    },
+    {
+        "symbol": "COVER",
+        "websiteurl": "https://www.coverprotocol.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FLIXX"
+    },
+    {
+        "symbol": "DHT",
+        "websiteurl": "https://www.dhedge.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "STOP",
+        "websiteurl": "https://satopay.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ALPHA",
+        "websiteurl": "https://alphafinance.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LID"
+    },
+    {
+        "symbol": "BTB"
+    },
+    {
+        "symbol": "ATB",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KORE"
+    },
+    {
+        "symbol": "EVC"
+    },
+    {
+        "symbol": "BIOS",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XMR",
+        "websiteurl": "http://getmonero.org/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553937/monero.pdf"
+    },
+    {
+        "symbol": "AUTO",
+        "websiteurl": "https://autofarm.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BOXX"
+    },
+    {
+        "symbol": "LKR",
+        "websiteurl": "https://lokr.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XOR",
+        "websiteurl": "https://sora.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ID",
+        "websiteurl": "https://www.everest.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ENS",
+        "websiteurl": "https://ens.domains/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BMI",
+        "websiteurl": "https://www.bridgemutual.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EOS",
+        "websiteurl": "https://eos.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XAUR",
+        "websiteurl": "http://www.xaurum.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "YIELD",
+        "websiteurl": "https://yieldprotocol.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AIDOC",
+        "websiteurl": "http://www.aidoc.me/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HUB",
+        "websiteurl": "https://hubtoken.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WIZ",
+        "websiteurl": "https://www.crowdwiz.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FRONT",
+        "websiteurl": "https://frontier.xyz/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EKO",
+        "websiteurl": "https://docs.eko.computer/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CHONK",
+        "websiteurl": "https://www.chonker.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TOS",
+        "websiteurl": "https://www.toschain.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HOKK",
+        "websiteurl": "https://hokk.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KUMA",
+        "websiteurl": "https://www.kumatoken.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HERB"
+    },
+    {
+        "symbol": "LUA",
+        "websiteurl": "https://luaswap.org/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BCZ"
+    },
+    {
+        "symbol": "POLY",
+        "websiteurl": "https://www.polymath.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ORBS",
+        "websiteurl": "https://www.orbs.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ATL"
+    },
+    {
+        "symbol": "FOXT"
+    },
+    {
+        "symbol": "EDG",
+        "websiteurl": "https://edgeless.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KST"
+    },
+    {
+        "symbol": "EL"
+    },
+    {
+        "symbol": "ZINC"
+    },
+    {
+        "symbol": "MIR",
+        "websiteurl": "https://eth.mirror.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DPY",
+        "websiteurl": "http://delphy.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DGLD",
+        "websiteurl": "https://dgld.ch/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MCO2",
+        "websiteurl": "https://moss.earth/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WLUNA",
+        "websiteurl": "https://www.terra.money/#1",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EPK",
+        "websiteurl": "https://www.epik-protocol.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LQD"
+    },
+    {
+        "symbol": "BBANK",
+        "websiteurl": "https://blockbank.ai/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XLAB"
+    },
+    {
+        "symbol": "DAWN",
+        "websiteurl": "https://dawn.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GAT"
+    },
+    {
+        "symbol": "NEC",
+        "websiteurl": "https://www.deversifi.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SWRV",
+        "websiteurl": "https://swerve.fi/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FXF"
+    },
+    {
+        "symbol": "BADGER",
+        "websiteurl": "https://app.badger.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XIO",
+        "websiteurl": "https://xio.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SPDR"
+    },
+    {
+        "symbol": "PLAY",
+        "websiteurl": "https://www.herocoin.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KAVA",
+        "websiteurl": "https://www.kava.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "POND",
+        "websiteurl": "https://www.marlin.pro/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AMN"
+    },
+    {
+        "symbol": "REV",
+        "websiteurl": "http://revain.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BTRS"
+    },
+    {
+        "symbol": "MINI",
+        "websiteurl": "https://www.miniswap.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "INDEX",
+        "websiteurl": "https://www.indexcoop.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CEEK"
+    },
+    {
+        "symbol": "PHIBA",
+        "websiteurl": "https://papashiba.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UFO",
+        "websiteurl": "https://ufogaming.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "YFII",
+        "websiteurl": "https://dfi.money/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BPT",
+        "websiteurl": "https://blackpool.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "QASH",
+        "websiteurl": "https://quoine.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WINGS",
+        "websiteurl": "https://wings.ai/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XYO",
+        "websiteurl": "https://www.xyo.network",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "QUSD"
+    },
+    {
+        "symbol": "ZEON",
+        "websiteurl": "https://zeon.network",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TOC"
+    },
+    {
+        "symbol": "ESD",
+        "websiteurl": "https://www.emptyset.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PCM",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CENNZ",
+        "websiteurl": "https://www.centrality.ai/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501084/centrality_whitepaper_06112018.pdf"
+    },
+    {
+        "symbol": "EGT",
+        "websiteurl": "https://egretia.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DEV"
+    },
+    {
+        "symbol": "ETH",
+        "websiteurl": "https://www.ethereum.org/",
+        "whitepaper": "https://www.cryptocompare.com/media/37745821/ethereum.pdf"
+    },
+    {
+        "symbol": "FTX",
+        "websiteurl": "https://www.fintrux.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BERRY",
+        "websiteurl": "https://rentberry.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BOT",
+        "websiteurl": "https://bounce.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LBA",
+        "websiteurl": "https://www.mycred.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XPT",
+        "websiteurl": "https://cryptobuyer.io/en/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HGET",
+        "websiteurl": "https://www.hedget.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UNIFI"
+    },
+    {
+        "symbol": "BTSE",
+        "websiteurl": "https://www.btse.com/en/token/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RFI"
+    },
+    {
+        "symbol": "POE",
+        "websiteurl": "https://po.et/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "STS",
+        "websiteurl": "https://www.sbankcapital.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LEMO",
+        "websiteurl": "https://www.lemochain.com/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PERL",
+        "websiteurl": "https://www.perlin.net/en/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UUU",
+        "websiteurl": "https://u.network/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501566/u_whitepaper_en.pdf"
+    },
+    {
+        "symbol": "SENT",
+        "websiteurl": "https://sentinel.co/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DAT",
+        "websiteurl": "https://datum.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AWC"
+    },
+    {
+        "symbol": "DAV",
+        "websiteurl": "https://dav.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LATX",
+        "websiteurl": "https://latium.org",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GMT",
+        "websiteurl": "https://gmt.io/en",
+        "whitepaper": "https://www.cryptocompare.com/media/39500988/white-paper.pdf"
+    },
+    {
+        "symbol": "BAL",
+        "websiteurl": "https://balancer.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HOGE",
+        "websiteurl": "https://hoge.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PKT"
+    },
+    {
+        "symbol": "AION",
+        "websiteurl": "https://aion.theoan.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FTT",
+        "websiteurl": "https://ftx.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ADH"
+    },
+    {
+        "symbol": "USDK",
+        "websiteurl": "https://www.oklink.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PKF"
+    },
+    {
+        "symbol": "LOCK",
+        "websiteurl": "https://meridian-network.co/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ROT",
+        "websiteurl": "https://rottenswap.org/#/farms",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ELEC",
+        "websiteurl": "https://electrify.asia",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "COS",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CZR"
+    },
+    {
+        "symbol": "K21",
+        "websiteurl": "https://kanon.art/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DEP",
+        "websiteurl": "https://dea.sg/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "COV",
+        "websiteurl": "https://covesting.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DAO",
+        "websiteurl": "https://daomaker.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LINK",
+        "websiteurl": "https://link.smartcontract.com/",
+        "whitepaper": "https://cryptocompare.com/media/38553908/chainlink-v2.pdf"
+    },
+    {
+        "symbol": "IQN",
+        "websiteurl": "https://iqeon.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SKRT"
+    },
+    {
+        "symbol": "CHAIN"
+    },
+    {
+        "symbol": "VRC",
+        "websiteurl": "http://www.vericoin.info/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "YFL",
+        "websiteurl": "https://yflink.io/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LPT",
+        "websiteurl": "https://livepeer.org",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "X8X"
+    },
+    {
+        "symbol": "SHIB",
+        "websiteurl": "https://shibatoken.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553905/shiba_inu_woof_woof.pdf"
+    },
+    {
+        "symbol": "STRONG",
+        "websiteurl": "https://strongblock.com/index.html",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PC"
+    },
+    {
+        "symbol": "TBX"
+    },
+    {
+        "symbol": "XIOT"
+    },
+    {
+        "symbol": "VRS",
+        "websiteurl": "https://vedh.io/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501223/veros-whitepaper.pdf"
+    },
+    {
+        "symbol": "PUSSY",
+        "websiteurl": "https://pussy.financial/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TRV",
+        "websiteurl": "https://trustverse.io/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FST",
+        "websiteurl": "https://www.futureswap.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DGTX",
+        "websiteurl": "https://digitexfutures.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501181/digitex-whitepaper.pdf"
+    },
+    {
+        "symbol": "KCASH",
+        "websiteurl": "https://www.kcash.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FIL",
+        "websiteurl": "https://filecoin.io/",
+        "whitepaper": "https://cryptocompare.com/media/38553919/filecoin.pdf"
+    },
+    {
+        "symbol": "BOR"
+    },
+    {
+        "symbol": "ETG"
+    },
+    {
+        "symbol": "MTLX",
+        "websiteurl": "https://mettalex.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "STASH"
+    },
+    {
+        "symbol": "PAR"
+    },
+    {
+        "symbol": "PIS",
+        "websiteurl": "https://polkainsure.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EVY"
+    },
+    {
+        "symbol": "SOL",
+        "websiteurl": "https://solana.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553794/solana-whitepaper.pdf"
+    },
+    {
+        "symbol": "GNT",
+        "websiteurl": "https://www.greentrusttoken.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/39109120/de597b_9ec1f28625a349dda9dc3969a5b373e3.pdf"
+    },
+    {
+        "symbol": "BQQQ"
+    },
+    {
+        "symbol": "KP4R"
+    },
+    {
+        "symbol": "BFT",
+        "websiteurl": "https://bnktothefuture.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MPH"
+    },
+    {
+        "symbol": "MESH"
+    },
+    {
+        "symbol": "FLX",
+        "websiteurl": "https://reflexer.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TLM",
+        "websiteurl": "https://alienworlds.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EDN",
+        "websiteurl": "https://edenchain.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TMTG",
+        "websiteurl": "https://midastouchcoin.io/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501173/tmtg_en.pdf"
+    },
+    {
+        "symbol": "ACDC"
+    },
+    {
+        "symbol": "BAC"
+    },
+    {
+        "symbol": "PEEPS",
+        "websiteurl": "https://thepeoplescoin.money/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ERO"
+    },
+    {
+        "symbol": "GTC",
+        "websiteurl": "https://gitcoin.co/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SKIN"
+    },
+    {
+        "symbol": "UGAS",
+        "websiteurl": "https://ultrain.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CAT",
+        "websiteurl": null,
+        "whitepaper": ""
+    },
+    {
+        "symbol": "THR",
+        "websiteurl": "https://www.thorecoin.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BRX"
+    },
+    {
+        "symbol": "GOT",
+        "websiteurl": "https://parkingo.io/en/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PPBLZ",
+        "websiteurl": "https://pepemon.world/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MZG"
+    },
+    {
+        "symbol": "SLP",
+        "websiteurl": "https://axieinfinity.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "JUP"
+    },
+    {
+        "symbol": "UFR",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "OCC",
+        "websiteurl": "https://occam.fi/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FORTH",
+        "websiteurl": "https://www.ampleforth.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MPAY"
+    },
+    {
+        "symbol": "PTF",
+        "websiteurl": "https://power.trade/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EVED",
+        "websiteurl": "https://www.evedo.co",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DAD",
+        "websiteurl": "https://dad.one/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FLETA",
+        "websiteurl": "https://fleta.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "COOK",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "REC",
+        "websiteurl": "https://rectoken.finance/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501550/rec_wp_1-0-0.pdf"
+    },
+    {
+        "symbol": "PROB"
+    },
+    {
+        "symbol": "UNCX"
+    },
+    {
+        "symbol": "1INCH",
+        "websiteurl": "https://1inch.exchange/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KEEP",
+        "websiteurl": "https://keep.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "VLD",
+        "websiteurl": null,
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CTT"
+    },
+    {
+        "symbol": "ATN"
+    },
+    {
+        "symbol": "TRIBE",
+        "websiteurl": "https://fei.money/",
+        "whitepaper": "https://cryptocompare.com/media/38554086/whitepaper.pdf"
+    },
+    {
+        "symbol": "RGT",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DML"
+    },
+    {
+        "symbol": "KTN"
+    },
+    {
+        "symbol": "AXS",
+        "websiteurl": "https://axieinfinity.com/axs",
+        "whitepaper": "https://whitepaper.axieinfinity.com/"
+    },
+    {
+        "symbol": "DICE",
+        "websiteurl": "https://etheroll.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KLEE",
+        "websiteurl": "https://klee.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PROPS",
+        "websiteurl": "https://www.propsproject.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "USDX"
+    },
+    {
+        "symbol": "DAPS",
+        "websiteurl": "https://officialdapscoin.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TAU",
+        "websiteurl": "https://lamden.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ZEFU"
+    },
+    {
+        "symbol": "DDIM",
+        "websiteurl": "https://duckdao.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EFI",
+        "websiteurl": "https://efinity.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FTI",
+        "websiteurl": "https://www.fanstime.org/english.html",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ZOOT",
+        "websiteurl": "https://zootoken.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "VEE",
+        "websiteurl": "https://blockv.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ADT",
+        "websiteurl": "https://adtoken.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ORN",
+        "websiteurl": "https://www.orionprotocol.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LED"
+    },
+    {
+        "symbol": "CELR",
+        "websiteurl": "https://www.celer.network",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ZPR"
+    },
+    {
+        "symbol": "RTE",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SOUL",
+        "websiteurl": "https://phantasma.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "STPT",
+        "websiteurl": "https://stp.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SWT",
+        "websiteurl": "https://swarm.city",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TEL",
+        "websiteurl": "https://www.telco.in/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ZEC",
+        "websiteurl": "https://z.cash/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ALI"
+    },
+    {
+        "symbol": "XTZ",
+        "websiteurl": "https://www.tezos.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553926/theta.pdf"
+    },
+    {
+        "symbol": "WORLD",
+        "websiteurl": "https://worldtoken.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DSLA"
+    },
+    {
+        "symbol": "ZFL"
+    },
+    {
+        "symbol": "ZAP",
+        "websiteurl": "https://www.zap.store/",
+        "whitepaper": "https://app.zap.org/docs/overview"
+    },
+    {
+        "symbol": "BAX",
+        "websiteurl": "https://getbabb.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "VIDT",
+        "websiteurl": "https://www.v-id.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ABL",
+        "websiteurl": "https://www.airbloc.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ENG",
+        "websiteurl": "https://enigma.co/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TBTC",
+        "websiteurl": "https://tbtc.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GNX",
+        "websiteurl": "https://genaro.network/en",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FYZNFT",
+        "websiteurl": "https://www.fyooz.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DPI",
+        "websiteurl": "https://www.tokensets.com/portfolio/dpi",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SEAL"
+    },
+    {
+        "symbol": "DUSK",
+        "websiteurl": "https://dusk.network",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BFLY",
+        "websiteurl": "https://www.butterflyprotocol.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TOL"
+    },
+    {
+        "symbol": "BITTO"
+    },
+    {
+        "symbol": "MORE",
+        "websiteurl": "http://www.mre.live/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GARD",
+        "websiteurl": "https://www.hashgard.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TKN",
+        "websiteurl": "https://monolith.xyz/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ETK"
+    },
+    {
+        "symbol": "CFT"
+    },
+    {
+        "symbol": "TNT",
+        "websiteurl": "https://tierion.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501577/tieriontokensalewhitepaper.pdf"
+    },
+    {
+        "symbol": "BRK"
+    },
+    {
+        "symbol": "CGG",
+        "websiteurl": "https://www.chainguardians.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GUSD",
+        "websiteurl": "https://gemini.com/dollar/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DVP",
+        "websiteurl": "https://dvpnet.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "YSR",
+        "websiteurl": "https://www.ystar.io/home",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TCT",
+        "websiteurl": "http://www.tokenclub.com/#/En",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SWFTC",
+        "websiteurl": "https://www.swft.pro/#/home",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MFT",
+        "websiteurl": "https://hifi.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ZEN",
+        "websiteurl": "https://www.horizen.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RAMP",
+        "websiteurl": "https://rampdefi.com/",
+        "whitepaper": "https://docs.rampdefi.com/ramp-defi/"
+    },
+    {
+        "symbol": "LPOOL",
+        "websiteurl": "https://launchpool.xyz/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DGCL",
+        "websiteurl": "https://www.digicol.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ITAM",
+        "websiteurl": "https://itam.games/en",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "THETA",
+        "websiteurl": "https://www.thetatoken.org/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553926/theta.pdf"
+    },
+    {
+        "symbol": "RING",
+        "websiteurl": "https://darwinia.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RRB",
+        "websiteurl": "https://www.renrenbit.com/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DYP",
+        "websiteurl": "https://dyp.finance/#/home",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CNTR"
+    },
+    {
+        "symbol": "OXY",
+        "websiteurl": "https://www.oxygen.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MASK",
+        "websiteurl": "https://mask.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LUN",
+        "websiteurl": "https://lunyr.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BCDN",
+        "websiteurl": "http://www.blockcdn.org/index_en.html",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NAOS",
+        "websiteurl": "https://naos.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FAIR",
+        "websiteurl": "http://fair-coin.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SNTVT",
+        "websiteurl": "https://sentivate.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RVT"
+    },
+    {
+        "symbol": "WSCRT",
+        "websiteurl": "https://scrt.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SALE",
+        "websiteurl": "https://dxsale.network/",
+        "whitepaper": "https://dxsale.network/assets/litepaper.pdf"
+    },
+    {
+        "symbol": "GENE",
+        "websiteurl": "https://parkgene.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AMLT",
+        "websiteurl": "https://amlt.coinfirm.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LCX",
+        "websiteurl": "https://www.lcx.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WAND"
+    },
+    {
+        "symbol": "J8T"
+    },
+    {
+        "symbol": "NMR",
+        "websiteurl": "https://numer.ai/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PXG",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AID",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TEND",
+        "websiteurl": "https://www.tendies.dev/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ELONGD",
+        "websiteurl": "https://elongd.finance/#",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DODO",
+        "websiteurl": "https://dodoex.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "VEST",
+        "websiteurl": "https://vestchain.io/?utm_source=cryptocompare",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DCC"
+    },
+    {
+        "symbol": "TIX"
+    },
+    {
+        "symbol": "FLAP"
+    },
+    {
+        "symbol": "PAT",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AME",
+        "websiteurl": "https://amepay.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CORN",
+        "websiteurl": "https://www.icorn.finance/#/home",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DTA",
+        "websiteurl": "http://data.eco/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ANJ"
+    },
+    {
+        "symbol": "MUNCH",
+        "websiteurl": "https://munchtoken.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DPP"
+    },
+    {
+        "symbol": "RDT",
+        "websiteurl": "https://ridotto.io/",
+        "whitepaper": "https://www.cryptocompare.com/media/38554198/whitepaper_ridotto.pdf"
+    },
+    {
+        "symbol": "SKB"
+    },
+    {
+        "symbol": "SPI",
+        "websiteurl": "https://shopping.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HAKKA",
+        "websiteurl": "https://hakka.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LTO",
+        "websiteurl": "https://ltonetwork.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NFY",
+        "websiteurl": "https://nfy.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SNM",
+        "websiteurl": "https://sonm.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TEAM"
+    },
+    {
+        "symbol": "STONK"
+    },
+    {
+        "symbol": "ZRX",
+        "websiteurl": "https://www.0xproject.com/#home",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BNB",
+        "websiteurl": "https://www.binance.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EXM",
+        "websiteurl": "https://exmo.money/en/?v=1",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FCL",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KP3R",
+        "websiteurl": "https://keep3r.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SWFL"
+    },
+    {
+        "symbol": "HPT",
+        "websiteurl": "https://www.huobipool.com/pos/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DOGY",
+        "websiteurl": "https://dogeyield.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ABX"
+    },
+    {
+        "symbol": "DEB"
+    },
+    {
+        "symbol": "SPX"
+    },
+    {
+        "symbol": "LND"
+    },
+    {
+        "symbol": "CDL",
+        "websiteurl": "https://token.coindeal.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AKITA",
+        "websiteurl": "https://www.akitatoken.net/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MINDS",
+        "websiteurl": "minds.com/token",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BRDG",
+        "websiteurl": "https://bridgeprotocol.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "INST",
+        "websiteurl": "https://instadapp.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BANANA",
+        "websiteurl": "https://apeswap.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WGP",
+        "websiteurl": "https://wpay.sg/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SS"
+    },
+    {
+        "symbol": "SHR",
+        "websiteurl": "https://sharering.network",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CR"
+    },
+    {
+        "symbol": "CAVA",
+        "websiteurl": "https://www.cava.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PYLON",
+        "websiteurl": "https://pylon.finance/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DIGG",
+        "websiteurl": "https://badger.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MATTER",
+        "websiteurl": "https://antimatter.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DIA",
+        "websiteurl": "https://diadata.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DWZ",
+        "websiteurl": "https://defiwizard.xyz/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WAIF",
+        "websiteurl": null,
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FIN",
+        "websiteurl": "https://definer.org/en.html",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CNUS"
+    },
+    {
+        "symbol": "MET",
+        "websiteurl": "https://www.metronome.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MYOBU",
+        "websiteurl": "https://myobu.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "USDN",
+        "websiteurl": "https://beta.neutrino.at/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DILI",
+        "websiteurl": "http://2ds.one/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HXRO",
+        "websiteurl": "https://www.hxro.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UMB"
+    },
+    {
+        "symbol": "CSP",
+        "websiteurl": "https://caspian.tech/?utm_source=cryptocompare",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TOKE",
+        "websiteurl": "https://www.tokemak.xyz/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "THRT"
+    },
+    {
+        "symbol": "MRS",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "STX",
+        "websiteurl": "https://www.stacks.co/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553952/bittorrent_-btt.pdf"
+    },
+    {
+        "symbol": "NEXO",
+        "websiteurl": "https://nexo.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EXO",
+        "websiteurl": "https://www.exosis.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LEV"
+    },
+    {
+        "symbol": "ALEPH",
+        "websiteurl": "https://aleph.im/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LDO",
+        "websiteurl": "https://stake.lido.fi/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DRGN",
+        "websiteurl": "https://dragonchain.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "YFI",
+        "websiteurl": "https://yearn.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "STC",
+        "websiteurl": "https://studentcoin.app/?utm_source=Cryptocompare.com&utm_campaign=ICOsponsorship",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MARK",
+        "websiteurl": "https://benchmarkprotocol.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CONV"
+    },
+    {
+        "symbol": "TEMCO",
+        "websiteurl": "https://www.temco.io/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DLT",
+        "websiteurl": "https://www.agrello.org",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "REEF",
+        "websiteurl": "https://reef.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ELA",
+        "websiteurl": "https://www.elastos.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CL"
+    },
+    {
+        "symbol": "ATA",
+        "websiteurl": "https://www.ata.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DEXE"
+    },
+    {
+        "symbol": "GLD",
+        "websiteurl": "https://ftx.com/trade/GLD/USD",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RPL"
+    },
+    {
+        "symbol": "GLQ",
+        "websiteurl": "https://graphlinq.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "APE",
+        "websiteurl": "https://apecoin.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GOM2",
+        "websiteurl": "https://animalgo.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BUBO"
+    },
+    {
+        "symbol": "QCH"
+    },
+    {
+        "symbol": "JADE",
+        "websiteurl": "https://jadecurrency.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553648/jade_currency_whitepaper_v2.pdf"
+    },
+    {
+        "symbol": "FRD"
+    },
+    {
+        "symbol": "ARES",
+        "websiteurl": "https://www.aresprotocol.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WBTC",
+        "websiteurl": "https://www.wbtc.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HMQ",
+        "websiteurl": "https://humaniq.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NWC",
+        "websiteurl": "https://newscrypto.io/en",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TOMOE"
+    },
+    {
+        "symbol": "AAB",
+        "websiteurl": "https://aab.aax.com/en/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KCS",
+        "websiteurl": "https://www.kucoin.com/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GSE"
+    },
+    {
+        "symbol": "MEXC"
+    },
+    {
+        "symbol": "SOP",
+        "websiteurl": "https://sopay.org/en",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BAT",
+        "websiteurl": "https://basicattentiontoken.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DTH",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DEA",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HINA",
+        "websiteurl": "https://hinainu.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MTC",
+        "websiteurl": "https://doc.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XRT",
+        "websiteurl": "https://robonomics.network/",
+        "whitepaper": "https://www.cryptocompare.com/media/38554151/robonomics-whitepaper-en.pdf"
+    },
+    {
+        "symbol": "NBOT",
+        "websiteurl": "https://www.nakachain.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "IQC",
+        "websiteurl": "https://iq.cash/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "JET"
+    },
+    {
+        "symbol": "ENTRP"
+    },
+    {
+        "symbol": "YGG",
+        "websiteurl": "https://yieldguild.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "USDA"
+    },
+    {
+        "symbol": "MVI",
+        "websiteurl": "https://www.tokensets.com/portfolio/mvi",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MX",
+        "websiteurl": "https://www.mxc.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NCT",
+        "websiteurl": "https://polyswarm.io/",
+        "whitepaper": "https://www.cryptocompare.com/media/39456578/polyswarm-whitepaper.pdf"
+    },
+    {
+        "symbol": "SNC",
+        "websiteurl": "https://suncontract.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MLN",
+        "websiteurl": "https://enzyme.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KGC",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SNGLS",
+        "websiteurl": "https://singulardtv.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FCT",
+        "websiteurl": "http://factom.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SGT",
+        "websiteurl": "https://www.sharedstake.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AZ",
+        "websiteurl": "https://azbit.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TOWER",
+        "websiteurl": "https://www.crazydefenseheroes.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "OMG",
+        "websiteurl": "https://omisego.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ATRI",
+        "websiteurl": "https://www.atarichain.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EC",
+        "websiteurl": "https://echoin.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SKULL",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PCL",
+        "websiteurl": "https://peculium.io/documents",
+        "whitepaper": "https://www.cryptocompare.com/media/39198285/white_paper.pdf"
+    },
+    {
+        "symbol": "BCV"
+    },
+    {
+        "symbol": "POLK",
+        "websiteurl": "https://www.polkamarkets.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DGVC"
+    },
+    {
+        "symbol": "BIRD",
+        "websiteurl": "https://bird.money/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SSP"
+    },
+    {
+        "symbol": "ERC20"
+    },
+    {
+        "symbol": "POOLZ",
+        "websiteurl": "https://www.poolz.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RFOX",
+        "websiteurl": "https://redfoxlabs.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "IPL",
+        "websiteurl": "https://www.insurepal.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "INT",
+        "websiteurl": "https://intchain.io/#",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BLZ",
+        "websiteurl": "https://bluzelle.com/",
+        "whitepaper": "https://docs.bluzelle.com/developers/"
+    },
+    {
+        "symbol": "DF",
+        "websiteurl": "https://dforce.network/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501170/dforce_whitepaper_v1.pdf"
+    },
+    {
+        "symbol": "FYP",
+        "websiteurl": "https://flyp.me/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "VIT"
+    },
+    {
+        "symbol": "GMC"
+    },
+    {
+        "symbol": "NEAR",
+        "websiteurl": "https://near.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "10SET",
+        "websiteurl": "https://tenset.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XPR",
+        "websiteurl": "https://www.protonchain.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AMO",
+        "websiteurl": "http://goo.gl/bAbbd7",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UDT",
+        "websiteurl": "https://unlock-protocol.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BPX"
+    },
+    {
+        "symbol": "UBT",
+        "websiteurl": "https://unibright.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MTH",
+        "websiteurl": "https://www.monetha.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UBC"
+    },
+    {
+        "symbol": "TOKEN",
+        "websiteurl": "https://chainswap.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DAM",
+        "websiteurl": "https://datamine-crypto.github.io/realtime-decentralized-dashboard/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BRZE"
+    },
+    {
+        "symbol": "GEO",
+        "websiteurl": "https://geocoin.cash/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AIDUS",
+        "websiteurl": "https://aidus.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CVR",
+        "websiteurl": "https://www.polkacover.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GOVI",
+        "websiteurl": "https://www.cvi.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RAI",
+        "websiteurl": "https://reflexer.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TRUST"
+    },
+    {
+        "symbol": "TONE",
+        "websiteurl": "https://te-food.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LTX",
+        "websiteurl": "https://lattice.exchange/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AIDI",
+        "websiteurl": "https://aidiinu.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "POOL",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LIF"
+    },
+    {
+        "symbol": "LINA",
+        "websiteurl": "https://linear.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TTT",
+        "websiteurl": "https://www.atom-solutions.jp/en/xecttt/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DOS",
+        "websiteurl": "https://dos.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AR",
+        "websiteurl": "https://www.arweave.org/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553948/leo-token-whitepaper.pdf"
+    },
+    {
+        "symbol": "REM",
+        "websiteurl": "https://remme.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DEXG"
+    },
+    {
+        "symbol": "WIKEN",
+        "websiteurl": "http://projectwith.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RET"
+    },
+    {
+        "symbol": "MGO",
+        "websiteurl": "http://mobilego.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CLT",
+        "websiteurl": "https://coinloan.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "QRDO"
+    },
+    {
+        "symbol": "BCPT",
+        "websiteurl": "https://blockmason.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BSV",
+        "websiteurl": "https://nchain.com/en/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HSC",
+        "websiteurl": "https://www.hashfuture.io/#home",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "B91",
+        "websiteurl": "https://www.b91.com/en",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ITC",
+        "websiteurl": "https://iotchain.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "C98",
+        "websiteurl": "https://www.coin98.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AIX"
+    },
+    {
+        "symbol": "DYDX",
+        "websiteurl": "https://dydx.exchange/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "JAR",
+        "websiteurl": "http://www.jarvisplus.com/pc/index.en.html",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PLA",
+        "websiteurl": "https://www.playchip.global/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MOMA",
+        "websiteurl": "https://mochi.market/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RKN",
+        "websiteurl": "https://rkntoken.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FOX",
+        "websiteurl": "https://shapeshift.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ZPAE"
+    },
+    {
+        "symbol": "HTA"
+    },
+    {
+        "symbol": "REQ",
+        "websiteurl": "https://request.network/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LMY",
+        "websiteurl": "https://lunchmoney.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ALBT",
+        "websiteurl": "https://allianceblock.io/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501200/allianceblock_whitepaper_n47oen0aa.pdf"
+    },
+    {
+        "symbol": "REN",
+        "websiteurl": "https://renproject.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EMB",
+        "websiteurl": "https://overline.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "YFIII",
+        "websiteurl": "https://dify.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PAXG",
+        "websiteurl": "https://www.paxos.com/paxgold/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "USDC",
+        "websiteurl": "https://www.centre.io/usdc",
+        "whitepaper": "https://www.cryptocompare.com/media/38553796/centre-whitepaper.pdf"
+    },
+    {
+        "symbol": "CXC"
+    },
+    {
+        "symbol": "XMX",
+        "websiteurl": "https://www.xmx.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AMIS"
+    },
+    {
+        "symbol": "QNT",
+        "websiteurl": "https://www.quant.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RTH"
+    },
+    {
+        "symbol": "BIST",
+        "websiteurl": "https://bistroo.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SHIP"
+    },
+    {
+        "symbol": "OGN",
+        "websiteurl": "https://www.originprotocol.com/en/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PIE"
+    },
+    {
+        "symbol": "BOMB"
+    },
+    {
+        "symbol": "ARNX",
+        "websiteurl": "https://aeron.aero/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NPX"
+    },
+    {
+        "symbol": "IDIA",
+        "websiteurl": "https://impossible.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GET",
+        "websiteurl": "https://guts.tickets/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FSW",
+        "websiteurl": "https://falconswap.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "OVC"
+    },
+    {
+        "symbol": "IDEX",
+        "websiteurl": "https://idex.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FDZ",
+        "websiteurl": "https://friendz.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PJM"
+    },
+    {
+        "symbol": "BCH",
+        "websiteurl": "https://www.bitcoincash.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "INNBC",
+        "websiteurl": "https://www.innovativebioresearch.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CVT",
+        "websiteurl": "https://www.cybervein.org",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "COIN",
+        "websiteurl": "https://www.coinbase.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UPP",
+        "websiteurl": "https://sentinelprotocol.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WHEN"
+    },
+    {
+        "symbol": "INJ",
+        "websiteurl": "https://injectiveprotocol.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BCMC1",
+        "websiteurl": "https://beta.beforecoinmarketcap.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KUV"
+    },
+    {
+        "symbol": "REP",
+        "websiteurl": "https://augur.net/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CPAY",
+        "websiteurl": "https://cryptopay.me/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DYNMT"
+    },
+    {
+        "symbol": "LEND",
+        "websiteurl": "https://aave.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XIN",
+        "websiteurl": "https://mixin.one/",
+        "whitepaper": "https://mixin.one/assets/Mixin-Draft-2018-07-01.pdf"
+    },
+    {
+        "symbol": "BOX",
+        "websiteurl": "https://contentbox.one/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BEL",
+        "websiteurl": "https://bella.fi/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BANCA",
+        "websiteurl": "https://www.banca.world",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FUEL",
+        "websiteurl": "http://etherparty.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CARD"
+    },
+    {
+        "symbol": "OXT",
+        "websiteurl": "https://www.orchid.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BTF"
+    },
+    {
+        "symbol": "MCO",
+        "websiteurl": "https://crypto.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NU",
+        "websiteurl": "https://www.nucypher.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HYDRO",
+        "websiteurl": "https://projecthydro.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PUX"
+    },
+    {
+        "symbol": "RWS"
+    },
+    {
+        "symbol": "BOSON",
+        "websiteurl": "https://bosonprotocol.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LABS",
+        "websiteurl": "https://labsgroup.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GC",
+        "websiteurl": "https://www.agric.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ANT",
+        "websiteurl": "https://aragon.one",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SPRKL"
+    },
+    {
+        "symbol": "STMX",
+        "websiteurl": "https://stormx.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XED",
+        "websiteurl": "https://www.exeedme.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AGS"
+    },
+    {
+        "symbol": "GVT",
+        "websiteurl": "https://genesis.vision/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MB"
+    },
+    {
+        "symbol": "ITL"
+    },
+    {
+        "symbol": "EDU",
+        "websiteurl": "http://www.edu.one/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SOCKS",
+        "websiteurl": "https://unisocks.exchange/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MDT",
+        "websiteurl": "https://mdt.io/",
+        "whitepaper": "https://www.cryptocompare.com/media/39500798/measurable-data-token_whitepaper.pdf"
+    },
+    {
+        "symbol": "DUCATO"
+    },
+    {
+        "symbol": "ZB",
+        "websiteurl": "https://www.zb.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "COT"
+    },
+    {
+        "symbol": "RAD",
+        "websiteurl": "https://radicle.xyz/",
+        "whitepaper": "https://docs.radicle.xyz/docs/what-is-radicle.html"
+    },
+    {
+        "symbol": "WAN",
+        "websiteurl": "https://wanchain.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LCT"
+    },
+    {
+        "symbol": "CEL",
+        "websiteurl": "https://celsius.network",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SPACE"
+    },
+    {
+        "symbol": "CNN",
+        "websiteurl": "https://cnntoken.io/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501141/content-neutrality-network-wp.pdf"
+    },
+    {
+        "symbol": "XSTAR"
+    },
+    {
+        "symbol": "ACE",
+        "websiteurl": "https://acent.tech/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ELF",
+        "websiteurl": "http://aelf.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "IPSX"
+    },
+    {
+        "symbol": "SKM",
+        "websiteurl": "https://skrumble.network",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MYB"
+    },
+    {
+        "symbol": "1WO",
+        "websiteurl": "https://ico.1worldonline.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MFG"
+    },
+    {
+        "symbol": "BOA",
+        "websiteurl": "https://www.bosagora.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KITTY",
+        "websiteurl": "https://kittyinuerc20.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FLP"
+    },
+    {
+        "symbol": "YAM",
+        "websiteurl": "https://yam.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BOOST",
+        "websiteurl": "https://boostco.in/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GS",
+        "websiteurl": "https://www.genshards.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CBM"
+    },
+    {
+        "symbol": "BIO"
+    },
+    {
+        "symbol": "ENQ",
+        "websiteurl": "https://enecuum.com/",
+        "whitepaper": "https://cryptocompare.com/media/39383078/tp_en.pdf"
+    },
+    {
+        "symbol": "PLR",
+        "websiteurl": "https://pillarproject.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HOT",
+        "websiteurl": "https://holo.host/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MIX",
+        "websiteurl": "https://www.mixmarvel.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SAV3"
+    },
+    {
+        "symbol": "SKL",
+        "websiteurl": "https://skale.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SUKU",
+        "websiteurl": "https://www.suku.world/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ZUSD",
+        "websiteurl": "https://stablecoin.z.com/zusd/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AIT"
+    },
+    {
+        "symbol": "PRO",
+        "websiteurl": "http://www.propy.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CBUCKS"
+    },
+    {
+        "symbol": "FLASH",
+        "websiteurl": "https://flashstake.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HNZO",
+        "websiteurl": "https://hanzoinu.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ZEE"
+    },
+    {
+        "symbol": "ADN"
+    },
+    {
+        "symbol": "KINE",
+        "websiteurl": "https://kine.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SRN",
+        "websiteurl": "https://sirinlabs.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TAP"
+    },
+    {
+        "symbol": "BFC",
+        "websiteurl": "https://thebifrost.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MATIC",
+        "websiteurl": "https://polygon.technology/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553910/polygon.pdf"
+    },
+    {
+        "symbol": "RAISE",
+        "websiteurl": "https://raise.it/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DRC"
+    },
+    {
+        "symbol": "MTV",
+        "websiteurl": "https://www.mtv.ac/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UNN",
+        "websiteurl": "https://www.unn.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "COTI",
+        "websiteurl": "https://coti.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KEX"
+    },
+    {
+        "symbol": "NANJ"
+    },
+    {
+        "symbol": "MSP"
+    },
+    {
+        "symbol": "ETGP"
+    },
+    {
+        "symbol": "METH",
+        "websiteurl": "https://farmingbad.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LXT",
+        "websiteurl": "https://litex.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FIS",
+        "websiteurl": "https://www.stafi.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FUN",
+        "websiteurl": "https://funfair.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "2KEY",
+        "websiteurl": "https://www.2key.network",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PHA",
+        "websiteurl": "https://phala.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NEXT"
+    },
+    {
+        "symbol": "MEET",
+        "websiteurl": "https://coinmeet.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RUFF",
+        "websiteurl": "http://ruffchain.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DARK"
+    },
+    {
+        "symbol": "BAS"
+    },
+    {
+        "symbol": "RUNE",
+        "websiteurl": "https://thorchain.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NGM",
+        "websiteurl": "https://e-money.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EVX",
+        "websiteurl": "https://www.everex.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CPC",
+        "websiteurl": "http://www.cpchain.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ONG",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "STP"
+    },
+    {
+        "symbol": "FTO",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "QC"
+    },
+    {
+        "symbol": "EDR"
+    },
+    {
+        "symbol": "TOKO",
+        "websiteurl": "https://www.tokoin.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BREE"
+    },
+    {
+        "symbol": "GIG",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DGD",
+        "websiteurl": "https://www.dgx.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ZDEX"
+    },
+    {
+        "symbol": "TOPC",
+        "websiteurl": "http://www.topc.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DAFI",
+        "websiteurl": "https://dafiprotocol.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TRU",
+        "websiteurl": "https://truefi.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SYN",
+        "websiteurl": "https://synapseprotocol.com/?inputCurrency=USDC&outputCurrency=MIM&outputChain=42161",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GMAT",
+        "websiteurl": "https://www.gowithmi.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SEN",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EM",
+        "websiteurl": "https://eminer.pro/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "STK",
+        "websiteurl": "https://stktoken.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DELTA",
+        "websiteurl": "https://delta.financial/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DGX"
+    },
+    {
+        "symbol": "RVX",
+        "websiteurl": "https://www.rivex.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BDG",
+        "websiteurl": "https://www.bitdegree.org",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CAS",
+        "websiteurl": "https://cashaa.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/39500859/cashaaplusbankingpluswhitepaperplusvplus21.pdf"
+    },
+    {
+        "symbol": "VNT",
+        "websiteurl": "http://vntchain.io/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501206/vnt-whitepaper-en.pdf"
+    },
+    {
+        "symbol": "RAZOR"
+    },
+    {
+        "symbol": "XDB"
+    },
+    {
+        "symbol": "YVS",
+        "websiteurl": "https://yvs.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RENBTC",
+        "websiteurl": "https://renproject.io/renvm",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XGT",
+        "websiteurl": "https://xion.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PBR",
+        "websiteurl": "https://polkabridge.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BUGG",
+        "websiteurl": "https://bugg.gg/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WIN",
+        "websiteurl": "https://winklink.org/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WFX"
+    },
+    {
+        "symbol": "OCEAN",
+        "websiteurl": "https://oceanprotocol.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XSGD",
+        "websiteurl": "https://xfers.com/sg/stablecoin",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ZXC",
+        "websiteurl": "https://0xcert.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TSHP",
+        "websiteurl": "http://12ships.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MXX"
+    },
+    {
+        "symbol": "AMB",
+        "websiteurl": "https://ambrosus.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "1SG"
+    },
+    {
+        "symbol": "VIDYA",
+        "websiteurl": "https://team3d.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SOC",
+        "websiteurl": "https://www.allsportschain.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LOC",
+        "websiteurl": "https://locktrip.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ORME",
+        "websiteurl": "http://ormeuscoin.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TESTA"
+    },
+    {
+        "symbol": "STARL",
+        "websiteurl": "https://www.starltoken.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HAL"
+    },
+    {
+        "symbol": "KATANA"
+    },
+    {
+        "symbol": "PIN",
+        "websiteurl": "https://www.flo.cash/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FTN"
+    },
+    {
+        "symbol": "DUCK",
+        "websiteurl": "https://unit.xyz/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "VOX",
+        "websiteurl": "https://vox.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MTL",
+        "websiteurl": "https://www.metalpay.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RRC"
+    },
+    {
+        "symbol": "BUSD",
+        "websiteurl": "https://www.paxos.com/busd/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UTU"
+    },
+    {
+        "symbol": "ZCC"
+    },
+    {
+        "symbol": "NOIA",
+        "websiteurl": "https://www.syntropynet.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BTR",
+        "websiteurl": "https://www.btrips.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TRIAS",
+        "websiteurl": "https://www.trias.one/",
+        "whitepaper": "https://www.trias.one/whitepaper"
+    },
+    {
+        "symbol": "CRU",
+        "websiteurl": "https://crust.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FWT"
+    },
+    {
+        "symbol": "GEM",
+        "websiteurl": "https://gems.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TRADE",
+        "websiteurl": "https://unitrade.app/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MRK"
+    },
+    {
+        "symbol": "CAPP",
+        "websiteurl": "https://cappasity.com/tech/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BONK",
+        "websiteurl": "https://bonktoken.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "JUL"
+    },
+    {
+        "symbol": "MOOV",
+        "websiteurl": "https://www.dotmoovs.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RARE",
+        "websiteurl": "https://superrare.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ADB",
+        "websiteurl": "https://adbank.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BEST",
+        "websiteurl": "https://www.bitpanda.com/en/best",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LDC",
+        "websiteurl": "https://www.leadcoin.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SURF"
+    },
+    {
+        "symbol": "ROOBEE",
+        "websiteurl": "https://roobee.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PPP",
+        "websiteurl": "https://www.paypie.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TOZ",
+        "websiteurl": "https://tozex.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LET",
+        "websiteurl": "https://www.linkeye.com/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UTT",
+        "websiteurl": "https://unitedtraders.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SYNC",
+        "websiteurl": "https://syncbond.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ON"
+    },
+    {
+        "symbol": "KIMCHI"
+    },
+    {
+        "symbol": "DTRC"
+    },
+    {
+        "symbol": "USDT",
+        "websiteurl": "https://tether.to/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553792/tetherwhitepaper.pdf"
+    },
+    {
+        "symbol": "RSR",
+        "websiteurl": "https://reserve.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UOS",
+        "websiteurl": "https://uos.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GALA",
+        "websiteurl": "https://gala.games/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CCN"
+    },
+    {
+        "symbol": "OKS",
+        "websiteurl": "https://oikos.cash/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FTM",
+        "websiteurl": "https://fantom.foundation/",
+        "whitepaper": "https://cryptocompare.com/media/38553924/fantom.pdf"
+    },
+    {
+        "symbol": "PROM",
+        "websiteurl": "https://prometeus.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PINU",
+        "websiteurl": "https://www.piccoloinu.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/38554004/311edd_62f5a8037e0e483a869798b35390b0bb.pdf"
+    },
+    {
+        "symbol": "CRO",
+        "websiteurl": "https://www.crypto.com/en/chain",
+        "whitepaper": "https://www.cryptocompare.com/media/38553930/crypto_com_.pdf"
+    },
+    {
+        "symbol": "DADI",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TFL",
+        "websiteurl": "trueflip.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SXP",
+        "websiteurl": "https://www.swipe.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SWAP",
+        "websiteurl": "https://trustswap.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "YFFC"
+    },
+    {
+        "symbol": "C20",
+        "websiteurl": "https://crypto20.com",
+        "whitepaper": "https://www.cryptocompare.com/media/39501145/c20-whitepaper.pdf"
+    },
+    {
+        "symbol": "SNOV"
+    },
+    {
+        "symbol": "ZUM"
+    },
+    {
+        "symbol": "DFGL"
+    },
+    {
+        "symbol": "DREP",
+        "websiteurl": "https://www.drep.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PUSH"
+    },
+    {
+        "symbol": "VIB",
+        "websiteurl": "https://www.viberate.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HUSD"
+    },
+    {
+        "symbol": "DENT",
+        "websiteurl": "https://www.dentwireless.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FET",
+        "websiteurl": "https://fetch.ai",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BF",
+        "websiteurl": "https://bitforex.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CO2"
+    },
+    {
+        "symbol": "BELA"
+    },
+    {
+        "symbol": "SNT",
+        "websiteurl": "https://status.im/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FXT",
+        "websiteurl": "https://fuzex.co/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MOB",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TRX",
+        "websiteurl": "https://tron.network/index?lng=en",
+        "whitepaper": "https://www.cryptocompare.com/media/38553920/tron.pdf"
+    },
+    {
+        "symbol": "UNO"
+    },
+    {
+        "symbol": "TVK",
+        "websiteurl": "https://www.terravirtua.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EURS",
+        "websiteurl": "https://stasis.net/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "IDT",
+        "websiteurl": "https://idt.one/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RYOSHI",
+        "websiteurl": "https://www.ryoshi.vision/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MBN"
+    },
+    {
+        "symbol": "MM"
+    },
+    {
+        "symbol": "FOR",
+        "websiteurl": "https://for.tube/home",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CLOUT"
+    },
+    {
+        "symbol": "S4F"
+    },
+    {
+        "symbol": "LOTTO"
+    },
+    {
+        "symbol": "MOF",
+        "websiteurl": "http://www.molecular.cc/?lang=en-us",
+        "whitepaper": "https://www.cryptocompare.com/media/39198244/molecular-future_bp-cn_20.pdf"
+    },
+    {
+        "symbol": "KUE"
+    },
+    {
+        "symbol": "ADA",
+        "websiteurl": "https://www.cardano.org/en/home/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "POWR",
+        "websiteurl": "https://powerledger.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "OMC"
+    },
+    {
+        "symbol": "ONX"
+    },
+    {
+        "symbol": "AMON"
+    },
+    {
+        "symbol": "YFBETA"
+    },
+    {
+        "symbol": "FEAR",
+        "websiteurl": "https://www.fearnft.games/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LRC",
+        "websiteurl": "https://loopring.org",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LIT",
+        "websiteurl": "https://www.litentry.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XRP",
+        "websiteurl": "https://ripple.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TOMO",
+        "websiteurl": "https://tomocoin.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CHZ",
+        "websiteurl": "https://www.chiliz.com/en/home/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BART"
+    },
+    {
+        "symbol": "VALOR",
+        "websiteurl": "https://smartvalor.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RDN",
+        "websiteurl": "https://raiden.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UP"
+    },
+    {
+        "symbol": "VERI",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KISHU",
+        "websiteurl": "https://kishuinu.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HYN",
+        "websiteurl": "https://www.hyn.space/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BTD"
+    },
+    {
+        "symbol": "PNT",
+        "websiteurl": "https://p.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FREE",
+        "websiteurl": "http://www.freecoin.technology/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "QKC",
+        "websiteurl": "https://quarkchain.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SRK",
+        "websiteurl": "https://www.sparkpoint.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "YEED",
+        "websiteurl": "https://yggdrash.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MWAT",
+        "websiteurl": "https://restartenergy.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WING",
+        "websiteurl": "https://wing.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HUR"
+    },
+    {
+        "symbol": "OGO",
+        "websiteurl": "https://origo.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "OM",
+        "websiteurl": "https://mantradao.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "POP"
+    },
+    {
+        "symbol": "CVX",
+        "websiteurl": "https://www.convexfinance.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SUPER",
+        "websiteurl": "https://www.superfarm.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ANK"
+    },
+    {
+        "symbol": "KNC",
+        "websiteurl": "https://kyber.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GEX"
+    },
+    {
+        "symbol": "VAB",
+        "websiteurl": "https://www.vabble.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XFI",
+        "websiteurl": "https://xfinance.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PTT"
+    },
+    {
+        "symbol": "SNB"
+    },
+    {
+        "symbol": "ASTRO",
+        "websiteurl": "https://www.astroswap.app/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CXO",
+        "websiteurl": "https://cargox.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CLV",
+        "websiteurl": "https://clover.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SPD"
+    },
+    {
+        "symbol": "SALT",
+        "websiteurl": "https://www.saltlending.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BOOM"
+    },
+    {
+        "symbol": "PRS"
+    },
+    {
+        "symbol": "BEPRO",
+        "websiteurl": "https://early.betprotocol.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LTC",
+        "websiteurl": "https://litecoin.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CREAM",
+        "websiteurl": "https://cream.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "STORJ",
+        "websiteurl": "https://storj.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CUSD"
+    },
+    {
+        "symbol": "XRUNE",
+        "websiteurl": "https://thorstarter.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ADX",
+        "websiteurl": "https://www.adex.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GAME",
+        "websiteurl": "https://gamecredits.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UST",
+        "websiteurl": "https://terra.money/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553948/leo-token-whitepaper.pdf"
+    },
+    {
+        "symbol": "OUSD",
+        "websiteurl": "https://www.ousd.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TRIO",
+        "websiteurl": "http://trip.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ETC",
+        "websiteurl": "http://www.ethereumclassic.org",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MZK"
+    },
+    {
+        "symbol": "CSNO"
+    },
+    {
+        "symbol": "UTK",
+        "websiteurl": "https://utrust.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ILK",
+        "websiteurl": "https://ico.inlock.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DEX",
+        "websiteurl": "https://www.coinbit.co.kr/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TRB",
+        "websiteurl": "https://tellor.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "COVA"
+    },
+    {
+        "symbol": "BLOODY"
+    },
+    {
+        "symbol": "FACE"
+    },
+    {
+        "symbol": "WHALE",
+        "websiteurl": "https://whale.me/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HEDG",
+        "websiteurl": "https://hedgetrade.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "INE"
+    },
+    {
+        "symbol": "FKX",
+        "websiteurl": "https://fortknoxster.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DPX",
+        "websiteurl": "https://www.dopex.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NXM",
+        "websiteurl": "https://nexusmutual.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BNANA"
+    },
+    {
+        "symbol": "SWM",
+        "websiteurl": "https://www.swarm.fund/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RIO",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PRE",
+        "websiteurl": "https://www.presearch.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MCC",
+        "websiteurl": "https://www.magiccube.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BOND",
+        "websiteurl": "https://barnbridge.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "JOB",
+        "websiteurl": "https://www.jobchain.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PLOT"
+    },
+    {
+        "symbol": "YLD"
+    },
+    {
+        "symbol": "APM",
+        "websiteurl": "https://apm-coin.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DOGE",
+        "websiteurl": "http://dogecoin.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553797/dogecoin-whitepaper.pdf"
+    },
+    {
+        "symbol": "LGBTQ",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HOLD"
+    },
+    {
+        "symbol": "EPAN",
+        "websiteurl": "https://paypolitan.io/#rec242755164",
+        "whitepaper": "https://paypolitan.io/whitepaper"
+    },
+    {
+        "symbol": "ELD"
+    },
+    {
+        "symbol": "AGI",
+        "websiteurl": "https://singularitynet.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "URAC",
+        "websiteurl": "https://www.uranus.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CLR",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ONOT"
+    },
+    {
+        "symbol": "YEE",
+        "websiteurl": "https://yeeco.io/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501193/yeeco-v02-en.pdf"
+    },
+    {
+        "symbol": "COR"
+    },
+    {
+        "symbol": "CATT",
+        "websiteurl": "https://www.catex.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "VIBE",
+        "websiteurl": "https://www.vibehub.io/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501214/vibehubwhitepaper2017.pdf"
+    },
+    {
+        "symbol": "CHX",
+        "websiteurl": "https://weown.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TYPE",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BBR",
+        "websiteurl": "http://boolberry.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LGCY",
+        "websiteurl": "https://lgcy.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ADL"
+    },
+    {
+        "symbol": "ICHI",
+        "websiteurl": "https://www.ichi.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BNT",
+        "websiteurl": "https://bancor.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DAY",
+        "websiteurl": "https://chronologic.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CC10",
+        "websiteurl": "https://indexed.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FOAM",
+        "websiteurl": "https://foam.space/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AIOZ",
+        "websiteurl": "https://aioz.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MC",
+        "websiteurl": "https://meritcircle.io/",
+        "whitepaper": "https://meritcircle.gitbook.io/merit-circle/"
+    },
+    {
+        "symbol": "GMB",
+        "websiteurl": "https://gmbplatform.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LEDU"
+    },
+    {
+        "symbol": "CHIHUA",
+        "websiteurl": "https://www.chihuatoken.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PLU",
+        "websiteurl": "https://plutus.it/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MDX",
+        "websiteurl": "https://mdex.com/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NCC",
+        "websiteurl": "https://www.neurochaintech.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CHSB",
+        "websiteurl": "https://swissborg.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XCAD",
+        "websiteurl": "https://xcademytoken.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "USHIBA",
+        "websiteurl": "https://americanshiba.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ECU"
+    },
+    {
+        "symbol": "PLF",
+        "websiteurl": "https://playfuel.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FNK",
+        "websiteurl": "https://funkeypay.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HGT",
+        "websiteurl": "http://www.hellogold.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HUM",
+        "websiteurl": "https://www.humanscape.io/en/index.html",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MDA",
+        "websiteurl": "https://moedaseeds.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BWX",
+        "websiteurl": "https://bluewhale.foundation/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "YOP",
+        "websiteurl": "https://yop.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UMX",
+        "websiteurl": "https://unimex.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RNT",
+        "websiteurl": "https://www.oneroot.io/en",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EKT",
+        "websiteurl": "http://ekt8.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AVT",
+        "websiteurl": "https://aventus.io?utm_source=cryptocompare&utm_medium=sponsorship",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ESS",
+        "websiteurl": "https://essentia.one",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WAVES",
+        "websiteurl": "https://waves.tech/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "COSM",
+        "websiteurl": "https://cosmochain.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "YOU",
+        "websiteurl": "https://www.youchain.cc/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DINGER",
+        "websiteurl": "https://www.schrodingertoken.com/",
+        "whitepaper": "https://cryptocompare.com/media/38554018/4f7660_9c16e33add7a4e2f872af0e00ff2d848.pdf"
+    },
+    {
+        "symbol": "DTX",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AMP",
+        "websiteurl": "https://amptoken.org/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553954/amp.pdf"
+    },
+    {
+        "symbol": "AT"
+    },
+    {
+        "symbol": "XUC",
+        "websiteurl": "https://www.exchangeunion.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ROOT"
+    },
+    {
+        "symbol": "ZIP"
+    },
+    {
+        "symbol": "FEI",
+        "websiteurl": "https://fei.money/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BOUTS"
+    },
+    {
+        "symbol": "RBC",
+        "websiteurl": "https://rubic.exchange/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "QSP",
+        "websiteurl": "https://quantstamp.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FORM",
+        "websiteurl": "https://formation.fi/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "IMT"
+    },
+    {
+        "symbol": "BON",
+        "websiteurl": null,
+        "whitepaper": ""
+    },
+    {
+        "symbol": "YFIVE"
+    },
+    {
+        "symbol": "RMPL"
+    },
+    {
+        "symbol": "DERC",
+        "websiteurl": "https://www.derace.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CORE",
+        "websiteurl": "https://cvault.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CFX"
+    },
+    {
+        "symbol": "TIME",
+        "websiteurl": "https://www.wonderland.money/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KAN",
+        "websiteurl": "http://kan.land/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EMRX",
+        "websiteurl": "http://emrx.emirex.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TLN"
+    },
+    {
+        "symbol": "SPANK",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FLOAT",
+        "websiteurl": "https://floatprotocol.com/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "INSUR",
+        "websiteurl": "https://landing.insurace.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MIOTA",
+        "websiteurl": "https://iota.org/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553943/iota.pdf"
+    },
+    {
+        "symbol": "PMON",
+        "websiteurl": "https://polkamon.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SKRP",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UNC"
+    },
+    {
+        "symbol": "CHADS",
+        "websiteurl": "https://www.chads.vc/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PST",
+        "websiteurl": "https://primas.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PNK",
+        "websiteurl": "https://kleros.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KFC"
+    },
+    {
+        "symbol": "DFT"
+    },
+    {
+        "symbol": "OLT",
+        "websiteurl": "https://oneledger.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "OCN",
+        "websiteurl": "http://www.ocnex.net/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TCH",
+        "websiteurl": "https://www.thorecash.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MAS"
+    },
+    {
+        "symbol": "WOZX"
+    },
+    {
+        "symbol": "BAAS",
+        "websiteurl": "https://www.baasid.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SENC",
+        "websiteurl": "https://www.sentinel-chain.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BTCE"
+    },
+    {
+        "symbol": "REAL",
+        "websiteurl": "https://www.reallink.vip/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RNDR",
+        "websiteurl": "https://render.x.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FLOKI",
+        "websiteurl": "https://floki-inu.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BUT",
+        "websiteurl": "https://bitup.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BUNNY",
+        "websiteurl": "https://pancakebunny.finance/pool",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ZT",
+        "websiteurl": "https://www.zbg.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "STACS",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UMA",
+        "websiteurl": "https://umaproject.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ADD",
+        "websiteurl": "https://add.xyz/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ARMOR",
+        "websiteurl": "https://armor.fi/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KELPIE",
+        "websiteurl": "https://kelpie.tech/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BTC",
+        "websiteurl": "https://bitcoin.org/en/",
+        "whitepaper": "https://www.cryptocompare.com/media/37745820/bitcoin.pdf"
+    },
+    {
+        "symbol": "CRD",
+        "websiteurl": "https://www.crdtoken.org",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GRID"
+    },
+    {
+        "symbol": "BAND",
+        "websiteurl": "https://bandprotocol.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "JRT",
+        "websiteurl": "https://jarvis.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SATT"
+    },
+    {
+        "symbol": "UAT",
+        "websiteurl": "https://ultralpha.io/#/home",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AAC",
+        "websiteurl": "http://acuteangle.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CAPT",
+        "websiteurl": "https://www.captainbitcoin.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "REL"
+    },
+    {
+        "symbol": "GRT",
+        "websiteurl": "https://thegraph.com/",
+        "whitepaper": "https://thegraph.com/docs/about/introduction"
+    },
+    {
+        "symbol": "CWV"
+    },
+    {
+        "symbol": "SPN"
+    },
+    {
+        "symbol": "PMGT",
+        "websiteurl": "https://pmgt.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "OWL"
+    },
+    {
+        "symbol": "FRM",
+        "websiteurl": "https://ferrum.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PNC"
+    },
+    {
+        "symbol": "ODDZ",
+        "websiteurl": "https://www.oddz.fi/",
+        "whitepaper": "https://docsend.com/view/mefxr8h3ymzuhwqk"
+    },
+    {
+        "symbol": "PERP",
+        "websiteurl": "https://perp.fi/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XFT"
+    },
+    {
+        "symbol": "EXY"
+    },
+    {
+        "symbol": "TBT"
+    },
+    {
+        "symbol": "GRUMPY",
+        "websiteurl": "https://grumpy.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DEGO",
+        "websiteurl": "https://dego.finance/home",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DASH",
+        "websiteurl": "http://dash.org",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "VXV"
+    },
+    {
+        "symbol": "KTON",
+        "websiteurl": "https://darwinia.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "APIX",
+        "websiteurl": "https://apisplatform.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BIKI"
+    },
+    {
+        "symbol": "BNK",
+        "websiteurl": "https://bankera.com/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PUNDIX",
+        "websiteurl": "https://pundix.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XSP"
+    },
+    {
+        "symbol": "SANSHU",
+        "websiteurl": "https://sanshuinu.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DNT",
+        "websiteurl": "https://district0x.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NORD",
+        "websiteurl": "https://nordfinance.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BRC",
+        "websiteurl": "https://www.baerchain.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XBP"
+    },
+    {
+        "symbol": "MTN"
+    },
+    {
+        "symbol": "USDS",
+        "websiteurl": "https://www.stably.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PDEX",
+        "websiteurl": "https://www.polkadex.trade/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XBX",
+        "websiteurl": "https://ico.bitex.global",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MAG"
+    },
+    {
+        "symbol": "CBX"
+    },
+    {
+        "symbol": "MVC",
+        "websiteurl": "https://mileverse.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CREED",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BOTX",
+        "websiteurl": "https://botxcoin.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SLICE",
+        "websiteurl": "https://tranche.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LNC"
+    },
+    {
+        "symbol": "ENJ",
+        "websiteurl": "https://enjin.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PRQ",
+        "websiteurl": "https://www.parsiq.net/",
+        "whitepaper": "https://docs.parsiq.net/"
+    },
+    {
+        "symbol": "ETHM",
+        "websiteurl": "https://ethermeta.com",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "IND"
+    },
+    {
+        "symbol": "YFBT"
+    },
+    {
+        "symbol": "WXTZ",
+        "websiteurl": "https://www.stakerdao.com/products/wxtz",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RCN",
+        "websiteurl": "https://ripiocredit.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BASE"
+    },
+    {
+        "symbol": "GHST",
+        "websiteurl": "https://www.aavegotchi.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SNX",
+        "websiteurl": "https://www.synthetix.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SXUT"
+    },
+    {
+        "symbol": "PCH"
+    },
+    {
+        "symbol": "FXP",
+        "websiteurl": "https://fxpay.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ATCC"
+    },
+    {
+        "symbol": "FYZ",
+        "websiteurl": "fyooz.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DOT",
+        "websiteurl": "https://polkadot.network/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553795/polkadotpaper.pdf"
+    },
+    {
+        "symbol": "ARPA",
+        "websiteurl": "https://arpachain.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DDD",
+        "websiteurl": "https://home.scry.info/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AOA",
+        "websiteurl": "https://www.aurorachain.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AAVE",
+        "websiteurl": "https://aave.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553941/aave_protocol_whitepaper_v1_0.pdf"
+    },
+    {
+        "symbol": "SNET",
+        "websiteurl": "https://www.snetwork.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CAPS",
+        "websiteurl": "https://www.ternoa.com/en",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TFUEL",
+        "websiteurl": "https://www.thetatoken.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TEN",
+        "websiteurl": "https://www.tokenomy.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PENDLE",
+        "websiteurl": "https://pendle.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SPND",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LYM",
+        "websiteurl": "https://lympo.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GUM",
+        "websiteurl": "https://gourmetgalaxy.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UBEX",
+        "websiteurl": "https://www.ubex.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TNB",
+        "websiteurl": "https://tnb.fund",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UPUSD",
+        "websiteurl": "https://universalprotocol.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ETHP"
+    },
+    {
+        "symbol": "RFR",
+        "websiteurl": "https://refereum.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CAN"
+    },
+    {
+        "symbol": "LUSD",
+        "websiteurl": "https://www.liquity.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ECOM",
+        "websiteurl": "https://omnitude.tech",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BCP",
+        "websiteurl": "https://bitcashpay.net/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PLTC",
+        "websiteurl": "https://platonfinance.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MOAR",
+        "websiteurl": "https://moardefi.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MAPS",
+        "websiteurl": "https://maps.me/token/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CTC",
+        "websiteurl": "https://creditcoin.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FUSE",
+        "websiteurl": "https://fuse.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SCL"
+    },
+    {
+        "symbol": "SCOIN",
+        "websiteurl": "https://www.shincoin.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BTU",
+        "websiteurl": "https://www.btu-protocol.com/en/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ANCT",
+        "websiteurl": "https://theanchor.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TRST"
+    },
+    {
+        "symbol": "APY",
+        "websiteurl": "https://apy.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ZCN",
+        "websiteurl": "https://0chain.net/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CELL",
+        "websiteurl": "https://cellframe.net/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ABT",
+        "websiteurl": "https://www.arcblock.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MARSH",
+        "websiteurl": "https://unmarshal.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SHARE",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DMT",
+        "websiteurl": "https://dmarket.com/ingame-items/item-list/csgo-skins",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SAND",
+        "websiteurl": "https://www.sandbox.game/en/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BLY",
+        "websiteurl": "http://blocery.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RCC"
+    },
+    {
+        "symbol": "VEN"
+    },
+    {
+        "symbol": "ZLA",
+        "websiteurl": "https://zla.io/en",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ONE",
+        "websiteurl": "https://harmony.one/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553951/harmony.pdf"
+    },
+    {
+        "symbol": "PPT",
+        "websiteurl": "https://populous.world/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ANKR",
+        "websiteurl": "https://www.ankr.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LQTY",
+        "websiteurl": "https://www.liquity.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TUSD",
+        "websiteurl": "https://www.trueusd.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NEX",
+        "websiteurl": "https://nash.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BWF",
+        "websiteurl": "https://beowulfchain.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BEAR",
+        "websiteurl": "https://ftx.com/tokens/BEAR",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CND",
+        "websiteurl": "https://cindicator.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "POLS",
+        "websiteurl": "https://www.polkastarter.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CVC",
+        "websiteurl": "https://www.civic.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TAN"
+    },
+    {
+        "symbol": "BMC",
+        "websiteurl": "https://blackmooncrypto.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HQX",
+        "websiteurl": "https://www.hoqu.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FOTA",
+        "websiteurl": null,
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FOUR"
+    },
+    {
+        "symbol": "EBK"
+    },
+    {
+        "symbol": "GBX",
+        "websiteurl": "https://www.gobyte.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DPR",
+        "websiteurl": "https://www.deeper.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AST",
+        "websiteurl": "https://www.airswap.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WIX",
+        "websiteurl": "https://wixlar.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MATH",
+        "websiteurl": "https://mathwallet.org/en-us/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CRPT",
+        "websiteurl": "https://crypterium.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BIX",
+        "websiteurl": "https://www.bibox.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ALGO",
+        "websiteurl": "https://algorand.foundation/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553909/algorand.pdf"
+    },
+    {
+        "symbol": "XPN",
+        "websiteurl": "https://pantheonx.io/#/home/en",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NYAN"
+    },
+    {
+        "symbol": "ATOM",
+        "websiteurl": "https://cosmos.network/",
+        "whitepaper": "https://v1.cosmos.network/resources/whitepaper"
+    },
+    {
+        "symbol": "KYL",
+        "websiteurl": "https://kylin.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MOD"
+    },
+    {
+        "symbol": "YFV"
+    },
+    {
+        "symbol": "FARM",
+        "websiteurl": "https://harvest.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TORN",
+        "websiteurl": "https://tornado.cash/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EXRN"
+    },
+    {
+        "symbol": "BBN"
+    },
+    {
+        "symbol": "PRIA"
+    },
+    {
+        "symbol": "BANK",
+        "websiteurl": "https://floatprotocol.com/#/pools",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BZNT",
+        "websiteurl": "https://bezant.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DAI",
+        "websiteurl": "https://makerdao.com/en/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553923/dai.pdf"
+    },
+    {
+        "symbol": "DIP"
+    },
+    {
+        "symbol": "UNCL",
+        "websiteurl": "",
+        "whitepaper": "https://docs.unicrypt.network/"
+    },
+    {
+        "symbol": "PAID",
+        "websiteurl": "https://paidnetwork.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CGT",
+        "websiteurl": "https://cache.gold/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CELO",
+        "websiteurl": "https://celo.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "OPT"
+    },
+    {
+        "symbol": "STU"
+    },
+    {
+        "symbol": "SLINK"
+    },
+    {
+        "symbol": "LOOM",
+        "websiteurl": "https://loomx.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UQC",
+        "websiteurl": "https://uquidcoin.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AUC",
+        "websiteurl": "https://auctus.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MCB",
+        "websiteurl": "https://mcdex.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ELON",
+        "websiteurl": "https://dogelon.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WETH",
+        "websiteurl": "https://weth.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MOC",
+        "websiteurl": "https://moss.land/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DNA",
+        "websiteurl": "https://mvsdna.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SOLVE",
+        "websiteurl": "https://solve.care/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FNB",
+        "websiteurl": "https://fnbprotocol.io/fnb/index_eng.php",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DPT",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XCLR"
+    },
+    {
+        "symbol": "ART",
+        "websiteurl": "https://www.maecenas.co/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BASIC"
+    },
+    {
+        "symbol": "DXD",
+        "websiteurl": "https://dxdao.eth.link/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XTK",
+        "websiteurl": "https://xtoken.market/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GRO",
+        "websiteurl": "https://www.gro.xyz/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FLOW",
+        "websiteurl": "https://www.onflow.org/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553940/flow.pdf"
+    },
+    {
+        "symbol": "LEO",
+        "websiteurl": "https://www.bitfinex.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553948/leo-token-whitepaper.pdf"
+    },
+    {
+        "symbol": "KIN",
+        "websiteurl": "https://kin.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FRAX",
+        "websiteurl": "https://frax.finance/#welcome",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SAITO",
+        "websiteurl": "https://saito.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ENTR",
+        "websiteurl": "https://enterdao.xyz/",
+        "whitepaper": "https://medium.com/enterdao/enterdao-whitepaper-27447f7400c8"
+    },
+    {
+        "symbol": "PAINT",
+        "websiteurl": "https://murall.art/home",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "RPZX"
+    },
+    {
+        "symbol": "YFARM"
+    },
+    {
+        "symbol": "ARA",
+        "websiteurl": "https://ara.one/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MINT"
+    },
+    {
+        "symbol": "DMG",
+        "websiteurl": "https://defimoneymarket.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HVN",
+        "websiteurl": "https://www.hiveterminal.com/en/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "INXT"
+    },
+    {
+        "symbol": "VALUE",
+        "websiteurl": "https://yfv.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LC4",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "VGX",
+        "websiteurl": "https://www.investvoyager.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "LGO"
+    },
+    {
+        "symbol": "HEX",
+        "websiteurl": "https://hex.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DACS"
+    },
+    {
+        "symbol": "WPP",
+        "websiteurl": "https://wppenergy.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MTX",
+        "websiteurl": "https://matryx.ai",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PVT",
+        "websiteurl": "https://www.pivot.one/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XTP",
+        "websiteurl": "https://www.tap.global/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ARDX",
+        "websiteurl": "https://ardcoin.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/39413397/ardcoin-whitep.pdf"
+    },
+    {
+        "symbol": "ESH"
+    },
+    {
+        "symbol": "GEEQ",
+        "websiteurl": "https://geeq.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "EBC"
+    },
+    {
+        "symbol": "GTH",
+        "websiteurl": "https://gather.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DCR",
+        "websiteurl": "https://decred.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BITS"
+    },
+    {
+        "symbol": "ENTRC",
+        "websiteurl": "https://entercoin.net",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ABYSS",
+        "websiteurl": "https://abyss.finance/?utm_source=cryptocompare&utm_medium=VisitButton",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BMX",
+        "websiteurl": "https://www.bitmart.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "COB"
+    },
+    {
+        "symbol": "SFI"
+    },
+    {
+        "symbol": "PEAK"
+    },
+    {
+        "symbol": "MKR",
+        "websiteurl": "https://makerdao.com/en/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DOV"
+    },
+    {
+        "symbol": "NTK",
+        "websiteurl": "https://neuromation.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "WAXE",
+        "websiteurl": "https://on.wax.io/wax-io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CHR",
+        "websiteurl": "https://chromia.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "NOKU"
+    },
+    {
+        "symbol": "VI"
+    },
+    {
+        "symbol": "ODE",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MTA",
+        "websiteurl": "https://mstable.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "OCTO",
+        "websiteurl": "https://octo.fi/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "VIDY",
+        "websiteurl": "https://vidy.com/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501209/vidy-whitepaper.pdf"
+    },
+    {
+        "symbol": "MEME",
+        "websiteurl": "https://dontbuymeme.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BKX",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "1UP"
+    },
+    {
+        "symbol": "LINKA"
+    },
+    {
+        "symbol": "BLUE"
+    },
+    {
+        "symbol": "SHROOM",
+        "websiteurl": "https://shroom.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "BITX"
+    },
+    {
+        "symbol": "ZIL",
+        "websiteurl": "https://www.zilliqa.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GYEN",
+        "websiteurl": "https://stablecoin.z.com/gyen/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "YFTE",
+        "websiteurl": "https://yftether.io/#/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CMS"
+    },
+    {
+        "symbol": "ACH",
+        "websiteurl": "https://www.alchemytech.io/alchemy_english.html",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HAND",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "QQQ",
+        "websiteurl": "https://poseidon.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "JGN"
+    },
+    {
+        "symbol": "NPLC",
+        "websiteurl": "https://www.plus-coin.com/en/Default.asp",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SHPING"
+    },
+    {
+        "symbol": "BNS",
+        "websiteurl": "https://www.bitbns.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SAN",
+        "websiteurl": "http://www.santiment.net/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PASS",
+        "websiteurl": "https://www.blockpass.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FXS",
+        "websiteurl": "https://frax.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "KRL",
+        "websiteurl": "https://kryll.io",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CAP"
+    },
+    {
+        "symbol": "CWS",
+        "websiteurl": "https://www.seascape.network/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "USDQ"
+    },
+    {
+        "symbol": "LOCUS"
+    },
+    {
+        "symbol": "ICH",
+        "websiteurl": "https://ideachaincoin.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SHIH",
+        "websiteurl": "https://www.shih-tzu.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SAI",
+        "websiteurl": "https://makerdao.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PAY",
+        "websiteurl": "https://www.tenx.tech/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MDS",
+        "websiteurl": "http://www.medishares.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XLM",
+        "websiteurl": "https://www.stellar.org/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553911/stellar.pdf"
+    },
+    {
+        "symbol": "STAKE",
+        "websiteurl": "https://www.xdaichain.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "XNK",
+        "websiteurl": "https://paywithink.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "TBC"
+    },
+    {
+        "symbol": "DAC",
+        "websiteurl": "https://www.davinci.vision/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AXIS"
+    },
+    {
+        "symbol": "NKC"
+    },
+    {
+        "symbol": "MNE",
+        "websiteurl": "https://www.minereum.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ZCX",
+        "websiteurl": "https://unizen.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "FLUX",
+        "websiteurl": "https://runonflux.io/",
+        "whitepaper": "https://www.cryptocompare.com/media/39456580/fluxwhitepaper.pdf"
+    },
+    {
+        "symbol": "JASMY",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DOKI",
+        "websiteurl": "https://dokidoki.finance/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HEGIC",
+        "websiteurl": "https://www.hegic.co/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ARAW",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "GRC",
+        "websiteurl": "https://www.greencoin.ai/",
+        "whitepaper": "https://www.cryptocompare.com/media/39501458/greencoin-whitepaper.pdf"
+    },
+    {
+        "symbol": "GOLD",
+        "websiteurl": "https://goldengoose.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MXC",
+        "websiteurl": "https://www.mxc.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "PHNX",
+        "websiteurl": "https://phoenixdao.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "AMPL",
+        "websiteurl": "https://www.ampleforth.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SWAG"
+    },
+    {
+        "symbol": "CPT"
+    },
+    {
+        "symbol": "XCUR"
+    },
+    {
+        "symbol": "ALICE",
+        "websiteurl": "https://www.myneighboralice.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SI",
+        "websiteurl": "https://sirenmarkets.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "SUSHI",
+        "websiteurl": "https://sushiswap.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "UIP"
+    },
+    {
+        "symbol": "LON"
+    },
+    {
+        "symbol": "HIT",
+        "websiteurl": "http://hitchain.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "QUICK",
+        "websiteurl": "https://quickswap.exchange/#/swap",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "IXT"
+    },
+    {
+        "symbol": "FLOT"
+    },
+    {
+        "symbol": "ING"
+    },
+    {
+        "symbol": "AKRO",
+        "websiteurl": "https://akropolis.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "DX",
+        "websiteurl": "https://www.dxchain.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "CNB",
+        "websiteurl": "https://coinsbit.io/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "ROOM",
+        "websiteurl": "https://www.optionroom.finance/",
+        "whitepaper": "https://www.cryptocompare.com/media/38553765/optionroom_whitepaper.pdf"
+    },
+    {
+        "symbol": "OSA"
+    },
+    {
+        "symbol": "MANA",
+        "websiteurl": "https://decentraland.org/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "IONC"
+    },
+    {
+        "symbol": "ALCH",
+        "websiteurl": "https://alchemy-ai.com/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "MNC",
+        "websiteurl": "https://maincoin.money/",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "HEZ",
+        "websiteurl": "",
+        "whitepaper": ""
+    },
+    {
+        "symbol": "STAK",
+        "websiteurl": "https://jigstack.org/",
+        "whitepaper": ""
+    }
+]
