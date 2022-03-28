@@ -7,8 +7,10 @@
   {"symbol": "BCH", "name": "smartBCH"},
   {"symbol": "BLZ", "name": "Bluzelle"},
   {"symbol": "BNB", "name": "BNB coin"},
-  {"symbol": "BNB", "name": "Smart Chain"},
+  {"symbol": "BNB", "name": "BNB Smart Chain"},
+  {"symbol": "BNB", "name": "BNB Beacon Chain"},
   {"symbol": "BTG", "name": "Bitcoin Gold"},
+  {"symbol": "CELO", "name": "Celo"},
   {"symbol": "CLO", "name": "Callisto Network"},
   {"symbol": "CRO", "name": "Crypto.org"},
   {"symbol": "DGB", "name": "DigiByte"},
@@ -44,8 +46,10 @@
   {"symbol": "VIA", "name": "Viacoin"},
   {"symbol": "WAN", "name": "Wanchain"},
   {"symbol": "WAVES", "name": "Waves"},
-  {"symbol": "xDAI", "name": "xDai"},  
+  {"symbol": "xDAI", "name": "Gnosis Chain"},  
+  {"symbol": "XEC", "name": "eCash"},
   {"symbol": "XLM", "name": "Stellar"},
+  {"symbol": "XNO", "name": "Nano"},
   {"symbol": "XRP", "name": "XRP"},
   {"symbol": "eGLD", "name": "Elrond"}
 ]

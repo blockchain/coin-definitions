@@ -576,3 +576,82 @@
 
 # Use our own version of renBTC:
 # 0xEB4C2781e4ebA804CE9a9803C67d0893436bB27D
+
+# 'APE' is shared by:
+# - https://etherscan.io/token/0x209C1808FeBf6c1aB7C65764bb61AD67d3923fcc (APEcoin): https://APEcoin.dev
+0x209C1808FeBf6c1aB7C65764bb61AD67d3923fcc
+# - https://etherscan.io/token/0x4d224452801ACEd8B2F0aebE155379bb5D594381 (ApeCoin (APE)): https://apecoin.com
+# 0x4d224452801ACEd8B2F0aebE155379bb5D594381
+#
+# 'BONDLY' is shared by:
+# - https://etherscan.io/token/0x91dFbEE3965baAEE32784c2d546B7a0C62F268c9 (Bondly): https://www.bondly.finance
+0x91dFbEE3965baAEE32784c2d546B7a0C62F268c9
+# - https://etherscan.io/token/0xD2dDa223b2617cB616c1580db421e4cFAe6a8a85 (Bondly): https://www.bondly.finance
+# 0xD2dDa223b2617cB616c1580db421e4cFAe6a8a85
+#
+# 'DATA' is shared by:
+# - https://etherscan.io/token/0x0Cf0Ee63788A0849fE5297F3407f701E122cC023 (Streamr DATAcoin): https://streamr.com
+# 0x0Cf0Ee63788A0849fE5297F3407f701E122cC023
+# - https://etherscan.io/token/0x8f693ca8D21b157107184d29D398A8D082b38b76 (Streamr): https://streamr.network
+0x8f693ca8D21b157107184d29D398A8D082b38b76
+#
+# 'ETHM' is shared by:
+# - https://etherscan.io/token/0x340eF83Ec8560892168D4062720F030460468656 (Ethereum Meta): https://ethermeta.com
+# 0x340eF83Ec8560892168D4062720F030460468656
+# - https://etherscan.io/token/0xFD957F21bd95E723645C07C48a2d8ACB8Ffb3794 (Ethereum Meta): https://ethermeta.com
+0xFD957F21bd95E723645C07C48a2d8ACB8Ffb3794
+#
+# 'FLOKI' is shared by:
+# - https://etherscan.io/token/0x43f11c02439e2736800433b4594994Bd43Cd066D (Floki Inu): https://theflokiinu.com
+# 0x43f11c02439e2736800433b4594994Bd43Cd066D
+# - https://etherscan.io/token/0xcf0C122c6b73ff809C693DB761e7BaeBe62b6a2E (FLOKI): https://floki.com
+0xcf0C122c6b73ff809C693DB761e7BaeBe62b6a2E
+#
+# 'GAME' is shared by:
+# - https://etherscan.io/token/0x63f88A2298a5c4AEE3c216Aa6D926B184a4b2437 (GAME Credits): https://gamecredits.org
+# 0x63f88A2298a5c4AEE3c216Aa6D926B184a4b2437
+# - https://etherscan.io/token/0xa1EA9aA32CBba8c203DDC510a144aD1F439d436c (MetaPortal Gaming Index): https://www.metaportal.wtf/
+0xa1EA9aA32CBba8c203DDC510a144aD1F439d436c
+#
+# 'GTH' is shared by:
+# - https://etherscan.io/token/0xc3771d47E2Ab5A519E2917E61e23078d0C05Ed7f (Gather): https://gather.network
+# 0xc3771d47E2Ab5A519E2917E61e23078d0C05Ed7f
+# - https://etherscan.io/token/0xeb986DA994E4a118d5956b02d8b7c3C7CE373674 (Gather): https://gather.network
+0xeb986DA994E4a118d5956b02d8b7c3C7CE373674
+#
+# 'HOKK' is shared by:
+# - https://etherscan.io/token/0xC40AF1E4fEcFA05Ce6BAb79DcD8B373d2E436c4E (Hokkaidu Inu): https://hokk.finance/
+# 0xC40AF1E4fEcFA05Ce6BAb79DcD8B373d2E436c4E
+# - https://etherscan.io/token/0xe87e15B9c7d989474Cb6d8c56b3DB4eFAD5b21E8 (Hokkaidu Inu): https://hokk.finance/
+0xe87e15B9c7d989474Cb6d8c56b3DB4eFAD5b21E8
+#
+# 'MCC' is shared by:
+# - https://etherscan.io/token/0x13d6b121817D78faC403Ebf2C59c0C93583991df (MccCoin):
+# 0x13d6b121817D78faC403Ebf2C59c0C93583991df
+# - https://etherscan.io/token/0xC146B7CdBaff065090077151d391f4c96Aa09e0C (Multi-Chain Capital): https://mchain.capital/
+0xC146B7CdBaff065090077151d391f4c96Aa09e0C
+#
+# 'NOKU' is shared by:
+# - https://etherscan.io/token/0x1fC52f1ABade452Dd4674477D4711951700b3d27 (NOKU): https://www.noku.io/
+# 0x1fC52f1ABade452Dd4674477D4711951700b3d27
+# - https://etherscan.io/token/0x8167D3B1024cB51A2DD1B4d889ddf7023420796a (NOKU v2): https://www.noku.io/
+0x8167D3B1024cB51A2DD1B4d889ddf7023420796a
+#
+# 'PAY' is shared by:
+# - https://etherscan.io/token/0xB97048628DB6B661D4C2aA833e95Dbe1A905B280 (TenX Pay Token): https://www.tenx.tech/
+# 0xB97048628DB6B661D4C2aA833e95Dbe1A905B280
+# - https://etherscan.io/token/0xe580074A10360404AF3ABfe2d524D5806D993ea3 (PayBolt): https://www.paybolt.io/
+0xe580074A10360404AF3ABfe2d524D5806D993ea3
+#
+# 'RPL' is shared by:
+# - https://etherscan.io/token/0xB4EFd85c19999D84251304bDA99E90B92300Bd93 (Rocket Pool): https://www.rocketpool.net
+# 0xB4EFd85c19999D84251304bDA99E90B92300Bd93
+# - https://etherscan.io/token/0xD33526068D116cE69F19A9ee46F0bd304F21A51f (Rocket Pool): https://rocketpool.net
+0xD33526068D116cE69F19A9ee46F0bd304F21A51f
+#
+# 'RSR' is shared by:
+# - https://etherscan.io/token/0x320623b8E4fF03373931769A31Fc52A4E78B5d70 (Reserve Rights): https://reserve.org
+0x320623b8E4fF03373931769A31Fc52A4E78B5d70
+# - https://etherscan.io/token/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8 (Reserve Rights): https://reserve.org
+# 0x8762db106B2c2A0bccB3A80d1Ed41273552616E8
+#
