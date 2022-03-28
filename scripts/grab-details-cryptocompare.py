@@ -5,6 +5,7 @@ from dataclasses import dataclass
 import requests
 import datetime
 import os
+import re
 from typing import Union, Optional, Dict
 
 Timestamp = Union[datetime.datetime, datetime.date, int, float]
@@ -87,9 +88,16 @@ def _query_cryptocompare(url: str, errorCheck: bool = True, api_key: str = None)
         print('[ERROR] %s' % response.get('Message'))
         return None
     return response
+
+
 def write_json(data, path, sort_keys=True, indent=4):
     with open(path, "w") as json_file:
         return json.dump(data, json_file, sort_keys=sort_keys, indent=indent)
+
+x
+def filter_desc(line):
+    return re.split(r'Blockchain data provided by:', line, maxsplit=1)[0].strip()
+
 
 def main():
     coins = list(map(lambda x: Coin(**x), read_json("coins.json")))
@@ -103,7 +111,7 @@ def main():
         [map(lambda x: x.symbol, itertools.chain(*chains.values())),
          map(lambda x: x.symbol, coins),
          map(lambda x: x.symbol, erc20_tokens)]))
-    dicList = dict()
+    dic_list = dict()
     no_symbol = list()
     objectArray = []
     for sym in map_symbols:
@@ -114,12 +122,14 @@ def main():
                 desc['websiteurl'] = crypto_details['AssetWebsiteUrl']
             if 'AssetWhitepaperUrl' in crypto_details:
                 desc['whitepaper'] = crypto_details['AssetWhitepaperUrl']
-            dicList[sym]= crypto_details['Description']
+            desc_text = filter_desc(crypto_details['Description'])
+            dic_list[sym] = desc_text
+            desc['description'] = desc_text
             objectArray.append(desc)
         else:
             no_symbol.append(sym)
 
-    write_json(dicList, './description/en.json')
+    write_json(dic_list, './description/en.json')
     write_json(objectArray, './description/info.json')
     print('Warning No Description Found For These:', no_symbol)
 
