@@ -94,7 +94,6 @@ def write_json(data, path, sort_keys=True, indent=4):
     with open(path, "w") as json_file:
         return json.dump(data, json_file, sort_keys=sort_keys, indent=indent)
 
-x
 def filter_desc(line):
     return re.split(r'Blockchain data provided by:', line, maxsplit=1)[0].strip()
 
