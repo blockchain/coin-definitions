@@ -655,3 +655,34 @@
 # - https://etherscan.io/token/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8 (Reserve Rights): https://reserve.org
 # 0x8762db106B2c2A0bccB3A80d1Ed41273552616E8
 #
+
+# 'RISE' is shared by:
+# - https://etherscan.io/token/0x0cD022ddE27169b20895e0e2B2B8A33B25e63579 (EverRise): https://www.everrise.com/ (migrated)
+0x0cD022ddE27169b20895e0e2B2B8A33B25e63579
+# - https://etherscan.io/token/0xC17c30e98541188614dF99239cABD40280810cA3 (EverRise): https://www.everrise.com/
+# 0xC17c30e98541188614dF99239cABD40280810cA3
+#
+# 'UST' is shared by:
+# - https://etherscan.io/token/0xa47c8bf37f92aBed4A126BDA807A7b7498661acD (UST Token): https://terra.money
+# 0xa47c8bf37f92aBed4A126BDA807A7b7498661acD
+# - https://etherscan.io/token/0xa693B19d2931d498c5B318dF961919BB4aee87a5 (UST (Portal)): https://terra.money (Wormhole)
+0xa693B19d2931d498c5B318dF961919BB4aee87a5
+#
+
+# Wormhole addresses:
+# ROSE - ROSE (Portal)
+0x26B80FBfC01b71495f477d5237071242e0d959d7
+# BNB - Binance Coin (Portal)
+0x418D75f65a02b3D53B2418FB8E1fe493759c7605
+# CAKE - PancakeSwap Token (Portal)
+0x7c8161545717a334f3196e765d9713f8042EF338
+# AVAX - AVAX (Portal)
+0x85f138bfEE4ef8e540890CFb48F620571d67Eda3
+# SOL - SOL (Portal)
+0xD31a59c85aE9D8edEFeC411D448f90841571b89c
+# RAY - Raydium (Portal)
+0xE617dd80c621a5072bD8cBa65E9d76c07327004d
+# ATLAS - Star Atlas (Portal)
+0xb9F747162AB1E95d07361f9048BcDF6eDdA9eEA7
+# LUNA - LUNA (Portal)
+0xbd31EA8212119f94A611FA969881CBa3EA06Fa3d
