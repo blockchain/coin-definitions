@@ -55,6 +55,7 @@ class Coin:
     key: str
     decimals: int
     logo: str
+    website: str
 
     @staticmethod
     def from_chain(chain):
@@ -63,7 +64,8 @@ class Coin:
             name=chain.name,
             key=chain.key,
             logo=build_currency_logo(chain.key),
-            decimals=chain.decimals
+            decimals=chain.decimals,
+            website=chain.website
         )
 
 def build_dataclass_from_dict(cls, dict_):
@@ -90,6 +92,7 @@ class Blockchain:
     symbol: str = None
     decimals: int = None
     status: str = None
+    website: str = None
 
     def is_valid(self):
         return self.symbol is not None and \
@@ -263,7 +266,7 @@ def fetch_coins():
     # Merge with extensions:
     print(f"Reading blockchain extensions from {EXT_BLOCKCHAINS}")
     extensions = [Blockchain.from_dict(key, chain)
-                  for key, chain in read_blockchains(EXT_BLOCKCHAINS, "//")]
+                  for key, chain in read_blockchains(EXT_BLOCKCHAINS, "///")]
 
     chains = sorted(itertools.chain(chains, extensions), key=lambda x: x.symbol)
 

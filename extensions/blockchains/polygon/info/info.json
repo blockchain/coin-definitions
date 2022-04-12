@@ -3,5 +3,6 @@
     "symbol": "MATIC.MATIC",
     "type": "COIN", 
     "decimals": 18,
-    "status": "active"
+    "status": "active",
+    "website": "https://polygon.technology/solutions/polygon-pos/"
 }
