@@ -27,7 +27,7 @@ class ERC20Token:
         return re.match("^[a-zA-Z0-9]{1,6}$", self.symbol) != None
 
     @staticmethod
-    def from_asset(asset, chain='ethereum'):
+    def from_asset(asset, chain):
         return ERC20Token(
             address=asset.id,
             decimals=asset.decimals,
@@ -113,7 +113,7 @@ class Blockchain:
 
 @dataclass
 class ERC20Network:
-    name: str
+    chain: str
     assets_dir: str
     ext_assets_dir: str
     denylist: str
@@ -135,7 +135,7 @@ FINAL_BLOCKCHAINS_LIST="coins.json"
 
 ERC20_NETWORKS = [
     ERC20Network(
-        name="ethereum",
+        chain="ethereum",
         assets_dir="assets/blockchains/ethereum/assets/",
         ext_assets_dir="extensions/blockchains/ethereum/assets/",
         denylist="extensions/blockchains/ethereum/denylist.txt",
@@ -143,7 +143,7 @@ ERC20_NETWORKS = [
         symbol_suffix=""
     ),
     ERC20Network(
-        name="polygon",
+        chain="polygon",
         assets_dir="assets/blockchains/polygon/assets/",
         ext_assets_dir="extensions/blockchains/polygon/assets/",
         denylist="extensions/blockchains/polygon/denylist.txt",
@@ -280,7 +280,7 @@ def fetch_coins():
 
     return list(coins)
 
-def fetch_erc20_tokens(assets_dir):
+def fetch_erc20_tokens(assets_dir, chain):
     # Fetch and parse all info.json files:
     print(f"Reading ETH assets from {assets_dir}")
     assets = [Asset.from_dict(info) for key, info in read_assets(assets_dir)]
@@ -289,7 +289,7 @@ def fetch_erc20_tokens(assets_dir):
     assets = filter(lambda x: x.status == 'active', assets)
 
     # Convert to Token instances:
-    tokens = (ERC20Token.from_asset(asset) for asset in assets)
+    tokens = (ERC20Token.from_asset(asset, chain) for asset in assets)
 
     return list(tokens)
 
@@ -320,8 +320,8 @@ def build_coins_list():
     write_json(coins, FINAL_BLOCKCHAINS_LIST, sort_keys=False, indent=2)
 
 def build_erc20_tokens_list(erc20_network):
-    print(f"Generating token files for network \"{erc20_network.name}\"")
-    tokens = fetch_erc20_tokens(erc20_network.assets_dir)
+    print(f"Generating token files for network \"{erc20_network.chain}\"")
+    tokens = fetch_erc20_tokens(erc20_network.assets_dir, erc20_network.chain)
 
     print(f"Reading ETH asset prices from {EXT_PRICES}")
     prices = read_json(EXT_PRICES)
@@ -344,7 +344,7 @@ def build_erc20_tokens_list(erc20_network):
     # Merge with extensions:
     print(f"Reading ETH asset extensions from {erc20_network.ext_assets_dir}")
     extensions = [Asset.from_dict(info) for key, info in read_assets(erc20_network.ext_assets_dir)]
-    extensions = map(ERC20Token.from_asset, extensions)
+    extensions = map(lambda ext: ERC20Token.from_asset(ext, erc20_network.chain), extensions)
     tokens = sorted(set(extensions) | set(tokens), key=lambda t: t.address)
 
     # Look for duplicates:
