@@ -119,6 +119,7 @@ class Coin:
     key: str
     decimals: int
     logo: str
+    website: str
 
     def __str__(self):
         return f"[{self.symbol}, COIN]"
