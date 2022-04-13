@@ -784,14 +784,6 @@
         "website": "https://thebifrost.io/"
     },
     {
-        "address": "0x0cD022ddE27169b20895e0e2B2B8A33B25e63579",
-        "decimals": 18,
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0cD022ddE27169b20895e0e2B2B8A33B25e63579/logo.png",
-        "name": "EverRise",
-        "symbol": "RISE",
-        "website": "https://www.everrise.com/"
-    },
-    {
         "address": "0x0cEC1A9154Ff802e7934Fc916Ed7Ca50bDE6844e",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0cEC1A9154Ff802e7934Fc916Ed7Ca50bDE6844e/logo.png",
@@ -1368,6 +1360,14 @@
         "website": "http://augur.net"
     },
     {
+        "address": "0x198d14F2Ad9CE69E76ea330B374DE4957C3F850a",
+        "decimals": 6,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x198d14F2Ad9CE69E76ea330B374DE4957C3F850a/logo.png",
+        "name": "APENFT",
+        "symbol": "NFT",
+        "website": "https://apenft.io/"
+    },
+    {
         "address": "0x19A2cF2A1B2f76e52E2b0c572bD80A95B4Fa8643",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x19A2cF2A1B2f76e52E2b0c572bD80A95B4Fa8643/logo.png",
@@ -1920,6 +1920,14 @@
         "website": "https://raiden.network"
     },
     {
+        "address": "0x25b24B3c47918b7962B3e49C4F468367F73CC0E0",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x25b24B3c47918b7962B3e49C4F468367F73CC0E0/logo.png",
+        "name": "AXL INU",
+        "symbol": "AXL",
+        "website": "https://www.axltoken.com/"
+    },
+    {
         "address": "0x25f8087EAD173b73D6e8B84329989A8eEA16CF73",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x25f8087EAD173b73D6e8B84329989A8eEA16CF73/logo.png",
@@ -2254,6 +2262,14 @@
         "name": "OWL",
         "symbol": "OWL",
         "website": "https://stealthswap.org"
+    },
+    {
+        "address": "0x2aF1dF3AB0ab157e1E2Ad8F88A7D04fbea0c7dc6",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2aF1dF3AB0ab157e1E2Ad8F88A7D04fbea0c7dc6/logo.png",
+        "name": "Bankless BED Index",
+        "symbol": "BED",
+        "website": "https://www.indexcoop.com/"
     },
     {
         "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
@@ -4360,6 +4376,14 @@
         "website": "https://iotchain.io/"
     },
     {
+        "address": "0x5Eaa69B29f99C84Fe5dE8200340b4e9b4Ab38EaC",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5Eaa69B29f99C84Fe5dE8200340b4e9b4Ab38EaC/logo.png",
+        "name": "Raze Network Token",
+        "symbol": "RAZE",
+        "website": "https://raze.network/"
+    },
+    {
         "address": "0x5F64Ab1544D28732F0A24F4713c2C8ec0dA089f0",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5F64Ab1544D28732F0A24F4713c2C8ec0dA089f0/logo.png",
@@ -5344,6 +5368,14 @@
         "website": "https://yfox.finance"
     },
     {
+        "address": "0x70da48f4B7e83c386ef983D4CEF4e58c2c09D8Ac",
+        "decimals": 8,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x70da48f4B7e83c386ef983D4CEF4e58c2c09D8Ac/logo.png",
+        "name": "Quras Token",
+        "symbol": "XQC",
+        "website": "https://quras.io/"
+    },
+    {
         "address": "0x70debcDAB2Ef20bE3d1dBFf6a845E9cCb6E46930",
         "decimals": 8,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x70debcDAB2Ef20bE3d1dBFf6a845E9cCb6E46930/logo.png",
@@ -5358,6 +5390,14 @@
         "name": "XSGD",
         "symbol": "XSGD",
         "website": "https://www.straitsx.com/"
+    },
+    {
+        "address": "0x7118057ff0F4Fd0994fb9d2D94de8231d5cca79E",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7118057ff0F4Fd0994fb9d2D94de8231d5cca79E/logo.png",
+        "name": "SOURCE",
+        "symbol": "SOURCE",
+        "website": "https://resource.finance"
     },
     {
         "address": "0x71Ab77b7dbB4fa7e017BC15090b2163221420282",
@@ -6128,6 +6168,14 @@
         "website": "https://keep.network"
     },
     {
+        "address": "0x862caA11AbE48c945D5361E80EaF19348C479240",
+        "decimals": 4,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x862caA11AbE48c945D5361E80EaF19348C479240/logo.png",
+        "name": "Hero",
+        "symbol": "HERO",
+        "website": "https://bcheroes.com/"
+    },
+    {
         "address": "0x86367c0e517622DAcdab379f2de389c3C9524345",
         "decimals": 2,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x86367c0e517622DAcdab379f2de389c3C9524345/logo.png",
@@ -6510,6 +6558,14 @@
         "name": "tBTC",
         "symbol": "TBTC",
         "website": "https://tbtc.network/"
+    },
+    {
+        "address": "0x8dB54ca569D3019A2ba126D03C37c44b5eF81EF6",
+        "decimals": 8,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8dB54ca569D3019A2ba126D03C37c44b5eF81EF6/logo.png",
+        "name": "DataWallet Token",
+        "symbol": "DXT",
+        "website": "https://datawallet.com"
     },
     {
         "address": "0x8e1b448EC7aDFc7Fa35FC2e885678bD323176E34",
@@ -7464,6 +7520,14 @@
         "website": "https://www.s4fe.io"
     },
     {
+        "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6/logo.png",
+        "name": "StargateToken",
+        "symbol": "STG",
+        "website": "https://stargate.finance"
+    },
+    {
         "address": "0xB16e967ff83DE3F1e9FCeAfbc2C28c1c5c56eF91",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB16e967ff83DE3F1e9FCeAfbc2C28c1c5c56eF91/logo.png",
@@ -7861,7 +7925,7 @@
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xBcc66ed2aB491e9aE7Bf8386541Fb17421Fa9d35/logo.png",
         "name": "Skull",
         "symbol": "SKULL",
-        "website": "https://app.tryroll.com/rewards/SKULL"
+        "website": "https://linktr.ee/skeenee"
     },
     {
         "address": "0xBd0793332e9fB844A52a205A233EF27a5b34B927",
@@ -7958,6 +8022,14 @@
         "name": "ICE ROCK MINING",
         "symbol": "ROCK2",
         "website": "https://icerockmining.io/"
+    },
+    {
+        "address": "0xC17c30e98541188614dF99239cABD40280810cA3",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC17c30e98541188614dF99239cABD40280810cA3/logo.png",
+        "name": "EverRise",
+        "symbol": "RISE",
+        "website": "https://www.everrise.com/"
     },
     {
         "address": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
@@ -9230,6 +9302,14 @@
         "name": "LinkEye Token",
         "symbol": "LET",
         "website": "https://www.linkeye.com/"
+    },
+    {
+        "address": "0xFAD44249C2cd1F661BAc5f97C2Ff9f625ce27197",
+        "decimals": 4,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xFAD44249C2cd1F661BAc5f97C2Ff9f625ce27197/logo.png",
+        "name": "GREY",
+        "symbol": "GREY",
+        "website": "https://grey.supply/"
     },
     {
         "address": "0xFD6C31bb6F05Fc8dB64F4b740Ab758605c271FD8",
