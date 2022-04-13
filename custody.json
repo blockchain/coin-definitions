@@ -744,7 +744,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 100,
-      "minWithdrawal": 0.01
+      "minWithdrawal": 10000000000000000000000
     }
   },
   {
