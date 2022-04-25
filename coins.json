@@ -1,4 +1,11 @@
-[
+[  {
+    "symbol": "ADUMMY",
+    "name": "ADUMMY",
+    "key": "DUMMY",
+    "decimals": 6,
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/cardano/info/logo.png",
+    "website": "https://cardano.org"
+  },
   {
     "symbol": "ADA",
     "name": "Cardano",
