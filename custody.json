@@ -23,6 +23,15 @@
       "minWithdrawal": 0
     }
   },
+    {
+    "symbol": "ADUMMY",
+    "displaySymbol": "ADUMMY",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": null
+  },
   {
     "symbol": "ADA",
     "displaySymbol": "ADA",
