@@ -2,6 +2,6 @@
     "name": "Mobile Coin",
     "symbol": "MOB", 
     "type": "COIN", 
-    "decimals": 12, // https://github.com/mobilecoinfoundation/mobilecoin/blob/2f90154a445c769594dfad881463a2d4a003d7d6/mobilecoind/clients/python/lib/mobilecoin/utilities.py#L3
+    "decimals": 12, /// https://github.com/mobilecoinfoundation/mobilecoin/blob/2f90154a445c769594dfad881463a2d4a003d7d6/mobilecoind/clients/python/lib/mobilecoin/utilities.py#L3
     "status": "active"
 }

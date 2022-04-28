@@ -1,0 +1,12 @@
+[
+  {
+    "chain": "celo",
+    "native": "CELO",
+    "tokens": "chain/celo/tokens.json"
+  },
+  {
+    "chain": "polygon",
+    "native": "MATIC",
+    "tokens": "chain/polygon/tokens.json"
+  }
+]

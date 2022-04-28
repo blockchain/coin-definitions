@@ -61,7 +61,9 @@ class Currency:
         yield from self.check_price(ref, prices)
 
     def check_symbol(self):
-        if self.symbol != self.displaySymbol:
+        # Ignore display differences if they match after removing the suffix:
+        symbol, _, native = self.symbol.partition(".")
+        if symbol != self.displaySymbol:
             yield Warning(self, f"displayed as: {self.displaySymbol}")
 
     def check_price(self, ref, prices):
@@ -89,7 +91,10 @@ class Currency:
         if self.hwsSettings is None:
             return
 
-        if (self.symbol == "ETH" or self.type == "ERC20") and \
+        # This applies only to ETH or ERC20s on the ETH network; we don't check the minConfirmations
+        # on other chains:
+        symbol, _, native = self.symbol.partition(".")
+        if (self.symbol == "ETH" or (self.type == "ERC20" and native == "")) and \
             self.hwsSettings.minConfirmations != 30:
             yield Error(self, f"minConfirmations {self.hwsSettings.minConfirmations}, expected 30")
 
@@ -114,6 +119,7 @@ class Coin:
     key: str
     decimals: int
     logo: str
+    website: str
 
     def __str__(self):
         return f"[{self.symbol}, COIN]"
@@ -145,6 +151,11 @@ class ERC20Token:
         if self.logo is None:
             yield Warning(self, f"No logo")
 
+@dataclass
+class Chain:
+    chain: str
+    native: str
+    tokens: str
 
 def read_json(path):
     with open(path) as json_file:
@@ -175,9 +186,15 @@ def check_currencies(currencies, coins, erc20_tokens, chains, prices):
         if currency.type == "COIN":
             ref = coins.get(currency.symbol)
         elif currency.type == "ERC20":
-            ref = erc20_tokens.get(currency.symbol)
+            # No "native" (parent symbol) means it's a token in the ETH network;
+            # otherwise we must lookup in the appropriate chain:
+            symbol, _, native = currency.symbol.partition(".")
+            if native == "":
+                ref = erc20_tokens.get(currency.symbol)
+            else:
+                ref = chains.get(native).get(currency.symbol)
         elif currency.type == "CELO_TOKEN":
-            ref = chains.get("celo").get(currency.symbol)
+            ref = chains.get("CELO").get(currency.symbol)
         else:
             yield Error(currency, "Invalid type")
             continue
@@ -192,7 +209,8 @@ def check_currencies(currencies, coins, erc20_tokens, chains, prices):
 def main():
     coins = list(map(lambda x: Coin(**x), read_json("coins.json")))
     erc20_tokens = list(map(lambda x: ERC20Token(**x), read_json("erc20-tokens.json")))
-    chains = dict(multiread_json("chain/", "*/tokens.json"))
+    chains = list(map(lambda x: Chain(**x), read_json("chain/list.json")))
+    chains = dict((c.native, read_json(c.tokens)) for c in chains)
     chains = {k: list(map(lambda x: ERC20Token(**x), v)) for k, v in chains.items()}
 
     currencies = map(lambda x: Currency(**x), read_json("custody.json"))

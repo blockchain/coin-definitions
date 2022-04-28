@@ -676,6 +676,18 @@
     }
   },
   {
+    "symbol": "MATIC.MATIC",
+    "displaySymbol": "MATIC",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 128,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "MIOTA",
     "displaySymbol": "MIOTA",
     "type": "COIN",
@@ -1080,6 +1092,18 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "USDC.MATIC",
+    "displaySymbol": "USDC",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": {
+      "minConfirmations": 128,
       "minWithdrawal": 0
     }
   },

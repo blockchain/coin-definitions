@@ -1,0 +1,20 @@
+[
+  {
+    "parentSymbol":  "USDC",
+    "childSymbols": [
+      "USDC.MATIC"
+    ]
+  },
+  {
+    "parentSymbol":  "USDT",
+    "childSymbols": [
+      "USDT.MATIC"
+    ]
+  },
+  {
+    "parentSymbol": "MATIC",
+    "childSymbols": [
+      "MATIC.MATIC"
+    ]
+  }
+]
