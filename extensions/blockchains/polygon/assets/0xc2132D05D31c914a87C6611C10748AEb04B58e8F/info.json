@@ -2,7 +2,7 @@
     "name": "Tether USD - MATIC",
     "website": "https://tether.to",
     "type": "ERC20",
-    "symbol": "USDT.MATIC",
+    "symbol": "USDT",
     "decimals": 6,
     "status": "active",
     "id": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
