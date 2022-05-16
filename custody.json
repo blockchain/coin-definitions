@@ -682,7 +682,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 128,
+      "minWithdrawal": 0 
+    }
   },
   {
     "symbol": "MIOTA",
@@ -1099,7 +1102,10 @@
     "nabuSettings": {
       "custodialPrecision": 6
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 128,
+      "minWithdrawal": 0 
+    }
   },
   {
     "symbol": "USDT",
