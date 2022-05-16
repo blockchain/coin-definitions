@@ -684,7 +684,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 128,
-      "minWithdrawal": 0 
+      "minWithdrawal": 0
     }
   },
   {
@@ -1104,7 +1104,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 128,
-      "minWithdrawal": 0 
+      "minWithdrawal": 0
     }
   },
   {
