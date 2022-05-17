@@ -102,6 +102,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "AXS",
+    "displaySymbol": "AXS",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "BADGER",
     "displaySymbol": "BADGER",
     "type": "ERC20",
@@ -490,6 +502,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "GALA",
+    "displaySymbol": "GALA",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "GRT",
     "displaySymbol": "GRT",
     "type": "ERC20",
@@ -661,7 +685,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "MATIC",
@@ -916,6 +943,18 @@
     }
   },
   {
+    "symbol": "SILK",
+    "displaySymbol": "SILK",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "SKL",
     "displaySymbol": "SKL",
     "type": "ERC20",
@@ -1143,6 +1182,18 @@
   {
     "symbol": "WDGLD",
     "displaySymbol": "WDGLD",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "WETH",
+    "displaySymbol": "WETH",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
