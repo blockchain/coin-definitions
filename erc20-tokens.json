@@ -7608,6 +7608,14 @@
         "website": "https://www.ono.chat/en/"
     },
     {
+        "address": "0xB37Db40e16a7CaaE38f1e4dbd6B1e44cfFe03072",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xB37Db40e16a7CaaE38f1e4dbd6B1e44cfFe03072/logo.png",
+        "name": "Silk",
+        "symbol": "SILK",
+        "website": "https://www.spidertanks.game/ "
+    },
+    {
         "address": "0xB37a769B37224449d92AAc57dE379E1267Cd3B00",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB37a769B37224449d92AAc57dE379E1267Cd3B00/logo.png",
