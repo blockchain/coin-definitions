@@ -7609,7 +7609,7 @@
     },
     {
         "address": "0xB37Db40e16a7CaaE38f1e4dbd6B1e44cfFe03072",
-        "decimals": 18,
+        "decimals": 8,
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xB37Db40e16a7CaaE38f1e4dbd6B1e44cfFe03072/logo.png",
         "name": "Silk",
         "symbol": "SILK",
