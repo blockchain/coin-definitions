@@ -1,0 +1,9 @@
+{
+    "name": "USD Coin - MATIC",
+    "website": "https://centre.io/usdc",
+    "type": "ERC20",
+    "symbol": "USDC",
+    "decimals": 6,
+    "status": "active",
+    "id": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+}
