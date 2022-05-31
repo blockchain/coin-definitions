@@ -1,0 +1,168 @@
+# 'ADX' is shared by:
+# - https://bscscan.com/token/0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819 (AdEx): https://adex.network
+0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819
+# - https://bscscan.com/token/0xce666D0e507C5F2Afe0671Ee29A99cfa97954c48 (Addax): https://addaxtoken.com/
+0xce666D0e507C5F2Afe0671Ee29A99cfa97954c48
+#
+# 'APE' is shared by:
+# - https://bscscan.com/token/0xAe0D2cC54e4821D8aec9aDd89125B70d34Ac906e (APE INU): https://apeinu.com/
+0xAe0D2cC54e4821D8aec9aDd89125B70d34Ac906e
+# - https://bscscan.com/token/0xa9eA4b786ee5b7A733c035564Bfd9341A4c9FC1e (Apecoin): https://APEcoin.dev
+0xa9eA4b786ee5b7A733c035564Bfd9341A4c9FC1e
+#
+# 'BAT' is shared by:
+# - https://bscscan.com/token/0x101d82428437127bF1608F699CD651e6Abf9766E (Binance-Peg Basic Attention Token): https://basicattentiontoken.org
+0x101d82428437127bF1608F699CD651e6Abf9766E
+# - https://bscscan.com/token/0x31C78f583ed0288D67b2b80Dc5C443Bc3b15C661 (Basic Attention Token (Portal)): https://basicattentiontoken.org/
+0x31C78f583ed0288D67b2b80Dc5C443Bc3b15C661
+# - https://bscscan.com/token/0xe76804b43F17FC41F226d63Fd2A676DF409D4678 (Bat Finance): https://app.batex.io
+0xe76804b43F17FC41F226d63Fd2A676DF409D4678
+#
+# 'BEST' is shared by:
+# - https://bscscan.com/token/0x10747e2045a0ef884a0586AC81558F43285ea3c7 (Best): https://bsc.bestswap.com/swap
+0x10747e2045a0ef884a0586AC81558F43285ea3c7
+# - https://bscscan.com/token/0x667bEbFf5cda3C4A460B514aB478Da0A8cF80910 (Bitcoin And Ethereum Standard Token): https://bestokens.network
+0x667bEbFf5cda3C4A460B514aB478Da0A8cF80910
+#
+# 'BIRD' is shared by:
+# - https://bscscan.com/token/0x7f1296e5aA692a98d86EaAe3ac1CD7723E74878d (BIRD): https://birdswap.com/#/
+0x7f1296e5aA692a98d86EaAe3ac1CD7723E74878d
+# - https://bscscan.com/token/0xC9c7C6A590E82C576de7553142d47a5fb63f9e90 (BirdChain): https://www.birdchainapp.com/
+0xC9c7C6A590E82C576de7553142d47a5fb63f9e90
+#
+# 'BTT' is shared by:
+# - https://bscscan.com/token/0x352Cb5E19b12FC216548a2677bD0fce83BaE434B (BitTorrent): https://bt.io/
+0x352Cb5E19b12FC216548a2677bD0fce83BaE434B
+# - https://bscscan.com/token/0x8595F9dA7b868b1822194fAEd312235E43007b49 (Binance-Peg BitTorrent): https://bittorrent.com/btt
+0x8595F9dA7b868b1822194fAEd312235E43007b49
+#
+# 'BURN' is shared by:
+# - https://bscscan.com/token/0x6719F89Bb81b357D443eE93Eb254e9dBb590bFbE (BurnCoin): https://theburncoin.com/
+0x6719F89Bb81b357D443eE93Eb254e9dBb590bFbE
+# - https://bscscan.com/token/0xef5CeB00AE3eb617773016B4ca886b61FA4e027E (Burning Token): https://burningtoken.cash/
+0xef5CeB00AE3eb617773016B4ca886b61FA4e027E
+#
+# 'CAN' is shared by:
+# - https://bscscan.com/token/0x007EA5C0Ea75a8DF45D288a4debdD5bb633F9e56 (CanYaCoin): https://canwork.io/
+0x007EA5C0Ea75a8DF45D288a4debdD5bb633F9e56
+# - https://bscscan.com/token/0x20bff4bbEDa07536FF00e073bd8359E5D80D733d (Cannon Finance): https://cannon.finance/
+0x20bff4bbEDa07536FF00e073bd8359E5D80D733d
+#
+# 'DAI' is shared by:
+# - https://bscscan.com/token/0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3 (Binance-Peg Dai Token): http://makerdao.com
+0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3
+# - https://bscscan.com/token/0x3413a030EF81a3dD5a302F4B4D11d911e12ed337 (DAI (Portal)): https://makerdao.com/
+0x3413a030EF81a3dD5a302F4B4D11d911e12ed337
+#
+# 'EGT' is shared by:
+# - https://bscscan.com/token/0x2cA25319E2E63719F87221D8bF3646F8F5dE5DED (ElonGoat): https://www.elongoat.io
+0x2cA25319E2E63719F87221D8bF3646F8F5dE5DED
+# - https://bscscan.com/token/0xa865c6CC3A6164c3a0188efEED6F32ABa134693c (Evergreen token): https://www.evergreentokens.org
+0xa865c6CC3A6164c3a0188efEED6F32ABa134693c
+#
+# 'ETH' is shared by:
+# - https://bscscan.com/token/0x2170Ed0880ac9A755fd29B2688956BD959F933F8 (Binance-Peg Ethereum): https://ethereum.org/
+0x2170Ed0880ac9A755fd29B2688956BD959F933F8
+# - https://bscscan.com/token/0x4DB5a66E937A9F4473fA95b1cAF1d1E1D62E29EA (Ether (Portal)): https://ethereum.org/en/
+0x4DB5a66E937A9F4473fA95b1cAF1d1E1D62E29EA
+#
+# 'FLOKI' is shared by:
+# - https://bscscan.com/token/0x330540a9d998442dcbc396165D3dDc5052077bB1 (Shiba Floki): https://shibafloki.com
+0x330540a9d998442dcbc396165D3dDc5052077bB1
+# - https://bscscan.com/token/0x4AadaD81487c3fadD9F162b851E6a61b729200cb (Shiba Floki Inu): https://flokiinu.com
+0x4AadaD81487c3fadD9F162b851E6a61b729200cb
+# - https://bscscan.com/token/0xfb5B838b6cfEEdC2873aB27866079AC55363D37E (FLOKI): https://floki.com
+0xfb5B838b6cfEEdC2873aB27866079AC55363D37E
+#
+# 'FOX' is shared by:
+# - https://bscscan.com/token/0x4796AB7F44E0561Ae353119B3E59a3F724E5F49e (FOX Token): https://foxnft.io
+0x4796AB7F44E0561Ae353119B3E59a3F724E5F49e
+# - https://bscscan.com/token/0xFAd8E46123D7b4e77496491769C167FF894d2ACB (Fox Finance): https://foxfinance.io/
+0xFAd8E46123D7b4e77496491769C167FF894d2ACB
+#
+# 'GEM' is shared by:
+# - https://bscscan.com/token/0x4BbB275012EBE258556B8debE5C07bE98e8d3859 (NAR Dividend Token (GEM)): https://narwhalswap.org
+0x4BbB275012EBE258556B8debE5C07bE98e8d3859
+# - https://bscscan.com/token/0xe3D478FE8E8f55F7e9b2b55cF25868EDc9F924d8 (Gem Protocol): https://gemprotocol.io
+0xe3D478FE8E8f55F7e9b2b55cF25868EDc9F924d8
+#
+# 'GMR' is shared by:
+# - https://bscscan.com/token/0x0523215DCafbF4E4aA92117d13C6985a3BeF27D7 (GAMER): https://gmr.finance
+0x0523215DCafbF4E4aA92117d13C6985a3BeF27D7
+# - https://bscscan.com/token/0xADCa52302e0a6c2d5D68EDCdB4Ac75DeB5466884 (GAMER): https://gmr.center
+0xADCa52302e0a6c2d5D68EDCdB4Ac75DeB5466884
+#
+# 'GMT' is shared by:
+# - https://bscscan.com/token/0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1 (Green Metaverse Token): https://www.stepn.com
+0x3019BF2a2eF8040C242C9a4c5c4BD4C81678b2A1
+# - https://bscscan.com/token/0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989 (GMT Token): https://gmt.io/
+0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989
+#
+# 'HERO' is shared by:
+# - https://bscscan.com/token/0x5d96991648d22935Bdf6c7064B65c3c93F82Aa61 (Hero Floki): https://herofloki.com
+0x5d96991648d22935Bdf6c7064B65c3c93F82Aa61
+# - https://bscscan.com/token/0x78C3AdE403438B37638304F9FbbFB1b76608c1BD (BinaHero): https://binahero.com
+0x78C3AdE403438B37638304F9FbbFB1b76608c1BD
+# - https://bscscan.com/token/0xD40bEDb44C081D2935eebA6eF5a3c8A31A1bBE13 (Metahero): https://metahero.io/
+0xD40bEDb44C081D2935eebA6eF5a3c8A31A1bBE13
+# - https://bscscan.com/token/0xE8176d414560cFE1Bf82Fd73B986823B89E4F545 (Step Hero): https://stephero.io/
+0xE8176d414560cFE1Bf82Fd73B986823B89E4F545
+#
+# 'LEV' is shared by:
+# - https://bscscan.com/token/0x304c62b5B030176F8d328d3A01FEaB632FC929BA (LEV Token): https://www.levyathan.finance/
+0x304c62b5B030176F8d328d3A01FEaB632FC929BA
+# - https://bscscan.com/token/0xbc194e6f748a222754C3E8b9946922c09E7d4e91 (Lever Token): https://lever.network/
+0xbc194e6f748a222754C3E8b9946922c09E7d4e91
+#
+# 'NFT' is shared by:
+# - https://bscscan.com/token/0x1fC9004eC7E5722891f5f38baE7678efCB11d34D (Binance-Peg APENFT Token): https://www.apenft.org/
+0x1fC9004eC7E5722891f5f38baE7678efCB11d34D
+# - https://bscscan.com/token/0x20eE7B720f4E4c4FFcB00C4065cdae55271aECCa (APENFT): https://apenft.io/
+0x20eE7B720f4E4c4FFcB00C4065cdae55271aECCa
+# - https://bscscan.com/token/0xFaAb744dB9def8e13194600Ed02bC5D5BEd3B85C (NEFTiPEDiA): https://neftipedia.com/
+0xFaAb744dB9def8e13194600Ed02bC5D5BEd3B85C
+#
+# 'ONE' is shared by:
+# - https://bscscan.com/token/0x01eaedd1BC5F8198D174532Aa13BA150653E0E11 (One Token): https://onetoken.live
+0x01eaedd1BC5F8198D174532Aa13BA150653E0E11
+# - https://bscscan.com/token/0x03fF0ff224f904be3118461335064bB48Df47938 (Harmony.One): https://harmony.one/
+0x03fF0ff224f904be3118461335064bB48Df47938
+# - https://bscscan.com/token/0x04BAf95Fd4C52fd09a56D840bAEe0AB8D7357bf0 (ONE Token): https://bigone.com/en
+0x04BAf95Fd4C52fd09a56D840bAEe0AB8D7357bf0
+#
+# 'PMON' is shared by:
+# - https://bscscan.com/token/0x1796ae0b0fa4862485106a0de9b654eFE301D0b2 (Polychain Monsters): https://polychainmonsters.com/
+0x1796ae0b0fa4862485106a0de9b654eFE301D0b2
+# - https://bscscan.com/token/0xeB22C12429ff03688dD15a34824d736741605ca0 (PocMon): https://pocmon.org
+0xeB22C12429ff03688dD15a34824d736741605ca0
+#
+# 'RISE' is shared by:
+# - https://bscscan.com/token/0xC17c30e98541188614dF99239cABD40280810cA3 (EverRise): https://www.everrise.com/
+0xC17c30e98541188614dF99239cABD40280810cA3
+# - https://bscscan.com/token/0xa3d80275E300237a62D3431C26d52f185584cC1B (RiseHero): https://risehero.io
+0xa3d80275E300237a62D3431C26d52f185584cC1B
+#
+# 'SHIB' is shared by:
+# - https://bscscan.com/token/0x2859e4544C4bB03966803b044A93563Bd2D0DD4D (Binance-Peg SHIBA INU): https://shibatoken.com/
+0x2859e4544C4bB03966803b044A93563Bd2D0DD4D
+# - https://bscscan.com/token/0xb1547683DA678f2e1F003A780143EC10Af8a832B (Shiba Inu (Portal)): https://shibatoken.com/
+0xb1547683DA678f2e1F003A780143EC10Af8a832B
+#
+# 'SUSHI' is shared by:
+# - https://bscscan.com/token/0x3524fd7488fdb1F4723BBc22C9cbD1Bf89f46E3B (SushiToken (Portal)): https://sushi.com/
+0x3524fd7488fdb1F4723BBc22C9cbD1Bf89f46E3B
+# - https://bscscan.com/token/0x947950BcC74888a40Ffa2593C5798F11Fc9124C4 (Sushi): https://sushiswap.fi
+0x947950BcC74888a40Ffa2593C5798F11Fc9124C4
+#
+# 'TCT' is shared by:
+# - https://bscscan.com/token/0xCA0a9Df6a8cAD800046C1DDc5755810718b65C44 (TokenClub): http://www.tokenclub.com
+0xCA0a9Df6a8cAD800046C1DDc5755810718b65C44
+# - https://bscscan.com/token/0xb036f689bd98B4Bd3BD648FA09A23e54d839A859 (TACOCAT Token): https://tacocat.co
+0xb036f689bd98B4Bd3BD648FA09A23e54d839A859
+#
+# 'UST' is shared by:
+# - https://bscscan.com/token/0x23396cF899Ca06c4472205fC903bDB4de249D6fC (Wrapped UST Token): https://terra.money
+0x23396cF899Ca06c4472205fC903bDB4de249D6fC
+# - https://bscscan.com/token/0x3d4350cD54aeF9f9b2C29435e0fa809957B3F30a (UST (Portal)): https://terra.money
+0x3d4350cD54aeF9f9b2C29435e0fa809957B3F30a
+#
