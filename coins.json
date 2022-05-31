@@ -33,10 +33,10 @@
   },
   {
     "symbol": "AVAX",
-    "name": "Avalanche X-Chain",
-    "key": "avalanchex",
-    "decimals": 9,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchex/info/logo.png",
+    "name": "Avalanche C-Chain",
+    "key": "avalanchec",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchec/info/logo.png",
     "website": "http://avax.network"
   },
   {
