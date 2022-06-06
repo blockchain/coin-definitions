@@ -99,7 +99,10 @@
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "AXS",
@@ -171,7 +174,11 @@
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+
   },
   {
     "symbol": "BNT",
@@ -205,13 +212,28 @@
     }
   },
   {
-    "symbol": "BUSD",
+    "symbol": "BUSD.BNB",
     "displaySymbol": "BUSD",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "CAKE.BNB",
+    "displaySymbol": "CAKE",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "CELO",

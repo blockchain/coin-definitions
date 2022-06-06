@@ -8,5 +8,10 @@
     "chain": "polygon",
     "native": "MATIC",
     "tokens": "chain/polygon/tokens.json"
+  },
+  {
+    "chain": "binance",
+    "native": "BNB",
+    "tokens": "chain/binance/tokens.json"
   }
 ]

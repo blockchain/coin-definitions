@@ -119,6 +119,7 @@ class ERC20Network:
     denylist: str
     output_file: str
     symbol_suffix: str
+    explorer_url: str
 
 TW_REPO_ROOT = "https://raw.githubusercontent.com/trustwallet/assets/master/"
 BC_REPO_ROOT = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/"
@@ -140,7 +141,8 @@ ERC20_NETWORKS = [
         ext_assets_dir="extensions/blockchains/ethereum/assets/",
         denylist="extensions/blockchains/ethereum/denylist.txt",
         output_file="erc20-tokens.json",
-        symbol_suffix=""
+        symbol_suffix="",
+        explorer_url="https://etherscan.io/token/"
     ),
     ERC20Network(
         chain="polygon",
@@ -148,7 +150,17 @@ ERC20_NETWORKS = [
         ext_assets_dir="extensions/blockchains/polygon/assets/",
         denylist="extensions/blockchains/polygon/denylist.txt",
         output_file="chain/polygon/tokens.json",
-        symbol_suffix="MATIC"
+        symbol_suffix="MATIC",
+        explorer_url="https://polygonscan.com/token/"
+    ),
+    ERC20Network(
+        chain="binance",
+        assets_dir="assets/blockchains/smartchain/assets/",
+        ext_assets_dir="extensions/blockchains/smartchain/assets/",
+        denylist="extensions/blockchains/binance/denylist.txt",
+        output_file="chain/binance/tokens.json",
+        symbol_suffix="BNB",
+        explorer_url="https://bscscan.com/token/"
     )
 ]
 
@@ -236,13 +248,13 @@ def find_duplicates(items, key):
     groups = [(symbol, list(items)) for symbol, items in groups]
     return [(symbol, items) for symbol, items in groups if len(items) > 1]
 
-def dump_duplicates(duplicates):
+def dump_duplicates(duplicates, explorer_url):
     print(f"Found {len(duplicates)} duplicate symbols:")
 
     for symbol, tokens in duplicates:
         print(f"# '{symbol}' is shared by:")
         for token in tokens:
-            etherscan_url = urljoin("https://etherscan.io/token/", token.address)
+            etherscan_url = urljoin(explorer_url, token.address)
             print(f"# - {etherscan_url} ({token.name}): {token.website}")
             print(f"# {token.address}")
         print(f"#")
@@ -351,7 +363,7 @@ def build_erc20_tokens_list(erc20_network):
     duplicates = find_duplicates(tokens, lambda t: t.symbol)
 
     if duplicates:
-        dump_duplicates(duplicates)
+        dump_duplicates(duplicates, erc20_network.explorer_url)
         return
 
     # Add network suffix before final dump:
