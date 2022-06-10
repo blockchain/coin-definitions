@@ -4600,6 +4600,14 @@
         "website": "https://www.liquity.org"
     },
     {
+        "address": "0x5fAa989Af96Af85384b8a938c2EdE4A7378D9875",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x5fAa989Af96Af85384b8a938c2EdE4A7378D9875/logo.png",
+        "name": "Project Galaxy",
+        "symbol": "GAL",
+        "website": "https://galaxy.eco/"
+    },
+    {
         "address": "0x6006FC2a849fEdABa8330ce36F5133DE01F96189",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6006FC2a849fEdABa8330ce36F5133DE01F96189/logo.png",
