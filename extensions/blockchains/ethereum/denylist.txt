@@ -686,3 +686,22 @@
 0xb9F747162AB1E95d07361f9048BcDF6eDdA9eEA7
 # LUNA - LUNA (Portal)
 0xbd31EA8212119f94A611FA969881CBa3EA06Fa3d
+
+# 'ICHI' is shared by:
+# - https://etherscan.io/token/0x111111517e4929D3dcbdfa7CCe55d30d4B6BC4d6 (ICHI): app.ichi.org
+0x111111517e4929D3dcbdfa7CCe55d30d4B6BC4d6
+# - https://etherscan.io/token/0x903bEF1736CDdf2A537176cf3C64579C3867A881 (Legacy ICHI): app.ichi.org
+# 0x903bEF1736CDdf2A537176cf3C64579C3867A881
+#
+# 'KIBA' is shared by:
+# - https://etherscan.io/token/0x005D1123878Fc55fbd56b54C73963b234a64af3c (Kiba Inu): https://kibainu.space
+# 0x005D1123878Fc55fbd56b54C73963b234a64af3c
+# - https://etherscan.io/token/0x4B2C54b80B77580dc02A0f6734d3BAD733F50900 (Kiba Inu): https://kibainu.space
+0x4B2C54b80B77580dc02A0f6734d3BAD733F50900
+#
+# 'USDD' is shared by:
+# - https://etherscan.io/token/0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6 (Decentralized USD): https://usdd.io/
+0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6
+# - https://etherscan.io/token/0x861d899E74eC0e84fa8A15Ba58088Bb3BACcb6FA (Tether DeFi (USDD)): https://tetherdefi.com
+0x861d899E74eC0e84fa8A15Ba58088Bb3BACcb6FA
+#
