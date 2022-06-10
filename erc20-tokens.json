@@ -6144,6 +6144,14 @@
         "website": "https://originprotocol.com"
     },
     {
+        "address": "0x823556202e86763853b40e9cDE725f412e294689",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x823556202e86763853b40e9cDE725f412e294689/logo.png",
+        "name": "Altered State Machine Utility Token",
+        "symbol": "ASTO",
+        "website": "https://alteredstatemachine.xyz/"
+    },
+    {
         "address": "0x8290333ceF9e6D528dD5618Fb97a76f268f3EDD4",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8290333ceF9e6D528dD5618Fb97a76f268f3EDD4/logo.png",
