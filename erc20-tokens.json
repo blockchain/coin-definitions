@@ -2512,6 +2512,14 @@
         "website": "https://sbtc.fi"
     },
     {
+        "address": "0x30D20208d987713f46DFD34EF128Bb16C404D10f",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x30D20208d987713f46DFD34EF128Bb16C404D10f/logo.png",
+        "name": "Stader",
+        "symbol": "SD",
+        "website": ""
+    },
+    {
         "address": "0x30f271C9E86D2B7d00a6376Cd96A1cFBD5F0b9b3",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x30f271C9E86D2B7d00a6376Cd96A1cFBD5F0b9b3/logo.png",
