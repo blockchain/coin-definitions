@@ -4240,6 +4240,14 @@
         "website": "https://dawn.org"
     },
     {
+        "address": "0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1",
+        "decimals": 9,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1/logo.png",
+        "name": "Wrapped TON Coin",
+        "symbol": "TONCOIN",
+        "website": "https://ton.org/"
+    },
+    {
         "address": "0x584B44853680ee34a0F337B712a8f66d816dF151",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x584B44853680ee34a0F337B712a8f66d816dF151/logo.png",

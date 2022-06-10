@@ -1,0 +1,12 @@
+{
+    "name": "Wrapped TON Coin",
+    "website": "https://ton.org/",
+    "description": "",
+    "explorer": "",
+    "research": "",
+    "type": "ERC20",
+    "symbol": "TONCOIN",
+    "decimals": 9,
+    "status": "active",
+    "id": "0x582d872A1B094FC48F5DE31D3B73F2D9bE47def1"
+}
