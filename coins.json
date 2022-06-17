@@ -184,14 +184,6 @@
     "website": "https://litecoin.org/"
   },
   {
-    "symbol": "LUNA",
-    "name": "Terra",
-    "key": "terra",
-    "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/terra/info/logo.png",
-    "website": "https://terra.money"
-  },
-  {
     "symbol": "MATIC.MATIC",
     "name": "Polygon",
     "key": "polygon",

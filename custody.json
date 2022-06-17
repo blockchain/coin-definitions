@@ -692,15 +692,6 @@
     }
   },
   {
-    "symbol": "LUNA",
-    "displaySymbol": "LUNA",
-    "type": "COIN",
-    "nabuSettings": {
-      "custodialPrecision": 6
-    },
-    "hwsSettings": null
-  },
-  {
     "symbol": "MANA",
     "displaySymbol": "MANA",
     "type": "ERC20",

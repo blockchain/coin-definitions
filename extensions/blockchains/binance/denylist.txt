@@ -166,3 +166,15 @@
 # - https://bscscan.com/token/0x3d4350cD54aeF9f9b2C29435e0fa809957B3F30a (UST (Portal)): https://terra.money
 0x3d4350cD54aeF9f9b2C29435e0fa809957B3F30a
 #
+
+# 'DEX' is shared by:
+# - https://bscscan.com/token/0x09BB6042A19BB3A6981e9a47EC0f006dBd28a8d1 (WEDEX TOKEN V2): https://wedex.app/
+0x09BB6042A19BB3A6981e9a47EC0f006dBd28a8d1
+# - https://bscscan.com/token/0x147E07976E1ae78287c33aAFAab87760d32E50A5 (dexIRA): https://www.dexira.com
+# 0x147E07976E1ae78287c33aAFAab87760d32E50A5
+#
+# 'SOL' is shared by:
+# - https://bscscan.com/token/0x570A5D26f7765Ecb712C0924E4De545B89fD43dF (Solana): https://solana.com/
+0x570A5D26f7765Ecb712C0924E4De545B89fD43dF
+# - https://bscscan.com/token/0xfA54fF1a158B5189Ebba6ae130CEd6bbd3aEA76e (SOL (Portal)): https://solana.com/
+0xfA54fF1a158B5189Ebba6ae130CEd6bbd3aEA76e

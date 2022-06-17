@@ -305,9 +305,9 @@ def fetch_erc20_tokens(assets_dir, chain):
 
     return list(tokens)
 
-def fetch_prices(assets_dir):
+def fetch_prices(assets_dir, chain):
     coins = fetch_coins()
-    tokens = fetch_erc20_tokens(assets_dir)
+    tokens = fetch_erc20_tokens(assets_dir, chain)
 
     symbols = list(set([c.symbol for c in coins] + [t.symbol for t in tokens]))
 
@@ -398,7 +398,7 @@ def main():
     args = parser.parse_args()
 
     if args.fetch_prices:
-        fetch_prices(ERC20_NETWORKS[0].assets_dir)
+        fetch_prices(ERC20_NETWORKS[0].assets_dir, ERC20_NETWORKS[0].chain)
     else:
         build_coins_list()
         for erc20_network in ERC20_NETWORKS:
