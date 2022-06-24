@@ -1600,6 +1600,14 @@
         "website": "https://bugg.gg"
     },
     {
+        "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+        "decimals": 6,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c/logo.png",
+        "name": "Euro Coin",
+        "symbol": "EUROC",
+        "website": "https://www.circle.com/en/"
+    },
+    {
         "address": "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421/logo.png",
