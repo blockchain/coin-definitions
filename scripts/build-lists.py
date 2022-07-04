@@ -339,7 +339,7 @@ def build_erc20_tokens_list(erc20_network):
     prices = read_json(EXT_PRICES)
 
     # Clean up by price:
-    tokens = list(filter(lambda token: token.symbol in prices['prices'], tokens))
+    tokens = list(filter(lambda token: token.symbol.upper() in prices['prices'], tokens))
 
     # Include already selected tokens (to make sure we don't remove a token we had previously selected)
     print(f"Reading existing assets in {erc20_network.output_file}")
