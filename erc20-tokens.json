@@ -7640,6 +7640,14 @@
         "website": "http://reality-clash.com/"
     },
     {
+        "address": "0x9c354503C38481a7A7a51629142963F98eCC12D0",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x9c354503C38481a7A7a51629142963F98eCC12D0/logo.png",
+        "name": "Origin Dollar Governance",
+        "symbol": "OGV",
+        "website": "https://ousd.com/"
+    },
+    {
         "address": "0x9c405acf8688AfB61B3197421cDeeC1A266c6839",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9c405acf8688AfB61B3197421cDeeC1A266c6839/logo.png",
@@ -8920,6 +8928,14 @@
         "website": "https://liquidity.network/"
     },
     {
+        "address": "0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62/logo.png",
+        "name": "Wrapped OUSD",
+        "symbol": "WOUSD",
+        "website": "https://ousd.com/"
+    },
+    {
         "address": "0xD2dDa223b2617cB616c1580db421e4cFAe6a8a85",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD2dDa223b2617cB616c1580db421e4cFAe6a8a85/logo.png",
@@ -10070,6 +10086,14 @@
         "name": "Rarible",
         "symbol": "RARI",
         "website": "https://app.rarible.com/rari"
+    },
+    {
+        "address": "0xFdb16A6900Ce90Cb27Afec95dc274D27E0d61b87",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xFdb16A6900Ce90Cb27Afec95dc274D27E0d61b87/logo.png",
+        "name": "Vote Escrowed Origin Dollar Governance",
+        "symbol": "veOGV",
+        "website": "https://ousd.com/"
     },
     {
         "address": "0xFe2e637202056d30016725477c5da089Ab0A043A",

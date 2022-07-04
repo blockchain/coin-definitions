@@ -1,0 +1,9 @@
+{
+    "name": "Origin Dollar Governance",
+    "website": "https://ousd.com/",
+    "type": "ERC20",
+    "symbol": "OGV",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x9c354503C38481a7A7a51629142963F98eCC12D0"
+}

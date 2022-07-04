@@ -1,0 +1,9 @@
+{
+    "name": "Vote Escrowed Origin Dollar Governance",
+    "website": "https://ousd.com/",
+    "type": "ERC20",
+    "symbol": "veOGV",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xFdb16A6900Ce90Cb27Afec95dc274D27E0d61b87"
+}
