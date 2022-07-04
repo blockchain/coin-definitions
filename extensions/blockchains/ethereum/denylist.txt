@@ -705,3 +705,16 @@
 # - https://etherscan.io/token/0x861d899E74eC0e84fa8A15Ba58088Bb3BACcb6FA (Tether DeFi (USDD)): https://tetherdefi.com
 0x861d899E74eC0e84fa8A15Ba58088Bb3BACcb6FA
 #
+
+# 'eMax' is shared by:
+# - https://etherscan.io/token/0x15874d65e649880c2614e7a480cb7c9A55787FF6 (EthereumMax): https://www.ethereummax.org/
+# 0x15874d65e649880c2614e7a480cb7c9A55787FF6
+# - https://etherscan.io/token/0xA3E059c0b01F07F211c85bF7b4f1d907AfB011df (EthereumMax (Deprecated)): https://www.ethereummax.org/
+0xA3E059c0b01F07F211c85bF7b4f1d907AfB011df
+#
+# 'sETH' is shared by:
+# - https://etherscan.io/token/0x5e74C9036fb86BD7eCdcb084a0673EFc32eA31cb (Synth sETH): https://www.synthetix.io/
+# 0x5e74C9036fb86BD7eCdcb084a0673EFc32eA31cb
+# - https://etherscan.io/token/0xbEe9Cf658702527b0AcB2719c1FAA29EdC006a92 (Strike ETH): https://strike.org
+0xbEe9Cf658702527b0AcB2719c1FAA29EdC006a92
+#
