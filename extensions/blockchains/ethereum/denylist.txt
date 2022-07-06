@@ -718,3 +718,29 @@
 # - https://etherscan.io/token/0xbEe9Cf658702527b0AcB2719c1FAA29EdC006a92 (Strike ETH): https://strike.org
 0xbEe9Cf658702527b0AcB2719c1FAA29EdC006a92
 #
+
+Found 4 duplicate symbols:
+# 'gene' is shared by:
+# - https://etherscan.io/token/0x6DD4e4Aad29A40eDd6A409b9c1625186C9855b4D (GENE TOKEN (PARKGENE)): https://parkgene.io
+# 0x6DD4e4Aad29A40eDd6A409b9c1625186C9855b4D
+# - https://etherscan.io/token/0x884181554dfA9e578d36379919C05C25dC4a15bB (Gene Source Code Chain): http://www.gscchain.org
+0x884181554dfA9e578d36379919C05C25dC4a15bB
+#
+# 'rai' is shared by:
+# - https://etherscan.io/token/0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919 (Rai Reflex Index): https://reflexer.finance
+# 0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919
+# - https://etherscan.io/token/0xf30547ff2Df1F1CBE5C8DD758B3dd098C856e38f (Rai Finance): https://rai.finance
+0xf30547ff2Df1F1CBE5C8DD758B3dd098C856e38f
+#
+# 'slink' is shared by:
+# - https://etherscan.io/token/0x10Bae51262490B4f4AF41e12eD52A0E744c1137A (Soft Link): https://slink.finance/
+# 0x10Bae51262490B4f4AF41e12eD52A0E744c1137A
+# - https://etherscan.io/token/0x3F3B3B269d9f7088B022290906acff8710914be1 (Strike LINK): https://strike.org
+0x3F3B3B269d9f7088B022290906acff8710914be1
+#
+# 'usdx' is shared by:
+# - https://etherscan.io/token/0x2F6081E3552b1c86cE4479B80062A1ddA8EF23E3 (Dollars): https://dollarprotocol.com
+# 0x2F6081E3552b1c86cE4479B80062A1ddA8EF23E3
+# - https://etherscan.io/token/0xBec4A69D6A5fbCb2303c13D24ea1A51a6F19bd12 (USDX): -
+0xBec4A69D6A5fbCb2303c13D24ea1A51a6F19bd12
+#

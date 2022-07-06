@@ -285,7 +285,7 @@ def fetch_coins():
     # Convert to Coin instances:
     coins = list(map(Coin.from_chain, chains))
 
-    duplicates = find_duplicates(coins, lambda c: c.symbol)
+    duplicates = find_duplicates(coins, lambda c: c.symbol.lower())
 
     if duplicates:
         raise Exception(f"Duplicates found: {duplicates}")
@@ -360,7 +360,7 @@ def build_erc20_tokens_list(erc20_network):
     tokens = sorted(set(extensions) | set(tokens), key=lambda t: t.address)
 
     # Look for duplicates:
-    duplicates = find_duplicates(tokens, lambda t: t.symbol)
+    duplicates = find_duplicates(tokens, lambda t: t.symbol.lower())
 
     if duplicates:
         dump_duplicates(duplicates, erc20_network.explorer_url)
