@@ -1,0 +1,9 @@
+{
+    "name": "Wrapped OUSD",
+    "website": "https://ousd.com/",
+    "type": "ERC20",
+    "symbol": "WOUSD",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62"
+}
