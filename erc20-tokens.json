@@ -6352,6 +6352,14 @@
         "website": "https://www.tapmydata.com"
     },
     {
+        "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+        "decimals": 18,
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0/logo.png",
+        "name": "Wrapped liquid staked Ether 2.0",
+        "symbol": "wstETH",
+        "website": "https://www.lido.fi/"
+    },
+    {
         "address": "0x808507121B80c02388fAd14726482e061B8da827",
         "decimals": 18,
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x808507121B80c02388fAd14726482e061B8da827/logo.png",
