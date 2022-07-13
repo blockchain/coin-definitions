@@ -136,6 +136,7 @@ class Coin:
 class ERC20Token:
     address: str
     decimals: int
+    displaySymbol: str
     logo: str
     name: str
     symbol: str
