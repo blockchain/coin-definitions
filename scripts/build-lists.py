@@ -17,6 +17,7 @@ from urllib.parse import urljoin
 class ERC20Token:
     address: str
     decimals: int
+    displaySymbol: str
     logo: str
     name: str
     symbol: str
@@ -31,6 +32,7 @@ class ERC20Token:
         return ERC20Token(
             address=asset.id,
             decimals=asset.decimals,
+            displaySymbol=asset.symbol,
             logo=build_token_logo(asset.id, chain),
             name=asset.name,
             symbol=asset.symbol,
