@@ -13,5 +13,10 @@
     "chain": "binance",
     "native": "BNB",
     "tokens": "chain/binance/tokens.json"
+  },
+  {
+    "chain": "tron",
+    "native": "TRX",
+    "tokens": "chain/tron/tokens.json"
   }
 ]
