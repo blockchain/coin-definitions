@@ -163,6 +163,15 @@ ERC20_NETWORKS = [
         output_file="chain/binance/tokens.json",
         symbol_suffix="BNB",
         explorer_url="https://bscscan.com/token/"
+    ),
+    ERC20Network(
+        chain="tron",
+        assets_dir="assets/blockchains/tron/assets/",
+        ext_assets_dir="extensions/blockchains/tron/assets/",
+        denylist="extensions/blockchains/tron/denylist.txt",
+        output_file="chain/tron/tokens.json",
+        symbol_suffix="TRX",
+        explorer_url="https://tronscan.org/#/token20/"
     )
 ]
 
