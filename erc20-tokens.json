@@ -6975,6 +6975,15 @@
         "website": "https://shopx.co/"
     },
     {
+        "address": "0x7C07F7aBe10CE8e33DC6C5aD68FE033085256A84",
+        "decimals": 18,
+        "displaySymbol": "icETH",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x7C07F7aBe10CE8e33DC6C5aD68FE033085256A84/logo.png",
+        "name": "Interest Compounding ETH Index",
+        "symbol": "icETH",
+        "website": "https://indexcoop.com/interest-compounding-eth-index"
+    },
+    {
         "address": "0x7C5A0CE9267ED19B22F8cae653F198e3E8daf098",
         "decimals": 18,
         "displaySymbol": "SAN",
