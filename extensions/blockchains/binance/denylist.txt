@@ -178,3 +178,27 @@
 0x570A5D26f7765Ecb712C0924E4De545B89fD43dF
 # - https://bscscan.com/token/0xfA54fF1a158B5189Ebba6ae130CEd6bbd3aEA76e (SOL (Portal)): https://solana.com/
 0xfA54fF1a158B5189Ebba6ae130CEd6bbd3aEA76e
+
+# 'AVAX' is shared by:
+# - https://bscscan.com/token/0x1CE0c2827e2eF14D5C4f29a091d735A204794041 (Binance-Peg Avalanche Token): http://avax.network
+# 0x1CE0c2827e2eF14D5C4f29a091d735A204794041
+# - https://bscscan.com/token/0x96412902aa9aFf61E13f085e70D3152C6ef2a817 (AVAX (Portal)): https://www.avax.network/
+0x96412902aa9aFf61E13f085e70D3152C6ef2a817
+
+# 'COW' is shared by:
+# - https://bscscan.com/token/0x422E3aF98bC1dE5a1838BE31A56f75DB4Ad43730 (COW): https://www.coinwind.pro/
+# 0x422E3aF98bC1dE5a1838BE31A56f75DB4Ad43730
+# - https://bscscan.com/token/0x8B6fA031c7D2E60fbFe4E663EC1B8f37Df1ba483 (CashCow): https://cashcowprotocol.com
+0x8B6fA031c7D2E60fbFe4E663EC1B8f37Df1ba483
+
+# 'ENG' is shared by:
+# - https://bscscan.com/token/0x7EeFB6AeB8BC2c1ba6be1D4273eC0758a1321272 (Endless Board Game): https://endlessboardgame.com
+0x7EeFB6AeB8BC2c1ba6be1D4273eC0758a1321272
+# - https://bscscan.com/token/0x8a505D5Cb3Db9fcf404c0A72aF3dF8Be4eFB707c (ENERGY COIN): https://engcrypto.io/
+# 0x8a505D5Cb3Db9fcf404c0A72aF3dF8Be4eFB707c
+
+# 'VOLT' is shared by:
+# - https://bscscan.com/token/0x07EC61Ae90860641972E9B41A706325a1E928BF8 (Volt Inu): https://voltinu.in
+0x07EC61Ae90860641972E9B41A706325a1E928BF8
+# - https://bscscan.com/token/0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac (Volt Inu): https://voltinu.in
+# 0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac

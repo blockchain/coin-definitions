@@ -152,6 +152,22 @@
     "website": "https://ethereum.org/"
   },
   {
+    "symbol": "EVER",
+    "name": "Everscale",
+    "key": "everscale",
+    "decimals": 9,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/everscale/info/logo.png",
+    "website": "https://everscale.network"
+  },
+  {
+    "symbol": "EVMOS",
+    "name": "Evmos",
+    "key": "evmos",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/evmos/info/logo.png",
+    "website": "https://evmos.org"
+  },
+  {
     "symbol": "FIL",
     "name": "Filecoin",
     "key": "filecoin",
@@ -176,12 +192,28 @@
     "website": "https://kin.org"
   },
   {
+    "symbol": "KLAY",
+    "name": "klaytn",
+    "key": "klaytn",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/klaytn/info/logo.png",
+    "website": "https://klaytn.foundation"
+  },
+  {
     "symbol": "LTC",
     "name": "Litecoin",
     "key": "litecoin",
     "decimals": 8,
     "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/litecoin/info/logo.png",
     "website": "https://litecoin.org/"
+  },
+  {
+    "symbol": "LUNA",
+    "name": "Terra",
+    "key": "terrav2",
+    "decimals": 6,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/terrav2/info/logo.png",
+    "website": "https://terra.money"
   },
   {
     "symbol": "MATIC.MATIC",
@@ -208,12 +240,28 @@
     "website": null
   },
   {
+    "symbol": "MTRG",
+    "name": "Meter",
+    "key": "meter",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/meter/info/logo.png",
+    "website": "https://meter.io/"
+  },
+  {
     "symbol": "NEAR",
     "name": "NEAR Protocol",
     "key": "near",
     "decimals": 24,
     "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/near/info/logo.png",
     "website": "https://near.org"
+  },
+  {
+    "symbol": "OKT",
+    "name": "OKX Chain",
+    "key": "okc",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/okc/info/logo.png",
+    "website": "https://www.okx.com/okc"
   },
   {
     "symbol": "SOL",
