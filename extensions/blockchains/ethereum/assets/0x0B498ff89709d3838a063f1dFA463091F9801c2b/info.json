@@ -1,0 +1,9 @@
+{
+    "name": "BTC 2x Flexible Leverage Index",
+    "website": "https://indexcoop.com/bitcoin-flexible-leverage-index-btc2xfli",
+    "type": "ERC20",
+    "symbol": "BTC2x-FLI",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x0B498ff89709d3838a063f1dFA463091F9801c2b"
+}

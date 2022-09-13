@@ -738,6 +738,15 @@
         "website": "https://tranche.finance"
     },
     {
+        "address": "0x0B498ff89709d3838a063f1dFA463091F9801c2b",
+        "decimals": 18,
+        "displaySymbol": "BTC2x-FLI",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x0B498ff89709d3838a063f1dFA463091F9801c2b/logo.png",
+        "name": "BTC 2x Flexible Leverage Index",
+        "symbol": "BTC2x-FLI",
+        "website": "https://indexcoop.com/bitcoin-flexible-leverage-index-btc2xfli"
+    },
+    {
         "address": "0x0B4BdC478791897274652DC15eF5C135cae61E60",
         "decimals": 18,
         "displaySymbol": "DAX",
