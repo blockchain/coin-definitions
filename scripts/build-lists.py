@@ -25,7 +25,7 @@ class ERC20Token:
 
     def is_valid(self):
         # At most 6 letters and digits:
-        return re.match("^[a-zA-Z0-9]{1,6}$", self.symbol) != None
+        return self.symbol is not None
 
     @staticmethod
     def from_asset(asset, chain):

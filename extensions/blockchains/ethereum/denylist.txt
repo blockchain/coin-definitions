@@ -744,3 +744,27 @@ Found 4 duplicate symbols:
 # - https://etherscan.io/token/0xBec4A69D6A5fbCb2303c13D24ea1A51a6F19bd12 (USDX): -
 0xBec4A69D6A5fbCb2303c13D24ea1A51a6F19bd12
 #
+
+# 'BAX' is shared by:
+# - https://etherscan.io/token/0x9a0242b7a33DAcbe40eDb927834F96eB39f8fBCB (Bax): https://getbabb.com
+0x9a0242b7a33DAcbe40eDb927834F96eB39f8fBCB
+# - https://etherscan.io/token/0xf920e4F3FBEF5B3aD0A25017514B769bDc4Ac135 (BABB): https://getbabb.com
+# 0xf920e4F3FBEF5B3aD0A25017514B769bDc4Ac135
+
+# 'INX' is shared by:
+# - https://etherscan.io/token/0x018d7D179350f1Bb9853D04982820E37ccE13a92 (INMAX): https://inmax.live
+0x018d7D179350f1Bb9853D04982820E37ccE13a92
+# - https://etherscan.io/token/0xBBC7f7A6AADAc103769C66CBC69AB720f7F9Eae3 (INX): https://token.inx.co/
+# 0xBBC7f7A6AADAc103769C66CBC69AB720f7F9Eae3
+
+# 'KLEE' is shared by:
+# - https://etherscan.io/token/0x382f0160c24f5c515A19f155BAc14d479433A407 (Klee Kai): https://klee.finance/
+0x382f0160c24f5c515A19f155BAc14d479433A407
+# - https://etherscan.io/token/0xA67E9F021B9d208F7e3365B2A155E3C55B27de71 (KleeKai): https://kleerun.game
+# 0xA67E9F021B9d208F7e3365B2A155E3C55B27de71
+
+# 'VOLT' is shared by:
+# - https://etherscan.io/token/0x3F7Aff0EF20AA2E646290DfA4E67611B2220C597 (Volt Inu): https://voltinu.in/
+0x3F7Aff0EF20AA2E646290DfA4E67611B2220C597
+# - https://etherscan.io/token/0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac (Volt Inu): https://voltinu.in
+# 0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac
