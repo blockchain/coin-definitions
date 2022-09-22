@@ -280,9 +280,6 @@ def fetch_coins():
     # Build the denylists:
     denylist = set(map(lambda x: (x["symbol"], x["name"]), read_json(EXT_BLOCKCHAINS_DENYLIST)))
 
-    # Keep only the active ones:
-    chains = filter(lambda x: x.status == 'active', chains)
-
     # Make sure the chain is NOT in the denylist:
     chains = filter(lambda x: (x.symbol, x.name) not in denylist, chains)
 

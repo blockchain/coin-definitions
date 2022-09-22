@@ -4,17 +4,42 @@
 
 ### L1 Coins
 
-All know L1 coins are described in the auto-generated file `coins.json`. Each entry contains:
+All known L1 coins are described in the auto-generated file `coins.json`. Each entry contains:
 
  - symbol: string
  - name: string
  - key: string
  - decimals: int
  - logo: string
+ - website: string
 
-The entries are taken from https://github.com/trustwallet/assets/tree/master/blockchains/, except those that are not "active", or those listed in `extensions/blockchains/denylist.txt`. Additionally, all custom blockchains defined in `extensions/blockchains/*/info/info.json` are added to the set.
+This is how the full series of steps to generate it:
 
-Logos are taken from the original repo, but can be overriden by adding them into `extensions/blockchains/*/info/logo.png`.
+```mermaid
+graph TD
+    subgraph assets/
+        blockchains[(blockchains/*)]
+    end
+    
+    subgraph extensions/
+        ext_blockchains[(blockchains/*)]
+        ext_blockchains_deny(blockchains/denylist.txt)
+    end
+    
+    coins(coins.json)
+
+    blockchains --> A[\Filter valid & active/]
+    A --> B[\Apply denylist/]
+    ext_blockchains_deny --> B
+    B --> C[/Include extensions\]
+    ext_blockchains --> C
+    %% C --> coins
+    C --> D{Duplicates?}
+    D --> |Dupes found| Z((ERROR))
+    D --> |No duplicates| coins
+```
+
+Each "extension" contains the chain description and/or logo. If no description or logo is given, the original one is used.
 
 Example: 
 
@@ -29,17 +54,47 @@ Example:
 
 ### ERC-20 Tokens List
 
-The auto-generated file `erc20-tokens.json` is a single JSON file that contains the info from each asset listed in https://github.com/trustwallet/assets/tree/master/blockchains/ethereum/assets/, except:
+The auto-generated file `erc20-tokens.json` is a single JSON file that contains the info from each asset listed in https://github.com/trustwallet/assets/tree/master/blockchains/ethereum/assets/, filtered and augmented according to the following steps:
 
- - those with a status other than "active"
- - those listed in `extensions/blockchains/ethereum/denylist.txt` (used mostly to disambiguate between tokens that have the same symbol)
- - those with either no price or a price of $0 USD, according to https://www.coingecko.com/
+```mermaid
+graph TD
+    subgraph assets/
+        tokens[(blockchains/ethereum/assets/*)]
+    end
+    
+    subgraph extensions/
+        ext_prices(prices.json)
+        ext_tokens[(blockchains/ethereum/assets/*)]
+        ext_tokens_deny(blockchains/ethereum/assets/denylist.txt)
+    end
 
-Additionally, all assets defined in `extensions/blockchains/ethereum/assets` are added to the dataset (but these are not subject to the filters described above).
+    cc[(cryptocompare.com)]
+    old_erc20s("(current) erc20-tokens.json")
+    erc20s(erc20-tokens.json)
+
+    cc -.-> ext_prices
+    tokens --> A[\Filter active/]
+    A --> B[\Filter by price/]
+    ext_prices --> B
+    B --> C[/Feed existing list\]
+    old_erc20s --> C
+    C --> D[\Apply denylist/]
+    ext_tokens_deny --> D
+    D --> E[\Filter valid/]
+    E --> F[/Include extensions\]
+    ext_tokens --> F
+    F --> G{Duplicates?}
+    G --> |Dupes found| Z((ERROR))
+    G --> |No duplicates| H[["Add network suffix (opt)"]]
+    H --> erc20s
+```
+
+As is the case for L1 coins, each "extension" contains the token description and/or logo. If no description or logo is given, the original one is used.
 
 For each asset, we include:
  - address: string
  - decimals: int
+ - displaySymbol: string
  - logo: string
  - name: string
  - symbol: string
@@ -51,12 +106,28 @@ Example:
 {
     "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
     "decimals": 6,
+    "displaySymbol": "USDT",
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
     "name": "Tether",
     "symbol": "USDT",
     "website": "https://tether.to"
 }
 ```
+
+### Tokens in other chains
+
+On top of the Ethereum ERC20s that live in `erc20-tokens.json`, we also include tokens for Polygon, Binance and Tron. In every case, the final file is generated according to the rules described in "ERC-20 Tokens List", with the appropriate chain in each case:
+
+ - Original assets from `assets/blockchains/<chain>/assets/`
+ - Extensions from `extensions/blockchains/<chain>/assets/`
+ - Denylist from `extensions/blockchains/<chain>/denylist.txt`
+
+Final lists are generated here:
+
+ - ETH: `erc20-tokens.json`
+ - MATIC: `chain/polygon/tokens.json`
+ - BNB: `chain/binance/tokens.json`
+ - TRX: `chain/tron/tokens.json`
 
 ### Custodial assets
 
