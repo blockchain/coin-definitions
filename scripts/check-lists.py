@@ -94,9 +94,10 @@ class Currency:
         # This applies only to ETH or ERC20s on the ETH network; we don't check the minConfirmations
         # on other chains:
         symbol, _, native = self.symbol.partition(".")
+        eth_confs = 64
         if (self.symbol == "ETH" or (self.type == "ERC20" and native == "")) and \
-            self.hwsSettings.minConfirmations != 30:
-            yield Error(self, f"minConfirmations {self.hwsSettings.minConfirmations}, expected 30")
+            self.hwsSettings.minConfirmations != eth_confs:
+            yield Error(self, f"minConfirmations {self.hwsSettings.minConfirmations}, expected {eth_confs}")
 
     def check_precision(self, ref):
         precision = self.nabuSettings.custodialPrecision
