@@ -995,7 +995,10 @@
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings": null
+    "hwsSettings":  {
+      "minConfirmations": 1,
+      "minWithdrawal": 0.1
+    }
   },
   {
     "symbol": "STORJ",
