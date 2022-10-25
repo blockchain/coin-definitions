@@ -16,6 +16,7 @@ All known L1 coins are described in the auto-generated file `coins.json`. Each e
 This is the full series of steps to generate it:
 
 ```mermaid
+
 graph TD
     subgraph assets/
         blockchains[(blockchains/*)]
