@@ -13898,7 +13898,7 @@
     {
         "address": "0xA9299C296d7830A99414d1E5546F5171fA01E9c8",
         "decimals": 18,
-        "displaySymbol": "DGLD",
+        "displaySymbol": "DGLDn",
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x123151402076fc819B7564510989e475c9cD93CA/logo.png",
         "name": "Digital Gold",
         "symbol": "DGLD.ETH",
