@@ -191,7 +191,7 @@ def check_currencies(currencies, coins, erc20_tokens, chains, prices):
             # No "native" (parent symbol) means it's a token in the ETH network;
             # otherwise we must lookup in the appropriate chain:
             symbol, _, native = currency.symbol.partition(".")
-            if native == "":
+            if native == "" or native == "ETH":
                 ref = erc20_tokens.get(currency.symbol)
             else:
                 ref = chains.get(native).get(currency.symbol)
