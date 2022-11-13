@@ -18,5 +18,10 @@
     "chain": "tron",
     "native": "TRX",
     "tokens": "chain/tron/tokens.json"
-  }
+  },
+  {
+    "chain": "chiliz",
+    "native": "CHZ",
+    "tokens": "chain/chiliz/tokens.json"
+  }  
 ]
