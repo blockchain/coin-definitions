@@ -12683,9 +12683,9 @@
     {
         "address": "0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9",
         "decimals": 18,
-        "displaySymbol": "WLUNA",
+        "displaySymbol": "WLUNC",
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9/logo.png",
-        "name": "LUNA Token",
+        "name": "Wrapped LUNC Token",
         "symbol": "WLUNA",
         "website": "https://terra.money"
     },
