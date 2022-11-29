@@ -1140,7 +1140,7 @@
       "custodialPrecision": 6
     },
     "hwsSettings": {
-      "minConfirmations": 30,
+      "minConfirmations": 300,
       "minWithdrawal": 0
     }
   },
@@ -1230,7 +1230,7 @@
       "custodialPrecision": 6
     },
     "hwsSettings": {
-      "minConfirmations": 30,
+      "minConfirmations": 300,
       "minWithdrawal": 0
     }
   },
