@@ -24,6 +24,14 @@
     "website": null
   },
   {
+    "symbol": "ARBETH",
+    "name": "Arbitrum",
+    "key": "arbitrum",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/arbitrum/info/logo.png",
+    "website": "https://offchainlabs.com"
+  },
+  {
     "symbol": "ATOM",
     "name": "Cosmos",
     "key": "cosmos",
