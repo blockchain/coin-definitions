@@ -1,7 +1,6 @@
 [
   {"symbol": "AE", "name": "Aeternity"},
   {"symbol": "AION", "name": "Aion"},
-  {"symbol": "ARETH", "name": "Arbitrum"},
   {"symbol": "AVAX", "name": "Avalanche X-Chain"},
   {"symbol": "BAND", "name": "BandChain"},
   {"symbol": "BCH", "name": "smartBCH"},
