@@ -84,6 +84,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "ARBETH",
+    "displaySymbol": "ARBETH",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 512,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "ARG.CHZ",
     "displaySymbol": "ARG.CHZ",
     "type": "ERC20",
