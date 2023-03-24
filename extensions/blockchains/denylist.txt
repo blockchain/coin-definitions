@@ -61,5 +61,13 @@
   {"symbol": "XLM", "name": "Stellar"},
   {"symbol": "XNO", "name": "Nano"},
   {"symbol": "XRP", "name": "XRP"},
-  {"symbol": "eGLD", "name": "Elrond"}
+  {"symbol": "eGLD", "name": "Elrond"},
+  {"symbol": "ETH", "name": "Polygon zkEVM"},
+  {"symbol": "ETH", "name": "ZkSync Era"},
+  {"symbol": "EVMOS", "name": "Evmos"},
+  {"symbol": "EVMOS", "name": "Native Evmos"},
+  {"symbol": "KAVA", "name": "Kava"},
+  {"symbol": "KAVA", "name": "KavaEvm"},
+  {"symbol": "OKT", "name": "OKX Chain"},
+  {"symbol": "OKT", "name": "OKC Token"}
 ]

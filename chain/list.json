@@ -23,5 +23,10 @@
     "chain": "chiliz",
     "native": "CHZ",
     "tokens": "chain/chiliz/tokens.json"
-  }  
+  },
+  {
+    "chain": "arbitrum",
+    "native": "ARBETH",
+    "tokens": "chain/arbitrum/tokens.json"
+  }
 ]
