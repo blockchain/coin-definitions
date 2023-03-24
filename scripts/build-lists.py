@@ -172,6 +172,15 @@ ERC20_NETWORKS = [
         output_file="chain/tron/tokens.json",
         symbol_suffix="TRX",
         explorer_url="https://tronscan.org/#/token20/"
+    ),
+    ERC20Network(
+        chain="arbeth",
+        assets_dir="assets/blockchains/arbitrum/assets/",
+        ext_assets_dir="extensions/blockchains/arbitrum/assets/",
+        denylist="extensions/blockchains/arbitrum/denylist.txt",
+        output_file="chain/arbitrum/tokens.json",
+        symbol_suffix="ARBETH",
+        explorer_url="https://arbiscan.io/token/"
     )
 ]
 
