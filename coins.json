@@ -118,7 +118,7 @@
     "decimals": 8,
     "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/digitalgold/info/logo.png",
     "website": null
-  },  
+  },
   {
     "symbol": "DOGE",
     "name": "Dogecoin",
@@ -167,6 +167,14 @@
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/filecoin/info/logo.png",
     "website": "https://filecoin.io"
   },
+  {
+    "symbol": "KAVA",
+    "name": "Kava",
+    "key": "kava",
+    "decimals": 6,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/kava/info/logo.png",
+    "website": "https://kava.io"
+  },  
   {
     "symbol": "KIN",
     "name": "Kin",

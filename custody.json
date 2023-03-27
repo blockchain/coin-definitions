@@ -399,7 +399,7 @@
       "minConfirmations": 1,
       "minWithdrawal": 5460
     }
-  },  
+  },
   {
     "symbol": "DGLD.ETH",
     "displaySymbol": "DGLDn",
@@ -619,6 +619,15 @@
     },
     "hwsSettings": null
   },
+  {
+    "symbol": "KAVA",
+    "displaySymbol": "KAVA",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": null
+  },  
   {
     "symbol": "KEEP",
     "displaySymbol": "KEEP",
