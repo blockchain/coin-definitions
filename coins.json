@@ -24,14 +24,6 @@
     "website": null
   },
   {
-    "symbol": "ARBETH",
-    "name": "Arbitrum",
-    "key": "arbitrum",
-    "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/arbitrum/info/logo.png",
-    "website": "https://offchainlabs.com"
-  },
-  {
     "symbol": "ATOM",
     "name": "Cosmos",
     "key": "cosmos",
@@ -166,14 +158,6 @@
     "decimals": 18,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/filecoin/info/logo.png",
     "website": "https://filecoin.io"
-  },
-  {
-    "symbol": "KAVA",
-    "name": "Kava",
-    "key": "kava",
-    "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/kava/info/logo.png",
-    "website": "https://kava.io"
   },
   {
     "symbol": "KIN",

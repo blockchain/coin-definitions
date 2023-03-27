@@ -3051,6 +3051,15 @@
         "website": "https://www.ebcoin.io/"
     },
     {
+        "address": "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+        "decimals": 18,
+        "displaySymbol": "RSR",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x320623b8E4fF03373931769A31Fc52A4E78B5d70/logo.png",
+        "name": "Reserve Rights",
+        "symbol": "RSR",
+        "website": "https://reserve.org"
+    },
+    {
         "address": "0x32a7C02e79c4ea1008dD6564b35F131428673c41",
         "decimals": 18,
         "displaySymbol": "CRU",
@@ -7495,15 +7504,6 @@
         "name": "Jetcoin",
         "symbol": "JET",
         "website": "http://www.jetcoininstitute.com"
-    },
-    {
-        "address": "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
-        "decimals": 18,
-        "displaySymbol": "RSR",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8/logo.png",
-        "name": "Reserve Rights",
-        "symbol": "RSR",
-        "website": "https://reserve.org"
     },
     {
         "address": "0x877391140c33B93a913478a6A1DF5157edC08320",
@@ -13894,23 +13894,5 @@
         "name": "FalconSwap Token",
         "symbol": "FSW",
         "website": "https://falconswap.com"
-    },
-    {
-        "address": "0xA9299C296d7830A99414d1E5546F5171fA01E9c8",
-        "decimals": 18,
-        "displaySymbol": "DGLDn",
-        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x123151402076fc819B7564510989e475c9cD93CA/logo.png",
-        "name": "Digital Gold",
-        "symbol": "DGLD.ETH",
-        "website": "https://dgld.ch"
-    },
-    {
-        "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
-        "decimals": 18,
-        "displaySymbol": "ARB",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/arbitrum/info/logo.png",
-        "name": "Arbitrum DAO Governance token",
-        "symbol": "ARB.ARBETH",
-        "website": "https://arbitrum.foundation"
     }
 ]

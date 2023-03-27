@@ -1,0 +1,12 @@
+{
+  "name": "Arbitrum DAO Governance token",
+  "website": "https://arbitrum.foundation",
+  "description": "",
+  "explorer": "",
+  "research": "",
+  "type": "ERC20",
+  "symbol": "ARB",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x912CE59144191C1204E64559FE8253a0e49E6548"
+}
