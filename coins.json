@@ -173,7 +173,7 @@
     "key": "kava",
     "decimals": 6,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/kava/info/logo.png",
-    "website": null
+    "website": "https://kava.io"
   },
   {
     "symbol": "KIN",
