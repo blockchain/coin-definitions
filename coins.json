@@ -28,7 +28,7 @@
     "name": "Arbitrum",
     "key": "arbitrum",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/arbitrum/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/arbitrum/info/logo.png",
     "website": "https://offchainlabs.com"
   },
   {

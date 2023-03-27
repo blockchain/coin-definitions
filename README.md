@@ -116,7 +116,7 @@ Example:
 
 ### Tokens in other chains
 
-On top of the Ethereum ERC20s that live in `erc20-tokens.json`, we also include tokens for Polygon, Binance and Tron. In every case, the final file is generated according to the rules described in "ERC-20 Tokens List", with the appropriate chain in each case:
+On top of the Ethereum ERC20s that live in `erc20-tokens.json`, we also include tokens for other EVM-like chains. In every case, the final file is generated according to the rules described in "ERC-20 Tokens List", with the appropriate chain in each case:
 
  - Original assets from `assets/blockchains/<chain>/assets/`
  - Extensions from `extensions/blockchains/<chain>/assets/`
@@ -124,10 +124,11 @@ On top of the Ethereum ERC20s that live in `erc20-tokens.json`, we also include 
 
 Final lists are generated here:
 
- - ETH: `erc20-tokens.json`
- - MATIC: `chain/polygon/tokens.json`
- - BNB: `chain/binance/tokens.json`
- - TRX: `chain/tron/tokens.json`
+- ETH: `erc20-tokens.json`
+- MATIC: `chain/polygon/tokens.json`
+- BNB: `chain/binance/tokens.json`
+- TRX: `chain/tron/tokens.json`
+- TRX: `chain/arbitrum/tokens.json`
 
 See how to add new ones [here](#add-a-new-chain-with-child-tokens)
 
@@ -233,10 +234,10 @@ In case we want to include a token that just doesn't exist on trustwallet `asset
 
 Examples: 
 
- - [Add support for icETH](https://github.com/blockchain/coin-definitions/pull/96)
- - [Add Origin tokens (OGV, veOGV, WOUSD)](https://github.com/blockchain/coin-definitions/pull/89)
- - [Add support for wstETH](https://github.com/blockchain/coin-definitions/pull/91)
- - [Add EUROC](https://github.com/blockchain/coin-definitions/pull/86)
+- [Add support for icETH](https://github.com/blockchain/coin-definitions/pull/96)
+- [Add Origin tokens (OGV, veOGV, WOUSD)](https://github.com/blockchain/coin-definitions/pull/89)
+- [Add support for wstETH](https://github.com/blockchain/coin-definitions/pull/91)
+- [Add EUROC](https://github.com/blockchain/coin-definitions/pull/86)
 
 
 ### Override chain or token info
@@ -256,9 +257,9 @@ extensions/blockchains/ethereum/assets/{{token_address}}/info.json
 
 Examples:
 
- - [Replace RARE, add RENBTC, update logos](https://github.com/blockchain/coin-definitions/pull/66)
- - [Fix Ethereum Gold name](https://github.com/blockchain/coin-definitions/pull/94)
- - [Override DAI name](https://github.com/blockchain/coin-definitions/pull/38)
+- [Replace RARE, add RENBTC, update logos](https://github.com/blockchain/coin-definitions/pull/66)
+- [Fix Ethereum Gold name](https://github.com/blockchain/coin-definitions/pull/94)
+- [Override DAI name](https://github.com/blockchain/coin-definitions/pull/38)
 
 ### Override chain or token logos
 
@@ -266,8 +267,8 @@ Overriding a logo is identical to [overriding the chain or token info](#override
 
 Examples:
 
- - Chains: [DOT](https://github.com/blockchain/coin-definitions/pull/79), [STX](https://github.com/blockchain/coin-definitions/pull/27) (override logos already existed, we only replaced the files)
- - ERC20s: [LEND](https://github.com/blockchain/coin-definitions/pull/68), [1INCH](https://github.com/blockchain/coin-definitions/pull/45), [WBTC](https://github.com/blockchain/coin-definitions/pull/37)
+- Chains: [DOT](https://github.com/blockchain/coin-definitions/pull/79), [STX](https://github.com/blockchain/coin-definitions/pull/27) (override logos already existed, we only replaced the files)
+- ERC20s: [LEND](https://github.com/blockchain/coin-definitions/pull/68), [1INCH](https://github.com/blockchain/coin-definitions/pull/45), [WBTC](https://github.com/blockchain/coin-definitions/pull/37)
 
 ### Enable new chain/token in custody
 
