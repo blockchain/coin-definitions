@@ -1,7 +1,7 @@
 {
-  "name": "Digital Gold",
-  "symbol": "DGLD", 
-  "type": "COIN", 
-  "decimals": 8,
-  "status": "active"
+    "name": "Digital Gold",
+    "symbol": "DGLD", 
+    "type": "COIN", 
+    "decimals": 8,
+    "status": "active"
 }
