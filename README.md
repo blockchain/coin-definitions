@@ -128,7 +128,7 @@ Final lists are generated here:
 - MATIC: `chain/polygon/tokens.json`
 - BNB: `chain/binance/tokens.json`
 - TRX: `chain/tron/tokens.json`
-- TRX: `chain/arbitrum/tokens.json`
+- ARB: `chain/arbitrum/tokens.json`
 
 See how to add new ones [here](#add-a-new-chain-with-child-tokens)
 

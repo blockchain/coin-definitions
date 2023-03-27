@@ -96,6 +96,18 @@
     }
   },
   {
+    "symbol": "ARB.ARBETH",
+    "displaySymbol": "ARB",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 512,
+      "minWithdrawal": 0
+    }
+  },  
+  {
     "symbol": "ARG.CHZ",
     "displaySymbol": "ARG.CHZ",
     "type": "ERC20",
