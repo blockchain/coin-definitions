@@ -13903,5 +13903,14 @@
         "name": "Digital Gold",
         "symbol": "DGLD.ETH",
         "website": "https://dgld.ch"
+    },
+    {
+        "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+        "decimals": 18,
+        "displaySymbol": "ARB",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/arbitrum/info/logo.png",
+        "name": "Arbitrum DAO Governance token",
+        "symbol": "ARB.ARBETH",
+        "website": "https://arbitrum.foundation"
     }
 ]
