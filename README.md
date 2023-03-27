@@ -116,18 +116,19 @@ Example:
 
 ### Tokens in other chains
 
-On top of the Ethereum ERC20s that live in `erc20-tokens.json`, we also include tokens for Polygon, Binance and Tron. In every case, the final file is generated according to the rules described in "ERC-20 Tokens List", with the appropriate chain in each case:
+On top of the Ethereum ERC20s that live in `erc20-tokens.json`, we also include tokens for other EVM-like chains. In every case, the final file is generated according to the rules described in "ERC-20 Tokens List", with the appropriate chain in each case:
 
- - Original assets from `assets/blockchains/<chain>/assets/`
- - Extensions from `extensions/blockchains/<chain>/assets/`
- - Denylist from `extensions/blockchains/<chain>/denylist.txt`
+- Original assets from `assets/blockchains/<chain>/assets/`
+- Extensions from `extensions/blockchains/<chain>/assets/`
+- Denylist from `extensions/blockchains/<chain>/denylist.txt`
 
 Final lists are generated here:
 
- - ETH: `erc20-tokens.json`
- - MATIC: `chain/polygon/tokens.json`
- - BNB: `chain/binance/tokens.json`
- - TRX: `chain/tron/tokens.json`
+- ETH: `erc20-tokens.json`
+- MATIC: `chain/polygon/tokens.json`
+- BNB: `chain/binance/tokens.json`
+- TRX: `chain/tron/tokens.json`
+- ARB: `chain/arbitrum/tokens.json`
 
 See how to add new ones [here](#add-a-new-chain-with-child-tokens)
 
@@ -237,7 +238,6 @@ Examples:
  - [Add Origin tokens (OGV, veOGV, WOUSD)](https://github.com/blockchain/coin-definitions/pull/89)
  - [Add support for wstETH](https://github.com/blockchain/coin-definitions/pull/91)
  - [Add EUROC](https://github.com/blockchain/coin-definitions/pull/86)
-
 
 ### Override chain or token info
 
