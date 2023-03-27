@@ -112,6 +112,14 @@
     "website": "https://decred.org"
   },
   {
+    "symbol": "DGLD",
+    "name": "Digital Gold",
+    "key": "digitalgold",
+    "decimals": 8,
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/digitalgold/info/logo.png",
+    "website": null
+  },  
+  {
     "symbol": "DOGE",
     "name": "Dogecoin",
     "key": "doge",

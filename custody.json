@@ -389,6 +389,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "DGLD",
+    "displaySymbol": "DGLD",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 5460
+    }
+  },  
+  {
     "symbol": "DGLD.ETH",
     "displaySymbol": "DGLDn",
     "type": "ERC20",
