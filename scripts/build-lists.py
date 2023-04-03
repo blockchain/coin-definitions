@@ -174,7 +174,7 @@ ERC20_NETWORKS = [
         explorer_url="https://tronscan.org/#/token20/"
     ),
     ERC20Network(
-        chain="arbeth",
+        chain="arbitrum",
         assets_dir="assets/blockchains/arbitrum/assets/",
         ext_assets_dir="extensions/blockchains/arbitrum/assets/",
         denylist="extensions/blockchains/arbitrum/denylist.txt",
