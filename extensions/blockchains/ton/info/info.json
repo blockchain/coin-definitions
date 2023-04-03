@@ -1,0 +1,20 @@
+{
+    "name": "The Open Network",
+    "website": "https://ton.org/",
+    "description": "The Open Network (TON) describes itself as a fast, secure and scalable blockchain and network project, reportedly capable of handling millions of transactions per second.",
+    "explorer": "https://tonscan.org/",
+    "symbol": "TON",
+    "type": "coin",
+    "decimals": 9,
+    "status": "active",
+    "links": [
+        {
+            "name": "github",
+            "url": "https://github.com/ton-blockchain/ton"
+        },
+        {
+            "name": "whitepaper",
+            "url": "https://ton.org/ton.pdf"
+        }
+    ]
+}
