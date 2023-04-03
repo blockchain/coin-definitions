@@ -1148,6 +1148,18 @@
     }
   },
   {
+    "symbol": "TON",
+    "displaySymbol": "TON",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 5,
+      "minWithdrawal": 0
+    }
+  },  
+  {
     "symbol": "TRB",
     "displaySymbol": "TRB",
     "type": "ERC20",
