@@ -256,6 +256,14 @@
     "website": null
   },
   {
+    "symbol": "TON",
+    "name": "The Open Network",
+    "key": "ton",
+    "decimals": 9,
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ton/info/logo.png",
+    "website": "https://ton.org/"
+  },
+  {
     "symbol": "TRX",
     "name": "TRON",
     "key": "tron",
