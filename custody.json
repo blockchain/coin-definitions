@@ -413,8 +413,8 @@
     }
   },
   {
-    "symbol": "DGLD.ETH",
-    "displaySymbol": "DGLDn",
+    "symbol": "DGLDN",
+    "displaySymbol": "DGLDN",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
