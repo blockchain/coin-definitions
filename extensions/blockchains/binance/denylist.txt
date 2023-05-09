@@ -178,3 +178,464 @@
 0x570A5D26f7765Ecb712C0924E4De545B89fD43dF
 # - https://bscscan.com/token/0xfA54fF1a158B5189Ebba6ae130CEd6bbd3aEA76e (SOL (Portal)): https://solana.com/
 0xfA54fF1a158B5189Ebba6ae130CEd6bbd3aEA76e
+
+# 'ainu' is shared by:
+# - https://bscscan.com/token/0x2Db0d5Cb907014C67Dc201886624716fb5c71123 (AINU TOKEN): https://www.ainutoken.net
+# 0x2Db0d5Cb907014C67Dc201886624716fb5c71123
+# - https://bscscan.com/token/0x64F36701138f0E85cC10c34Ea535FdBADcB54147 (ANON INU): https://inuanon.com/
+0x64F36701138f0E85cC10c34Ea535FdBADcB54147
+#
+# 'anon' is shared by:
+# - https://bscscan.com/token/0x9a980a084D8D72B219e1C79d91faf06Bec874D51 (Anonverse): https://anonverse.space/
+# 0x9a980a084D8D72B219e1C79d91faf06Bec874D51
+# - https://bscscan.com/token/0xFd78aAEd1e3f2d06DbDE9510C6dC14112eCA896D (Anonymous): https://4n0nym0u5.com
+0xFd78aAEd1e3f2d06DbDE9510C6dC14112eCA896D
+#
+# 'aqua' is shared by:
+# - https://bscscan.com/token/0x72B7D61E8fC8cF971960DD9cfA59B8C829D91991 (AQUA): https://planetfinance.io/
+# 0x72B7D61E8fC8cF971960DD9cfA59B8C829D91991
+# - https://bscscan.com/token/0x9Fb677928dd244beFCD0BbEbdF6068dD4BEF559C (BelaAqua): https://www.belatoken.org
+0x9Fb677928dd244beFCD0BbEbdF6068dD4BEF559C
+#
+# 'arix' is shared by:
+# - https://bscscan.com/token/0x4DB2495AfAd4c0E481fFc40FDaF66E13A786b619 (ARIX Token): https://arixcoin.io/
+# 0x4DB2495AfAd4c0E481fFc40FDaF66E13A786b619
+# - https://bscscan.com/token/0x976427dd3E55e8a2D5e358DbC54528D1990AADf4 (ARIX Token): https://arixcoin.io
+0x976427dd3E55e8a2D5e358DbC54528D1990AADf4
+#
+# 'avax' is shared by:
+# - https://bscscan.com/token/0x1CE0c2827e2eF14D5C4f29a091d735A204794041 (Binance-Peg Avalanche Token): http://avax.network
+# 0x1CE0c2827e2eF14D5C4f29a091d735A204794041
+# - https://bscscan.com/token/0x96412902aa9aFf61E13f085e70D3152C6ef2a817 (AVAX (Portal)): https://www.avax.network/
+0x96412902aa9aFf61E13f085e70D3152C6ef2a817
+#
+# 'axl' is shared by:
+# - https://bscscan.com/token/0x25b24B3c47918b7962B3e49C4F468367F73CC0E0 (AXL INU): https://www.axltoken.com
+# 0x25b24B3c47918b7962B3e49C4F468367F73CC0E0
+# - https://bscscan.com/token/0x8b1f4432F943c465A973FeDC6d7aa50Fc96f1f65 (Axelar): https://axelar.network/
+0x8b1f4432F943c465A973FeDC6d7aa50Fc96f1f65
+#
+# 'bb' is shared by:
+# - https://bscscan.com/token/0x16f9cc3c6F8d8006cfc0ee693CeF9D76b0d44C36 (Baby Bali): https://babybalibsc.com
+0x16f9cc3c6F8d8006cfc0ee693CeF9D76b0d44C36
+# - https://bscscan.com/token/0x86bBc9838C3370e0fD570b4ee8087f5aCa299977 (Blackberry token): https://www.blackberrytoken.com/
+# 0x86bBc9838C3370e0fD570b4ee8087f5aCa299977
+#
+# 'bbc' is shared by:
+# - https://bscscan.com/token/0x37e5da11b6A4DC6d2f7Abe232cDd30B0B8Fc63B1 (Bull BTC Club): https://bullbtc.club/
+# 0x37e5da11b6A4DC6d2f7Abe232cDd30B0B8Fc63B1
+# - https://bscscan.com/token/0xC1CD1fc18fE1Ec87A24F2858cAC493CcA86632c6 (BB Coin): https://bbpay.io
+0xC1CD1fc18fE1Ec87A24F2858cAC493CcA86632c6
+#
+# 'bbt' is shared by:
+# - https://bscscan.com/token/0xB3670F91E86a96EeDA0c75b1573035A6277226fb (BUYBACK Token): https://www.buybacktoken.net/
+0xB3670F91E86a96EeDA0c75b1573035A6277226fb
+# - https://bscscan.com/token/0xD48474E7444727bF500a32D5AbE01943f3A59A64 (BitBook): https://www.bitbook.network
+# 0xD48474E7444727bF500a32D5AbE01943f3A59A64
+#
+# 'bfg' is shared by:
+# - https://bscscan.com/token/0xBb46693eBbEa1aC2070E59B4D043b47e2e095f86 (BFG Token): https://betfury.io/
+# 0xBb46693eBbEa1aC2070E59B4D043b47e2e095f86
+# - https://bscscan.com/token/0xd1061342B3A119Ad2247c79235ECbd51997ed8eD (BabyFeg): https://www.babyfeg.com
+0xd1061342B3A119Ad2247c79235ECbd51997ed8eD
+#
+# 'bull' is shared by:
+# - https://bscscan.com/token/0x1F8Fc5470846011646C4cb05Cf235B47d5A7ADe6 (Bullet Token): https://bulletbsc.com/
+0x1F8Fc5470846011646C4cb05Cf235B47d5A7ADe6
+# - https://bscscan.com/token/0xf483af09917bA63F1E274056978036d266EB56e6 (BULL COIN): http://bullcoin.finance/
+# 0xf483af09917bA63F1E274056978036d266EB56e6
+#
+# 'catge' is shared by:
+# - https://bscscan.com/token/0x1cA23D55bc741366d010274553a8aeaAeFb0d583 (Catge): https://catgecoin.com/
+0x1cA23D55bc741366d010274553a8aeaAeFb0d583
+# - https://bscscan.com/token/0x3e07a8a8f260edeeca24139B6767A073918E8674 (Catge V2): https://catgecoin.com/
+# 0x3e07a8a8f260edeeca24139B6767A073918E8674
+#
+# 'corgi' is shared by:
+# - https://bscscan.com/token/0x450dCf93160A30BE156A4600802c91BF64dFFD2E (CorgiCoin): https://corgicoin.net
+0x450dCf93160A30BE156A4600802c91BF64dFFD2E
+# - https://bscscan.com/token/0x802C68730212295149f2bEa78C25e2Cf5A05B8A0 (Corgi doge): https://www.corgidoge.com
+# 0x802C68730212295149f2bEa78C25e2Cf5A05B8A0
+#
+# 'cow' is shared by:
+# - https://bscscan.com/token/0x422E3aF98bC1dE5a1838BE31A56f75DB4Ad43730 (COW): https://www.coinwind.pro/
+# 0x422E3aF98bC1dE5a1838BE31A56f75DB4Ad43730
+# - https://bscscan.com/token/0x8B6fA031c7D2E60fbFe4E663EC1B8f37Df1ba483 (CashCow): https://cashcowprotocol.com
+0x8B6fA031c7D2E60fbFe4E663EC1B8f37Df1ba483
+#
+# 'dmoon' is shared by:
+# - https://bscscan.com/token/0x1a04364E724A2B9c5A4ff42D777420734e605383 (Diamoons): https://diamoons.finance/
+0x1a04364E724A2B9c5A4ff42D777420734e605383
+# - https://bscscan.com/token/0x8267d169E1483E01AACBCfd22d294c47ECE9F07f (DragonMoon): https://www.dmoon.xyz/
+# 0x8267d169E1483E01AACBCfd22d294c47ECE9F07f
+#
+# 'eng' is shared by:
+# - https://bscscan.com/token/0x7EeFB6AeB8BC2c1ba6be1D4273eC0758a1321272 (Endless Board Game): https://endlessboardgame.com
+0x7EeFB6AeB8BC2c1ba6be1D4273eC0758a1321272
+# - https://bscscan.com/token/0x8a505D5Cb3Db9fcf404c0A72aF3dF8Be4eFB707c (ENERGY COIN): https://engcrypto.io/
+# 0x8a505D5Cb3Db9fcf404c0A72aF3dF8Be4eFB707c
+#
+# 'feed' is shared by:
+# - https://bscscan.com/token/0x67d66e8Ec1Fd25d98B3Ccd3B19B7dc4b4b7fC493 (Feeder Finance): https://feeder.finance/
+0x67d66e8Ec1Fd25d98B3Ccd3B19B7dc4b4b7fC493
+# - https://bscscan.com/token/0xB1731E5e035CB039298159EcB191cB3fe666Dd0e (FEED Token): https://feedtoken.org
+# 0xB1731E5e035CB039298159EcB191cB3fe666Dd0e
+#
+# 'fire' is shared by:
+# - https://bscscan.com/token/0x0f0Dd5E2c0e0c4A41F8908D73D36B8D142F6745a (Firework Games): https://www.firework.games/
+0x0f0Dd5E2c0e0c4A41F8908D73D36B8D142F6745a
+# - https://bscscan.com/token/0xBaCbF768795C50FC5E877830A127276741651D0a (Fire Token): https://firetoken.xyz/
+# 0xBaCbF768795C50FC5E877830A127276741651D0a
+#
+# 'fxs' is shared by:
+# - https://bscscan.com/token/0xDE2F075f6F14EB9D96755b24E416A53E736Ca363 (Frax Share): https://frax.finance/
+# 0xDE2F075f6F14EB9D96755b24E416A53E736Ca363
+# - https://bscscan.com/token/0xe48A3d7d0Bc88d552f730B62c006bC925eadB9eE (Frax Share): https://frax.finance/
+0xe48A3d7d0Bc88d552f730B62c006bC925eadB9eE
+#
+# 'gal' is shared by:
+# - https://bscscan.com/token/0x580655E2C6D4fC125C0B2D37B2a3e56219bF9f78 (Gallant): https://gallanttoken.com
+0x580655E2C6D4fC125C0B2D37B2a3e56219bF9f78
+# - https://bscscan.com/token/0xe4Cc45Bb5DBDA06dB6183E8bf016569f40497Aa5 (Galxe): https://galxe.com/
+# 0xe4Cc45Bb5DBDA06dB6183E8bf016569f40497Aa5
+#
+# 'gdoge' is shared by:
+# - https://bscscan.com/token/0xA53E61578fF54f1ad70186Be99332a6e20b6ffa9 (Golden Doge): https://goldendoge.finance
+# 0xA53E61578fF54f1ad70186Be99332a6e20b6ffa9
+# - https://bscscan.com/token/0xDeb9acA4F54ABd9b82Ca91B52fCCCF869882B9Fe (GDOGE): https://gdoge.finance/
+0xDeb9acA4F54ABd9b82Ca91B52fCCCF869882B9Fe
+#
+# 'gems' is shared by:
+# - https://bscscan.com/token/0x48A64f116Ce221fD7c1119775ba7892701F9911d (GemSpree): https://gemspree.finance/
+0x48A64f116Ce221fD7c1119775ba7892701F9911d
+# - https://bscscan.com/token/0xDfDec49462f7D3C3b0A48E729F77A0645CDFA7c0 (SafeGem.finance): https://www.safegem.finance/
+# 0xDfDec49462f7D3C3b0A48E729F77A0645CDFA7c0
+#
+# 'gft' is shared by:
+# - https://bscscan.com/token/0x72fF5742319eF07061836F5C924aC6D72c919080 (Gifto): https://gifto.io/
+# 0x72fF5742319eF07061836F5C924aC6D72c919080
+# - https://bscscan.com/token/0xE77932B1216125848e82C3967e75698362168f99 (Galaxy Finance Token): https://galaxyfinance.io/
+0xE77932B1216125848e82C3967e75698362168f99
+#
+# 'godz' is shared by:
+# - https://bscscan.com/token/0xDa4714fEE90Ad7DE50bC185ccD06b175D23906c1 (Godzilla): https://godzillacoin.io/
+0xDa4714fEE90Ad7DE50bC185ccD06b175D23906c1
+# - https://bscscan.com/token/0xF0A8EcBCE8caADB7A07d1FcD0f87Ae1Bd688dF43 (CryptoGodz): https://cryptogodz.io
+# 0xF0A8EcBCE8caADB7A07d1FcD0f87Ae1Bd688dF43
+#
+# 'gold' is shared by:
+# - https://bscscan.com/token/0x4620C701e8853Eaa1BF791EfB1d7d4d784734baD (GOLD 24 Carat/Oz): https://linktr.ee/zedxion
+0x4620C701e8853Eaa1BF791EfB1d7d4d784734baD
+# - https://bscscan.com/token/0x8f4087Cb09E0F378f4278a314C94A636665dE24b (NAR Ticket Token (GOLD)): https://narwhalswap.org
+# 0x8f4087Cb09E0F378f4278a314C94A636665dE24b
+#
+# 'grv' is shared by:
+# - https://bscscan.com/token/0x1337ace33C2B3Fc17d85f33dbD0Ed73a896148B5 (Gravitoken): https://gravitoken.co.uk/
+0x1337ace33C2B3Fc17d85f33dbD0Ed73a896148B5
+# - https://bscscan.com/token/0xF33893DE6eB6aE9A67442E066aE9aBd228f5290c (GroveCoin): https://www.grovetoken.com
+# 0xF33893DE6eB6aE9A67442E066aE9aBd228f5290c
+#
+# 'happy' is shared by:
+# - https://bscscan.com/token/0xB0B924C4a31b7d4581a7F78F57ceE1E65736Be1D (HappyCoin): https://thehappycoin.co
+0xB0B924C4a31b7d4581a7F78F57ceE1E65736Be1D
+# - https://bscscan.com/token/0xF5d8A096CcCb31b9D7bcE5afE812BE23e3D4690d (Happy Fans Token): https://happyfans.club/
+# 0xF5d8A096CcCb31b9D7bcE5afE812BE23e3D4690d
+#
+# 'hello' is shared by:
+# - https://bscscan.com/token/0x0F1cBEd8EFa0E012AdbCCB1638D0aB0147D5Ac00 (HELLO): https://www.hello.one/
+# 0x0F1cBEd8EFa0E012AdbCCB1638D0aB0147D5Ac00
+# - https://bscscan.com/token/0x4fA55d435ef98aD77C1EfA25Ae764cCb858f7046 (HelloSwap Token): https://helloswap.finance/
+0x4fA55d435ef98aD77C1EfA25Ae764cCb858f7046
+#
+# 'hft' is shared by:
+# - https://bscscan.com/token/0x186866858aEf38c05829166A7711b37563e15994 (Hodl Finance Token): https://hodl.finance
+# 0x186866858aEf38c05829166A7711b37563e15994
+# - https://bscscan.com/token/0x44Ec807ce2F4a6F2737A92e985f318d035883e47 (Hashflow): https://www.hashflow.com
+0x44Ec807ce2F4a6F2737A92e985f318d035883e47
+#
+# 'hodl' is shared by:
+# - https://bscscan.com/token/0x0E3EAF83Ea93Abe756690C62c72284943b96a6Bc (HODL Token): https://hodltoken.net/
+0x0E3EAF83Ea93Abe756690C62c72284943b96a6Bc
+# - https://bscscan.com/token/0x0E9766dF73973abCfEDDE700497c57110ee5c301 (HODL): https://www.hodltoken.net
+# 0x0E9766dF73973abCfEDDE700497c57110ee5c301
+# - https://bscscan.com/token/0x5788105375ecF7F675C29e822FD85fCd84d4cd86 (HODL 2.0): https://hodltoken.net
+0x5788105375ecF7F675C29e822FD85fCd84d4cd86
+#
+# 'hyper' is shared by:
+# - https://bscscan.com/token/0x565D931cBa7C7E1af3925f77124D5e2d68311BBE (HyperChain): https://hyperchainx.com
+0x565D931cBa7C7E1af3925f77124D5e2d68311BBE
+# - https://bscscan.com/token/0xEE5b03b769Ca6c690D140CafB52fC8de3f38FC28 (HyperChainX): https://hyperchainx.com
+# 0xEE5b03b769Ca6c690D140CafB52fC8de3f38FC28
+#
+# 'jind' is shared by:
+# - https://bscscan.com/token/0x22D6363949E295873D261b812A281D014367e8f9 (Jindo Inu): https://www.jindoinu.info/
+0x22D6363949E295873D261b812A281D014367e8f9
+# - https://bscscan.com/token/0x5fEAD99998788AC1BCA768796483d899F1Aef4c4 (JINDO INU): https://www.jindoinu.info
+# 0x5fEAD99998788AC1BCA768796483d899F1Aef4c4
+#
+# 'king' is shared by:
+# - https://bscscan.com/token/0x0cCD575bf9378c06f6DCa82f8122F570769F00C2 (CryptoBlades KING Token): https://cryptobladeskingdoms.io/
+0x0cCD575bf9378c06f6DCa82f8122F570769F00C2
+# - https://bscscan.com/token/0x74f08aF7528Ffb751e3A435ddD779b5C4565e684 (King Finance): https://kingworld.finance/
+# 0x74f08aF7528Ffb751e3A435ddD779b5C4565e684
+# - https://bscscan.com/token/0xDE4e179CC1d3b298216B96893767b9b01A6Bc413 (KingToken): https://swapking.net
+0xDE4e179CC1d3b298216B96893767b9b01A6Bc413
+#
+# 'kodi' is shared by:
+# - https://bscscan.com/token/0x7f4f3BC4A5634454398580b9112b7E493E2129Fa (Kodi): https://kodicoin.com
+0x7f4f3BC4A5634454398580b9112b7E493E2129Fa
+# - https://bscscan.com/token/0xbA5eAB68a7203C9FF72E07b708991F07f55eF40E (KODI COIN): https://kodicoin.com
+# 0xbA5eAB68a7203C9FF72E07b708991F07f55eF40E
+#
+# 'lfg' is shared by:
+# - https://bscscan.com/token/0x960a69E979d2F507E80121f41d984Ea8aD83cD76 (LFG Token): https://www.gamerse.network
+0x960a69E979d2F507E80121f41d984Ea8aD83cD76
+# - https://bscscan.com/token/0xF93f6b686f4A6557151455189a9173735D668154 (LFG Token): https://www.gamerse.com
+# 0xF93f6b686f4A6557151455189a9173735D668154
+#
+# 'light' is shared by:
+# - https://bscscan.com/token/0x037838b556d9c9d654148a284682C55bB5f56eF4 (Lightning): https://lightningprotocol.finance/
+0x037838b556d9c9d654148a284682C55bB5f56eF4
+# - https://bscscan.com/token/0x842668E2B9A73240aBF6532DEdC89c9c3e050C98 (Light DeFi): https://lightdefi.org/
+# 0x842668E2B9A73240aBF6532DEdC89c9c3e050C98
+#
+# 'lnr' is shared by:
+# - https://bscscan.com/token/0x9D4451151A8dE5B545a1bC6c8fdEB9d94a2868e1 (Lunar): https://lunar.io/
+0x9D4451151A8dE5B545a1bC6c8fdEB9d94a2868e1
+# - https://bscscan.com/token/0xc1A59a17F87ba6651Eb8E8F707db7672647c45bD (Lunar): https://lunar.io/
+# 0xc1A59a17F87ba6651Eb8E8F707db7672647c45bD
+#
+# 'ltrbt' is shared by:
+# - https://bscscan.com/token/0x17D749D3E2ac204a07e19D8096d9a05c423ea3af (Little Rabbit): https://newlittlerabbit.com
+0x17D749D3E2ac204a07e19D8096d9a05c423ea3af
+# - https://bscscan.com/token/0x6C46422A0f7dbbAD9BEC3BbBC1189bfAf9794B05 (Little Rabbit): https://littlerabbitproject.com/
+# 0x6C46422A0f7dbbAD9BEC3BbBC1189bfAf9794B05
+#
+# 'mars' is shared by:
+# - https://bscscan.com/token/0x2d2bB6cC040010583F16Bb1c5afEE129ed13B532 (MARSTOKEN): https://marstoken.finance
+0x2d2bB6cC040010583F16Bb1c5afEE129ed13B532
+# - https://bscscan.com/token/0xF1A71bcCe29b598d812a30BaedFf860a7Dce0aff (Mars - Climb Token Finance ): https://www.climbtoken.finance/
+# 0xF1A71bcCe29b598d812a30BaedFf860a7Dce0aff
+#
+# 'mbtc' is shared by:
+# - https://bscscan.com/token/0x0E65834a4092B10EcE3C9290b256F0Df83F71C6c (MoonBitcoin): https://mbitcoin.cc/
+0x0E65834a4092B10EcE3C9290b256F0Df83F71C6c
+# - https://bscscan.com/token/0xe77011ed703ed06927dBd78e60c549baBAbF913e (Micro Bitcoin): https://mbitcoin.finance/
+# 0xe77011ed703ed06927dBd78e60c549baBAbF913e
+#
+# 'mdao' is shared by:
+# - https://bscscan.com/token/0x60322971a672B81BccE5947706D22c19dAeCf6Fb (MarsDAO): https://daomars.com
+# 0x60322971a672B81BccE5947706D22c19dAeCf6Fb
+# - https://bscscan.com/token/0x904d7Ac5d005d16DBDc69f713D029e3C1800F8Ca (Martian DAO): https://www.martiandao.net/
+0x904d7Ac5d005d16DBDc69f713D029e3C1800F8Ca
+#
+# 'mgp' is shared by:
+# - https://bscscan.com/token/0x57bEa4F720F755150f6b773c13bC78c09ac85740 (Micro Gaming Protocol): https://microoo-gaming-protocol.org/
+0x57bEa4F720F755150f6b773c13bC78c09ac85740
+# - https://bscscan.com/token/0xD06716E1Ff2E492Cc5034c2E81805562dd3b45fa (Magpie Token): https://www.magpiexyz.io/
+0xD06716E1Ff2E492Cc5034c2E81805562dd3b45fa
+# - https://bscscan.com/token/0xa677bc9bDb10329E488A4d8387ED7a08b2fc9005 (Magic Power Token): https://magic-cube.finance/#/home
+# 0xa677bc9bDb10329E488A4d8387ED7a08b2fc9005
+#
+# 'mnd' is shared by:
+# - https://bscscan.com/token/0x4c97c901B5147F8C1C7Ce3c5cF3eB83B44F244fE (Mound Token): https://mndvault.mound.finance/
+0x4c97c901B5147F8C1C7Ce3c5cF3eB83B44F244fE
+# - https://bscscan.com/token/0xCB0B74476d72BBBC77f14724a859b2e960Ca1803 (Mind Music): https://mindmusic.finance
+# 0xCB0B74476d72BBBC77f14724a859b2e960Ca1803
+#
+# 'moon' is shared by:
+# - https://bscscan.com/token/0x81E4d494b85A24a58a6BA45c9B418b32a4E039de (MoonToken): https://www.moontoken.xyz/
+# 0x81E4d494b85A24a58a6BA45c9B418b32a4E039de
+# - https://bscscan.com/token/0xE8c93310af068aa50bd7bF0ebFa459Df2a02ceba (HoneyMoon): https://moon.honeyfarm.finance?utm_source=twt&utm_medium=wallet&utm_campaign=twt
+0xE8c93310af068aa50bd7bF0ebFa459Df2a02ceba
+#
+# 'mtw' is shared by:
+# - https://bscscan.com/token/0xD3Ac199E6e6A1668ED6566b6F6dcdf7641868731 (Metawhale Token): https://metawhaleworld.com
+0xD3Ac199E6e6A1668ED6566b6F6dcdf7641868731
+# - https://bscscan.com/token/0xfCe3EFebC79d21a6B7cc7F3A7216E66e81f4B23B (Meta World Token): https://www.meta-world.game
+# 0xfCe3EFebC79d21a6B7cc7F3A7216E66e81f4B23B
+#
+# 'multi' is shared by:
+# - https://bscscan.com/token/0x3e6C9eE69B90B53628051F8D6CB5b6b2EaCCB438 (Multigame): https://multigame.org/
+0x3e6C9eE69B90B53628051F8D6CB5b6b2EaCCB438
+# - https://bscscan.com/token/0x9Fb9a33956351cf4fa040f65A13b835A3C8764E3 (Multichain): https://multichain.org/
+# 0x9Fb9a33956351cf4fa040f65A13b835A3C8764E3
+#
+# 'myst' is shared by:
+# - https://bscscan.com/token/0x2fF0B946A6782190C4Fe5D4971CFE79F0b6E4df2 (Mysterium): https://mysterium.network/
+# 0x2fF0B946A6782190C4Fe5D4971CFE79F0b6E4df2
+# - https://bscscan.com/token/0xCdcaef3cE3a138C47ddB0B04a9b04649c13D50Ed (Mystery): https://mysterbox.io
+0xCdcaef3cE3a138C47ddB0B04a9b04649c13D50Ed
+#
+# 'nftl' is shared by:
+# - https://bscscan.com/token/0xE5904E9816b309d3eD4d061c922f5aa8f3B24C92 (Cyber Time Finance): https://cybertime.finance/
+# 0xE5904E9816b309d3eD4d061c922f5aa8f3B24C92
+# - https://bscscan.com/token/0xe7F72Bc0252cA7B16dBb72eEee1AfcDb2429F2DD (NFTLaunch.network): https://nftlaunch.network/
+0xe7F72Bc0252cA7B16dBb72eEee1AfcDb2429F2DD
+#
+# 'nsfw' is shared by:
+# - https://bscscan.com/token/0x9DAAa05946e486ADd2c81e0d32D936866B8449D9 (xxxNifty): https://xxxNifty.com/
+0x9DAAa05946e486ADd2c81e0d32D936866B8449D9
+# - https://bscscan.com/token/0xED1b4BdB29cA09545b9BEdC6c0E854074E121eB3 (xxxNifty): https://xxxNifty.com/
+0xED1b4BdB29cA09545b9BEdC6c0E854074E121eB3
+# - https://bscscan.com/token/0xaA076B62EFC6f357882E07665157A271aB46A063 (Pleasure Coin): https://pleasurecoin.com/
+# 0xaA076B62EFC6f357882E07665157A271aB46A063
+#
+# 'obs' is shared by:
+# - https://bscscan.com/token/0x095956B142431Eb9Cf88B99F392540B91aCbF4ad (One Basis Share): https://onebasis.org/
+# 0x095956B142431Eb9Cf88B99F392540B91aCbF4ad
+# - https://bscscan.com/token/0x490DbA6180b089d8E36eBb1E56a33F1aE9B96b87 (OpenBiSea): https://openbisea.io/
+0x490DbA6180b089d8E36eBb1E56a33F1aE9B96b87
+#
+# 'ole' is shared by:
+# - https://bscscan.com/token/0xa865197A84E780957422237B5D152772654341F3 (Openleverage Token): https://openleverage.finance/
+# 0xa865197A84E780957422237B5D152772654341F3
+# - https://bscscan.com/token/0xfb4b7ee058828b5fBF2e475dA88F1903f453334E (OleCoin): https://olecoin.io
+0xfb4b7ee058828b5fBF2e475dA88F1903f453334E
+#
+# 'orion' is shared by:
+# - https://bscscan.com/token/0x2821989877c0189bf63837f18a2856E30297AF70 (Orion): https://orioninitiative.com/
+# 0x2821989877c0189bf63837f18a2856E30297AF70
+# - https://bscscan.com/token/0x3dcB18569425930954feb191122e574b87F66abd (Orion Money (Portal)): https://orion.money/
+0x3dcB18569425930954feb191122e574b87F66abd
+#
+# 'pepe' is shared by:
+# - https://bscscan.com/token/0x0c1b3983D2a4Aa002666820DE5a0B43293291Ea6 (PEPE Community): https://www.pepe.community
+0x0c1b3983D2a4Aa002666820DE5a0B43293291Ea6
+# - https://bscscan.com/token/0xa5AC8f8E90762380cCE6C16ABa17Ed6d2Cf75888 (PepeMoon): https://www.pepemoon.com
+# 0xa5AC8f8E90762380cCE6C16ABa17Ed6d2Cf75888
+#
+# 'pex' is shared by:
+# - https://bscscan.com/token/0x2963dCc52549573BBFBe355674724528532C0867 (Project-X): https://pexcoin.io/
+0x2963dCc52549573BBFBe355674724528532C0867
+# - https://bscscan.com/token/0x6a0b66710567b6beb81A71F7e9466450a91a384b (PEAR DAO): https://peardao.io/
+# 0x6a0b66710567b6beb81A71F7e9466450a91a384b
+#
+# 'pinu' is shared by:
+# - https://bscscan.com/token/0x1FDB2c3851D067502Ce2122bE80a41ea212949E2 (Pige Inu): https://pigeinu.io/#
+0x1FDB2c3851D067502Ce2122bE80a41ea212949E2
+# - https://bscscan.com/token/0xF03E02AcbC5eb22de027eA4F59235966F5810D4f (Pi INU Token): https://pi-inu.com
+# 0xF03E02AcbC5eb22de027eA4F59235966F5810D4f
+#
+# 'raca' is shared by:
+# - https://bscscan.com/token/0x043b49749e0016E965600d502E2177cA2d95B3d9 (Radio Caca Token): https://www.radiocaca.com/
+0x043b49749e0016E965600d502E2177cA2d95B3d9
+# - https://bscscan.com/token/0x12BB890508c125661E03b09EC06E404bc9289040 (Radio Caca V2): https://www.radiocaca.com
+# 0x12BB890508c125661E03b09EC06E404bc9289040
+#
+# 'rich' is shared by:
+# - https://bscscan.com/token/0x3B4443F97B37A6Ef864c3f0f1632E366B4f1d20f (RichieRich Coin): https://www.richierichcoin.com
+0x3B4443F97B37A6Ef864c3f0f1632E366B4f1d20f
+# - https://bscscan.com/token/0xC7Bc24c4C18F8251D31611114d0e7B5F5ef76762 (Richie): https://www.getrichie.com/
+# 0xC7Bc24c4C18F8251D31611114d0e7B5F5ef76762
+# - https://bscscan.com/token/0xc0994Af94FEe0361A1e1E1ccf72BCe19d5FD86FB (RichCity): https://www.richcity.com/
+0xc0994Af94FEe0361A1e1E1ccf72BCe19d5FD86FB
+#
+# 'rpg' is shared by:
+# - https://bscscan.com/token/0x01E0d17a533E5930A349C2BB71304F04F20AB12B (REVOLVE GAMES): https://revolvegames.io
+0x01E0d17a533E5930A349C2BB71304F04F20AB12B
+# - https://bscscan.com/token/0xc2098a8938119A52B1F7661893c0153A6CB116d5 (Rangers Protocol Gas(RPG)):  https://rangersprotocol.com/
+# 0xc2098a8938119A52B1F7661893c0153A6CB116d5
+#
+# 'rvl' is shared by:
+# - https://bscscan.com/token/0x6dc3d0D6EC970BF5522611D8eFF127145D02b675 (Revolotto): https://revolotto.org
+# 0x6dc3d0D6EC970BF5522611D8eFF127145D02b675
+# - https://bscscan.com/token/0x7EaeE60040135F20f508A393ca400dEd339d654e (REVIVAL): https://revivaldefi.com
+0x7EaeE60040135F20f508A393ca400dEd339d654e
+#
+# 'sat' is shared by:
+# - https://bscscan.com/token/0x1e446CbEa52BAdeB614FBe4Ab7610F737995fB44 (Saturna): https://saturna.co
+# 0x1e446CbEa52BAdeB614FBe4Ab7610F737995fB44
+# - https://bscscan.com/token/0xA1928c0D8F83C0bFB7ebE51B412b1FD29A277893 (SatisFi Token): https://satis.finance
+0xA1928c0D8F83C0bFB7ebE51B412b1FD29A277893
+#
+# 'sfm' is shared by:
+# - https://bscscan.com/token/0x3A66D3d2EDB25182430d01b991BC6eaC73aD5AA8 (SFMONEY): https://sfmoney.info/
+0x3A66D3d2EDB25182430d01b991BC6eaC73aD5AA8
+# - https://bscscan.com/token/0x42981d0bfbAf196529376EE702F2a9Eb9092fcB5 (SafeMoon V2): https://safemoon.net/
+# 0x42981d0bfbAf196529376EE702F2a9Eb9092fcB5
+#
+# 'shiba' is shared by:
+# - https://bscscan.com/token/0xB84cBbF09b3Ed388a45cD875ebba41a20365e6e7 (BitShiba): https://www.bitshiba.io/
+# 0xB84cBbF09b3Ed388a45cD875ebba41a20365e6e7
+# - https://bscscan.com/token/0xa8c573cd88De2265B39954b4fA2Da72038582616 (Stealth Shiba Token): https://stealthshiba.com
+0xa8c573cd88De2265B39954b4fA2Da72038582616
+#
+# 'smoon' is shared by:
+# - https://bscscan.com/token/0x5d6CDf1b7F7C35EAE688E4C563b6f16eeAC2cB6b (SaylorMoon): https://saylormoon.army
+# 0x5d6CDf1b7F7C35EAE688E4C563b6f16eeAC2cB6b
+# - https://bscscan.com/token/0xB47D8D9CD415DAE40E364b140ae6aF186e2332f4 (SwiftMoon): https://swiftmoon.online/
+0xB47D8D9CD415DAE40E364b140ae6aF186e2332f4
+#
+# 'sparta' is shared by:
+# - https://bscscan.com/token/0x3910db0600eA925F63C36DdB1351aB6E2c6eb102 (Spartan Protocol Token V2): https://spartanprotocol.org
+# 0x3910db0600eA925F63C36DdB1351aB6E2c6eb102
+# - https://bscscan.com/token/0xE4Ae305ebE1AbE663f261Bc00534067C80ad677C (Spartan Protocol Token): https://spartanprotocol.org
+0xE4Ae305ebE1AbE663f261Bc00534067C80ad677C
+#
+# 'spe' is shared by:
+# - https://bscscan.com/token/0x4ac81e3631DcDa62109e3117c4CAE7bf70BbbbD2 (SavePlanetEarth V3): https://saveplanetearth.io/
+# 0x4ac81e3631DcDa62109e3117c4CAE7bf70BbbbD2
+# - https://bscscan.com/token/0x5A4f765476Fd1BF010783B47a25CbF10974e6A37 (SavePlanetEarth): https://www.saveplanetearth.io
+0x5A4f765476Fd1BF010783B47a25CbF10974e6A37
+#
+# 'syn' is shared by:
+# - https://bscscan.com/token/0xa4080f1778e69467E905B8d6F72f6e441f9e9484 (Synapse): https://synapseprotocol.com/
+# 0xa4080f1778e69467E905B8d6F72f6e441f9e9484
+# - https://bscscan.com/token/0xf8F9efC0db77d8881500bb06FF5D6ABc3070E695 (Synapse): https://synapseprotocol.com/
+0xf8F9efC0db77d8881500bb06FF5D6ABc3070E695
+#
+# 'thc' is shared by:
+# - https://bscscan.com/token/0x1e4e9397533efBF31eD451Eae1c17Bca090Bc9ef (Weedcoin): https://weedcointhc.finance
+0x1e4e9397533efBF31eD451Eae1c17Bca090Bc9ef
+# - https://bscscan.com/token/0x56083560594E314b5cDd1680eC6a493bb851BBd8 (Transhuman Coin): https://www.transhumancoin.finance
+# 0x56083560594E314b5cDd1680eC6a493bb851BBd8
+#
+# 'travel' is shared by:
+# - https://bscscan.com/token/0x5C501ceB257700FcCd33c53FeEc9f96EDa583Dd7 (Travel Care): https://www.travelcare.io/
+0x5C501ceB257700FcCd33c53FeEc9f96EDa583Dd7
+# - https://bscscan.com/token/0x826e5Ec70DbC5607fF9218011FBb97F9a8D97953 (TravelCare): https://travelcare.io/
+# 0x826e5Ec70DbC5607fF9218011FBb97F9a8D97953
+#
+# 'udoge' is shared by:
+# - https://bscscan.com/token/0x698111b771363B81D1179AD102e3d8B9cD093a11 (UKA DOGE COIN): https://ukadoge.com/
+# 0x698111b771363B81D1179AD102e3d8B9cD093a11
+# - https://bscscan.com/token/0xD2618bC9c9cDC40ff19e200a7d14A09799C0a152 (Uncle Doge): https://uncle-doge.com/
+0xD2618bC9c9cDC40ff19e200a7d14A09799C0a152
+# - https://bscscan.com/token/0xd1948C71362386453Feb698BC5d902ABba38598F (UniDoge): http://unidoge.org
+0xd1948C71362386453Feb698BC5d902ABba38598F
+#
+# 'vex' is shared by:
+# - https://bscscan.com/token/0x7996cF3FBc0655131BD5a6D66e1ae2720f1de45E (VELOREX): https://velorex.cc/
+0x7996cF3FBc0655131BD5a6D66e1ae2720f1de45E
+# - https://bscscan.com/token/0xc029A12e4A002c6858878FD9D3cc74E227cc2DDa (VELOREX): https://velorex.net/
+# 0xc029A12e4A002c6858878FD9D3cc74E227cc2DDa
+#
+# 'volt' is shared by:
+# - https://bscscan.com/token/0x07EC61Ae90860641972E9B41A706325a1E928BF8 (Volt Inu): https://voltinu.in
+0x07EC61Ae90860641972E9B41A706325a1E928BF8
+# - https://bscscan.com/token/0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac (Volt Inu): https://voltinu.in
+# 0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac
+#
+# 'web3' is shared by:
+# - https://bscscan.com/token/0x09d96101dB62FfAc32f798CB9A61e501337b79C6 (WEB3 Game): https://web3game.tech
+0x09d96101dB62FfAc32f798CB9A61e501337b79C6
+# - https://bscscan.com/token/0x333FD139cAeF6Aa31056cC905987b77B1044d259 (The Web3 Project): https://www.theweb3project.com
+0x333FD139cAeF6Aa31056cC905987b77B1044d259
+# - https://bscscan.com/token/0xd0c4BC1B89BbD105EeCb7EBa3f13E7648c0De38F (WEB3 Inu): https://web3inu.org
+# 0xd0c4BC1B89BbD105EeCb7EBa3f13E7648c0De38F
+# - https://bscscan.com/token/0xf45de5A6d02c4a6E050B90Add33ebf0A34D017e0 (WEB3 Doge): https://web3doge.io
+0xf45de5A6d02c4a6E050B90Add33ebf0A34D017e0
+#
+# 'xcad' is shared by:
+# - https://bscscan.com/token/0x431e0cD023a32532BF3969CddFc002c00E98429d (XCAD Network): https://xcademytoken.com
+0x431e0cD023a32532BF3969CddFc002c00E98429d
+# - https://bscscan.com/token/0xa026Ad2ceDa16Ca5FC28fd3C72f99e2C332c8a26 (XCAD): https://xcadnetwork.com/
+# 0xa026Ad2ceDa16Ca5FC28fd3C72f99e2C332c8a26
+#
+# 'xld' is shared by:
+# - https://bscscan.com/token/0xC79d1fD14F514cD713b5cA43D288a782Ae53eAb2 (XcelDefi): https://www.xceldefi.com
+# 0xC79d1fD14F514cD713b5cA43D288a782Ae53eAb2
+# - https://bscscan.com/token/0xDaf4F11947E73f0eeBEf4a820f4Be9B854aa993B (Stellar Diamond): https://stellardiamond.net
+0xDaf4F11947E73f0eeBEf4a820f4Be9B854aa993B
+#
