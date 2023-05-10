@@ -75,5 +75,25 @@ ERC20_NETWORKS = [
         output_file="chain/arbitrum/tokens.json",
         symbol_suffix="ARBETH",
         explorer_url="https://arbiscan.io/token/"
+    ),
+    ERC20Network(
+        chain="chiliz",
+        symbol="CHZ",
+        assets_dir="assets/blockchains/chiliz/assets/",
+        ext_assets_dir="extensions/blockchains/chiliz/assets/",
+        denylist="extensions/blockchains/chiliz/denylist.txt",
+        output_file="chain/chiliz/tokens.json",
+        symbol_suffix="CHZ",
+        explorer_url="https://explorer.chiliz.com/address/"
+    ),
+    ERC20Network(
+        chain="celo",
+        symbol="CELO",
+        assets_dir="assets/blockchains/celo/assets/",
+        ext_assets_dir="extensions/blockchains/celo/assets/",
+        denylist="extensions/blockchains/celo/denylist.txt",
+        output_file="chain/celo/tokens.json",
+        symbol_suffix="CELO",
+        explorer_url="https://celoscan.io/token/"
     )
 ]
