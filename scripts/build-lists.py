@@ -2,203 +2,21 @@ import argparse
 import glob
 import itertools
 import json
-import os
-import re
-import sys
-from dataclasses import asdict, dataclass, fields, replace
+from dataclasses import asdict
 from datetime import datetime
 from urllib import parse, request
 from urllib.parse import urljoin
 
-
-@dataclass
-class ERC20Token:
-    address: str
-    decimals: int
-    displaySymbol: str
-    logo: str
-    name: str
-    symbol: str
-    website: str
-
-    def is_valid(self):
-        # At most 6 letters and digits:
-        return re.match("^[a-zA-Z0-9]{1,6}$", self.symbol) != None
-
-    @staticmethod
-    def from_asset(asset, chain):
-        return ERC20Token(
-            address=asset.id,
-            decimals=asset.decimals,
-            displaySymbol=asset.symbol,
-            logo=build_token_logo(asset.id, chain),
-            name=asset.name,
-            symbol=asset.symbol,
-            website=asset.website
-        )
-
-    def with_suffix(self, suffix):
-        if not suffix:
-            return self
-        return replace(self, symbol=f"{self.symbol}.{suffix}")
-
-    def __eq__(self, other):
-        return self.address == other.address
-
-    def __hash__(self):
-        return hash(self.address)
-
-
-@dataclass
-class Coin:
-    symbol: str
-    name: str
-    key: str
-    decimals: int
-    logo: str
-    website: str
-
-    @staticmethod
-    def from_chain(chain):
-        return Coin(
-            symbol=chain.symbol,
-            name=chain.name,
-            key=chain.key,
-            logo=build_currency_logo(chain.key),
-            decimals=chain.decimals,
-            website=chain.website
-        )
-
-
-def build_dataclass_from_dict(cls, dict_):
-    class_fields = {f.name for f in fields(cls)}
-    return cls(**{k: v for k, v in dict_.items() if k in class_fields})
-
-
-@dataclass
-class Asset:
-    id: str
-    decimals: int
-    name: str
-    symbol: str
-    website: str
-    status: str
-
-    @classmethod
-    def from_dict(cls, dict_):
-        return build_dataclass_from_dict(cls, dict_)
-
-
-@dataclass
-class Blockchain:
-    name: str
-    key: str
-    symbol: str = None
-    decimals: int = None
-    status: str = None
-    website: str = None
-
-    def is_valid(self):
-        return self.symbol is not None and \
-            self.decimals is not None and \
-            self.status is not None
-
-    def is_active(self):
-        return self.status == 'active'
-
-    def is_removed(self):
-        return self.status == 'removed'
-
-    @classmethod
-    def from_dict(cls, key, dict_):
-        dict_ = dict(dict_.items())
-        dict_.update(dict(key=key))
-        return build_dataclass_from_dict(cls, dict_)
-
-
-@dataclass
-class ERC20Network:
-    chain: str
-    assets_dir: str
-    ext_assets_dir: str
-    denylist: str
-    output_file: str
-    symbol_suffix: str
-    explorer_url: str
-
-
-TW_REPO_ROOT = "https://raw.githubusercontent.com/trustwallet/assets/master/"
-BC_REPO_ROOT = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/"
-
-# Coin params
-BLOCKCHAINS = "assets/blockchains/"
-
-EXT_BLOCKCHAINS = "extensions/blockchains/"
-EXT_BLOCKCHAINS_DENYLIST = "extensions/blockchains/denylist.txt"
-
-EXT_PRICES = "extensions/prices.json"
-
-FINAL_BLOCKCHAINS_LIST = "coins.json"
-
-ERC20_NETWORKS = [
-    ERC20Network(
-        chain="ethereum",
-        assets_dir="assets/blockchains/ethereum/assets/",
-        ext_assets_dir="extensions/blockchains/ethereum/assets/",
-        denylist="extensions/blockchains/ethereum/denylist.txt",
-        output_file="erc20-tokens.json",
-        symbol_suffix="",
-        explorer_url="https://etherscan.io/token/"
-    ),
-    ERC20Network(
-        chain="polygon",
-        assets_dir="assets/blockchains/polygon/assets/",
-        ext_assets_dir="extensions/blockchains/polygon/assets/",
-        denylist="extensions/blockchains/polygon/denylist.txt",
-        output_file="chain/polygon/tokens.json",
-        symbol_suffix="MATIC",
-        explorer_url="https://polygonscan.com/token/"
-    ),
-    ERC20Network(
-        chain="binance",
-        assets_dir="assets/blockchains/smartchain/assets/",
-        ext_assets_dir="extensions/blockchains/smartchain/assets/",
-        denylist="extensions/blockchains/binance/denylist.txt",
-        output_file="chain/binance/tokens.json",
-        symbol_suffix="BNB",
-        explorer_url="https://bscscan.com/token/"
-    ),
-    ERC20Network(
-        chain="tron",
-        assets_dir="assets/blockchains/tron/assets/",
-        ext_assets_dir="extensions/blockchains/tron/assets/",
-        denylist="extensions/blockchains/tron/denylist.txt",
-        output_file="chain/tron/tokens.json",
-        symbol_suffix="TRX",
-        explorer_url="https://tronscan.org/#/token20/"
-    ),
-    ERC20Network(
-        chain="arbitrum",
-        assets_dir="assets/blockchains/arbitrum/assets/",
-        ext_assets_dir="extensions/blockchains/arbitrum/assets/",
-        denylist="extensions/blockchains/arbitrum/denylist.txt",
-        output_file="chain/arbitrum/tokens.json",
-        symbol_suffix="ARBETH",
-        explorer_url="https://arbiscan.io/token/"
-    )
-]
-
-
-def chunks(lst, n):
-    for i in range(0, len(lst), n):
-        yield lst[i:i + n]
+from common_classes import Blockchain, Coin, Asset, ERC20Token
+from statics import EXT_BLOCKCHAINS, BLOCKCHAINS, EXT_BLOCKCHAINS_DENYLIST, EXT_PRICES, FINAL_BLOCKCHAINS_LIST, \
+    ERC20_NETWORKS
+from utils import map_chunked
 
 
 def read_json(path, comment_marker=None):
     with open(path) as json_file:
         if comment_marker:
-            clean_line = lambda l: l.split(comment_marker)[0]
-            raw_data = "".join(map(clean_line, json_file.readlines()))
+            raw_data = "".join(map(lambda l: l.split(comment_marker)[0], json_file.readlines()))
             return json.loads(raw_data)
         else:
             return json.load(json_file)
@@ -230,7 +48,7 @@ def write_txt(data, path):
 def multiread_json(base_dir, pattern, comment_marker=None):
     for target in sorted(glob.glob(base_dir + pattern)):
         key = target.replace(base_dir, '').partition("/")[0]
-        yield (key, read_json(target, comment_marker=comment_marker))
+        yield key, read_json(target, comment_marker=comment_marker)
 
 
 def read_assets(assets_dir):
@@ -251,34 +69,6 @@ def cryptocompare_pricemulti(symbols):
     if response.get("Response") == "Error":
         raise Exception(response.get("Message"))
     return {curr: price["USD"] for curr, price in response.items()}
-
-
-def map_chunked(f, items, chunk_size):
-    progress = 0
-    for chunk in chunks(items, chunk_size):
-        yield f(chunk)
-        progress += chunk_size
-        sys.stdout.write(f"...{int(progress / len(items) * 100)}%")
-        sys.stdout.flush()
-    sys.stdout.write("\n")
-
-
-def build_token_logo(address, chain):
-    if os.path.exists(os.path.join(f"extensions/blockchains/{chain}/assets/", address, "logo.png")):
-        base_path = BC_REPO_ROOT + f"extensions/blockchains/{chain}/assets/"
-    else:
-        base_path = TW_REPO_ROOT + f"blockchains/{chain}/assets/"
-    asset_path = urljoin(base_path, address + "/")
-    return urljoin(asset_path, "logo.png")
-
-
-def build_currency_logo(key):
-    if os.path.exists(os.path.join(EXT_BLOCKCHAINS, key, "info", "logo.png")):
-        return BC_REPO_ROOT + os.path.join(EXT_BLOCKCHAINS, key, "info", "logo.png")
-    elif os.path.exists(os.path.join(BLOCKCHAINS, key, "info", "logo.png")):
-        return TW_REPO_ROOT + os.path.join("blockchains", key, "info", "logo.png")
-    else:
-        return None
 
 
 def find_duplicates(items, key):
