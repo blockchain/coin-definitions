@@ -28,5 +28,15 @@
     "chain": "arbitrum",
     "native": "ARBETH",
     "tokens": "chain/arbitrum/tokens.json"
+  },
+  {
+    "chain": "avalanchec",
+    "native": "AVAX",
+    "tokens": "chain/avalanchec/tokens.json"
+  },
+  {
+    "chain": "optimism",
+    "native": "OP",
+    "tokens": "chain/optimism/tokens.json"
   }
 ]
