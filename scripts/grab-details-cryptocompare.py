@@ -1,12 +1,13 @@
-import glob
-import json
-import itertools
-from dataclasses import dataclass
-import requests
 import datetime
+import glob
+import itertools
+import json
 import os
 import re
+from dataclasses import dataclass
 from typing import Union, Optional, Dict
+
+import requests
 
 Timestamp = Union[datetime.datetime, datetime.date, int, float]
 
@@ -94,6 +95,7 @@ def _query_cryptocompare(url: str, errorCheck: bool = True, api_key: str = None)
 def write_json(data, path, sort_keys=True, indent=4):
     with open(path, "w") as json_file:
         return json.dump(data, json_file, sort_keys=sort_keys, indent=indent)
+
 
 def filter_desc(line):
     return re.split(r'Blockchain data provided by:', line, maxsplit=1)[0].strip()

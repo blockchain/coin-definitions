@@ -1,10 +1,10 @@
 import glob
-import json
-
 import itertools
+import json
 import operator
 from dataclasses import dataclass
 from functools import reduce
+
 
 class CheckResult:
     def __init__(self, ref, msg):
@@ -22,6 +22,7 @@ class Error(CheckResult):
     PREFIX = " 🛑 "
     BLOCKER = True
 
+
 class Warning(CheckResult):
     PREFIX = " ⚠️ "
     BLOCKER = False
@@ -32,9 +33,11 @@ class HWSSettings:
     minConfirmations: int
     minWithdrawal: int
 
+
 @dataclass
 class NabuSettings:
     custodialPrecision: int
+
 
 @dataclass
 class Currency:
@@ -81,7 +84,7 @@ class Currency:
             yield Warning(self, f"No price: {e}")
             return
 
-        minWithdrawalValue = minWithdrawal * 1.0 / (10**ref.decimals) * price
+        minWithdrawalValue = minWithdrawal * 1.0 / (10 ** ref.decimals) * price
 
         if not (0.01 < minWithdrawalValue < 10):
             yield Warning(self, f"minWithdrawal {minWithdrawal} -> "
@@ -96,7 +99,7 @@ class Currency:
         symbol, _, native = self.symbol.partition(".")
         eth_confs = 64
         if (self.symbol == "ETH" or (self.type == "ERC20" and native == "")) and \
-            self.hwsSettings.minConfirmations != eth_confs:
+                self.hwsSettings.minConfirmations != eth_confs:
             yield Error(self, f"minConfirmations {self.hwsSettings.minConfirmations}, expected {eth_confs}")
 
     def check_precision(self, ref):
@@ -108,7 +111,7 @@ class Currency:
             expected = [ref.decimals]
         else:
             expected = [8, 9]
-        
+
         if precision not in expected:
             yield Error(self, f"custodialPrecision {precision}, expected {expected}")
 
@@ -153,28 +156,34 @@ class ERC20Token:
         if self.logo is None:
             yield Warning(self, f"No logo")
 
+
 @dataclass
 class Chain:
     chain: str
     native: str
     tokens: str
 
+
 def read_json(path):
     with open(path) as json_file:
         return json.load(json_file)
+
 
 def multiread_json(base_dir, pattern):
     for target in sorted(glob.glob(base_dir + pattern)):
         key = target.replace(base_dir, '').partition("/")[0]
         yield (key, read_json(target))
 
+
 def find_duplicates(items, key):
     groups = itertools.groupby(sorted(items, key=key), key)
     groups = [(symbol, list(items)) for symbol, items in groups]
     return [(symbol, items) for symbol, items in groups if len(items) > 1]
 
+
 def compress_duplicates(duplicates):
     return [(symbol, [x.name for x in group]) for symbol, group in duplicates]
+
 
 def check_currencies(currencies, coins, erc20_tokens, chains, prices):
     coins = {x.symbol: x for x in coins}
@@ -225,7 +234,7 @@ def main():
 
     prices = read_json("extensions/prices.json")['prices']
     issues = list(check_currencies(currencies, coins, erc20_tokens, chains, prices))
-    
+
     print("")
     print(reduce(operator.add, map(lambda i: "\n- " + str(i), issues)))
     print("")
