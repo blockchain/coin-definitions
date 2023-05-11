@@ -6,7 +6,7 @@ from dataclasses import asdict
 from datetime import datetime
 from urllib.parse import urljoin
 
-from coin_gecko import fetch_coin_prices, fetch_token_prices
+from coin_gecko import fetch_coin_prices, fetch_token_prices, fetch_coin_descriptions, fetch_token_descriptions
 from common_classes import Asset, Blockchain, Coin, ERC20Token
 from statics import BLOCKCHAINS, EXT_BLOCKCHAINS_DENYLIST, EXT_BLOCKCHAINS, EXT_PRICES, FINAL_BLOCKCHAINS_LIST, \
     ERC20_NETWORKS
@@ -142,13 +142,6 @@ def build_coins_list():
     write_json(coins, FINAL_BLOCKCHAINS_LIST, sort_keys=False, indent=2)
 
 
-def should_append_network_suffix(network, token):
-    if network.symbol == "CELO":
-        if token.symbol == "CEUR" or token.symbol == "CUSD":  # TODO: Remove special case (CTP-332)
-            return False
-    return True
-
-
 def build_erc20_tokens_list(erc20_network):
     print(f"Generating token files for network \"{erc20_network.chain}\"")
     tokens = fetch_erc20_tokens(erc20_network.assets_dir, erc20_network.chain)
@@ -159,15 +152,14 @@ def build_erc20_tokens_list(erc20_network):
     print(f"Tokens before price filter {len(tokens)}")
 
     # Clean up by price:
-    tokens = list(
-        filter(lambda token: token.with_suffix(erc20_network.symbol_suffix).symbol in prices['prices'], tokens))
+    tokens = list(filter(lambda token: token.with_suffix(erc20_network).symbol in prices['prices'], tokens))
 
     print(f"Tokens after price filter {len(tokens)}")
 
     # Include already selected tokens (to make sure we don't remove a token we had previously selected)
     print(f"Reading existing assets in {erc20_network.output_file}")
-    current_tokens = list(map(lambda x: ERC20Token(**x).without_suffix(erc20_network.symbol_suffix),
-                              read_json(erc20_network.output_file)))
+    current_tokens = list(
+        map(lambda x: ERC20Token(**x).without_suffix(erc20_network), read_json(erc20_network.output_file)))
     tokens = list(set(tokens) | set(current_tokens))
 
     # Make sure the asset is NOT in the denylist:
@@ -191,10 +183,7 @@ def build_erc20_tokens_list(erc20_network):
         return
 
     # Add network suffix before final dump:
-    tokens = map(
-        lambda t: t.with_suffix(erc20_network.symbol_suffix) if should_append_network_suffix(erc20_network, t) else t,
-        tokens
-    )
+    tokens = map(lambda token: token.with_suffix(erc20_network), tokens)
 
     # Convert back to plain dicts:
     tokens = list(map(asdict, tokens))
@@ -203,13 +192,44 @@ def build_erc20_tokens_list(erc20_network):
     write_json(tokens, erc20_network.output_file)
 
 
+def fetch_descriptions():
+    coins = list(map(lambda x: Coin.from_dict(x), read_json("coins.json")))
+    print(f"Fetching descriptions for {len(coins)} coins")
+    descriptions = fetch_coin_descriptions(coins)
+
+    for erc20_network in ERC20_NETWORKS:
+        erc20_tokens = list(map(lambda x: ERC20Token.from_dict(x), read_json(erc20_network.output_file)))
+        print(f"Fetching descriptions for {len(erc20_tokens)} {erc20_network.symbol} tokens")
+        descriptions.update(fetch_token_descriptions(erc20_network, erc20_tokens))
+
+    text_descriptions = {}
+    descriptions_list = []
+
+    for symbol, description in descriptions.items():
+        if not description:
+            pass
+        text_description = description.description
+        text_descriptions[symbol] = text_description if text_description else ''
+        descriptions_list.append({
+            'symbol': symbol,
+            'description': text_description,
+            'websiteurl': description.website,
+        })
+
+    write_json(text_descriptions, './description/en.json')
+    write_json(sorted(descriptions_list, key=lambda x: x['symbol']), './description/info.json')
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--fetch-prices', action='store_true')
+    parser.add_argument('--fetch-descriptions', action='store_true')
     args = parser.parse_args()
 
     if args.fetch_prices:
         fetch_prices()
+    elif args.fetch_descriptions:
+        fetch_descriptions()
     else:
         build_coins_list()
         for erc20_network in ERC20_NETWORKS:
