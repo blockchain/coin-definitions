@@ -1,10 +1,11 @@
-import glob
-import json
-
 import itertools
 import operator
 from dataclasses import dataclass
 from functools import reduce
+
+from common_classes import Coin, ERC20Token
+from utils import read_json
+
 
 class CheckResult:
     def __init__(self, ref, msg):
@@ -22,6 +23,7 @@ class Error(CheckResult):
     PREFIX = " 🛑 "
     BLOCKER = True
 
+
 class Warning(CheckResult):
     PREFIX = " ⚠️ "
     BLOCKER = False
@@ -32,9 +34,11 @@ class HWSSettings:
     minConfirmations: int
     minWithdrawal: int
 
+
 @dataclass
 class NabuSettings:
     custodialPrecision: int
+
 
 @dataclass
 class Currency:
@@ -76,12 +80,12 @@ class Currency:
             return
 
         try:
-            price = ref.get_price(prices)
+            price = prices[ref.symbol]
         except Exception as e:
             yield Warning(self, f"No price: {e}")
             return
 
-        minWithdrawalValue = minWithdrawal * 1.0 / (10**ref.decimals) * price
+        minWithdrawalValue = minWithdrawal * 1.0 / (10 ** ref.decimals) * price
 
         if not (0.01 < minWithdrawalValue < 10):
             yield Warning(self, f"minWithdrawal {minWithdrawal} -> "
@@ -96,7 +100,7 @@ class Currency:
         symbol, _, native = self.symbol.partition(".")
         eth_confs = 64
         if (self.symbol == "ETH" or (self.type == "ERC20" and native == "")) and \
-            self.hwsSettings.minConfirmations != eth_confs:
+                self.hwsSettings.minConfirmations != eth_confs:
             yield Error(self, f"minConfirmations {self.hwsSettings.minConfirmations}, expected {eth_confs}")
 
     def check_precision(self, ref):
@@ -108,50 +112,10 @@ class Currency:
             expected = [ref.decimals]
         else:
             expected = [8, 9]
-        
+
         if precision not in expected:
             yield Error(self, f"custodialPrecision {precision}, expected {expected}")
 
-
-@dataclass
-class Coin:
-    symbol: str
-    name: str
-    key: str
-    decimals: int
-    logo: str
-    website: str
-
-    def __str__(self):
-        return f"[{self.symbol}, COIN]"
-
-    def get_price(self, prices):
-        return prices[self.symbol]
-
-    def check(self):
-        if self.logo is None:
-            yield Warning(self, f"No logo")
-
-
-@dataclass
-class ERC20Token:
-    address: str
-    decimals: int
-    displaySymbol: str
-    logo: str
-    name: str
-    symbol: str
-    website: str
-
-    def __str__(self):
-        return f"[{self.symbol}, ERC20]"
-
-    def get_price(self, prices):
-        return prices[self.symbol]
-
-    def check(self):
-        if self.logo is None:
-            yield Warning(self, f"No logo")
 
 @dataclass
 class Chain:
@@ -159,22 +123,21 @@ class Chain:
     native: str
     tokens: str
 
-def read_json(path):
-    with open(path) as json_file:
-        return json.load(json_file)
-
-def multiread_json(base_dir, pattern):
-    for target in sorted(glob.glob(base_dir + pattern)):
-        key = target.replace(base_dir, '').partition("/")[0]
-        yield (key, read_json(target))
 
 def find_duplicates(items, key):
     groups = itertools.groupby(sorted(items, key=key), key)
     groups = [(symbol, list(items)) for symbol, items in groups]
     return [(symbol, items) for symbol, items in groups if len(items) > 1]
 
+
 def compress_duplicates(duplicates):
     return [(symbol, [x.name for x in group]) for symbol, group in duplicates]
+
+
+def check_logo(coin):
+    if coin.logo is None:
+        yield Warning(coin, "No logo")
+
 
 def check_currencies(currencies, coins, erc20_tokens, chains, prices):
     coins = {x.symbol: x for x in coins}
@@ -205,15 +168,15 @@ def check_currencies(currencies, coins, erc20_tokens, chains, prices):
             yield Error(currency, "Reference not found")
             continue
 
-        yield from itertools.chain(ref.check(), currency.check(ref, prices))
+        yield from itertools.chain(check_logo(ref), currency.check(ref, prices))
 
 
 def main():
-    coins = list(map(lambda x: Coin(**x), read_json("coins.json")))
-    erc20_tokens = list(map(lambda x: ERC20Token(**x), read_json("erc20-tokens.json")))
+    coins = list(map(lambda x: Coin.from_dict(x), read_json("coins.json")))
+    erc20_tokens = list(map(lambda x: ERC20Token.from_dict(x), read_json("erc20-tokens.json")))
     chains = list(map(lambda x: Chain(**x), read_json("chain/list.json")))
     chains = dict((c.native, read_json(c.tokens)) for c in chains)
-    chains = {k: list(map(lambda x: ERC20Token(**x), v)) for k, v in chains.items()}
+    chains = {k: list(map(lambda x: ERC20Token.from_dict(x), v)) for k, v in chains.items()}
 
     currencies = map(lambda x: Currency(**x), read_json("custody.json"))
 
@@ -225,7 +188,7 @@ def main():
 
     prices = read_json("extensions/prices.json")['prices']
     issues = list(check_currencies(currencies, coins, erc20_tokens, chains, prices))
-    
+
     print("")
     print(reduce(operator.add, map(lambda i: "\n- " + str(i), issues)))
     print("")
