@@ -744,3 +744,97 @@ Found 4 duplicate symbols:
 # - https://etherscan.io/token/0xBec4A69D6A5fbCb2303c13D24ea1A51a6F19bd12 (USDX): -
 0xBec4A69D6A5fbCb2303c13D24ea1A51a6F19bd12
 #
+
+# AKT
+0xC727f87871ee12Bbcedd2973746D1Deb7529aaD6
+
+# 'aergo' is shared by:
+# - https://etherscan.io/token/0x91Af0fBB28ABA7E31403Cb457106Ce79397FD4E6 (Aergo): https://aergo.io
+# 0x91Af0fBB28ABA7E31403Cb457106Ce79397FD4E6
+# - https://etherscan.io/token/0xAE31b85Bfe62747d0836B82608B4830361a3d37a (Aergo): https://aergo.io
+0xAE31b85Bfe62747d0836B82608B4830361a3d37a
+#
+# 'axl' is shared by:
+# - https://etherscan.io/token/0x25b24B3c47918b7962B3e49C4F468367F73CC0E0 (AXL INU): https://www.axltoken.com/
+0x25b24B3c47918b7962B3e49C4F468367F73CC0E0
+# - https://etherscan.io/token/0x467719aD09025FcC6cF6F8311755809d45a5E5f3 (Axelar): https://axelar.network/
+# 0x467719aD09025FcC6cF6F8311755809d45a5E5f3
+#
+# 'bax' is shared by:
+# - https://etherscan.io/token/0x9a0242b7a33DAcbe40eDb927834F96eB39f8fBCB (Bax): https://getbabb.com
+0x9a0242b7a33DAcbe40eDb927834F96eB39f8fBCB
+# - https://etherscan.io/token/0xf920e4F3FBEF5B3aD0A25017514B769bDc4Ac135 (BABB): https://getbabb.com
+# 0xf920e4F3FBEF5B3aD0A25017514B769bDc4Ac135
+#
+# 'flash' is shared by:
+# - https://etherscan.io/token/0x20398aD62bb2D930646d45a6D4292baa0b860C1f (Flashstake): https://flashstake.io
+0x20398aD62bb2D930646d45a6D4292baa0b860C1f
+# - https://etherscan.io/token/0xB1f1F47061A7Be15C69f378CB3f69423bD58F2F8 (Flashstake): https://flashstake.io
+# 0xB1f1F47061A7Be15C69f378CB3f69423bD58F2F8
+#
+# 'flux' is shared by:
+# - https://etherscan.io/token/0x469eDA64aEd3A3Ad6f868c44564291aA415cB1d9 (FLUX): https://damcrypto.com
+0x469eDA64aEd3A3Ad6f868c44564291aA415cB1d9
+# - https://etherscan.io/token/0x720CD16b011b987Da3518fbf38c3071d4F0D1495 (Flux): https://runonflux.io/
+# 0x720CD16b011b987Da3518fbf38c3071d4F0D1495
+#
+# 'id' is shared by:
+# - https://etherscan.io/token/0x2dfF88A56767223A5529eA5960Da7A3F5f766406 (SPACE ID): https://space.id/
+# 0x2dfF88A56767223A5529eA5960Da7A3F5f766406
+# - https://etherscan.io/token/0xEBd9D99A3982d547C5Bb4DB7E3b1F9F14b67Eb83 (Everest): https://everest.org
+0xEBd9D99A3982d547C5Bb4DB7E3b1F9F14b67Eb83
+#
+# 'inx' is shared by:
+# - https://etherscan.io/token/0x018d7D179350f1Bb9853D04982820E37ccE13a92 (INMAX): https://inmax.live
+# 0x018d7D179350f1Bb9853D04982820E37ccE13a92
+# - https://etherscan.io/token/0xBBC7f7A6AADAc103769C66CBC69AB720f7F9Eae3 (INX): https://token.inx.co/
+0xBBC7f7A6AADAc103769C66CBC69AB720f7F9Eae3
+#
+# 'klee' is shared by:
+# - https://etherscan.io/token/0x382f0160c24f5c515A19f155BAc14d479433A407 (Klee Kai): https://klee.finance/
+0x382f0160c24f5c515A19f155BAc14d479433A407
+# - https://etherscan.io/token/0xA67E9F021B9d208F7e3365B2A155E3C55B27de71 (KleeKai): https://kleerun.game
+# 0xA67E9F021B9d208F7e3365B2A155E3C55B27de71
+#
+# 'maha' is shared by:
+# - https://etherscan.io/token/0x745407c86DF8DB893011912d3aB28e68B62E49B0 (MahaDAO): https://mahadao.com/
+# 0x745407c86DF8DB893011912d3aB28e68B62E49B0
+# - https://etherscan.io/token/0xB4d930279552397bbA2ee473229f89Ec245bc365 (MahaDAO): https://mahadao.com/
+0xB4d930279552397bbA2ee473229f89Ec245bc365
+#
+# 'onebtc' is shared by:
+# - https://etherscan.io/token/0xC88F47067dB2E25851317A2FDaE73a22c0777c37 (oneBTC): https://ichi.org
+0xC88F47067dB2E25851317A2FDaE73a22c0777c37
+# - https://etherscan.io/token/0xEc4325F0518584F0774b483c215F65474EAbD27F (Stable BTC): app.ichi.org
+# 0xEc4325F0518584F0774b483c215F65474EAbD27F
+#
+# 'peeps' is shared by:
+# - https://etherscan.io/token/0x5919DeA604631016c15c805e3D948A0384879892 (The People's Coin): https://thepeoplescoin.money/
+# 0x5919DeA604631016c15c805e3D948A0384879892
+# - https://etherscan.io/token/0xe1030B48b2033314979143766d7dC1F40ef8CE11 (The People's Coin): https://thepeoplescoin.money/
+0xe1030B48b2033314979143766d7dC1F40ef8CE11
+#
+# 'shinja' is shared by:
+# - https://etherscan.io/token/0x7DAc25b1A665e1c70F25F1fC37d88C99274984ed (Shibnobi): https://shibnobi.com
+# 0x7DAc25b1A665e1c70F25F1fC37d88C99274984ed
+# - https://etherscan.io/token/0xab167E816E4d76089119900e941BEfdfA37d6b32 (Shibnobi): https://shibnobi.com
+0xab167E816E4d76089119900e941BEfdfA37d6b32
+#
+# 'tlos' is shared by:
+# - https://etherscan.io/token/0x7825e833D495F3d1c28872415a4aee339D26AC88 (pTokens TLOS): https://ptokens.io/
+# 0x7825e833D495F3d1c28872415a4aee339D26AC88
+# - https://etherscan.io/token/0xb6C53431608E626AC81a9776ac3e999c5556717c (pTokens TLOS): https://ptokens.io/
+0xb6C53431608E626AC81a9776ac3e999c5556717c
+#
+# 'volt' is shared by:
+# - https://etherscan.io/token/0x3F7Aff0EF20AA2E646290DfA4E67611B2220C597 (Volt Inu): https://voltinu.in/
+0x3F7Aff0EF20AA2E646290DfA4E67611B2220C597
+# - https://etherscan.io/token/0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac (Volt Inu): https://voltinu.in
+# 0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac
+#
+# 'xft' is shared by:
+# - https://etherscan.io/token/0x76BC677d444f1E9d57dAf5187ee2b7dC852745aE (Offshift): https://offshift.io/
+# 0x76BC677d444f1E9d57dAf5187ee2b7dC852745aE
+# - https://etherscan.io/token/0xABe580E7ee158dA464b51ee1a83Ac0289622e6be (Offshift): https://offshift.io
+0xABe580E7ee158dA464b51ee1a83Ac0289622e6be
+#
