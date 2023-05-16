@@ -109,7 +109,7 @@
   },  
   {
     "symbol": "ARG.CHZ",
-    "displaySymbol": "ARG.CHZ",
+    "displaySymbol": "ARG",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 0
@@ -933,7 +933,7 @@
   },
   {
     "symbol": "POR.CHZ",
-    "displaySymbol": "POR.CHZ",
+    "displaySymbol": "POR",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 0

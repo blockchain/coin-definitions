@@ -129,7 +129,7 @@ def fetch_coins():
 
 def fetch_erc20_tokens(assets_dir, chain):
     # Fetch and parse all info.json files:
-    print(f"Reading ETH assets from {assets_dir}")
+    print(f"Reading erc20 assets from {assets_dir}")
     assets = [Asset.from_dict(info) for key, info in read_assets(assets_dir)]
 
     # Keep only the active ones:
@@ -169,6 +169,13 @@ def build_coins_list():
     write_json(coins, FINAL_BLOCKCHAINS_LIST, sort_keys=False, indent=2)
 
 
+def should_append_network_suffix(network, token):
+    if network.symbol == "CELO":
+        if token.symbol == "CEUR" or token.symbol == "CUSD":  # TODO: Remove special case (CTP-332)
+            return False
+    return True
+
+
 def build_erc20_tokens_list(erc20_network):
     print(f"Generating token files for network \"{erc20_network.chain}\"")
     tokens = fetch_erc20_tokens(erc20_network.assets_dir, erc20_network.chain)
@@ -205,32 +212,16 @@ def build_erc20_tokens_list(erc20_network):
         return
 
     # Add network suffix before final dump:
-    tokens = map(lambda t: t.with_suffix(erc20_network.symbol_suffix), tokens)
+    tokens = map(
+        lambda t: t.with_suffix(erc20_network.symbol_suffix) if should_append_network_suffix(erc20_network, t) else t,
+        tokens
+    )
 
     # Convert back to plain dicts:
     tokens = list(map(asdict, tokens))
 
     print(f"Writing {len(tokens)} tokens to {erc20_network.output_file}")
     write_json(tokens, erc20_network.output_file)
-
-
-def build_custom_assets(chain, assets_dir, output_file):
-    print(f"Reading custom asset from {assets_dir}")
-    assets = [Asset.from_dict(info) for key, info in read_assets(assets_dir)]
-    assets = map(lambda asset: ERC20Token.from_asset(asset, chain), assets)
-    assets = list(map(asdict, assets))
-
-    print(f"Writing {len(assets)} assets to {output_file}")
-    write_json(assets, output_file)
-
-
-def build_custom_chain_lists():
-    chains = ["celo"]
-
-    for chain in chains:
-        assets_dir = f"extensions/blockchains/{chain}/assets/"
-        output_file = f"chain/{chain}/tokens.json"
-        build_custom_assets(chain, assets_dir, output_file)
 
 
 def main():
@@ -244,7 +235,6 @@ def main():
         build_coins_list()
         for erc20_network in ERC20_NETWORKS:
             build_erc20_tokens_list(erc20_network)
-        build_custom_chain_lists()
 
 
 if __name__ == '__main__':
