@@ -838,3 +838,8 @@ Found 4 duplicate symbols:
 # - https://etherscan.io/token/0xABe580E7ee158dA464b51ee1a83Ac0289622e6be (Offshift): https://offshift.io
 0xABe580E7ee158dA464b51ee1a83Ac0289622e6be
 #
+# 'gala' is shared by:
+# - https://etherscan.io/token/0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA (Gala): https://gala.games
+0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA
+# - https://etherscan.io/token/0xd1d2Eb1B1e90B638588728b4130137D262C87cae (Gala): https://gala.games
+# 0xd1d2Eb1B1e90B638588728b4130137D262C87cae
