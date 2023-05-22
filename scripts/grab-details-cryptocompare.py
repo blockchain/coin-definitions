@@ -34,7 +34,7 @@ def _query_cryptocompare(url: str, error_check: bool = True, api_key: str = None
     try:
         response = requests.get(url + api_key_parameter).json()
     except Exception as e:
-        print(f'Error getting coin information. {str(e)}')
+        print(f'Error getting coin information: {str(e)}')
         return None
     if error_check and (response.get('Response') == 'Error'):
         print(f'[ERROR] {response.get("Message")}')
