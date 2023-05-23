@@ -67,8 +67,8 @@ network_mappings = {
 
 
 class CoinGeckoAPIClient:
-    BASE_URL = "https://pro-api.coingecko.com/api/v3/"
     API_KEY = os.getenv('COINGECKO_API_KEY')
+    BASE_URL = "https://api.coingecko.com/api/v3/" if API_KEY is None else "https://pro-api.coingecko.com/api/v3/"
 
     @staticmethod
     def fetch_usd_markets(ids):
