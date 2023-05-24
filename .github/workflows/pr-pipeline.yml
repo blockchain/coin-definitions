@@ -18,4 +18,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install beautifulsoup4
       - name: Run check script
-        run: ./check.sh
+        run: ./check.sh >> $GITHUB_STEP_SUMMARY
