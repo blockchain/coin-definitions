@@ -4,13 +4,12 @@ import itertools
 import json
 from dataclasses import asdict
 from datetime import datetime
-from urllib import parse, request
 from urllib.parse import urljoin
 
-from common_classes import Blockchain, Coin, Asset, ERC20Token
-from statics import EXT_BLOCKCHAINS, BLOCKCHAINS, EXT_BLOCKCHAINS_DENYLIST, EXT_PRICES, FINAL_BLOCKCHAINS_LIST, \
+from coin_gecko import fetch_coin_prices, fetch_token_prices
+from common_classes import Asset, Blockchain, Coin, ERC20Token
+from statics import BLOCKCHAINS, EXT_BLOCKCHAINS_DENYLIST, EXT_BLOCKCHAINS, EXT_PRICES, FINAL_BLOCKCHAINS_LIST, \
     ERC20_NETWORKS
-from utils import map_chunked
 
 
 def read_json(path, comment_marker=None):
@@ -20,11 +19,6 @@ def read_json(path, comment_marker=None):
             return json.loads(raw_data)
         else:
             return json.load(json_file)
-
-
-def read_json_url(url):
-    response = request.urlopen(url).read()
-    return json.loads(response)
 
 
 def read_txt(path):
@@ -40,11 +34,6 @@ def write_json(data, path, sort_keys=True, indent=4):
         return json.dump(data, json_file, sort_keys=sort_keys, indent=indent)
 
 
-def write_txt(data, path):
-    with open(path, "w") as txt_file:
-        return txt_file.write(data)
-
-
 def multiread_json(base_dir, pattern, comment_marker=None):
     for target in sorted(glob.glob(base_dir + pattern)):
         key = target.replace(base_dir, '').partition("/")[0]
@@ -57,18 +46,6 @@ def read_assets(assets_dir):
 
 def read_blockchains(blockchains_dir, comment_marker=None):
     yield from multiread_json(blockchains_dir, "/*/info/info.json", comment_marker)
-
-
-def cryptocompare_pricemulti(symbols):
-    params = {
-        "fsyms": ",".join(symbols),
-        "tsyms": "USD"
-    }
-    url = "https://min-api.cryptocompare.com/data/pricemulti" + "?" + parse.urlencode(params)
-    response = read_json_url(url)
-    if response.get("Response") == "Error":
-        raise Exception(response.get("Message"))
-    return {curr: price["USD"] for curr, price in response.items()}
 
 
 def find_duplicates(items, key):
@@ -141,21 +118,17 @@ def fetch_erc20_tokens(assets_dir, chain):
     return list(tokens)
 
 
-def fetch_prices(assets_dir, chain):
+def fetch_prices():
     coins = fetch_coins()
-    tokens = fetch_erc20_tokens(assets_dir, chain)
 
-    symbols = list(set([c.symbol for c in coins] + [t.symbol for t in tokens]))
+    prices = {
+        "timestamp": datetime.now().isoformat(),
+        "prices": fetch_coin_prices(coins)
+    }
 
-    print(f"Fetching {len(symbols)} exchange pairs")
-
-    prices = dict(
-        timestamp=datetime.now().isoformat(),
-        prices=dict()
-    )
-
-    for chunk in map_chunked(cryptocompare_pricemulti, symbols, 25):
-        prices['prices'].update(chunk)
+    for network in ERC20_NETWORKS:
+        tokens = fetch_erc20_tokens(network.assets_dir, network.chain)
+        prices["prices"].update(fetch_token_prices(network, tokens))
 
     print(f"Writing coin prices to {EXT_PRICES}")
 
@@ -183,12 +156,18 @@ def build_erc20_tokens_list(erc20_network):
     print(f"Reading ETH asset prices from {EXT_PRICES}")
     prices = read_json(EXT_PRICES)
 
+    print(f"Tokens before price filter {len(tokens)}")
+
     # Clean up by price:
-    tokens = list(filter(lambda token: token.symbol.upper() in prices['prices'], tokens))
+    tokens = list(
+        filter(lambda token: token.with_suffix(erc20_network.symbol_suffix).symbol in prices['prices'], tokens))
+
+    print(f"Tokens after price filter {len(tokens)}")
 
     # Include already selected tokens (to make sure we don't remove a token we had previously selected)
     print(f"Reading existing assets in {erc20_network.output_file}")
-    current_tokens = list(map(lambda x: ERC20Token(**x), read_json(erc20_network.output_file)))
+    current_tokens = list(map(lambda x: ERC20Token(**x).without_suffix(erc20_network.symbol_suffix),
+                              read_json(erc20_network.output_file)))
     tokens = list(set(tokens) | set(current_tokens))
 
     # Make sure the asset is NOT in the denylist:
@@ -230,7 +209,7 @@ def main():
     args = parser.parse_args()
 
     if args.fetch_prices:
-        fetch_prices(ERC20_NETWORKS[0].assets_dir, ERC20_NETWORKS[0].chain)
+        fetch_prices()
     else:
         build_coins_list()
         for erc20_network in ERC20_NETWORKS:

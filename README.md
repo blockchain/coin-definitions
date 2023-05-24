@@ -67,11 +67,11 @@ graph TD
         ext_tokens_deny(blockchains/ethereum/assets/denylist.txt)
     end
 
-    cc[(cryptocompare.com)]
+    cg[(coingecko.com)]
     old_erc20s("(current) erc20-tokens.json")
     erc20s(erc20-tokens.json)
 
-    cc -.-> ext_prices
+    cg -.-> ext_prices
     tokens --> A[\Filter active/]
     A --> B[\Filter by price/]
     ext_prices --> B
@@ -163,6 +163,8 @@ Example:
 ```
 
 ## How-to
+
+Note: when running python scripts, one should set the `COINGECKO_API_KEY` environment variable if possible to avoid rate limits.
 
 ### Rebuild and check the output files
 
