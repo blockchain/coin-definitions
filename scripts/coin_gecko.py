@@ -99,7 +99,13 @@ class CoinGeckoAPIClient:
     def fetch_usd_markets(ids: list[str]) -> list[Market]:
         try:
             response = requests.get(
-                f"{CoinGeckoAPIClient.BASE_URL}coins/markets?x_cg_pro_api_key={CoinGeckoAPIClient.API_KEY}&vs_currency=usd&ids={','.join(ids)}&per_page={BATCH_SIZE}"
+                f"{CoinGeckoAPIClient.BASE_URL}coins/markets",
+                params={
+                    'x_cg_pro_api_key': CoinGeckoAPIClient.API_KEY,
+                    'vs_currency': 'usd',
+                    'ids': ','.join(ids),
+                    'per_page': BATCH_SIZE
+                }
             ).json()
             return [Market.from_dict(x) for x in response]
         except Exception as e:
@@ -110,7 +116,12 @@ class CoinGeckoAPIClient:
     def get_coin_list() -> list[Coin]:
         try:
             response = requests.get(
-                f"{CoinGeckoAPIClient.BASE_URL}coins/list?x_cg_pro_api_key={CoinGeckoAPIClient.API_KEY}&include_platform=true").json()
+                f"{CoinGeckoAPIClient.BASE_URL}coins/list",
+                params={
+                    'x_cg_pro_api_key': CoinGeckoAPIClient.API_KEY,
+                    'include_platform': 'true'
+                }
+            ).json()
             return [Coin.from_dict(x) for x in response]
         except Exception as e:
             print(f'Error fetching CoinGecko coin list: {str(e)}')
@@ -124,7 +135,16 @@ class CoinGeckoAPIClient:
             coin_id = coin_id[0]
         try:
             response = requests.get(
-                f"{CoinGeckoAPIClient.BASE_URL}coins/{coin_id}?x_cg_pro_api_key={CoinGeckoAPIClient.API_KEY}&localization=false&tickers=false&market_data=false&community_data=false&developer_data=false&sparkline=false"
+                f"{CoinGeckoAPIClient.BASE_URL}coins/{coin_id}",
+                params={
+                    'x_cg_pro_api_key': CoinGeckoAPIClient.API_KEY,
+                    'localization': 'false',
+                    'tickers': 'false',
+                    'market_data': 'false',
+                    'community_data': 'false',
+                    'developer_data': 'false',
+                    'sparkline': 'false'
+                }
             ).json()
             description_text = response.get('description', {}).get('en', None)
             website = response.get('links', {}).get('homepage', [None])[0]
