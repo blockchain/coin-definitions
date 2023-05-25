@@ -87,6 +87,12 @@ class Coin:
 
 
 @dataclass
+class Description:
+    description: str
+    website: str
+
+
+@dataclass
 class ERC20Token:
     address: str
     decimals: int
@@ -121,15 +127,21 @@ class ERC20Token:
             website=asset.website
         )
 
-    def with_suffix(self, suffix):
-        if not suffix:
-            return self
-        return replace(self, symbol=f"{self.symbol}.{suffix}")
+    def should_append_network_suffix(self, network):
+        if not network.symbol_suffix:
+            return False
+        # TODO: Remove special case for CEUR and CUSD (CTP-332)
+        if network.symbol == "CELO" and (self.symbol == "CEUR" or self.symbol == "CUSD"):
+            return False
+        return True
 
-    def without_suffix(self, suffix):
-        if not suffix:
-            return self
-        return replace(self, symbol=self.symbol.removesuffix(f".{suffix}"))
+    def with_suffix(self, network):
+        if self.should_append_network_suffix(network):
+            return replace(self, symbol=f"{self.symbol}.{network.symbol_suffix}")
+        return self
+
+    def without_suffix(self, network):
+        return replace(self, symbol=self.symbol.removesuffix(f".{network.symbol_suffix}"))
 
     @classmethod
     def from_dict(cls, dict_):
