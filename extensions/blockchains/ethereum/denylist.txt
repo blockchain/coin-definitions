@@ -719,7 +719,6 @@
 0xbEe9Cf658702527b0AcB2719c1FAA29EdC006a92
 #
 
-Found 4 duplicate symbols:
 # 'gene' is shared by:
 # - https://etherscan.io/token/0x6DD4e4Aad29A40eDd6A409b9c1625186C9855b4D (GENE TOKEN (PARKGENE)): https://parkgene.io
 # 0x6DD4e4Aad29A40eDd6A409b9c1625186C9855b4D
@@ -843,3 +842,12 @@ Found 4 duplicate symbols:
 0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA
 # - https://etherscan.io/token/0xd1d2Eb1B1e90B638588728b4130137D262C87cae (Gala): https://gala.games
 # 0xd1d2Eb1B1e90B638588728b4130137D262C87cae
+#
+# 'bob' is shared by:
+# - https://etherscan.io/token/0x7D8146cf21e8D7cbe46054e01588207b51198729 (BOB): https://bobishere.co/
+# 0x7D8146cf21e8D7cbe46054e01588207b51198729
+# - https://etherscan.io/token/0xDF347911910b6c9A4286bA8E2EE5ea4a39eB2134 (Bob Token): https://www.bobsrepair.com
+0xDF347911910b6c9A4286bA8E2EE5ea4a39eB2134
+#
+# TRX (old token)
+0xf230b790E05390FC8295F4d3F60332c93BEd42e2
