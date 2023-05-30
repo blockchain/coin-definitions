@@ -61,6 +61,7 @@
   {"symbol": "NEO", "name": "Neo"},
   {"symbol": "NIM", "name": "Nimiq"},
   {"symbol": "NTRN", "name": "Neutron Testnet"},
+  {"symbol": "NTRN", "name": "Neutron"},
   {"symbol": "NULS", "name": "NULS"},
   {"symbol": "OETH", "name": "Optimistic Ethereum"},
   {"symbol": "OKT", "name": "OKX Chain"},
