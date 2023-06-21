@@ -9828,6 +9828,15 @@
         "website": "https://www.schrodingertoken.com"
     },
     {
+        "address": "0x9ee91F9f426fA633d227f7a9b000E28b9dfd8599",
+        "decimals": 18,
+        "displaySymbol": "stMATIC",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x9ee91F9f426fA633d227f7a9b000E28b9dfd8599/logo.png",
+        "name": "Lido Staked MATIC",
+        "symbol": "stMATIC",
+        "website": "https://lido.fi/polygon"
+    },
+    {
         "address": "0x9f0f1Be08591AB7d990faf910B38ed5D60e4D5Bf",
         "decimals": 18,
         "displaySymbol": "MNC",
@@ -14566,7 +14575,7 @@
         "decimals": 18,
         "displaySymbol": "SIS",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd38BB40815d2B0c2d2c866e0c72c5728ffC76dd9/logo.png",
-        "name": "Symbiosis Finance",
+        "name": "Symbiosis",
         "symbol": "SIS",
         "website": "https://symbiosis.finance"
     },

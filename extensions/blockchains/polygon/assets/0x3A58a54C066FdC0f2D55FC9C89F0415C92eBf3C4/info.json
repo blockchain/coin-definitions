@@ -1,0 +1,9 @@
+{
+    "name": "Lido Staked MATIC",
+    "website": "https://lido.fi/polygon",
+    "type": "ERC20",
+    "symbol": "stMATIC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4"
+}
