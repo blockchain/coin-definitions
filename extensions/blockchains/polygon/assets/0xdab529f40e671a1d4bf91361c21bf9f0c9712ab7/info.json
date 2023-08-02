@@ -1,0 +1,9 @@
+{
+    "name": "binance-usd",
+    "website": "https://www.paxos.com/busd",
+    "type": "ERC20",
+    "symbol": "BUSD",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xdab529f40e671a1d4bf91361c21bf9f0c9712ab7"
+}
