@@ -1,6 +1,6 @@
 {
-    "name": "binance-usd",
-    "website": "https://www.paxos.com/busd",
+    "name": "BUSD Token",
+    "website": "https://www.binance.com/en/busd",
     "type": "ERC20",
     "symbol": "BUSD",
     "decimals": 18,
