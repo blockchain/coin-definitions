@@ -11340,6 +11340,16 @@
         "websiteurl": "https://pstake.finance/"
     },
     {
+      "description": "Lido for Polygon is a liquid staking solution for MATIC backed by industry-leading staking providers. Lido lets users earn MATIC staking rewards without needing to maintain infrastructure and enables them to trade staked positions, as well as participate in on-chain decentralized finance with their staked assets. Lido for Polygon gives users options to:\r\n\r\n- Stake their MATIC tokens in a decentralized and secure way\r\n- Use their stMATIC on the secondary market\r\n- Do all of the above simply and easily with a click of a button on the UI\r\n\r\nstMATIC is an ERC20 token that represents the account’s share of the total supply of MATIC tokens inside PoLido system. It is a non-rebasable token, which means that the amount of tokens in the user’s wallet is not going to change. During time, the value of this token is changing, since the amount of MATIC tokens inside the protocol is not constant.",
+      "symbol": "stMATIC",
+      "websiteurl": "https://polygon.lido.fi"
+    },
+    {
+      "description": "Lido for Polygon is a liquid staking solution for MATIC backed by industry-leading staking providers. Lido lets users earn MATIC staking rewards without needing to maintain infrastructure and enables them to trade staked positions, as well as participate in on-chain decentralized finance with their staked assets. Lido for Polygon gives users options to:\r\n\r\n- Stake their MATIC tokens in a decentralized and secure way\r\n- Use their stMATIC on the secondary market\r\n- Do all of the above simply and easily with a click of a button on the UI\r\n\r\nstMATIC is an ERC20 token that represents the account’s share of the total supply of MATIC tokens inside PoLido system. It is a non-rebasable token, which means that the amount of tokens in the user’s wallet is not going to change. During time, the value of this token is changing, since the amount of MATIC tokens inside the protocol is not constant.",
+      "symbol": "stMATIC.MATIC",
+      "websiteurl": "https://polygon.lido.fi"
+    },
+    {
         "description": "Hyprr Ecosystem, fuelled by the uDOO token, brings a blockchain, Governance token, nodes, HowdooSwap and Howdoo LaunchPad. ",
         "symbol": "uDOO",
         "websiteurl": "http://www.hyprr.com/"
