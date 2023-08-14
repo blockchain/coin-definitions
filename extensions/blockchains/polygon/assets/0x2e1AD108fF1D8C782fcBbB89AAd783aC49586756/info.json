@@ -1,0 +1,9 @@
+{
+    "name": "TrueUSD (PoS)",
+    "website": "https://www.trusttoken.com/trueusd",
+    "type": "ERC20",
+    "symbol": "TUSD",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756"
+}
