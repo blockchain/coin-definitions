@@ -1,0 +1,9 @@
+{
+    "name": "Binance-Peg FLOW Token",
+    "website": "https://www.onflow.org/",
+    "type": "ERC20",
+    "symbol": "FLOW",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xC943c5320B9c18C153d1e2d12cC3074bebfb31A2"
+}

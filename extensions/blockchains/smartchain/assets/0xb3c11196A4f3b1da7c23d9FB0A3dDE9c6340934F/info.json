@@ -1,0 +1,9 @@
+{
+    "name": "Binance-Peg Pax Dollar Token",
+    "website": "https://www.paxos.com/usdp/",
+    "type": "ERC20",
+    "symbol": "USDP",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xb3c11196A4f3b1da7c23d9FB0A3dDE9c6340934F"
+}
