@@ -47,7 +47,7 @@ Example:
     "symbol": "BTC",
     "name": "Bitcoin",
     "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/bitcoin/info/logo.png"
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/bitcoin/info/logo.png"
   }
 ```
 
@@ -107,7 +107,7 @@ Example:
     "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
     "decimals": 6,
     "displaySymbol": "USDT",
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
     "name": "Tether",
     "symbol": "USDT",
     "website": "https://tether.to"
