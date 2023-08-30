@@ -12,7 +12,7 @@
     "name": "Akash Network",
     "key": "akash",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/akash/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/akash/info/logo.png",
     "website": "https://akash.network/"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Aptos",
     "key": "aptos",
     "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/aptos/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/aptos/info/logo.png",
     "website": "https://aptoslabs.com"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Cosmos",
     "key": "cosmos",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/cosmos/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/cosmos/info/logo.png",
     "website": "https://cosmos.network/"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Avalanche C-Chain",
     "key": "avalanchec",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/avalanchec/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/avalanchec/info/logo.png",
     "website": "http://avax.network"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Agoric",
     "key": "agoric",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/agoric/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/agoric/info/logo.png",
     "website": "https://agoric.com"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Binance Coin",
     "key": "smartchain",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/smartchain/info/logo.png",
     "website": "https://binance.com"
   },
   {
@@ -108,7 +108,7 @@
     "name": "Native Canto",
     "key": "nativecanto",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/nativecanto/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/nativecanto/info/logo.png",
     "website": "https://canto.io/"
   },
   {
@@ -132,7 +132,7 @@
     "name": "Comdex",
     "key": "comdex",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/comdex/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/comdex/info/logo.png",
     "website": "https://comdex.one/"
   },
   {
@@ -140,7 +140,7 @@
     "name": "Dash",
     "key": "dash",
     "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/dash/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/dash/info/logo.png",
     "website": "https://dash.org/"
   },
   {
@@ -148,7 +148,7 @@
     "name": "Decred",
     "key": "decred",
     "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/decred/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/decred/info/logo.png",
     "website": "https://decred.org"
   },
   {
@@ -180,7 +180,7 @@
     "name": "MultiversX",
     "key": "elrond",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/elrond/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/elrond/info/logo.png",
     "website": "https://multiversx.com"
   },
   {
@@ -196,7 +196,7 @@
     "name": "Ethereum Classic",
     "key": "classic",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/classic/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/classic/info/logo.png",
     "website": "https://ethereumclassic.org/"
   },
   {
@@ -212,7 +212,7 @@
     "name": "EthereumPoW",
     "key": "ethereumpow",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereumpow/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/ethereumpow/info/logo.png",
     "website": "https://ethereumpow.org/"
   },
   {
@@ -220,7 +220,7 @@
     "name": "Everscale",
     "key": "everscale",
     "decimals": 9,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/everscale/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/everscale/info/logo.png",
     "website": "https://everscale.network"
   },
   {
@@ -228,7 +228,7 @@
     "name": "Filecoin",
     "key": "filecoin",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/filecoin/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/filecoin/info/logo.png",
     "website": "https://filecoin.io"
   },
   {
@@ -236,7 +236,7 @@
     "name": "Fusion",
     "key": "fusion",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/fusion/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/fusion/info/logo.png",
     "website": "https://fusion.org/"
   },
   {
@@ -244,7 +244,7 @@
     "name": "Hedera",
     "key": "hedera",
     "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/hedera/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/hedera/info/logo.png",
     "website": "https://hedera.com/"
   },
   {
@@ -252,7 +252,7 @@
     "name": "IoTeX Network Mainnet",
     "key": "iotexevm",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/iotexevm/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/iotexevm/info/logo.png",
     "website": "https://iotex.io/"
   },
   {
@@ -260,7 +260,7 @@
     "name": "IRISnet",
     "key": "iris",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/iris/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/iris/info/logo.png",
     "website": "https://www.irisnet.org/"
   },
   {
@@ -268,7 +268,7 @@
     "name": "Juno",
     "key": "juno",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/juno/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/juno/info/logo.png",
     "website": "https://www.junonetwork.io/"
   },
   {
@@ -276,7 +276,7 @@
     "name": "Kava",
     "key": "kava",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/kava/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/kava/info/logo.png",
     "website": "https://kava.io"
   },
   {
@@ -284,7 +284,7 @@
     "name": "Kin",
     "key": "kin",
     "decimals": 5,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/kin/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/kin/info/logo.png",
     "website": "https://kin.org"
   },
   {
@@ -292,7 +292,7 @@
     "name": "klaytn",
     "key": "klaytn",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/klaytn/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/klaytn/info/logo.png",
     "website": "https://klaytn.foundation"
   },
   {
@@ -300,7 +300,7 @@
     "name": "Kujira",
     "key": "kujira",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/kujira/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/kujira/info/logo.png",
     "website": "https://kujira.app/"
   },
   {
@@ -316,7 +316,7 @@
     "name": "Terra",
     "key": "terrav2",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/terrav2/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/terrav2/info/logo.png",
     "website": "https://terra.money"
   },
   {
@@ -324,7 +324,7 @@
     "name": "Mars Protocol",
     "key": "mars",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/mars/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/mars/info/logo.png",
     "website": "https://www.sommelier.finance/"
   },
   {
@@ -332,7 +332,7 @@
     "name": "Polygon",
     "key": "polygon",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polygon/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/polygon/info/logo.png",
     "website": "https://polygon.technology/solutions/polygon-pos/"
   },
   {
@@ -356,7 +356,7 @@
     "name": "Meter",
     "key": "meter",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/meter/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/meter/info/logo.png",
     "website": "https://meter.io/"
   },
   {
@@ -372,7 +372,7 @@
     "name": "Secret",
     "key": "secret",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/secret/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/secret/info/logo.png",
     "website": "https://scrt.network/"
   },
   {
@@ -380,7 +380,7 @@
     "name": "Solana",
     "key": "solana",
     "decimals": 9,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/solana/info/logo.png",
     "website": "https://solana.com/"
   },
   {
@@ -388,7 +388,7 @@
     "name": "Sommelier",
     "key": "sommelier",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/sommelier/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/sommelier/info/logo.png",
     "website": "https://www.sommelier.finance/"
   },
   {
@@ -396,7 +396,7 @@
     "name": "Stargaze",
     "key": "stargaze",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/stargaze/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/stargaze/info/logo.png",
     "website": "https://www.stargaze.zone"
   },
   {
@@ -404,7 +404,7 @@
     "name": "Stride",
     "key": "stride",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/stride/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/stride/info/logo.png",
     "website": "https://app.stride.zone"
   },
   {
@@ -420,7 +420,7 @@
     "name": "Sui",
     "key": "sui",
     "decimals": 9,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/sui/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/sui/info/logo.png",
     "website": "https://sui.io/"
   },
   {
@@ -452,7 +452,7 @@
     "name": "TRON",
     "key": "tron",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/tron/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/tron/info/logo.png",
     "website": "https://tron.network/"
   },
   {
@@ -460,7 +460,7 @@
     "name": "Umee",
     "key": "umee",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/umee/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/umee/info/logo.png",
     "website": "https://www.umee.cc/"
   },
   {
@@ -484,7 +484,7 @@
     "name": "Persistence",
     "key": "persistence",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/persistence/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/persistence/info/logo.png",
     "website": "https://persistence.one/"
   },
   {
@@ -492,7 +492,7 @@
     "name": "Ripple",
     "key": "ripple",
     "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ripple/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/ripple/info/logo.png",
     "website": null
   },
   {
@@ -508,7 +508,7 @@
     "name": "Zcash",
     "key": "zcash",
     "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/zcash/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/zcash/info/logo.png",
     "website": "https://z.cash"
   },
   {
@@ -516,7 +516,7 @@
     "name": "Zilliqa",
     "key": "zilliqa",
     "decimals": 12,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/zilliqa/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/zilliqa/info/logo.png",
     "website": "https://zilliqa.com"
   },
   {
@@ -524,7 +524,7 @@
     "name": "BNB Greenfield",
     "key": "gbnb",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/gbnb/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/5530a38/blockchains/gbnb/info/logo.png",
     "website": "https://greenfield.bnbchain.org/en"
   }
 ]
