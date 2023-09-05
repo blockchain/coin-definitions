@@ -1,13 +1,5 @@
 [
   {
-    "symbol": "ACA",
-    "name": "Acala",
-    "key": "acala",
-    "decimals": 12,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/acala/info/logo.png",
-    "website": "https://acala.network"
-  },
-  {
     "symbol": "ADA",
     "name": "Cardano",
     "key": "cardano",
@@ -70,14 +62,6 @@
     "decimals": 18,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/avalanchec/info/logo.png",
     "website": "http://avax.network"
-  },
-  {
-    "symbol": "BCD",
-    "name": "Bitcoin Diamond",
-    "key": "btcdiamond",
-    "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/btcdiamond/info/logo.png",
-    "website": "https://www.bitcoindiamond.org"
   },
   {
     "symbol": "BCH",
@@ -264,14 +248,6 @@
     "website": "https://hedera.com/"
   },
   {
-    "symbol": "IOST",
-    "name": "IOST",
-    "key": "iost",
-    "decimals": 2,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/iost/info/logo.png",
-    "website": "http://iost.io"
-  },
-  {
     "symbol": "IOTX",
     "name": "IoTeX Network Mainnet",
     "key": "iotexevm",
@@ -318,14 +294,6 @@
     "decimals": 18,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/klaytn/info/logo.png",
     "website": "https://klaytn.foundation"
-  },
-  {
-    "symbol": "KMD",
-    "name": "Komodo",
-    "key": "komodo",
-    "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/komodo/info/logo.png",
-    "website": "https://komodoplatform.com"
   },
   {
     "symbol": "KUJI",
@@ -400,52 +368,12 @@
     "website": "https://near.org"
   },
   {
-    "symbol": "NEBL",
-    "name": "Neblio",
-    "key": "neblio",
-    "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/neblio/info/logo.png",
-    "website": "https://nebl.io"
-  },
-  {
-    "symbol": "NEON",
-    "name": "Neon EVM",
-    "key": "neon",
-    "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/neon/info/logo.png",
-    "website": "https://neonevm.org"
-  },
-  {
-    "symbol": "OBNB",
-    "name": "opBNB",
-    "key": "opbnb",
-    "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/opbnb/info/logo.png",
-    "website": "https://opbnb.bnbchain.org/en"
-  },
-  {
-    "symbol": "PIVX",
-    "name": "PIVX",
-    "key": "pivx",
-    "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/pivx/info/logo.png",
-    "website": "https://pivx.org"
-  },
-  {
     "symbol": "SCRT",
     "name": "Secret",
     "key": "secret",
     "decimals": 6,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/secret/info/logo.png",
     "website": "https://scrt.network/"
-  },
-  {
-    "symbol": "SEI",
-    "name": "Sei",
-    "key": "sei",
-    "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/sei/info/logo.png",
-    "website": "https://sei.io"
   },
   {
     "symbol": "SOL",
@@ -472,14 +400,6 @@
     "website": "https://www.stargaze.zone"
   },
   {
-    "symbol": "STRAX",
-    "name": "Stratis",
-    "key": "stratis",
-    "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/stratis/info/logo.png",
-    "website": "https://www.stratisplatform.com"
-  },
-  {
     "symbol": "STRD",
     "name": "Stride",
     "key": "stride",
@@ -502,22 +422,6 @@
     "decimals": 9,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/sui/info/logo.png",
     "website": "https://sui.io/"
-  },
-  {
-    "symbol": "SYS",
-    "name": "Syscoin",
-    "key": "syscoin",
-    "decimals": 8,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/syscoin/info/logo.png",
-    "website": "http://syscoin.org/"
-  },
-  {
-    "symbol": "TBA",
-    "name": "Linea",
-    "key": "linea",
-    "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/linea/info/logo.png",
-    "website": "https://linea.build"
   },
   {
     "symbol": "TFUEL",
@@ -600,14 +504,6 @@
     "website": "https://tezos.com/"
   },
   {
-    "symbol": "XVG",
-    "name": "Verge",
-    "key": "verge",
-    "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/verge/info/logo.png",
-    "website": "https://vergecurrency.com"
-  },
-  {
     "symbol": "ZEC",
     "name": "Zcash",
     "key": "zcash",
@@ -630,53 +526,5 @@
     "decimals": 18,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/gbnb/info/logo.png",
     "website": "https://greenfield.bnbchain.org/en"
-  },
-  {
-    "symbol": "tAGOR",
-    "name": "Arbitrum Goerli Testnet",
-    "key": "arbitrumgoerli",
-    "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/arbitrumgoerli/info/logo.png",
-    "website": "https://goerlifaucet.com"
-  },
-  {
-    "symbol": "tAVAX",
-    "name": "Avalanche C-Chain Fuji Testnet",
-    "key": "avalanchecfuji",
-    "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/avalanchecfuji/info/logo.png",
-    "website": "https://avax.network"
-  },
-  {
-    "symbol": "tDEV",
-    "name": "Moonbase Alpha Testnet",
-    "key": "moonbasealpha",
-    "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/moonbasealpha/info/logo.png",
-    "website": "https://moon.based.money"
-  },
-  {
-    "symbol": "tETH",
-    "name": "Polygon zkEVM",
-    "key": "polygonzkevm",
-    "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/polygonzkevm/info/logo.png",
-    "website": "https://www.polygon.technology/"
-  },
-  {
-    "symbol": "tMATIC",
-    "name": "Polygon Mumbai Testnet",
-    "key": "polygonmumbai",
-    "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/polygonmumbai/info/logo.png",
-    "website": "https://polygon.technology"
-  },
-  {
-    "symbol": "tNTRN",
-    "name": "Neutron Testnet",
-    "key": "neutrontestnet",
-    "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/neutrontestnet/info/logo.png",
-    "website": "https://neutron.org/"
   }
 ]
