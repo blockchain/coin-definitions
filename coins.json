@@ -81,11 +81,11 @@
   },
   {
     "symbol": "BNB",
-    "name": "Binance Smart Chain",
+    "name": "Binance Coin",
     "key": "smartchain",
     "decimals": 18,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/smartchain/info/logo.png",
-    "website": null
+    "website": "https://binance.com"
   },
   {
     "symbol": "BSV",
