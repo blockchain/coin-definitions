@@ -95,5 +95,25 @@ ERC20_NETWORKS = [
         output_file="chain/celo/tokens.json",
         symbol_suffix="CELO",
         explorer_url="https://celoscan.io/token/"
+    ),
+    ERC20Network(
+        chain="avalanche",
+        symbol="AVAX",
+        assets_dir="assets/blockchains/avalanchec/assets/",
+        ext_assets_dir="extensions/blockchains/avalanchec/assets/",
+        denylist="extensions/blockchains/avalanchec/denylist.txt",
+        output_file="chain/avalanchec/tokens.json",
+        symbol_suffix="AVAX",
+        explorer_url="https://snowtrace.io/token/"
+    ),
+    ERC20Network(
+        chain="optimism",
+        symbol="OP",
+        assets_dir="assets/blockchains/optimism/assets/",
+        ext_assets_dir="extensions/blockchains/optimism/assets/",
+        denylist="extensions/blockchains/optimism/denylist.txt",
+        output_file="chain/optimism/tokens.json",
+        symbol_suffix="OP",
+        explorer_url="https://optimistic.etherscan.io/token/"
     )
 ]
