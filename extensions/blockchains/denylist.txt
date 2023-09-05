@@ -1,4 +1,5 @@
 [
+  {"symbol": "ACA", "name": "Acala EVM"},
   {"symbol": "AE", "name": "Aeternity"},
   {"symbol": "AGOR", "name": "Arbitrum Goerli Testnet"},
   {"symbol": "AION", "name": "Aion"},
@@ -15,6 +16,7 @@
   {"symbol": "BOBAETH", "name": "Boba"},
   {"symbol": "BTG", "name": "Bitcoin Gold"},
   {"symbol": "CELO", "name": "Celo"},
+  {"symbol": "CFX", "name": "Conflux eSpace"},
   {"symbol": "CLO", "name": "Callisto Network"},
   {"symbol": "CORE", "name": "Coreum"},
   {"symbol": "CRE", "name": "Crescent"},
@@ -25,9 +27,11 @@
   {"symbol": "DGB", "name": "DigiByte"},
   {"symbol": "eGLD", "name": "Elrond"},
   {"symbol": "ETH", "name": "Aurora"},
+  {"symbol": "ETH", "name": "Base"},
   {"symbol": "ETH", "name": "Goerli Testnet"},
   {"symbol": "ETH", "name": "Optimism Goerli Testnet"},
   {"symbol": "ETH", "name": "Polygon zkEVM"},
+  {"symbol": "ETH", "name": "Scroll"},
   {"symbol": "ETH", "name": "Sepolia Testnet"},
   {"symbol": "ETH", "name": "ZkSync Era"},
   {"symbol": "EVMOS", "name": "Evmos"},
@@ -45,6 +49,7 @@
   {"symbol": "HT", "name": "Huobi ECO Chain"},
   {"symbol": "ICX", "name": "ICON"},
   {"symbol": "INJ", "name": "Injective"},
+  {"symbol": "INJ", "name": "NativeInjective"},
   {"symbol": "IOTX", "name": "IoTeX"},
   {"symbol": "KAVA", "name": "Kava"},
   {"symbol": "KAVA", "name": "KavaEvm"},
@@ -77,6 +82,7 @@
   {"symbol": "RUNE", "name": "THORChain"},
   {"symbol": "RVN", "name": "Ravencoin"},
   {"symbol": "tBNB", "name": "Binance Smart Chain Testnet"},
+  {"symbol": "tETH", "name": "Goerli Testnet"},
   {"symbol": "tFTM", "name": "Fantom Testnet"},
   {"symbol": "THETA", "name": "THETA"},
   {"symbol": "TOMO", "name": "TomoChain"},
@@ -91,5 +97,6 @@
   {"symbol": "XEC", "name": "eCash"},
   {"symbol": "XLM", "name": "Stellar"},
   {"symbol": "XNO", "name": "Nano"},
-  {"symbol": "XRP", "name": "XRP"}
+  {"symbol": "XRP", "name": "XRP"},
+  {"symbol": "ZEN", "name": "Horizen"}
 ]
