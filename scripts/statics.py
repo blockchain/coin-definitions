@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-TW_REPO_ROOT = "https://raw.githubusercontent.com/trustwallet/assets/37dd998/"
+TW_REPO_ROOT = "https://raw.githubusercontent.com/trustwallet/assets/master/"
 BC_REPO_ROOT = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/"
 
 BLOCKCHAINS = "assets/blockchains/"
