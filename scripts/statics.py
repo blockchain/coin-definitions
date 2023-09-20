@@ -108,7 +108,7 @@ ERC20_NETWORKS = [
     ),
     ERC20Network(
         chain="optimism",
-        symbol="ETH.OP",
+        symbol="OETH",
         assets_dir="assets/blockchains/optimism/assets/",
         ext_assets_dir="extensions/blockchains/optimism/assets/",
         denylist="extensions/blockchains/optimism/denylist.txt",
