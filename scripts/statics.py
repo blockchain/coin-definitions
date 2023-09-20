@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-TW_REPO_ROOT = "https://raw.githubusercontent.com/trustwallet/assets/master/"
+TW_REPO_ROOT = "https://raw.githubusercontent.com/trustwallet/assets/37dd998/"
 BC_REPO_ROOT = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/"
 
 BLOCKCHAINS = "assets/blockchains/"
@@ -108,7 +108,7 @@ ERC20_NETWORKS = [
     ),
     ERC20Network(
         chain="optimism",
-        symbol="OP",
+        symbol="ETH.OP",
         assets_dir="assets/blockchains/optimism/assets/",
         ext_assets_dir="extensions/blockchains/optimism/assets/",
         denylist="extensions/blockchains/optimism/denylist.txt",
