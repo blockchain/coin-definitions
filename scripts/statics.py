@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-TW_REPO_ROOT = "https://raw.githubusercontent.com/trustwallet/assets/37dd998/"
+TW_REPO_ROOT = "https://raw.githubusercontent.com/trustwallet/assets/master/"
 BC_REPO_ROOT = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/"
 
 BLOCKCHAINS = "assets/blockchains/"
@@ -113,7 +113,7 @@ ERC20_NETWORKS = [
         ext_assets_dir="extensions/blockchains/optimism/assets/",
         denylist="extensions/blockchains/optimism/denylist.txt",
         output_file="chain/optimism/tokens.json",
-        symbol_suffix="OP",
+        symbol_suffix="OETH",
         explorer_url="https://optimistic.etherscan.io/token/"
     )
 ]

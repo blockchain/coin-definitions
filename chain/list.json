@@ -36,7 +36,7 @@
   },
   {
     "chain": "optimism",
-    "native": "ETH.OP",
+    "native": "OETH",
     "tokens": "chain/optimism/tokens.json"
   }
 ]
