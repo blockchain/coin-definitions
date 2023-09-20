@@ -177,11 +177,12 @@ def main():
     chains = list(map(lambda x: Chain(**x), read_json("chain/list.json")))
     chains = dict((c.native, read_json(c.tokens)) for c in chains)
     chains = {k: list(map(lambda x: ERC20Token.from_dict(x), v)) for k, v in chains.items()}
+    other_erc20_tokens = [token for chain_tokens in chains.values() for token in chain_tokens]
 
     currencies = map(lambda x: Currency(**x), read_json("custody.json"))
 
-    combined = sorted(itertools.chain(coins, erc20_tokens), key=lambda x: x.symbol)
-    duplicates = find_duplicates(combined, lambda t: t.symbol)
+    combined = sorted(itertools.chain(coins, erc20_tokens, other_erc20_tokens), key=lambda x: x.symbol)
+    duplicates = find_duplicates(combined, lambda t: t.symbol.upper())
 
     if duplicates:
         raise Exception(f"Duplicate elements found: {compress_duplicates(duplicates)}")
