@@ -603,9 +603,9 @@
 #
 # 'FLOKI' is shared by:
 # - https://etherscan.io/token/0x43f11c02439e2736800433b4594994Bd43Cd066D (Floki Inu): https://theflokiinu.com
-# 0x43f11c02439e2736800433b4594994Bd43Cd066D
+0x43f11c02439e2736800433b4594994Bd43Cd066D
 # - https://etherscan.io/token/0xcf0C122c6b73ff809C693DB761e7BaeBe62b6a2E (FLOKI): https://floki.com
-0xcf0C122c6b73ff809C693DB761e7BaeBe62b6a2E
+# 0xcf0C122c6b73ff809C693DB761e7BaeBe62b6a2E
 #
 # 'GAME' is shared by:
 # - https://etherscan.io/token/0x63f88A2298a5c4AEE3c216Aa6D926B184a4b2437 (GAME Credits): https://gamecredits.org
