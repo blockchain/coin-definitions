@@ -4509,15 +4509,6 @@
         "website": "https://dodoex.io/"
     },
     {
-        "address": "0x43f11c02439e2736800433b4594994Bd43Cd066D",
-        "decimals": 9,
-        "displaySymbol": "FLOKI",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/ethereum/assets/0x43f11c02439e2736800433b4594994Bd43Cd066D/logo.png",
-        "name": "Floki Inu",
-        "symbol": "FLOKI",
-        "website": "https://theflokiinu.com"
-    },
-    {
         "address": "0x446C9033E7516D820cc9a2ce2d0B7328b579406F",
         "decimals": 8,
         "displaySymbol": "SOLVE",
@@ -14470,6 +14461,15 @@
         "name": "Fantasy Sports",
         "symbol": "DFS",
         "website": "https://www.digitalfantasysports.com"
+    },
+    {
+        "address": "0xcf0C122c6b73ff809C693DB761e7BaeBe62b6a2E",
+        "decimals": 9,
+        "displaySymbol": "FLOKI",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xcf0C122c6b73ff809C693DB761e7BaeBe62b6a2E/logo.png",
+        "name": "FLOKI",
+        "symbol": "FLOKI",
+        "website": "https://floki.com"
     },
     {
         "address": "0xcfAD57a67689809CdA997f655802a119838c9ceC",
