@@ -503,7 +503,15 @@
 # - https://bscscan.com/token/0x0c1b3983D2a4Aa002666820DE5a0B43293291Ea6 (PEPE Community): https://www.pepe.community
 0x0c1b3983D2a4Aa002666820DE5a0B43293291Ea6
 # - https://bscscan.com/token/0xa5AC8f8E90762380cCE6C16ABa17Ed6d2Cf75888 (PepeMoon): https://www.pepemoon.com
-# 0xa5AC8f8E90762380cCE6C16ABa17Ed6d2Cf75888
+0xa5AC8f8E90762380cCE6C16ABa17Ed6d2Cf75888
+# - https://bscscan.com/token/0xb46584e0efdE3092e04010A13f2eAe62aDb3b9F0 (Pepe Coin): https://pepecoinbsc.xyz
+# 0xb46584e0efdE3092e04010A13f2eAe62aDb3b9F0
+#
+# 'pepeai' is shared by:
+# - https://bscscan.com/token/0x24086EAb82DBDaa4771d0A5D66B0D810458b0E86 (Pepe AI): https://pepeai.io
+# 0x24086EAb82DBDaa4771d0A5D66B0D810458b0E86
+# - https://bscscan.com/token/0xe57F73EB27Da9D17f90C994744D842e95700C100 (Pepe AI): https://pepe.style
+0xe57F73EB27Da9D17f90C994744D842e95700C100
 #
 # 'pex' is shared by:
 # - https://bscscan.com/token/0x2963dCc52549573BBFBe355674724528532C0867 (Project-X): https://pexcoin.io/
@@ -596,6 +604,12 @@
 0x5C501ceB257700FcCd33c53FeEc9f96EDa583Dd7
 # - https://bscscan.com/token/0x826e5Ec70DbC5607fF9218011FBb97F9a8D97953 (TravelCare): https://travelcare.io/
 # 0x826e5Ec70DbC5607fF9218011FBb97F9a8D97953
+#
+# 'tusd' is shared by:
+# - https://bscscan.com/token/0x14016E85a25aeb13065688cAFB43044C2ef86784 (BNB pegged TrueUSD): https://www.trueusd.com/
+0x14016E85a25aeb13065688cAFB43044C2ef86784
+# - https://bscscan.com/token/0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9 (TrueUSD): https://trueusd.com
+# 0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9
 #
 # 'udoge' is shared by:
 # - https://bscscan.com/token/0x698111b771363B81D1179AD102e3d8B9cD093a11 (UKA DOGE COIN): https://ukadoge.com/
