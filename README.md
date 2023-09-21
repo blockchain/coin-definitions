@@ -285,7 +285,7 @@ Examples:
 
 When adding a new chain with child tokens, we have to:
 
- - Add a new entry to `chain/list.json`, with the appropiate key and native token
+ - Add a new entry to `chain/list.json`, with the appropriate key and native token
  - Initialize an empty `chain/{{chain}}/tokens.json`
  - Initialize an empty [denylist](#disable-undesired-chains-or-tokens) for this chain
  - Declare the chain in the `ERC20_NETWORKS` array in `build-lists.py`

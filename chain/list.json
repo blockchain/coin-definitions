@@ -1,30 +1,5 @@
 [
   {
-    "chain": "celo",
-    "native": "CELO",
-    "tokens": "chain/celo/tokens.json"
-  },
-  {
-    "chain": "polygon",
-    "native": "MATIC",
-    "tokens": "chain/polygon/tokens.json"
-  },
-  {
-    "chain": "binance",
-    "native": "BNB",
-    "tokens": "chain/binance/tokens.json"
-  },
-  {
-    "chain": "tron",
-    "native": "TRX",
-    "tokens": "chain/tron/tokens.json"
-  },
-  {
-    "chain": "chiliz",
-    "native": "CHZ",
-    "tokens": "chain/chiliz/tokens.json"
-  },
-  {
     "chain": "arbitrum",
     "native": "ARBETH",
     "tokens": "chain/arbitrum/tokens.json"
@@ -35,8 +10,33 @@
     "tokens": "chain/avalanchec/tokens.json"
   },
   {
+    "chain": "binance",
+    "native": "BNB",
+    "tokens": "chain/binance/tokens.json"
+  },
+  {
+    "chain": "celo",
+    "native": "CELO",
+    "tokens": "chain/celo/tokens.json"
+  },
+  {
+    "chain": "chiliz",
+    "native": "CHZ",
+    "tokens": "chain/chiliz/tokens.json"
+  },
+  {
+    "chain": "polygon",
+    "native": "MATIC",
+    "tokens": "chain/polygon/tokens.json"
+  },
+  {
     "chain": "optimism",
-    "native": "OP",
+    "native": "OETH",
     "tokens": "chain/optimism/tokens.json"
+  },
+  {
+    "chain": "tron",
+    "native": "TRX",
+    "tokens": "chain/tron/tokens.json"
   }
 ]

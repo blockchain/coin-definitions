@@ -531,6 +531,15 @@
         "website": "https://smartkeyplatform.io/"
     },
     {
+        "address": "0x06AF07097C9Eeb7fD685c692751D5C66dB49c215",
+        "decimals": 18,
+        "displaySymbol": "CHAI",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x06AF07097C9Eeb7fD685c692751D5C66dB49c215/logo.png",
+        "name": "Chai",
+        "symbol": "CHAI",
+        "website": "https://chai.money/"
+    },
+    {
         "address": "0x06e0feB0D74106c7adA8497754074D222Ec6BCDf",
         "decimals": 18,
         "displaySymbol": "BTB",
@@ -10056,7 +10065,7 @@
         "address": "0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe",
         "decimals": 6,
         "displaySymbol": "USDS",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/ethereum/assets/0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe/logo.png",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe/logo.png",
         "name": "StableUSD",
         "symbol": "USDS",
         "website": "https://www.stably.io/"
