@@ -1,0 +1,6 @@
+# 'grt' is shared by:
+# - https://arbiscan.io/token/0x23A941036Ae778Ac51Ab04CEa08Ed6e2FE103614 (The Graph): https://thegraph.com
+# 0x23A941036Ae778Ac51Ab04CEa08Ed6e2FE103614
+# - https://arbiscan.io/token/0x9623063377AD1B27544C965cCd7342f7EA7e88C7 (The Graph): https://thegraph.com
+0x9623063377AD1B27544C965cCd7342f7EA7e88C7
+#
