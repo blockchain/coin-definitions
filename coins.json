@@ -368,6 +368,14 @@
     "website": "https://near.org"
   },
   {
+    "symbol": "OETH",
+    "name": "Optimistic Ethereum",
+    "key": "optimism",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/optimism/info/logo.png",
+    "website": "https://optimism.io/"
+  },
+  {
     "symbol": "SCRT",
     "name": "Secret",
     "key": "secret",

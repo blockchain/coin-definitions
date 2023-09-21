@@ -146,7 +146,7 @@ def build_erc20_tokens_list(erc20_network):
     print(f"Generating token files for network \"{erc20_network.chain}\"")
     tokens = fetch_erc20_tokens(erc20_network.assets_dir, erc20_network.chain)
 
-    print(f"Reading ETH asset prices from {EXT_PRICES}")
+    print(f"Reading {erc20_network.symbol} asset prices from {EXT_PRICES}")
     prices = read_json(EXT_PRICES)
 
     print(f"Tokens before price filter {len(tokens)}")
@@ -170,7 +170,7 @@ def build_erc20_tokens_list(erc20_network):
     tokens = filter(lambda x: x.is_valid(), tokens)
 
     # Merge with extensions:
-    print(f"Reading ETH asset extensions from {erc20_network.ext_assets_dir}")
+    print(f"Reading {erc20_network.symbol} asset extensions from {erc20_network.ext_assets_dir}")
     extensions = [Asset.from_dict(info) for key, info in read_assets(erc20_network.ext_assets_dir)]
     extensions = map(lambda ext: ERC20Token.from_asset(ext, erc20_network.chain), extensions)
     tokens = sorted(set(extensions) | set(tokens), key=lambda t: t.address)

@@ -108,12 +108,12 @@ ERC20_NETWORKS = [
     ),
     ERC20Network(
         chain="optimism",
-        symbol="OP",
+        symbol="OETH",
         assets_dir="assets/blockchains/optimism/assets/",
         ext_assets_dir="extensions/blockchains/optimism/assets/",
         denylist="extensions/blockchains/optimism/denylist.txt",
         output_file="chain/optimism/tokens.json",
-        symbol_suffix="OP",
+        symbol_suffix="OETH",
         explorer_url="https://optimistic.etherscan.io/token/"
     )
 ]
