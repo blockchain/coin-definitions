@@ -41,7 +41,7 @@
   },
   {
     "symbol": "ARBETH",
-    "name": "Arbitrum",
+    "name": "Ethereum",
     "key": "arbitrum",
     "decimals": 18,
     "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/arbitrum/info/logo.png",

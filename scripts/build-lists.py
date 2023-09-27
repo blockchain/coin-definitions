@@ -72,11 +72,6 @@ def fetch_coins():
     chains = [Blockchain.from_dict(key, chain)
               for key, chain in read_blockchains(BLOCKCHAINS)]
 
-    # ARETH/ARBETH workaround
-    for i, n in enumerate(chains):
-        if n.symbol == "ARETH":
-            chains[i].symbol = "ARBETH"
-
     # Filter valid & active chains
     chains = filter(lambda x: x.is_valid() and x.is_active(), chains)
 
