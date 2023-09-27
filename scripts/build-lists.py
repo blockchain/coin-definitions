@@ -99,8 +99,9 @@ def fetch_coins():
     return list(coins)
 
 
-def fetch_erc20_tokens(assets_dir, chain):
+def fetch_erc20_tokens(chain):
     # Fetch and parse all info.json files:
+    assets_dir = f"assets/blockchains/{chain}/assets/"
     print(f"Reading erc20 assets from {assets_dir}")
     assets = [Asset.from_dict(info) for key, info in read_assets(assets_dir)]
 
@@ -122,7 +123,7 @@ def fetch_prices():
     }
 
     for network in ERC20_NETWORKS:
-        tokens = fetch_erc20_tokens(network.assets_dir, network.chain)
+        tokens = fetch_erc20_tokens(network.chain)
         prices["prices"].update(fetch_token_prices(network, tokens))
 
     print(f"Writing coin prices to {EXT_PRICES}")
@@ -139,7 +140,7 @@ def build_coins_list():
 
 def build_erc20_tokens_list(erc20_network):
     print(f"Generating token files for network \"{erc20_network.chain}\"")
-    tokens = fetch_erc20_tokens(erc20_network.assets_dir, erc20_network.chain)
+    tokens = fetch_erc20_tokens(erc20_network.chain)
 
     print(f"Reading {erc20_network.symbol} asset prices from {EXT_PRICES}")
     prices = read_json(EXT_PRICES)
@@ -158,15 +159,16 @@ def build_erc20_tokens_list(erc20_network):
     tokens = list(set(tokens) | set(current_tokens))
 
     # Make sure the asset is NOT in the denylist:
-    bc_denylist = set(map(lambda x: x.lower(), read_txt(erc20_network.denylist)))
+    bc_denylist = set(map(lambda x: x.lower(), read_txt(f"extensions/blockchains/{erc20_network.chain}/denylist.txt")))
     tokens = filter(lambda x: x.address.lower() not in bc_denylist, tokens)
 
     # Make sure the asset is valid:
     tokens = filter(lambda x: x.is_valid(), tokens)
 
     # Merge with extensions:
-    print(f"Reading {erc20_network.symbol} asset extensions from {erc20_network.ext_assets_dir}")
-    extensions = [Asset.from_dict(info) for key, info in read_assets(erc20_network.ext_assets_dir)]
+    extensions_path = f"extensions/blockchains/{erc20_network.chain}/assets/"
+    print(f"Reading {erc20_network.symbol} asset extensions from {extensions_path}")
+    extensions = [Asset.from_dict(info) for key, info in read_assets(extensions_path)]
     extensions = map(lambda ext: ERC20Token.from_asset(ext, erc20_network.chain), extensions)
     tokens = sorted(set(extensions) | set(tokens), key=lambda t: t.address)
 

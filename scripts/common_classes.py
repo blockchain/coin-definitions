@@ -111,8 +111,7 @@ class ERC20Token:
         if os.path.exists(os.path.join(f"extensions/blockchains/{chain}/assets/", address, "logo.png")):
             base_path = BC_REPO_ROOT + f"extensions/blockchains/{chain}/assets/"
         else:
-            modified_chain = "smartchain" if chain == "binance" else chain
-            base_path = TW_REPO_ROOT + f"blockchains/{modified_chain}/assets/"
+            base_path = TW_REPO_ROOT + f"blockchains/{chain}/assets/"
         asset_path = urljoin(base_path, address + "/")
         return urljoin(asset_path, "logo.png")
 
@@ -129,7 +128,7 @@ class ERC20Token:
         )
 
     def should_append_network_suffix(self, network):
-        if not network.symbol_suffix:
+        if network.symbol == "ETH":
             return False
         # TODO: Remove special case for CEUR and CUSD (CTP-332)
         if network.symbol == "CELO" and (self.symbol == "CEUR" or self.symbol == "CUSD"):
@@ -138,11 +137,11 @@ class ERC20Token:
 
     def with_suffix(self, network):
         if self.should_append_network_suffix(network):
-            return replace(self, symbol=f"{self.symbol}.{network.symbol_suffix}")
+            return replace(self, symbol=f"{self.symbol}.{network.symbol}")
         return self
 
     def without_suffix(self, network):
-        return replace(self, symbol=self.symbol.removesuffix(f".{network.symbol_suffix}"))
+        return replace(self, symbol=self.symbol.removesuffix(f".{network.symbol}"))
 
     @classmethod
     def from_dict(cls, dict_):
