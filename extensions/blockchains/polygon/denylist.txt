@@ -1,0 +1,5 @@
+# 'busd' is shared by:
+# - https://polygonscan.com/token/0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39 (BNB pegged BUSD): https://paxos.com/busd
+# 0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39
+# - https://polygonscan.com/token/0x9c9e5fd8bbc25984b178fdce6117defa39d2db39 (Binance-Peg BUSD): https://www.binance.com/en/busd
+0x9c9e5fd8bbc25984b178fdce6117defa39d2db39

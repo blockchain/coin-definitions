@@ -849,5 +849,33 @@
 # - https://etherscan.io/token/0xDF347911910b6c9A4286bA8E2EE5ea4a39eB2134 (Bob Token): https://www.bobsrepair.com
 0xDF347911910b6c9A4286bA8E2EE5ea4a39eB2134
 #
-# TRX (old token)
+# TRX (ERC20)
 0xf230b790E05390FC8295F4d3F60332c93BEd42e2
+0x50327c6c5a14DCaDE707ABad2E27eB517df87AB5
+# XRP (ERC20)
+0x07E0EDf8ce600FB51d44F51E3348D77D67F298ae
+#
+# 'elf' is shared by:
+# - https://etherscan.io/token/0x831bE1970511C069ddEdc452fFbbEE55eEB70170 (ELF wallet (ELF)): https://www.elfwallets.com/
+0x831bE1970511C069ddEdc452fFbbEE55eEB70170
+# - https://etherscan.io/token/0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e (aelf): http://aelf.io
+# 0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e
+#
+# 'four' is shared by:
+# - https://etherscan.io/token/0x244b797d622D4DEe8b188b03546ACAAbD0Cf91A0 (Four): https://www.4thecoin.com/
+# 0x244b797d622D4DEe8b188b03546ACAAbD0Cf91A0
+# - https://etherscan.io/token/0x4730fB1463A6F1F44AEB45F6c5c422427f37F4D0 (The 4th Pillar Token): https://4thtech.io/
+0x4730fB1463A6F1F44AEB45F6c5c422427f37F4D0
+#
+# 'gnt' is shared by:
+# - https://etherscan.io/token/0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429 (Golem): https://golem.network
+# 0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429
+# - https://etherscan.io/token/0xa74476443119A942dE498590Fe1f2454d7D4aC0d (Golem): https://golem.network
+0xa74476443119A942dE498590Fe1f2454d7D4aC0d
+#
+# 'stmx' is shared by:
+# - https://etherscan.io/token/0xa62cc35625B0C8dc1fAEA39d33625Bb4C15bD71C (StormX): https://stormx.io
+# 0xa62cc35625B0C8dc1fAEA39d33625Bb4C15bD71C
+# - https://etherscan.io/token/0xbE9375C6a420D2eEB258962efB95551A5b722803 (StormX): https://stormx.io
+0xbE9375C6a420D2eEB258962efB95551A5b722803
+#

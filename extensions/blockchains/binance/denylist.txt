@@ -653,3 +653,51 @@
 # - https://bscscan.com/token/0xDaf4F11947E73f0eeBEf4a820f4Be9B854aa993B (Stellar Diamond): https://stellardiamond.net
 0xDaf4F11947E73f0eeBEf4a820f4Be9B854aa993B
 #
+# 'dingo' is shared by:
+# - https://bscscan.com/token/0x397E6d4fd68A9E25e93fC712B8F72F826f48a8ff (Dingo Token): https://dingotoken.com/
+0x397E6d4fd68A9E25e93fC712B8F72F826f48a8ff
+# - https://bscscan.com/token/0x9b208b117B2C4F76C1534B6f006b033220a681A4 (Dingocoin): http://dingocoin.org/
+# 0x9b208b117B2C4F76C1534B6f006b033220a681A4
+#
+# 'juld' is shared by:
+# - https://bscscan.com/token/0x5A41F637C3f7553dBa6dDC2D3cA92641096577ea (JulSwap): https://julswap.com
+0x5A41F637C3f7553dBa6dDC2D3cA92641096577ea
+# - https://bscscan.com/token/0xf5D8015D625be6F59b8073C8189BD51bA28792e1 (JulSwap): https://julswap.com
+# 0xf5D8015D625be6F59b8073C8189BD51bA28792e1
+#
+# 'pepe' is shared by:
+# - https://bscscan.com/token/0x43B9cE0394d9AFfc97501359646A410A48c21a11 (Pepecoin): https://pepecoin.rocks
+0x43B9cE0394d9AFfc97501359646A410A48c21a11
+# - https://bscscan.com/token/0xb46584e0efdE3092e04010A13f2eAe62aDb3b9F0 (Pepe Coin): https://pepecoinbsc.xyz
+# 0xb46584e0efdE3092e04010A13f2eAe62aDb3b9F0
+#
+# 'qanx' is shared by:
+# - https://bscscan.com/token/0xAAA7A10a8ee237ea61E8AC46C50A8Db8bCC1baaa (QANX Token): https://qanplatform.com
+0xAAA7A10a8ee237ea61E8AC46C50A8Db8bCC1baaa
+# - https://bscscan.com/token/0xAAA9214F675316182Eaa21C85f0Ca99160CC3AAA (QANX Token): https://qanplatform.com
+# 0xAAA9214F675316182Eaa21C85f0Ca99160CC3AAA
+#
+# 'rhythm' is shared by:
+# - https://bscscan.com/token/0xE4318F2aCf2b9c3f518A3a03B5412F4999970Ddb (Rhythm): https://rhythm.cash/
+0xE4318F2aCf2b9c3f518A3a03B5412F4999970Ddb
+# - https://bscscan.com/token/0xd73E883e203646e87F6d073BAF3D7719bDa68Bcb (Rhythm): https://rhythm.cash/
+# 0xd73E883e203646e87F6d073BAF3D7719bDa68Bcb
+#
+# 'ryoshi' is shared by:
+# - https://bscscan.com/token/0x0E5f989ce525acC4ee45506AF91964F7f4C9f2e9 (RYOSHI TOKEN): https://www.ryoshitoken.com
+0x0E5f989ce525acC4ee45506AF91964F7f4C9f2e9
+# - https://bscscan.com/token/0xB350aEBAEDB1eD3269b0E25D5E593a9bB4b9f9d5 (RYOSHI TOKEN): https://www.ryoshitoken.com
+# 0xB350aEBAEDB1eD3269b0E25D5E593a9bB4b9f9d5
+#
+# 'snack' is shared by:
+# - https://bscscan.com/token/0x86aCCc2580dA5Bd522A0eEc7C881A0d4f33De657 (CRYPTO SNACK): https://cryptosnacks.org/
+0x86aCCc2580dA5Bd522A0eEc7C881A0d4f33De657
+# - https://bscscan.com/token/0xe52bB35344cceedd014Be2896d01e604ad992c85 (Crypto Snack 2.0): https://cryptosnacks.org/
+# 0xe52bB35344cceedd014Be2896d01e604ad992c85
+#
+# 'x' is shared by:
+# - https://bscscan.com/token/0x2A45a892877Ef383c5fc93A5206546c97496da9e (X AI): https://xai.cx
+# 0x2A45a892877Ef383c5fc93A5206546c97496da9e
+# - https://bscscan.com/token/0xA2086F4a3955A520A1743D68CDbcf064Ee1746Cd (X Doge): https://xdoge.app
+0xA2086F4a3955A520A1743D68CDbcf064Ee1746Cd
+#

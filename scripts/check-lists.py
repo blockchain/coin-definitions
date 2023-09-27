@@ -130,10 +130,6 @@ def find_duplicates(items, key):
     return [(symbol, items) for symbol, items in groups if len(items) > 1]
 
 
-def compress_duplicates(duplicates):
-    return [(symbol, [x.name for x in group]) for symbol, group in duplicates]
-
-
 def check_logo(coin):
     if coin.logo is None:
         yield Warning(coin, "No logo")
@@ -185,7 +181,7 @@ def main():
     duplicates = find_duplicates(combined, lambda t: t.symbol.upper())
 
     if duplicates:
-        raise Exception(f"Duplicate elements found: {compress_duplicates(duplicates)}")
+        raise Exception(f"Duplicate elements found: {duplicates}")
 
     prices = read_json("extensions/prices.json")['prices']
     issues = list(check_currencies(currencies, coins, erc20_tokens, chains, prices))
