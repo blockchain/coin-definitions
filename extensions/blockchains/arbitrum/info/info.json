@@ -1,0 +1,8 @@
+{
+  "name": "Ethereum",
+  "symbol": "ARBETH",
+  "type": "COIN",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://offchainlabs.com"
+}
