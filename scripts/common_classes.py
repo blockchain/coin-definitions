@@ -111,7 +111,8 @@ class ERC20Token:
         if os.path.exists(os.path.join(f"extensions/blockchains/{chain}/assets/", address, "logo.png")):
             base_path = BC_REPO_ROOT + f"extensions/blockchains/{chain}/assets/"
         else:
-            base_path = TW_REPO_ROOT + f"blockchains/{chain}/assets/"
+            modified_chain = "smartchain" if chain == "binance" else chain
+            base_path = TW_REPO_ROOT + f"blockchains/{modified_chain}/assets/"
         asset_path = urljoin(base_path, address + "/")
         return urljoin(asset_path, "logo.png")
 
