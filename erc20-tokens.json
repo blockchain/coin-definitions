@@ -4761,15 +4761,6 @@
         "website": "https://www.gxtglobal.com/en/index.html"
     },
     {
-        "address": "0x467719aD09025FcC6cF6F8311755809d45a5E5f3",
-        "decimals": 6,
-        "displaySymbol": "AXL",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x467719aD09025FcC6cF6F8311755809d45a5E5f3/logo.png",
-        "name": "Axelar",
-        "symbol": "AXL",
-        "website": "https://axelar.network/"
-    },
-    {
         "address": "0x467Bccd9d29f223BcE8043b84E8C8B282827790F",
         "decimals": 2,
         "displaySymbol": "TEL",
