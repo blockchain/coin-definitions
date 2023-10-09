@@ -211,9 +211,9 @@
 #
 # 'axl' is shared by:
 # - https://bscscan.com/token/0x25b24B3c47918b7962B3e49C4F468367F73CC0E0 (AXL INU): https://www.axltoken.com
-# 0x25b24B3c47918b7962B3e49C4F468367F73CC0E0
+0x25b24B3c47918b7962B3e49C4F468367F73CC0E0
 # - https://bscscan.com/token/0x8b1f4432F943c465A973FeDC6d7aa50Fc96f1f65 (Axelar): https://axelar.network/
-0x8b1f4432F943c465A973FeDC6d7aa50Fc96f1f65
+# 0x8b1f4432F943c465A973FeDC6d7aa50Fc96f1f65
 #
 # 'bb' is shared by:
 # - https://bscscan.com/token/0x16f9cc3c6F8d8006cfc0ee693CeF9D76b0d44C36 (Baby Bali): https://babybalibsc.com
