@@ -103,7 +103,7 @@ class ERC20Token:
     website: str
 
     def is_valid(self):
-        # At most 6 letters and digits:
+        # At most 8 letters and digits:
         return re.match("^[a-zA-Z0-9]{1,8}$", self.symbol) is not None
 
     @staticmethod
