@@ -1,0 +1,9 @@
+{
+  "name": "Frax",
+  "type": "ERC20",
+  "symbol": "FRAX",
+  "decimals": 18,
+  "website": "https://frax.finance",
+  "status": "active",
+  "id": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Rocket Pool ETH",
+  "type": "ERC20",
+  "symbol": "RETH",
+  "decimals": 18,
+  "website": "https://www.rocketpool.net/",
+  "status": "active",
+  "id": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8"
+}

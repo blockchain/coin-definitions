@@ -1,0 +1,9 @@
+{
+  "name": "SushiToken",
+  "type": "ERC20",
+  "symbol": "SUSHI",
+  "decimals": 18,
+  "website": "https://www.sushi.com/",
+  "status": "active",
+  "id": "0xd4d42f0b6def4ce0383636770ef773390d85c61a"
+}
