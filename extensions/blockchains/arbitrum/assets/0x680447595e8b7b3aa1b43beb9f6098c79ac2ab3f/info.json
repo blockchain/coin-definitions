@@ -1,0 +1,9 @@
+{
+  "name": "Decentralized USD",
+  "type": "ERC20",
+  "symbol": "USDD",
+  "decimals": 18,
+  "website": "https://usdd.io/",
+  "status": "active",
+  "id": "0x680447595e8b7b3aa1b43beb9f6098c79ac2ab3f"
+}

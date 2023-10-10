@@ -1,0 +1,9 @@
+{
+  "name": "DODO",
+  "type": "ERC20",
+  "symbol": "DODO",
+  "decimals": 18,
+  "website": "https://dodoex.io/",
+  "status": "active",
+  "id": "0x69eb4fa4a2fbd498c257c57ea8b7655a2559a581"
+}

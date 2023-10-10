@@ -1,0 +1,9 @@
+{
+  "name": "Coinbase Wrapped Staked ETH",
+  "type": "ERC20",
+  "symbol": "CBETH",
+  "decimals": 18,
+  "website": "https://www.coinbase.com/",
+  "status": "active",
+  "id": "0x1DEBd73E752bEaF79865Fd6446b0c970EaE7732f"
+}

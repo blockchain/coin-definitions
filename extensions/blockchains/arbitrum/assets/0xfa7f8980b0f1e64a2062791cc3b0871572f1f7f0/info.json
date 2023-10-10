@@ -1,0 +1,9 @@
+{
+  "name": "Uniswap",
+  "type": "ERC20",
+  "symbol": "UNI",
+  "decimals": 18,
+  "website": "https://uniswap.org/",
+  "status": "active",
+  "id": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0"
+}

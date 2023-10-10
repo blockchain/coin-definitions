@@ -1,0 +1,9 @@
+{
+  "name": "Pepe",
+  "type": "ERC20",
+  "symbol": "PEPE",
+  "decimals": 18,
+  "website": "https://www.pepe.vip/",
+  "status": "active",
+  "id": "0x25d887ce7a35172c62febfd67a1856f20faebb00"
+}

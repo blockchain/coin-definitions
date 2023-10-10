@@ -1,0 +1,9 @@
+{
+  "name": "Wrapped BTC",
+  "type": "ERC20",
+  "symbol": "WBTC",
+  "decimals": 8,
+  "website": "https://wbtc.network/",
+  "status": "active",
+  "id": "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"
+}

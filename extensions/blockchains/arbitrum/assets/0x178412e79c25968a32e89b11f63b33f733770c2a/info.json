@@ -1,0 +1,9 @@
+{
+  "name": "Frax Ether",
+  "type": "ERC20",
+  "symbol": "FRXETH",
+  "decimals": 18,
+  "website": "https://app.frax.finance/",
+  "status": "active",
+  "id": "0x178412e79c25968a32e89b11f63b33f733770c2a"
+}

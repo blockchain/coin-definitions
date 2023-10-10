@@ -1,0 +1,9 @@
+{
+  "name": "Biconomy Token",
+  "type": "ERC20",
+  "symbol": "BICO",
+  "decimals": 18,
+  "website": "https://www.biconomy.io/",
+  "status": "active",
+  "id": "0xa68ec98d7ca870cf1dd0b00ebbb7c4bf60a8e74d"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Curve DAO",
+  "type": "ERC20",
+  "symbol": "CRV",
+  "decimals": 18,
+  "website": "https://www.curve.fi/",
+  "status": "active",
+  "id": "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978"
+}
