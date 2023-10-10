@@ -211,9 +211,9 @@
 #
 # 'axl' is shared by:
 # - https://bscscan.com/token/0x25b24B3c47918b7962B3e49C4F468367F73CC0E0 (AXL INU): https://www.axltoken.com
-# 0x25b24B3c47918b7962B3e49C4F468367F73CC0E0
+0x25b24B3c47918b7962B3e49C4F468367F73CC0E0
 # - https://bscscan.com/token/0x8b1f4432F943c465A973FeDC6d7aa50Fc96f1f65 (Axelar): https://axelar.network/
-0x8b1f4432F943c465A973FeDC6d7aa50Fc96f1f65
+# 0x8b1f4432F943c465A973FeDC6d7aa50Fc96f1f65
 #
 # 'bb' is shared by:
 # - https://bscscan.com/token/0x16f9cc3c6F8d8006cfc0ee693CeF9D76b0d44C36 (Baby Bali): https://babybalibsc.com
@@ -700,4 +700,10 @@
 # 0x2A45a892877Ef383c5fc93A5206546c97496da9e
 # - https://bscscan.com/token/0xA2086F4a3955A520A1743D68CDbcf064Ee1746Cd (X Doge): https://xdoge.app
 0xA2086F4a3955A520A1743D68CDbcf064Ee1746Cd
+#
+# 'mcontent' is shared by:
+# - https://bscscan.com/token/0x799e1Cf88A236e42b4A87c544A22A94aE95A6910 (MContent): https://mcontent.net/
+# 0x799e1Cf88A236e42b4A87c544A22A94aE95A6910
+# - https://bscscan.com/token/0xD3c51de3E6DD9b53D7f37699AFB3EE3Bf9B9b3F4 (MContent): https://mcontent.net
+0xD3c51de3E6DD9b53D7f37699AFB3EE3Bf9B9b3F4
 #

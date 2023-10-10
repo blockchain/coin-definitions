@@ -879,3 +879,9 @@
 # - https://etherscan.io/token/0xbE9375C6a420D2eEB258962efB95551A5b722803 (StormX): https://stormx.io
 0xbE9375C6a420D2eEB258962efB95551A5b722803
 #
+# 'gold' is shared by:
+# - https://etherscan.io/token/0x089453742936dd35134383aee9d78bEe63A69b01 (GOLD): https://hodl.gold/
+# 0x089453742936dd35134383aee9d78bEe63A69b01
+# - https://etherscan.io/token/0x0d16450D347c12C086d6C94c76c5Aaac35eA07E0 (Gold Storage): https://gold.storage/
+0x0d16450D347c12C086d6C94c76c5Aaac35eA07E0
+#
