@@ -92,7 +92,7 @@
     "name": "Bitcoin Satoshi Vision",
     "key": "bitcoinsv",
     "decimals": 8,
-    "logo": null,
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/bitcoinsv/info/logo.png",
     "website": null
   },
   {
