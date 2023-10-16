@@ -73,7 +73,7 @@ def fetch_coins():
               for key, chain in read_blockchains(BLOCKCHAINS)]
 
     # Filter valid & active chains
-    chains = filter(lambda x: x.is_valid() and x.is_active(), chains)
+    chains = filter(lambda x: x.is_valid() and x.is_active() and x.name != "smartChain", chains)
 
     # Build the denylists:
     denylist = set(map(lambda x: (x["symbol"], x["name"]), read_json(EXT_BLOCKCHAINS_DENYLIST)))

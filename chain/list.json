@@ -10,6 +10,11 @@
     "tokens": "chain/avalanchec/tokens.json"
   },
   {
+    "chain": "binance",
+    "native": "BNB",
+    "tokens": "chain/binance/tokens.json"
+  },
+  {
     "chain": "celo",
     "native": "CELO",
     "tokens": "chain/celo/tokens.json"
