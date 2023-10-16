@@ -35,12 +35,6 @@ ERC20_NETWORKS = [
         explorer_url="https://polygonscan.com/token/"
     ),
     ERC20Network(
-        chain="smartchain",
-        symbol="BNB",
-        output_file="chain/binance/tokens.json",
-        explorer_url="https://bscscan.com/token/"
-    ),
-    ERC20Network(
         chain="tron",
         symbol="TRX",
         output_file="chain/tron/tokens.json",
