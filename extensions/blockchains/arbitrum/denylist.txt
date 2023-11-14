@@ -4,3 +4,21 @@
 # - https://arbiscan.io/token/0x9623063377AD1B27544C965cCd7342f7EA7e88C7 (The Graph): https://thegraph.com
 0x9623063377AD1B27544C965cCd7342f7EA7e88C7
 #
+# 'link' is shared by:
+# - https://arbiscan.io/token/0xf97f4df75117a78c1A5a0DBb814Af92458539FB4 (Chainlink): https://chain.link
+# 0xf97f4df75117a78c1A5a0DBb814Af92458539FB4
+# - https://arbiscan.io/token/0xf97f4df75117a78c1a5a0dbb814af92458539fb4 (ChainLink Token): https://chain.link/
+0xf97f4df75117a78c1a5a0dbb814af92458539fb4
+#
+# 'magic' is shared by:
+# - https://arbiscan.io/token/0x539bdE0d7Dbd336b79148AA742883198BBF60342 (MAGIC): https://treasure.lol/
+# 0x539bdE0d7Dbd336b79148AA742883198BBF60342
+# - https://arbiscan.io/token/0x539bde0d7dbd336b79148aa742883198bbf60342 (MAGIC): https://treasure.lol/
+0x539bde0d7dbd336b79148aa742883198bbf60342
+#
+# 'sushi' is shared by:
+# - https://arbiscan.io/token/0xd4d42F0b6DEF4CE0383636770eF773390d85c61A (SushiSwap): https://sushiswap.fi
+# 0xd4d42F0b6DEF4CE0383636770eF773390d85c61A
+# - https://arbiscan.io/token/0xd4d42f0b6def4ce0383636770ef773390d85c61a (SushiToken): https://www.sushi.com/
+0xd4d42f0b6def4ce0383636770ef773390d85c61a
+#

@@ -3,3 +3,9 @@
 # 0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39
 # - https://polygonscan.com/token/0x9c9e5fd8bbc25984b178fdce6117defa39d2db39 (Binance-Peg BUSD): https://www.binance.com/en/busd
 0x9c9e5fd8bbc25984b178fdce6117defa39d2db39
+# 'wbtc' is shared by:
+# - https://polygonscan.com/token/0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6 ((PoS) Wrapped BTC): https://wbtc.network/
+0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6
+# - https://polygonscan.com/token/0x5D49c278340655B56609FdF8976eb0612aF3a0C3 (Wrapped BTC (Portal)): https://www.wbtc.network/
+# 0x5D49c278340655B56609FdF8976eb0612aF3a0C3
+#
