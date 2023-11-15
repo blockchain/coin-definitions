@@ -885,3 +885,21 @@
 # - https://etherscan.io/token/0x0d16450D347c12C086d6C94c76c5Aaac35eA07E0 (Gold Storage): https://gold.storage/
 0x0d16450D347c12C086d6C94c76c5Aaac35eA07E0
 #
+# 'fwt' is shared by:
+# - https://etherscan.io/token/0x20e7125677311Fca903A8897042b9983f22Ea295 (Freeway Token): https://aubit.io/
+0x20e7125677311Fca903A8897042b9983f22Ea295
+# - https://etherscan.io/token/0xf151980E7A781481709e8195744bF2399FB3Cba4 (Freeway Token): https://aubit.io/
+# 0xf151980E7A781481709e8195744bF2399FB3Cba4
+#
+# 'meme' is shared by:
+# - https://etherscan.io/token/0xD5525D397898e5502075Ea5E830d8914f6F0affe (MEME): https://dontbuymeme.com
+# 0xD5525D397898e5502075Ea5E830d8914f6F0affe
+# - https://etherscan.io/token/0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74 (Memecoin): https://www.memecoin.org
+0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74
+#
+# 'token' is shared by:
+# - https://etherscan.io/token/0x3B73c1B2ea59835cbfcADade5462b6aB630D9890 (ChainSwap.com Governance Token): https://chainswap.com/
+# 0x3B73c1B2ea59835cbfcADade5462b6aB630D9890
+# - https://etherscan.io/token/0x4507cEf57C46789eF8d1a19EA45f4216bae2B528 (TokenFi): https://tokenfi.com
+0x4507cEf57C46789eF8d1a19EA45f4216bae2B528
+#

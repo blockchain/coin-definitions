@@ -248,6 +248,14 @@
     "website": "https://hedera.com/"
   },
   {
+    "symbol": "ICP",
+    "name": "Internet Computer",
+    "key": "internet_computer",
+    "decimals": 8,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/internet_computer/info/logo.png",
+    "website": "https://internetcomputer.org"
+  },
+  {
     "symbol": "IOTX",
     "name": "IoTeX Network Mainnet",
     "key": "iotexevm",
@@ -446,6 +454,14 @@
     "decimals": 18,
     "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/theta/info/logo.png",
     "website": null
+  },
+  {
+    "symbol": "TIA",
+    "name": "Celestia",
+    "key": "tia",
+    "decimals": 6,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/tia/info/logo.png",
+    "website": "https://celestia.org"
   },
   {
     "symbol": "TON",
