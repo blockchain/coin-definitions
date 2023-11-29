@@ -903,3 +903,9 @@
 # - https://etherscan.io/token/0x4507cEf57C46789eF8d1a19EA45f4216bae2B528 (TokenFi): https://tokenfi.com
 0x4507cEf57C46789eF8d1a19EA45f4216bae2B528
 #
+# 'tbtc' is shared by:
+# - https://etherscan.io/token/0x18084fbA666a33d37592fA2633fD49a74DD93a88 (tBTC): https://threshold.network/
+# 0x18084fbA666a33d37592fA2633fD49a74DD93a88
+# - https://etherscan.io/token/0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa (tBTC): https://tbtc.network/
+0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa
+#

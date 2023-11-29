@@ -1,0 +1,11 @@
+{
+    "name": "tBTC",
+    "website": "https://threshold.network/",
+    "description": "tBTC is an ERC-20 token on the Ethereum blockchain that is fully backed by bitcoin at a rate of 1:1. The supply of tBTC is always backed by an equal number of bitcoin kept in reserves.",
+    "explorer": "https://etherscan.io/token/0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+    "type": "ERC20",
+    "symbol": "TBTC",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x18084fbA666a33d37592fA2633fD49a74DD93a88"
+}
