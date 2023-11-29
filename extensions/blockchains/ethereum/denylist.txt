@@ -909,3 +909,9 @@
 # - https://etherscan.io/token/0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa (tBTC): https://tbtc.network/
 0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa
 #
+# 'silk' is shared by:
+# - https://etherscan.io/token/0xB045f7f363fE4949954811b113bd56d208c67B23 (Spider Tanks): https://www.spidertanks.game/
+# 0xB045f7f363fE4949954811b113bd56d208c67B23
+# - https://etherscan.io/token/0xB37Db40e16a7CaaE38f1e4dbd6B1e44cfFe03072 (Silk): https://www.spidertanks.game/
+0xB37Db40e16a7CaaE38f1e4dbd6B1e44cfFe03072
+#

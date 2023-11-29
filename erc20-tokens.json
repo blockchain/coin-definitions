@@ -10647,6 +10647,15 @@
         "website": "https://stargate.finance"
     },
     {
+        "address": "0xB045f7f363fE4949954811b113bd56d208c67B23",
+        "decimals": 8,
+        "displaySymbol": "SILK",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xB045f7f363fE4949954811b113bd56d208c67B23/logo.png",
+        "name": "Spider Tanks",
+        "symbol": "SILK",
+        "website": "https://www.spidertanks.game/"
+    },
+    {
         "address": "0xB0c7a3Ba49C7a6EaBa6cD4a96C55a1391070Ac9A",
         "decimals": 18,
         "displaySymbol": "MAGIC",
@@ -10771,15 +10780,6 @@
         "name": "ONOT",
         "symbol": "ONOT",
         "website": "https://www.ono.chat/en/"
-    },
-    {
-        "address": "0xB37Db40e16a7CaaE38f1e4dbd6B1e44cfFe03072",
-        "decimals": 8,
-        "displaySymbol": "SILK",
-        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xB37Db40e16a7CaaE38f1e4dbd6B1e44cfFe03072/logo.png",
-        "name": "Silk",
-        "symbol": "SILK",
-        "website": "https://www.spidertanks.game/ "
     },
     {
         "address": "0xB37a769B37224449d92AAc57dE379E1267Cd3B00",
