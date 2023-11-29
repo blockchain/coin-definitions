@@ -741,7 +741,7 @@
         "address": "0x08f5a9235B08173b7569F83645d2c7fB55e8cCD8",
         "decimals": 8,
         "displaySymbol": "TNT",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/ethereum/assets/0x08f5a9235B08173b7569F83645d2c7fB55e8cCD8/logo.png",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x08f5a9235B08173b7569F83645d2c7fB55e8cCD8/logo.png",
         "name": "Tierion",
         "symbol": "TNT",
         "website": "https://tierion.com"
@@ -1870,6 +1870,15 @@
         "name": "Cryptocurrency Top 10 Tokens Index",
         "symbol": "CC10",
         "website": "https://indexed.finance"
+    },
+    {
+        "address": "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+        "decimals": 18,
+        "displaySymbol": "TBTC",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x18084fbA666a33d37592fA2633fD49a74DD93a88/logo.png",
+        "name": "tBTC",
+        "symbol": "TBTC",
+        "website": "https://threshold.network/"
     },
     {
         "address": "0x1829aA045E21E0D59580024A951DB48096e01782",
@@ -4053,7 +4062,7 @@
         "address": "0x3B73c1B2ea59835cbfcADade5462b6aB630D9890",
         "decimals": 18,
         "displaySymbol": "TOKEN",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/ethereum/assets/0x3B73c1B2ea59835cbfcADade5462b6aB630D9890/logo.png",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3B73c1B2ea59835cbfcADade5462b6aB630D9890/logo.png",
         "name": "ChainSwap.com Governance Token",
         "symbol": "TOKEN",
         "website": "https://chainswap.com/"
@@ -5008,9 +5017,9 @@
         "decimals": 18,
         "displaySymbol": "DINO",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x49642110B712C1FD7261Bc074105E9E44676c68F/logo.png",
-        "name": "DinoLFG",
+        "name": "DinoLFG (DINO)",
         "symbol": "DINO",
-        "website": "https://dinolfg.com/"
+        "website": "https://dinolfg.com"
     },
     {
         "address": "0x497bAEF294c11a5f0f5Bea3f2AdB3073DB448B56",
@@ -9153,15 +9162,6 @@
         "website": "https://aave.com"
     },
     {
-        "address": "0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa",
-        "decimals": 18,
-        "displaySymbol": "TBTC",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/ethereum/assets/0x8dAEBADE922dF735c38C80C7eBD708Af50815fAa/logo.png",
-        "name": "tBTC",
-        "symbol": "TBTC",
-        "website": "https://tbtc.network/"
-    },
-    {
         "address": "0x8dB54ca569D3019A2ba126D03C37c44b5eF81EF6",
         "decimals": 8,
         "displaySymbol": "DXT",
@@ -10236,7 +10236,7 @@
         "address": "0xA1AFFfE3F4D611d252010E3EAf6f4D77088b0cd7",
         "decimals": 9,
         "displaySymbol": "RFI",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/ethereum/assets/0xA1AFFfE3F4D611d252010E3EAf6f4D77088b0cd7/logo.png",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA1AFFfE3F4D611d252010E3EAf6f4D77088b0cd7/logo.png",
         "name": "reflect.finance",
         "symbol": "RFI",
         "website": "https://reflect.finance"
@@ -11910,7 +11910,7 @@
         "address": "0xD5525D397898e5502075Ea5E830d8914f6F0affe",
         "decimals": 8,
         "displaySymbol": "MEME",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/ethereum/assets/0xD5525D397898e5502075Ea5E830d8914f6F0affe/logo.png",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD5525D397898e5502075Ea5E830d8914f6F0affe/logo.png",
         "name": "MEME",
         "symbol": "MEME",
         "website": "https://dontbuymeme.com"
@@ -12162,7 +12162,7 @@
         "address": "0xDc0327D50E6C73db2F8117760592C8BBf1CDCF38",
         "decimals": 18,
         "displaySymbol": "STRNGR",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/ethereum/assets/0xDc0327D50E6C73db2F8117760592C8BBf1CDCF38/logo.png",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xDc0327D50E6C73db2F8117760592C8BBf1CDCF38/logo.png",
         "name": "Stronger",
         "symbol": "STRNGR",
         "website": "https://strongblock.com"
