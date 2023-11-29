@@ -1,0 +1,11 @@
+{
+    "name": "Spider Tanks",
+    "website": "https://www.spidertanks.game/",
+    "description": "Spider Tanks is a PVP Brawler designed and developed by award-winning Netherlands based GAMEDIA.",
+    "explorer": "https://etherscan.io/token/0xb045f7f363fe4949954811b113bd56d208c67b23",
+    "type": "ERC20",
+    "symbol": "SILK",
+    "decimals": 8,
+    "status": "active",
+    "id": "0xB045f7f363fE4949954811b113bd56d208c67B23"
+}
