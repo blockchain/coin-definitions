@@ -360,6 +360,15 @@
         "website": "https://www.zelaapay.ae/"
     },
     {
+        "address": "0x046EeE2cc3188071C02BfC1745A6b17c656e3f3d",
+        "decimals": 18,
+        "displaySymbol": "RLB",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x046EeE2cc3188071C02BfC1745A6b17c656e3f3d/logo.png",
+        "name": "Rollbit Coin",
+        "symbol": "RLB",
+        "website": "https://rollbit.com/"
+    },
+    {
         "address": "0x0488401c3F535193Fa8Df029d9fFe615A06E74E6",
         "decimals": 18,
         "displaySymbol": "SRK",
@@ -1035,6 +1044,15 @@
         "website": "http://1.sg/"
     },
     {
+        "address": "0x0F7B3F5a8FeD821c5eb60049538a548dB2D479ce",
+        "decimals": 18,
+        "displaySymbol": "ATOR",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0F7B3F5a8FeD821c5eb60049538a548dB2D479ce/logo.png",
+        "name": "ATOR Protocol",
+        "symbol": "ATOR",
+        "website": "https://ator.io/"
+    },
+    {
         "address": "0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
         "decimals": 18,
         "displaySymbol": "PUNDIX",
@@ -1611,6 +1629,15 @@
         "website": "https://weown.com/"
     },
     {
+        "address": "0x14778860E937f509e651192a90589dE711Fb88a9",
+        "decimals": 18,
+        "displaySymbol": "CYBER",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x14778860E937f509e651192a90589dE711Fb88a9/logo.png",
+        "name": "CyberConnect",
+        "symbol": "CYBER",
+        "website": "https://cyberconnect.me/"
+    },
+    {
         "address": "0x147faF8De9d8D8DAAE129B187F0D02D819126750",
         "decimals": 18,
         "displaySymbol": "GEO",
@@ -1645,6 +1672,15 @@
         "name": "FXPay",
         "symbol": "FXP",
         "website": "https://fxpay.io/"
+    },
+    {
+        "address": "0x14feE680690900BA0ccCfC76AD70Fd1b95D10e16",
+        "decimals": 9,
+        "displaySymbol": "PAAL",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x14feE680690900BA0ccCfC76AD70Fd1b95D10e16/logo.png",
+        "name": "PAAL AI",
+        "symbol": "PAAL",
+        "website": "https://paalai.io/"
     },
     {
         "address": "0x151202C9c18e495656f372281F493EB7698961D5",
@@ -3582,6 +3618,24 @@
         "website": "https://reserve.org"
     },
     {
+        "address": "0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f",
+        "decimals": 18,
+        "displaySymbol": "EURe",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f/logo.png",
+        "name": "Monerium EUR emoney",
+        "symbol": "EURe",
+        "website": "https://monerium.com"
+    },
+    {
+        "address": "0x32353A6C91143bfd6C7d363B546e62a9A2489A20",
+        "decimals": 18,
+        "displaySymbol": "AGLD",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x32353A6C91143bfd6C7d363B546e62a9A2489A20/logo.png",
+        "name": "Adventure Gold",
+        "symbol": "AGLD",
+        "website": "https://www.lootproject.com/"
+    },
+    {
         "address": "0x32a7C02e79c4ea1008dD6564b35F131428673c41",
         "decimals": 18,
         "displaySymbol": "CRU",
@@ -4408,6 +4462,15 @@
         "name": "Bilaxy Token",
         "symbol": "BIA",
         "website": "https://bilaxy.com"
+    },
+    {
+        "address": "0x411099C0b413f4fedDb10Edf6a8be63BD321311C",
+        "decimals": 18,
+        "displaySymbol": "HELLO",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x411099C0b413f4fedDb10Edf6a8be63BD321311C/logo.png",
+        "name": "HELLO",
+        "symbol": "HELLO",
+        "website": "https://www.hello.one/"
     },
     {
         "address": "0x4123a133ae3c521FD134D7b13A2dEC35b56c2463",
@@ -6392,11 +6455,11 @@
     {
         "address": "0x6100dd79fCAA88420750DceE3F735d168aBcB771",
         "decimals": 18,
-        "displaySymbol": "SOON",
+        "displaySymbol": "OS",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6100dd79fCAA88420750DceE3F735d168aBcB771/logo.png",
-        "name": "NONbeta",
-        "symbol": "SOON",
-        "website": "https://nonnation.xyz"
+        "name": "Ethereans",
+        "symbol": "OS",
+        "website": "https://ethereans.app"
     },
     {
         "address": "0x6149C26Cd2f7b5CCdb32029aF817123F6E37Df5B",
@@ -6642,6 +6705,15 @@
         "website": "https://oneledger.io/"
     },
     {
+        "address": "0x64Bc2cA1Be492bE7185FAA2c8835d9b824c8a194",
+        "decimals": 18,
+        "displaySymbol": "BIGTIME",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x64Bc2cA1Be492bE7185FAA2c8835d9b824c8a194/logo.png",
+        "name": "Big Time",
+        "symbol": "BIGTIME",
+        "website": "https://bigtime.gg/"
+    },
+    {
         "address": "0x64CdF819d3E75Ac8eC217B3496d7cE167Be42e80",
         "decimals": 18,
         "displaySymbol": "IPL",
@@ -6883,6 +6955,15 @@
         "name": "Kylin",
         "symbol": "KYL",
         "website": "https://kylin.network/"
+    },
+    {
+        "address": "0x67F4C72a50f8Df6487720261E188F2abE83F57D7",
+        "decimals": 6,
+        "displaySymbol": "wPOKT",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x67F4C72a50f8Df6487720261E188F2abE83F57D7/logo.png",
+        "name": "Wrapped Pocket (wPOKT)",
+        "symbol": "wPOKT",
+        "website": "https://www.pokt.network"
     },
     {
         "address": "0x67c597624B17b16fb77959217360B7cD18284253",
@@ -7677,6 +7758,15 @@
         "website": "https://worldcore.com"
     },
     {
+        "address": "0x72c60bFffEF18dCa51db32b52b819A951b6Ddbed",
+        "decimals": 18,
+        "displaySymbol": "SHIDO",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x72c60bFffEF18dCa51db32b52b819A951b6Ddbed/logo.png",
+        "name": "Shido",
+        "symbol": "SHIDO",
+        "website": "https://shido.io/"
+    },
+    {
         "address": "0x72e364F2ABdC788b7E918bc238B21f109Cd634D7",
         "decimals": 18,
         "displaySymbol": "MVI",
@@ -7716,7 +7806,7 @@
         "address": "0x73C9275c3a2Dd84b5741fD59AEbF102C91Eb033F",
         "decimals": 18,
         "displaySymbol": "BTRS",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/ethereum/assets/0x73C9275c3a2Dd84b5741fD59AEbF102C91Eb033F/logo.png",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x73C9275c3a2Dd84b5741fD59AEbF102C91Eb033F/logo.png",
         "name": "BitBall Treasure",
         "symbol": "BTRS",
         "website": "https://bitball-btb.com"
@@ -7738,6 +7828,15 @@
         "name": "Strike Finance",
         "symbol": "STRK",
         "website": "https://strike.org"
+    },
+    {
+        "address": "0x7448c7456a97769F6cD04F1E83A4a23cCdC46aBD",
+        "decimals": 18,
+        "displaySymbol": "MAV",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7448c7456a97769F6cD04F1E83A4a23cCdC46aBD/logo.png",
+        "name": "Maverick Token",
+        "symbol": "MAV",
+        "website": "https://www.mav.xyz/"
     },
     {
         "address": "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E",
@@ -8350,6 +8449,15 @@
         "name": "Volt Inu",
         "symbol": "VOLT",
         "website": "https://voltinu.in"
+    },
+    {
+        "address": "0x7e877b99897D514da01bD1d177E693EC639961Af",
+        "decimals": 9,
+        "displaySymbol": "OGGY",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7e877b99897D514da01bD1d177E693EC639961Af/logo.png",
+        "name": "Oggy Inu (ETH)",
+        "symbol": "OGGY",
+        "website": "https://oggyinu.com/"
     },
     {
         "address": "0x7e9e431a0B8c4D532C745B1043c7FA29a48D4fBa",
@@ -13464,6 +13572,15 @@
         "website": "http://www.jarvisplus.com"
     },
     {
+        "address": "0xa2E3356610840701BDf5611a53974510Ae27E2e1",
+        "decimals": 18,
+        "displaySymbol": "wBETH",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa2E3356610840701BDf5611a53974510Ae27E2e1/logo.png",
+        "name": "Wrapped Binance Beacon ETH",
+        "symbol": "wBETH",
+        "website": "https://www.binance.com/en/wbeth"
+    },
+    {
         "address": "0xa311856B777Df090D2D3D8C306CaAf6e4DfD9AE9",
         "decimals": 18,
         "displaySymbol": "GMC",
@@ -14526,6 +14643,15 @@
         "website": "https://www.endor.com"
     },
     {
+        "address": "0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409",
+        "decimals": 18,
+        "displaySymbol": "FDUSD",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409/logo.png",
+        "name": "First Digital USD",
+        "symbol": "FDUSD",
+        "website": "https://firstdigitallabs.com"
+    },
+    {
         "address": "0xc5fB36dd2fb59d3B98dEfF88425a3F425Ee469eD",
         "decimals": 9,
         "displaySymbol": "TSUKA",
@@ -15295,7 +15421,7 @@
         "decimals": 18,
         "displaySymbol": "UTK",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdc9Ac3C20D1ed0B540dF9b1feDC10039Df13F99c/logo.png",
-        "name": "Utrust",
+        "name": "xMoney",
         "symbol": "UTK",
         "website": "https://utrust.com"
     },

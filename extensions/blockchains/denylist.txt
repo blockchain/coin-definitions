@@ -33,6 +33,7 @@
   {"symbol": "ETH", "name": "Base"},
   {"symbol": "ETH", "name": "Goerli Testnet"},
   {"symbol": "ETH", "name": "Optimism Goerli Testnet"},
+  {"symbol": "OETH", "name": "Optimistic Ethereum"},
   {"symbol": "ETH", "name": "Polygon zkEVM"},
   {"symbol": "ETH", "name": "Scroll"},
   {"symbol": "ETH", "name": "Sepolia Testnet"},

@@ -9,3 +9,9 @@
 # - https://polygonscan.com/token/0x5D49c278340655B56609FdF8976eb0612aF3a0C3 (Wrapped BTC (Portal)): https://www.wbtc.network/
 # 0x5D49c278340655B56609FdF8976eb0612aF3a0C3
 #
+# 'usdc' is shared by:
+# - https://polygonscan.com/token/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174 (USD Coin): https://centre.io/usdc
+# 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174
+# - https://polygonscan.com/token/0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359 (Native USD Coin (PoS)): https://centre.io/usdc
+0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359
+#
