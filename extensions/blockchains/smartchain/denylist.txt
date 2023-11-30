@@ -709,7 +709,7 @@
 #
 # 'token' is shared by:
 # - https://bscscan.com/token/0x3B73c1B2ea59835cbfcADade5462b6aB630D9890 (ChainSwap.com Governance Token): https://chainswap.com/
-# 0x3B73c1B2ea59835cbfcADade5462b6aB630D9890
+0x3B73c1B2ea59835cbfcADade5462b6aB630D9890
 # - https://bscscan.com/token/0x4507cEf57C46789eF8d1a19EA45f4216bae2B528 (TokenFi (TOKEN)): https://tokenfi.com
-0x4507cEf57C46789eF8d1a19EA45f4216bae2B528
+# 0x4507cEf57C46789eF8d1a19EA45f4216bae2B528
 #
