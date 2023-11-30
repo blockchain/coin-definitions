@@ -377,11 +377,11 @@
   },
   {
     "symbol": "OETH",
-    "name": "Optimistic Ethereum",
+    "name": "Ethereum",
     "key": "optimism",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/optimism/info/logo.png",
-    "website": "https://optimism.io/"
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/optimism/info/logo.png",
+    "website": "https://www.optimism.io/"
   },
   {
     "symbol": "SCRT",

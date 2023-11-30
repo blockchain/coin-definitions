@@ -1,0 +1,8 @@
+{
+  "name": "Ethereum",
+  "symbol": "OETH",
+  "type": "COIN",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://www.optimism.io/"
+}
