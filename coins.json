@@ -488,6 +488,14 @@
     "website": "https://www.umee.cc/"
   },
   {
+    "symbol": "VIC",
+    "name": "Viction",
+    "key": "tomochain",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/tomochain/info/logo.png",
+    "website": "https://viction.xyz/"
+  },
+  {
     "symbol": "XLM",
     "name": "Stellar Lumen",
     "key": "stellar",

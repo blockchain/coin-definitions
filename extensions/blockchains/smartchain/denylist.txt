@@ -50,7 +50,7 @@
 #
 # 'DAI' is shared by:
 # - https://bscscan.com/token/0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3 (Binance-Peg Dai Token): http://makerdao.com
-0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3
+# 0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3
 # - https://bscscan.com/token/0x3413a030EF81a3dD5a302F4B4D11d911e12ed337 (DAI (Portal)): https://makerdao.com/
 0x3413a030EF81a3dD5a302F4B4D11d911e12ed337
 #

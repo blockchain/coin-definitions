@@ -333,6 +333,15 @@
         "website": "https://reflexer.finance"
     },
     {
+        "address": "0x03dDe9e5BB31ee40A471476e2FCcF75C67921062",
+        "decimals": 18,
+        "displaySymbol": "EML",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x03dDe9e5BB31ee40A471476e2FCcF75C67921062/logo.png",
+        "name": "EML Protocol",
+        "symbol": "EML",
+        "website": "https://emlprotocol.io"
+    },
+    {
         "address": "0x0417912b3a7AF768051765040A55BB0925D4DDcF",
         "decimals": 18,
         "displaySymbol": "LID",
@@ -2095,6 +2104,15 @@
         "name": "Bitpanda Ecosystem Token",
         "symbol": "BEST",
         "website": "https://www.bitpanda.com/best"
+    },
+    {
+        "address": "0x1B6e9c73beE68102d9dd4A2627f97bFf4183ab0A",
+        "decimals": 18,
+        "displaySymbol": "OLE",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1B6e9c73beE68102d9dd4A2627f97bFf4183ab0A/logo.png",
+        "name": "Openleverage Token V2",
+        "symbol": "OLE",
+        "website": "https://openleverage.finance/"
     },
     {
         "address": "0x1B80eeeaDcC590f305945BCc258cFa770Bbe1890",
@@ -4023,6 +4041,15 @@
         "website": "https://amo.foundation"
     },
     {
+        "address": "0x38e382F74dfb84608F3C1F10187f6bEf5951DE93",
+        "decimals": 18,
+        "displaySymbol": "MUBI",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x38e382F74dfb84608F3C1F10187f6bEf5951DE93/logo.png",
+        "name": "MUBI",
+        "symbol": "MUBI",
+        "website": "https://multibit.exchange/"
+    },
+    {
         "address": "0x38e4adB44ef08F22F5B5b76A8f0c2d0dCbE7DcA1",
         "decimals": 18,
         "displaySymbol": "CVP",
@@ -5823,6 +5850,15 @@
         "website": "https://thecattoken.com/"
     },
     {
+        "address": "0x560363BdA52BC6A44CA6C8c9B4a5FadbDa32fa60",
+        "decimals": 18,
+        "displaySymbol": "SFUND",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x560363BdA52BC6A44CA6C8c9B4a5FadbDa32fa60/logo.png",
+        "name": "SeedifyFund",
+        "symbol": "SFUND",
+        "website": "https://seedify.fund"
+    },
+    {
         "address": "0x56325d180Ec3878A9028AfC7B0EDCEe7486Cc9df",
         "decimals": 18,
         "displaySymbol": "FTN",
@@ -6588,6 +6624,15 @@
         "website": "https://www.define.one/"
     },
     {
+        "address": "0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE",
+        "decimals": 18,
+        "displaySymbol": "BEAM",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE/logo.png",
+        "name": "Beam",
+        "symbol": "BEAM",
+        "website": "https://meritcircle.io/"
+    },
+    {
         "address": "0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78",
         "decimals": 8,
         "displaySymbol": "PEAK",
@@ -7186,7 +7231,7 @@
         "decimals": 18,
         "displaySymbol": "DAI",
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
-        "name": "Dai Stablecoin",
+        "name": "Dai",
         "symbol": "DAI",
         "website": "http://makerdao.com"
     },
