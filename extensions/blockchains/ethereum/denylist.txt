@@ -915,3 +915,15 @@
 # - https://etherscan.io/token/0xB37Db40e16a7CaaE38f1e4dbd6B1e44cfFe03072 (Silk): https://www.spidertanks.game/
 0xB37Db40e16a7CaaE38f1e4dbd6B1e44cfFe03072
 #
+# 'dyp' is shared by:
+# - https://etherscan.io/token/0x39b46B212bDF15b42B166779b9d1787A68b9D0c3 (Dypius): https://www.dypius.com/
+# 0x39b46B212bDF15b42B166779b9d1787A68b9D0c3
+# - https://etherscan.io/token/0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17 (Dypius): https://www.dypius.com/
+0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17
+#
+# 'ibit' is shared by:
+# - https://etherscan.io/token/0x8b385Ca3592A5EFc34E0C9fE663de56897F1751F (INFibit): https://infibit.org/
+0x8b385Ca3592A5EFc34E0C9fE663de56897F1751F
+# - https://etherscan.io/token/0xA3cB87080e68AD54D00573983D935Fa85d168FDE (InfinityBit Token): https://ibit.infinitybit.io/
+# 0xA3cB87080e68AD54D00573983D935Fa85d168FDE
+#
