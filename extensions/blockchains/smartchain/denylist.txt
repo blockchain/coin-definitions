@@ -489,7 +489,9 @@
 #
 # 'ole' is shared by:
 # - https://bscscan.com/token/0xa865197A84E780957422237B5D152772654341F3 (Openleverage Token): https://openleverage.finance/
-# 0xa865197A84E780957422237B5D152772654341F3
+0xa865197A84E780957422237B5D152772654341F3
+# - https://bscscan.com/token/0xB7E2713CF55cf4b469B5a8421Ae6Fc0ED18F1467 (Openleverage Token V2): https://openleverage.finance/
+# 0xB7E2713CF55cf4b469B5a8421Ae6Fc0ED18F1467
 # - https://bscscan.com/token/0xfb4b7ee058828b5fBF2e475dA88F1903f453334E (OleCoin): https://olecoin.io
 0xfb4b7ee058828b5fBF2e475dA88F1903f453334E
 #
@@ -712,4 +714,28 @@
 0x3B73c1B2ea59835cbfcADade5462b6aB630D9890
 # - https://bscscan.com/token/0x4507cEf57C46789eF8d1a19EA45f4216bae2B528 (TokenFi (TOKEN)): https://tokenfi.com
 # 0x4507cEf57C46789eF8d1a19EA45f4216bae2B528
+#
+# 'ai' is shared by:
+# - https://bscscan.com/token/0x2598c30330D5771AE9F983979209486aE26dE875 (Any Inu): https://www.anyinu.xyz/
+# 0x2598c30330D5771AE9F983979209486aE26dE875
+# - https://bscscan.com/token/0xBDA011D7F8EC00F66C1923B049B94c67d148d8b2 (AI Token): https://www.sleeplessai.net/home
+0xBDA011D7F8EC00F66C1923B049B94c67d148d8b2
+#
+# 'dyp' is shared by:
+# - https://bscscan.com/token/0x1a3264F2e7b1CFC6220ec9348d33cCF02Af7aaa4 (Dypius): https://www.dypius.com/
+# 0x1a3264F2e7b1CFC6220ec9348d33cCF02Af7aaa4
+# - https://bscscan.com/token/0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17 (Dypius): https://www.dypius.com/
+0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17
+#
+# 'grok' is shared by:
+# - https://bscscan.com/token/0x2e53414853f058A9BC14E052431008483bD85B4c (Grok): https://grokx.codes
+# 0x2e53414853f058A9BC14E052431008483bD85B4c
+# - https://bscscan.com/token/0xC53ca0d56C420E8f913316e84d2c492eDe99c61e (GROK): https://www.grokbsc.xyz/
+0xC53ca0d56C420E8f913316e84d2c492eDe99c61e
+#
+# 'usdt' is shared by:
+# - https://bscscan.com/token/0x4953d28b12D862250Cc96163A9C46Ae2B8ef52c5 (Teller USD): https://www.tellerusd.com
+0x4953d28b12D862250Cc96163A9C46Ae2B8ef52c5
+# - https://bscscan.com/token/0x55d398326f99059fF775485246999027B3197955 (Tether USD): https://tether.to
+# 0x55d398326f99059fF775485246999027B3197955
 #
