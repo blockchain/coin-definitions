@@ -7,9 +7,9 @@ from datetime import datetime
 from urllib.parse import urljoin
 
 from coin_gecko import fetch_coin_prices, fetch_token_prices, fetch_coin_descriptions, fetch_token_descriptions
-from common_classes import Asset, Blockchain, Coin, ERC20Token
+from common_classes import Asset, Blockchain, Coin, Token
 from statics import BLOCKCHAINS, EXT_BLOCKCHAINS_DENYLIST, EXT_BLOCKCHAINS, EXT_PRICES, FINAL_BLOCKCHAINS_LIST, \
-    ERC20_NETWORKS
+    NETWORKS
 
 
 def read_json(path, comment_marker=None):
@@ -99,17 +99,17 @@ def fetch_coins():
     return list(coins)
 
 
-def fetch_erc20_tokens(chain):
+def fetch_tokens(chain):
     # Fetch and parse all info.json files:
     assets_dir = f"assets/blockchains/{chain}/assets/"
-    print(f"Reading erc20 assets from {assets_dir}")
+    print(f"Reading tokens from {assets_dir}")
     assets = [Asset.from_dict(info) for key, info in read_assets(assets_dir)]
 
     # Keep only the active ones:
     assets = filter(lambda x: x.status == 'active', assets)
 
     # Convert to Token instances:
-    tokens = (ERC20Token.from_asset(asset, chain) for asset in assets)
+    tokens = (Token.from_asset(asset, chain) for asset in assets)
 
     return list(tokens)
 
@@ -122,8 +122,8 @@ def fetch_prices():
         "prices": fetch_coin_prices(coins)
     }
 
-    for network in ERC20_NETWORKS:
-        tokens = fetch_erc20_tokens(network.chain)
+    for network in NETWORKS:
+        tokens = fetch_tokens(network.chain)
         prices["prices"].update(fetch_token_prices(network, tokens))
 
     print(f"Writing coin prices to {EXT_PRICES}")
@@ -138,55 +138,55 @@ def build_coins_list():
     write_json(coins, FINAL_BLOCKCHAINS_LIST, sort_keys=False, indent=2)
 
 
-def build_erc20_tokens_list(erc20_network):
-    print(f"Generating token files for network \"{erc20_network.chain}\"")
-    tokens = fetch_erc20_tokens(erc20_network.chain)
+def build_tokens_list(network):
+    print(f"Generating token files for network \"{network.chain}\"")
+    tokens = fetch_tokens(network.chain)
 
-    print(f"Reading {erc20_network.symbol} asset prices from {EXT_PRICES}")
+    print(f"Reading {network.symbol} asset prices from {EXT_PRICES}")
     prices = read_json(EXT_PRICES)
 
     print(f"Tokens before price filter {len(tokens)}")
 
     # Clean up by price:
-    tokens = list(filter(lambda token: token.with_suffix(erc20_network).symbol in prices['prices'], tokens))
+    tokens = list(filter(lambda token: token.with_suffix(network).symbol in prices['prices'], tokens))
 
     print(f"Tokens after price filter {len(tokens)}")
 
     # Include already selected tokens (to make sure we don't remove a token we had previously selected)
-    print(f"Reading existing assets in {erc20_network.output_file}")
+    print(f"Reading existing assets in {network.output_file}")
     current_tokens = list(
-        map(lambda x: ERC20Token(**x).without_suffix(erc20_network), read_json(erc20_network.output_file)))
+        map(lambda x: Token(**x).without_suffix(network), read_json(network.output_file)))
     tokens = list(set(tokens) | set(current_tokens))
 
     # Make sure the asset is NOT in the denylist:
-    bc_denylist = set(map(lambda x: x.lower(), read_txt(f"extensions/blockchains/{erc20_network.chain}/denylist.txt")))
+    bc_denylist = set(map(lambda x: x.lower(), read_txt(f"extensions/blockchains/{network.chain}/denylist.txt")))
     tokens = filter(lambda x: x.address.lower() not in bc_denylist, tokens)
 
     # Make sure the asset is valid:
     tokens = filter(lambda x: x.is_valid(), tokens)
 
     # Merge with extensions:
-    extensions_path = f"extensions/blockchains/{erc20_network.chain}/assets/"
-    print(f"Reading {erc20_network.symbol} asset extensions from {extensions_path}")
+    extensions_path = f"extensions/blockchains/{network.chain}/assets/"
+    print(f"Reading {network.symbol} asset extensions from {extensions_path}")
     extensions = [Asset.from_dict(info) for key, info in read_assets(extensions_path)]
-    extensions = map(lambda ext: ERC20Token.from_asset(ext, erc20_network.chain), extensions)
+    extensions = map(lambda ext: Token.from_asset(ext, network.chain), extensions)
     tokens = sorted(set(extensions) | set(tokens), key=lambda t: t.address)
 
     # Look for duplicates:
     duplicates = find_duplicates(tokens, lambda t: t.symbol.lower())
 
     if duplicates:
-        dump_duplicates(duplicates, erc20_network.explorer_url)
+        dump_duplicates(duplicates, network.explorer_url)
         return
 
     # Add network suffix before final dump:
-    tokens = map(lambda token: token.with_suffix(erc20_network), tokens)
+    tokens = map(lambda token: token.with_suffix(network), tokens)
 
     # Convert back to plain dicts:
     tokens = list(map(asdict, tokens))
 
-    print(f"Writing {len(tokens)} tokens to {erc20_network.output_file}")
-    write_json(tokens, erc20_network.output_file)
+    print(f"Writing {len(tokens)} tokens to {network.output_file}")
+    write_json(tokens, network.output_file)
 
 
 def fetch_descriptions():
@@ -194,10 +194,10 @@ def fetch_descriptions():
     print(f"Fetching descriptions for {len(coins)} coins")
     descriptions = fetch_coin_descriptions(coins)
 
-    for erc20_network in ERC20_NETWORKS:
-        erc20_tokens = list(map(lambda x: ERC20Token.from_dict(x), read_json(erc20_network.output_file)))
-        print(f"Fetching descriptions for {len(erc20_tokens)} {erc20_network.symbol} tokens")
-        descriptions.update(fetch_token_descriptions(erc20_network, erc20_tokens))
+    for network in NETWORKS:
+        tokens = list(map(lambda x: Token.from_dict(x), read_json(network.output_file)))
+        print(f"Fetching descriptions for {len(tokens)} {network.symbol} tokens")
+        descriptions.update(fetch_token_descriptions(network, tokens))
 
     text_descriptions = {}
     descriptions_list = []
@@ -229,8 +229,8 @@ def main():
         fetch_descriptions()
     else:
         build_coins_list()
-        for erc20_network in ERC20_NETWORKS:
-            build_erc20_tokens_list(erc20_network)
+        for network in NETWORKS:
+            build_tokens_list(network)
 
 
 if __name__ == '__main__':

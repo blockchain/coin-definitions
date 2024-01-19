@@ -3,7 +3,7 @@ import operator
 from dataclasses import dataclass
 from functools import reduce
 
-from common_classes import Coin, ERC20Token
+from common_classes import Coin, Token
 from utils import read_json
 
 
@@ -41,7 +41,7 @@ class NabuSettings:
 
 
 @dataclass
-class Currency:
+class CustodyCurrency:
     symbol: str
     displaySymbol: str
     type: str
@@ -135,12 +135,12 @@ def check_logo(coin):
         yield Warning(coin, "No logo")
 
 
-def check_currencies(currencies, coins, erc20_tokens, chains, prices):
+def check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices):
     coins = {x.symbol: x for x in coins}
-    erc20_tokens = {x.symbol: x for x in erc20_tokens}
+    eth_erc20_tokens = {x.symbol: x for x in eth_erc20_tokens}
     chains = {k: {t.symbol: t for t in v} for k, v in chains.items()}
 
-    for currency in currencies:
+    for currency in custody_currencies:
         if currency.symbol.upper() != currency.symbol:
             yield Error(currency, f"Contains mix of lower and upper case letters")
 
@@ -151,7 +151,7 @@ def check_currencies(currencies, coins, erc20_tokens, chains, prices):
             # otherwise we must lookup in the appropriate chain:
             symbol, _, native = currency.symbol.partition(".")
             if native == "" or native == "ETH":
-                ref = erc20_tokens.get(currency.symbol)
+                ref = eth_erc20_tokens.get(currency.symbol)
             else:
                 ref = chains.get(native).get(currency.symbol)
         elif currency.type == "CELO_TOKEN":
@@ -169,22 +169,22 @@ def check_currencies(currencies, coins, erc20_tokens, chains, prices):
 
 def main():
     coins = list(map(lambda x: Coin.from_dict(x), read_json("coins.json")))
-    erc20_tokens = list(map(lambda x: ERC20Token.from_dict(x), read_json("erc20-tokens.json")))
+    eth_erc20_tokens = list(map(lambda x: Token.from_dict(x), read_json("erc20-tokens.json")))
     chains = list(map(lambda x: Chain(**x), read_json("chain/list.json")))
     chains = dict((c.native, read_json(c.tokens)) for c in chains)
-    chains = {k: list(map(lambda x: ERC20Token.from_dict(x), v)) for k, v in chains.items()}
-    other_erc20_tokens = [token for chain_tokens in chains.values() for token in chain_tokens]
+    chains = {k: list(map(lambda x: Token.from_dict(x), v)) for k, v in chains.items()}
+    other_tokens = [token for chain_tokens in chains.values() for token in chain_tokens]
 
-    currencies = map(lambda x: Currency(**x), read_json("custody.json"))
+    custody_currencies = map(lambda x: CustodyCurrency(**x), read_json("custody.json"))
 
-    combined = sorted(itertools.chain(coins, erc20_tokens, other_erc20_tokens), key=lambda x: x.symbol)
+    combined = sorted(itertools.chain(coins, eth_erc20_tokens, other_tokens), key=lambda x: x.symbol)
     duplicates = find_duplicates(combined, lambda t: t.symbol.upper())
 
     if duplicates:
         raise Exception(f"Duplicate elements found: {duplicates}")
 
     prices = read_json("extensions/prices.json")['prices']
-    issues = list(check_currencies(currencies, coins, erc20_tokens, chains, prices))
+    issues = list(check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices))
 
     print("")
     print(reduce(operator.add, map(lambda i: "\n- " + str(i), issues)))
