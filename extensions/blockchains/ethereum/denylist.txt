@@ -927,3 +927,9 @@
 # - https://etherscan.io/token/0xA3cB87080e68AD54D00573983D935Fa85d168FDE (InfinityBit Token): https://ibit.infinitybit.io/
 # 0xA3cB87080e68AD54D00573983D935Fa85d168FDE
 #
+# 'quick' is shared by:
+# - https://etherscan.io/token/0x6c28AeF8977c9B773996d0e8376d2EE379446F2f (QuickSwap): https://quickswap.exchange/
+0x6c28AeF8977c9B773996d0e8376d2EE379446F2f
+# - https://etherscan.io/token/0xd2bA23dE8a19316A638dc1e7a9ADdA1d74233368 (QuickSwap): https://quickswap.exchange/
+# 0xd2bA23dE8a19316A638dc1e7a9ADdA1d74233368
+#
