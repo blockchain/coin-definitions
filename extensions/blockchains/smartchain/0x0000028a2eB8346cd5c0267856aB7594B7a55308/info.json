@@ -1,0 +1,9 @@
+{
+    "name": "ZetaChain",
+    "website": "https://www.zetachain.com/",
+    "type": "ERC20",
+    "symbol": "ZETA",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x0000028a2eB8346cd5c0267856aB7594B7a55308"
+}
