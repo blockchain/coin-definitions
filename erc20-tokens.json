@@ -7551,15 +7551,6 @@
         "website": "https://bankroll.network/"
     },
     {
-        "address": "0x6c28AeF8977c9B773996d0e8376d2EE379446F2f",
-        "decimals": 18,
-        "displaySymbol": "QUICK",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6c28AeF8977c9B773996d0e8376d2EE379446F2f/logo.png",
-        "name": "QuickSwap",
-        "symbol": "QUICK",
-        "website": "https://quickswap.exchange/"
-    },
-    {
         "address": "0x6c5bA91642F10282b576d91922Ae6448C9d52f4E",
         "decimals": 18,
         "displaySymbol": "PHA",
@@ -8793,6 +8784,15 @@
         "website": "https://www.shih-tzu.org/"
     },
     {
+        "address": "0x8457CA5040ad67fdebbCC8EdCE889A335Bc0fbFB",
+        "decimals": 18,
+        "displaySymbol": "ALT",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8457CA5040ad67fdebbCC8EdCE889A335Bc0fbFB/logo.png",
+        "name": "AltLayer",
+        "symbol": "ALT",
+        "website": "https://altlayer.io/"
+    },
+    {
         "address": "0x84679bc467DC6c2c40ab04538813AfF3796351f1",
         "decimals": 18,
         "displaySymbol": "CHONK",
@@ -9124,6 +9124,15 @@
         "name": "Jarvis Network",
         "symbol": "JRT",
         "website": "https://jarvis.network"
+    },
+    {
+        "address": "0x8AB2ff0116A279a99950C66A12298962D152B83c",
+        "decimals": 18,
+        "displaySymbol": "ORDS",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8AB2ff0116A279a99950C66A12298962D152B83c/logo.png",
+        "name": "Ordiswap",
+        "symbol": "ORDS",
+        "website": "https://ordiswap.fi/"
     },
     {
         "address": "0x8Ab7404063Ec4DBcfd4598215992DC3F8EC853d7",
@@ -15228,6 +15237,15 @@
         "website": "https://x-doge.vip"
     },
     {
+        "address": "0xd2bA23dE8a19316A638dc1e7a9ADdA1d74233368",
+        "decimals": 18,
+        "displaySymbol": "QUICK",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd2bA23dE8a19316A638dc1e7a9ADdA1d74233368/logo.png",
+        "name": "QuickSwap",
+        "symbol": "QUICK",
+        "website": "https://quickswap.exchange/"
+    },
+    {
         "address": "0xd2d6158683aeE4Cc838067727209a0aAF4359de3",
         "decimals": 18,
         "displaySymbol": "BNTY",
@@ -16059,10 +16077,10 @@
         "address": "0xf091867EC603A6628eD83D274E835539D82e9cc8",
         "decimals": 18,
         "displaySymbol": "ZETA",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xf091867EC603A6628eD83D274E835539D82e9cc8/logo.png",
-        "name": "Zeta",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xf091867EC603A6628eD83D274E835539D82e9cc8/logo.png",
+        "name": "ZetaChain",
         "symbol": "ZETA",
-        "website": ""
+        "website": "https://www.zetachain.com/"
     },
     {
         "address": "0xf0A0F3A6FA6bED75345171a5EA18AbcadF6453BA",
@@ -16414,6 +16432,15 @@
         "name": "CPChain",
         "symbol": "CPC",
         "website": "http://www.cpchain.io/"
+    },
+    {
+        "address": "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
+        "decimals": 18,
+        "displaySymbol": "ONDO",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3/logo.png",
+        "name": "Ondo",
+        "symbol": "ONDO",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xfAd45E47083e4607302aa43c65fB3106F1cd7607",
