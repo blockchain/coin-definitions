@@ -1394,6 +1394,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "ZETA",
+    "displaySymbol": "ZETA",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "ZIL",
     "displaySymbol": "ZIL",
     "type": "COIN",
