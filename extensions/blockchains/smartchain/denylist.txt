@@ -739,3 +739,9 @@
 # - https://bscscan.com/token/0x55d398326f99059fF775485246999027B3197955 (Tether USD): https://tether.to
 # 0x55d398326f99059fF775485246999027B3197955
 #
+# 'orbs' is shared by:
+# - https://bscscan.com/token/0x43a8cab15D06d3a5fE5854D714C37E7E9246F170 (Orbs): https://orbs.com
+# 0x43a8cab15D06d3a5fE5854D714C37E7E9246F170
+# - https://bscscan.com/token/0xeBd49b26169e1b52c04cFd19FCf289405dF55F80 (Orbs): https://www.orbs.com
+0xeBd49b26169e1b52c04cFd19FCf289405dF55F80
+#
