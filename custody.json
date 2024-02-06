@@ -902,6 +902,24 @@
     "hwsSettings": null
   },
   {
+    "symbol": "OETH",
+    "displaySymbol": "OETH",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
+    "symbol": "OP.OETH",
+    "displaySymbol": "OP",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  }, 
+  {
     "symbol": "OXT",
     "displaySymbol": "OXT",
     "type": "ERC20",
