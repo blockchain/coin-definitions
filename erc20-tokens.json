@@ -918,6 +918,15 @@
         "website": "https://www.daex.io/"
     },
     {
+        "address": "0x0B6f3eA2814F3FFf804bA5D5c237aebbc364fba9",
+        "decimals": 18,
+        "displaySymbol": "UNA",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0B6f3eA2814F3FFf804bA5D5c237aebbc364fba9/logo.png",
+        "name": "Unagi Token (UNA)",
+        "symbol": "UNA",
+        "website": "https://unagi.games/"
+    },
+    {
         "address": "0x0C37Bcf456bC661C14D596683325623076D7e283",
         "decimals": 18,
         "displaySymbol": "ARNX",
@@ -2607,7 +2616,7 @@
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x21BfBDa47A0B4B5b1248c767Ee49F7caA9B23697/logo.png",
         "name": "OVR",
         "symbol": "OVR",
-        "website": "https://www.ovr.ai"
+        "website": "https://www.overthereality.ai/"
     },
     {
         "address": "0x21F3618937f954F8681C93673086d74426f63eb6",
@@ -2815,6 +2824,15 @@
         "name": "IUNGO token",
         "symbol": "ING",
         "website": "https://iungo.network"
+    },
+    {
+        "address": "0x24fcFC492C1393274B6bcd568ac9e225BEc93584",
+        "decimals": 18,
+        "displaySymbol": "MAVIA",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x24fcFC492C1393274B6bcd568ac9e225BEc93584/logo.png",
+        "name": "Heroes of Mavia",
+        "symbol": "MAVIA",
+        "website": "https://mavia.com"
     },
     {
         "address": "0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6",
@@ -5103,15 +5121,6 @@
         "website": "https://kattana.io"
     },
     {
-        "address": "0x4922a015c4407F87432B179bb209e125432E4a2A",
-        "decimals": 6,
-        "displaySymbol": "XAUt",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/ethereum/assets/0x4922a015c4407F87432B179bb209e125432E4a2A/logo.png",
-        "name": "Gold Tether",
-        "symbol": "XAUt",
-        "website": "https://tether.to/"
-    },
-    {
         "address": "0x4946Fcea7C692606e8908002e55A582af44AC121",
         "decimals": 18,
         "displaySymbol": "FOAM",
@@ -7099,6 +7108,15 @@
         "name": "GAT Token",
         "symbol": "GAT",
         "website": "https://www.gatcoin.io/"
+    },
+    {
+        "address": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+        "decimals": 6,
+        "displaySymbol": "XAUt",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x68749665FF8D2d112Fa859AA293F07A622782F38/logo.png",
+        "name": "Tether Gold",
+        "symbol": "XAUt",
+        "website": "https://gold.tether.to/"
     },
     {
         "address": "0x687BfC3E73f6af55F0CccA8450114D107E781a0e",
@@ -16252,6 +16270,15 @@
         "name": "Mark",
         "symbol": "MRK",
         "website": "http://markspace.io/"
+    },
+    {
+        "address": "0xf4CCcfDA0781ae019a9D4e1853DCd3E288Daaa89",
+        "decimals": 9,
+        "displaySymbol": "PINCHI",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xf4CCcfDA0781ae019a9D4e1853DCd3E288Daaa89/logo.png",
+        "name": "Da Pinchi",
+        "symbol": "PINCHI",
+        "website": "https://dapinchi.com"
     },
     {
         "address": "0xf4d2888d29D722226FafA5d9B24F9164c092421E",

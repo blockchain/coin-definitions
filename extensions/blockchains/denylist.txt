@@ -122,5 +122,7 @@
   {"symbol": "XNO", "name": "Nano"},
   {"symbol": "XRP", "name": "XRP"},
   {"symbol": "XVG", "name": "Verge"},
-  {"symbol": "ZEN", "name": "Horizen"}
+  {"symbol": "ZEN", "name": "Horizen"},
+  {"symbol": "ZETA", "name": "Native ZetaChain"},
+  {"symbol": "ZETA", "name": "ZetaChain"}
 ]

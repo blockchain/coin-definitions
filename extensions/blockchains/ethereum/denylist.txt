@@ -933,3 +933,9 @@
 # - https://etherscan.io/token/0xd2bA23dE8a19316A638dc1e7a9ADdA1d74233368 (QuickSwap): https://quickswap.exchange/
 # 0xd2bA23dE8a19316A638dc1e7a9ADdA1d74233368
 #
+# 'xaut' is shared by:
+# - https://etherscan.io/token/0x4922a015c4407F87432B179bb209e125432E4a2A (Gold Tether): https://tether.to/
+0x4922a015c4407F87432B179bb209e125432E4a2A
+# - https://etherscan.io/token/0x68749665FF8D2d112Fa859AA293F07A622782F38 (Tether Gold): https://gold.tether.to/
+# 0x68749665FF8D2d112Fa859AA293F07A622782F38
+#
