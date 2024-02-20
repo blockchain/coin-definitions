@@ -1,0 +1,24 @@
+# 'aleph' is shared by:
+# - https://solscan.io/token/3UCMiSnkcnkPE1pgQ5ggPCBv6dXgVUy16TmMUe1WpG9x (Aleph.im (Portal)): https://aleph.im/
+# 3UCMiSnkcnkPE1pgQ5ggPCBv6dXgVUy16TmMUe1WpG9x
+# - https://solscan.io/token/CsZ5LZkDS7h9TDKjrbL7VAwQZ9nsRu8vJLhRYfmGaN8K (Wrapped ALEPH (Sollet)): https://aleph.im/
+CsZ5LZkDS7h9TDKjrbL7VAwQZ9nsRu8vJLhRYfmGaN8K
+#
+# 'eth' is shared by:
+# - https://solscan.io/token/2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk (Wrapped ETH): https://ethereum.org/en/
+2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk
+# - https://solscan.io/token/7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs (Ether (Portal)): https://ethereum.org/en/
+# 7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs
+#
+# 'ftt' is shared by:
+# - https://solscan.io/token/AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3 (Wrapped FTX): https://ftx.com
+# AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3
+# - https://solscan.io/token/EzfgjvkSwthhgHaceR3LnKXUoRkP6NUhfghdaHAj1tUv (FTX Token (Portal)): https://ftx.com
+EzfgjvkSwthhgHaceR3LnKXUoRkP6NUhfghdaHAj1tUv
+#
+# 'usdt' is shared by:
+# - https://solscan.io/token/BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4 (Wrapped USDT): https://tether.to
+BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4
+# - https://solscan.io/token/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB (USDT): https://tether.to
+# Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB
+#

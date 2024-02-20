@@ -93,7 +93,7 @@ class Description:
 
 
 @dataclass
-class ERC20Token:
+class Token:
     address: str
     decimals: int
     displaySymbol: str
@@ -117,11 +117,11 @@ class ERC20Token:
 
     @staticmethod
     def from_asset(asset, chain):
-        return ERC20Token(
+        return Token(
             address=asset.id,
             decimals=asset.decimals,
             displaySymbol=asset.symbol,
-            logo=ERC20Token.build_token_logo(asset.id, chain),
+            logo=Token.build_token_logo(asset.id, chain),
             name=asset.name,
             symbol=asset.symbol,
             website=asset.website

@@ -35,6 +35,11 @@
     "tokens": "chain/optimism/tokens.json"
   },
   {
+    "chain": "solana",
+    "native": "SOL",
+    "tokens": "chain/solana/tokens.json"
+  },
+  {
     "chain": "tron",
     "native": "TRX",
     "tokens": "chain/tron/tokens.json"
