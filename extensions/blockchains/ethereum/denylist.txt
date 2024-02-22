@@ -939,3 +939,9 @@
 # - https://etherscan.io/token/0x68749665FF8D2d112Fa859AA293F07A622782F38 (Tether Gold): https://gold.tether.to/
 # 0x68749665FF8D2d112Fa859AA293F07A622782F38
 #
+# 'strk' is shared by:
+# - https://etherscan.io/address/0x74232704659ef37c08995e386A2E26cc27a8d7B1
+0x74232704659ef37c08995e386A2E26cc27a8d7B1
+# - https://etherscan.io/token/0xCa14007Eff0dB1f8135f4C25B34De49AB0d42766
+# 0xCa14007Eff0dB1f8135f4C25B34De49AB0d42766
+#
