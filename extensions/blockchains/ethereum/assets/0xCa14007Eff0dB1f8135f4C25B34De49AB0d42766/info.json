@@ -5,5 +5,6 @@
     "symbol": "STRK",
     "decimals": 18,
     "status": "active",
-    "id": "0xCa14007Eff0dB1f8135f4C25B34De49AB0d42766"
+    "id": "0xCa14007Eff0dB1f8135f4C25B34De49AB0d42766",
+    "displaySymbol": "STRK"
 }
