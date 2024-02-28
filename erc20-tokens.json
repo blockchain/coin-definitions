@@ -1476,6 +1476,15 @@
         "website": "https://amepay.io/"
     },
     {
+        "address": "0x1294f4183763743c7c9519Bec51773fb3aCD78FD",
+        "decimals": 18,
+        "displaySymbol": "FI",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1294f4183763743c7c9519Bec51773fb3aCD78FD/logo.png",
+        "name": "Fideum",
+        "symbol": "FI",
+        "website": "https://blockbank.ai/"
+    },
+    {
         "address": "0x12970E6868f88f6557B76120662c1B3E50A646bf",
         "decimals": 18,
         "displaySymbol": "LADYS",
@@ -2853,6 +2862,15 @@
         "website": "https://www.alveychain.com"
     },
     {
+        "address": "0x25931894a86D47441213199621F1F2994e1c39Aa",
+        "decimals": 18,
+        "displaySymbol": "CGPT",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x25931894a86D47441213199621F1F2994e1c39Aa/logo.png",
+        "name": "ChainGPT",
+        "symbol": "CGPT",
+        "website": "https://www.chaingpt.org/"
+    },
+    {
         "address": "0x25B6325f5BB1c1E03cfbC3e53F470E1F1ca022E3",
         "decimals": 18,
         "displaySymbol": "LML",
@@ -2883,10 +2901,10 @@
         "address": "0x26946adA5eCb57f3A1F91605050Ce45c482C9Eb1",
         "decimals": 8,
         "displaySymbol": "BSOV",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/ethereum/assets/0x26946adA5eCb57f3A1F91605050Ce45c482C9Eb1/logo.png",
-        "name": "BitcoinSoV",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x26946adA5eCb57f3A1F91605050Ce45c482C9Eb1/logo.png",
+        "name": "BSOV Token",
         "symbol": "BSOV",
-        "website": "https://www.btcsov.com/"
+        "website": "https://www.bsovtoken.com/"
     },
     {
         "address": "0x26DB5439F651CAF491A87d48799dA81F191bDB6b",
@@ -3229,6 +3247,15 @@
         "name": "UBCoin",
         "symbol": "UBC",
         "website": "https://ubcoin.io/"
+    },
+    {
+        "address": "0x2DC917b722184ECE1dCb9Bb9DDDfB1D63CcD25EB",
+        "decimals": 18,
+        "displaySymbol": "WHRH",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2DC917b722184ECE1dCb9Bb9DDDfB1D63CcD25EB/logo.png",
+        "name": "WHITE RHINOCEROS",
+        "symbol": "WHRH",
+        "website": "https://whrh-token.com/"
     },
     {
         "address": "0x2E95Cea14dd384429EB3c4331B776c4CFBB6FCD9",
@@ -3919,7 +3946,7 @@
         "decimals": 18,
         "displaySymbol": "OM",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3593D125a4f7849a1B059E64F4517A86Dd60c95d/logo.png",
-        "name": "MANTRA DAO",
+        "name": "MANTRA",
         "symbol": "OM",
         "website": "http://mantradao.com"
     },
@@ -7416,6 +7443,15 @@
         "website": "https://bonktoken.com/"
     },
     {
+        "address": "0x6D7497751656618Fc38CfB5478994a20F7E235df",
+        "decimals": 18,
+        "displaySymbol": "SPYRO",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6D7497751656618Fc38CfB5478994a20F7E235df/logo.png",
+        "name": "Spyro",
+        "symbol": "SPYRO",
+        "website": "https://spyro.vip/"
+    },
+    {
         "address": "0x6DD4e4Aad29A40eDd6A409b9c1625186C9855b4D",
         "decimals": 8,
         "displaySymbol": "GENE",
@@ -7914,9 +7950,9 @@
         "address": "0x74232704659ef37c08995e386A2E26cc27a8d7B1",
         "decimals": 18,
         "displaySymbol": "STRK",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x74232704659ef37c08995e386A2E26cc27a8d7B1/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x74232704659ef37c08995e386A2E26cc27a8d7B1/logo.png",
         "name": "Strike Finance",
-        "symbol": "STRK",
+        "symbol": "STRIKE",
         "website": "https://strike.org"
     },
     {
@@ -11923,6 +11959,15 @@
         "name": "DICE.FINANCE",
         "symbol": "DICE",
         "website": "https://dice.finance/"
+    },
+    {
+        "address": "0xCa14007Eff0dB1f8135f4C25B34De49AB0d42766",
+        "decimals": 18,
+        "displaySymbol": "STRK",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xCa14007Eff0dB1f8135f4C25B34De49AB0d42766/logo.png",
+        "name": "Starknet",
+        "symbol": "STRK",
+        "website": "https://www.starknet.io/en"
     },
     {
         "address": "0xCb5f72d37685C3D5aD0bB5F982443BC8FcdF570E",
@@ -16414,6 +16459,15 @@
         "name": "Indorse Token",
         "symbol": "IND",
         "website": "https://indorse.io"
+    },
+    {
+        "address": "0xf8ebf4849F1Fa4FaF0DFF2106A173D3A6CB2eB3A",
+        "decimals": 18,
+        "displaySymbol": "TROLL",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xf8ebf4849F1Fa4FaF0DFF2106A173D3A6CB2eB3A/logo.png",
+        "name": "TROLL",
+        "symbol": "TROLL",
+        "website": "https://www.trollface.vip"
     },
     {
         "address": "0xf911a7ec46a2c6fa49193212fe4a2a9B95851c27",

@@ -19,6 +19,7 @@ class Asset:
     symbol: str
     website: str
     status: str
+    displaySymbol: str = None
 
     @classmethod
     def from_dict(cls, dict_):
@@ -120,7 +121,7 @@ class Token:
         return Token(
             address=asset.id,
             decimals=asset.decimals,
-            displaySymbol=asset.symbol,
+            displaySymbol=asset.displaySymbol or asset.symbol,
             logo=Token.build_token_logo(asset.id, chain),
             name=asset.name,
             symbol=asset.symbol,
