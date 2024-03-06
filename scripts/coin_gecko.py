@@ -212,7 +212,7 @@ def get_coins_by_id(coins):
     for coin in coins:
         coin_gecko_id = coin_mappings.get(coin.symbol)
         if coin_gecko_id is not None:
-            coins_by_id[coin_gecko_id] = coin
+            coins_by_id.setdefault(coin_gecko_id, []).append(coin)
     return coins_by_id
 
 
@@ -223,7 +223,7 @@ def get_tokens_by_id(network, tokens):
         for token in tokens:
             coin = coin_list_by_platform_and_address.get((network_coin_gecko_id, token.address.lower()))
             if coin is not None:
-                tokens_by_id[coin.id] = token
+                tokens_by_id.setdefault(coin.id, []).append(token)
     return tokens_by_id
 
 
@@ -232,8 +232,7 @@ def fetch_coin_prices(coins):
     prices = {}
     for batch in map_chunked(CoinGeckoAPIClient.fetch_usd_markets, list(coins_by_id.keys()), BATCH_SIZE):
         for market in batch:
-            coin = coins_by_id.get(market.id)
-            if coin is not None:
+            for coin in coins_by_id.get(market.id):
                 prices[coin.symbol] = market.current_price
     return prices
 
@@ -243,8 +242,7 @@ def fetch_token_prices(network, tokens):
     prices = {}
     for batch in map_chunked(CoinGeckoAPIClient.fetch_usd_markets, list(tokens_by_id.keys()), BATCH_SIZE):
         for market in batch:
-            token = tokens_by_id[market.id]
-            if token is not None:
+            for token in tokens_by_id[market.id]:
                 prices[token.with_suffix(network).symbol] = market.current_price
     return prices
 
@@ -254,8 +252,8 @@ def fetch_coin_descriptions(coins):
     descriptions = {}
     for id, description in map_chunked(CoinGeckoAPIClient.get_coin_description, list(coins_by_id.keys()), 1):
         if description is not None:
-            coin = coins_by_id[id]
-            descriptions[coin.symbol] = description
+            for coin in coins_by_id[id]:
+                descriptions[coin.symbol] = description
     return descriptions
 
 
@@ -264,6 +262,6 @@ def fetch_token_descriptions(network, tokens):
     descriptions = {}
     for id, description in map_chunked(CoinGeckoAPIClient.get_coin_description, list(tokens_by_id.keys()), 1):
         if description is not None:
-            token = tokens_by_id[id]
-            descriptions[token.symbol] = description
+            for token in tokens_by_id[id]:
+                descriptions[token.symbol] = description
     return descriptions
