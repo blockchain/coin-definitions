@@ -884,6 +884,15 @@
     "hwsSettings": null
   },
   {
+    "symbol": "OETH",
+    "displaySymbol": "OETH",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "OGN",
     "displaySymbol": "OGN",
     "type": "ERC20",
@@ -914,13 +923,16 @@
     "hwsSettings": null
   },
   {
-    "symbol": "OETH",
-    "displaySymbol": "OETH",
-    "type": "COIN",
+    "symbol": "ONDO",
+    "displaySymbol": "ONDO",
+    "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "OXT",
