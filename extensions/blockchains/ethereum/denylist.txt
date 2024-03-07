@@ -893,9 +893,9 @@
 #
 # 'meme' is shared by:
 # - https://etherscan.io/token/0xD5525D397898e5502075Ea5E830d8914f6F0affe (MEME): https://dontbuymeme.com
-# 0xD5525D397898e5502075Ea5E830d8914f6F0affe
+0xD5525D397898e5502075Ea5E830d8914f6F0affe
 # - https://etherscan.io/token/0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74 (Memecoin): https://www.memecoin.org
-0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74
+# 0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74
 #
 # 'token' is shared by:
 # - https://etherscan.io/token/0x3B73c1B2ea59835cbfcADade5462b6aB630D9890 (ChainSwap.com Governance Token): https://chainswap.com/
