@@ -745,3 +745,21 @@
 # - https://bscscan.com/token/0xeBd49b26169e1b52c04cFd19FCf289405dF55F80 (Orbs): https://www.orbs.com
 0xeBd49b26169e1b52c04cFd19FCf289405dF55F80
 #
+# 'cat' is shared by:
+# - https://bscscan.com/token/0x0173295183685F27C84db046B5F0bea3e683c24b (Cat): https://www.catcattoken.com/
+0x0173295183685F27C84db046B5F0bea3e683c24b
+# - https://bscscan.com/token/0x59F4F336Bf3D0C49dBfbA4A74eBD2a6aCE40539A (Catcoin): https://catcoin.com
+# 0x59F4F336Bf3D0C49dBfbA4A74eBD2a6aCE40539A
+#
+# 'pirate' is shared by:
+# - https://bscscan.com/token/0x35f3fffFcb622bC9f64fA561D74e983Fd488D90c (PirateCash): https://p.cash/
+0x35f3fffFcb622bC9f64fA561D74e983Fd488D90c
+# - https://bscscan.com/token/0xaFCC12e4040615E7Afe9fb4330eB3D9120acAC05 (PirateCash): https://p.cash/
+# 0xaFCC12e4040615E7Afe9fb4330eB3D9120acAC05
+#
+# 'seed' is shared by:
+# - https://bscscan.com/token/0x40B34cC972908060D6d527276e17c105d224559d (TreeDefi): https://treedefi.com/
+0x40B34cC972908060D6d527276e17c105d224559d
+# - https://bscscan.com/token/0x6730f7A6BbB7b9C8e60843948f7FEB4B6a17B7F7 (Seed.Photo): https://seed.photo/
+# 0x6730f7A6BbB7b9C8e60843948f7FEB4B6a17B7F7
+#

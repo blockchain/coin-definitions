@@ -939,3 +939,9 @@
 # - https://etherscan.io/token/0x68749665FF8D2d112Fa859AA293F07A622782F38 (Tether Gold): https://gold.tether.to/
 # 0x68749665FF8D2d112Fa859AA293F07A622782F38
 #
+# 'ice' is shared by:
+# - https://etherscan.io/token/0x79F05c263055BA20EE0e814ACD117C20CAA10e0c (ICE Token): https://ice.io
+0x79F05c263055BA20EE0e814ACD117C20CAA10e0c
+# - https://etherscan.io/token/0xf16e81dce15B08F326220742020379B855B87DF9 (IceToken): https://popsicle.finance
+# 0xf16e81dce15B08F326220742020379B855B87DF9
+#
