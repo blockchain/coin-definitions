@@ -12258,15 +12258,6 @@
         "website": "https://curve.fi"
     },
     {
-        "address": "0xD5525D397898e5502075Ea5E830d8914f6F0affe",
-        "decimals": 8,
-        "displaySymbol": "MEME",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD5525D397898e5502075Ea5E830d8914f6F0affe/logo.png",
-        "name": "MEME",
-        "symbol": "MEME",
-        "website": "https://dontbuymeme.com"
-    },
-    {
         "address": "0xD5cd84D6f044AbE314Ee7E414d37cae8773ef9D3",
         "decimals": 18,
         "displaySymbol": "ONE",
@@ -14371,6 +14362,15 @@
         "name": "Lotto",
         "symbol": "LOTTO",
         "website": "https://www.lotto.finance/"
+    },
+    {
+        "address": "0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74",
+        "decimals": 18,
+        "displaySymbol": "MEME",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74/logo.png",
+        "name": "Memecoin",
+        "symbol": "MEME",
+        "website": "https://www.memecoin.org"
     },
     {
         "address": "0xb23d80f5FefcDDaa212212F028021B41DEd428CF",
