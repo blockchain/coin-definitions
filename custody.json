@@ -501,7 +501,7 @@
       "custodialPrecision": 9
     },
     "hwsSettings": {
-      "minConfirmations": 10000,
+      "minConfirmations": 3000,
       "minWithdrawal": 0
     }
   },
