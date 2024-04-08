@@ -829,7 +829,9 @@
 # - https://etherscan.io/token/0x3F7Aff0EF20AA2E646290DfA4E67611B2220C597 (Volt Inu): https://voltinu.in/
 0x3F7Aff0EF20AA2E646290DfA4E67611B2220C597
 # - https://etherscan.io/token/0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac (Volt Inu): https://voltinu.in
-# 0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac
+0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac
+# - https://etherscan.io/token/0x7f792db54B0e580Cdc755178443f0430Cf799aCa (Volt Inu): https://voltinu.in
+# 0x7f792db54B0e580Cdc755178443f0430Cf799aCa
 #
 # 'xft' is shared by:
 # - https://etherscan.io/token/0x76BC677d444f1E9d57dAf5187ee2b7dC852745aE (Offshift): https://offshift.io/
@@ -944,4 +946,10 @@
 0x79F05c263055BA20EE0e814ACD117C20CAA10e0c
 # - https://etherscan.io/token/0xf16e81dce15B08F326220742020379B855B87DF9 (IceToken): https://popsicle.finance
 # 0xf16e81dce15B08F326220742020379B855B87DF9
+#
+# 'usda' is shared by:
+# - https://etherscan.io/token/0x0000206329b97DB379d5E1Bf586BbDB969C63274 (USDA): https://www.angle.money/
+0x0000206329b97DB379d5E1Bf586BbDB969C63274
+# - https://etherscan.io/token/0x3C7b464376DB7C9927930cf50EEfDEA2EFF3A66A (USDA): https://usda.cc/en
+# 0x3C7b464376DB7C9927930cf50EEfDEA2EFF3A66A
 #

@@ -22,3 +22,9 @@ BQcdHdAQW1hczDbBi9hiegXAR7A98Q9jx3X3iBBBDiq4
 # - https://solscan.io/token/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB (USDT): https://tether.to
 # Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB
 #
+# 'shib' is shared by:
+# - https://solscan.io/token/CiKu4eHsVrc1eueVQeHn7qhXTcVu95gSQmBpX4utjL9z (Shiba Inu (Portal)): https://shibatoken.com/
+# CiKu4eHsVrc1eueVQeHn7qhXTcVu95gSQmBpX4utjL9z
+# - https://solscan.io/token/F6qoefQq4iCBLoNZ34RjEqHjHkD8vtmoRSdw9Nd55J1k (Shibwifhatcoin): https://shibwifcoin.com/
+F6qoefQq4iCBLoNZ34RjEqHjHkD8vtmoRSdw9Nd55J1k
+#

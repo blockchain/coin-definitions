@@ -763,3 +763,27 @@
 # - https://bscscan.com/token/0x6730f7A6BbB7b9C8e60843948f7FEB4B6a17B7F7 (Seed.Photo): https://seed.photo/
 # 0x6730f7A6BbB7b9C8e60843948f7FEB4B6a17B7F7
 #
+# 'catboy' is shared by:
+# - https://bscscan.com/token/0x0DceE5F694E492F0DD842a7FBE5BEd4C6E4665a6 (Catboy): https://www.catboy.io/
+# 0x0DceE5F694E492F0DD842a7FBE5BEd4C6E4665a6
+# - https://bscscan.com/token/0x39C3F75B837EAE0d6d0eA87425Ac99bD646a7B1E (CatBoy): https://catboytoken.com
+0x39C3F75B837EAE0d6d0eA87425Ac99bD646a7B1E
+#
+# 'minu' is shared by:
+# - https://bscscan.com/token/0xEA5E9F39F4B4Bc2684e49A0E43127F7f6F6be3b8 (Muu Inu): https://muuinu.com
+0xEA5E9F39F4B4Bc2684e49A0E43127F7f6F6be3b8
+# - https://bscscan.com/token/0xf48f91df403976060cC05dBbf8A0901b09fdeFd4 (Minu): https://www.minucoin.com/
+# 0xf48f91df403976060cC05dBbf8A0901b09fdeFd4
+#
+# 'revo' is shared by:
+# - https://bscscan.com/token/0x155040625D7ae3e9caDA9a73E3E44f76D3Ed1409 (Revomon): https://revomon.io/
+0x155040625D7ae3e9caDA9a73E3E44f76D3Ed1409
+# - https://bscscan.com/token/0xAab09b5cd1694d12c8c980306f5E2f5d65b00E1C (Revomon): https://revomon.io/
+# 0xAab09b5cd1694d12c8c980306f5E2f5d65b00E1C
+#
+# 'dexe' is shared by:
+# - https://bscscan.com/token/0x039cB485212f996A9DBb85A9a75d898F94d38dA6 (DEXE): https://dexe.network/
+0x039cB485212f996A9DBb85A9a75d898F94d38dA6
+# - https://bscscan.com/token/0x6E88056E8376Ae7709496Ba64d37fa2f8015ce3e (DEXE): https://dexe.network/
+# 0x6E88056E8376Ae7709496Ba64d37fa2f8015ce3e
+#
