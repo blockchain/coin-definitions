@@ -18,6 +18,7 @@
   {"symbol": "BNB", "name": "BNB Beacon Chain"},
   {"symbol": "BNB", "name": "opBNB"},
   {"symbol": "BOBAETH", "name": "Boba"},
+  {"symbol": "BTC", "name": "Merlin Mainnet"},
   {"symbol": "BTG", "name": "Bitcoin Gold"},
   {"symbol": "CELO", "name": "Celo"},
   {"symbol": "CFX", "name": "Conflux eSpace"},
