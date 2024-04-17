@@ -497,7 +497,7 @@
   },
   {
     "symbol": "XLM",
-    "name": "Stellar Lumen",
+    "name": "Stellar",
     "key": "stellar",
     "decimals": 7,
     "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/stellar/info/logo.png",
