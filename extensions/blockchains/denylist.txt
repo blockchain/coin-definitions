@@ -17,6 +17,7 @@
   {"symbol": "BNB", "name": "BNB Smart Chain"},
   {"symbol": "BNB", "name": "BNB Beacon Chain"},
   {"symbol": "BNB", "name": "opBNB"},
+  {"symbol": "BTC", "name": "Merlin Mainnet"},
   {"symbol": "BOBAETH", "name": "Boba"},
   {"symbol": "BTG", "name": "Bitcoin Gold"},
   {"symbol": "CELO", "name": "Celo"},
