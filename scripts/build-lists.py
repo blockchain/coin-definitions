@@ -9,7 +9,7 @@ from urllib.parse import urljoin
 from coin_gecko import fetch_coin_prices, fetch_token_prices, fetch_coin_descriptions, fetch_token_descriptions
 from common_classes import Asset, Blockchain, Coin, Token
 from statics import BLOCKCHAINS, EXT_BLOCKCHAINS_DENYLIST, EXT_BLOCKCHAINS, EXT_PRICES, FINAL_BLOCKCHAINS_LIST, \
-    NETWORKS
+    NETWORKS, EXT_OVERRIDES
 
 
 def read_json(path, comment_marker=None):
@@ -201,17 +201,19 @@ def fetch_descriptions():
 
     text_descriptions = {}
     descriptions_list = []
+    descriptions_overrides = read_json(EXT_OVERRIDES)['descriptions']
 
     for symbol, description in descriptions.items():
         if not description:
             pass
-        text_description = description.description
+        text_description = descriptions_overrides.get(symbol) or description.description
         text_descriptions[symbol] = text_description if text_description else ''
         descriptions_list.append({
             'symbol': symbol,
             'description': text_description,
             'websiteurl': description.website,
         })
+
 
     write_json(text_descriptions, './description/en.json')
     write_json(sorted(descriptions_list, key=lambda x: x['symbol']), './description/info.json')
