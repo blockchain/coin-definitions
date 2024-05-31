@@ -4008,7 +4008,7 @@
         "address": "0x3506424F91fD33084466F402d5D97f05F8e3b4AF",
         "decimals": 18,
         "displaySymbol": "CHZ",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3506424F91fD33084466F402d5D97f05F8e3b4AF/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x3506424F91fD33084466F402d5D97f05F8e3b4AF/logo.png",
         "name": "Chiliz",
         "symbol": "CHZ",
         "website": "https://chiliz.com"
