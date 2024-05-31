@@ -38,6 +38,7 @@
   {"symbol": "ETH", "name": "Manta Pacific"},
   {"symbol": "ETH", "name": "Optimism Goerli Testnet"},
   {"symbol": "OETH", "name": "Optimistic Ethereum"},
+  {"symbol": "ETH", "name": "Blast"},
   {"symbol": "ETH", "name": "Polygon zkEVM"},
   {"symbol": "ETH", "name": "Scroll"},
   {"symbol": "ETH", "name": "Sepolia Testnet"},
