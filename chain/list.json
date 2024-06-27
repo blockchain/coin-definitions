@@ -7,7 +7,7 @@
   },
   {
     "chain": "avalanchec",
-    "displayName": "Avalanche C-Chain",
+    "displayName": "Avalanche",
     "native": "AVAX",
     "tokens": "chain/avalanchec/tokens.json"
   },
