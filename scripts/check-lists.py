@@ -120,6 +120,7 @@ class CustodyCurrency:
 @dataclass
 class Chain:
     chain: str
+    displayName: str
     native: str
     tokens: str
 
