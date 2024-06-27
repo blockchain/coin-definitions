@@ -7,13 +7,13 @@
   },
   {
     "chain": "avalanchec",
-    "displayName": "Avalanche",
+    "displayName": "Avalanche C-Chain",
     "native": "AVAX",
     "tokens": "chain/avalanchec/tokens.json"
   },
   {
     "chain": "binance",
-    "displayName": "Binance",
+    "displayName": "Binance Smart Chain",
     "native": "BNB",
     "tokens": "chain/binance/tokens.json"
   },
@@ -49,7 +49,7 @@
   },
   {
     "chain": "tron",
-    "displayName": "Tron",
+    "displayName": "TRON",
     "native": "TRX",
     "tokens": "chain/tron/tokens.json"
   }
