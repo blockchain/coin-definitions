@@ -582,6 +582,8 @@
 0x209C1808FeBf6c1aB7C65764bb61AD67d3923fcc
 # - https://etherscan.io/token/0x4d224452801ACEd8B2F0aebE155379bb5D594381 (ApeCoin (APE)): https://apecoin.com
 # 0x4d224452801ACEd8B2F0aebE155379bb5D594381
+# - https://etherscan.io/token/0xa0385E7283C83e2871E9aF49EEC0966088421ddD (Ape): https://www.apetoken.lol/
+0xa0385E7283C83e2871E9aF49EEC0966088421ddD
 #
 # 'BONDLY' is shared by:
 # - https://etherscan.io/token/0x91dFbEE3965baAEE32784c2d546B7a0C62F268c9 (Bondly): https://www.bondly.finance
@@ -952,4 +954,35 @@
 0x0000206329b97DB379d5E1Bf586BbDB969C63274
 # - https://etherscan.io/token/0x3C7b464376DB7C9927930cf50EEfDEA2EFF3A66A (USDA): https://usda.cc/en
 # 0x3C7b464376DB7C9927930cf50EEfDEA2EFF3A66A
+#
+#
+# 'moov' is shared by:
+# - https://etherscan.io/token/0x24EC2Ca132abf8F6f8a6E24A1B97943e31f256a7 (dotmoovs): https://www.dotmoovs.com/
+0x24EC2Ca132abf8F6f8a6E24A1B97943e31f256a7
+# - https://etherscan.io/token/0x4116f14b6d462B32a1C10F98049E4B1765e34FA9 (dotmoovs): https://www.dotmoovs.com/
+# 0x4116f14b6d462B32a1C10F98049E4B1765e34FA9
+#
+# 'qanx' is shared by:
+# - https://etherscan.io/token/0xAAA7A10a8ee237ea61E8AC46C50A8Db8bCC1baaa (QANX Token): https://qanplatform.com
+0xAAA7A10a8ee237ea61E8AC46C50A8Db8bCC1baaa
+# - https://etherscan.io/token/0xAAA9214F675316182Eaa21C85f0Ca99160CC3AAA (QANX Token): https://qanplatform.com
+# 0xAAA9214F675316182Eaa21C85f0Ca99160CC3AAA
+#
+# 'spx' is shared by:
+# - https://etherscan.io/token/0x05aAaA829Afa407D83315cDED1d45EB16025910c (SP8DE Token): https://sp8de.com/
+0x05aAaA829Afa407D83315cDED1d45EB16025910c
+# - https://etherscan.io/token/0xE0f63A424a4439cBE457D80E4f4b51aD25b2c56C (SPX6900): https://www.spx6900.com/
+# 0xE0f63A424a4439cBE457D80E4f4b51aD25b2c56C
+#
+# 'type' is shared by:
+# - https://etherscan.io/token/0x443459D45c30A03f90037d011CbE22e2183d3b12 (TypeAI): https://www.typeai.live/
+# 0x443459D45c30A03f90037d011CbE22e2183d3b12
+# - https://etherscan.io/token/0xeaf61FC150CD5c3BeA75744e830D916E60EA5A9F (Typerium): https://www.typerium.io
+0xeaf61FC150CD5c3BeA75744e830D916E60EA5A9F
+#
+# 'wolf' is shared by:
+# - https://etherscan.io/token/0x33ABE795f9c1b6136608c36dB211bD7590f5FdAE (Landwolf): https://landwolfeth.io/
+0x33ABE795f9c1b6136608c36dB211bD7590f5FdAE
+# - https://etherscan.io/token/0x67466BE17df832165F8C80a5A120CCc652bD7E69 (Landwolf): https://boysclubwolf.com/
+# 0x67466BE17df832165F8C80a5A120CCc652bD7E69
 #

@@ -787,3 +787,33 @@
 # - https://bscscan.com/token/0x6E88056E8376Ae7709496Ba64d37fa2f8015ce3e (DEXE): https://dexe.network/
 # 0x6E88056E8376Ae7709496Ba64d37fa2f8015ce3e
 #
+# 'apx' is shared by:
+# - https://bscscan.com/token/0x2E8138054D64917703Af28D81629499318a047FA (Apex Token): https://apextoken.io/
+0x2E8138054D64917703Af28D81629499318a047FA
+# - https://bscscan.com/token/0x78F5d389F5CDCcFc41594aBaB4B0Ed02F31398b3 (ApolloX Token): https://www.apollox.com/en/APX
+# 0x78F5d389F5CDCcFc41594aBaB4B0Ed02F31398b3
+#
+# 'bfloki' is shared by:
+# - https://bscscan.com/token/0x02a9D7162BD73c2b35c5Cf6cDD585e91928c850A (Baby Floki Inu): https://babyflokiinu.finance
+0x02a9D7162BD73c2b35c5Cf6cDD585e91928c850A
+# - https://bscscan.com/token/0x79CDc9cA057E16dFfd45BD803491f328f49e1762 (BitFloki): https://bitfloki.io/
+# 0x79CDc9cA057E16dFfd45BD803491f328f49e1762
+#
+# 'elf' is shared by:
+# - https://bscscan.com/token/0x56D594D76b37BE83C54aBF8a4747D60CE58D32C2 (ELF wallet): https://www.teddywallet.io
+0x56D594D76b37BE83C54aBF8a4747D60CE58D32C2
+# - https://bscscan.com/token/0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9 (aelf): http://aelf.io
+# 0xa3f020a5C92e15be13CAF0Ee5C95cF79585EeCC9
+#
+# 'mbc' is shared by:
+# - https://bscscan.com/token/0x551FAAB1027Cc50eFAeA5BED092E330475C3Cd99 (MonbaseCoin): https://monbase.com/
+# 0x551FAAB1027Cc50eFAeA5BED092E330475C3Cd99
+# - https://bscscan.com/token/0xF14D3692B0055Db9Ca4c04065165d59B87E763f1 (MetaBUSDCoin): https://metabusdcoin.com/
+0xF14D3692B0055Db9Ca4c04065165d59B87E763f1
+#
+# 'zed' is shared by:
+# - https://bscscan.com/token/0x5C999E15B71de2bb8e651f0f999FB0Bc321a0DFe (ZedDex): https://zeddex.com
+# 0x5C999E15B71de2bb8e651f0f999FB0Bc321a0DFe
+# - https://bscscan.com/token/0xd79D8Fa7B9E4eE8a4a2fFA1744C9f480096e9684 (ZedDex from ZEDX): https://zedscan.net
+0xd79D8Fa7B9E4eE8a4a2fFA1744C9f480096e9684
+#
