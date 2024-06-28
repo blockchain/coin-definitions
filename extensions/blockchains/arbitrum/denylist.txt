@@ -22,3 +22,27 @@
 # - https://arbiscan.io/token/0xd4d42f0b6def4ce0383636770ef773390d85c61a (SushiToken): https://www.sushi.com/
 0xd4d42f0b6def4ce0383636770ef773390d85c61a
 #
+# 'dodo' is shared by:
+# - https://arbiscan.io/token/0x69Eb4FA4a2fbd498C257C57Ea8b7655a2559A581 (DODO): https://dodoex.io/
+# 0x69Eb4FA4a2fbd498C257C57Ea8b7655a2559A581
+# - https://arbiscan.io/token/0x69eb4fa4a2fbd498c257c57ea8b7655a2559a581 (DODO): https://dodoex.io/
+0x69eb4fa4a2fbd498c257c57ea8b7655a2559a581
+#
+# 'frax' is shared by:
+# - https://arbiscan.io/token/0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F (Frax): https://frax.finance/
+# 0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F
+# - https://arbiscan.io/token/0x17fc002b466eec40dae837fc4be5c67993ddbd6f (Frax): https://frax.finance
+0x17fc002b466eec40dae837fc4be5c67993ddbd6f
+#
+# 'uni' is shared by:
+# - https://arbiscan.io/token/0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0 (Uniswap): https://uniswap.org
+# 0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0
+# - https://arbiscan.io/token/0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0 (Uniswap): https://uniswap.org/
+0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0
+#
+# 'wbtc' is shared by:
+# - https://arbiscan.io/token/0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f (Wrapped BTC): https://wbtc.network/
+# 0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f
+# - https://arbiscan.io/token/0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f (Wrapped BTC): https://wbtc.network/
+0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f
+#

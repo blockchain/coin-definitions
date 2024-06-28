@@ -9,6 +9,7 @@
   {"symbol": "AVAX", "name": "Avalanche X-Chain"},
   {"symbol": "AXL", "name": "Axelar"},
   {"symbol": "BAND", "name": "BandChain"},
+  {"symbol": "BB", "name": "BounceBit"},
   {"symbol": "BCD", "name": "Bitcoin Diamond"},
   {"symbol": "BCH", "name": "smartBCH"},
   {"symbol": "BLZ", "name": "Bluzelle"},
@@ -126,5 +127,6 @@
   {"symbol": "XVG", "name": "Verge"},
   {"symbol": "ZEN", "name": "Horizen"},
   {"symbol": "ZETA", "name": "Native ZetaChain"},
-  {"symbol": "ZETA", "name": "ZetaChain"}
+  {"symbol": "ZETA", "name": "ZetaChain"},
+  {"symbol": "ZKL", "name": "zkLink"}
 ]
