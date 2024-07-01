@@ -1,46 +1,55 @@
 [
   {
     "chain": "arbitrum",
+    "displayName": "Arbitrum",
     "native": "ARBETH",
     "tokens": "chain/arbitrum/tokens.json"
   },
   {
     "chain": "avalanchec",
+    "displayName": "Avalanche",
     "native": "AVAX",
     "tokens": "chain/avalanchec/tokens.json"
   },
   {
     "chain": "binance",
+    "displayName": "Binance Smart Chain",
     "native": "BNB",
     "tokens": "chain/binance/tokens.json"
   },
   {
     "chain": "celo",
+    "displayName": "Celo",
     "native": "CELO",
     "tokens": "chain/celo/tokens.json"
   },
   {
     "chain": "chiliz",
+    "displayName": "Chiliz",
     "native": "CHZ",
     "tokens": "chain/chiliz/tokens.json"
   },
   {
     "chain": "polygon",
+    "displayName": "Polygon",
     "native": "MATIC",
     "tokens": "chain/polygon/tokens.json"
   },
   {
     "chain": "optimism",
+    "displayName": "Optimism",
     "native": "OETH",
     "tokens": "chain/optimism/tokens.json"
   },
   {
     "chain": "solana",
+    "displayName": "Solana",
     "native": "SOL",
     "tokens": "chain/solana/tokens.json"
   },
   {
     "chain": "tron",
+    "displayName": "TRON",
     "native": "TRX",
     "tokens": "chain/tron/tokens.json"
   }
