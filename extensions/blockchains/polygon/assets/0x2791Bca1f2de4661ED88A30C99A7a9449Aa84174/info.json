@@ -1,8 +1,8 @@
 {
-    "name": "USD Coin",
-    "website": "https://centre.io/usdc",
+    "name": "USD Coin (PoS) (USDC.e)",
+    "website": "https://www.circle.com/en/usdc",
     "type": "ERC20",
-    "symbol": "USDC",
+    "symbol": "USDCe",
     "decimals": 6,
     "status": "active",
     "id": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
