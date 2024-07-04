@@ -4851,6 +4851,15 @@
         "website": "https://blackpearlchain.io/"
     },
     {
+        "address": "0x426a688eE72811773eB64F5717A32981B56F10c1",
+        "decimals": 18,
+        "displaySymbol": "AMC",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x426a688eE72811773eB64F5717A32981B56F10c1/logo.png",
+        "name": "AMC",
+        "symbol": "AMC",
+        "website": "https://www.americasmemecoin.com/"
+    },
+    {
         "address": "0x4270bb238f6DD8B1c3ca01f96CA65b2647c06D3C",
         "decimals": 18,
         "displaySymbol": "FOTA",
@@ -6982,6 +6991,15 @@
         "name": "Tap",
         "symbol": "XTP",
         "website": "https://www.tap.global"
+    },
+    {
+        "address": "0x636bd98fC13908e475F56d8a38a6e03616Ec5563",
+        "decimals": 18,
+        "displaySymbol": "WAT",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x636bd98fC13908e475F56d8a38a6e03616Ec5563/logo.png",
+        "name": "Wat",
+        "symbol": "WAT",
+        "website": "https://wat0x63.com/"
     },
     {
         "address": "0x63B8b7d4A3EFD0735c4BFFBD95B332a55e4eB851",
@@ -10881,6 +10899,15 @@
         "website": "https://gamb.io"
     },
     {
+        "address": "0xA01199c61841Fce3b3daFB83FeFC1899715c8756",
+        "decimals": 18,
+        "displaySymbol": "CIRUS",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA01199c61841Fce3b3daFB83FeFC1899715c8756/logo.png",
+        "name": "Cirus",
+        "symbol": "CIRUS",
+        "website": "https://cirusfoundation.com/"
+    },
+    {
         "address": "0xA0Ef786Bf476fE0810408CaBA05E536aC800ff86",
         "decimals": 18,
         "displaySymbol": "MYRIA",
@@ -12699,6 +12726,15 @@
         "website": "https://electrify.asia"
     },
     {
+        "address": "0xD4F4D0a10BcaE123bB6655E8Fe93a30d01eEbD04",
+        "decimals": 18,
+        "displaySymbol": "LNQ",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD4F4D0a10BcaE123bB6655E8Fe93a30d01eEbD04/logo.png",
+        "name": "LinqAI",
+        "symbol": "LNQ",
+        "website": "https://www.linqai.com/"
+    },
+    {
         "address": "0xD533a949740bb3306d119CC777fa900bA034cd52",
         "decimals": 18,
         "displaySymbol": "CRV",
@@ -12861,6 +12897,15 @@
         "website": "https://kardiachain.io/"
     },
     {
+        "address": "0xDB0238975Ce84f89212FFA56C64C0f2b47F8f153",
+        "decimals": 18,
+        "displaySymbol": "Flork",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xDB0238975Ce84f89212FFA56C64C0f2b47F8f153/logo.png",
+        "name": "HeyFlork",
+        "symbol": "Flork",
+        "website": "https://flork.io/"
+    },
+    {
         "address": "0xDB7Eab9bA6be88B869F738f6DEeBa96d49Fe13fd",
         "decimals": 18,
         "displaySymbol": "BOOM",
@@ -12955,7 +13000,7 @@
         "decimals": 18,
         "displaySymbol": "COW",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xDEf1CA1fb7FBcDC777520aa7f396b4E015F497aB/logo.png",
-        "name": "COW",
+        "name": "CoW Protocol Token",
         "symbol": "COW",
         "website": "https://cow.fi"
     },
