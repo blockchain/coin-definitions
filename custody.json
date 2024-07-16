@@ -1304,6 +1304,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "USDT.SOL",
+    "displaySymbol": "USDT",
+    "type": "SOL_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings":  {
+      "minConfirmations": 1,
+      "minWithdrawal": 0.1
+    }
+  },
+  {
     "symbol": "USDT.TRX",
     "displaySymbol": "USDT",
     "type": "ERC20",
