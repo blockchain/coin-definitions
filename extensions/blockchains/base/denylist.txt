@@ -1,0 +1,12 @@
+# 'base' is shared by:
+# - https://basescan.org/token/0xF1B4ddF712E108cf43711B1C39f2fDDb0d5Ce243 (BrianArmstrongCoinbaseUSDC2012Normie): https://brianarmstrongcoinbaseusdc2012normie.com
+0xF1B4ddF712E108cf43711B1C39f2fDDb0d5Ce243
+# - https://basescan.org/token/0xd07379a755A8f11B57610154861D694b2A0f615a (BASE): https://swapbased.finance/
+# 0xd07379a755A8f11B57610154861D694b2A0f615a
+#
+# 'chomp' is shared by:
+# - https://basescan.org/token/0x9DE16c805A3227b9b92e39a446F9d56cf59fe640 (Bento): https://basedbento.com/
+0x9DE16c805A3227b9b92e39a446F9d56cf59fe640
+# - https://basescan.org/token/0xebfF2db643Cf955247339c8c6bCD8406308ca437 (ChompCoin): https://chompcoin.xyz/
+# 0xebfF2db643Cf955247339c8c6bCD8406308ca437
+#
