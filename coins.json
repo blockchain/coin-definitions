@@ -64,20 +64,20 @@
     "website": "http://avax.network"
   },
   {
+    "symbol": "BASEETH",
+    "name": "Ethereum",
+    "key": "base",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/base/info/logo.png",
+    "website": "https://www.base.org/"
+  },
+  {
     "symbol": "BCH",
     "name": "Bitcoin Cash",
     "key": "bitcoincash",
     "decimals": 8,
     "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/bitcoincash/info/logo.png",
     "website": "https://bitcoincash.org/"
-  },
-  {
-    "symbol": "BETH",
-    "name": "Ethereum",
-    "key": "base",
-    "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/base/info/logo.png",
-    "website": "https://www.base.org/"
   },
   {
     "symbol": "BLD",

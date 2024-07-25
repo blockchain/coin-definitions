@@ -204,8 +204,8 @@
     }
   },
   {
-    "symbol": "BETH",
-    "displaySymbol": "BETH",
+    "symbol": "BASEETH",
+    "displaySymbol": "BASEETH",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -1280,7 +1280,7 @@
     }
   },
   {
-    "symbol": "USDC.BETH",
+    "symbol": "USDC.BASEETH",
     "displaySymbol": "USDC",
     "type": "ERC20",
     "nabuSettings": {

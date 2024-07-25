@@ -56,7 +56,7 @@
   {
     "chain": "base",
     "displayName": "Base",
-    "native": "BETH",
+    "native": "BASEETH",
     "tokens": "chain/base/tokens.json"
   }
 ]

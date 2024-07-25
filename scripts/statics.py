@@ -85,7 +85,7 @@ NETWORKS = [
     ),
     Network(
         chain="base",
-        symbol="BETH",
+        symbol="BASEETH",
         output_file="chain/base/tokens.json",
         explorer_url="https://basescan.org/token/"
     )
