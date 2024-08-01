@@ -22,6 +22,7 @@ coin_mappings = {
     "AVAX": "avalanche-2",
     "BCH": "bitcoin-cash",
     "BLD": "agoric",
+    "BASEETH": "ethereum",
     "BNB": "binancecoin",
     "BSV": "bitcoin-cash-sv",
     "BTC": "bitcoin",
@@ -82,6 +83,7 @@ coin_mappings = {
 network_mappings = {
     "ARBETH": "arbitrum-one",
     "AVAX": "avalanche",
+    "BASEETH": "base",
     "BNB": "binance-smart-chain",
     "CELO": "celo",
     "CHZ": "chiliz",

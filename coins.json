@@ -64,6 +64,14 @@
     "website": "http://avax.network"
   },
   {
+    "symbol": "BASEETH",
+    "name": "Ethereum",
+    "key": "base",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/base/info/logo.png",
+    "website": "https://www.base.org/"
+  },
+  {
     "symbol": "BCH",
     "name": "Bitcoin Cash",
     "key": "bitcoincash",

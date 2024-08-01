@@ -52,5 +52,11 @@
     "displayName": "TRON",
     "native": "TRX",
     "tokens": "chain/tron/tokens.json"
+  },
+  {
+    "chain": "base",
+    "displayName": "Base",
+    "native": "BASEETH",
+    "tokens": "chain/base/tokens.json"
   }
 ]
