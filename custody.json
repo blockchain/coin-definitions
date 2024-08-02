@@ -210,7 +210,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings":  {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "BNB",
@@ -1287,7 +1290,7 @@
       "custodialPrecision": 6
     },
     "hwsSettings": {
-      "minConfirmations": 128,
+      "minConfirmations": 64,
       "minWithdrawal": 0
     }
   },
