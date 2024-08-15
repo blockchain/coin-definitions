@@ -1422,6 +1422,15 @@
         "website": "https://cdiamondcoin.com"
     },
     {
+        "address": "0x10dea67478c5F8C5E2D90e5E9B26dBe60c54d800",
+        "decimals": 18,
+        "displaySymbol": "TAIKO",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x10dea67478c5F8C5E2D90e5E9B26dBe60c54d800/logo.png",
+        "name": "Taiko Token",
+        "symbol": "TAIKO",
+        "website": "https://taiko.xyz/"
+    },
+    {
         "address": "0x11003E410ca3FcD220765B3d2f343433A0b2bffd",
         "decimals": 18,
         "displaySymbol": "METH",
@@ -3233,10 +3242,10 @@
     {
         "address": "0x292fcDD1B104DE5A00250fEBbA9bC6A5092A0076",
         "decimals": 18,
-        "displaySymbol": "HashAI",
+        "displaySymbol": "HASHAI",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x292fcDD1B104DE5A00250fEBbA9bC6A5092A0076/logo.png",
         "name": "HashAI",
-        "symbol": "HashAI",
+        "symbol": "HASHAI",
         "website": "https://hashai.cc"
     },
     {
@@ -4669,6 +4678,15 @@
         "name": "ShinCoin",
         "symbol": "SCOIN",
         "website": "https://www.shincoin.io"
+    },
+    {
+        "address": "0x3fFEea07a27Fab7ad1df5297fa75e77a43CB5790",
+        "decimals": 18,
+        "displaySymbol": "PEIPEI",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3fFEea07a27Fab7ad1df5297fa75e77a43CB5790/logo.png",
+        "name": "PeiPei",
+        "symbol": "PEIPEI",
+        "website": "https://peipeicoin.vip"
     },
     {
         "address": "0x40395044Ac3c0C57051906dA938B54BD6557F212",
@@ -7846,6 +7864,15 @@
         "name": "Kangal",
         "symbol": "KANGAL",
         "website": "https://www.kangaltoken.com"
+    },
+    {
+        "address": "0x6E79B51959CF968d87826592f46f819F92466615",
+        "decimals": 9,
+        "displaySymbol": "HOPPY",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6E79B51959CF968d87826592f46f819F92466615/logo.png",
+        "name": "Hoppy",
+        "symbol": "HOPPY",
+        "website": "https://hoppycoinerc20.com"
     },
     {
         "address": "0x6EC8a24CaBdc339A06a172F8223ea557055aDAa5",
@@ -13518,6 +13545,15 @@
         "website": "https://zippie.org/"
     },
     {
+        "address": "0xEE2a03Aa6Dacf51C18679C516ad5283d8E7C2637",
+        "decimals": 9,
+        "displaySymbol": "NEIRO",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEE2a03Aa6Dacf51C18679C516ad5283d8E7C2637/logo.png",
+        "name": "Neiro",
+        "symbol": "NEIRO",
+        "website": "https://www.neirocoin.xyz"
+    },
+    {
         "address": "0xEED736b2b809550D89A941C2005dE93588c628e2",
         "decimals": 18,
         "displaySymbol": "ETHP",
@@ -15363,6 +15399,15 @@
         "website": "https://intchain.io/"
     },
     {
+        "address": "0xbe0Ed4138121EcFC5c0E56B40517da27E6c5226B",
+        "decimals": 18,
+        "displaySymbol": "ATH",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xbe0Ed4138121EcFC5c0E56B40517da27E6c5226B/logo.png",
+        "name": "Aethir",
+        "symbol": "ATH",
+        "website": "https://www.aethir.com/"
+    },
+    {
         "address": "0xbededDf2eF49E87037c4fb2cA34d1FF3D3992A11",
         "decimals": 18,
         "displaySymbol": "FEG",
@@ -15957,6 +16002,15 @@
         "website": "http://www.webflix.io"
     },
     {
+        "address": "0xd12A99dbC40036CEc6f1b776dccd2d36f5953B94",
+        "decimals": 9,
+        "displaySymbol": "DRAGGY",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd12A99dbC40036CEc6f1b776dccd2d36f5953B94/logo.png",
+        "name": "Draggy",
+        "symbol": "DRAGGY",
+        "website": "https://draggy.co/"
+    },
+    {
         "address": "0xd1AFBCCC9A2c2187ea544363B986EA0AB6EF08B5",
         "decimals": 18,
         "displaySymbol": "ETHY",
@@ -16402,7 +16456,7 @@
         "decimals": 18,
         "displaySymbol": "DEXE",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xde4EE8057785A7e8e800Db58F9784845A5C2Cbd6/logo.png",
-        "name": "DEXE",
+        "name": "DeXe",
         "symbol": "DEXE",
         "website": "https://dexe.network/"
     },
@@ -17404,6 +17458,15 @@
         "name": "Amp",
         "symbol": "AMP",
         "website": "https://amptoken.org"
+    },
+    {
+        "address": "0xfF836A5821E69066c87E268bC51b849FaB94240C",
+        "decimals": 18,
+        "displaySymbol": "SMURFCAT",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xfF836A5821E69066c87E268bC51b849FaB94240C/logo.png",
+        "name": "Real Smurf Cat",
+        "symbol": "SMURFCAT",
+        "website": "https://smurfcat.eth.limo"
     },
     {
         "address": "0xfa05A73FfE78ef8f1a739473e462c54bae6567D9",

@@ -817,3 +817,9 @@
 # - https://bscscan.com/token/0xd79D8Fa7B9E4eE8a4a2fFA1744C9f480096e9684 (ZedDex from ZEDX): https://zedscan.net
 0xd79D8Fa7B9E4eE8a4a2fFA1744C9f480096e9684
 #
+# 'ice' is shared by:
+# - https://bscscan.com/token/0xc335Df7C25b72eEC661d5Aa32a7c2B7b2a1D1874 (Ice Open Network): https://ice.io
+# 0xc335Df7C25b72eEC661d5Aa32a7c2B7b2a1D1874
+# - https://bscscan.com/token/0xf16e81dce15B08F326220742020379B855B87DF9 (IceToken): https://popsicle.finance
+0xf16e81dce15B08F326220742020379B855B87DF9
+#

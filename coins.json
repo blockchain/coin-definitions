@@ -392,6 +392,14 @@
     "website": "https://www.optimism.io/"
   },
   {
+    "symbol": "ROOTSTOCK",
+    "name": "Rootstock",
+    "key": "rootstock",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/rootstock/info/logo.png",
+    "website": "https://rootstock.io/"
+  },
+  {
     "symbol": "SCRT",
     "name": "Secret",
     "key": "secret",
@@ -502,6 +510,14 @@
     "decimals": 18,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/tomochain/info/logo.png",
     "website": "https://viction.xyz/"
+  },
+  {
+    "symbol": "WEMIX",
+    "name": "WEMIX",
+    "key": "wemix",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/wemix/info/logo.png",
+    "website": "https://wemix.com"
   },
   {
     "symbol": "XLM",
