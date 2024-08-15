@@ -5058,6 +5058,15 @@
         "website": "https://bankex.com/en/"
     },
     {
+        "address": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
+        "decimals": 18,
+        "displaySymbol": "POL",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6/logo.png",
+        "name": "Polygon Ecosystem Token",
+        "symbol": "POL",
+        "website": "https://polygon.technology/"
+    },
+    {
         "address": "0x456125Cd98107ae0480Ba566f1b716D48Ba31453",
         "decimals": 18,
         "displaySymbol": "CHAMP",
