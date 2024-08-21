@@ -3,7 +3,7 @@
     "decimals": 18,
     "displaySymbol": "USDP",
     "name": "Binance-Peg Pax Dollar Token",
-    "symbol": "USDP.BNB",
+    "symbol": "USDP",
     "status": "active",
     "website": ""
 }

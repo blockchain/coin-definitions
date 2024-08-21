@@ -3,7 +3,7 @@
     "decimals": 8,
     "displaySymbol": "WBTC",
     "name": "Wrapped BTC",
-    "symbol": "WBTC.OETH",
+    "symbol": "WBTC",
     "status": "active",
     "website": ""
 }

@@ -3,7 +3,7 @@
      "decimals": 18,
      "displaySymbol": "hyETH",
      "name": "High Yield ETH Index",
-     "symbol": "HYETH.ARBETH",
+     "symbol": "HYETH",
      "status": "active",
      "website": ""
 }
