@@ -4149,6 +4149,15 @@
         "website": "https://aave.com"
     },
     {
+        "address": "0x35fA164735182de50811E8e2E824cFb9B6118ac2",
+        "decimals": 18,
+        "displaySymbol": "EETH",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x35fA164735182de50811E8e2E824cFb9B6118ac2/logo.png",
+        "name": "ether.fi ETH",
+        "symbol": "EETH",
+        "website": ""
+    },
+    {
         "address": "0x362bc847A3a9637d3af6624EeC853618a43ed7D2",
         "decimals": 18,
         "displaySymbol": "PRQ",
@@ -7171,6 +7180,15 @@
         "name": "Multichain",
         "symbol": "MULTI",
         "website": "https://multichain.org/"
+    },
+    {
+        "address": "0x65c4C0517025Ec0843C9146aF266A2C5a2D148A2",
+        "decimals": 18,
+        "displaySymbol": "ETH2X",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x65c4C0517025Ec0843C9146aF266A2C5a2D148A2/logo.png",
+        "name": "Index Coop Ethereum 2x Index",
+        "symbol": "ETH2X",
+        "website": ""
     },
     {
         "address": "0x65cCD72c0813CE6f2703593B633202a0F3Ca6a0c",
@@ -12688,6 +12706,15 @@
         "name": "Liquidity.Network",
         "symbol": "LQD",
         "website": "https://liquidity.network/"
+    },
+    {
+        "address": "0xD2AC55cA3Bbd2Dd1e9936eC640dCb4b745fDe759",
+        "decimals": 18,
+        "displaySymbol": "BTC2X",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xD2AC55cA3Bbd2Dd1e9936eC640dCb4b745fDe759/logo.png",
+        "name": "Index Coop Bitcoin 2x Index",
+        "symbol": "BTC2X",
+        "website": ""
     },
     {
         "address": "0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62",
