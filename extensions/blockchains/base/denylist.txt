@@ -10,3 +10,9 @@
 # - https://basescan.org/token/0xebfF2db643Cf955247339c8c6bCD8406308ca437 (ChompCoin): https://chompcoin.xyz/
 # 0xebfF2db643Cf955247339c8c6bCD8406308ca437
 #
+# 'pepe' is shared by:
+# - https://basescan.org/token/0x52b492a33E447Cdb854c7FC19F1e57E8BfA1777D (Based Pepe): https://basedpepe.vip/
+# 0x52b492a33E447Cdb854c7FC19F1e57E8BfA1777D
+# - https://basescan.org/token/0x698DC45e4F10966f6D1D98e3bFd7071d8144C233 (Pepe): https://pepeonbase.live/
+0x698DC45e4F10966f6D1D98e3bFd7071d8144C233
+#
