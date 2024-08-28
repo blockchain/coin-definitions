@@ -901,3 +901,15 @@
 # - https://bscscan.com/token/0xc81688968Bd1E8Da313B8F2936852eC4307Cd17f (Pepe): https://pepetrump.sbs/
 0xc81688968Bd1E8Da313B8F2936852eC4307Cd17f
 #
+# 'mtc' is shared by:
+# - https://bscscan.com/token/0x67009eB16ff64d06b4F782b3c552b924B1D1bb93 (Matrix Chain): https://matrixchain.space/
+# 0x67009eB16ff64d06b4F782b3c552b924B1D1bb93
+# - https://bscscan.com/token/0xB93ee4522C44Ef4cD7EE8c83B9Fe1A421b4b42C3 (Metatime): https://metatime.com/en
+0xB93ee4522C44Ef4cD7EE8c83B9Fe1A421b4b42C3
+#
+# 'qdx' is shared by:
+# - https://bscscan.com/token/0x08BC237aA00F275b758542c9F5c125b568bc390A (Quidax Token): https://quidax.com
+# 0x08BC237aA00F275b758542c9F5c125b568bc390A
+# - https://bscscan.com/token/0x9e3a9F1612028eeE48F85cA85f8Bed2f37d76848 (Quidax Token): https://quidax.com
+0x9e3a9F1612028eeE48F85cA85f8Bed2f37d76848
+#

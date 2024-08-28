@@ -3168,15 +3168,6 @@
         "website": "https://reapchain.com/"
     },
     {
-        "address": "0x1ffEFD8036409Cb6d652bd610DE465933b226917",
-        "decimals": 9,
-        "displaySymbol": "EVER",
-        "logo": "https://coin-images.coingecko.com/coins/images/12783/large/everscale_badge_main_round_1x.png?1696512578",
-        "name": "Everscale",
-        "symbol": "EVER",
-        "website": "https://everscale.network/"
-    },
-    {
         "address": "0x2001f2A0Cf801EcFda622f6C28fb6E10d803D969",
         "decimals": 8,
         "displaySymbol": "CLT",
@@ -4246,15 +4237,6 @@
         "name": "AdBank",
         "symbol": "ADB",
         "website": "https://adbank.network/"
-    },
-    {
-        "address": "0x2be5e8c109e2197D077D13A82dAead6a9b3433C5",
-        "decimals": 18,
-        "displaySymbol": "TON",
-        "logo": "https://coin-images.coingecko.com/coins/images/12260/large/D919x5-s_400x400.png?1696512091",
-        "name": "Tokamak Network",
-        "symbol": "TON",
-        "website": "https://tokamak.network/"
     },
     {
         "address": "0x2c2Ad243E228405A0331C946C655b2Ae6c9CF457",
@@ -7416,15 +7398,6 @@
         "website": "https://iqcexchange.com"
     },
     {
-        "address": "0x56C03B8C4FA80Ba37F5A7b60CAAAEF749bB5b220",
-        "decimals": 18,
-        "displaySymbol": "CANTO",
-        "logo": "https://coin-images.coingecko.com/coins/images/26959/large/canto-network.png?1696526014",
-        "name": "CANTO",
-        "symbol": "CANTO",
-        "website": "https://canto.io"
-    },
-    {
         "address": "0x56d811088235F11C8920698a204A5010a788f4b3",
         "decimals": 18,
         "displaySymbol": "BZRX",
@@ -9720,15 +9693,6 @@
         "website": "https://www.silo.finance"
     },
     {
-        "address": "0x6fB3e0A217407EFFf7Ca062D46c26E5d60a14d69",
-        "decimals": 18,
-        "displaySymbol": "IOTX",
-        "logo": "https://coin-images.coingecko.com/coins/images/3334/large/iotex-logo.png?1696504041",
-        "name": "IoTeX",
-        "symbol": "IOTX",
-        "website": "https://iotex.io"
-    },
-    {
         "address": "0x6fC13EACE26590B80cCCAB1ba5d51890577D83B2",
         "decimals": 18,
         "displaySymbol": "UMB",
@@ -11331,15 +11295,6 @@
         "website": "https://frax.finance/"
     },
     {
-        "address": "0x856c4Efb76C1D1AE02e20CEB03A2A6a08b0b8dC3",
-        "decimals": 18,
-        "displaySymbol": "OETH",
-        "logo": "https://coin-images.coingecko.com/coins/images/29733/large/OETH.png?1696528663",
-        "name": "Origin Ether",
-        "symbol": "OETH",
-        "website": "https://oeth.com/"
-    },
-    {
         "address": "0x8578530205CEcbe5DB83F7F29EcfEEC860C297C2",
         "decimals": 18,
         "displaySymbol": "AOG",
@@ -11356,15 +11311,6 @@
         "name": "KEEP Token",
         "symbol": "KEEP",
         "website": "https://keep.network"
-    },
-    {
-        "address": "0x85F17Cf997934a597031b2E18a9aB6ebD4B9f6a4",
-        "decimals": 24,
-        "displaySymbol": "NEAR",
-        "logo": "https://coin-images.coingecko.com/coins/images/10365/large/near.jpg?1696510367",
-        "name": "NEAR Protocol",
-        "symbol": "NEAR",
-        "website": "https://near.org/"
     },
     {
         "address": "0x85f6eB2BD5a062f5F8560BE93FB7147e16c81472",
@@ -11523,10 +11469,10 @@
         "address": "0x881d4C8618D68872fA404518B2460eA839A02a6a",
         "decimals": 18,
         "displaySymbol": "YAWN",
-        "logo": "https://coin-images.coingecko.com/coins/images/39497/large/YAWN.png?1722578921",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x881d4C8618D68872fA404518B2460eA839A02a6a/logo.png",
         "name": "YAWN",
         "symbol": "YAWN",
-        "website": "https://yawnsworld.com/"
+        "website": "https://yawnsworld.com"
     },
     {
         "address": "0x887168120cb89Fb06F3E74Dc4AF20D67dF0977f6",
@@ -12670,15 +12616,6 @@
         "name": "KAP Games",
         "symbol": "KAP",
         "website": "https://kap.gg/"
-    },
-    {
-        "address": "0x96543ef8d2C75C26387c1a319ae69c0BEE6f3fe7",
-        "decimals": 6,
-        "displaySymbol": "KUJI",
-        "logo": "https://coin-images.coingecko.com/coins/images/20685/large/kuji-200x200.png?1696520085",
-        "name": "Kujira",
-        "symbol": "KUJI",
-        "website": "https://kujira.app/"
     },
     {
         "address": "0x96610186F3ab8d73EBEe1CF950C750f3B1Fb79C2",
@@ -15694,15 +15631,6 @@
         "name": "Covalent",
         "symbol": "CQT",
         "website": "https://www.covalenthq.com/"
-    },
-    {
-        "address": "0xD454b59f16D42667Be2fA55292d16647E27f40C4",
-        "decimals": 6,
-        "displaySymbol": "XPRT",
-        "logo": "https://coin-images.coingecko.com/coins/images/14582/large/Download%28black_Dark%29.png?1723470571",
-        "name": "Persistence One",
-        "symbol": "XPRT",
-        "website": "https://persistence.one"
     },
     {
         "address": "0xD46bA6D942050d489DBd938a2C909A5d5039A161",
