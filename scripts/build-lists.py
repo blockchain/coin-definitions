@@ -6,7 +6,7 @@ from dataclasses import asdict
 from datetime import datetime
 from urllib.parse import urljoin
 
-from coin_gecko import fetch_coin_prices, fetch_token_prices, fetch_coin_descriptions, fetch_token_descriptions
+from coin_gecko import fetch_coin_prices, fetch_token_prices, fetch_coin_descriptions, fetch_token_descriptions, fetch_missing_tokens_for_network
 from common_classes import Asset, Blockchain, Coin, Token
 from statics import BLOCKCHAINS, EXT_BLOCKCHAINS_DENYLIST, EXT_BLOCKCHAINS, EXT_PRICES, FINAL_BLOCKCHAINS_LIST, \
     NETWORKS, EXT_OVERRIDES
@@ -138,7 +138,7 @@ def build_coins_list():
     write_json(coins, FINAL_BLOCKCHAINS_LIST, sort_keys=False, indent=2)
 
 
-def build_tokens_list(network):
+def build_tokens_list(network, fill_from_coingecko=False):
     print(f"Generating token files for network \"{network.chain}\"")
     tokens = fetch_tokens(network.chain)
 
@@ -157,6 +157,13 @@ def build_tokens_list(network):
     current_tokens = list(
         map(lambda x: Token(**x).without_suffix(network), read_json(network.output_file)))
     tokens = list(set(tokens) | set(current_tokens))
+
+    # Optionally, fetch tokens from CoinGecko, adding to the current list
+    if fill_from_coingecko:
+        print(f"Fetching missing tokens from CoinGecko")
+        new_tokens = fetch_missing_tokens_for_network(network, tokens)
+        print(f"Adding {len(new_tokens)} tokens fetched from CoinGecko")
+        tokens += new_tokens
 
     # Make sure the asset is NOT in the denylist:
     bc_denylist = set(map(lambda x: x.lower(), read_txt(f"extensions/blockchains/{network.chain}/denylist.txt")))
@@ -223,6 +230,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--fetch-prices', action='store_true')
     parser.add_argument('--fetch-descriptions', action='store_true')
+    parser.add_argument('--fill-from-coingecko', action='store_true')
     args = parser.parse_args()
 
     if args.fetch_prices:
@@ -232,7 +240,7 @@ def main():
     else:
         build_coins_list()
         for network in NETWORKS:
-            build_tokens_list(network)
+            build_tokens_list(network, args.fill_from_coingecko)
 
 
 if __name__ == '__main__':

@@ -823,3 +823,93 @@
 # - https://bscscan.com/token/0xf16e81dce15B08F326220742020379B855B87DF9 (IceToken): https://popsicle.finance
 0xf16e81dce15B08F326220742020379B855B87DF9
 #
+# 'four' is shared by:
+# - https://bscscan.com/token/0x21fd16cd0ef24a49d28429921e335bb0c1bfadb3 (4): ['https://www.bnbfour.meme/', '', '']
+0x21fd16cd0ef24a49d28429921e335bb0c1bfadb3
+# - https://bscscan.com/token/0xd882739Fca9CBAE00F3821c4c65189E2D7e26147 (The 4th Pillar Token): https://the4thpillar.io/
+# 0xd882739Fca9CBAE00F3821c4c65189E2D7e26147
+#
+# 'alt' is shared by:
+# - https://bscscan.com/token/0x5Ca09af27b8a4F1D636380909087536BC7e2D94D (Alitas): https://alitas.tech/
+0x5Ca09af27b8a4F1D636380909087536BC7e2D94D
+# - https://bscscan.com/token/0x8457CA5040ad67fdebbCC8EdCE889A335Bc0fbFB (AltLayer): https://altlayer.io/
+# 0x8457CA5040ad67fdebbCC8EdCE889A335Bc0fbFB
+#
+# 'bccoin' is shared by:
+# - https://bscscan.com/token/0x2940566Eb50F15129238f4Dc599ADC4F742D7d8E (BlackCardCoin): https://blackcardcoin.com/
+0x2940566Eb50F15129238f4Dc599ADC4F742D7d8E
+# - https://bscscan.com/token/0x450593Bf7f2d7E559E38496CfB06bDCE5E963795 (BlackCardCoin): https://blackcardcoin.com
+# 0x450593Bf7f2d7E559E38496CfB06bDCE5E963795
+#
+# 'bnx' is shared by:
+# - https://bscscan.com/token/0x5b1f874d0b0C5ee17a495CbB70AB8bf64107A3BD (BinaryX): https://www.binaryx.pro/
+# 0x5b1f874d0b0C5ee17a495CbB70AB8bf64107A3BD
+# - https://bscscan.com/token/0x8C851d1a123Ff703BD1f9dabe631b69902Df5f97 (BinaryX [OLD]): https://www.binaryx.pro/
+0x8C851d1a123Ff703BD1f9dabe631b69902Df5f97
+#
+# 'burn' is shared by:
+# - https://bscscan.com/token/0x19c018e13CFf682e729CC7b5Fb68c8A641bf98A4 (BurnedFi): https://burnedfi.app/
+# 0x19c018e13CFf682e729CC7b5Fb68c8A641bf98A4
+# - https://bscscan.com/token/0xE818BA083116aA7b5dc9fBE2bBd48aa9ec1E0445 (Burn): https://www.burn.foundation/
+0xE818BA083116aA7b5dc9fBE2bBd48aa9ec1E0445
+#
+# 'cat' is shared by:
+# - https://bscscan.com/token/0x59F4F336Bf3D0C49dBfbA4A74eBD2a6aCE40539A (Catcoin): https://catcoin.com
+0x59F4F336Bf3D0C49dBfbA4A74eBD2a6aCE40539A
+# - https://bscscan.com/token/0x6894CDe390a3f51155ea41Ed24a33A4827d3063D (Simon's Cat): https://www.simons.cat
+# 0x6894CDe390a3f51155ea41Ed24a33A4827d3063D
+#
+# 'feg' is shared by:
+# - https://bscscan.com/token/0xF3c7CECF8cBC3066F9a87b310cEBE198d00479aC (FEED EVERY GORILLA): https://feg.io/
+# 0xF3c7CECF8cBC3066F9a87b310cEBE198d00479aC
+# - https://bscscan.com/token/0xbededDf2eF49E87037c4fb2cA34d1FF3D3992A11 (FEG Token): https://fegtoken.com/
+0xbededDf2eF49E87037c4fb2cA34d1FF3D3992A11
+#
+# 'land' is shared by:
+# - https://bscscan.com/token/0x1E34fcc9a67E05D4bEED8C6a70F98C3E4D1e1e96 (Outlanders): https://www.outlanders.com/
+0x1E34fcc9a67E05D4bEED8C6a70F98C3E4D1e1e96
+# - https://bscscan.com/token/0xA73164DB271931CF952cBaEfF9E8F5817b42fA5C (Landshare Token): https://landshare.io
+# 0xA73164DB271931CF952cBaEfF9E8F5817b42fA5C
+#
+# 'lovely' is shared by:
+# - https://bscscan.com/token/0x93b30F6d5C2EeD35950498f71235A749E6f0540C (Lovely Inu Finance): https://lovely.finance/
+# 0x93b30F6d5C2EeD35950498f71235A749E6f0540C
+# - https://bscscan.com/token/0x9E24415d1e549EBc626a13a482Bb117a2B43e9CF (Lovely Inu Finance): https://lovely.finance
+0x9E24415d1e549EBc626a13a482Bb117a2B43e9CF
+#
+# 'pepe' is shared by:
+# - https://bscscan.com/token/0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00 (Pepe): https://www.pepe.vip/
+# 0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00
+# - https://bscscan.com/token/0xb46584e0efdE3092e04010A13f2eAe62aDb3b9F0 (Pepe Coin): https://pepecoinbsc.xyz
+0xb46584e0efdE3092e04010A13f2eAe62aDb3b9F0
+#
+# 'swap' is shared by:
+# - https://bscscan.com/token/0x94eafeEeF7FFA66203FDc9349C54D601472a79dC (TrustSwap): https://trustswap.org/
+# 0x94eafeEeF7FFA66203FDc9349C54D601472a79dC
+# - https://bscscan.com/token/0xe56a473043EaAB7947c0a2408cEA623074500EE3 (Safeswap TOKEN): https://info.safeswap.online
+0xe56a473043EaAB7947c0a2408cEA623074500EE3
+#
+# 'tlos' is shared by:
+# - https://bscscan.com/token/0x193f4A4a6ea24102F49b931DEeeb931f6E32405d (Telos): https://telos.net
+# 0x193f4A4a6ea24102F49b931DEeeb931f6E32405d
+# - https://bscscan.com/token/0xb6C53431608E626AC81a9776ac3e999c5556717c (pTokens TLOS): https://ptokens.io/
+0xb6C53431608E626AC81a9776ac3e999c5556717c
+#
+# 'trump' is shared by:
+# - https://bscscan.com/token/0x4eA98c1999575aaadfb38237Dd015c5E773F75a2 (MAGA): https://magamemecoin.com/
+# 0x4eA98c1999575aaadfb38237Dd015c5E773F75a2
+# - https://bscscan.com/token/0xc81688968Bd1E8Da313B8F2936852eC4307Cd17f (Pepe): https://pepetrump.sbs/
+0xc81688968Bd1E8Da313B8F2936852eC4307Cd17f
+#
+# 'mtc' is shared by:
+# - https://bscscan.com/token/0x67009eB16ff64d06b4F782b3c552b924B1D1bb93 (Matrix Chain): https://matrixchain.space/
+# 0x67009eB16ff64d06b4F782b3c552b924B1D1bb93
+# - https://bscscan.com/token/0xB93ee4522C44Ef4cD7EE8c83B9Fe1A421b4b42C3 (Metatime): https://metatime.com/en
+0xB93ee4522C44Ef4cD7EE8c83B9Fe1A421b4b42C3
+#
+# 'qdx' is shared by:
+# - https://bscscan.com/token/0x08BC237aA00F275b758542c9F5c125b568bc390A (Quidax Token): https://quidax.com
+# 0x08BC237aA00F275b758542c9F5c125b568bc390A
+# - https://bscscan.com/token/0x9e3a9F1612028eeE48F85cA85f8Bed2f37d76848 (Quidax Token): https://quidax.com
+0x9e3a9F1612028eeE48F85cA85f8Bed2f37d76848
+#

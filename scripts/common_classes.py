@@ -1,14 +1,26 @@
 import os
 import re
-from dataclasses import dataclass, replace, fields
+from dataclasses import dataclass, replace, fields, is_dataclass
 from urllib.parse import urljoin
 
 from statics import BC_REPO_ROOT, EXT_BLOCKCHAINS, BLOCKCHAINS, TW_REPO_ROOT
 
 
 def build_dataclass_from_dict(cls, dict_):
-    class_fields = {f.name for f in fields(cls)}
-    return cls(**{k: v for k, v in dict_.items() if k in class_fields})
+    class_fields = {f.name: f.type for f in fields(cls)}
+    init_args = {}
+    for key, value in dict_.items():
+        if key in class_fields:
+            field_type = class_fields[key]
+            if is_dataclass(field_type):
+                init_args[key] = build_dataclass_from_dict(field_type, value)
+            elif isinstance(value, list) and is_dataclass(field_type[0]):
+                init_args[key] = [build_dataclass_from_dict(field_type[0], item) for item in value]
+            elif isinstance(value, dict) and is_dataclass(field_type.__args__[1]):
+                init_args[key] = {k: build_dataclass_from_dict(field_type.__args__[1], v) for k, v in value.items()}
+            else:
+                init_args[key] = value
+    return cls(**init_args)
 
 
 @dataclass

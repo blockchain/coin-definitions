@@ -4,3 +4,8 @@
 # - https://snowtrace.io/token/0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17 (Dypius): https://www.dypius.com/
 0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17
 #
+# 'ankr' is shared by:
+# - https://snowtrace.io/token/0x20CF1b6E9d856321ed4686877CF4538F2C84B4dE (Ankr Network): https://ankr.com
+# 0x20CF1b6E9d856321ed4686877CF4538F2C84B4dE
+# - https://snowtrace.io/token/0xdf474b7109b73b7d57926d43598d5934131136b2 (Ankr Network): ['https://www.ankr.com/', '', '']
+0xdf474b7109b73b7d57926d43598d5934131136b2

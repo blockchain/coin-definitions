@@ -1,3 +1,6 @@
+# 'matic' - we have this in coins.json instead
+0x0000000000000000000000000000000000001010
+
 # 'busd' is shared by:
 # - https://polygonscan.com/token/0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39 (BNB pegged BUSD): https://paxos.com/busd
 # 0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39
@@ -21,4 +24,10 @@
 0x831753DD7087CaC61aB5644b308642cc1c33Dc13
 # - https://polygonscan.com/token/0xB5C064F955D8e7F38fE0460C556a72987494eE17 (QuickSwap): https://quickswap.exchange/
 # 0xB5C064F955D8e7F38fE0460C556a72987494eE17
+#
+# 'wavax' is shared by:
+# - https://polygonscan.com/token/0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b (Wrapped AVAX): https://www.avalabs.org/
+# 0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b
+# - https://polygonscan.com/token/0x7Bb11E7f8b10E9e571E5d8Eace04735fDFB2358a (Wrapped AVAX (Wormhole)): https://portalbridge.com/
+0x7Bb11E7f8b10E9e571E5d8Eace04735fDFB2358a
 #
