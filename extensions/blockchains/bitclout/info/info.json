@@ -1,7 +1,8 @@
 {
     "name": "DeSo",
     "symbol": "CLOUT", 
-    "type": "COIN", 
+    "displaySymbol": "DESO",
+    "type": "COIN",
     "decimals": 9,
     "status": "active"
 }

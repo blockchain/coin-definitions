@@ -1,7 +1,8 @@
 {
     "name": "Polygon",
     "symbol": "MATIC.MATIC",
-    "type": "COIN", 
+    "displaySymbol": "POL",
+    "type": "COIN",
     "decimals": 18,
     "status": "active",
     "website": "https://polygon.technology/solutions/polygon-pos/"
