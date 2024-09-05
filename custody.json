@@ -777,7 +777,7 @@
   },
   {
     "symbol": "MATIC.MATIC",
-    "displaySymbol": "MATIC",
+    "displaySymbol": "POL",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8

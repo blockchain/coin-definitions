@@ -43,6 +43,7 @@ class Blockchain:
     name: str
     key: str
     symbol: str = None
+    displaySymbol: str = None
     decimals: int = None
     status: str = None
     website: str = None
@@ -68,6 +69,7 @@ class Blockchain:
 @dataclass
 class Coin:
     symbol: str
+    displaySymbol: str
     name: str
     key: str
     decimals: int
@@ -87,6 +89,7 @@ class Coin:
     def from_chain(chain):
         return Coin(
             symbol=chain.symbol,
+            displaySymbol=chain.displaySymbol or chain.symbol,
             name=chain.name,
             key=chain.key,
             logo=Coin.build_currency_logo(chain.key),
