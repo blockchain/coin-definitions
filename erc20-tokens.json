@@ -5079,10 +5079,10 @@
         "address": "0x38E68A37E401F7271568CecaAc63c6B1e19130B4",
         "decimals": 18,
         "displaySymbol": "BANANA",
-        "logo": "https://coin-images.coingecko.com/coins/images/31744/large/bg-logo-coingecko-200.png?1716971024",
-        "name": "Banana Gun",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x38E68A37E401F7271568CecaAc63c6B1e19130B4/logo.png",
+        "name": "Banana",
         "symbol": "BANANA",
-        "website": "http://bananagun.io"
+        "website": "https://bananagun.io/"
     },
     {
         "address": "0x38c87AA89B2B8cD9B95b736e1Fa7b612EA972169",
@@ -20153,11 +20153,11 @@
     {
         "address": "0xdb85f6685950E285b1E611037BEBe5B34e2B7d78",
         "decimals": 18,
-        "displaySymbol": "ZANO",
-        "logo": "https://coin-images.coingecko.com/coins/images/8370/large/zano.png?1696508563",
-        "name": "Zano",
-        "symbol": "ZANO",
-        "website": "https://zano.org"
+        "displaySymbol": "WZANO",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdb85f6685950E285b1E611037BEBe5B34e2B7d78/logo.png",
+        "name": "Wrapped Zano",
+        "symbol": "WZANO",
+        "website": "https://zano.org/"
     },
     {
         "address": "0xdc524e3c6910257744C1F93Cf15E9F472b5bD236",

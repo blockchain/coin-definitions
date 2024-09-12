@@ -92,6 +92,7 @@ network_mappings = {
     "MATIC": "polygon-pos",
     "OETH": "optimistic-ethereum",
     "SOL": "solana",
+    "TON": "the-open-network",
     "TRX": "tron",
 }
 

@@ -88,5 +88,11 @@ NETWORKS = [
         symbol="BASEETH",
         output_file="chain/base/tokens.json",
         explorer_url="https://basescan.org/token/"
+    ),
+    Network(
+        chain="ton",
+        symbol="TON",
+        output_file="chain/ton/tokens.json",
+        explorer_url="https://tonscan.org/jetton/"
     )
 ]

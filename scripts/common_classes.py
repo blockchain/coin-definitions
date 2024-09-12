@@ -29,8 +29,8 @@ class Asset:
     decimals: int
     name: str
     symbol: str
-    website: str
     status: str
+    website: str = ""
     displaySymbol: str = None
 
     @classmethod
