@@ -557,6 +557,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "FLOKI",
+    "displaySymbol": "FLOKI",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "FLOW",
     "displaySymbol": "FLOW",
     "type": "ERC20",
@@ -848,6 +860,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "MOG",
+    "displaySymbol": "MOG",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "NEAR",
     "displaySymbol": "NEAR",
     "type": "COIN",
@@ -958,6 +982,18 @@
   {
     "symbol": "PAX",
     "displaySymbol": "USDP",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "PEPE",
+    "displaySymbol": "PEPE",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
