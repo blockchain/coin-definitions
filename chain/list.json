@@ -12,6 +12,12 @@
     "tokens": "chain/avalanchec/tokens.json"
   },
   {
+    "chain": "base",
+    "displayName": "Base",
+    "native": "BASEETH",
+    "tokens": "chain/base/tokens.json"
+  },
+  {
     "chain": "binance",
     "displayName": "Binance Smart Chain",
     "native": "BNB",
@@ -30,22 +36,28 @@
     "tokens": "chain/chiliz/tokens.json"
   },
   {
-    "chain": "polygon",
-    "displayName": "Polygon",
-    "native": "MATIC",
-    "tokens": "chain/polygon/tokens.json"
-  },
-  {
     "chain": "optimism",
     "displayName": "Optimism",
     "native": "OETH",
     "tokens": "chain/optimism/tokens.json"
   },
   {
+    "chain": "polygon",
+    "displayName": "Polygon",
+    "native": "MATIC",
+    "tokens": "chain/polygon/tokens.json"
+  },
+  {
     "chain": "solana",
     "displayName": "Solana",
     "native": "SOL",
     "tokens": "chain/solana/tokens.json"
+  },
+  {
+    "chain": "ton",
+    "displayName": "Ton",
+    "native": "TON",
+    "tokens": "chain/ton/tokens.json"
   },
   {
     "chain": "tron",

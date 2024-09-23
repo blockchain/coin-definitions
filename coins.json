@@ -1,6 +1,7 @@
 [
   {
     "symbol": "ADA",
+    "displaySymbol": "ADA",
     "name": "Cardano",
     "key": "cardano",
     "decimals": 6,
@@ -9,6 +10,7 @@
   },
   {
     "symbol": "AKT",
+    "displaySymbol": "AKT",
     "name": "Akash Network",
     "key": "akash",
     "decimals": 6,
@@ -17,6 +19,7 @@
   },
   {
     "symbol": "ALGO",
+    "displaySymbol": "ALGO",
     "name": "Algorand",
     "key": "algorand",
     "decimals": 6,
@@ -25,6 +28,7 @@
   },
   {
     "symbol": "APT",
+    "displaySymbol": "APT",
     "name": "Aptos",
     "key": "aptos",
     "decimals": 8,
@@ -33,6 +37,7 @@
   },
   {
     "symbol": "AR",
+    "displaySymbol": "AR",
     "name": "Arweave",
     "key": "arweave",
     "decimals": 12,
@@ -41,6 +46,7 @@
   },
   {
     "symbol": "ARBETH",
+    "displaySymbol": "ARBETH",
     "name": "Ethereum",
     "key": "arbitrum",
     "decimals": 18,
@@ -49,6 +55,7 @@
   },
   {
     "symbol": "ATOM",
+    "displaySymbol": "ATOM",
     "name": "Cosmos",
     "key": "cosmos",
     "decimals": 6,
@@ -57,6 +64,7 @@
   },
   {
     "symbol": "AVAX",
+    "displaySymbol": "AVAX",
     "name": "Avalanche C-Chain",
     "key": "avalanchec",
     "decimals": 18,
@@ -64,7 +72,17 @@
     "website": "http://avax.network"
   },
   {
+    "symbol": "BASEETH",
+    "displaySymbol": "BASEETH",
+    "name": "Ethereum",
+    "key": "base",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/base/info/logo.png",
+    "website": "https://www.base.org/"
+  },
+  {
     "symbol": "BCH",
+    "displaySymbol": "BCH",
     "name": "Bitcoin Cash",
     "key": "bitcoincash",
     "decimals": 8,
@@ -73,6 +91,7 @@
   },
   {
     "symbol": "BLD",
+    "displaySymbol": "BLD",
     "name": "Agoric",
     "key": "agoric",
     "decimals": 6,
@@ -81,6 +100,7 @@
   },
   {
     "symbol": "BNB",
+    "displaySymbol": "BNB",
     "name": "Binance Smart Chain",
     "key": "smartchain",
     "decimals": 18,
@@ -89,6 +109,7 @@
   },
   {
     "symbol": "BSV",
+    "displaySymbol": "BSV",
     "name": "Bitcoin Satoshi Vision",
     "key": "bitcoinsv",
     "decimals": 8,
@@ -97,6 +118,7 @@
   },
   {
     "symbol": "BTC",
+    "displaySymbol": "BTC",
     "name": "Bitcoin",
     "key": "bitcoin",
     "decimals": 8,
@@ -105,6 +127,7 @@
   },
   {
     "symbol": "CANTO",
+    "displaySymbol": "CANTO",
     "name": "Native Canto",
     "key": "nativecanto",
     "decimals": 18,
@@ -113,6 +136,7 @@
   },
   {
     "symbol": "CELO",
+    "displaySymbol": "CELO",
     "name": "Celo",
     "key": "celo",
     "decimals": 18,
@@ -121,6 +145,7 @@
   },
   {
     "symbol": "CLOUT",
+    "displaySymbol": "DESO",
     "name": "DeSo",
     "key": "bitclout",
     "decimals": 9,
@@ -129,6 +154,7 @@
   },
   {
     "symbol": "CMDX",
+    "displaySymbol": "CMDX",
     "name": "Comdex",
     "key": "comdex",
     "decimals": 6,
@@ -137,6 +163,7 @@
   },
   {
     "symbol": "DASH",
+    "displaySymbol": "DASH",
     "name": "Dash",
     "key": "dash",
     "decimals": 8,
@@ -145,6 +172,7 @@
   },
   {
     "symbol": "DCR",
+    "displaySymbol": "DCR",
     "name": "Decred",
     "key": "decred",
     "decimals": 8,
@@ -153,6 +181,7 @@
   },
   {
     "symbol": "DGLD",
+    "displaySymbol": "DGLD",
     "name": "Digital Gold",
     "key": "digitalgold",
     "decimals": 8,
@@ -161,6 +190,7 @@
   },
   {
     "symbol": "DOGE",
+    "displaySymbol": "DOGE",
     "name": "Dogecoin",
     "key": "doge",
     "decimals": 8,
@@ -169,6 +199,7 @@
   },
   {
     "symbol": "DOT",
+    "displaySymbol": "DOT",
     "name": "Polkadot",
     "key": "polkadot",
     "decimals": 10,
@@ -177,6 +208,7 @@
   },
   {
     "symbol": "EGLD",
+    "displaySymbol": "EGLD",
     "name": "MultiversX",
     "key": "elrond",
     "decimals": 18,
@@ -185,6 +217,7 @@
   },
   {
     "symbol": "EOS",
+    "displaySymbol": "EOS",
     "name": "EOS",
     "key": "eos",
     "decimals": 4,
@@ -193,6 +226,7 @@
   },
   {
     "symbol": "ETC",
+    "displaySymbol": "ETC",
     "name": "Ethereum Classic",
     "key": "classic",
     "decimals": 18,
@@ -201,6 +235,7 @@
   },
   {
     "symbol": "ETH",
+    "displaySymbol": "ETH",
     "name": "Ethereum",
     "key": "ethereum",
     "decimals": 18,
@@ -209,6 +244,7 @@
   },
   {
     "symbol": "ETHW",
+    "displaySymbol": "ETHW",
     "name": "EthereumPoW",
     "key": "ethereumpow",
     "decimals": 18,
@@ -217,6 +253,7 @@
   },
   {
     "symbol": "EVER",
+    "displaySymbol": "EVER",
     "name": "Everscale",
     "key": "everscale",
     "decimals": 9,
@@ -225,6 +262,7 @@
   },
   {
     "symbol": "FIL",
+    "displaySymbol": "FIL",
     "name": "Filecoin",
     "key": "filecoin",
     "decimals": 18,
@@ -233,6 +271,7 @@
   },
   {
     "symbol": "FSN",
+    "displaySymbol": "FSN",
     "name": "Fusion",
     "key": "fusion",
     "decimals": 18,
@@ -241,6 +280,7 @@
   },
   {
     "symbol": "HBAR",
+    "displaySymbol": "HBAR",
     "name": "Hedera",
     "key": "hedera",
     "decimals": 8,
@@ -249,6 +289,7 @@
   },
   {
     "symbol": "ICP",
+    "displaySymbol": "ICP",
     "name": "Internet Computer",
     "key": "internet_computer",
     "decimals": 8,
@@ -257,6 +298,7 @@
   },
   {
     "symbol": "IOTX",
+    "displaySymbol": "IOTX",
     "name": "IoTeX Network Mainnet",
     "key": "iotexevm",
     "decimals": 18,
@@ -265,6 +307,7 @@
   },
   {
     "symbol": "IRIS",
+    "displaySymbol": "IRIS",
     "name": "IRISnet",
     "key": "iris",
     "decimals": 6,
@@ -273,6 +316,7 @@
   },
   {
     "symbol": "JUNO",
+    "displaySymbol": "JUNO",
     "name": "Juno",
     "key": "juno",
     "decimals": 6,
@@ -281,6 +325,7 @@
   },
   {
     "symbol": "KAVA",
+    "displaySymbol": "KAVA",
     "name": "Kava",
     "key": "kava",
     "decimals": 6,
@@ -289,6 +334,7 @@
   },
   {
     "symbol": "KIN",
+    "displaySymbol": "KIN",
     "name": "Kin",
     "key": "kin",
     "decimals": 5,
@@ -297,6 +343,7 @@
   },
   {
     "symbol": "KLAY",
+    "displaySymbol": "KLAY",
     "name": "klaytn",
     "key": "klaytn",
     "decimals": 18,
@@ -305,6 +352,7 @@
   },
   {
     "symbol": "KUJI",
+    "displaySymbol": "KUJI",
     "name": "Kujira",
     "key": "kujira",
     "decimals": 6,
@@ -313,6 +361,7 @@
   },
   {
     "symbol": "LTC",
+    "displaySymbol": "LTC",
     "name": "Litecoin",
     "key": "litecoin",
     "decimals": 8,
@@ -321,6 +370,7 @@
   },
   {
     "symbol": "LUNA",
+    "displaySymbol": "LUNA",
     "name": "Terra",
     "key": "terrav2",
     "decimals": 6,
@@ -329,6 +379,7 @@
   },
   {
     "symbol": "MARS",
+    "displaySymbol": "MARS",
     "name": "Mars Protocol",
     "key": "mars",
     "decimals": 6,
@@ -337,6 +388,7 @@
   },
   {
     "symbol": "MATIC.MATIC",
+    "displaySymbol": "POL",
     "name": "Polygon",
     "key": "polygon",
     "decimals": 18,
@@ -345,6 +397,7 @@
   },
   {
     "symbol": "MIOTA",
+    "displaySymbol": "MIOTA",
     "name": "IOTA",
     "key": "iota",
     "decimals": 15,
@@ -353,6 +406,7 @@
   },
   {
     "symbol": "MOB",
+    "displaySymbol": "MOB",
     "name": "Mobile Coin",
     "key": "mobilecoin",
     "decimals": 12,
@@ -361,6 +415,7 @@
   },
   {
     "symbol": "MTRG",
+    "displaySymbol": "MTRG",
     "name": "Meter",
     "key": "meter",
     "decimals": 18,
@@ -369,6 +424,7 @@
   },
   {
     "symbol": "NEAR",
+    "displaySymbol": "NEAR",
     "name": "NEAR Protocol",
     "key": "near",
     "decimals": 24,
@@ -377,6 +433,7 @@
   },
   {
     "symbol": "OETH",
+    "displaySymbol": "OETH",
     "name": "Ethereum",
     "key": "optimism",
     "decimals": 18,
@@ -384,7 +441,17 @@
     "website": "https://www.optimism.io/"
   },
   {
+    "symbol": "ROOTSTOCK",
+    "displaySymbol": "ROOTSTOCK",
+    "name": "Rootstock",
+    "key": "rootstock",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/rootstock/info/logo.png",
+    "website": "https://rootstock.io/"
+  },
+  {
     "symbol": "SCRT",
+    "displaySymbol": "SCRT",
     "name": "Secret",
     "key": "secret",
     "decimals": 6,
@@ -393,6 +460,7 @@
   },
   {
     "symbol": "SOL",
+    "displaySymbol": "SOL",
     "name": "Solana",
     "key": "solana",
     "decimals": 9,
@@ -401,6 +469,7 @@
   },
   {
     "symbol": "SOMM",
+    "displaySymbol": "SOMM",
     "name": "Sommelier",
     "key": "sommelier",
     "decimals": 6,
@@ -409,6 +478,7 @@
   },
   {
     "symbol": "STARS",
+    "displaySymbol": "STARS",
     "name": "Stargaze",
     "key": "stargaze",
     "decimals": 6,
@@ -417,6 +487,7 @@
   },
   {
     "symbol": "STRD",
+    "displaySymbol": "STRD",
     "name": "Stride",
     "key": "stride",
     "decimals": 6,
@@ -425,6 +496,7 @@
   },
   {
     "symbol": "STX",
+    "displaySymbol": "STX",
     "name": "Stacks",
     "key": "stacks",
     "decimals": 6,
@@ -433,6 +505,7 @@
   },
   {
     "symbol": "SUI",
+    "displaySymbol": "SUI",
     "name": "Sui",
     "key": "sui",
     "decimals": 9,
@@ -441,6 +514,7 @@
   },
   {
     "symbol": "TFUEL",
+    "displaySymbol": "TFUEL",
     "name": "Theta Fuel",
     "key": "tfuel",
     "decimals": 18,
@@ -449,6 +523,7 @@
   },
   {
     "symbol": "THETA",
+    "displaySymbol": "THETA",
     "name": "Theta Network",
     "key": "theta",
     "decimals": 18,
@@ -457,6 +532,7 @@
   },
   {
     "symbol": "TIA",
+    "displaySymbol": "TIA",
     "name": "Celestia",
     "key": "tia",
     "decimals": 6,
@@ -465,6 +541,7 @@
   },
   {
     "symbol": "TON",
+    "displaySymbol": "TON",
     "name": "The Open Network",
     "key": "ton",
     "decimals": 9,
@@ -473,6 +550,7 @@
   },
   {
     "symbol": "TRX",
+    "displaySymbol": "TRX",
     "name": "TRON",
     "key": "tron",
     "decimals": 6,
@@ -481,6 +559,7 @@
   },
   {
     "symbol": "UMEE",
+    "displaySymbol": "UMEE",
     "name": "Umee",
     "key": "umee",
     "decimals": 6,
@@ -489,6 +568,7 @@
   },
   {
     "symbol": "VIC",
+    "displaySymbol": "VIC",
     "name": "Viction",
     "key": "tomochain",
     "decimals": 18,
@@ -496,7 +576,17 @@
     "website": "https://viction.xyz/"
   },
   {
+    "symbol": "WEMIX",
+    "displaySymbol": "WEMIX",
+    "name": "WEMIX",
+    "key": "wemix",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/wemix/info/logo.png",
+    "website": "https://wemix.com"
+  },
+  {
     "symbol": "XLM",
+    "displaySymbol": "XLM",
     "name": "Stellar",
     "key": "stellar",
     "decimals": 7,
@@ -505,6 +595,7 @@
   },
   {
     "symbol": "XMR",
+    "displaySymbol": "XMR",
     "name": "Monero",
     "key": "monero",
     "decimals": 12,
@@ -513,6 +604,7 @@
   },
   {
     "symbol": "XPRT",
+    "displaySymbol": "XPRT",
     "name": "Persistence",
     "key": "persistence",
     "decimals": 6,
@@ -521,6 +613,7 @@
   },
   {
     "symbol": "XRP",
+    "displaySymbol": "XRP",
     "name": "Ripple",
     "key": "ripple",
     "decimals": 6,
@@ -529,6 +622,7 @@
   },
   {
     "symbol": "XTZ",
+    "displaySymbol": "XTZ",
     "name": "Tezos",
     "key": "tezos",
     "decimals": 6,
@@ -537,6 +631,7 @@
   },
   {
     "symbol": "ZEC",
+    "displaySymbol": "ZEC",
     "name": "Zcash",
     "key": "zcash",
     "decimals": 8,
@@ -545,6 +640,7 @@
   },
   {
     "symbol": "ZIL",
+    "displaySymbol": "ZIL",
     "name": "Zilliqa",
     "key": "zilliqa",
     "decimals": 12,
@@ -553,6 +649,7 @@
   },
   {
     "symbol": "gBNB",
+    "displaySymbol": "gBNB",
     "name": "BNB Greenfield",
     "key": "gbnb",
     "decimals": 18,

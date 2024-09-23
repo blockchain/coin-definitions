@@ -1,0 +1,8 @@
+{
+  "name": "Ethereum",
+  "symbol": "BASEETH",
+  "type": "COIN",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://www.base.org/"
+}

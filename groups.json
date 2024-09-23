@@ -2,7 +2,8 @@
   {
     "parentSymbol":  "USDC",
     "childSymbols": [
-      "USDC.MATIC"
+      "USDC.MATIC",
+      "USDC.BASEETH"
     ]
   },
   {

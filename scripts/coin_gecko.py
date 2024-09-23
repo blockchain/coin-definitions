@@ -5,8 +5,9 @@ from typing import Self
 
 import requests
 from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning
+from web3 import Web3
 
-from common_classes import build_dataclass_from_dict, Description
+from common_classes import build_dataclass_from_dict, Description, Token
 from utils import map_chunked
 
 BATCH_SIZE = 250
@@ -22,6 +23,7 @@ coin_mappings = {
     "AVAX": "avalanche-2",
     "BCH": "bitcoin-cash",
     "BLD": "agoric",
+    "BASEETH": "ethereum",
     "BNB": "binancecoin",
     "BSV": "bitcoin-cash-sv",
     "BTC": "bitcoin",
@@ -82,6 +84,7 @@ coin_mappings = {
 network_mappings = {
     "ARBETH": "arbitrum-one",
     "AVAX": "avalanche",
+    "BASEETH": "base",
     "BNB": "binance-smart-chain",
     "CELO": "celo",
     "CHZ": "chiliz",
@@ -89,6 +92,7 @@ network_mappings = {
     "MATIC": "polygon-pos",
     "OETH": "optimistic-ethereum",
     "SOL": "solana",
+    "TON": "the-open-network",
     "TRX": "tron",
 }
 
@@ -109,6 +113,65 @@ class Coin:
 class Market:
     id: str
     current_price: float
+
+    @classmethod
+    def from_dict(cls, dict_: object) -> Self:
+        return build_dataclass_from_dict(cls, dict_)
+
+
+@dataclass
+class PlatformInfo:
+    decimal_place: int
+    contract_address: str
+
+    @classmethod
+    def from_dict(cls, dict_: object) -> Self:
+        return build_dataclass_from_dict(cls, dict_)
+
+
+@dataclass
+class LinksInfo:
+    homepage: [str]
+    whitepaper: str
+
+    @classmethod
+    def from_dict(cls, dict_: object) -> Self:
+        return build_dataclass_from_dict(cls, dict_)
+
+
+@dataclass
+class ImageInfo:
+    thumb: str
+    small: str
+    large: str
+
+    @classmethod
+    def from_dict(cls, dict_: object) -> Self:
+        return build_dataclass_from_dict(cls, dict_)
+
+
+@dataclass
+class MarketData:
+    current_price: dict[str, float]
+    market_cap: dict[str, float]
+    total_volume: dict[str, float]
+
+    @classmethod
+    def from_dict(cls, dict_: object) -> Self:
+        return build_dataclass_from_dict(cls, dict_)
+
+
+@dataclass
+class CoinInfo:
+    id: str
+    symbol: str
+    name: str
+    platforms: dict[str, str]
+    detail_platforms: dict[str, PlatformInfo]
+    description: dict[str, str]
+    links: LinksInfo
+    image: ImageInfo
+    market_data: MarketData
 
     @classmethod
     def from_dict(cls, dict_: object) -> Self:
@@ -154,32 +217,36 @@ class CoinGeckoAPIClient:
     warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
     @staticmethod
-    def get_coin_description(coin_id: str) -> (str, Description | None):
-        if type(coin_id) is list:
-            coin_id = coin_id[0]
-        try:
-            response = requests.get(
-                f"{CoinGeckoAPIClient.BASE_URL}coins/{coin_id}",
-                params={
-                    'x_cg_pro_api_key': CoinGeckoAPIClient.API_KEY,
-                    'localization': 'false',
-                    'tickers': 'false',
-                    'market_data': 'false',
-                    'community_data': 'false',
-                    'developer_data': 'false',
-                    'sparkline': 'false'
-                }
-            ).json()
-            description_text = response.get('description', {}).get('en', None)
-            website = response.get('links', {}).get('homepage', [None])[0]
+    def get_coin_info(coin_ids: list[str]) -> dict[str, CoinInfo]:
+        coin_infos = {}
+        for coin_id in coin_ids:
+            try:
+                response = requests.get(
+                    f"{CoinGeckoAPIClient.BASE_URL}coins/{coin_id}",
+                    params={
+                        'x_cg_pro_api_key': CoinGeckoAPIClient.API_KEY,
+                        'localization': 'false',
+                        'tickers': 'false',
+                        'market_data': 'true',
+                        'community_data': 'false',
+                        'developer_data': 'false',
+                        'sparkline': 'false'
+                    }
+                ).json()
 
-            return coin_id, Description(
-                description=BeautifulSoup(description_text, 'html.parser').text,
-                website=website
-            )
-        except Exception as e:
-            print(f'Error fetching CoinGecko prices: {str(e)}')
-            return coin_id, None
+                coin_infos[coin_id] = CoinInfo.from_dict(response)
+            except Exception as e:
+                print(f'Error fetching CoinGecko prices: {str(e)}')
+                coin_infos[coin_id] = None
+        return coin_infos
+
+    @staticmethod
+    def get_coin_description(coin_ids: list[str]) -> dict[str, Description]:
+        coin_infos = CoinGeckoAPIClient.get_coin_info(coin_ids)
+        return {coin_id: Description(
+            description=BeautifulSoup(coin_info.description['en'], 'html.parser').get_text(),
+            website=coin_info.links.homepage[0]
+        ) for coin_id, coin_info in coin_infos.items()}
 
 
 coin_list = CoinGeckoAPIClient.get_coin_list()
@@ -188,9 +255,11 @@ coin_list_by_platform_and_address = {}
 
 for coin in coin_list:
     coin_list_by_id[coin.id] = coin
-    for network, address in coin.platforms.items():
+    for platform, address in coin.platforms.items():
         if address:
-            coin_list_by_platform_and_address[(network, address.lower())] = coin
+            if platform not in coin_list_by_platform_and_address:
+                coin_list_by_platform_and_address[platform] = {}
+            coin_list_by_platform_and_address[platform][address.lower()] = coin
 
 
 def get_coin_by_id(coin_symbol):
@@ -204,7 +273,7 @@ def get_coin_by_chain_and_address(chain, token_address):
     network_id = network_mappings.get(chain, None)
     if network_id is None:
         return None
-    return coin_list_by_platform_and_address.get((network_id, token_address.lower()), None)
+    return coin_list_by_platform_and_address.get(network_id, {}).get(token_address.lower(), None)
 
 
 def get_coins_by_id(coins):
@@ -221,7 +290,7 @@ def get_tokens_by_id(network, tokens):
     network_coin_gecko_id = network_mappings.get(network.symbol)
     if network_coin_gecko_id is not None:
         for token in tokens:
-            coin = coin_list_by_platform_and_address.get((network_coin_gecko_id, token.address.lower()))
+            coin = coin_list_by_platform_and_address.get(network_coin_gecko_id, {}).get(token.address.lower(), None)
             if coin is not None:
                 tokens_by_id.setdefault(coin.id, []).append(token)
     return tokens_by_id
@@ -265,3 +334,40 @@ def fetch_token_descriptions(network, tokens):
             for token in tokens_by_id[id]:
                 descriptions[token.symbol] = description
     return descriptions
+
+
+def fetch_missing_tokens_for_network(network, tokens):
+    existing_coin_ids = get_tokens_by_id(network, tokens).keys()
+    coingecko_platform = network_mappings.get(network.symbol)
+    if (coingecko_platform is None):
+        return []
+    network_coin_ids = []
+    for coin in coin_list:
+        if coingecko_platform in coin.platforms and coin.id not in existing_coin_ids:
+            network_coin_ids.append(coin.id)
+    print(f"Found {str(len(network_coin_ids))} missing coins in CoinGecko for {network.symbol}")
+    new_tokens = []
+    for coin_infos in map_chunked(CoinGeckoAPIClient.get_coin_info, network_coin_ids, 10):
+        for (coin_id, coin_info) in coin_infos.items():
+            if coin_info is None:
+                # print(f"Got None coin_info for {coin_id}")
+                continue
+            usd_24h_volume = coin_info.market_data.total_volume.get('usd', 0)
+            usd_mkcap = coin_info.market_data.market_cap.get('usd', 0)
+            if usd_24h_volume < 250_000 and usd_mkcap < 25_000_000:
+                # print(f"Skipping {coin_id} due to low USD volume ({usd_24h_volume}) and market cap ({usd_mkcap})")
+                continue
+            # print(f"Adding {coin_id} (volume={usd_24h_volume}, mkcap={usd_mkcap})")
+            address = coin_info.detail_platforms[coingecko_platform].contract_address
+            if Web3.is_address(address):
+                address = Web3.to_checksum_address(address)
+            new_tokens.append(Token(
+                address=address,
+                decimals=coin_info.detail_platforms[coingecko_platform].decimal_place,
+                displaySymbol=coin_info.symbol.upper(),
+                logo=coin_info.image.large,
+                name=coin_info.name,
+                symbol=coin_info.symbol.upper(),
+                website=coin_info.links.homepage[0]
+            ))
+    return new_tokens

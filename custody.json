@@ -204,6 +204,18 @@
     }
   },
   {
+    "symbol": "BASEETH",
+    "displaySymbol": "BASEETH",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings":  {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "BNB",
     "displaySymbol": "BNB",
     "type": "COIN",
@@ -545,6 +557,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "FLOKI",
+    "displaySymbol": "FLOKI",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "FLOW",
     "displaySymbol": "FLOW",
     "type": "ERC20",
@@ -765,7 +789,7 @@
   },
   {
     "symbol": "MATIC.MATIC",
-    "displaySymbol": "MATIC",
+    "displaySymbol": "POL",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -834,6 +858,18 @@
       "custodialPrecision": 9
     },
     "hwsSettings": null
+  },
+  {
+    "symbol": "MOG",
+    "displaySymbol": "MOG",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "NEAR",
@@ -946,6 +982,18 @@
   {
     "symbol": "PAX",
     "displaySymbol": "USDP",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "PEPE",
+    "displaySymbol": "PEPE",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -1260,6 +1308,18 @@
   },
   {
     "symbol": "USDC",
+    "displaySymbol": "USDC",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "USDC.BASEETH",
     "displaySymbol": "USDC",
     "type": "ERC20",
     "nabuSettings": {

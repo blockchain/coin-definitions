@@ -82,5 +82,17 @@ NETWORKS = [
         symbol="SOL",
         output_file="chain/solana/tokens.json",
         explorer_url="https://solscan.io/token/"
+    ),
+    Network(
+        chain="base",
+        symbol="BASEETH",
+        output_file="chain/base/tokens.json",
+        explorer_url="https://basescan.org/token/"
+    ),
+    Network(
+        chain="ton",
+        symbol="TON",
+        output_file="chain/ton/tokens.json",
+        explorer_url="https://tonscan.org/jetton/"
     )
 ]
