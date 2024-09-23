@@ -1366,13 +1366,13 @@
   {
     "symbol": "USDT.SOL",
     "displaySymbol": "USDT",
-    "type": "SOL_TOKEN",
+    "type": "SOLANA_TOKEN",
     "nabuSettings": {
       "custodialPrecision": 6
     },
     "hwsSettings":  {
       "minConfirmations": 1,
-      "minWithdrawal": 0.1
+      "minWithdrawal": 0
     }
   },
   {

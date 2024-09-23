@@ -157,7 +157,7 @@ def check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices
                 ref = chains.get(native).get(currency.symbol)
         elif currency.type == "CELO_TOKEN":
             ref = chains.get("CELO").get(currency.symbol)
-        elif currency.type == "SOL_TOKEN":
+        elif currency.type == "SOLANA_TOKEN":
             ref = chains.get("SOL").get(currency.symbol)
         else:
             yield Error(currency, "Invalid type")
