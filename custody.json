@@ -238,6 +238,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "BONK.SOL",
+    "displaySymbol": "Bonk",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 5
+    },
+    "hwsSettings":  {
+      "minConfirmations": 1,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "BSV",
     "displaySymbol": "BSV",
     "type": "COIN",
@@ -1013,6 +1025,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "POPCAT.SOL",
+    "displaySymbol": "POPCAT",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings":  {
+      "minConfirmations": 1,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "POR.CHZ",
     "displaySymbol": "POR",
     "type": "ERC20",
@@ -1420,6 +1444,18 @@
     },
     "hwsSettings": {
       "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "WIF.SOL",
+    "displaySymbol": "WIF",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings":  {
+      "minConfirmations": 1,
       "minWithdrawal": 0
     }
   },
