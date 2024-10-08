@@ -18,12 +18,6 @@
     ]
   },
   {
-    "parentSymbol": "MATIC",
-    "childSymbols": [
-      "MATIC.MATIC"
-    ]
-  },
-  {
     "parentSymbol":  "ETH",
     "childSymbols": [
       "BASEETH",
