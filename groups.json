@@ -3,19 +3,32 @@
     "parentSymbol":  "USDC",
     "childSymbols": [
       "USDC.MATIC",
-      "USDC.BASEETH"
+      "USDC.BASEETH",
+      "USDC.OETH",
+      "USDC.ARBETH",
+      "USDC.SOL"
     ]
   },
   {
     "parentSymbol":  "USDT",
     "childSymbols": [
-      "USDT.MATIC"
+      "USDT.MATIC",
+      "USDT.TON",
+      "USDT.TRX"
     ]
   },
   {
     "parentSymbol": "MATIC",
     "childSymbols": [
       "MATIC.MATIC"
+    ]
+  },
+  {
+    "parentSymbol":  "ETH",
+    "childSymbols": [
+      "BASEETH",
+      "OETH",
+      "ARBETH"
     ]
   }
 ]
