@@ -344,11 +344,11 @@
   {
     "symbol": "KLAY",
     "displaySymbol": "KLAY",
-    "name": "klaytn",
+    "name": "kaia",
     "key": "klaytn",
     "decimals": 18,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/klaytn/info/logo.png",
-    "website": "https://klaytn.foundation"
+    "website": "https://kaia.io"
   },
   {
     "symbol": "KUJI",

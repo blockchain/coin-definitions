@@ -913,3 +913,9 @@
 # - https://bscscan.com/token/0x9e3a9F1612028eeE48F85cA85f8Bed2f37d76848 (Quidax Token): https://quidax.com
 0x9e3a9F1612028eeE48F85cA85f8Bed2f37d76848
 #
+# 'bsr' is shared by:
+# - https://bscscan.com/token/0x5cE12F6d9F2FcAf0b11494a1C39E09eeB16Ca7e8 (Binstarter): https://binstarter.ai
+# 0x5cE12F6d9F2FcAf0b11494a1C39E09eeB16Ca7e8
+# - https://bscscan.com/token/0xab287e6D370C61f105630e656B5468ACB4D00423 (BinStarter): https://binstarter.io
+0xab287e6D370C61f105630e656B5468ACB4D00423
+#

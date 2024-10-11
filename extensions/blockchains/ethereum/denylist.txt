@@ -1324,3 +1324,15 @@
 # - https://etherscan.io/token/0xBC86727E770de68B1060C91f6BB6945c73e10388 (Ink Protocol): https://paywithink.com
 0xBC86727E770de68B1060C91f6BB6945c73e10388
 #
+# 'usds' is shared by:
+# - https://etherscan.io/token/0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe (StableUSD): https://www.stably.io/
+0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe
+# - https://etherscan.io/token/0xdC035D45d973E3EC169d2276DDab16f1e407384F (USDS): https://sky.money
+# 0xdC035D45d973E3EC169d2276DDab16f1e407384F
+#
+# 'yawn' is shared by:
+# - https://etherscan.io/token/0x881d4C8618D68872fA404518B2460eA839A02a6a (YAWN): https://yawnsworld.com
+0x881d4C8618D68872fA404518B2460eA839A02a6a
+# - https://etherscan.io/token/0x88Ce174C655B6d11210A069B2c106632DaBDB068 (Yawn's World): https://yawnsworld.com/
+# 0x88Ce174C655B6d11210A069B2c106632DaBDB068
+#

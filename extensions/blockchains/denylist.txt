@@ -92,6 +92,7 @@
   {"symbol": "OSMO", "name": "Osmosis"},
   {"symbol": "PIVX", "name": "PIVX"},
   {"symbol": "POA", "name": "POA"},
+  {"symbol": "POL", "name": "POL (ex-MATIC)"},
   {"symbol": "QSR", "name": "Quasar"},
   {"symbol": "QTUM", "name": "Qtum"},
   {"symbol": "RON", "name": "Ronin"},
