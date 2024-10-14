@@ -919,3 +919,21 @@
 # - https://bscscan.com/token/0xab287e6D370C61f105630e656B5468ACB4D00423 (BinStarter): https://binstarter.io
 0xab287e6D370C61f105630e656B5468ACB4D00423
 #
+# 'mtc' is shared by:
+# - https://bscscan.com/token/0x4E1A724b0588Fa971263c8AC5F78Ca215C7D09Dd (Moonft): https://moonft.market/
+# 0x4E1A724b0588Fa971263c8AC5F78Ca215C7D09Dd
+# - https://bscscan.com/token/0x67009eB16ff64d06b4F782b3c552b924B1D1bb93 (Matrix Chain): https://matrixchain.space/
+0x67009eB16ff64d06b4F782b3c552b924B1D1bb93
+#
+# 'pump' is shared by:
+# - https://bscscan.com/token/0x22b4fA9a13A0D303Ad258Ee6D62A6ac60364B0C9 (Big Pump): https://www.bigpump.org/
+# 0x22b4fA9a13A0D303Ad258Ee6D62A6ac60364B0C9
+# - https://bscscan.com/token/0xCEe4E6F4d8e634e329c457a4F98c090aFAfB1C4b (2024PUMP): https://2024pump.com/
+0xCEe4E6F4d8e634e329c457a4F98c090aFAfB1C4b
+#
+# 'dyna' is shared by:
+# - https://bscscan.com/token/0x7EA42e53033B9c4BF975c1afcF17FF7EF25b04a4 (Dynachain): http://dynachain.io
+0x7EA42e53033B9c4BF975c1afcF17FF7EF25b04a4
+# - https://bscscan.com/token/0xc41689A727469C1573009757200371edf36D540e (Dynamix): https://dynamix.finance/
+# 0xc41689A727469C1573009757200371edf36D540e
+#

@@ -159,7 +159,7 @@ def build_tokens_list(network, fill_from_coingecko=False):
     tokens = list(set(tokens) | set(current_tokens))
 
     # Optionally, fetch tokens from CoinGecko, adding to the current list
-    if fill_from_coingecko:
+    if fill_from_coingecko and network.symbol == "SOL":
         print(f"Fetching missing tokens from CoinGecko")
         new_tokens = fetch_missing_tokens_for_network(network, tokens)
         print(f"Adding {len(new_tokens)} tokens fetched from CoinGecko")
