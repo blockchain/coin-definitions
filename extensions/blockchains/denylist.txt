@@ -69,6 +69,7 @@
   {"symbol": "KSM", "name": "Kusama"},
   {"symbol": "LAT", "name": "PlatON"},
   {"symbol": "LUNC", "name": "Terra Classic"},
+  {"symbol": "MARS", "name": "Mars Protocol"},
   {"symbol": "MATIC", "name": "Polygon"},
   {"symbol": "MATIC", "name": "Polygon Mumbai Testnet"},
   {"symbol": "METIS", "name": "Metis"},

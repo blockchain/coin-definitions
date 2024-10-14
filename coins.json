@@ -378,15 +378,6 @@
     "website": "https://terra.money"
   },
   {
-    "symbol": "MARS",
-    "displaySymbol": "MARS",
-    "name": "Mars Protocol",
-    "key": "mars",
-    "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/mars/info/logo.png",
-    "website": "https://www.sommelier.finance/"
-  },
-  {
     "symbol": "MATIC.MATIC",
     "displaySymbol": "POL",
     "name": "Polygon",
