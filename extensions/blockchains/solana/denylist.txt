@@ -52,3 +52,45 @@ CTJf74cTo3cw8acFP1YXF3QpsQUUBGBjh2k2e8xsZ6UL
 # - https://solscan.io/token/CTg3ZgYx79zrE1MteDVkmkcGniiFrK1hJ6yiabropump (Neiro): https://neirobropump.com
 # CTg3ZgYx79zrE1MteDVkmkcGniiFrK1hJ6yiabropump
 #
+# 'ai' is shared by:
+# - https://solscan.io/token/99ouK5YUK3JPGCPX9joNtHsMU7NPpU7w91JN4kdQ97po (AI Community): https://ai-solana.com/
+99ouK5YUK3JPGCPX9joNtHsMU7NPpU7w91JN4kdQ97po
+# - https://solscan.io/token/ACeWC77UeW2DBZMe7YBsuXoxLvk4dHMnPzneApau1Au6 (Any Inu): https://www.anyinu.xyz/
+# ACeWC77UeW2DBZMe7YBsuXoxLvk4dHMnPzneApau1Au6
+#
+# 'egg' is shared by:
+# - https://solscan.io/token/EXA537HSBVpsFijENbt6Muuy9AADUN8dUmYKD4oKbjJE (Eggdog): https://eggdogsol.com/
+# EXA537HSBVpsFijENbt6Muuy9AADUN8dUmYKD4oKbjJE
+# - https://solscan.io/token/wo1zgt8rfrYpvdVi4nidoj1SYfcR4pQx69bmNv2JLhQ (JustAnEgg): https://justanegg.com/
+wo1zgt8rfrYpvdVi4nidoj1SYfcR4pQx69bmNv2JLhQ
+#
+# 'goat' is shared by:
+# - https://solscan.io/token/59u8qAD2S2gEtsY5Vs7dJ95YspnHavyHEtRfzCEb9F7G (Sonic The Goat): https://www.goatthecoin.xyz/
+# 59u8qAD2S2gEtsY5Vs7dJ95YspnHavyHEtRfzCEb9F7G
+# - https://solscan.io/token/CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump (Goatseus Maximus): https://pump.fun/CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump
+CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump
+#
+# 'nos' is shared by:
+# - https://solscan.io/token/24gG4br5xFBRmxdqpgirtxgcr7BaWoErQfc2uyDp2Qhh (NOSTALGIA):
+24gG4br5xFBRmxdqpgirtxgcr7BaWoErQfc2uyDp2Qhh
+# - https://solscan.io/token/nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7 (Nosana): https://nosana.io
+# nosXBVoaCTtYdLvKY6Csb4AC8JCdQKKAaWYtx2ZMoo7
+#
+# 'pups' is shared by:
+# - https://solscan.io/token/2oGLxYuNBJRcepT1mEV6KnETaLD7Bf6qq3CM6skasBfe (PUPS•WORLD•PEACE): https://t.me/pupsworldpeace
+# 2oGLxYuNBJRcepT1mEV6KnETaLD7Bf6qq3CM6skasBfe
+# - https://solscan.io/token/PUPS8ZgJ5po4UmNDfqtDMCPP6M1KP3EEzG9Zufcwzrg (PUPS): https://www.pupstoken.com
+PUPS8ZgJ5po4UmNDfqtDMCPP6M1KP3EEzG9Zufcwzrg
+#
+# 'trump' is shared by:
+# - https://solscan.io/token/BqhNdGtS1Nqtzi2MvZ7G8NN1vRuHZ12UpHGJKe71e1JT (MoonTrump): https://www.moontrump.com
+BqhNdGtS1Nqtzi2MvZ7G8NN1vRuHZ12UpHGJKe71e1JT
+# - https://solscan.io/token/HaP8r3ksG76PhQLTqR8FYBeNiQpejcFbQmiHbg787Ut1 (MAGA (Wormhole)): https://magamemecoin.com/
+# HaP8r3ksG76PhQLTqR8FYBeNiQpejcFbQmiHbg787Ut1
+#
+# 'zazu' is shared by:
+# - https://solscan.io/token/n7EksMkvk3WT5FjQ3HBMLm9XYU3EnoXUSJ7PoWpxsoG (ZAZU): https://www.zazuthecat.com/
+n7EksMkvk3WT5FjQ3HBMLm9XYU3EnoXUSJ7PoWpxsoG
+# - https://solscan.io/token/qiaupfns561LJPudU2YL48S2mx1nbekrn8V4RrpyJG6 (Zazu): https://zazucat.xyz/
+# qiaupfns561LJPudU2YL48S2mx1nbekrn8V4RrpyJG6
+#

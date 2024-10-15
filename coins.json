@@ -344,11 +344,11 @@
   {
     "symbol": "KLAY",
     "displaySymbol": "KLAY",
-    "name": "klaytn",
+    "name": "kaia",
     "key": "klaytn",
     "decimals": 18,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/klaytn/info/logo.png",
-    "website": "https://klaytn.foundation"
+    "website": "https://kaia.io"
   },
   {
     "symbol": "KUJI",
@@ -376,15 +376,6 @@
     "decimals": 6,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/terrav2/info/logo.png",
     "website": "https://terra.money"
-  },
-  {
-    "symbol": "MARS",
-    "displaySymbol": "MARS",
-    "name": "Mars Protocol",
-    "key": "mars",
-    "decimals": 6,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/mars/info/logo.png",
-    "website": "https://www.sommelier.finance/"
   },
   {
     "symbol": "MATIC.MATIC",

@@ -31,3 +31,9 @@
 # - https://polygonscan.com/token/0x7Bb11E7f8b10E9e571E5d8Eace04735fDFB2358a (Wrapped AVAX (Wormhole)): https://portalbridge.com/
 0x7Bb11E7f8b10E9e571E5d8Eace04735fDFB2358a
 #
+# 'route' is shared by:
+# - https://polygonscan.com/token/0x16ECCfDbb4eE1A85A33f3A9B21175Cd7Ae753dB4 (Route): https://www.routerprotocol.com/
+0x16ECCfDbb4eE1A85A33f3A9B21175Cd7Ae753dB4
+# - https://polygonscan.com/token/0x93890f346C5D02C3863a06657bc72555dC72c527 (Router Protocol): https://www.routerprotocol.com/
+# 0x93890f346C5D02C3863a06657bc72555dC72c527
+#

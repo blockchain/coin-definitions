@@ -4,6 +4,8 @@
 0xC727f87871ee12Bbcedd2973746D1Deb7529aaD6
 # Canto
 0x56C03B8C4FA80Ba37F5A7b60CAAAEF749bB5b220
+# DOGE
+0x1121AcC14c63f3C872BFcA497d10926A6098AAc5
 # EVER
 0x1ffEFD8036409Cb6d652bd610DE465933b226917
 # IOTX
@@ -1323,4 +1325,100 @@
 # 0x722a89F1b925fE41883978219c2176AECc7D6699
 # - https://etherscan.io/token/0xBC86727E770de68B1060C91f6BB6945c73e10388 (Ink Protocol): https://paywithink.com
 0xBC86727E770de68B1060C91f6BB6945c73e10388
+#
+# 'usds' is shared by:
+# - https://etherscan.io/token/0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe (StableUSD): https://www.stably.io/
+0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe
+# - https://etherscan.io/token/0xdC035D45d973E3EC169d2276DDab16f1e407384F (USDS): https://sky.money
+# 0xdC035D45d973E3EC169d2276DDab16f1e407384F
+#
+# 'yawn' is shared by:
+# - https://etherscan.io/token/0x881d4C8618D68872fA404518B2460eA839A02a6a (YAWN): https://yawnsworld.com
+0x881d4C8618D68872fA404518B2460eA839A02a6a
+# - https://etherscan.io/token/0x88Ce174C655B6d11210A069B2c106632DaBDB068 (Yawn's World): https://yawnsworld.com/
+# 0x88Ce174C655B6d11210A069B2c106632DaBDB068
+#
+# 'boom' is shared by:
+# - https://etherscan.io/token/0xDA8a1f5ECCABc80c26EC9ab493715D5b9Ce8FEF9 (BOOM): https://thewonders.io/
+# 0xDA8a1f5ECCABc80c26EC9ab493715D5b9Ce8FEF9
+# - https://etherscan.io/token/0xDB7Eab9bA6be88B869F738f6DEeBa96d49Fe13fd (BOOM): https://www.boomtoken.io/
+0xDB7Eab9bA6be88B869F738f6DEeBa96d49Fe13fd
+#
+# 'box' is shared by:
+# - https://etherscan.io/token/0x32B77729cD87F1EF2bEa4C650c16f89f08472c69 (DeBox): https://debox.pro/
+0x32B77729cD87F1EF2bEa4C650c16f89f08472c69
+# - https://etherscan.io/token/0x63f584FA56E60e4D0fE8802b27C7e6E3b33E007f (BOX Token): https://contentbox.one/
+# 0x63f584FA56E60e4D0fE8802b27C7e6E3b33E007f
+#
+# 'doggo' is shared by:
+# - https://etherscan.io/token/0x240Cd7b53d364a208eD41f8cEd4965D11F571B7a (Doggo): https://doggocto.com
+# 0x240Cd7b53d364a208eD41f8cEd4965D11F571B7a
+# - https://etherscan.io/token/0x3739426e21D912B604C106f852d136bA58f61517 (Doggo Inu): https://firstdoggoeth.community
+0x3739426e21D912B604C106f852d136bA58f61517
+#
+# 'ebtc' is shared by:
+# - https://etherscan.io/token/0x657e8C867D8B37dCC18fA4Caead9C45EB088C642 (Ether.fi Staked BTC): https://www.ether.fi/
+# 0x657e8C867D8B37dCC18fA4Caead9C45EB088C642
+# - https://etherscan.io/token/0xeB7C20027172E5d143fB030d50f91Cece2D1485D (eBTC): https://ebitcoin.org/
+0xeB7C20027172E5d143fB030d50f91Cece2D1485D
+#
+# 'game' is shared by:
+# - https://etherscan.io/token/0x825459139C897D769339f295E962396C4F9E4A4D (GameBuild): https://game.build
+# 0x825459139C897D769339f295E962396C4F9E4A4D
+# - https://etherscan.io/token/0xD567B5F02b9073aD3a982a099a23Bf019FF11d1c (Gamestarter): https://gamestarter.com/
+0xD567B5F02b9073aD3a982a099a23Bf019FF11d1c
+#
+# 'lit' is shared by:
+# - https://etherscan.io/token/0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723 (Litentry): https://www.litentry.com
+# 0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723
+# - https://etherscan.io/token/0xfd0205066521550D7d7AB19DA8F72bb004b4C341 (Bunni): https://bunni.xyz/
+0xfd0205066521550D7d7AB19DA8F72bb004b4C341
+#
+# 'marvin' is shared by:
+# - https://etherscan.io/token/0x70c29e99cA32592C0E88bb571B87444Bb0e08e33 (The Martian Dog): https://www.elonlovemarvin.com/
+0x70c29e99cA32592C0E88bb571B87444Bb0e08e33
+# - https://etherscan.io/token/0x85bEA4eE627B795A79583FcedE229E198aa57055 (Marvin Inu): https://marvincoin.com/
+# 0x85bEA4eE627B795A79583FcedE229E198aa57055
+#
+# 'puff' is shared by:
+# - https://etherscan.io/token/0x18fA05ee5e478EED8925946abb41d09AEc5d34D6 (Puff The Dragon): https://puffthedragon.xyz/
+0x18fA05ee5e478EED8925946abb41d09AEc5d34D6
+# - https://etherscan.io/token/0x31b6100F5F4466e6dAeb1edb2f2cE6e548cF8938 (Puff The Dragon): https://puffthedragon.xyz/
+# 0x31b6100F5F4466e6dAeb1edb2f2cE6e548cF8938
+#
+# 'pxp' is shared by:
+# - https://etherscan.io/token/0x15FA5d3DBD11a831b72B92C1705BC9F801E233CB (PointPay): https://pointpay.io/referral/40d2c818-a4e9-4834-bcda-c4f11a1b243d
+# 0x15FA5d3DBD11a831b72B92C1705BC9F801E233CB
+# - https://etherscan.io/token/0x95aA5d2DbD3c16ee3fdea82D5C6EC3E38CE3314f ( PointPay Crypto Banking Token V2): https://pointpay.io/
+0x95aA5d2DbD3c16ee3fdea82D5C6EC3E38CE3314f
+#
+# 'route' is shared by:
+# - https://etherscan.io/token/0x16ECCfDbb4eE1A85A33f3A9B21175Cd7Ae753dB4 (Route): https://www.routerprotocol.com/
+0x16ECCfDbb4eE1A85A33f3A9B21175Cd7Ae753dB4
+# - https://etherscan.io/token/0x60F67E1015b3f069DD4358a78c38f83fE3a667A9 (Router Protocol): https://www.routerprotocol.com/
+# 0x60F67E1015b3f069DD4358a78c38f83fE3a667A9
+#
+# 'usd3' is shared by:
+# - https://etherscan.io/token/0x046029F68B0E00eBec2e394D17F70ec848fcf1d2 (Stable.com USD3): https://stable.com/
+0x046029F68B0E00eBec2e394D17F70ec848fcf1d2
+# - https://etherscan.io/token/0x0d86883FAf4FfD7aEb116390af37746F45b6f378 (Web 3 Dollar): https://app.reserve.org/ethereum/token/0x0d86883faf4ffd7aeb116390af37746f45b6f378/overview
+# 0x0d86883FAf4FfD7aEb116390af37746F45b6f378
+#
+# 'usdx' is shared by:
+# - https://etherscan.io/token/0x2F6081E3552b1c86cE4479B80062A1ddA8EF23E3 (Dollars): https://dollarprotocol.com
+0x2F6081E3552b1c86cE4479B80062A1ddA8EF23E3
+# - https://etherscan.io/token/0xf3527ef8dE265eAa3716FB312c12847bFBA66Cef (usdx.money USDX): https://usdx.money/
+# 0xf3527ef8dE265eAa3716FB312c12847bFBA66Cef
+#
+# 'volt' is shared by:
+# - https://etherscan.io/token/0x66b5228CfD34d9f4d9f03188d67816286C7c0b74 (VOLT.WIN): https://app.volt.win/
+# 0x66b5228CfD34d9f4d9f03188d67816286C7c0b74
+# - https://etherscan.io/token/0x7f792db54B0e580Cdc755178443f0430Cf799aCa (Volt Inu): https://voltinu.in
+0x7f792db54B0e580Cdc755178443f0430Cf799aCa
+#
+# 'zbu' is shared by:
+# - https://etherscan.io/token/0x8f9b4525681F3Ea6E43b8E0a57BFfF86c0A1dd2e (Zeebu): https://www.zeebu.com/
+0x8f9b4525681F3Ea6E43b8E0a57BFfF86c0A1dd2e
+# - https://etherscan.io/token/0xe77f6aCD24185e149e329C1C0F479201b9Ec2f4B (Zeebu): https://www.zeebu.com/
+# 0xe77f6aCD24185e149e329C1C0F479201b9Ec2f4B
 #
