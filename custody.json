@@ -668,6 +668,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "KAMA.SOL",
+    "displaySymbol": "KAMA",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings":  {
+      "minConfirmations": 1,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "KAVA",
     "displaySymbol": "KAVA",
     "type": "COIN",
@@ -1284,6 +1296,18 @@
       "custodialPrecision": 8
     },
     "hwsSettings": null
+  },
+  {
+    "symbol": "TRUMP",
+    "displaySymbol": "TRUMP",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "TRX",
