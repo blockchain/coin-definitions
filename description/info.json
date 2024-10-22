@@ -6315,6 +6315,11 @@
         "websiteurl": "https://www.mogcoin.xyz"
     },
     {
+      "description": "MOG, the Ethereum token, claims to be a movement in internet culture, tokenizing success, cosmic domination, and meme-driven engagement. Launched in 2023, MOG has gained significant traction through viral memes and a strong community. With its origins rooted in “AMOG” (alpha male of group), the token symbolizes the rise of internet culture in crypto spaces. MOG is an ERC-20 token, compatible with Ethereum-based wallets and DeFi platforms.",
+      "symbol": "MOG",
+      "websiteurl": "https://www.mogcoin.xyz"
+    },
+    {
         "description": "Cross-Chain DeFi Wallet with Decentralized Identifier built for Web 3.0",
         "symbol": "NABOX.BNB",
         "websiteurl": "https://nabox.io/"
