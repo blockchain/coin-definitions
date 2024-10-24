@@ -17,6 +17,7 @@
   {"symbol": "ISK", "name": "Icelandic Króna",    "decimals": 0},
   {"symbol": "JPY", "name": "Japanese Yen",       "decimals": 0},
   {"symbol": "KRW", "name": "South Korean Won",   "decimals": 0},
+  {"symbol": "NGN", "name": "Nigerian Naira",     "decimals": 2},
   {"symbol": "NZD", "name": "New Zealand Dollar", "decimals": 2},
   {"symbol": "PLN", "name": "Polish złoty",       "decimals": 2},
   {"symbol": "RON", "name": "Romanian Leu",       "decimals": 2},
