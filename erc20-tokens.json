@@ -21998,10 +21998,10 @@
     {
         "address": "0xf263292e14d9D8ECd55B58dAD1F1dF825a874b7c",
         "decimals": 18,
-        "displaySymbol": "EDU",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/ethereum/assets/0xf263292e14d9D8ECd55B58dAD1F1dF825a874b7c/logo.png",
+        "displaySymbol": "EDUCOIN",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xf263292e14d9D8ECd55B58dAD1F1dF825a874b7c/logo.png",
         "name": "EduCoin",
-        "symbol": "EDU",
+        "symbol": "EDUCOIN",
         "website": "http://www.edu.one/"
     },
     {
@@ -22228,6 +22228,15 @@
         "name": "APYSwap",
         "symbol": "APYS",
         "website": "https://apyswap.com"
+    },
+    {
+        "address": "0xf8173a39c56a554837c4c7f104153a005d284d11",
+        "decimals": 18,
+        "displaySymbol": "EDU",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xf8173a39c56a554837c4c7f104153a005d284d11/logo.png",
+        "name": "EDU Coin",
+        "symbol": "EDU",
+        "website": "https://www.opencampus.xyz/"
     },
     {
         "address": "0xf819d9Cb1c2A819Fd991781A822dE3ca8607c3C9",
