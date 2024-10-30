@@ -148,15 +148,24 @@ def check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices
 
     for group in groups:
         if group.parentSymbol in group.childSymbols:
-            yield Error(group.parentSymbol, f"{group.parentSymbol} is also present in childSymbols")
+            yield Error(group.parentSymbol, f"also present in childSymbols")
+        # This could change but in the meantime that could avoid some mistakes
+        if "." in group.parentSymbol:
+            yield Error(group.parentSymbol, f"dotted parentSymbol not allowed")
         if len(group.childSymbols) == 0:
-            yield Error(group.parentSymbol, f"{group.parentSymbol} empty group")
+            yield Error(group.parentSymbol, f"empty group")
+        dotted_group = next((symbol for symbol in group.childSymbols if "." in symbol), None)
+        if dotted_group:
+            for symbol in group.childSymbols:
+                if group.parentSymbol != symbol.split(".")[0]:
+                    yield Error(symbol, f"expected {group.parentSymbol} prefix")
+
         all_group_symbols = [group.parentSymbol] + group.childSymbols
         for symbol in all_group_symbols:
             found_in_custody = next((custody_currency for custody_currency in custody_currencies if custody_currency.symbol == symbol), None)
 
             if not found_in_custody:
-                yield Error(symbol, f"{symbol} defined in groups.json but not in custody.json")
+                yield Error(symbol, f"defined in groups.json but not in custody.json")
 
 
     for currency in custody_currencies:
