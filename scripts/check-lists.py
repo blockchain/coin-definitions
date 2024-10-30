@@ -141,11 +141,7 @@ def check_logo(coin):
         yield Warning(coin, "No logo")
 
 
-def check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices, groups: List[Group]):
-    coins = {x.symbol: x for x in coins}
-    eth_erc20_tokens = {x.symbol: x for x in eth_erc20_tokens}
-    chains = {k: {t.symbol: t for t in v} for k, v in chains.items()}
-
+def check_groups(groups: List[Group], custody_currencies, prices):
     for group in groups:
         if group.parentSymbol in group.childSymbols:
             yield Error(group.parentSymbol, f"also present in childSymbols")
@@ -154,6 +150,7 @@ def check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices
             yield Error(group.parentSymbol, f"dotted parentSymbol not allowed")
         if len(group.childSymbols) == 0:
             yield Error(group.parentSymbol, f"empty group")
+
         dotted_group = next((symbol for symbol in group.childSymbols if "." in symbol), None)
         if dotted_group:
             for symbol in group.childSymbols:
@@ -161,12 +158,34 @@ def check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices
                     yield Error(symbol, f"expected {group.parentSymbol} prefix")
 
         all_group_symbols = [group.parentSymbol] + group.childSymbols
-        for symbol in all_group_symbols:
-            found_in_custody = next((custody_currency for custody_currency in custody_currencies if custody_currency.symbol == symbol), None)
+        parent_custody = next(
+            (custody_currency for custody_currency in custody_currencies if
+             custody_currency.symbol == group.parentSymbol), None)
+        parent_price = prices[group.parentSymbol]
 
+        if parent_price <= 0:
+            yield Error(group.parentSymbol, f"no price defined")
+        for symbol in all_group_symbols:
+            found_in_custody = next(
+                (custody_currency for custody_currency in custody_currencies if custody_currency.symbol == symbol),
+                None)
+
+            child_price = prices[symbol]
+            if abs(child_price - parent_price) >= 0.01:
+                yield Error(symbol, f"too much price diff between parent and child")
             if not found_in_custody:
                 yield Error(symbol, f"defined in groups.json but not in custody.json")
+            if parent_custody.nabuSettings.custodialPrecision != found_in_custody.nabuSettings.custodialPrecision:
+                yield Error(symbol, f"expected same custodialPrecision as part of the same group")
 
+
+def check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices, groups: List[Group]):
+    coins = {x.symbol: x for x in coins}
+    eth_erc20_tokens = {x.symbol: x for x in eth_erc20_tokens}
+    chains = {k: {t.symbol: t for t in v} for k, v in chains.items()}
+
+    for err in check_groups(groups, custody_currencies, prices):
+        yield err
 
     for currency in custody_currencies:
         if currency.symbol.upper() != currency.symbol:
