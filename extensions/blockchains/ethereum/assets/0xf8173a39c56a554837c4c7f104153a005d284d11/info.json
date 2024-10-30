@@ -1,0 +1,11 @@
+{
+    "name": "EDU Coin",
+    "website": "https://www.opencampus.xyz/",
+    "description": "The Open Campus Protocol is a decentralized solution for educators, content creators, parents, students, and co-publishers designed to address the major challenges in education today.",
+    "explorer": "https://etherscan.io/token/0xf8173a39c56a554837c4c7f104153a005d284d11",
+    "type": "ERC20",
+    "symbol": "EDU",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xf8173a39c56a554837c4c7f104153a005d284d11"
+}
