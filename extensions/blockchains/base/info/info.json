@@ -1,6 +1,7 @@
 {
   "name": "Ethereum",
   "symbol": "BASEETH",
+  "displaySymbol": "ETH",
   "type": "COIN",
   "decimals": 18,
   "status": "active",
