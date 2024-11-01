@@ -3663,6 +3663,15 @@
         "website": "https://www.4thecoin.com/"
     },
     {
+        "address": "0x249cA82617eC3DfB2589c4c17ab7EC9765350a18",
+        "decimals": 18,
+        "displaySymbol": "VERSE",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x249cA82617eC3DfB2589c4c17ab7EC9765350a18/logo.png",
+        "name": "Verse",
+        "symbol": "VERSE",
+        "website": "https://verse.bitcoin.com"
+    },
+    {
         "address": "0x249e38Ea4102D0cf8264d3701f1a0E39C4f2DC3B",
         "decimals": 18,
         "displaySymbol": "UFO",
@@ -5142,7 +5151,7 @@
         "address": "0x3595e426A7808E2482667eE4E453ef280fbB9cF4",
         "decimals": 9,
         "displaySymbol": "COCAINE",
-        "logo": "https://coin-images.coingecko.com/coins/images/50544/large/coka.jpg?1728285636",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3595e426A7808E2482667eE4E453ef280fbB9cF4/logo.png",
         "name": "Nose Candy",
         "symbol": "COCAINE",
         "website": "https://nosecandy.io/"
@@ -5691,10 +5700,10 @@
         "address": "0x3F66aE0c8E9Fb57f661aF4Ba8C8445D36ec5d7F7",
         "decimals": 18,
         "displaySymbol": "CRAI",
-        "logo": "https://coin-images.coingecko.com/coins/images/50455/large/cryptify-ai-logo-200x200.png?1727781104",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3F66aE0c8E9Fb57f661aF4Ba8C8445D36ec5d7F7/logo.png",
         "name": "Cryptify AI",
         "symbol": "CRAI",
-        "website": "https://cryptify.ai/"
+        "website": "https://www.cryptify.ai/"
     },
     {
         "address": "0x3FA729B4548beCBAd4EaB6EF18413470e6D5324C",
@@ -6375,8 +6384,8 @@
         "address": "0x44ff8620b8cA30902395A7bD3F2407e1A091BF73",
         "decimals": 18,
         "displaySymbol": "VIRTUAL",
-        "logo": "https://coin-images.coingecko.com/coins/images/34057/large/LOGOMARK.png?1708356054",
-        "name": "Virtuals Protocol",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x44ff8620b8cA30902395A7bD3F2407e1A091BF73/logo.png",
+        "name": "Virtual Protocol",
         "symbol": "VIRTUAL",
         "website": "https://www.virtuals.io/"
     },
@@ -17802,6 +17811,15 @@
         "website": "https://enjin.io"
     },
     {
+        "address": "0xF63E309818E4EA13782678CE6C31C1234fa61809",
+        "decimals": 8,
+        "displaySymbol": "JANET",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF63E309818E4EA13782678CE6C31C1234fa61809/logo.png",
+        "name": "Janet",
+        "symbol": "JANET",
+        "website": "https://janeteth.ai/"
+    },
+    {
         "address": "0xF6Ce4BE313EaD51511215F1874c898239A331E37",
         "decimals": 9,
         "displaySymbol": "BIRDDOG",
@@ -19303,6 +19321,15 @@
         "name": "Sabai Protocol",
         "symbol": "SABAI",
         "website": "https://sabaiprotocol.com/"
+    },
+    {
+        "address": "0xb612bFC5cE2FB1337Bd29F5Af24ca85DbB181cE2",
+        "decimals": 9,
+        "displaySymbol": "KLAUS",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xb612bFC5cE2FB1337Bd29F5Af24ca85DbB181cE2/logo.png",
+        "name": "Klaus",
+        "symbol": "KLAUS",
+        "website": "https://www.klausoneth.com/"
     },
     {
         "address": "0xb62d18DeA74045E822352CE4B3EE77319DC5ff2F",

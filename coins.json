@@ -46,7 +46,7 @@
   },
   {
     "symbol": "ARBETH",
-    "displaySymbol": "ARBETH",
+    "displaySymbol": "ETH",
     "name": "Ethereum",
     "key": "arbitrum",
     "decimals": 18,
@@ -73,7 +73,7 @@
   },
   {
     "symbol": "BASEETH",
-    "displaySymbol": "BASEETH",
+    "displaySymbol": "ETH",
     "name": "Ethereum",
     "key": "base",
     "decimals": 18,
@@ -424,7 +424,7 @@
   },
   {
     "symbol": "OETH",
-    "displaySymbol": "OETH",
+    "displaySymbol": "ETH",
     "name": "Ethereum",
     "key": "optimism",
     "decimals": 18,
