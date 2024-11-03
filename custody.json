@@ -836,6 +836,15 @@
     }
   },
   {
+    "symbol": "MEME",
+    "displaySymbol": "MEME",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "MIOTA",
     "displaySymbol": "MIOTA",
     "type": "COIN",
@@ -906,6 +915,15 @@
       "minConfirmations": 100,
       "minWithdrawal": 10000000000000000000000
     }
+  },
+  {
+    "symbol": "NEIRO",
+    "displaySymbol": "NEIRO",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
   },
   {
     "symbol": "NEXO",
@@ -1320,6 +1338,15 @@
       "minConfirmations": 300,
       "minWithdrawal": 0
     }
+  },
+  {
+    "symbol": "TURBO",
+    "displaySymbol": "TURBO",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null
   },
   {
     "symbol": "TUSD",

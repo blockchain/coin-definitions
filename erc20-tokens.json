@@ -11567,10 +11567,10 @@
     {
         "address": "0x812Ba41e071C7b7fA4EBcFB62dF5F45f6fA853Ee",
         "decimals": 9,
-        "displaySymbol": "Neiro",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x812Ba41e071C7b7fA4EBcFB62dF5F45f6fA853Ee/logo.png",
+        "displaySymbol": "NEIRO",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x812Ba41e071C7b7fA4EBcFB62dF5F45f6fA853Ee/logo.png",
         "name": "Neiro",
-        "symbol": "Neiro",
+        "symbol": "NEIRO",
         "website": "https://neiroeth.io"
     },
     {
