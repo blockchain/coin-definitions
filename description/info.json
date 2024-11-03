@@ -5870,6 +5870,11 @@
         "websiteurl": "https://metagalaxyland.com/"
     },
     {
+        "description": "Memecoin (MEME) is the native token of Memeland, a Web3 venture studio developed by 9GAG, the popular meme platform. Built on Ethereum as an ERC-20 token, MEME is designed purely for entertainment and engagement within the meme and crypto communities, with no inherent utility or value. Launched in 2023, MEME emphasizes a community-driven approach, leveraging 9GAG’s audience to blend memes, NFTs, and blockchain. Its distribution includes airdrops and presales, particularly for holders of Memeland NFTs, reinforcing its role as a cultural and creative experiment rather than a financial asset. As with any meme-based token, volatility and speculative risks apply.",
+        "symbol": "MEME",
+        "websiteurl": "https://www.memecoin.org"
+    },
+    {
         "description": "What is the project about?\r\n$MEMEME is Memecoin/utility token for Me's (@mememe69696969) community on twitter. The token started out as something of a joke on twitter, but Me realized he could use it as an opportunity to build his community and an NFT ecosystem, as well as experiment with dao structures so he put together a small team to work with him. \r\n\r\nUp next we would like to launch an NFT collection and will likely use $MEMEME as the mint currency - similar to Radbros and $rad. Right now, however, the token does not have any use and is purely a utility coin for the future of the community.\r\n\r\n",
         "symbol": "MEMEME",
         "websiteurl": "https://mememelabs.me/"
@@ -6373,6 +6378,11 @@
         "description": "Wrapped Near is a 1:1 equivalent of Near represented on the Near Blockchain.",
         "symbol": "NEAR.BNB",
         "websiteurl": "https://near.org/"
+    },
+    {
+        "description": "Neiro is a dog-themed meme coin that positions itself as the successor to Dogecoin, drawing inspiration from internet culture and the broader meme coin phenomenon. Adopted by the same owner as Kabosu, the original Doge, Neiro embodies the spirit of community-driven projects. Launched on the Ethereum blockchain, Neiro aims to create a playful and engaging ecosystem for its users while maintaining a commitment to charitable initiatives, particularly those focused on animal welfare. The project has gained traction within the cryptocurrency community, especially after receiving attention from notable figures, including Vitalik Buterin, who acknowledged the project and made a significant donation to an animal welfare fund. As a meme coin, users should be mindful of its volatility and speculative nature.",
+        "symbol": "NEIRO",
+        "websiteurl": "https://neiroeth.io"
     },
     {
         "description": "NEWB.Farm is a multi-chain DeFi yield optimizer with Binance Smart Chain being its first deployment that farms liquidity pools with the highest APY using a set of strategy contracts. \r\n\r\nBasically, users deposit supported tokens and NEWB.Farm automatically gets the yields in accordance with its strategy contracts and re-distributes it back to users. \r\n\r\nNEWB.Farm has more than 10 project backers and have provided 2.7million USD liquidity which is locked using smart contract for 12 months using Team.finance.\r\n\r\nNEWB.Farm also save users tons of gas during complex contract interactions because all the users need to do is just deposit, withdraw and stake.",
@@ -9480,7 +9490,7 @@
         "websiteurl": "https://www.dejitarutsuka.io/"
     },
     {
-        "description": "This first memecoin ever created completely by AI",
+        "description": "Turbo, initially a digital art-focused platform, has evolved into a symbol of Web3's community-driven ethos. Launched with only $69, it began as an experimental meme coin, showcasing the potential of decentralized creativity in cryptocurrency. Now fully decentralized, Turbo operates without a formal governance mechanism resembling Bitcoin’s structure. The project’s smart contract has been fully renounced, meaning no authority or team can influence its development or operations, leaving its future guided by the community. As with all meme assets, users should be aware of the token’s inherent volatility.",
         "symbol": "TURBO",
         "websiteurl": "https://turbotoken.io"
     },
