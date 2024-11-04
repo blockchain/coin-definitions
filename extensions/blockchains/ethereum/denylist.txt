@@ -1206,12 +1206,6 @@
 # - https://etherscan.io/token/0xB17DF9a3B09583a9bDCf757d6367171476D4D8a3 (MaverickChain): http://www.mvchain.net
 0xB17DF9a3B09583a9bDCf757d6367171476D4D8a3
 #
-# 'neiro' is shared by:
-# - https://etherscan.io/token/0x812Ba41e071C7b7fA4EBcFB62dF5F45f6fA853Ee (Neiro): https://www.neiroeth.io/
-0x812Ba41e071C7b7fA4EBcFB62dF5F45f6fA853Ee
-# - https://etherscan.io/token/0xEE2a03Aa6Dacf51C18679C516ad5283d8E7C2637 (Neiro): https://www.neirocoin.xyz
-# 0xEE2a03Aa6Dacf51C18679C516ad5283d8E7C2637
-#
 # 'next' is shared by:
 # - https://etherscan.io/token/0x4e005a760e00e17c4912A8070EEc047CfecBabbb (NEXT.exchange): https://next.exchange/
 0x4e005a760e00e17c4912A8070EEc047CfecBabbb

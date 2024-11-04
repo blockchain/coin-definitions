@@ -11565,6 +11565,15 @@
         "website": "https://aave.com"
     },
     {
+        "address": "0x812Ba41e071C7b7fA4EBcFB62dF5F45f6fA853Ee",
+        "decimals": 9,
+        "displaySymbol": "NEIRO",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x812Ba41e071C7b7fA4EBcFB62dF5F45f6fA853Ee/logo.png",
+        "name": "Neiro",
+        "symbol": "NEIRO",
+        "website": "https://neiroeth.io"
+    },
+    {
         "address": "0x8143182a775C54578c8B7b3Ef77982498866945D",
         "decimals": 8,
         "displaySymbol": "QUIL",
@@ -17318,10 +17327,10 @@
     {
         "address": "0xEE2a03Aa6Dacf51C18679C516ad5283d8E7C2637",
         "decimals": 9,
-        "displaySymbol": "NEIRO",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEE2a03Aa6Dacf51C18679C516ad5283d8E7C2637/logo.png",
+        "displaySymbol": "NEIROETH",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xEE2a03Aa6Dacf51C18679C516ad5283d8E7C2637/logo.png",
         "name": "Neiro",
-        "symbol": "NEIRO",
+        "symbol": "NEIROETH",
         "website": "https://www.neirocoin.xyz"
     },
     {
