@@ -921,7 +921,7 @@
     "displaySymbol": "NEIRO",
     "type": "ERC20",
     "nabuSettings": {
-      "custodialPrecision": 9
+      "custodialPrecision": 8
     },
     "hwsSettings": null
   },
