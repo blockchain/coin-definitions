@@ -196,6 +196,29 @@ def build_tokens_list(network, fill_from_coingecko=False):
     write_json(tokens, network.output_file)
 
 
+def fill_descriptions_from_overrides():
+    text_descriptions = read_json('./description/en.json')
+    descriptions_list = read_json('./description/info.json')
+    descriptions_overrides = read_json(EXT_OVERRIDES)['descriptions']
+    website_urls_overrides = read_json(EXT_OVERRIDES)['website_urls']
+
+    for symbol, description in descriptions_overrides.items():
+        text_descriptions[symbol] = description
+        existing_description = next((desc for desc in descriptions_list if desc['symbol'] == symbol), None)
+        if existing_description:
+            existing_description['description'] = description
+            existing_description['websiteurl'] = website_urls_overrides.get(symbol) or existing_description['websiteurl']
+        else:
+            descriptions_list.append({
+                'symbol': symbol,
+                'description': description,
+                'websiteurl': website_urls_overrides.get(symbol) or '',
+            })
+
+    write_json(text_descriptions, './description/en.json')
+    write_json(sorted(descriptions_list, key=lambda x: x['symbol']), './description/info.json')
+
+
 def fetch_descriptions():
     coins = list(map(lambda x: Coin.from_dict(x), read_json("coins.json")))
     print(f"Fetching descriptions for {len(coins)} coins")
@@ -208,12 +231,11 @@ def fetch_descriptions():
 
     text_descriptions = {}
     descriptions_list = []
-    descriptions_overrides = read_json(EXT_OVERRIDES)['descriptions']
 
     for symbol, description in descriptions.items():
         if not description:
             pass
-        text_description = descriptions_overrides.get(symbol) or description.description
+        text_description = description.description
         text_descriptions[symbol] = text_description if text_description else ''
         descriptions_list.append({
             'symbol': symbol,
@@ -224,12 +246,14 @@ def fetch_descriptions():
 
     write_json(text_descriptions, './description/en.json')
     write_json(sorted(descriptions_list, key=lambda x: x['symbol']), './description/info.json')
+    fill_descriptions_from_overrides()
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--fetch-prices', action='store_true')
     parser.add_argument('--fetch-descriptions', action='store_true')
+    parser.add_argument('--fill-descriptions-from-overrides', action='store_true')
     parser.add_argument('--fill-from-coingecko', action='store_true')
     args = parser.parse_args()
 
@@ -237,6 +261,8 @@ def main():
         fetch_prices()
     elif args.fetch_descriptions:
         fetch_descriptions()
+    elif args.fill_descriptions_from_overrides:
+        fill_descriptions_from_overrides()
     else:
         build_coins_list()
         for network in NETWORKS:
