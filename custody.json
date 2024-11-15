@@ -85,7 +85,7 @@
   },
   {
     "symbol": "ARBETH",
-    "displaySymbol": "ARBETH",
+    "displaySymbol": "ETH",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -205,7 +205,7 @@
   },
   {
     "symbol": "BASEETH",
-    "displaySymbol": "BASEETH",
+    "displaySymbol": "ETH",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
@@ -963,7 +963,7 @@
   },
   {
     "symbol": "OETH",
-    "displaySymbol": "OETH",
+    "displaySymbol": "ETH",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 8
