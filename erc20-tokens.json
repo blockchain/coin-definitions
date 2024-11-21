@@ -7704,6 +7704,15 @@
         "website": "https://xyo.network/"
     },
     {
+        "address": "0x556c3cbDCA77a7f21AFE15b17e644e0e98e64Df4",
+        "decimals": 18,
+        "displaySymbol": "MAO",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x556c3cbDCA77a7f21AFE15b17e644e0e98e64Df4/logo.png",
+        "name": "Mao",
+        "symbol": "MAO",
+        "website": "https://maos.world/"
+    },
+    {
         "address": "0x557B933a7C2c45672B610F8954A3deB39a51A8Ca",
         "decimals": 18,
         "displaySymbol": "REVV",
