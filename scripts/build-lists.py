@@ -6,7 +6,7 @@ from dataclasses import asdict
 from datetime import datetime
 from urllib.parse import urljoin
 
-from coin_gecko import fetch_coin_prices, fetch_token_prices, fetch_coin_descriptions, fetch_token_descriptions, fetch_missing_tokens_for_network
+from coin_gecko import fetch_coin_prices, fetch_token_prices, fetch_coin_descriptions, fetch_token_descriptions, fetch_missing_tokens_for_network, get_coin_by_chain_and_address
 from common_classes import Asset, Blockchain, Coin, Token
 from statics import BLOCKCHAINS, EXT_BLOCKCHAINS_DENYLIST, EXT_BLOCKCHAINS, EXT_PRICES, FINAL_BLOCKCHAINS_LIST, \
     NETWORKS, EXT_OVERRIDES
@@ -54,15 +54,20 @@ def find_duplicates(items, key):
     return [(symbol, items) for symbol, items in groups if len(items) > 1]
 
 
-def dump_duplicates(duplicates, explorer_url):
+def dump_duplicates(duplicates, network):
     print(f"Found {len(duplicates)} duplicate symbols:")
 
     for symbol, tokens in duplicates:
         print(f"# '{symbol}' is shared by:")
         for token in tokens:
-            etherscan_url = urljoin(explorer_url, token.address)
-            print(f"# - {etherscan_url} ({token.name}): {token.website}")
             print(f"# {token.address}")
+            print(f"# - Website: {token.website}")
+            print(f"# - Explorer: {urljoin(network.explorer_url, token.address)} ({token.name})")
+            coingecko_coin = get_coin_by_chain_and_address(network.symbol, token.address)
+            if coingecko_coin is None:
+                print(f"# - CoinGecko: Not found")
+            else:
+                print(f"# - CoinGecko: https://www.coingecko.com/en/coins/{coingecko_coin.id} ")
         print(f"#")
 
 
@@ -183,7 +188,7 @@ def build_tokens_list(network, fill_from_coingecko=False):
     duplicates = find_duplicates(tokens, lambda t: t.symbol.lower())
 
     if duplicates:
-        dump_duplicates(duplicates, network.explorer_url)
+        dump_duplicates(duplicates, network)
         return
 
     # Add network suffix before final dump:
