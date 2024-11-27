@@ -11961,15 +11961,6 @@
         "website": "https://aluna.social"
     },
     {
-        "address": "0x81FcC294d91bd8FFC8a822d7df0e2fD2f8526c39",
-        "decimals": 9,
-        "displaySymbol": "DOGE",
-        "logo": "https://coin-images.coingecko.com/coins/images/51475/large/doge.png?1731402608",
-        "name": "Department Of Government Efficiency",
-        "symbol": "DOGE",
-        "website": "https://doge.gd"
-    },
-    {
         "address": "0x81c9151de0C8bafCd325a57E3dB5a5dF1CEBf79c",
         "decimals": 18,
         "displaySymbol": "DAT",
