@@ -339,7 +339,7 @@ def fetch_token_descriptions(network, tokens):
 def fetch_missing_tokens_for_network(network, tokens):
     existing_coin_ids = get_tokens_by_id(network, tokens).keys()
     coingecko_platform = network_mappings.get(network.symbol)
-    if (coingecko_platform is None):
+    if coingecko_platform is None:
         return []
     network_coin_ids = []
     for coin in coin_list:
@@ -354,7 +354,7 @@ def fetch_missing_tokens_for_network(network, tokens):
                 continue
             usd_24h_volume = coin_info.market_data.total_volume.get('usd', 0)
             usd_mkcap = coin_info.market_data.market_cap.get('usd', 0)
-            if usd_24h_volume < 250_000 and usd_mkcap < 25_000_000:
+            if usd_24h_volume < 750_000 and usd_mkcap < 30_000_000:
                 # print(f"Skipping {coin_id} due to low USD volume ({usd_24h_volume}) and market cap ({usd_mkcap})")
                 continue
             # print(f"Adding {coin_id} (volume={usd_24h_volume}, mkcap={usd_mkcap})")
