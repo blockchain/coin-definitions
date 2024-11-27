@@ -10335,7 +10335,7 @@
         "address": "0x6aA56e1D98b3805921C170EB4B3fe7D4Fda6D89b",
         "decimals": 9,
         "displaySymbol": "TRUMP",
-        "logo": "https://coin-images.coingecko.com/coins/images/31498/large/Maga-Trump-Logo-200px.png?1696530309",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x6aA56e1D98b3805921C170EB4B3fe7D4Fda6D89b/logo.png",
         "name": "MAGA",
         "symbol": "TRUMP",
         "website": "https://magamemecoin.com/"
