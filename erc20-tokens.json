@@ -3744,6 +3744,15 @@
         "website": "https://brettcoineth.vip/"
     },
     {
+        "address": "0x243c9be13fAbA09F945ccc565547293337Da0Ad7",
+        "decimals": 18,
+        "displaySymbol": "TRUF",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x243c9be13fAbA09F945ccc565547293337Da0Ad7/logo.png",
+        "name": "Truflation",
+        "symbol": "TRUF",
+        "website": "https://truflation.com/"
+    },
+    {
         "address": "0x243cACb4D5fF6814AD668C3e225246efA886AD5a",
         "decimals": 18,
         "displaySymbol": "SHI",
@@ -8247,7 +8256,7 @@
         "address": "0x58D97B57BB95320F9a05dC918Aef65434969c2B2",
         "decimals": 18,
         "displaySymbol": "MORPHO",
-        "logo": "https://coin-images.coingecko.com/coins/images/29837/large/Morpho-token-icon.png?1726771230",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x58D97B57BB95320F9a05dC918Aef65434969c2B2/logo.png",
         "name": "Morpho",
         "symbol": "MORPHO",
         "website": "https://morpho.org/"
@@ -9543,10 +9552,10 @@
         "address": "0x66b5228CfD34d9f4d9f03188d67816286C7c0b74",
         "decimals": 18,
         "displaySymbol": "VOLT",
-        "logo": "https://coin-images.coingecko.com/coins/images/50438/large/VOLTCG.png?1727749014",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x66b5228CfD34d9f4d9f03188d67816286C7c0b74/logo.png",
         "name": "VOLT.WIN",
         "symbol": "VOLT",
-        "website": "https://app.volt.win/"
+        "website": "https://app.volt.win"
     },
     {
         "address": "0x66fD97a78d8854fEc445cd1C80a07896B0b4851f",
@@ -10335,8 +10344,8 @@
         "address": "0x6aA56e1D98b3805921C170EB4B3fe7D4Fda6D89b",
         "decimals": 9,
         "displaySymbol": "TRUMP",
-        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x6aA56e1D98b3805921C170EB4B3fe7D4Fda6D89b/logo.png",
-        "name": "MAGA",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6aA56e1D98b3805921C170EB4B3fe7D4Fda6D89b/logo.png",
+        "name": "MAGA (bridged)",
         "symbol": "TRUMP",
         "website": "https://magamemecoin.com/"
     },
@@ -22251,10 +22260,10 @@
         "address": "0xeC21890967a8CEb3e55a3F79dAc4E90673ba3C2E",
         "decimals": 8,
         "displaySymbol": "BEBE",
-        "logo": "https://coin-images.coingecko.com/coins/images/34932/large/1000003129.jpg?1706694024",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xeC21890967a8CEb3e55a3F79dAc4E90673ba3C2E/logo.png",
         "name": "BEBE",
         "symbol": "BEBE",
-        "website": "https://www.bebeeth.com"
+        "website": "https://www.bebeeth.com/"
     },
     {
         "address": "0xeD35af169aF46a02eE13b9d79Eb57d6D68C1749e",

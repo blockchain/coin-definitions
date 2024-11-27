@@ -981,3 +981,13 @@
 # - https://bscscan.com/token/0x837656c3f5858692cCdce13BA66e09d2685073df (INTOverse): https://intoverse.co/
 # - Not found in CoinGecko
 #
+# 'banana' is shared by:
+0x3d4f0513E8a29669B960f9dBcA61861548A9A760
+# - Website: https://bananabsc.com/
+# - Explorer: https://bscscan.com/token/0x3d4f0513E8a29669B960f9dBcA61861548A9A760 (Banana For Scale)
+# - CoinGecko: Not found
+# 0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95
+# - Website: https://apeswap.finance
+# - Explorer: https://bscscan.com/token/0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95 (Ape Swap Finance Banana)
+# - CoinGecko: https://www.coingecko.com/en/coins/apeswap-finance
+#
