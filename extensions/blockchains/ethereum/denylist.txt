@@ -6,6 +6,7 @@
 0x56C03B8C4FA80Ba37F5A7b60CAAAEF749bB5b220
 # DOGE
 0x1121AcC14c63f3C872BFcA497d10926A6098AAc5
+0x81FcC294d91bd8FFC8a822d7df0e2fD2f8526c39
 # EVER
 0x1ffEFD8036409Cb6d652bd610DE465933b226917
 # IOTX
@@ -1415,4 +1416,104 @@
 0x8f9b4525681F3Ea6E43b8E0a57BFfF86c0A1dd2e
 # - https://etherscan.io/token/0xe77f6aCD24185e149e329C1C0F479201b9Ec2f4B (Zeebu): https://www.zeebu.com/
 # 0xe77f6aCD24185e149e329C1C0F479201b9Ec2f4B
+#
+# 'art' is shared by:
+# - https://etherscan.io/token/0xCA6e4aC78CD8F0226FAEAbF3b1A3500aF2EbFF2B (Genify ART): https://genify.xyz/
+# 0xCA6e4aC78CD8F0226FAEAbF3b1A3500aF2EbFF2B
+# - https://etherscan.io/token/0xfec0cF7fE078a500abf15F1284958F22049c2C7e (Maecenas ART Token): https://www.maecenas.co/
+0xfec0cF7fE078a500abf15F1284958F22049c2C7e
+#
+# 'cook' is shared by:
+# - https://etherscan.io/token/0x9F0C013016E8656bC256f948CD4B79ab25c7b94D (mETH Protocol): https://www.mantle.xyz/meth
+0x9F0C013016E8656bC256f948CD4B79ab25c7b94D
+# - https://etherscan.io/token/0xFF75CEd57419bcaEBe5F05254983b013B0646eF5 (COOK Token): https://cook.finance/
+# 0xFF75CEd57419bcaEBe5F05254983b013B0646eF5
+#
+# 'ebtc' is shared by:
+# - https://etherscan.io/token/0x657e8C867D8B37dCC18fA4Caead9C45EB088C642 (Ether.fi Staked BTC): https://www.ether.fi/
+# 0x657e8C867D8B37dCC18fA4Caead9C45EB088C642
+# - https://etherscan.io/token/0x661c70333AA1850CcDBAe82776Bb436A0fCfeEfB (eBTC): https://www.ebtc.finance/
+0x661c70333AA1850CcDBAe82776Bb436A0fCfeEfB
+#
+# 'flux' is shared by:
+# - https://etherscan.io/token/0x720CD16b011b987Da3518fbf38c3071d4F0D1495 (Flux): https://runonflux.io/
+# 0x720CD16b011b987Da3518fbf38c3071d4F0D1495
+# - https://etherscan.io/token/0xBFDE5ac4f5Adb419A931a5bF64B0f3BB5a623d06 (Flux): https://www.flux.win/
+0xBFDE5ac4f5Adb419A931a5bF64B0f3BB5a623d06
+#
+# 'kai' is shared by:
+# - https://etherscan.io/token/0xA045Fe936E26e1e1e1Fb27C1f2Ae3643acde0171 (Kai Ken): https://kai-ken.live/
+# 0xA045Fe936E26e1e1e1Fb27C1f2Ae3643acde0171
+# - https://etherscan.io/token/0xD9Ec3ff1f8be459Bb9369b4E79e9Ebcf7141C093 (Kardiachain): https://kardiachain.io/
+0xD9Ec3ff1f8be459Bb9369b4E79e9Ebcf7141C093
+#
+# 'pin' is shared by:
+# - https://etherscan.io/token/0x2e44f3f609ff5aA4819B323FD74690f07C3607c4 (PinLink): http://pinlink.ai/
+# 0x2e44f3f609ff5aA4819B323FD74690f07C3607c4
+# - https://etherscan.io/token/0xc1f976B91217E240885536aF8b63bc8b5269a9BE (PIN): https://publicindex.network
+0xc1f976B91217E240885536aF8b63bc8b5269a9BE
+#
+# 'rio' is shared by:
+# - https://etherscan.io/token/0x94a8b4EE5CD64C79D0Ee816f467EA73009f51aA0 (Realio Network Token): https://realio.network/
+# 0x94a8b4EE5CD64C79D0Ee816f467EA73009f51aA0
+# - https://etherscan.io/token/0xf21661D0D1d76d3ECb8e1B9F1c923DBfffAe4097 (Realio Network): https://realio.fund
+0xf21661D0D1d76d3ECb8e1B9F1c923DBfffAe4097
+#
+# 'soc' is shared by:
+# - https://etherscan.io/token/0x2d0E95bd4795D7aCe0da3C0Ff7b706a5970eb9D3 (All Sports Coin): https://www.allsportschain.com
+0x2d0E95bd4795D7aCe0da3C0Ff7b706a5970eb9D3
+# - https://etherscan.io/token/0x3250577E12b9469915C1Fa3a71C22817Ca44C4D9 (Socrates): https://www.socrates.com
+# 0x3250577E12b9469915C1Fa3a71C22817Ca44C4D9
+#
+# 'soul' is shared by:
+# - https://etherscan.io/token/0x75858677e27C930FB622759FeafFeE2b754Af07F (Phantasma): https://phantasma.info
+# 0x75858677e27C930FB622759FeafFeE2b754Af07F
+# - https://etherscan.io/token/0x992D339532A9C42F1b0E59A57e95F38da38c66F6 (Soulsaver): https://idlesoulsavers.io/
+0x992D339532A9C42F1b0E59A57e95F38da38c66F6
+#
+# 'tru' is shared by:
+# - https://etherscan.io/token/0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784 (TrueFi): https://truefi.io/
+# 0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784
+# - https://etherscan.io/token/0xf65B5C5104c4faFD4b709d9D60a185eAE063276c (Truebit Protocol): https://truebit.io/
+0xf65B5C5104c4faFD4b709d9D60a185eAE063276c
+#
+# 'truf' is shared by:
+# - https://etherscan.io/token/0x243c9be13fAbA09F945ccc565547293337Da0Ad7 (Truflation): https://truflation.com/
+# 0x243c9be13fAbA09F945ccc565547293337Da0Ad7
+# - https://etherscan.io/token/0x38C2a4a7330b22788374B8Ff70BBa513C8D848cA (Truflation): https://truflation.com/
+0x38C2a4a7330b22788374B8Ff70BBa513C8D848cA
+#
+# 'usda' is shared by:
+# - https://etherscan.io/token/0x3C7b464376DB7C9927930cf50EEfDEA2EFF3A66A (USDA): https://usda.cc/en
+# 0x3C7b464376DB7C9927930cf50EEfDEA2EFF3A66A
+# - https://etherscan.io/token/0x8A60E489004Ca22d775C5F2c657598278d17D9c2 (USDa): https://www.avalonfinance.xyz/
+0x8A60E489004Ca22d775C5F2c657598278d17D9c2
+#
+# 'opsec' is shared by:
+0x6A7eFF1e2c355AD6eb91BEbB5ded49257F3FED98
+# - https://etherscan.io/token/0x6A7eFF1e2c355AD6eb91BEbB5ded49257F3FED98 (OpSec): https://opsec.software/
+# - Not found in CoinGecko
+# 0x8be8c50e7D7aCFf6084899e71a6Db085fF7134C8
+# - https://etherscan.io/token/0x8be8c50e7D7aCFf6084899e71a6Db085fF7134C8 (OpSec): https://www.opsec.computer/
+# - CoinGecko (opsec): https://www.coingecko.com/en/coins/opsec
+#
+# 'the' is shared by:
+0x0cbA60Ca5eF4D42f92A5070A8fEDD13BE93E2861
+# - Website: https://theprotocoloff.com
+# - Explorer: https://etherscan.io/token/0x0cbA60Ca5eF4D42f92A5070A8fEDD13BE93E2861 (The Protocol)
+# - CoinGecko: https://www.coingecko.com/en/coins/the-protocol
+# 0xB4a677B0E363c3815d46326954a4E4d2B1ACe357
+# - Website: https://the-node.foundation/
+# - Explorer: https://etherscan.io/token/0xB4a677B0E363c3815d46326954a4E4d2B1ACe357 (THENODE)
+# - CoinGecko: https://www.coingecko.com/en/coins/the-node
+#
+# 'dog' is shared by:
+0x864cb5194722d5a1596F4BE8B899916d30daD8d8
+# - Website: https://godel.network/
+# - Explorer: https://etherscan.io/token/0x864cb5194722d5a1596F4BE8B899916d30daD8d8 (LEDOG (DOG))
+# - CoinGecko: https://www.coingecko.com/en/coins/ledog-dog
+# 0xBAac2B4491727D78D2b78815144570b9f2Fe8899
+# - Website: https://ownthedoge.com/
+# - Explorer: https://etherscan.io/token/0xBAac2B4491727D78D2b78815144570b9f2Fe8899 (The Doge NFT)
+# - CoinGecko: https://www.coingecko.com/en/coins/the-doge-nft
 #

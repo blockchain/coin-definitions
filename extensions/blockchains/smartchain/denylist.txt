@@ -937,3 +937,47 @@
 # - https://bscscan.com/token/0xc41689A727469C1573009757200371edf36D540e (Dynamix): https://dynamix.finance/
 # 0xc41689A727469C1573009757200371edf36D540e
 #
+# 'bbt' is shared by:
+# - https://bscscan.com/token/0xD48474E7444727bF500a32D5AbE01943f3A59A64 (BitBook): https://www.bitbook.network
+0xD48474E7444727bF500a32D5AbE01943f3A59A64
+# - https://bscscan.com/token/0xb208063997dB51DE3f0988F8A87b0aff83a6213F (BabyBoomToken): https://www.babyboomtoken.com/
+# 0xb208063997dB51DE3f0988F8A87b0aff83a6213F
+#
+# 'cats' is shared by:
+# - https://bscscan.com/token/0x2f0c6e147974BfbF7Da557b88643D74C324053A2 (Catcoin Token V2): https://www.catcoincrypto.me/
+0x2f0c6e147974BfbF7Da557b88643D74C324053A2
+# - https://bscscan.com/token/0x4f7eA8F6487a7007ca054F35c4a7b961f5b18961 (GoldenCat): https://goldencat.io/
+# 0x4f7eA8F6487a7007ca054F35c4a7b961f5b18961
+#
+# 'marsk' is shared by:
+# - https://bscscan.com/token/0x1440b57C81dD9d559434cd6a94F6907EEAcA6111 (MARSK): https://marslaunchpad.org
+# 0x1440b57C81dD9d559434cd6a94F6907EEAcA6111
+# - https://bscscan.com/token/0x145335c5fD3D53e2A361d995015A055484167666 (MARSK): https://marslaunchpad.org
+0x145335c5fD3D53e2A361d995015A055484167666
+#
+# 'mbtc' is shared by:
+# - https://bscscan.com/token/0x7c1cCA5b25Fa0bC9AF9275Fb53cBA89DC172b878 (Babypie Wrapped BTC): https://www.babylon.magpiexyz.io/stake
+0x7c1cCA5b25Fa0bC9AF9275Fb53cBA89DC172b878
+# - https://bscscan.com/token/0xe77011ed703ed06927dBd78e60c549baBAbF913e (Micro Bitcoin): https://mbitcoin.finance/
+# 0xe77011ed703ed06927dBd78e60c549baBAbF913e
+#
+# 'pzp' is shared by:
+# - https://bscscan.com/token/0x6ad9E9c098a45B2B41b519119C31c3DcB02ACcB2 (PlayZap): https://www.playzap.games/
+0x6ad9E9c098a45B2B41b519119C31c3DcB02ACcB2
+# - https://bscscan.com/token/0xdCE40c14D5956F8b8bA912402bA73B4D4d599612 (PlayZap): https://www.playzap.games/
+# 0xdCE40c14D5956F8b8bA912402bA73B4D4d599612
+#
+# 'rio' is shared by:
+# - https://bscscan.com/token/0x8C49A510756224E887B3D99d00D959F2d86Dda1c (Realio): https://www.realio.fund/
+0x8C49A510756224E887B3D99d00D959F2d86Dda1c
+# - https://bscscan.com/token/0x94a8b4EE5CD64C79D0Ee816f467EA73009f51aA0 (Realio Network Token): https://realio.network/
+# 0x94a8b4EE5CD64C79D0Ee816f467EA73009f51aA0
+#
+# 'tox' is shared by:
+# 0x03a50F17016d6f66D15F3ff91E76dc14E2b5bEAb
+# - https://bscscan.com/token/0x03a50F17016d6f66D15F3ff91E76dc14E2b5bEAb (TOX TOKEN): https://intoverse.co/
+# - CoinGecko (tox): https://www.coingecko.com/en/coins/tox
+0x837656c3f5858692cCdce13BA66e09d2685073df
+# - https://bscscan.com/token/0x837656c3f5858692cCdce13BA66e09d2685073df (INTOverse): https://intoverse.co/
+# - Not found in CoinGecko
+#

@@ -237,6 +237,7 @@ def main():
     print(f"{len(eth_erc20_tokens)} ETH tokens")
     for (k, v) in chains.items():
         print(f"{len(v)} {k} tokens")
+    print(f"Total: {len(combined)}")
 
     prices = read_json("extensions/prices.json")['prices']
     issues = list(check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices, groups))

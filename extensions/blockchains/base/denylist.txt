@@ -16,3 +16,21 @@
 # - https://basescan.org/token/0x698DC45e4F10966f6D1D98e3bFd7071d8144C233 (Pepe): https://pepeonbase.live/
 0x698DC45e4F10966f6D1D98e3bFd7071d8144C233
 #
+# 'rwa' is shared by:
+0x928A6a9fc62b2C94BaF2992a6fBa4715f5Bb0066
+# - https://basescan.org/token/0x928A6a9fc62b2C94BaF2992a6fBa4715f5Bb0066 (Rug World Assets): https://rugwa.com/
+# - CoinGecko (rwa): https://www.coingecko.com/en/coins/rug-world-assets
+# 0xE2B1dc2D4A3b4E59FDF0c47B71A7A86391a8B35a
+# - https://basescan.org/token/0xE2B1dc2D4A3b4E59FDF0c47B71A7A86391a8B35a (RWA Inc.): https://www.rwa.inc
+# - CoinGecko (rwa): https://www.coingecko.com/en/coins/rwa-inc
+#
+# 'wai' is shared by:
+# 0x23471E7250bCD7ee21Df3f39Ed6151931D1E076b
+# - Website: https://aiwaifu.gg
+# - Explorer: https://basescan.org/token/0x23471E7250bCD7ee21Df3f39Ed6151931D1E076b (AI Waifu)
+# - CoinGecko: https://www.coingecko.com/en/coins/ai-waifu-2
+0x6112b8714221bBd96AE0A0032A683E38B475d06C
+# - Website: https://app.virtuals.io/virtuals/3597
+# - Explorer: https://basescan.org/token/0x6112b8714221bBd96AE0A0032A683E38B475d06C (WAI Combinator by Virtuals)
+# - CoinGecko: https://www.coingecko.com/en/coins/wai-combinator-by-virtuals
+#

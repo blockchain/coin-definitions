@@ -94,3 +94,125 @@ n7EksMkvk3WT5FjQ3HBMLm9XYU3EnoXUSJ7PoWpxsoG
 # - https://solscan.io/token/qiaupfns561LJPudU2YL48S2mx1nbekrn8V4RrpyJG6 (Zazu): https://zazucat.xyz/
 # qiaupfns561LJPudU2YL48S2mx1nbekrn8V4RrpyJG6
 #
+# 'bitcat' is shared by:
+# - https://solscan.io/token/4j9bDg7iWNah1Qa61rrqwWZMtEdqV3fV56SzyhfNpump (Bitcat): https://solanabitcat.com
+# 4j9bDg7iWNah1Qa61rrqwWZMtEdqV3fV56SzyhfNpump
+# - https://solscan.io/token/BSkz8QHwk1DaT3Dcf1L5vWsCRzgrfrLR3qYmwSt1rtUM (Bitcat): https://bitcatonsol.xyz/
+BSkz8QHwk1DaT3Dcf1L5vWsCRzgrfrLR3qYmwSt1rtUM
+#
+# 'blob' is shared by:
+# - https://solscan.io/token/92kxUXDsBQLy5ptGxtmH9CDYd5E6ZQynzf2eFPiUpump (Blob): https://www.belikeblob.com/
+92kxUXDsBQLy5ptGxtmH9CDYd5E6ZQynzf2eFPiUpump
+# - https://solscan.io/token/DgG9sM56ZcVidBV8bNArQPm93a2rmjzHkrrUntGSpump (Blobana pet): https://blobanapet.com/
+# DgG9sM56ZcVidBV8bNArQPm93a2rmjzHkrrUntGSpump
+#
+# 'boop' is shared by:
+# - https://solscan.io/token/2HrZ5R18H48b8ptL3n8N5zX65zDB4o2cMCHcP3QfSfye (Boop): https://boopthecoin.com/
+2HrZ5R18H48b8ptL3n8N5zX65zDB4o2cMCHcP3QfSfye
+# - https://solscan.io/token/Gx2yQqgguqpKwGCrrgx4dr8toTYevczEtGd6B1pKpump (BOOP): https://www.boop.meme
+# Gx2yQqgguqpKwGCrrgx4dr8toTYevczEtGd6B1pKpump
+#
+# 'cat' is shared by:
+# - https://solscan.io/token/3joMReCCSESngJEpFLoKR2dNcChjSRCDtybQet5uSpse (Simon's Cat): https://www.simons.cat
+# 3joMReCCSESngJEpFLoKR2dNcChjSRCDtybQet5uSpse
+# - https://solscan.io/token/7hWcHohzwtLddDUG81H2PkWq6KEkMtSDNkYXsso18Fy3 (Catcoin): https://catcoin.com
+7hWcHohzwtLddDUG81H2PkWq6KEkMtSDNkYXsso18Fy3
+#
+# 'cheese' is shared by:
+# - https://solscan.io/token/AbrMJWfDVRZ2EWCQ1xSCpoVeVgZNpq1U2AoYG98oRXfn (Cheese): https://cheesed.me/
+AbrMJWfDVRZ2EWCQ1xSCpoVeVgZNpq1U2AoYG98oRXfn
+# - https://solscan.io/token/B1KrhWbacPi3tpjWqnsbjKQJEkp3RvWppGxNzUYBpump (Cheese): https://www.cheesesol.biz/
+# B1KrhWbacPi3tpjWqnsbjKQJEkp3RvWppGxNzUYBpump
+#
+# 'doge' is shared by:
+# - https://solscan.io/token/9TY6DUg1VSssYH5tFE95qoq5hnAGFak4w3cn72sJNCoV (Department of Gov Efficiency): https://deptofgovtefficiency.com/d-o-g-e
+# 9TY6DUg1VSssYH5tFE95qoq5hnAGFak4w3cn72sJNCoV
+# - https://solscan.io/token/B54Fyr1XrWNA5RsRRkovoVFwQwzwBfqaJPLoFR4pMoAX (Department Of Government Efficiency): https://doge.gd
+B54Fyr1XrWNA5RsRRkovoVFwQwzwBfqaJPLoFR4pMoAX
+# - https://solscan.io/token/KQijDbNJ6rPCqhtXrfH6gKa5cH3a39At8vHq34nnPbF (Department Of Government Efficiency): https://www.dogegov.com/
+KQijDbNJ6rPCqhtXrfH6gKa5cH3a39At8vHq34nnPbF
+#
+# 'early' is shared by:
+# - https://solscan.io/token/5a5iV4jTaxyPP4mMeeRfZStz6tYQ65p2CKTNygdRpump (imnotwrongimearly): https://www.imnotwrongimearly.xyz/
+# 5a5iV4jTaxyPP4mMeeRfZStz6tYQ65p2CKTNygdRpump
+# - https://solscan.io/token/ErVrf7WrMS8Rw4b6ZkYSVR5TvMjKRMjSLH8cwT7jmbgp (Early Risers):
+ErVrf7WrMS8Rw4b6ZkYSVR5TvMjKRMjSLH8cwT7jmbgp
+#
+# 'eliza' is shared by:
+# - https://solscan.io/token/5voS9evDjxF589WuEub5i4ti7FWQmZCsAsyD5ucbuRqM (Eliza): https://elizawakesup.ai/
+# 5voS9evDjxF589WuEub5i4ti7FWQmZCsAsyD5ucbuRqM
+# - https://solscan.io/token/wUtwjNmjCP9TTTtoc5Xn5h5sZ2cYJm5w2w44b79yr2o (ai16zeliza): https://vvaifu.fun/character/673905469257ff5b86d15313
+wUtwjNmjCP9TTTtoc5Xn5h5sZ2cYJm5w2w44b79yr2o
+#
+# 'floof' is shared by:
+# - https://solscan.io/token/3jzdrXXKxwkBk82u2eCWASZLCKoZs1LQTg87HBEAmBJw (FLOOF): https://www.floofsolana.com/
+3jzdrXXKxwkBk82u2eCWASZLCKoZs1LQTg87HBEAmBJw
+# - https://solscan.io/token/X3rigWZSJhEE5DCQVWhnEChpWkJyHfidwXUSQPBpump (Floofnoodles): https://pump.fun/coin/X3rigWZSJhEE5DCQVWhnEChpWkJyHfidwXUSQPBpump
+# X3rigWZSJhEE5DCQVWhnEChpWkJyHfidwXUSQPBpump
+#
+# 'hello' is shared by:
+# - https://solscan.io/token/4h49hPGphLNJNDRyiBwzvKoasR3rw1WJCEv19PhUbSS4 (HELLO): https://hello.one/
+# 4h49hPGphLNJNDRyiBwzvKoasR3rw1WJCEv19PhUbSS4
+# - https://solscan.io/token/HrBwc1Gwptdb4hVFjLp97MbBW2jyzh4R7kBsZT1tpump (Based Department): https://baseddepartment.biz/
+HrBwc1Gwptdb4hVFjLp97MbBW2jyzh4R7kBsZT1tpump
+#
+# 'long' is shared by:
+# - https://solscan.io/token/AYABiqKuTh9Va5Aqc6AujFevHwDGmECGQiFmKW5g3K4Z (Nobiko Coin): https://nobikocoin.com/
+# AYABiqKuTh9Va5Aqc6AujFevHwDGmECGQiFmKW5g3K4Z
+# - https://solscan.io/token/CBW9tWMs2yF7oXLCZpRfGUjyqui5ppEKQ3NrQvjEpump (Longcat): https://www.longcatsol.co/
+CBW9tWMs2yF7oXLCZpRfGUjyqui5ppEKQ3NrQvjEpump
+#
+# 'luna' is shared by:
+# - https://solscan.io/token/9se6kma7LeGcQWyRBNcYzyxZPE3r9t9qWZ8SnjnN3jJ7 (Luna by Virtuals): https://v2.virtuals.io/virtuals/68
+# 9se6kma7LeGcQWyRBNcYzyxZPE3r9t9qWZ8SnjnN3jJ7
+# - https://solscan.io/token/F6v4wfAdJB8D8p77bMXZgYt8TDKsYxLYxH5AFhUkYx9W (LUNA (Portal)): https://terra.money
+F6v4wfAdJB8D8p77bMXZgYt8TDKsYxLYxH5AFhUkYx9W
+#
+# 'pzp' is shared by:
+# - https://solscan.io/token/2CnfY3wZu715Mdbj1CeWfMNcsKNqkREPjTmW4o1Psj9J (PlayZap): https://www.playzap.games/
+2CnfY3wZu715Mdbj1CeWfMNcsKNqkREPjTmW4o1Psj9J
+# - https://solscan.io/token/ADVgDMbbn6LZTdo84UDAgCUew2JMMHe6BnH3KNN3qiLb (PlayZap): https://www.playzap.games/
+# ADVgDMbbn6LZTdo84UDAgCUew2JMMHe6BnH3KNN3qiLb
+#
+# 'real' is shared by:
+# - https://solscan.io/token/AD27ov5fVU2XzwsbvnFvb1JpCBaCB5dRXrczV9CqSVGb (Realy Metaverse): https://realy.pro/
+# AD27ov5fVU2XzwsbvnFvb1JpCBaCB5dRXrczV9CqSVGb
+# - https://solscan.io/token/Cy4DSbZW4CE6cG6HDqQFhXxpHTdm41SY9hBB1JG6pump (real.): https://realmaxxing.xyz
+Cy4DSbZW4CE6cG6HDqQFhXxpHTdm41SY9hBB1JG6pump
+#
+# 'sbr' is shared by:
+# - https://solscan.io/token/2HHgCLfKA5Rd1Fn9xAxfYzS3XoR5NnuxKDYz2EmWpump (Strategic Bitcoin Reserve): https://sbrsol.world/
+2HHgCLfKA5Rd1Fn9xAxfYzS3XoR5NnuxKDYz2EmWpump
+# - https://solscan.io/token/Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1 (Saber Protocol Token): https://saber.so/
+# Saber2gLauYim4Mvftnrasomsv6NvAuncvMEZwcLpD1
+#
+# 'tucker' is shared by:
+# - https://solscan.io/token/2i4yVrkAH66ZekohRra989GoAaDWujVNUaiQFzDZpump (Tucker): https://www.tucker-sol.com/
+2i4yVrkAH66ZekohRra989GoAaDWujVNUaiQFzDZpump
+# - https://solscan.io/token/BDbhJUMgQBQ1bJTKhSS9NsxZdfaiBG6Hgp8qNKpc3YSX (Pnut's Dog): https://tuckeronspl.com/
+# BDbhJUMgQBQ1bJTKhSS9NsxZdfaiBG6Hgp8qNKpc3YSX
+#
+# 'ava' is shared by:
+# DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump
+# - https://solscan.io/token/DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump (Ava AI): https://www.holoworld.com/
+# - CoinGecko (ava): https://www.coingecko.com/en/coins/ava-ai
+H1vAwYTZkL2Bq8tpS5DhC4pPJjhMLviH2ScGjuePpump
+# - https://solscan.io/token/H1vAwYTZkL2Bq8tpS5DhC4pPJjhMLviH2ScGjuePpump (AVA Chiang Mai Night Safari (AVA)): https://pump.fun/coin/H1vAwYTZkL2Bq8tpS5DhC4pPJjhMLviH2ScGjuePpump
+# - CoinGecko (ava): https://www.coingecko.com/en/coins/ava-chiang-mai-night-safari-ava
+#
+# 'harold' is shared by:
+# 3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt
+# - https://solscan.io/token/3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt (Harold): https://haroldonsol.net/
+# - CoinGecko (harold): https://www.coingecko.com/en/coins/haroldonsol
+EjmDTt8G3T725eFSV7oWmGD8J848guo3LZ1EB3RfwGSw
+# - https://solscan.io/token/EjmDTt8G3T725eFSV7oWmGD8J848guo3LZ1EB3RfwGSw (Harold): https://haroldtheduck.com
+# - CoinGecko (harold): https://www.coingecko.com/en/coins/harold
+#
+# 'uwu' is shared by:
+# 67EMa43TZVQzggmhUyKnShmcSU5hVWcQDjVvLJXrS2Li
+# - https://solscan.io/token/67EMa43TZVQzggmhUyKnShmcSU5hVWcQDjVvLJXrS2Li (uwu): https://uwuctosol.com
+# - CoinGecko (uwu): https://www.coingecko.com/en/coins/uwu
+UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z
+# - https://solscan.io/token/UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z (Unicorn): https://unicorn.meme/
+# - CoinGecko (uwu): https://www.coingecko.com/en/coins/unicorn-3
+#

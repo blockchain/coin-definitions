@@ -91,6 +91,7 @@
   {"symbol": "ONE", "name": "Harmony"},
   {"symbol": "ONT", "name": "Ontology"},
   {"symbol": "OSMO", "name": "Osmosis"},
+  {"symbol": "PAC", "name": "Pactus"},
   {"symbol": "PIVX", "name": "PIVX"},
   {"symbol": "POA", "name": "POA"},
   {"symbol": "POL", "name": "POL (ex-MATIC)"},

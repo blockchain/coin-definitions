@@ -46,3 +46,15 @@
 # - https://arbiscan.io/token/0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f (Wrapped BTC): https://wbtc.network/
 0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f
 #
+# 'sct' is shared by:
+# - https://arbiscan.io/token/0xE82335d58abb1cd44Cd5F47cF7f5b378E4c32F05 (SuperCells): https://supercells.jp/en/
+# 0xE82335d58abb1cd44Cd5F47cF7f5b378E4c32F05
+# - https://arbiscan.io/token/0xcA934030F3652EeB2a779Ea653BbeE521e8A8dD8 (SuperCells): https://supercells.jp/en/
+0xcA934030F3652EeB2a779Ea653BbeE521e8A8dD8
+#
+# 'star' is shared by:
+# - https://arbiscan.io/token/0xB299751B088336E165dA313c33e3195B8c6663A6 (StarHeroes): https://starheroes.io/
+# 0xB299751B088336E165dA313c33e3195B8c6663A6
+# - https://arbiscan.io/token/0xC19669A405067927865B40Ea045a2baabbbe57f5 (Star): https://www.preon.finance/
+0xC19669A405067927865B40Ea045a2baabbbe57f5
+#
