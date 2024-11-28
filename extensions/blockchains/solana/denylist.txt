@@ -66,9 +66,9 @@ wo1zgt8rfrYpvdVi4nidoj1SYfcR4pQx69bmNv2JLhQ
 #
 # 'goat' is shared by:
 # - https://solscan.io/token/59u8qAD2S2gEtsY5Vs7dJ95YspnHavyHEtRfzCEb9F7G (Sonic The Goat): https://www.goatthecoin.xyz/
-# 59u8qAD2S2gEtsY5Vs7dJ95YspnHavyHEtRfzCEb9F7G
+59u8qAD2S2gEtsY5Vs7dJ95YspnHavyHEtRfzCEb9F7G
 # - https://solscan.io/token/CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump (Goatseus Maximus): https://pump.fun/CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump
-CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump
+# CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump
 #
 # 'nos' is shared by:
 # - https://solscan.io/token/24gG4br5xFBRmxdqpgirtxgcr7BaWoErQfc2uyDp2Qhh (NOSTALGIA):
