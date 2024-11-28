@@ -264,7 +264,7 @@
   {
     "symbol": "BRETT.BASEETH",
     "displaySymbol": "BRETT",
-    "type": "BASE_TOKEN",
+    "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 9
     },
@@ -451,7 +451,7 @@
   {
     "symbol": "DEGEN.BASEETH",
     "displaySymbol": "DEGEN",
-    "type": "BASE_TOKEN",
+    "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 9
     },
