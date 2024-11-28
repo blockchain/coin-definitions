@@ -216,6 +216,18 @@
     }
   },
   {
+    "symbol": "BILLY.SOL",
+    "displaySymbol": "BILLY",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "BNB",
     "displaySymbol": "BNB",
     "type": "COIN",
@@ -246,6 +258,18 @@
     },
     "hwsSettings":  {
       "minConfirmations": 1,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "BRETT.BASEETH",
+    "displaySymbol": "BRETT",
+    "type": "BASE_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 64,
       "minWithdrawal": 0
     }
   },
@@ -423,6 +447,18 @@
       "custodialPrecision": 8
     },
     "hwsSettings": null
+  },
+  {
+    "symbol": "DEGEN.BASEETH",
+    "displaySymbol": "DEGEN",
+    "type": "BASE_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "DGLD",
@@ -616,6 +652,30 @@
     },
     "hwsSettings": {
       "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "GIGA.SOL",
+    "displaySymbol": "GIGA",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 5
+    },
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "GOAT.SOL",
+    "displaySymbol": "GOAT",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": {
+      "minConfirmations": 1,
       "minWithdrawal": 0
     }
   },
@@ -1042,6 +1102,18 @@
     },
     "hwsSettings": {
       "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "PNUT.SOL",
+    "displaySymbol": "PNUT",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": {
+      "minConfirmations": 1,
       "minWithdrawal": 0
     }
   },
