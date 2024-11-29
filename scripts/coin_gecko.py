@@ -350,7 +350,7 @@ def fetch_missing_tokens_for_network(network, tokens):
     print(f"Found {str(len(network_coin_ids))} missing coins in CoinGecko for {network.symbol}")
     new_tokens = []
     for coin_infos in map_chunked(CoinGeckoAPIClient.get_coin_info, network_coin_ids, 10):
-        for coin_id, coin_info in coin_infos:
+        for coin_id, coin_info in coin_infos.items():
             if coin_info is None:
                 # print(f"Got None coin_info for {coin_id}")
                 continue
