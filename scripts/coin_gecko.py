@@ -319,20 +319,22 @@ def fetch_token_prices(network, tokens):
 def fetch_coin_descriptions(coins):
     coins_by_id = get_coins_by_id(coins)
     descriptions = {}
-    for id, description in map_chunked(CoinGeckoAPIClient.get_coin_description, list(coins_by_id.keys()), 1):
-        if description is not None:
-            for coin in coins_by_id[id]:
-                descriptions[coin.symbol] = description
+    for chunk in map_chunked(CoinGeckoAPIClient.get_coin_description, list(coins_by_id.keys()), 1):
+        for id, description in chunk.items():
+            if description is not None:
+                for coin in coins_by_id[id]:
+                    descriptions[coin.symbol] = description
     return descriptions
 
 
 def fetch_token_descriptions(network, tokens):
     tokens_by_id = get_tokens_by_id(network, tokens)
     descriptions = {}
-    for id, description in map_chunked(CoinGeckoAPIClient.get_coin_description, list(tokens_by_id.keys()), 1):
-        if description is not None:
-            for token in tokens_by_id[id]:
-                descriptions[token.symbol] = description
+    for chunk in map_chunked(CoinGeckoAPIClient.get_coin_description, list(tokens_by_id.keys()), 1):
+        for id, description in chunk.items():
+            if description is not None:
+                for token in tokens_by_id[id]:
+                    descriptions[token.symbol] = description
     return descriptions
 
 
@@ -348,7 +350,7 @@ def fetch_missing_tokens_for_network(network, tokens):
     print(f"Found {str(len(network_coin_ids))} missing coins in CoinGecko for {network.symbol}")
     new_tokens = []
     for coin_infos in map_chunked(CoinGeckoAPIClient.get_coin_info, network_coin_ids, 10):
-        for (coin_id, coin_info) in coin_infos.items():
+        for coin_id, coin_info in coin_infos:
             if coin_info is None:
                 # print(f"Got None coin_info for {coin_id}")
                 continue
