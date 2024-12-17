@@ -1094,12 +1094,15 @@
   },
   {
     "symbol": "PENGU.SOL",
-    "displaySymbol": "PENGU.SOL",
+    "displaySymbol": "PENGU",
     "type": "SOLANA_TOKEN",
     "nabuSettings": {
       "custodialPrecision": 6
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "PEPE",
