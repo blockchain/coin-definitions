@@ -84,6 +84,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "ARB.ARBETH",
+    "displaySymbol": "ARB",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 512,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "ARBETH",
     "displaySymbol": "ETH",
     "type": "COIN",
@@ -96,18 +108,6 @@
     }
   },
   {
-    "symbol": "ARB.ARBETH",
-    "displaySymbol": "ARB",
-    "type": "ERC20",
-    "nabuSettings": {
-      "custodialPrecision": 8
-    },
-    "hwsSettings": {
-      "minConfirmations": 512,
-      "minWithdrawal": 0
-    }
-  },  
-  {
     "symbol": "ARG.CHZ",
     "displaySymbol": "ARG",
     "type": "ERC20",
@@ -118,7 +118,7 @@
       "minConfirmations": 64,
       "minWithdrawal": 0
     }
-  },  
+  },
   {
     "symbol": "ATOM",
     "displaySymbol": "ATOM",
@@ -180,6 +180,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "BASEETH",
+    "displaySymbol": "ETH",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "BAT",
     "displaySymbol": "BAT",
     "type": "ERC20",
@@ -201,18 +213,6 @@
     "hwsSettings": {
       "minConfirmations": 3,
       "minWithdrawal": 5460
-    }
-  },
-  {
-    "symbol": "BASEETH",
-    "displaySymbol": "ETH",
-    "type": "COIN",
-    "nabuSettings": {
-      "custodialPrecision": 8
-    },
-    "hwsSettings":  {
-      "minConfirmations": 64,
-      "minWithdrawal": 0
     }
   },
   {
@@ -238,7 +238,6 @@
       "minConfirmations": 30,
       "minWithdrawal": 0
     }
-
   },
   {
     "symbol": "BNT",
@@ -256,7 +255,7 @@
     "nabuSettings": {
       "custodialPrecision": 5
     },
-    "hwsSettings":  {
+    "hwsSettings": {
       "minConfirmations": 1,
       "minWithdrawal": 0
     }
@@ -734,7 +733,7 @@
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings":  {
+    "hwsSettings": {
       "minConfirmations": 1,
       "minWithdrawal": 0
     }
@@ -1094,6 +1093,15 @@
     }
   },
   {
+    "symbol": "PENGU.SOL",
+    "displaySymbol": "PENGU.SOL",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "PEPE",
     "displaySymbol": "PEPE",
     "type": "ERC20",
@@ -1133,7 +1141,7 @@
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings":  {
+    "hwsSettings": {
       "minConfirmations": 1,
       "minWithdrawal": 0
     }
@@ -1262,7 +1270,7 @@
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings":  {
+    "hwsSettings": {
       "minConfirmations": 1,
       "minWithdrawal": 0.1
     }
@@ -1377,7 +1385,7 @@
       "minConfirmations": 5,
       "minWithdrawal": 0
     }
-  },  
+  },
   {
     "symbol": "TRB",
     "displaySymbol": "TRB",
@@ -1517,7 +1525,7 @@
     "nabuSettings": {
       "custodialPrecision": 6
     },
-    "hwsSettings":  {
+    "hwsSettings": {
       "minConfirmations": 1,
       "minWithdrawal": 0
     }
@@ -1577,7 +1585,7 @@
     "nabuSettings": {
       "custodialPrecision": 6
     },
-    "hwsSettings":  {
+    "hwsSettings": {
       "minConfirmations": 1,
       "minWithdrawal": 0
     }
