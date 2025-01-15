@@ -1,0 +1,10 @@
+{
+  "name": "Wrapped SOL",
+  "symbol": "WSOL",
+  "displaySymbol": "WSOL",
+  "type": "SOLANA_TOKEN",
+  "decimals": 9,
+  "status": "active",
+  "id": "So11111111111111111111111111111111111111112",
+  "website": "https://solana.com"
+}
