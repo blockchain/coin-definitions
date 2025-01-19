@@ -216,13 +216,3 @@ UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z
 # - https://solscan.io/token/UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z (Unicorn): https://unicorn.meme/
 # - CoinGecko (uwu): https://www.coingecko.com/en/coins/unicorn-3
 #
-# 'trump' is shared by:
-# 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN
-# - Website: https://gettrumpmemes.com/
-# - Explorer: https://solscan.io/token/6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN (OFFICIAL TRUMP)
-# - CoinGecko: https://www.coingecko.com/en/coins/official-trump
-HaP8r3ksG76PhQLTqR8FYBeNiQpejcFbQmiHbg787Ut1
-# - Website: https://magamemecoin.com/
-# - Explorer: https://solscan.io/token/HaP8r3ksG76PhQLTqR8FYBeNiQpejcFbQmiHbg787Ut1 (MAGA (Wormhole))
-# - CoinGecko: https://www.coingecko.com/en/coins/bridged-maga-wormhole
-#
