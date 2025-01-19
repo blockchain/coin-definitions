@@ -1456,6 +1456,15 @@
     }
   },
   {
+    "symbol": "TRUMP.SOL",
+    "displaySymbol": "TRUMP",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "TRX",
     "displaySymbol": "TRX",
     "type": "COIN",
