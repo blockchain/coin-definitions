@@ -216,3 +216,163 @@ UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z
 # - https://solscan.io/token/UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z (Unicorn): https://unicorn.meme/
 # - CoinGecko (uwu): https://www.coingecko.com/en/coins/unicorn-3
 #
+# 'alpha' is shared by:
+2zrH2jE542mzB4HABgBjdWMQPtNC5H12pwo1iLpfpump
+# - Website: https://alpha-solana.com/
+# - Explorer: https://solscan.io/token/2zrH2jE542mzB4HABgBjdWMQPtNC5H12pwo1iLpfpump (Alpha)
+# - CoinGecko: https://www.coingecko.com/en/coins/alpha-3
+# Cg93SZJkHePybZqGDuyXLf5Ag5sB2cpWfHUG8wNPpump
+# - Website: https://www.alphaarc.xyz/
+# - Explorer: https://solscan.io/token/Cg93SZJkHePybZqGDuyXLf5Ag5sB2cpWfHUG8wNPpump (AlphaArc)
+# - CoinGecko: https://www.coingecko.com/en/coins/alphaarc
+#
+# 'biao' is shared by:
+# 2ru87k7yAZnDRsnqVpgJYETFgqVApuBcwB2xDb19pump
+# - Website: https://biaotoken.com/
+# - Explorer: https://solscan.io/token/2ru87k7yAZnDRsnqVpgJYETFgqVApuBcwB2xDb19pump (BIAO)
+# - CoinGecko: https://www.coingecko.com/en/coins/biao-on-sol
+3W52uCb8NW8ruMF9mmJX3oKiYAjdPai4633srsZFQCS6
+# - Website: https://www.biaocoinsol.xyz/
+# - Explorer: https://solscan.io/token/3W52uCb8NW8ruMF9mmJX3oKiYAjdPai4633srsZFQCS6 (Biao Coin)
+# - CoinGecko: https://www.coingecko.com/en/coins/biao-coin
+#
+# 'bozo' is shared by:
+BoZoQQRAmYkr5iJhqo7DChAs7DPDwEZ5cv1vkYC9yzJG
+# - Website: https://bozocollective.com/
+# - Explorer: https://solscan.io/token/BoZoQQRAmYkr5iJhqo7DChAs7DPDwEZ5cv1vkYC9yzJG (BOZO)
+# - CoinGecko: https://www.coingecko.com/en/coins/bozo-collective
+# EJPtJEDogxzDbvM8qvAsqYbLmPj5n1vQeqoAzj9Yfv3q
+# - Website: https://www.bozo.finance/
+# - Explorer: https://solscan.io/token/EJPtJEDogxzDbvM8qvAsqYbLmPj5n1vQeqoAzj9Yfv3q (bozo)
+# - CoinGecko: https://www.coingecko.com/en/coins/bozo-hybrid
+#
+# 'btc' is shared by:
+# 9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E
+# - Website: https://bitcoin.org/en/
+# - Explorer: https://solscan.io/token/9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E (Wrapped BTC)
+# - CoinGecko: https://www.coingecko.com/en/coins/wrapped-bitcoin-sollet
+EtBc6gkCvsB9c6f5wSbwG8wPjRqXMB5euptK6bqG1R4X
+# - Website: https://www.batcat.lol/
+# - Explorer: https://solscan.io/token/EtBc6gkCvsB9c6f5wSbwG8wPjRqXMB5euptK6bqG1R4X (batcat)
+# - CoinGecko: https://www.coingecko.com/en/coins/batcat
+#
+# 'dog' is shared by:
+# B9u8h65uM1oifqmP82VyUDb68iG2fKfZiyubmNMtu3h7
+# - Website: https://ownthedoge.com/
+# - Explorer: https://solscan.io/token/B9u8h65uM1oifqmP82VyUDb68iG2fKfZiyubmNMtu3h7 (The Doge NFT)
+# - CoinGecko: https://www.coingecko.com/en/coins/the-doge-nft
+DLScRnWofxiYGqnvZWGy9Gt98MPqKdznaK4TRukxpump
+# - Website: https://www.vibecat.com/
+# - Explorer: https://solscan.io/token/DLScRnWofxiYGqnvZWGy9Gt98MPqKdznaK4TRukxpump (Dog)
+# - CoinGecko: https://www.coingecko.com/en/coins/dog-emoji-on-solana
+#
+# 'gondola' is shared by:
+# DG3LB7Kr8Londuz1j2us4YUXyNqiiLioKdYjSB37HbN2
+# - Website: https://gondola.lol/
+# - Explorer: https://solscan.io/token/DG3LB7Kr8Londuz1j2us4YUXyNqiiLioKdYjSB37HbN2 (Gondola)
+# - CoinGecko: https://www.coingecko.com/en/coins/gondola
+ERg4SSavMmM9nsmFWVwyRJZVCTCyLT2r9fgkQngbE4iU
+# - Website: https://gondolacoin.xyz/
+# - Explorer: https://solscan.io/token/ERg4SSavMmM9nsmFWVwyRJZVCTCyLT2r9fgkQngbE4iU (Gondola)
+# - CoinGecko: Not found
+#
+# 'hawk' is shared by:
+# BKipkearSqAUdNKa1WDstvcMjoPsSKBuNyvKDQDDu9WE
+# - Website: https://www.hawkfi.ag/
+# - Explorer: https://solscan.io/token/BKipkearSqAUdNKa1WDstvcMjoPsSKBuNyvKDQDDu9WE (Hawksight)
+# - CoinGecko: https://www.coingecko.com/en/coins/hawksight
+HAWKThXRcNL9ZGZKqgUXLm4W8tnRZ7U6MVdEepSutj34
+# - Website: https://overhere.gg/products/hawk-tuah
+# - Explorer: https://solscan.io/token/HAWKThXRcNL9ZGZKqgUXLm4W8tnRZ7U6MVdEepSutj34 (Hawk Tuah)
+# - CoinGecko: Not found
+#
+# 'me' is shared by:
+4Y47LEufvcSSSbTFojcvW4Y6x2KZXrqG2urNBSvHpump
+# - Website: https://literallyme.vip/
+# - Explorer: https://solscan.io/token/4Y47LEufvcSSSbTFojcvW4Y6x2KZXrqG2urNBSvHpump (Literally Me)
+# - CoinGecko: https://www.coingecko.com/en/coins/literally-me
+# MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u
+# - Website: https://magiceden.io/
+# - Explorer: https://solscan.io/token/MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u (Magic Eden)
+# - CoinGecko: https://www.coingecko.com/en/coins/magic-eden
+#
+# 'meow' is shared by:
+# AcJTj14wb9VjVtVrR7E7eoxeK4HayqZ9bPdNvkiEpump
+# - Website: https://x.com/Meowmeow_onSOL
+# - Explorer: https://solscan.io/token/AcJTj14wb9VjVtVrR7E7eoxeK4HayqZ9bPdNvkiEpump (Meow Meow Meow Meow)
+# - CoinGecko: https://www.coingecko.com/en/coins/meow-meow-meow-meow
+BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf
+# - Website: https://meowfi.io/home
+# - Explorer: https://solscan.io/token/BUhS5coXEt9hcxN3JSpGYUWSKbNo96RsKu52LcMo12rf (Meow)
+# - CoinGecko: https://www.coingecko.com/en/coins/meow
+#
+# 'panda' is shared by:
+9m21fukdvCPBgEjmeeshbskPwbaa5RH8HTHQGeTnGd2t
+# - Website: https://pandaswapsol.io/
+# - Explorer: https://solscan.io/token/9m21fukdvCPBgEjmeeshbskPwbaa5RH8HTHQGeTnGd2t (Panda Swap)
+# - CoinGecko: Not found
+# PANDA8iiaCJR5mk3ruypxsGiKh6WhYsmesmbsdd8xYd
+# - Website: https://www.pandaswapsol.io/
+# - Explorer: https://solscan.io/token/PANDA8iiaCJR5mk3ruypxsGiKh6WhYsmesmbsdd8xYd (Panda Swap)
+# - CoinGecko: https://www.coingecko.com/en/coins/panda-swap
+#
+# 'pengu' is shared by:
+# 2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv
+# - Website: https://pudgypenguins.com/
+# - Explorer: https://solscan.io/token/2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv (Pudgy Penguins)
+# - CoinGecko: https://www.coingecko.com/en/coins/pudgy-penguins
+PENGEKyPYXYDnbXGKcjXaSfMsovhcrtPT8S7127tKcg
+# - Website: https://penguiana.com/
+# - Explorer: https://solscan.io/token/PENGEKyPYXYDnbXGKcjXaSfMsovhcrtPT8S7127tKcg (Penguiana)
+# - CoinGecko: https://www.coingecko.com/en/coins/penguiana
+#
+# 'shib' is shared by:
+5MBBsoCVddAuF8XixvCcXNbHAw6WfpZ8WyTKMmczxxRN
+# - Website: https://shibainuonsolana.com/
+# - Explorer: https://solscan.io/token/5MBBsoCVddAuF8XixvCcXNbHAw6WfpZ8WyTKMmczxxRN (SHIBA INU)
+# - CoinGecko: Not found
+# CiKu4eHsVrc1eueVQeHn7qhXTcVu95gSQmBpX4utjL9z
+# - Website: https://shibatoken.com/
+# - Explorer: https://solscan.io/token/CiKu4eHsVrc1eueVQeHn7qhXTcVu95gSQmBpX4utjL9z (Shiba Inu (Portal))
+# - CoinGecko: https://www.coingecko.com/en/coins/shiba-inu-wormhole
+#
+# 'solcat' is shared by:
+A2TjztayKEavSCR7deVs6zkKGLP155pQv3j8ByVJ2WLW
+# - Website: https://solcat.meme/
+# - Explorer: https://solscan.io/token/A2TjztayKEavSCR7deVs6zkKGLP155pQv3j8ByVJ2WLW (SOLCAT)
+# - CoinGecko: https://www.coingecko.com/en/coins/solcat
+# E99fN4tCRb1tQphXK1DU7prXji6hMzxETyPNJro19Fwz
+# - Website: https://catsolhat.com/
+# - Explorer: https://solscan.io/token/E99fN4tCRb1tQphXK1DU7prXji6hMzxETyPNJro19Fwz (CatSolHat)
+# - CoinGecko: https://www.coingecko.com/en/coins/catsolhat
+#
+# 'sonic' is shared by:
+72h2cpj8YU7aUJW3NFMjxfqGTh6hXnUrovMC4gKqyFPM
+# - Website: https://www.soniccoin.me/
+# - Explorer: https://solscan.io/token/72h2cpj8YU7aUJW3NFMjxfqGTh6hXnUrovMC4gKqyFPM (Sonic Solana)
+# - CoinGecko: https://www.coingecko.com/en/coins/sonic-solana
+# SonicxvLud67EceaEzCLRnMTBqzYUUYNr93DBkBdDES
+# - Website: https://www.sonic.game/
+# - Explorer: https://solscan.io/token/SonicxvLud67EceaEzCLRnMTBqzYUUYNr93DBkBdDES (Sonic SVM)
+# - CoinGecko: https://www.coingecko.com/en/coins/sonic-svm
+#
+# 'ufo' is shared by:
+# 99myne1mVnsSv2kAkzZDfNnwf5Xb4SASJnaCRXdbpump
+# - Website: https://ufopepe.fun/
+# - Explorer: https://solscan.io/token/99myne1mVnsSv2kAkzZDfNnwf5Xb4SASJnaCRXdbpump (UFOPepe)
+# - CoinGecko: https://www.coingecko.com/en/coins/ufopepe
+GWdkYFnXnSJAsCBvmsqFLiPPe2tpvXynZcJdxf11Fu3U
+# - Website: https://ufogaming.io/
+# - Explorer: https://solscan.io/token/GWdkYFnXnSJAsCBvmsqFLiPPe2tpvXynZcJdxf11Fu3U (UFO Gaming (Portal))
+# - CoinGecko: Not found
+#
+# 'zusd' is shared by:
+# 5ToDNkiBAK6k697RRyngTburU7yZNFZFx7jzsD1Uc7pK
+# - Website: https://www.solananpc.com/
+# - Explorer: https://solscan.io/token/5ToDNkiBAK6k697RRyngTburU7yZNFZFx7jzsD1Uc7pK (NPC Solana)
+# - CoinGecko: https://www.coingecko.com/en/coins/npc-on-solana
+FrBfWJ4qE5sCzKm3k3JaAtqZcXUh4LvJygDeketsrsH4
+# - Website: https://stablecoin.z.com/
+# - Explorer: https://solscan.io/token/FrBfWJ4qE5sCzKm3k3JaAtqZcXUh4LvJygDeketsrsH4 (Z.com USD)
+# - CoinGecko: Not found
+#

@@ -991,3 +991,41 @@
 # - Explorer: https://bscscan.com/token/0x603c7f932ED1fc6575303D8Fb018fDCBb0f39a95 (Ape Swap Finance Banana)
 # - CoinGecko: https://www.coingecko.com/en/coins/apeswap-finance
 #
+# 'andy' is shared by:
+# 0x01CA78a2B5F1a9152D8A3A625bd7dF5765eeE1D8
+# - Website: https://www.andytoken.com/
+# - Explorer: https://bscscan.com/token/0x01CA78a2B5F1a9152D8A3A625bd7dF5765eeE1D8 (Andy)
+# - CoinGecko: https://www.coingecko.com/en/coins/andy-4
+0x8b1869f79b9abF52001314A2E6990A96F039058D
+# - Website: https://andybnb.vip/
+# - Explorer: https://bscscan.com/token/0x8b1869f79b9abF52001314A2E6990A96F039058D (Andy)
+# - CoinGecko: https://www.coingecko.com/en/coins/andy-3
+#
+# 'coco' is shared by:
+0x9AA6FC71aed1130DeE06a91A487BF5eA481dE80D
+# - Website: https://coco-swap.finance
+# - Explorer: https://bscscan.com/token/0x9AA6FC71aed1130DeE06a91A487BF5eA481dE80D (Coco Swap)
+# - CoinGecko: Not found
+0x9FFaFC014832B803aAAab0D2e4D9c127Eca0E034
+# - Website: https://cocoin.finance/
+# - Explorer: https://bscscan.com/token/0x9FFaFC014832B803aAAab0D2e4D9c127Eca0E034 (Cocoin)
+# - CoinGecko: Not found
+# 0xF563E86e461dE100CfCfD8b65dAA542d3d4B0550
+# - Website: https://cococoin.tech/
+# - Explorer: https://bscscan.com/token/0xF563E86e461dE100CfCfD8b65dAA542d3d4B0550 (COCO COIN)
+# - CoinGecko: https://www.coingecko.com/en/coins/coco-coin
+0xFd431CB76965cF80c6FCec011a273B46df23EB04
+# - Website: http://cocopad.co/
+# - Explorer: https://bscscan.com/token/0xFd431CB76965cF80c6FCec011a273B46df23EB04 (Cocopad)
+# - CoinGecko: Not found
+#
+# 'hodl' is shared by:
+0x0E9766dF73973abCfEDDE700497c57110ee5c301
+# - Website: https://www.hodltoken.net
+# - Explorer: https://bscscan.com/token/0x0E9766dF73973abCfEDDE700497c57110ee5c301 (HODL)
+# - CoinGecko: Not found
+# 0x32B407ee915432Be6D3F168bc1EfF2a6F8b2034C
+# - Website: https://www.hodltoken.net
+# - Explorer: https://bscscan.com/token/0x32B407ee915432Be6D3F168bc1EfF2a6F8b2034C (HODL)
+# - CoinGecko: https://www.coingecko.com/en/coins/hodl-2
+#
