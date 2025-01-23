@@ -58,3 +58,13 @@
 # - https://arbiscan.io/token/0xC19669A405067927865B40Ea045a2baabbbe57f5 (Star): https://www.preon.finance/
 0xC19669A405067927865B40Ea045a2baabbbe57f5
 #
+# 'moz' is shared by:
+0x20547341E58fB558637FA15379C92e11F7b7F710
+# - Website: https://mozaic.finance/
+# - Explorer: https://arbiscan.io/token/0x20547341E58fB558637FA15379C92e11F7b7F710 (Mozaic)
+# - CoinGecko: https://www.coingecko.com/en/coins/mozaic
+# 0xE16e2548A576ad448FB014bBE85284D7f3542dF5
+# - Website: https://lumoz.org/
+# - Explorer: https://arbiscan.io/token/0xE16e2548A576ad448FB014bBE85284D7f3542dF5 (Lumoz)
+# - CoinGecko: https://www.coingecko.com/en/coins/lumoz
+#

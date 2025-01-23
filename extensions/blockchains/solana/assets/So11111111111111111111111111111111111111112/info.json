@@ -1,6 +1,6 @@
 {
   "name": "Wrapped SOL",
-  "symbol": "WSOL",
+  "symbol": "SOL",
   "displaySymbol": "WSOL",
   "type": "SOLANA_TOKEN",
   "decimals": 9,

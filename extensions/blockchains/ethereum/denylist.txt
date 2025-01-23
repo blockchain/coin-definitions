@@ -1517,3 +1517,53 @@
 # - Explorer: https://etherscan.io/token/0xBAac2B4491727D78D2b78815144570b9f2Fe8899 (The Doge NFT)
 # - CoinGecko: https://www.coingecko.com/en/coins/the-doge-nft
 #
+# 'crai' is shared by:
+# 0x3F66aE0c8E9Fb57f661aF4Ba8C8445D36ec5d7F7
+# - Website: https://www.cryptify.ai/
+# - Explorer: https://etherscan.io/token/0x3F66aE0c8E9Fb57f661aF4Ba8C8445D36ec5d7F7 (Cryptify AI)
+# - CoinGecko: https://www.coingecko.com/en/coins/cryptify-ai
+0xDdbcDD8637d5CEDd15EeEe398108FCa05A71b32b
+# - Website: https://cryptify.ai/
+# - Explorer: https://etherscan.io/token/0xDdbcDD8637d5CEDd15EeEe398108FCa05A71b32b (Cryptify AI)
+# - CoinGecko: Not found
+#
+# 'dogc' is shared by:
+# 0xEEAcC51Af745846DDf46012B46C6910ea9b12898
+# - Website: https://dogec.ai/
+# - Explorer: https://etherscan.io/token/0xEEAcC51Af745846DDf46012B46C6910ea9b12898 (Dogc)
+# - CoinGecko: https://www.coingecko.com/en/coins/dogc
+0xda8263d8ce3F726233f8b5585bcb86a3120a58B6
+# - Website: https://dogc.xyz/
+# - Explorer: https://etherscan.io/token/0xda8263d8ce3F726233f8b5585bcb86a3120a58B6 (DogeClub)
+# - CoinGecko: https://www.coingecko.com/en/coins/dogeclub
+#
+# 'sen' is shared by:
+# 0x421b05cf5ce28Cb7347E73e2278E84472F0E4a88
+# - Website: https://www.sentio.ai/
+# - Explorer: https://etherscan.io/token/0x421b05cf5ce28Cb7347E73e2278E84472F0E4a88 (Sentio Protocol)
+# - CoinGecko: https://www.coingecko.com/en/coins/sentio-protocol
+0xd53370AcF66044910BB49CbcfE8f3cD020337f60
+# - Website: https://consensus.ai/
+# - Explorer: https://etherscan.io/token/0xd53370AcF66044910BB49CbcfE8f3cD020337f60 (Consensus Token)
+# - CoinGecko: Not found
+#
+# 'spectre' is shared by:
+0x441d91F7AAEe51C7AE8cAB84333D6383A8a8C175
+# - Website: https://veravoss.github.io/rtc/#spectre
+# - Explorer: https://etherscan.io/token/0x441d91F7AAEe51C7AE8cAB84333D6383A8a8C175 (Speculative Resistance RTC)
+# - CoinGecko: Not found
+# 0x9Cf0ED013e67DB12cA3AF8e7506fE401aA14dAd6
+# - Website: https://spectrebot.ai/
+# - Explorer: https://etherscan.io/token/0x9Cf0ED013e67DB12cA3AF8e7506fE401aA14dAd6 (SPECTRE AI)
+# - CoinGecko: https://www.coingecko.com/en/coins/spectre-ai
+#
+# 'white' is shared by:
+# 0x5F0E628B693018f639D10e4A4F59BD4d8B2B6B44
+# - Website: https://www.whiteheart.finance/
+# - Explorer: https://etherscan.io/token/0x5F0E628B693018f639D10e4A4F59BD4d8B2B6B44 (Whiteheart)
+# - CoinGecko: https://www.coingecko.com/en/coins/whiteheart
+0x9cdf242Ef7975D8c68D5C1F5B6905801699b1940
+# - Website: https://whiterock.fi/
+# - Explorer: https://etherscan.io/token/0x9cdf242Ef7975D8c68D5C1F5B6905801699b1940 (WhiteRock)
+# - CoinGecko: https://www.coingecko.com/en/coins/whiterock
+#
