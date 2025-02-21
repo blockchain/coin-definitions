@@ -48,27 +48,53 @@ def read_blockchains(blockchains_dir, comment_marker=None):
     yield from multiread_json(blockchains_dir, "/*/info/info.json", comment_marker)
 
 
-def find_duplicates(items, key):
+def find_duplicates(items, key, post_filter=None):
     groups = itertools.groupby(sorted(items, key=key), key)
     groups = [(symbol, list(items)) for symbol, items in groups]
+    if post_filter:
+        return [(symbol, list(filter(post_filter, items))) for symbol, items in groups if len(items) > 1]
     return [(symbol, items) for symbol, items in groups if len(items) > 1]
+
+
+def append_duplicates(duplicates, network, tokens: list[Token], deny_path: str, current_tokens: list[Token]) -> list[Token]:
+    lines = get_duplicates_lines(duplicates, network, current_tokens=current_tokens)
+    lines = [line + '\n' for line in lines]
+    with open(deny_path, 'a') as file:
+        file.writelines(lines)
+    for symbol, duplicate_tokens in duplicates:
+        token_address = [token.address for token in duplicate_tokens]
+        tokens = [token for token in tokens if token in current_tokens or token.address not in token_address]
+    return tokens
+
+
+def get_duplicates_lines(duplicates, network, current_tokens: list[Token] = None) -> list[str]:
+    lines: list[str] = []
+    for symbol, tokens in duplicates:
+        lines.append(f"# '{symbol}' is shared by:")
+        for token in tokens:
+            if current_tokens:
+                if token in current_tokens:
+                    lines.append(f"# {token.address}")
+                else:
+                    lines.append(f"{token.address}")
+            else:
+                lines.append(f"# {token.address}")
+            lines.append(f"# - Website: {token.website}")
+            lines.append(f"# - Explorer: {urljoin(network.explorer_url, token.address)} ({token.name})")
+            coingecko_coin = get_coin_by_chain_and_address(network.symbol, token.address)
+            if coingecko_coin is None:
+                lines.append(f"# - CoinGecko: Not found")
+            else:
+                lines.append(f"# - CoinGecko: https://www.coingecko.com/en/coins/{coingecko_coin.id} ")
+        lines.append(f"#")
+    return lines
 
 
 def dump_duplicates(duplicates, network):
     print(f"Found {len(duplicates)} duplicate symbols:")
-
-    for symbol, tokens in duplicates:
-        print(f"# '{symbol}' is shared by:")
-        for token in tokens:
-            print(f"# {token.address}")
-            print(f"# - Website: {token.website}")
-            print(f"# - Explorer: {urljoin(network.explorer_url, token.address)} ({token.name})")
-            coingecko_coin = get_coin_by_chain_and_address(network.symbol, token.address)
-            if coingecko_coin is None:
-                print(f"# - CoinGecko: Not found")
-            else:
-                print(f"# - CoinGecko: https://www.coingecko.com/en/coins/{coingecko_coin.id} ")
-        print(f"#")
+    lines = get_duplicates_lines(duplicates, network, ignore_all=False)
+    for line in lines:
+        print(line)
 
 
 def fetch_coins():
@@ -143,7 +169,7 @@ def build_coins_list():
     write_json(coins, FINAL_BLOCKCHAINS_LIST, sort_keys=False, indent=2)
 
 
-def build_tokens_list(network, fill_from_coingecko=False):
+def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     print(f"Generating token files for network \"{network.chain}\"")
     tokens = fetch_tokens(network.chain)
 
@@ -171,7 +197,8 @@ def build_tokens_list(network, fill_from_coingecko=False):
         tokens += new_tokens
 
     # Make sure the asset is NOT in the denylist:
-    bc_denylist = set(map(lambda x: x.lower(), read_txt(f"extensions/blockchains/{network.chain}/denylist.txt")))
+    deny_path = f"extensions/blockchains/{network.chain}/denylist.txt"
+    bc_denylist = set(map(lambda x: x.lower(), read_txt(deny_path)))
     tokens = filter(lambda x: x.address.lower() not in bc_denylist, tokens)
 
     # Make sure the asset is valid:
@@ -185,11 +212,16 @@ def build_tokens_list(network, fill_from_coingecko=False):
     tokens = sorted(set(extensions) | set(tokens), key=lambda t: t.address)
 
     # Look for duplicates:
-    duplicates = find_duplicates(tokens, lambda t: t.symbol.lower())
-
+    # For ethereum we also check collisions with coins as ethereum tokens does not have suffixes
+    extras = list(map(lambda x: Coin.from_dict(x), read_json("coins.json"))) if network.chain == 'ethereum' else []
+    duplicates = find_duplicates(tokens + extras, lambda t: t.symbol.lower(), lambda t: isinstance(t, Token))
     if duplicates:
-        dump_duplicates(duplicates, network)
-        return
+        # In CI, we simply append duplicates to the deny list and filter out duplicates
+        if ci:
+            tokens = append_duplicates(duplicates, network, tokens, deny_path, current_tokens)
+        else:
+            dump_duplicates(duplicates, network)
+            return
 
     # Add network suffix before final dump:
     tokens = map(lambda token: token.with_suffix(network), tokens)
@@ -256,6 +288,7 @@ def fetch_descriptions():
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument('--ci', action='store_true')
     parser.add_argument('--fetch-prices', action='store_true')
     parser.add_argument('--fetch-descriptions', action='store_true')
     parser.add_argument('--fill-descriptions-from-overrides', action='store_true')
@@ -271,7 +304,7 @@ def main():
     else:
         build_coins_list()
         for network in NETWORKS:
-            build_tokens_list(network, args.fill_from_coingecko)
+            build_tokens_list(network, args.fill_from_coingecko, args.ci)
 
 
 if __name__ == '__main__':
