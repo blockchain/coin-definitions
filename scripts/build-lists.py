@@ -92,7 +92,7 @@ def get_duplicates_lines(duplicates, network, current_tokens: list[Token] = None
 
 def dump_duplicates(duplicates, network):
     print(f"Found {len(duplicates)} duplicate symbols:")
-    lines = get_duplicates_lines(duplicates, network, ignore_all=False)
+    lines = get_duplicates_lines(duplicates, network)
     for line in lines:
         print(line)
 
