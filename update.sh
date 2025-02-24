@@ -9,5 +9,5 @@ git submodule foreach git checkout master
 git submodule foreach git pull
 
 bash build.sh --fetch-prices
-bash build.sh $1 $2
+bash build.sh "$@"
 bash check.sh
