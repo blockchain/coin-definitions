@@ -68,3 +68,23 @@
 # - Explorer: https://arbiscan.io/token/0xE16e2548A576ad448FB014bBE85284D7f3542dF5 (Lumoz)
 # - CoinGecko: https://www.coingecko.com/en/coins/lumoz
 #
+# 'crv' is shared by:
+0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978
+# - Website: https://curve.fi
+# - Explorer: https://arbiscan.io/token/0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978 (Curve DAO Token)
+# - CoinGecko: https://www.coingecko.com/en/coins/curve-dao-token 
+# 0x11cdb42b0eb46d95f990bedd4695a6e3fa034978
+# - Website: https://www.curve.fi/
+# - Explorer: https://arbiscan.io/token/0x11cdb42b0eb46d95f990bedd4695a6e3fa034978 (Curve DAO)
+# - CoinGecko: https://www.coingecko.com/en/coins/curve-dao-token 
+#
+# 'usds' is shared by:
+0x6491c05A82219b8D1479057361ff1654749b876b
+# - Website: https://sky.money/
+# - Explorer: https://arbiscan.io/token/0x6491c05A82219b8D1479057361ff1654749b876b (USDS)
+# - CoinGecko: https://www.coingecko.com/en/coins/usds 
+# 0xD74f5255D557944cf7Dd0E45FF521520002D5748
+# - Website: https://sperax.io
+# - Explorer: https://arbiscan.io/token/0xD74f5255D557944cf7Dd0E45FF521520002D5748 (Sperax USD)
+# - CoinGecko: https://www.coingecko.com/en/coins/sperax-usd 
+#

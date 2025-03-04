@@ -376,3 +376,73 @@ FrBfWJ4qE5sCzKm3k3JaAtqZcXUh4LvJygDeketsrsH4
 # - Explorer: https://solscan.io/token/FrBfWJ4qE5sCzKm3k3JaAtqZcXUh4LvJygDeketsrsH4 (Z.com USD)
 # - CoinGecko: Not found
 #
+# 'alice' is shared by:
+8T988C2a8YNNbppjjd1uYUpmDqE8hLee1tuNokuepump
+# - Website: https://acesyndicate.xyz/
+# - Explorer: https://solscan.io/token/8T988C2a8YNNbppjjd1uYUpmDqE8hLee1tuNokuepump (Alice)
+# - CoinGecko: https://www.coingecko.com/en/coins/alice 
+9ARQsBfAn65q522cEqSJuse3cLhA31jgWDBGQHeiq7Mg
+# - Website: https://www.myneighboralice.com/
+# - Explorer: https://solscan.io/token/9ARQsBfAn65q522cEqSJuse3cLhA31jgWDBGQHeiq7Mg (My Neighbor Alice (Portal))
+# - CoinGecko: Not found
+#
+# 'alpha' is shared by:
+2sCUCJdVkmyXp4dT8sFaA9LKgSMK4yDPi9zLHiwXpump
+# - Website: https://realalphacoin.io
+# - Explorer: https://solscan.io/token/2sCUCJdVkmyXp4dT8sFaA9LKgSMK4yDPi9zLHiwXpump (Alpha)
+# - CoinGecko: https://www.coingecko.com/en/coins/alpha-4 
+# Cg93SZJkHePybZqGDuyXLf5Ag5sB2cpWfHUG8wNPpump
+# - Website: https://www.alphaarc.xyz/
+# - Explorer: https://solscan.io/token/Cg93SZJkHePybZqGDuyXLf5Ag5sB2cpWfHUG8wNPpump (AlphaArc)
+# - CoinGecko: https://www.coingecko.com/en/coins/alphaarc 
+#
+# 'bio' is shared by:
+AmtvMBMYtb5auN4KiFdMe9C8wjiu1KQZYQUL73Pw7ZZE
+# - Website: https://biodaos.site/
+# - Explorer: https://solscan.io/token/AmtvMBMYtb5auN4KiFdMe9C8wjiu1KQZYQUL73Pw7ZZE (bioDAOs)
+# - CoinGecko: Not found
+bioJ9JTqW62MLz7UKHU69gtKhPpGi1BQhccj2kmSvUJ
+# - Website: https://www.bio.xyz/
+# - Explorer: https://solscan.io/token/bioJ9JTqW62MLz7UKHU69gtKhPpGi1BQhccj2kmSvUJ (BIO)
+# - CoinGecko: https://www.coingecko.com/en/coins/bio-protocol 
+#
+# 'car' is shared by:
+7oBYdEhV4GkXC19ZfgAvXpJWp2Rn9pm1Bx2cVNxFpump
+# - Website: https://www.carmemecoin.com
+# - Explorer: https://solscan.io/token/7oBYdEhV4GkXC19ZfgAvXpJWp2Rn9pm1Bx2cVNxFpump (Central African Republic Meme)
+# - CoinGecko: https://www.coingecko.com/en/coins/central-african-republic-meme 
+8rsp8embW4NC54rMTtXjZUDXw5FpnXSwBQgwxtwMpump
+# - Website: https://x.com/salvadorsolcoin
+# - Explorer: https://solscan.io/token/8rsp8embW4NC54rMTtXjZUDXw5FpnXSwBQgwxtwMpump (República de El Salvador Meme)
+# - CoinGecko: Not found
+#
+# 'dogeai' is shared by:
+3wDKi2uHgZWuF888m9TarGRcY3atNwou41yPhfMk5gCn
+# - Website: https://doge-ai.space/
+# - Explorer: https://solscan.io/token/3wDKi2uHgZWuF888m9TarGRcY3atNwou41yPhfMk5gCn (Doge AI Agent)
+# - CoinGecko: Not found
+9UYAYvVS2cZ3BndbsoG1ScJbjfwyEPGxjE79hh5ipump
+# - Website: https://dogeai.info
+# - Explorer: https://solscan.io/token/9UYAYvVS2cZ3BndbsoG1ScJbjfwyEPGxjE79hh5ipump (DOGE AI)
+# - CoinGecko: https://www.coingecko.com/en/coins/dogeai-2 
+#
+# 'sos' is shared by:
+6Q5fvsJ6kgAFmisgDqqyaFd9FURYzHf8MCUbpAUaGZnE
+# - Website: https://www.theopendao.com/
+# - Explorer: https://solscan.io/token/6Q5fvsJ6kgAFmisgDqqyaFd9FURYzHf8MCUbpAUaGZnE (OpenDAO (Portal))
+# - CoinGecko: Not found
+# HDa3zJc12ahykSsBRvgiWzr6WLEByf36yzKKbVvy4gnF
+# - Website: https://solanaswap.co/#/
+# - Explorer: https://solscan.io/token/HDa3zJc12ahykSsBRvgiWzr6WLEByf36yzKKbVvy4gnF (Solana Swap)
+# - CoinGecko: https://www.coingecko.com/en/coins/solana-swap 
+#
+# 'stonks' is shared by:
+6NcdiK8B5KK2DzKvzvCfqi8EHaEqu48fyEzC8Mm9pump
+# - Website: https://mystonks.org/
+# - Explorer: https://solscan.io/token/6NcdiK8B5KK2DzKvzvCfqi8EHaEqu48fyEzC8Mm9pump (STONKS)
+# - CoinGecko: https://www.coingecko.com/en/coins/stonks-5 
+# 8P6WDZ59qwMrTgXWaxFN5J19dGwvY2XEavCyRdA25PNm
+# - Website: https://www.stonkseth.com
+# - Explorer: https://solscan.io/token/8P6WDZ59qwMrTgXWaxFN5J19dGwvY2XEavCyRdA25PNm (Stonks on ETH)
+# - CoinGecko: https://www.coingecko.com/en/coins/stonks-on-eth 
+#
