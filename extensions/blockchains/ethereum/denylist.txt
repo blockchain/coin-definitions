@@ -1567,3 +1567,111 @@
 # - Explorer: https://etherscan.io/token/0x9cdf242Ef7975D8c68D5C1F5B6905801699b1940 (WhiteRock)
 # - CoinGecko: https://www.coingecko.com/en/coins/whiterock
 #
+# 'atom' is shared by:
+0x8D983cb9388EaC77af0474fA441C4815500Cb7BB
+# - Website: https://cosmos.network/
+# - Explorer: https://etherscan.io/token/0x8D983cb9388EaC77af0474fA441C4815500Cb7BB (Cosmos)
+# - CoinGecko: Not found
+#
+# 'bio' is shared by:
+0xcb1592591996765Ec0eFc1f92599A19767ee5ffA
+# - Website: https://www.bio.xyz/
+# - Explorer: https://etherscan.io/token/0xcb1592591996765Ec0eFc1f92599A19767ee5ffA (BIO)
+# - CoinGecko: https://www.coingecko.com/en/coins/bio-protocol 
+# 0xf18432Ef894Ef4b2a5726F933718F5A8cf9fF831
+# - Website: https://BioCrypt.Tech
+# - Explorer: https://etherscan.io/token/0xf18432Ef894Ef4b2a5726F933718F5A8cf9fF831 (BioCrypt)
+# - CoinGecko: Not found
+#
+# 'grok' is shared by:
+0x2bB84fd8F7eD0FfAe3da36AD60d4D7840bdeEADa
+# - Website: https://soragrok.net/
+# - Explorer: https://etherscan.io/token/0x2bB84fd8F7eD0FfAe3da36AD60d4D7840bdeEADa (SORA GROK)
+# - CoinGecko: Not found
+0x8390a1DA07E376ef7aDd4Be859BA74Fb83aA02D5
+# - Website: https://www.grok-erc.com/
+# - Explorer: https://etherscan.io/token/0x8390a1DA07E376ef7aDd4Be859BA74Fb83aA02D5 (GROK)
+# - CoinGecko: https://www.coingecko.com/en/coins/grok-2 
+#
+# 'kava' is shared by:
+0x0C356B7fD36a5357E5A017EF11887ba100C9AB76
+# - Website: https://www.kava.io/
+# - Explorer: https://etherscan.io/token/0x0C356B7fD36a5357E5A017EF11887ba100C9AB76 (Kava.io)
+# - CoinGecko: Not found
+#
+# 'meme' is shared by:
+0x05f226755b11cB3666340551EbBAa615CDFEFdD6
+# - Website: https://trumpmeme.net/
+# - Explorer: https://etherscan.io/token/0x05f226755b11cB3666340551EbBAa615CDFEFdD6 (TRUMP MEME)
+# - CoinGecko: Not found
+# 0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74
+# - Website: https://www.memecoin.org
+# - Explorer: https://etherscan.io/token/0xb131f4A55907B10d1F0A50d8ab8FA09EC342cd74 (Memecoin)
+# - CoinGecko: https://www.coingecko.com/en/coins/memecoin-2 
+#
+# 'move' is shared by:
+0x3073f7aAA4DB83f95e9FFf17424F71D4751a3073
+# - Website: https://www.movementnetwork.xyz/
+# - Explorer: https://etherscan.io/token/0x3073f7aAA4DB83f95e9FFf17424F71D4751a3073 (Movement)
+# - CoinGecko: https://www.coingecko.com/en/coins/movement 
+# 0x3FA729B4548beCBAd4EaB6EF18413470e6D5324C
+# - Website: https://viamover.com
+# - Explorer: https://etherscan.io/token/0x3FA729B4548beCBAd4EaB6EF18413470e6D5324C (Mover)
+# - CoinGecko: https://www.coingecko.com/en/coins/holyheld-2 
+#
+# 'rai' is shared by:
+# 0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919
+# - Website: https://reflexer.finance
+# - Explorer: https://etherscan.io/token/0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919 (Rai Reflex Index)
+# - CoinGecko: https://www.coingecko.com/en/coins/rai 
+0xc575BD129848Ce06A460A19466c30E1D0328F52C
+# - Website: https://reploy.ai/
+# - Explorer: https://etherscan.io/token/0xc575BD129848Ce06A460A19466c30E1D0328F52C (Reploy)
+# - CoinGecko: https://www.coingecko.com/en/coins/reploy 
+#
+# 'shell' is shared by:
+0x3017Cb31A678fE1d247f4314Eee8bc1b86b0D4b4
+# - Website: https://shell.org/
+# - Explorer: https://etherscan.io/token/0x3017Cb31A678fE1d247f4314Eee8bc1b86b0D4b4 (Shell Matrix)
+# - CoinGecko: Not found
+0xf2c88757f8d03634671208935974B60a2a28Bdb3
+# - Website: https://myshell.ai/
+# - Explorer: https://etherscan.io/token/0xf2c88757f8d03634671208935974B60a2a28Bdb3 (MyShell Token)
+# - CoinGecko: https://www.coingecko.com/en/coins/myshell 
+#
+# 'stars' is shared by:
+0x04F121600c8C47A754636fc9d75661a9525e05D5
+# - Website: https://cryptoallstars.io
+# - Explorer: https://etherscan.io/token/0x04F121600c8C47A754636fc9d75661a9525e05D5 (STARS)
+# - CoinGecko: https://www.coingecko.com/en/coins/stars-2 
+#
+# 'tru' is shared by:
+# 0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784
+# - Website: https://truefi.io/
+# - Explorer: https://etherscan.io/token/0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784 (TrueFi)
+# - CoinGecko: https://www.coingecko.com/en/coins/truefi 
+0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2
+# - Website: https://truth-network.io/
+# - Explorer: https://etherscan.io/token/0xDAe0faFD65385E7775Cf75b1398735155EF6aCD2 (Truth)
+# - CoinGecko: https://www.coingecko.com/en/coins/truth 
+#
+# 'trump' is shared by:
+0x555907a0b5c32DF0fEb35401187aED60a9191D74
+# - Website: https://trumpwifhat.one
+# - Explorer: https://etherscan.io/token/0x555907a0b5c32DF0fEb35401187aED60a9191D74 (trumpwifhat)
+# - CoinGecko: Not found
+# 0x6aA56e1D98b3805921C170EB4B3fe7D4Fda6D89b
+# - Website: https://magamemecoin.com/
+# - Explorer: https://etherscan.io/token/0x6aA56e1D98b3805921C170EB4B3fe7D4Fda6D89b (MAGA (bridged))
+# - CoinGecko: https://www.coingecko.com/en/coins/maga 
+#
+# 'waves' is shared by:
+# 0x1cF4592ebfFd730c7dc92c1bdFFDfc3B9EfCf29a
+# - Website: https://waves.tech
+# - Explorer: https://etherscan.io/token/0x1cF4592ebfFd730c7dc92c1bdFFDfc3B9EfCf29a (WAVES)
+# - CoinGecko: https://www.coingecko.com/en/coins/waves 
+0x7296eaA225804451a91616b29D040cAB05435f0d
+# - Website: https://waves.tech/
+# - Explorer: https://etherscan.io/token/0x7296eaA225804451a91616b29D040cAB05435f0d (WAVES)
+# - CoinGecko: Not found
+#
