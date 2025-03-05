@@ -2,15 +2,17 @@
   {
     "parentSymbol":  "USDC",
     "childSymbols": [
-      "USDC.MATIC",
-      "USDC.BASEETH"
+      "USDC.BASEETH",
+      "USDC.OETH",
+      "USDC.SOL",
+      "USDC.ARBETH"
     ]
   },
   {
     "parentSymbol":  "USDT",
     "childSymbols": [
-      "USDT.MATIC",
-      "USDT.TRX"
+      "USDT.TRX",
+      "USDT.SOL"
     ]
   },
   {
