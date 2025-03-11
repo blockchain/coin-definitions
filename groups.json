@@ -5,7 +5,8 @@
       "USDC.BASEETH",
       "USDC.OETH",
       "USDC.SOL",
-      "USDC.ARBETH"
+      "USDC.ARBETH",
+      "USDC.MATIC"
     ]
   },
   {
