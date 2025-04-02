@@ -56,24 +56,21 @@ def find_duplicates(items, key, post_filter=None):
     return [(symbol, items) for symbol, items in groups if len(items) > 1]
 
 
-def append_duplicates(duplicates, network, tokens: list[Token], deny_path: str, current_tokens: list[Token]) -> list[Token]:
+def append_duplicates(duplicates, network, deny_path: str, current_tokens: list[Token]):
     lines = get_duplicates_lines(duplicates, network, current_tokens=current_tokens)
     lines = [line + '\n' for line in lines]
     with open(deny_path, 'a') as file:
         file.writelines(lines)
-    for symbol, duplicate_tokens in duplicates:
-        token_address = [token.address for token in duplicate_tokens]
-        tokens = [token for token in tokens if token in current_tokens or token.address not in token_address]
-    return tokens
 
 
 def get_duplicates_lines(duplicates, network, current_tokens: list[Token] = None) -> list[str]:
     lines: list[str] = []
+    current_tokens_map = {token.symbol: token.address for token in current_tokens}
     for symbol, tokens in duplicates:
         lines.append(f"# '{symbol}' is shared by:")
         for token in tokens:
             if current_tokens:
-                if token in current_tokens:
+                if current_tokens_map.get(token.symbol) == token.address:
                     lines.append(f"# {token.address}")
                 else:
                     lines.append(f"{token.address}")
@@ -218,7 +215,7 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     if duplicates:
         # In CI, we simply append duplicates to the deny list and filter out duplicates
         if ci:
-            tokens = append_duplicates(duplicates, network, tokens, deny_path, current_tokens)
+            append_duplicates(duplicates, network, deny_path, current_tokens)
         else:
             dump_duplicates(duplicates, network)
             return
@@ -231,7 +228,9 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
 
     print(f"Writing {len(tokens)} tokens to {network.output_file}")
     write_json(tokens, network.output_file)
-
+    # Re-build because denylist got updated
+    if duplicates and ci:
+        build_tokens_list(network, fill_from_coingecko=fill_from_coingecko, ci=False)
 
 def fill_descriptions_from_overrides():
     text_descriptions = read_json('./description/en.json')
