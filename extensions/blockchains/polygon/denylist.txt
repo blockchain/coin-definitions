@@ -37,3 +37,23 @@
 # - https://polygonscan.com/token/0x93890f346C5D02C3863a06657bc72555dC72c527 (Router Protocol): https://www.routerprotocol.com/
 # 0x93890f346C5D02C3863a06657bc72555dC72c527
 #
+# 'jet' is shared by:
+# 0xa615Df92fCa12ad40B8f642F46167B623A03d646
+# - Website: https://satoshiair.xyz/
+# - Explorer: https://polygonscan.com/token/0xa615Df92fCa12ad40B8f642F46167B623A03d646 (Satoshi Airline)
+# - CoinGecko: Not found
+0xb02eF03245fc7DF987BBd876768E6d441b7099B6
+# - Website: https://satoshiair.xyz/
+# - Explorer: https://polygonscan.com/token/0xb02eF03245fc7DF987BBd876768E6d441b7099B6 (Satoshi Airline)
+# - CoinGecko: https://www.coingecko.com/en/coins/sathosi-airlines-token 
+#
+# 'sut' is shared by:
+# 0x57211299bC356319BA5CA36873eB06896173F8bC
+# - Website: https://morchi.mooar.com/
+# - Explorer: https://polygonscan.com/token/0x57211299bC356319BA5CA36873eB06896173F8bC (Super Useless Token)
+# - CoinGecko: https://www.coingecko.com/en/coins/super-useless-token 
+0x98965474EcBeC2F532F1f780ee37b0b05F77Ca55
+# - Website: https://supertrust.club
+# - Explorer: https://polygonscan.com/token/0x98965474EcBeC2F532F1f780ee37b0b05F77Ca55 (SUPER TRUST)
+# - CoinGecko: https://www.coingecko.com/en/coins/super-trust 
+#
