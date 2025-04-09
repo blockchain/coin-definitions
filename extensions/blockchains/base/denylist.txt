@@ -34,3 +34,27 @@
 # - Explorer: https://basescan.org/token/0x6112b8714221bBd96AE0A0032A683E38B475d06C (WAI Combinator by Virtuals)
 # - CoinGecko: https://www.coingecko.com/en/coins/wai-combinator-by-virtuals
 #
+# 'anon' is shared by:
+# 0x0Db510e79909666d6dEc7f5e49370838c16D950f
+# - Website: https://anoncast.org/
+# - Explorer: https://basescan.org/token/0x0Db510e79909666d6dEc7f5e49370838c16D950f (Anon)
+# - CoinGecko: https://www.coingecko.com/en/coins/super-anon 
+0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C
+# - Website: https://heyanon.ai/
+# - Explorer: https://basescan.org/token/0x79bbF4508B1391af3A0F4B30bb5FC4aa9ab0E07C (HeyAnon)
+# - CoinGecko: https://www.coingecko.com/en/coins/heyanon 
+#
+# 'game' is shared by:
+# 0x1C4CcA7C5DB003824208aDDA61Bd749e55F463a3
+# - Website: https://app.virtuals.io/virtuals/273
+# - Explorer: https://basescan.org/token/0x1C4CcA7C5DB003824208aDDA61Bd749e55F463a3 (GAME by Virtuals)
+# - CoinGecko: https://www.coingecko.com/en/coins/game-by-virtuals 
+0x64FCC3A02eeEba05Ef701b7eed066c6ebD5d4E51
+# - Website: https://app.virtuals.io/virtuals/273
+# - Explorer: https://basescan.org/token/0x64FCC3A02eeEba05Ef701b7eed066c6ebD5d4E51 (GAME by Virtuals)
+# - CoinGecko: https://www.coingecko.com/en/coins/spectra-finance 
+0x8bFAc1b375bf2894D6F12fb2Eb48B1C1a7916789
+# - Website: https://app.virtuals.io/virtuals/273
+# - Explorer: https://basescan.org/token/0x8bFAc1b375bf2894D6F12fb2Eb48B1C1a7916789 (GAME by Virtuals)
+# - CoinGecko: https://www.coingecko.com/en/coins/mey-network 
+#
