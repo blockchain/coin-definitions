@@ -2,6 +2,7 @@ import argparse
 import glob
 import itertools
 import json
+import sys
 from dataclasses import asdict
 from datetime import datetime
 from urllib.parse import urljoin
@@ -9,7 +10,7 @@ from urllib.parse import urljoin
 from coin_gecko import fetch_coin_prices, fetch_token_prices, fetch_coin_descriptions, fetch_token_descriptions, fetch_missing_tokens_for_network, get_coin_by_chain_and_address
 from common_classes import Asset, Blockchain, Coin, Token
 from statics import BLOCKCHAINS, EXT_BLOCKCHAINS_DENYLIST, EXT_BLOCKCHAINS, EXT_PRICES, FINAL_BLOCKCHAINS_LIST, \
-    NETWORKS, EXT_OVERRIDES
+    NETWORKS, EXT_OVERRIDES, EXT_TOKEN_PRICES
 
 
 def read_json(path, comment_marker=None):
@@ -56,26 +57,12 @@ def find_duplicates(items, key, post_filter=None):
     return [(symbol, items) for symbol, items in groups if len(items) > 1]
 
 
-def append_duplicates(duplicates, network, deny_path: str, current_tokens: list[Token]):
-    lines = get_duplicates_lines(duplicates, network, current_tokens=current_tokens)
-    lines = [line + '\n' for line in lines]
-    with open(deny_path, 'a') as file:
-        file.writelines(lines)
-
-
-def get_duplicates_lines(duplicates, network, current_tokens: list[Token] = None) -> list[str]:
+def get_duplicates_lines(duplicates, network) -> list[str]:
     lines: list[str] = []
-    current_tokens_map = {token.symbol: token.address for token in current_tokens}
     for symbol, tokens in duplicates:
         lines.append(f"# '{symbol}' is shared by:")
         for token in tokens:
-            if current_tokens:
-                if current_tokens_map.get(token.symbol) == token.address:
-                    lines.append(f"# {token.address}")
-                else:
-                    lines.append(f"{token.address}")
-            else:
-                lines.append(f"# {token.address}")
+            lines.append(f"# {token.address}")
             lines.append(f"# - Website: {token.website}")
             lines.append(f"# - Explorer: {urljoin(network.explorer_url, token.address)} ({token.name})")
             coingecko_coin = get_coin_by_chain_and_address(network.symbol, token.address)
@@ -144,19 +131,29 @@ def fetch_tokens(chain):
 
 def fetch_prices():
     coins = fetch_coins()
-
     prices = {
         "timestamp": datetime.now().isoformat(),
         "prices": fetch_coin_prices(coins)
     }
 
+    token_prices = {
+        "timestamp": datetime.now().isoformat(),
+        "prices": {}
+    }
+
     for network in NETWORKS:
         tokens = fetch_tokens(network.chain)
-        prices["prices"].update(fetch_token_prices(network, tokens))
+        all_token_prices = fetch_token_prices(network, tokens)
+        price_per_address = {(token.address + '.' + network.symbol): amount for token, amount in all_token_prices.items()}
+        price_per_symbol = {token.with_suffix(network).symbol: amount for token, amount in all_token_prices.items()}
+        token_prices["prices"].update(price_per_address)
+        prices["prices"].update(price_per_symbol)
 
     print(f"Writing coin prices to {EXT_PRICES}")
-
     write_json(prices, EXT_PRICES)
+    print(f"Writing token prices to {EXT_TOKEN_PRICES}")
+    write_json(token_prices, EXT_TOKEN_PRICES)
+
 
 
 def build_coins_list():
@@ -166,25 +163,45 @@ def build_coins_list():
     write_json(coins, FINAL_BLOCKCHAINS_LIST, sort_keys=False, indent=2)
 
 
+def merge_token_lists(existing_tokens: list[Token], new_tokens: list[Token], coins: list[Coin]) -> list[Token]:
+    merged_list = existing_tokens
+    existing_tokens_address_map = {token.address: token for token in existing_tokens}
+    existing_tokens_symbol_map = {token.symbol.lower(): True for token in existing_tokens}
+    for coin in coins:
+        existing_tokens_symbol_map[coin.symbol.lower()] = True
+    for new_token in new_tokens:
+        found_token_index = next((i for i, t in enumerate(merged_list) if t.address == new_token.address), None)
+        # Token already existing, need update (except for symbol that is immutable)
+        if found_token_index:
+            new_token.symbol = merged_list[found_token_index].symbol
+            merged_list[found_token_index] = new_token
+            continue
+
+        base_new_symbol = new_token.symbol
+        suffix = 2
+        # case duplicate symbol, we'll bump the new token symbol until there is no conflict
+        while new_token.symbol.lower() in existing_tokens_symbol_map:
+            new_token.symbol = f"{base_new_symbol}{suffix}"
+            suffix += 1
+        existing_tokens_symbol_map[new_token.symbol.lower()] = True
+        merged_list.append(new_token)
+
+    return merged_list
+
+
 def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     print(f"Generating token files for network \"{network.chain}\"")
     tokens = fetch_tokens(network.chain)
 
-    print(f"Reading {network.symbol} asset prices from {EXT_PRICES}")
-    prices = read_json(EXT_PRICES)
+    print(f"Reading {network.symbol} token prices from {EXT_TOKEN_PRICES}")
+    token_prices = read_json(EXT_TOKEN_PRICES)
 
     print(f"Tokens before price filter {len(tokens)}")
 
     # Clean up by price:
-    tokens = list(filter(lambda token: token.with_suffix(network).symbol in prices['prices'], tokens))
+    tokens = list(filter(lambda token: (token.address + "." + network.symbol) in token_prices['prices'], tokens))
 
     print(f"Tokens after price filter {len(tokens)}")
-
-    # Include already selected tokens (to make sure we don't remove a token we had previously selected)
-    print(f"Reading existing assets in {network.output_file}")
-    current_tokens = list(
-        map(lambda x: Token(**x).without_suffix(network), read_json(network.output_file)))
-    tokens = list(set(tokens) | set(current_tokens))
 
     # Optionally, fetch tokens from CoinGecko, adding to the current list
     if fill_from_coingecko:
@@ -208,14 +225,22 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     extensions = map(lambda ext: Token.from_asset(ext, network.chain), extensions)
     tokens = sorted(set(extensions) | set(tokens), key=lambda t: t.address)
 
+    print(f"Reading existing assets in {network.output_file}")
+    current_tokens = list(
+        map(lambda x: Token(**x).without_suffix(network), read_json(network.output_file)))
+
+    extras = list(map(lambda x: Coin.from_dict(x), read_json("coins.json"))) if network.chain == 'ethereum' else []
+    tokens = merge_token_lists(existing_tokens=current_tokens, new_tokens=tokens, coins=extras)
+
     # Look for duplicates:
     # For ethereum we also check collisions with coins as ethereum tokens does not have suffixes
-    extras = list(map(lambda x: Coin.from_dict(x), read_json("coins.json"))) if network.chain == 'ethereum' else []
+
     duplicates = find_duplicates(tokens + extras, lambda t: t.symbol.lower(), lambda t: isinstance(t, Token))
     if duplicates:
-        # In CI, we simply append duplicates to the deny list and filter out duplicates
         if ci:
-            append_duplicates(duplicates, network, deny_path, current_tokens)
+            print(f"Found {len(duplicates)} duplicate tokens in ci mode, Aborting")
+            print(duplicates)
+            sys.exit(1)
         else:
             dump_duplicates(duplicates, network)
             return
@@ -301,7 +326,8 @@ def main():
     elif args.fill_descriptions_from_overrides:
         fill_descriptions_from_overrides()
     else:
-        build_coins_list()
+        if not args.ci:
+            build_coins_list()
         for network in NETWORKS:
             build_tokens_list(network, args.fill_from_coingecko, args.ci)
 

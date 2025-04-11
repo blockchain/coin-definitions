@@ -9,6 +9,7 @@ EXT_BLOCKCHAINS = "extensions/blockchains/"
 EXT_BLOCKCHAINS_DENYLIST = "extensions/blockchains/denylist.txt"
 
 EXT_PRICES = "extensions/prices.json"
+EXT_TOKEN_PRICES = "extensions/token_prices.json"
 EXT_OVERRIDES= "extensions/overrides.json"
 
 FINAL_BLOCKCHAINS_LIST = "coins.json"
