@@ -165,7 +165,6 @@ def build_coins_list():
 
 def merge_token_lists(existing_tokens: list[Token], new_tokens: list[Token], coins: list[Coin]) -> list[Token]:
     merged_list = existing_tokens
-    existing_tokens_address_map = {token.address: token for token in existing_tokens}
     existing_tokens_symbol_map = {token.symbol.lower(): True for token in existing_tokens}
     for coin in coins:
         existing_tokens_symbol_map[coin.symbol.lower()] = True
