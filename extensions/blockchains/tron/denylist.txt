@@ -4,3 +4,13 @@
 # - https://tronscan.org/TZ3c6bmoqVeq9YEEBMSNrBLq2rHJ1vR8Nc (ROCK DAO): https://gala.com/
 TZ3c6bmoqVeq9YEEBMSNrBLq2rHJ1vR8Nc
 #
+# 'usdd' is shared by:
+# TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn
+# - Website: https://usdd.io/
+# - Explorer: https://tronscan.org/TPYmHEhy5n8TCEfYGqW2rPxsghSfzghPDn (Decentralized USD)
+# - CoinGecko: Not found
+TXDk8mbtRbXeYuMNS83CfKPaYYT8XWv9Hz
+# - Website: https://usdd.io/
+# - Explorer: https://tronscan.org/TXDk8mbtRbXeYuMNS83CfKPaYYT8XWv9Hz (Decentralized USD)
+# - CoinGecko: https://www.coingecko.com/en/coins/usdd 
+#
