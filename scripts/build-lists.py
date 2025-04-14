@@ -131,6 +131,7 @@ def fetch_tokens(chain):
 
 def fetch_prices():
     coins = fetch_coins()
+
     prices = {
         "timestamp": datetime.now().isoformat(),
         "prices": fetch_coin_prices(coins)
@@ -150,8 +151,11 @@ def fetch_prices():
         prices["prices"].update(price_per_symbol)
 
     print(f"Writing coin prices to {EXT_PRICES}")
+
     write_json(prices, EXT_PRICES)
+
     print(f"Writing token prices to {EXT_TOKEN_PRICES}")
+
     write_json(token_prices, EXT_TOKEN_PRICES)
 
 
@@ -165,12 +169,17 @@ def build_coins_list():
 
 def merge_token_lists(existing_tokens: list[Token], new_tokens: list[Token], coins: list[Coin]) -> list[Token]:
     merged_list = existing_tokens
+    # Map containing existing symbol to make sure our symbols are uniques
     existing_tokens_symbol_map = {token.symbol.lower(): True for token in existing_tokens}
+
+    # For Ethereum, we also need to add coins as there is no suffix on ETH tokens
     for coin in coins:
         existing_tokens_symbol_map[coin.symbol.lower()] = True
+
     for new_token in new_tokens:
         found_token_index = next((i for i, t in enumerate(merged_list) if t.address == new_token.address), None)
-        # Token already existing, need update (except for symbol that is immutable)
+
+        # Token already existing, we need to update it (except for symbol that is immutable)
         if found_token_index is not None:
             new_token.symbol = merged_list[found_token_index].symbol
             merged_list[found_token_index] = new_token
@@ -178,10 +187,12 @@ def merge_token_lists(existing_tokens: list[Token], new_tokens: list[Token], coi
 
         base_new_symbol = new_token.symbol
         suffix = 2
-        # case duplicate symbol, we'll bump the new token symbol until there is no conflict
+        # We make sure that there is no symbol collision and use a number prefix if there is
         while new_token.symbol.lower() in existing_tokens_symbol_map:
             new_token.symbol = f"{base_new_symbol}{suffix}"
             suffix += 1
+
+        # We add the new token into the map
         existing_tokens_symbol_map[new_token.symbol.lower()] = True
         merged_list.append(new_token)
 
@@ -228,8 +239,14 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     current_tokens = list(
         map(lambda x: Token(**x).without_suffix(network), read_json(network.output_file)))
 
+    # For Ethereum, we need to fetch the coins as well because ETH tokens don't have suffix
     extras = list(map(lambda x: Coin.from_dict(x), read_json("coins.json"))) if network.chain == 'ethereum' else []
-    tokens = merge_token_lists(existing_tokens=current_tokens, new_tokens=tokens, coins=extras)
+
+    # We get the final tokens list by merging existing ones and fetched ones
+    if ci:
+        tokens = merge_token_lists(existing_tokens=current_tokens, new_tokens=tokens, coins=extras)
+    else:
+        tokens = list(set(tokens) | set(current_tokens))
 
     # Look for duplicates:
     # For ethereum we also check collisions with coins as ethereum tokens does not have suffixes
@@ -237,6 +254,7 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     duplicates = find_duplicates(tokens + extras, lambda t: t.symbol.lower(), lambda t: isinstance(t, Token))
     if duplicates:
         if ci:
+            # We should not have duplicates n ci mode
             print(f"Found {len(duplicates)} duplicate tokens in ci mode, Aborting")
             print(duplicates)
             sys.exit(1)
@@ -252,9 +270,7 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
 
     print(f"Writing {len(tokens)} tokens to {network.output_file}")
     write_json(tokens, network.output_file)
-    # Re-build because denylist got updated
-    if duplicates and ci:
-        build_tokens_list(network, fill_from_coingecko=fill_from_coingecko, ci=False)
+
 
 def fill_descriptions_from_overrides():
     text_descriptions = read_json('./description/en.json')
