@@ -5,6 +5,7 @@ from functools import reduce
 from typing import List
 
 from common_classes import Coin, Token
+from statics import EXT_PRICES, EXT_TOKEN_PRICES
 from utils import read_json
 
 
@@ -59,11 +60,11 @@ class CustodyCurrency:
     def __str__(self):
         return f"[{self.symbol}, {self.type}]"
 
-    def check(self, ref, prices):
+    def check(self, ref: Token | Coin, prices: dict[str, float], token_prices: dict[str, float]):
         yield from self.check_symbol()
         yield from self.check_precision(ref)
         yield from self.check_min_confirmations()
-        yield from self.check_price(ref, prices)
+        yield from self.check_price(ref, prices, token_prices)
 
     def check_symbol(self):
         # Ignore display differences if they match after removing the suffix:
@@ -71,7 +72,7 @@ class CustodyCurrency:
         if symbol != self.displaySymbol:
             yield Warning(self, f"displayed as: {self.displaySymbol}")
 
-    def check_price(self, ref, prices):
+    def check_price(self, ref: Token | Coin, prices: dict[str, float], token_prices: dict[str, float]):
         if self.hwsSettings is None:
             return
 
@@ -81,7 +82,7 @@ class CustodyCurrency:
             return
 
         try:
-            price = prices[ref.symbol]
+            price = get_price_from_ref(ref, prices, token_prices)
         except Exception as e:
             yield Warning(self, f"No price: {e}")
             return
@@ -141,7 +142,15 @@ def check_logo(coin):
         yield Warning(coin, "No logo")
 
 
-def check_groups(groups: List[Group], custody_currencies, prices):
+def check_groups(
+        groups: List[Group],
+        custody_currencies: list[CustodyCurrency],
+        prices: dict[str, float],
+        token_prices: dict[str, float],
+        coins_dict: dict[str, Coin],
+        eth_erc20_tokens_dict: dict[str, Token],
+        chains_dict: dict[str, dict[str, Token]]
+):
     for group in groups:
         if group.parentSymbol in group.childSymbols:
             yield Error(group.parentSymbol, f"also present in childSymbols")
@@ -161,7 +170,14 @@ def check_groups(groups: List[Group], custody_currencies, prices):
         parent_custody = next(
             (custody_currency for custody_currency in custody_currencies if
              custody_currency.symbol == group.parentSymbol), None)
-        parent_price = prices[group.parentSymbol]
+
+        if parent_custody is None:
+            yield Error(group.parentSymbol, f"defined in groups.json but not in custody.json")
+        ref = load_ref(parent_custody.type, parent_custody.symbol, coins_dict, eth_erc20_tokens_dict, chains_dict)
+        if ref is None:
+            yield Error(group.parentSymbol, f"defined in groups.json but reference not found")
+
+        parent_price = get_price_from_ref(ref, prices, token_prices)
 
         if parent_price <= 0:
             yield Error(group.parentSymbol, f"no price defined")
@@ -170,7 +186,13 @@ def check_groups(groups: List[Group], custody_currencies, prices):
                 (custody_currency for custody_currency in custody_currencies if custody_currency.symbol == symbol),
                 None)
 
-            child_price = prices[symbol]
+            child_ref = load_ref(parent_custody.type, parent_custody.symbol, coins_dict, eth_erc20_tokens_dict, chains_dict)
+
+            if child_ref is None:
+                yield Error(symbol, f"defined in groups.json but reference not found")
+
+            child_price = get_price_from_ref(child_ref, prices, token_prices)
+
             if abs(child_price - parent_price) >= 0.01:
                 yield Error(symbol, f"too much price diff between parent and child")
             if not found_in_custody:
@@ -179,41 +201,77 @@ def check_groups(groups: List[Group], custody_currencies, prices):
                 yield Error(symbol, f"expected same custodialPrecision as part of the same group")
 
 
-def check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices, groups: List[Group]):
-    coins = {x.symbol: x for x in coins}
-    eth_erc20_tokens = {x.symbol: x for x in eth_erc20_tokens}
-    chains = {k: {t.symbol: t for t in v} for k, v in chains.items()}
+def load_ref(
+        currency_type: str,
+        original_symbol: str,
+        coins_dict: dict[str, Coin],
+        eth_erc20_tokens_dict: dict[str, Token],
+        chains_dict: dict[str, dict[str, Token]]
+) -> None | Token| Coin:
+    ref: None | Token | Coin = None
+    if currency_type == "COIN":
+        ref = coins_dict.get(original_symbol)
+    elif currency_type == "ERC20":
+        # No "native" (parent symbol) means it's a token in the ETH network;
+        # otherwise we must look up in the appropriate chain:
+        symbol, _, native = original_symbol.partition(".")
+        if native == "" or native == "ETH":
+            ref = eth_erc20_tokens_dict.get(symbol)
+        else:
+            ref = chains_dict.get(native).get(original_symbol)
+    elif currency_type == "CELO_TOKEN":
+        ref = chains_dict.get("CELO").get(original_symbol)
+    elif currency_type == "SOLANA_TOKEN":
+        ref = chains_dict.get("SOL").get(original_symbol)
+    elif currency_type == "JETTON":
+        ref = chains_dict.get("TON").get(original_symbol)
+    return ref
 
-    for err in check_groups(groups, custody_currencies, prices):
+
+def get_price_from_ref(
+        ref: Token | Coin,
+        prices: dict[str, float],
+        token_prices: dict[str, float]
+) -> float:
+    if isinstance(ref, Coin):
+        return prices[ref.symbol]
+    elif isinstance(ref, Token):
+        suffix = "ETH"
+        fds = ref.symbol.split(".")
+        if len(fds) == 2:
+            suffix = fds[1]
+        return token_prices[ref.address + "." + suffix]
+    else:
+        raise Exception("Unexpected type")
+
+
+def check_currencies(
+        custody_currencies: list[CustodyCurrency],
+        coins: list[Coin],
+        eth_erc20_tokens: list[Token],
+        chains: dict[str, list[Token]],
+        prices: dict[str, float],
+        token_prices: dict[str, float],
+        groups: List[Group]
+):
+    coins_dict = {x.symbol: x for x in coins}
+    eth_erc20_tokens_dict = {x.symbol: x for x in eth_erc20_tokens}
+    chains_dict = {k: {t.symbol: t for t in v} for k, v in chains.items()}
+
+    for err in check_groups(groups, custody_currencies, prices, token_prices, coins_dict, eth_erc20_tokens_dict, chains_dict):
         yield err
 
     for currency in custody_currencies:
         if currency.symbol.upper() != currency.symbol:
             yield Error(currency, f"Contains mix of lower and upper case letters")
 
-        if currency.type == "COIN":
-            ref = coins.get(currency.symbol)
-        elif currency.type == "ERC20":
-            # No "native" (parent symbol) means it's a token in the ETH network;
-            # otherwise we must lookup in the appropriate chain:
-            symbol, _, native = currency.symbol.partition(".")
-            if native == "" or native == "ETH":
-                ref = eth_erc20_tokens.get(currency.symbol)
-            else:
-                ref = chains.get(native).get(currency.symbol)
-        elif currency.type == "CELO_TOKEN":
-            ref = chains.get("CELO").get(currency.symbol)
-        elif currency.type == "SOLANA_TOKEN":
-            ref = chains.get("SOL").get(currency.symbol)
-        else:
-            yield Error(currency, "Invalid type")
-            continue
+        ref = load_ref(currency.type, currency.symbol, coins_dict, eth_erc20_tokens_dict, chains_dict)
 
         if ref is None:
             yield Error(currency, "Reference not found")
             continue
 
-        yield from itertools.chain(check_logo(ref), currency.check(ref, prices))
+        yield from itertools.chain(check_logo(ref), currency.check(ref, prices, token_prices))
 
 
 def main():
@@ -239,8 +297,9 @@ def main():
         print(f"{len(v)} {k} tokens")
     print(f"Total: {len(combined)}")
 
-    prices = read_json("extensions/prices.json")['prices']
-    issues = list(check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices, groups))
+    prices = read_json(EXT_PRICES)['prices']
+    token_prices = read_json(EXT_TOKEN_PRICES)['prices']
+    issues = list(check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices, token_prices, groups))
 
     print("")
     print(reduce(operator.add, map(lambda i: "\n- " + str(i), issues)))

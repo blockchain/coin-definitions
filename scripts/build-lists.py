@@ -146,9 +146,7 @@ def fetch_prices():
         tokens = fetch_tokens(network.chain)
         all_token_prices = fetch_token_prices(network, tokens)
         price_per_address = {(token.address + '.' + network.symbol): amount for token, amount in all_token_prices.items()}
-        price_per_symbol = {token.with_suffix(network).symbol: amount for token, amount in all_token_prices.items()}
         token_prices["prices"].update(price_per_address)
-        prices["prices"].update(price_per_symbol)
 
     print(f"Writing coin prices to {EXT_PRICES}")
 
