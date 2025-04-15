@@ -5,7 +5,7 @@ from functools import reduce
 from typing import List
 
 from common_classes import Coin, Token
-from statics import EXT_PRICES, EXT_TOKEN_PRICES
+from statics import EXT_PRICES
 from utils import read_json
 
 
@@ -60,11 +60,11 @@ class CustodyCurrency:
     def __str__(self):
         return f"[{self.symbol}, {self.type}]"
 
-    def check(self, ref: Token | Coin, prices: dict[str, float], token_prices: dict[str, float]):
+    def check(self, ref: Token | Coin, prices: dict[str, float]):
         yield from self.check_symbol()
         yield from self.check_precision(ref)
         yield from self.check_min_confirmations()
-        yield from self.check_price(ref, prices, token_prices)
+        yield from self.check_price(ref, prices)
 
     def check_symbol(self):
         # Ignore display differences if they match after removing the suffix:
@@ -72,7 +72,7 @@ class CustodyCurrency:
         if symbol != self.displaySymbol:
             yield Warning(self, f"displayed as: {self.displaySymbol}")
 
-    def check_price(self, ref: Token | Coin, prices: dict[str, float], token_prices: dict[str, float]):
+    def check_price(self, ref: Token | Coin, prices: dict[str, float]):
         if self.hwsSettings is None:
             return
 
@@ -82,7 +82,7 @@ class CustodyCurrency:
             return
 
         try:
-            price = get_price_from_ref(ref, prices, token_prices)
+            price = get_price_from_ref(ref, prices)
         except Exception as e:
             yield Warning(self, f"No price: {e}")
             return
@@ -146,7 +146,6 @@ def check_groups(
         groups: List[Group],
         custody_currencies: list[CustodyCurrency],
         prices: dict[str, float],
-        token_prices: dict[str, float],
         coins_dict: dict[str, Coin],
         eth_erc20_tokens_dict: dict[str, Token],
         chains_dict: dict[str, dict[str, Token]]
@@ -177,7 +176,7 @@ def check_groups(
         if ref is None:
             yield Error(group.parentSymbol, f"defined in groups.json but reference not found")
 
-        parent_price = get_price_from_ref(ref, prices, token_prices)
+        parent_price = get_price_from_ref(ref, prices)
 
         if parent_price <= 0:
             yield Error(group.parentSymbol, f"no price defined")
@@ -191,7 +190,7 @@ def check_groups(
             if child_ref is None:
                 yield Error(symbol, f"defined in groups.json but reference not found")
 
-            child_price = get_price_from_ref(child_ref, prices, token_prices)
+            child_price = get_price_from_ref(child_ref, prices)
 
             if abs(child_price - parent_price) >= 0.01:
                 yield Error(symbol, f"too much price diff between parent and child")
@@ -231,7 +230,6 @@ def load_ref(
 def get_price_from_ref(
         ref: Token | Coin,
         prices: dict[str, float],
-        token_prices: dict[str, float]
 ) -> float:
     if isinstance(ref, Coin):
         return prices[ref.symbol]
@@ -240,7 +238,7 @@ def get_price_from_ref(
         fds = ref.symbol.split(".")
         if len(fds) == 2:
             suffix = fds[1]
-        return token_prices[ref.address + "." + suffix]
+        return prices[ref.address + "." + suffix]
     else:
         raise Exception("Unexpected type")
 
@@ -251,14 +249,13 @@ def check_currencies(
         eth_erc20_tokens: list[Token],
         chains: dict[str, list[Token]],
         prices: dict[str, float],
-        token_prices: dict[str, float],
         groups: List[Group]
 ):
     coins_dict = {x.symbol: x for x in coins}
     eth_erc20_tokens_dict = {x.symbol: x for x in eth_erc20_tokens}
     chains_dict = {k: {t.symbol: t for t in v} for k, v in chains.items()}
 
-    for err in check_groups(groups, custody_currencies, prices, token_prices, coins_dict, eth_erc20_tokens_dict, chains_dict):
+    for err in check_groups(groups, custody_currencies, prices, coins_dict, eth_erc20_tokens_dict, chains_dict):
         yield err
 
     for currency in custody_currencies:
@@ -271,7 +268,7 @@ def check_currencies(
             yield Error(currency, "Reference not found")
             continue
 
-        yield from itertools.chain(check_logo(ref), currency.check(ref, prices, token_prices))
+        yield from itertools.chain(check_logo(ref), currency.check(ref, prices))
 
 
 def main():
@@ -298,8 +295,7 @@ def main():
     print(f"Total: {len(combined)}")
 
     prices = read_json(EXT_PRICES)['prices']
-    token_prices = read_json(EXT_TOKEN_PRICES)['prices']
-    issues = list(check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices, token_prices, groups))
+    issues = list(check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices, groups))
 
     print("")
     print(reduce(operator.add, map(lambda i: "\n- " + str(i), issues)))

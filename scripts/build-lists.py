@@ -10,7 +10,7 @@ from urllib.parse import urljoin
 from coin_gecko import fetch_coin_prices, fetch_token_prices, fetch_coin_descriptions, fetch_token_descriptions, fetch_missing_tokens_for_network, get_coin_by_chain_and_address
 from common_classes import Asset, Blockchain, Coin, Token
 from statics import BLOCKCHAINS, EXT_BLOCKCHAINS_DENYLIST, EXT_BLOCKCHAINS, EXT_PRICES, FINAL_BLOCKCHAINS_LIST, \
-    NETWORKS, EXT_OVERRIDES, EXT_TOKEN_PRICES
+    NETWORKS, EXT_OVERRIDES
 
 
 def read_json(path, comment_marker=None):
@@ -137,25 +137,15 @@ def fetch_prices():
         "prices": fetch_coin_prices(coins)
     }
 
-    token_prices = {
-        "timestamp": datetime.now().isoformat(),
-        "prices": {}
-    }
-
     for network in NETWORKS:
         tokens = fetch_tokens(network.chain)
         all_token_prices = fetch_token_prices(network, tokens)
         price_per_address = {(token.address + '.' + network.symbol): amount for token, amount in all_token_prices.items()}
-        token_prices["prices"].update(price_per_address)
+        prices["prices"].update(price_per_address)
 
     print(f"Writing coin prices to {EXT_PRICES}")
 
     write_json(prices, EXT_PRICES)
-
-    print(f"Writing token prices to {EXT_TOKEN_PRICES}")
-
-    write_json(token_prices, EXT_TOKEN_PRICES)
-
 
 
 def build_coins_list():
@@ -201,13 +191,13 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     print(f"Generating token files for network \"{network.chain}\"")
     tokens = fetch_tokens(network.chain)
 
-    print(f"Reading {network.symbol} token prices from {EXT_TOKEN_PRICES}")
-    token_prices = read_json(EXT_TOKEN_PRICES)
+    print(f"Reading {network.symbol} token prices from {EXT_PRICES}")
+    prices = read_json(EXT_PRICES)
 
     print(f"Tokens before price filter {len(tokens)}")
 
     # Clean up by price:
-    tokens = list(filter(lambda token: (token.address + "." + network.symbol) in token_prices['prices'], tokens))
+    tokens = list(filter(lambda token: (token.address + "." + network.symbol) in prices['prices'], tokens))
 
     print(f"Tokens after price filter {len(tokens)}")
 
