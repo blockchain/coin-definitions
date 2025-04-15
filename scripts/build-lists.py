@@ -140,6 +140,7 @@ def fetch_prices():
     for network in NETWORKS:
         tokens = fetch_tokens(network.chain)
         all_token_prices = fetch_token_prices(network, tokens)
+        # TrustWallet symbols aren't unique, so we key tokens by {address}.{network} to track token prices correctly.
         price_per_address = {(token.address + '.' + network.symbol): amount for token, amount in all_token_prices.items()}
         prices["prices"].update(price_per_address)
 
