@@ -175,7 +175,7 @@ def check_groups(groups: List[Group], custody_currencies, prices):
                 yield Error(symbol, f"too much price diff between parent and child")
             if not found_in_custody:
                 yield Error(symbol, f"defined in groups.json but not in custody.json")
-            if parent_custody.nabuSettings.custodialPrecision != found_in_custody.nabuSettings.custodialPrecision:
+            elif parent_custody.nabuSettings.custodialPrecision != found_in_custody.nabuSettings.custodialPrecision:
                 yield Error(symbol, f"expected same custodialPrecision as part of the same group")
 
 
