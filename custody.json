@@ -1099,6 +1099,15 @@
     }
   },
   {
+    "symbol": "OP.OETH",
+    "displaySymbol": "OP",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "OTRUMP.SOL",
     "displaySymbol": "TRUMP",
     "type": "SOLANA_TOKEN",
