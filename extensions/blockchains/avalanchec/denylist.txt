@@ -9,3 +9,13 @@
 # 0x20CF1b6E9d856321ed4686877CF4538F2C84B4dE
 # - https://snowtrace.io/token/0xdf474b7109b73b7d57926d43598d5934131136b2 (Ankr Network): ['https://www.ankr.com/', '', '']
 0xdf474b7109b73b7d57926d43598d5934131136b2
+# 'orbs' is shared by:
+0x340fE1D898ECCAad394e2ba0fC1F93d27c7b717A
+# - Website: https://www.orbs.com/
+# - Explorer: https://snowtrace.io/token/0x340fE1D898ECCAad394e2ba0fC1F93d27c7b717A (Orbs)
+# - CoinGecko: Not found
+# 0x3Ab1C9aDb065F3FcA0059652Cd7A52B05C98f9a9
+# - Website: https://orbs.com
+# - Explorer: https://snowtrace.io/token/0x3Ab1C9aDb065F3FcA0059652Cd7A52B05C98f9a9 (Orbs)
+# - CoinGecko: https://www.coingecko.com/en/coins/orbs 
+#
