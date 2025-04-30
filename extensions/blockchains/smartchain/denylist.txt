@@ -1029,3 +1029,251 @@
 # - Explorer: https://bscscan.com/token/0x32B407ee915432Be6D3F168bc1EfF2a6F8b2034C (HODL)
 # - CoinGecko: https://www.coingecko.com/en/coins/hodl-2
 #
+# 'agata' is shared by:
+0x18c4AF61DbE6fD55d6470943b4ab8530777d009C
+# - Website: https://agatech.io
+# - Explorer: https://bscscan.com/token/0x18c4AF61DbE6fD55d6470943b4ab8530777d009C (Agatech)
+# - CoinGecko: https://www.coingecko.com/en/coins/agatech 
+# 0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029
+# - Website: https://agatech.io
+# - Explorer: https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029 (Agatech)
+# - CoinGecko: Not found
+#
+# 'bb' is shared by:
+0x753fc5E107fd8c63DC84Daa4bc08370F2c05ffc8
+# - Website: https://babybroccoli.fun
+# - Explorer: https://bscscan.com/token/0x753fc5E107fd8c63DC84Daa4bc08370F2c05ffc8 (Baby Broccoli)
+# - CoinGecko: Not found
+# 0x86bBc9838C3370e0fD570b4ee8087f5aCa299977
+# - Website: https://www.blackberrytoken.com/
+# - Explorer: https://bscscan.com/token/0x86bBc9838C3370e0fD570b4ee8087f5aCa299977 (Blackberry token)
+# - CoinGecko: Not found
+#
+# 'bnx' is shared by:
+# 0x5b1f874d0b0C5ee17a495CbB70AB8bf64107A3BD
+# - Website: https://www.binaryx.pro/
+# - Explorer: https://bscscan.com/token/0x5b1f874d0b0C5ee17a495CbB70AB8bf64107A3BD (BinaryX)
+# - CoinGecko: https://www.coingecko.com/en/coins/binaryx-2 
+0xAa817f5FE9F6385AA903a7FA994B4b403ab2b862
+# - Website: https://www.bond-x.xyz/
+# - Explorer: https://bscscan.com/token/0xAa817f5FE9F6385AA903a7FA994B4b403ab2b862 (BondX)
+# - CoinGecko: https://www.coingecko.com/en/coins/bondx 
+#
+# 'broccoli' is shared by:
+0x09f4eBB8567ea0e969f10799CA678F9A172DC2Bb
+# - Website: https://broccolicoin.me/
+# - Explorer: https://bscscan.com/token/0x09f4eBB8567ea0e969f10799CA678F9A172DC2Bb (Broccoli)
+# - CoinGecko: Not found
+0x12819623921Be0F4d5ebfC12C75E6D08a1683080
+# - Website: https://broccolibsc.com/
+# - Explorer: https://bscscan.com/token/0x12819623921Be0F4d5ebfC12C75E6D08a1683080 (Broccoli)
+# - CoinGecko: https://www.coingecko.com/en/coins/broccoli-2 
+0x12B4356C65340Fb02cdff01293F95FEBb1512F3b
+# - Website: https://cointelegraph.com/news/cz-dog-name-broccoli-memecoin-frenzy
+# - Explorer: https://bscscan.com/token/0x12B4356C65340Fb02cdff01293F95FEBb1512F3b (Broccoli)
+# - CoinGecko: https://www.coingecko.com/en/coins/broccoli-3 
+0x23D3F4EaaA515403C6765bb623F287a8Cca28F2b
+# - Website: https://broccolibnb.org
+# - Explorer: https://bscscan.com/token/0x23D3F4EaaA515403C6765bb623F287a8Cca28F2b (Broccoli)
+# - CoinGecko: https://www.coingecko.com/en/coins/broccoli-4 
+0x6d5AD1592ed9D6D1dF9b93c793AB759573Ed6714
+# - Website: https://www.broccoli.gg/
+# - Explorer: https://bscscan.com/token/0x6d5AD1592ed9D6D1dF9b93c793AB759573Ed6714 (CZ&#39;S DOG)
+# - CoinGecko: https://www.coingecko.com/en/coins/czs-dog 
+#
+# 'cow' is shared by:
+# 0x422E3aF98bC1dE5a1838BE31A56f75DB4Ad43730
+# - Website: https://www.coinwind.pro/
+# - Explorer: https://bscscan.com/token/0x422E3aF98bC1dE5a1838BE31A56f75DB4Ad43730 (COW)
+# - CoinGecko: https://www.coingecko.com/en/coins/coinwind 
+0x7aAAA5B10f97321345ACd76945083141bE1C5631
+# - Website: https://cow.cm/
+# - Explorer: https://bscscan.com/token/0x7aAAA5B10f97321345ACd76945083141bE1C5631 (Cowcoin)
+# - CoinGecko: https://www.coingecko.com/en/coins/cowcoin-2 
+#
+# 'elon' is shared by:
+# 0x7bd6FaBD64813c48545C9c0e312A0099d9be2540
+# - Website: https://dogelon.io
+# - Explorer: https://bscscan.com/token/0x7bd6FaBD64813c48545C9c0e312A0099d9be2540 (Dogelon)
+# - CoinGecko: https://www.coingecko.com/en/coins/dogelon-mars 
+0xd29EaCE1FcFF9e9252B4A54f5Cbe858ceeFE959c
+# - Website: https://dogelonmoon.com
+# - Explorer: https://bscscan.com/token/0xd29EaCE1FcFF9e9252B4A54f5Cbe858ceeFE959c (Dogelon Moon)
+# - CoinGecko: Not found
+#
+# 'eye' is shared by:
+0x2B54d3d7aB8e65895168938F7145F39225Db7CE5
+# - Website: https://eyeswap.finance/
+# - Explorer: https://bscscan.com/token/0x2B54d3d7aB8e65895168938F7145F39225Db7CE5 (EyeSwap)
+# - CoinGecko: Not found
+0x9804021fab007caf29c8D75E3bEcACeC7860de30
+# - Website: https://eye-analyser.com
+# - Explorer: https://bscscan.com/token/0x9804021fab007caf29c8D75E3bEcACeC7860de30 (EYE)
+# - CoinGecko: https://www.coingecko.com/en/coins/the-eye 
+0xE9a97602Ea2985634032a6dFE8a391F7124328F1
+# - Website: https://eyetoken.io
+# - Explorer: https://bscscan.com/token/0xE9a97602Ea2985634032a6dFE8a391F7124328F1 (EYE Network)
+# - CoinGecko: Not found
+#
+# 'fist' is shared by:
+0x6Aa47e1A3AF34285b47B9dF4C9D3Dc61953900C5
+# - Website: https://x.com/KtwoBTCQ?s=09
+# - Explorer: https://bscscan.com/token/0x6Aa47e1A3AF34285b47B9dF4C9D3Dc61953900C5 (FIST)
+# - CoinGecko: Not found
+0xC9882dEF23bc42D53895b8361D0b1EDC7570Bc6A
+# - Website: https://bscscan.com/address/0xC9882dEF23bc42D53895b8361D0b1EDC7570Bc6A
+# - Explorer: https://bscscan.com/token/0xC9882dEF23bc42D53895b8361D0b1EDC7570Bc6A (FistToken)
+# - CoinGecko: https://www.coingecko.com/en/coins/fistbump 
+0xbBC6057d21BD9c8FcEEDfFe821D7d8bE10d3d82a
+# - Website: https://top100token.com/address/0xbbc6057d21bd9c8fceedffe821d7d8be10d3d82a
+# - Explorer: https://bscscan.com/token/0xbBC6057d21BD9c8FcEEDfFe821D7d8bE10d3d82a (FistToken)
+# - CoinGecko: Not found
+#
+# 'four' is shared by:
+0xcE30b968d5e76A67f3946E0598F95d551ce03Ac3
+# - Website: https://four.meme/
+# - Explorer: https://bscscan.com/token/0xcE30b968d5e76A67f3946E0598F95d551ce03Ac3 (Four)
+# - CoinGecko: Not found
+# 0xd882739Fca9CBAE00F3821c4c65189E2D7e26147
+# - Website: https://the4thpillar.io/
+# - Explorer: https://bscscan.com/token/0xd882739Fca9CBAE00F3821c4c65189E2D7e26147 (The 4th Pillar Token)
+# - CoinGecko: https://www.coingecko.com/en/coins/the-4th-pillar 
+#
+# 'frog' is shared by:
+0x4AD663403df2F0E7987bC9C74561687472e1611C
+# - Website: https://frogonbnb.com/
+# - Explorer: https://bscscan.com/token/0x4AD663403df2F0E7987bC9C74561687472e1611C (Frodo the virtual samurai)
+# - CoinGecko: https://www.coingecko.com/en/coins/frodo-the-virtual-samurai 
+0xC808592e5b4585F982bc728d63b227634bc007a4
+# - Website: https://cryptofrog.finance
+# - Explorer: https://bscscan.com/token/0xC808592e5b4585F982bc728d63b227634bc007a4 (CryptoFrog.Finance)
+# - CoinGecko: Not found
+#
+# 'happy' is shared by:
+0x2E72393A57287b1A09857Db589B27bB0fd499922
+# - Website: https://happycatonsol.com/
+# - Explorer: https://bscscan.com/token/0x2E72393A57287b1A09857Db589B27bB0fd499922 (Happy Cat)
+# - CoinGecko: https://www.coingecko.com/en/coins/happycat-2 
+# 0xF5d8A096CcCb31b9D7bcE5afE812BE23e3D4690d
+# - Website: https://happyfans.club/
+# - Explorer: https://bscscan.com/token/0xF5d8A096CcCb31b9D7bcE5afE812BE23e3D4690d (Happy Fans Token)
+# - CoinGecko: https://www.coingecko.com/en/coins/happyfans 
+#
+# 'hodl' is shared by:
+# 0x32B407ee915432Be6D3F168bc1EfF2a6F8b2034C
+# - Website: https://www.hodltoken.net
+# - Explorer: https://bscscan.com/token/0x32B407ee915432Be6D3F168bc1EfF2a6F8b2034C (HODL)
+# - CoinGecko: https://www.coingecko.com/en/coins/hodl-2 
+0xC07D28F8e9D9b5644676196aFE14af09e1c79AfD
+# - Website: https://www.hodlbnb.vip/
+# - Explorer: https://bscscan.com/token/0xC07D28F8e9D9b5644676196aFE14af09e1c79AfD (HoldOn4DearLife)
+# - CoinGecko: https://www.coingecko.com/en/coins/holdon4dearlife 
+#
+# 'kaka' is shared by:
+# 0x26a1BdFa3bb86b2744c4A42EBfDd205761d13a8a
+# - Website: https://kakanft.com/
+# - Explorer: https://bscscan.com/token/0x26a1BdFa3bb86b2744c4A42EBfDd205761d13a8a (KAKA Token)
+# - CoinGecko: https://www.coingecko.com/en/coins/kaka-nft-world 
+0xCAD5a334DC54143d122d1E753bAD5050181270C8
+# - Website: https://kakacoin.vip/
+# - Explorer: https://bscscan.com/token/0xCAD5a334DC54143d122d1E753bAD5050181270C8 (Miss Kaka)
+# - CoinGecko: https://www.coingecko.com/en/coins/miss-kaka 
+#
+# 'mars' is shared by:
+# 0x07c15e4ADD8c23D2971380dde6C57B6f88902Ec1
+# - Website: https://www.metamars.io/
+# - Explorer: https://bscscan.com/token/0x07c15e4ADD8c23D2971380dde6C57B6f88902Ec1 (Metamars)
+# - CoinGecko: https://www.coingecko.com/en/coins/metamars-2 
+0x1Fd448D0361c3212961a70930f3129A45f425B68
+# - Website: https://t.me/+oyxWKfNz2zllYTRh
+# - Explorer: https://bscscan.com/token/0x1Fd448D0361c3212961a70930f3129A45f425B68 (Marscoin)
+# - CoinGecko: https://www.coingecko.com/en/coins/marscoin-2 
+#
+# 'ox' is shared by:
+0x139dd9203c8E46d15B3896814Dc9424c5e5559fA
+# - Website: https://orcax.finance
+# - Explorer: https://bscscan.com/token/0x139dd9203c8E46d15B3896814Dc9424c5e5559fA (OrcaX)
+# - CoinGecko: Not found
+# 0xba0Dda8762C24dA9487f5FA026a9B64b695A07Ea
+# - Website: https://ox.fun/
+# - Explorer: https://bscscan.com/token/0xba0Dda8762C24dA9487f5FA026a9B64b695A07Ea (OX)
+# - CoinGecko: https://www.coingecko.com/en/coins/ox-fun 
+#
+# 'pbr' is shared by:
+# 0x1D1cB8997570e73949930c01Fe5796C88d7336c6
+# - Website: https://polkabridge.org/
+# - Explorer: https://bscscan.com/token/0x1D1cB8997570e73949930c01Fe5796C88d7336c6 (PolkaBridge)
+# - CoinGecko: Not found
+0x3C1B057cb7AcEB4F2c4D889A29fEBec30A6A3146
+# - Website: https://polkabridge.org/
+# - Explorer: https://bscscan.com/token/0x3C1B057cb7AcEB4F2c4D889A29fEBec30A6A3146 (PolkaBridge)
+# - CoinGecko: https://www.coingecko.com/en/coins/polkabridge 
+#
+# 'rats' is shared by:
+0x45787821a0BD5e6bba8E709783C773A386e34D65
+# - Website: https://goldenrat.org/
+# - Explorer: https://bscscan.com/token/0x45787821a0BD5e6bba8E709783C773A386e34D65 (GoldenRat)
+# - CoinGecko: https://www.coingecko.com/en/coins/goldenrat 
+0x57b798d2252557f13A9148A075a72816f2707356
+# - Website: https://www.ratscoin.com/
+# - Explorer: https://bscscan.com/token/0x57b798d2252557f13A9148A075a72816f2707356 (Ratscoin)
+# - CoinGecko: Not found
+#
+# 'safu' is shared by:
+0x16Feb16F7Ee2190312D03f449eeEc2339add2D83
+# - Website: https://safeuniverse.net/
+# - Explorer: https://bscscan.com/token/0x16Feb16F7Ee2190312D03f449eeEc2339add2D83 (SafeUniverse)
+# - CoinGecko: Not found
+0x3433a5748Bda2F7338BDC600Be7BC716d5882B0C
+# - Website: https://safu-moon.xyz
+# - Explorer: https://bscscan.com/token/0x3433a5748Bda2F7338BDC600Be7BC716d5882B0C (SAFU)
+# - CoinGecko: https://www.coingecko.com/en/coins/safu 
+0x36DB129506fE81dA7Ce085648ff9C7a0D5e31ed2
+# - Website: https://ceezee.io/
+# - Explorer: https://bscscan.com/token/0x36DB129506fE81dA7Ce085648ff9C7a0D5e31ed2 (CEEZEE)
+# - CoinGecko: Not found
+#
+# 'tat' is shared by:
+0x290c665656a67e0ea0784f90ECBaeFF77c884217
+# - Website: https://abitnetwork.com
+# - Explorer: https://bscscan.com/token/0x290c665656a67e0ea0784f90ECBaeFF77c884217 (Tatcoin)
+# - CoinGecko: Not found
+0x996D1b997203a024E205069a304161ba618d1c61
+# - Website: https://four.meme/token/0x996D1b997203a024E205069a304161ba618d1c61
+# - Explorer: https://bscscan.com/token/0x996D1b997203a024E205069a304161ba618d1c61 (Tell A Tale)
+# - CoinGecko: https://www.coingecko.com/en/coins/tell-a-tale 
+#
+# 'tcc' is shared by:
+0x08E8aC8c4bCA64503F774d2C40C911E8A3FfCc12
+# - Website: https://four.meme/token/0x08e8ac8c4bca64503f774d2c40c911e8a3ffcc12
+# - Explorer: https://bscscan.com/token/0x08E8aC8c4bCA64503F774d2C40C911E8A3FfCc12 (TCC)
+# - CoinGecko: https://www.coingecko.com/en/coins/tcc 
+0xf8418D0a7f30BB899639B232f9748c0f1fA87870
+# - Website: https://www.thecollectivecoin.co
+# - Explorer: https://bscscan.com/token/0xf8418D0a7f30BB899639B232f9748c0f1fA87870 (TheCollectiveCoin)
+# - CoinGecko: Not found
+#
+# 'trump' is shared by:
+0x432665A9709593149DAb052FCda7E389122d98ae
+# - Website: https://x.com/GOUTPUMP_TRUMP
+# - Explorer: https://bscscan.com/token/0x432665A9709593149DAb052FCda7E389122d98ae (TRUMP COIN)
+# - CoinGecko: Not found
+# 0x4eA98c1999575aaadfb38237Dd015c5E773F75a2
+# - Website: https://magamemecoin.com/
+# - Explorer: https://bscscan.com/token/0x4eA98c1999575aaadfb38237Dd015c5E773F75a2 (MAGA)
+# - CoinGecko: https://www.coingecko.com/en/coins/maga 
+0xccdF812aa7cdee4fF7cb89546d7f1718bb8d46E1
+# - Website: https://trumpai.me/
+# - Explorer: https://bscscan.com/token/0xccdF812aa7cdee4fF7cb89546d7f1718bb8d46E1 (TRUMP AI)
+# - CoinGecko: Not found
+#
+# 'usdd' is shared by:
+0x392004BEe213F1FF580C867359C246924f21E6Ad
+# - Website: https://usdd.io/
+# - Explorer: https://bscscan.com/token/0x392004BEe213F1FF580C867359C246924f21E6Ad (Decentralized USD)
+# - CoinGecko: https://www.coingecko.com/en/coins/usdd 
+# 0xd17479997F34dd9156Deef8F95A52D81D265be9c
+# - Website: https://usdd.io/
+# - Explorer: https://bscscan.com/token/0xd17479997F34dd9156Deef8F95A52D81D265be9c (Decentralized USD)
+# - CoinGecko: Not found
+#
