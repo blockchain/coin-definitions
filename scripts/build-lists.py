@@ -184,8 +184,7 @@ def merge_token_lists(existing_tokens: list[Token], new_tokens: list[Token], coi
         # We add the new token into the map
         existing_tokens_symbol_map[new_token.symbol.lower()] = True
         merged_list.append(new_token)
-
-    return merged_list
+    return sorted(merged_list, key=lambda t: t.address)
 
 
 def build_tokens_list(network, fill_from_coingecko=False, ci=False):
