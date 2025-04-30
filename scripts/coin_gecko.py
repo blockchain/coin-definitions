@@ -312,7 +312,7 @@ def fetch_token_prices(network, tokens):
     for batch in map_chunked(CoinGeckoAPIClient.fetch_usd_markets, list(tokens_by_id.keys()), BATCH_SIZE):
         for market in batch:
             for token in tokens_by_id[market.id]:
-                prices[token.with_suffix(network).symbol] = market.current_price
+                prices[token] = market.current_price
     return prices
 
 
