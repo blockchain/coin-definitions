@@ -262,9 +262,7 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
 
     print(f"Writing {len(tokens)} tokens to {network.output_file}")
     write_json(tokens, network.output_file)
-    # Re-build because denylist got updated
-    if duplicates and ci:
-        build_tokens_list(network, fill_from_coingecko=fill_from_coingecko, ci=False)
+
 
 def fill_descriptions_from_overrides():
     text_descriptions = read_json('./description/en.json')
