@@ -2,6 +2,7 @@ import argparse
 import glob
 import itertools
 import json
+import sys
 from dataclasses import asdict
 from datetime import datetime
 from urllib.parse import urljoin
@@ -56,29 +57,12 @@ def find_duplicates(items, key, post_filter=None):
     return [(symbol, items) for symbol, items in groups if len(items) > 1]
 
 
-def append_duplicates(duplicates, network, tokens: list[Token], deny_path: str, current_tokens: list[Token]) -> list[Token]:
-    lines = get_duplicates_lines(duplicates, network, current_tokens=current_tokens)
-    lines = [line + '\n' for line in lines]
-    with open(deny_path, 'a') as file:
-        file.writelines(lines)
-    for symbol, duplicate_tokens in duplicates:
-        token_address = [token.address for token in duplicate_tokens]
-        tokens = [token for token in tokens if token in current_tokens or token.address not in token_address]
-    return tokens
-
-
-def get_duplicates_lines(duplicates, network, current_tokens: list[Token] = None) -> list[str]:
+def get_duplicates_lines(duplicates, network) -> list[str]:
     lines: list[str] = []
     for symbol, tokens in duplicates:
         lines.append(f"# '{symbol}' is shared by:")
         for token in tokens:
-            if current_tokens:
-                if token in current_tokens:
-                    lines.append(f"# {token.address}")
-                else:
-                    lines.append(f"{token.address}")
-            else:
-                lines.append(f"# {token.address}")
+            lines.append(f"# {token.address}")
             lines.append(f"# - Website: {token.website}")
             lines.append(f"# - Explorer: {urljoin(network.explorer_url, token.address)} ({token.name})")
             coingecko_coin = get_coin_by_chain_and_address(network.symbol, token.address)
@@ -155,7 +139,10 @@ def fetch_prices():
 
     for network in NETWORKS:
         tokens = fetch_tokens(network.chain)
-        prices["prices"].update(fetch_token_prices(network, tokens))
+        all_token_prices = fetch_token_prices(network, tokens)
+        # TrustWallet symbols aren't unique, so we key tokens by {address}.{network} to track token prices correctly.
+        price_per_address = {(token.address + '.' + network.symbol): amount for token, amount in all_token_prices.items()}
+        prices["prices"].update(price_per_address)
 
     print(f"Writing coin prices to {EXT_PRICES}")
 
@@ -169,25 +156,50 @@ def build_coins_list():
     write_json(coins, FINAL_BLOCKCHAINS_LIST, sort_keys=False, indent=2)
 
 
+def merge_token_lists(existing_tokens: list[Token], new_tokens: list[Token], coins: list[Coin]) -> list[Token]:
+    merged_list = existing_tokens
+    # Map containing existing symbol to make sure our symbols are uniques
+    existing_tokens_symbol_map = {token.symbol.lower(): True for token in existing_tokens}
+
+    # For Ethereum, we also need to add coins as there is no suffix on ETH tokens
+    for coin in coins:
+        existing_tokens_symbol_map[coin.symbol.lower()] = True
+
+    for new_token in new_tokens:
+        found_token_index = next((i for i, t in enumerate(merged_list) if t.address == new_token.address), None)
+
+        # Token already existing, we need to update it (except for symbol that is immutable)
+        if found_token_index is not None:
+            new_token.symbol = merged_list[found_token_index].symbol
+            merged_list[found_token_index] = new_token
+            continue
+
+        base_new_symbol = new_token.symbol
+        suffix = 2
+        # We make sure that there is no symbol collision and use a number prefix if there is
+        while new_token.symbol.lower() in existing_tokens_symbol_map:
+            new_token.symbol = f"{base_new_symbol}{suffix}"
+            suffix += 1
+
+        # We add the new token into the map
+        existing_tokens_symbol_map[new_token.symbol.lower()] = True
+        merged_list.append(new_token)
+    return sorted(merged_list, key=lambda t: t.address)
+
+
 def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     print(f"Generating token files for network \"{network.chain}\"")
     tokens = fetch_tokens(network.chain)
 
-    print(f"Reading {network.symbol} asset prices from {EXT_PRICES}")
+    print(f"Reading {network.symbol} token prices from {EXT_PRICES}")
     prices = read_json(EXT_PRICES)
 
     print(f"Tokens before price filter {len(tokens)}")
 
     # Clean up by price:
-    tokens = list(filter(lambda token: token.with_suffix(network).symbol in prices['prices'], tokens))
+    tokens = list(filter(lambda token: (token.address + "." + network.symbol) in prices['prices'], tokens))
 
     print(f"Tokens after price filter {len(tokens)}")
-
-    # Include already selected tokens (to make sure we don't remove a token we had previously selected)
-    print(f"Reading existing assets in {network.output_file}")
-    current_tokens = list(
-        map(lambda x: Token(**x).without_suffix(network), read_json(network.output_file)))
-    tokens = list(set(tokens) | set(current_tokens))
 
     # Optionally, fetch tokens from CoinGecko, adding to the current list
     if fill_from_coingecko:
@@ -211,14 +223,29 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     extensions = map(lambda ext: Token.from_asset(ext, network.chain), extensions)
     tokens = sorted(set(extensions) | set(tokens), key=lambda t: t.address)
 
+    print(f"Reading existing assets in {network.output_file}")
+    current_tokens = list(
+        map(lambda x: Token(**x).without_suffix(network), read_json(network.output_file)))
+
+    # For Ethereum, we need to fetch the coins as well because ETH tokens don't have suffix
+    extras = list(map(lambda x: Coin.from_dict(x), read_json("coins.json"))) if network.chain == 'ethereum' else []
+
+    # We get the final tokens list by merging existing ones and fetched ones
+    if ci:
+        tokens = merge_token_lists(existing_tokens=current_tokens, new_tokens=tokens, coins=extras)
+    else:
+        tokens = list(set(tokens) | set(current_tokens))
+
     # Look for duplicates:
     # For ethereum we also check collisions with coins as ethereum tokens does not have suffixes
-    extras = list(map(lambda x: Coin.from_dict(x), read_json("coins.json"))) if network.chain == 'ethereum' else []
+
     duplicates = find_duplicates(tokens + extras, lambda t: t.symbol.lower(), lambda t: isinstance(t, Token))
     if duplicates:
-        # In CI, we simply append duplicates to the deny list and filter out duplicates
         if ci:
-            tokens = append_duplicates(duplicates, network, tokens, deny_path, current_tokens)
+            # We should not have duplicates n ci mode
+            print(f"Found {len(duplicates)} duplicate tokens in ci mode, Aborting")
+            print(duplicates)
+            sys.exit(1)
         else:
             dump_duplicates(duplicates, network)
             return
@@ -302,7 +329,8 @@ def main():
     elif args.fill_descriptions_from_overrides:
         fill_descriptions_from_overrides()
     else:
-        build_coins_list()
+        if not args.ci:
+            build_coins_list()
         for network in NETWORKS:
             build_tokens_list(network, args.fill_from_coingecko, args.ci)
 
