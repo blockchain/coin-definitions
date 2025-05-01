@@ -191,6 +191,11 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     print(f"Generating token files for network \"{network.chain}\"")
     tokens = fetch_tokens(network.chain)
 
+    if network.symbol.lower() == 'ada':
+        for token in tokens:
+            policy_id, asset_name_hex = decode_cardano_fingerprint(token.address, token.symbol)
+            token.address = policy_id + asset_name_hex
+
     print(f"Reading {network.symbol} token prices from {EXT_PRICES}")
     prices = read_json(EXT_PRICES)
 
