@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning
 from web3 import Web3
 
 from common_classes import build_dataclass_from_dict, Description, Token
-from utils import map_chunked
+from utils import map_chunked, decode_cardano_fingerprint
 
 BATCH_SIZE = 250
 
@@ -94,6 +94,7 @@ network_mappings = {
     "SOL": "solana",
     "TON": "the-open-network",
     "TRX": "tron",
+    "ADA": "Cardano"
 }
 
 
@@ -288,11 +289,25 @@ def get_coins_by_id(coins):
 def get_tokens_by_id(network, tokens):
     tokens_by_id = {}
     network_coin_gecko_id = network_mappings.get(network.symbol)
+
     if network_coin_gecko_id is not None:
         for token in tokens:
-            coin = coin_list_by_platform_and_address.get(network_coin_gecko_id, {}).get(token.address.lower(), None)
+            if network.symbol.lower() == 'ada':
+                policy_id, asset_name_hex = decode_cardano_fingerprint(token.address, token.symbol)
+                asset_id = policy_id + asset_name_hex
+
+                coin = coin_list_by_platform_and_address.get(network_coin_gecko_id.lower(), {}).get(asset_id.lower(), None)
+                if coin is None:
+                    coin = coin_list_by_platform_and_address.get(network_coin_gecko_id.lower(), {}).get(policy_id.lower(), None)
+
+                token.address = asset_id
+
+            else:
+                coin = coin_list_by_platform_and_address.get(network_coin_gecko_id.lower(), {}).get(token.address.lower(), None)
+
             if coin is not None:
                 tokens_by_id.setdefault(coin.id, []).append(token)
+
     return tokens_by_id
 
 

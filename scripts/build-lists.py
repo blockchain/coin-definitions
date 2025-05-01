@@ -12,6 +12,7 @@ from common_classes import Asset, Blockchain, Coin, Token
 from statics import BLOCKCHAINS, EXT_BLOCKCHAINS_DENYLIST, EXT_BLOCKCHAINS, EXT_PRICES, FINAL_BLOCKCHAINS_LIST, \
     NETWORKS, EXT_OVERRIDES
 
+from utils import decode_cardano_fingerprint
 
 def read_json(path, comment_marker=None):
     with open(path) as json_file:
@@ -190,6 +191,11 @@ def merge_token_lists(existing_tokens: list[Token], new_tokens: list[Token], coi
 def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     print(f"Generating token files for network \"{network.chain}\"")
     tokens = fetch_tokens(network.chain)
+
+    if network.symbol.lower() == 'ada':
+        for token in tokens:
+            policy_id, asset_name_hex = decode_cardano_fingerprint(token.address, token.symbol)
+            token.address = policy_id + asset_name_hex
 
     print(f"Reading {network.symbol} token prices from {EXT_PRICES}")
     prices = read_json(EXT_PRICES)
