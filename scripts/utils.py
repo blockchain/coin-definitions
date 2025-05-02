@@ -71,7 +71,7 @@ def get_cardano_tokens_by_id(tokens, coin_list):
     fingerprint_to_coin = {}
 
     for asset_id, coin in coin_list.items():
-        # as the fingerprint(hex or readable)
+        # scenario-1: as the fingerprint(hex or readable)
         if len(asset_id) < 56:
             try:
                 hrp, data = bech32.bech32_decode(asset_id)
@@ -90,12 +90,12 @@ def get_cardano_tokens_by_id(tokens, coin_list):
             except Exception:
                 continue  # Skip invalid entries
 
-        # as the policy_id
+        # scenario-2: as the policy_id
         elif len(asset_id) == 56:
             policy_id = asset_id
             asset_name_hex = coin.symbol.upper().encode("utf-8").hex()
 
-        # case-3: as the asset_id (polic_id + asset_name_hex)
+        # scenario-3: as the asset_id (polic_id + asset_name_hex)
         else:
             policy_id = asset_id[:56]
             asset_name_hex = asset_id[56:]
