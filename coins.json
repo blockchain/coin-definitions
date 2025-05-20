@@ -324,6 +324,15 @@
     "website": "https://www.junonetwork.io/"
   },
   {
+    "symbol": "KAIA",
+    "displaySymbol": "KAIA",
+    "name": "kaia",
+    "key": "klaytn",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/klaytn/info/logo.png",
+    "website": "https://kaia.io"
+  },
+  {
     "symbol": "KAVA",
     "displaySymbol": "KAVA",
     "name": "Kava",
@@ -340,15 +349,6 @@
     "decimals": 5,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/kin/info/logo.png",
     "website": "https://kin.org"
-  },
-  {
-    "symbol": "KLAY",
-    "displaySymbol": "KLAY",
-    "name": "kaia",
-    "key": "klaytn",
-    "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/klaytn/info/logo.png",
-    "website": "https://kaia.io"
   },
   {
     "symbol": "KUJI",
@@ -383,7 +383,7 @@
     "name": "Polygon",
     "key": "polygon",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polygon/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/polygon/info/logo.png",
     "website": "https://polygon.technology/solutions/polygon-pos/"
   },
   {
