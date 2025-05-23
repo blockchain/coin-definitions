@@ -64,5 +64,11 @@
     "displayName": "TRON",
     "native": "TRX",
     "tokens": "chain/tron/tokens.json"
+  },
+  {
+    "chain": "cardano",
+    "displayName": "Cardano",
+    "native": "ADA",
+    "tokens": "chain/cardano/tokens.json"
   }
 ]

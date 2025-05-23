@@ -383,7 +383,7 @@
     "name": "Polygon",
     "key": "polygon",
     "decimals": 18,
-    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polygon/info/logo.png",
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/polygon/info/logo.png",
     "website": "https://polygon.technology/solutions/polygon-pos/"
   },
   {

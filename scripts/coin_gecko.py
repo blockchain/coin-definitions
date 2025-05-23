@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning
 from web3 import Web3
 
 from common_classes import build_dataclass_from_dict, Description, Token
-from utils import map_chunked
+from utils import map_chunked, get_cardano_tokens_by_id
 
 BATCH_SIZE = 250
 
@@ -94,6 +94,7 @@ network_mappings = {
     "SOL": "solana",
     "TON": "the-open-network",
     "TRX": "tron",
+    "ADA": "cardano"
 }
 
 
@@ -284,15 +285,19 @@ def get_coins_by_id(coins):
             coins_by_id.setdefault(coin_gecko_id, []).append(coin)
     return coins_by_id
 
-
 def get_tokens_by_id(network, tokens):
     tokens_by_id = {}
     network_coin_gecko_id = network_mappings.get(network.symbol)
+
     if network_coin_gecko_id is not None:
+        if network.symbol.lower() == 'ada':
+            coin_list = coin_list_by_platform_and_address.get(network_coin_gecko_id, {})
+            return get_cardano_tokens_by_id(tokens, coin_list)
         for token in tokens:
             coin = coin_list_by_platform_and_address.get(network_coin_gecko_id, {}).get(token.address.lower(), None)
             if coin is not None:
                 tokens_by_id.setdefault(coin.id, []).append(token)
+
     return tokens_by_id
 
 

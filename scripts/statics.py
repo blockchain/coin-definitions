@@ -94,5 +94,11 @@ NETWORKS = [
         symbol="TON",
         output_file="chain/ton/tokens.json",
         explorer_url="https://tonscan.org/jetton/"
+    ),
+    Network(
+        chain="cardano",
+        symbol="ADA",
+        output_file="chain/cardano/tokens.json",
+        explorer_url="https://cardanoscan.com/token/"
     )
 ]
