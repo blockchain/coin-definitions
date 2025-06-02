@@ -12,6 +12,7 @@ from common_classes import Asset, Blockchain, Coin, Token
 from statics import BLOCKCHAINS, EXT_BLOCKCHAINS_DENYLIST, EXT_BLOCKCHAINS, EXT_PRICES, FINAL_BLOCKCHAINS_LIST, \
     NETWORKS, EXT_OVERRIDES
 
+from utils import filter_cardano_tokens_by_price
 
 def read_json(path, comment_marker=None):
     with open(path) as json_file:
@@ -197,7 +198,10 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     print(f"Tokens before price filter {len(tokens)}")
 
     # Clean up by price:
-    tokens = list(filter(lambda token: (token.address + "." + network.symbol) in prices['prices'], tokens))
+    if network.symbol.lower() == 'ada':
+        tokens = filter_cardano_tokens_by_price(tokens, prices)
+    else:
+        tokens = list(filter(lambda token: (token.address + "." + network.symbol) in prices['prices'], tokens))
 
     print(f"Tokens after price filter {len(tokens)}")
 
