@@ -547,6 +547,15 @@
     }
   },
   {
+    "symbol": "ENA",
+    "displaySymbol": "ENA",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "ENJ",
     "displaySymbol": "ENJ",
     "type": "ERC20",
@@ -1138,6 +1147,15 @@
     }
   },
   {
+    "symbol": "PAXG",
+    "displaySymbol": "PAXG",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "PENGU.SOL",
     "displaySymbol": "PENGU",
     "type": "SOLANA_TOKEN",
@@ -1700,6 +1718,15 @@
       "minConfirmations": 1,
       "minWithdrawal": 0
     }
+  },
+  {
+    "symbol": "WLD",
+    "displaySymbol": "WLD",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
   },
   {
     "symbol": "WLUNA",

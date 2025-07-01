@@ -771,7 +771,7 @@
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0655977FEb2f289A4aB78af67BAB0d17aAb84367/logo.png",
         "name": "Savings crvUSD",
         "symbol": "scrvUSD",
-        "website": "https://www.curve.fi/"
+        "website": "https://www.curve.finance/"
     },
     {
         "address": "0x066798d9ef0833ccc719076Dab77199eCbd178b0",
@@ -7317,6 +7317,15 @@
         "website": "https://mysterium.network/"
     },
     {
+        "address": "0x4D0528598F916Fd1D8dc80e5f54a8fEEDcFd4b18",
+        "decimals": 18,
+        "displaySymbol": "ATOS",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4D0528598F916Fd1D8dc80e5f54a8fEEDcFd4b18/logo.png",
+        "name": "ATOS",
+        "symbol": "ATOS",
+        "website": "https://atoshi.org/"
+    },
+    {
         "address": "0x4D2eE5DAe46C86DA2FF521F7657dad98834f97b8",
         "decimals": 18,
         "displaySymbol": "PPBLZ",
@@ -8143,6 +8152,15 @@
         "name": "dark maga",
         "symbol": "DMAGA",
         "website": "https://darkmagacoin.com/"
+    },
+    {
+        "address": "0x5651fA7a726B9Ec0cAd00Ee140179912B6E73599",
+        "decimals": 18,
+        "displaySymbol": "OORT",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5651fA7a726B9Ec0cAd00Ee140179912B6E73599/logo.png",
+        "name": "OORT",
+        "symbol": "OORT",
+        "website": "https://oortech.com/"
     },
     {
         "address": "0x566957eF80F9fd5526CD2BEF8BE67035C0b81130",
@@ -10595,11 +10613,11 @@
     {
         "address": "0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb",
         "decimals": 18,
-        "displaySymbol": "INST",
+        "displaySymbol": "FLUID",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb/logo.png",
-        "name": "Instadapp",
+        "name": "Fluid",
         "symbol": "INST",
-        "website": "https://Instadapp.io"
+        "website": "https://fluid.io/"
     },
     {
         "address": "0x6f5E77Cea0AbDdA40013a8eF53639C96972fb745",
@@ -17052,7 +17070,7 @@
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xD533a949740bb3306d119CC777fa900bA034cd52/logo.png",
         "name": "Curve DAO Token",
         "symbol": "CRV",
-        "website": "https://curve.fi"
+        "website": "https://curve.finance"
     },
     {
         "address": "0xD55210Bb6898C021a19de1F58d27b71f095921Ee",
@@ -17149,7 +17167,7 @@
         "decimals": 4,
         "displaySymbol": "XPR",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD7EFB00d12C2c13131FD319336Fdf952525dA2af/logo.png",
-        "name": "Proton",
+        "name": "XPR Network",
         "symbol": "XPR",
         "website": "https://protonchain.com"
     },
@@ -23161,9 +23179,9 @@
         "decimals": 18,
         "displaySymbol": "crvUSD",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E/logo.png",
-        "name": "Curve.Fi USD Stablecoin",
+        "name": "Curve.Finance USD Stablecoin",
         "symbol": "crvUSD",
-        "website": "https://www.curve.fi/"
+        "website": "https://www.curve.finance/"
     },
     {
         "address": "0xf94e7d0710709388bCe3161C32B4eEA56d3f91CC",

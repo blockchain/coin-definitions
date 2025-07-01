@@ -6390,7 +6390,7 @@
         "websiteurl": "https://ethermail.io/"
     },
     {
-        "description": "",
+        "description": "ENA is the governance token of the Ethena Protocol, a synthetic dollar platform on Ethereum launched in February 2024. It powers USDe, a delta-hedged stablecoin backed by ETH, BTC, and staked assets, and sUSDe, its yield-bearing counterpart. ENA enables governance, staking, and ecosystem rewards, supporting on-chain innovation via restaking and cross-chain infrastructure like LayerZero. With ~$4.5B in TVL (as of June 2025), Ethena drives financial innovation, though plans for an RWA-focused L2 remain unconfirmed.",
         "symbol": "ENA",
         "websiteurl": "https://www.ethena.fi/"
     },
@@ -14400,7 +14400,7 @@
         "websiteurl": "https://www.paxe.io/"
     },
     {
-        "description": "PAX Gold (PAXG) is an asset-backed token where one token should represent one fine troy ounce of a London Good Delivery gold bar, stored in professional vault facilities. Anyone who owns PAXG has ownership rights to that gold under the custody of Paxos Trust Company. Since PAXG represents physical gold, its value is tied directly to the real-time market value of that physical gold.\r\n\r\nPAXG gives customers the benefits of actual physical ownership of specific gold bars with the speed and mobility of a digital asset. Customers are able to have fractional ownership of physical bars. On the Paxos platform, customers can convert their tokens to allocated gold, unallocated gold, or fiat currency (and vice versa) quickly and efficiently, reducing their exposure to settlement risk. PAXG is also available for trading on Paxos\u2019 itBit exchange. PAXG will also be available on other crypto-asset exchanges, wallets, lending platforms and elsewhere within the crypto ecosystem. \r\n\r\nAt any time, PAXG holders can lookup the serial number, value and physical characteristics of their vaulted gold just by entering their Ethereum wallet address on the PAXG lookup tool on Paxos.com/paxgold.",
+        "description": "PAXG is a regulated ERC-20 token on Ethereum, with each token backed by one fine troy ounce of LBMA-accredited physical gold, securely held in professional vaults by Paxos Trust Company. Launched in 2019, PAXG combines the stability of gold with blockchain's speed, divisibility, and transferability. It enables direct ownership of physical gold, redeemable for gold bars, unallocated gold, or fiat, with holdings verifiable via Paxos' lookup tool. Integrated across major exchanges, wallets, and DeFi protocols, PAXG offers a trusted, regulated solution for tokenized gold exposure.",
         "symbol": "PAXG",
         "websiteurl": "https://www.paxos.com/paxgold/"
     },
