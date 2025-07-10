@@ -127,6 +127,7 @@
   {"symbol": "XLM", "name": "Stellar"},
   {"symbol": "XNO", "name": "Nano"},
   {"symbol": "XRP", "name": "XRP"},
+  {"symbol": "XRP", "name": "XRPL EVM Sidechain"},
   {"symbol": "XVG", "name": "Verge"},
   {"symbol": "ZEN", "name": "Horizen"},
   {"symbol": "ZETA", "name": "Native ZetaChain"},
