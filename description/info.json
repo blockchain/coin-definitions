@@ -15440,6 +15440,11 @@
         "websiteurl": "https://www.bigpump.org/"
     },
     {
+        "description": "PUMP is the native token of Pump.fun, a Solana-based platform that allows anyone to launch and trade tokens without coding. Using a bonding curve model and custom AMM (PumpSwap), it supports decentralized token creation at scale. Since its 2024 launch, Pump.fun has generated over $600 million in revenue and enabled nearly 2 million token launches. PUMP is used for trading, liquidity, and ecosystem incentives. The total supply is capped at 1 trillion tokens, with allocations to the community, team, investors, and ecosystem funds. Designed for speed and accessibility, PUMP supports a growing creator-led economy on Solana, though it remains subject to the volatility typical of meme-driven assets.",
+        "symbol": "PUMP.SOL",
+        "websiteurl": "https://pump.fun"
+    },
+    {
         "description": "PumpBTC serves as a Liquid Restaking Solution for Babylon. PumpBTC aims to help BTC holders maximize yields through Babylon's liquid staking - essentially rebuilding WBTC with native yield.\r\nBy abstracting complexities, PumpBTC facilitates effortless collaboration between users and Babylon node operators. Users can stake into Babylon with a single action through PumpBTC, immediately receiving liquidity tokens without waiting periods.\r\nOur mission is to bring DeFi into the Bitcoin ecosystem, driven by an ecosystem-centric approach and supported by seasoned DeFi experts and industry-leading partners.",
         "symbol": "PUMPBTC",
         "websiteurl": "https://pumpbtc.xyz/"
