@@ -1243,6 +1243,15 @@
     "hwsSettings": null
   },
   {
+    "symbol": "PUMP.SOL",
+    "displaySymbol": "PUMP",
+    "type": "SOLANA_TOKEN", 
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "RARE",
     "displaySymbol": "RARE",
     "type": "ERC20",
