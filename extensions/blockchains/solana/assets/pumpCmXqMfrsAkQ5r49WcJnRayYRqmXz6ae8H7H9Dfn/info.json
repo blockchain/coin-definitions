@@ -1,0 +1,9 @@
+{
+    "name": "Pump",
+    "symbol": "PUMP",
+    "type": "SOLANA_TOKEN",
+    "decimals": 6,
+    "status": "active",
+    "id": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+    "website": "https://pump.fun"
+}

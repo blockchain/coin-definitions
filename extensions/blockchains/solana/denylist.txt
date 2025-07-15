@@ -376,3 +376,6 @@ FrBfWJ4qE5sCzKm3k3JaAtqZcXUh4LvJygDeketsrsH4
 # - Explorer: https://solscan.io/token/FrBfWJ4qE5sCzKm3k3JaAtqZcXUh4LvJygDeketsrsH4 (Z.com USD)
 # - CoinGecko: Not found
 #
+
+# PUMP
+pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn
