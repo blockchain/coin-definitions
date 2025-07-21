@@ -93,6 +93,42 @@
     "hwsSettings": null
   },
   {
+    "symbol": "MNT",
+    "displaySymbol": "MNT",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
+    "symbol": "SKY",
+    "displaySymbol": "SKY",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
+    "symbol": "USDS",
+    "displaySymbol": "USDS",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
+    "symbol": "EURC",
+    "displaySymbol": "EURC",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "ARB.ARBETH",
     "displaySymbol": "ARB",
     "type": "ERC20",
