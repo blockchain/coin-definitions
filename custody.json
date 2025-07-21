@@ -124,7 +124,7 @@
     "displaySymbol": "EURC",
     "type": "ERC20",
     "nabuSettings": {
-      "custodialPrecision": 8
+      "custodialPrecision": 6
     },
     "hwsSettings": null
   },
