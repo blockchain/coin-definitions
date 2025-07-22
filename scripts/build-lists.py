@@ -167,7 +167,7 @@ def merge_token_lists(existing_tokens: list[Token], new_tokens: list[Token], coi
         existing_tokens_symbol_map[coin.symbol.lower()] = True
 
     for new_token in new_tokens:
-        found_token_index = next((i for i, t in enumerate(merged_list) if t.address == new_token.address), None)
+        found_token_index = next((i for i, t in enumerate(merged_list) if t.address.lower() == new_token.address.lower()), None)
 
         # Token already existing, we need to update it (except for symbol that is immutable)
         if found_token_index is not None:
