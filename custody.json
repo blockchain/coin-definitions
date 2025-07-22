@@ -97,7 +97,7 @@
     "displaySymbol": "MNT",
     "type": "ERC20",
     "nabuSettings": {
-      "custodialPrecision": 8
+      "custodialPrecision": 9
     },
     "hwsSettings": null
   },
@@ -106,7 +106,7 @@
     "displaySymbol": "SKY",
     "type": "ERC20",
     "nabuSettings": {
-      "custodialPrecision": 8
+      "custodialPrecision": 9
     },
     "hwsSettings": null
   },
@@ -115,7 +115,7 @@
     "displaySymbol": "USDS",
     "type": "ERC20",
     "nabuSettings": {
-      "custodialPrecision": 8
+      "custodialPrecision": 9
     },
     "hwsSettings": null
   },
@@ -1598,6 +1598,15 @@
       "minConfirmations": 64,
       "minWithdrawal": 0
     }
+  },
+  {
+    "symbol": "USD1",
+    "displaySymbol": "USD1",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
   },
   {
     "symbol": "USDC",

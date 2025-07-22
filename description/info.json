@@ -6590,11 +6590,6 @@
         "websiteurl": "https://www.angle.money"
     },
     {
-        "description": "EURC is a fully collateralized digital euro issued by Circle, providing a stable and regulated option for on-chain euro transactions. Backed 1:1 by euro reserves held in euro-denominated bank accounts, EURC is always redeemable for fiat and built to meet high standards of transparency and compliance. First launched in 2022, it expands the proven USDC framework into the eurozone, enabling fast, programmable payments, euro-based DeFi, and cross-border settlement. EURC operates across multiple blockchains including Ethereum, Solana, Base, Avalanche, and Stellar. With regulatory recognition from entities like the DFSA and growing ecosystem integration, EURC offers a trusted euro-denominated stablecoin—though market adoption and issuer concentration remain relevant factors.",
-        "symbol": "EURC",
-        "websiteurl": "https://www.circle.com/en/"
-    },
-    {
         "description": "agEUR is a stablecoin of the Angle Protocol which value is pegged to the Euro. This stablecoin is backed by derivatives and by the insurance fund of the Angle Protocol. It is fully convertible against collateral held in the protocol.\r\nTo know the value of 1 Euro, the protocol looks at oracle feeds from Uniswap V3 and Chainlink.",
         "symbol": "EURA.ARBETH",
         "websiteurl": "https://www.angle.money"
@@ -6613,6 +6608,11 @@
         "description": "agEUR is a stablecoin of the Angle Protocol which value is pegged to the Euro. This stablecoin is backed by derivatives and by the insurance fund of the Angle Protocol. It is fully convertible against collateral held in the protocol.\r\nTo know the value of 1 Euro, the protocol looks at oracle feeds from Uniswap V3 and Chainlink.",
         "symbol": "EURA.MATIC",
         "websiteurl": "https://www.angle.money"
+    },
+    {
+        "description": "EURC is a fully collateralized digital euro issued by Circle, providing a stable and regulated option for on-chain euro transactions. Backed 1:1 by euro reserves held in euro-denominated bank accounts, EURC is always redeemable for fiat and built to meet high standards of transparency and compliance. First launched in 2022, it expands the proven USDC framework into the eurozone, enabling fast, programmable payments, euro-based DeFi, and cross-border settlement. EURC operates across multiple blockchains including Ethereum, Solana, Base, Avalanche, and Stellar. With regulatory recognition from entities like the DFSA and growing ecosystem integration, EURC offers a trusted euro-denominated stablecoin\u2014though market adoption and issuer concentration remain relevant factors.",
+        "symbol": "EURC",
+        "websiteurl": "https://www.circle.com/en/"
     },
     {
         "description": "Euro Coin is a stablecoin issued by Circle under the same reserve model as USD Coin (USDC). It is designed to be stable and 100% backed by euros held in euro denominated banking accounts. An Euro Coin (EUROC) will be redeemable 1:1 for the euro currency.",
@@ -17430,7 +17430,7 @@
         "websiteurl": "https://www.sekuritance.com"
     },
     {
-        "description": "SKY is the native governance and utility token of Sky Protocol, a next-gen DeFi platform evolved from MakerDAO. Launched in 2024 as an upgrade to MKR (at a 1:24,000 ratio), SKY powers protocol governance, staking, borrowing, and cross-chain operations via SkyLink. Holders earn rewards through the 4.5% Sky Savings Rate and 5.45% Sky Token Rewards, while also influencing onchain decisions through direct or delegated voting. SKY supports USDS—the ecosystem's decentralized stablecoin—and benefits from features like the Smart Burn Engine to deepen liquidity. Deployed across Ethereum, Arbitrum, Base, and Solana, SKY underpins a $12.9B TVL ecosystem focused on transparency, scalability, and non-custodial finance.",
+        "description": "SKY is the native governance and utility token of Sky Protocol, a next-gen DeFi platform evolved from MakerDAO. Launched in 2024 as an upgrade to MKR (at a 1:24,000 ratio), SKY powers protocol governance, staking, borrowing, and cross-chain operations via SkyLink. Holders earn rewards through the 4.5% Sky Savings Rate and 5.45% Sky Token Rewards, while also influencing onchain decisions through direct or delegated voting. SKY supports USDS\u2014the ecosystem's decentralized stablecoin\u2014and benefits from features like the Smart Burn Engine to deepen liquidity. Deployed across Ethereum, Arbitrum, Base, and Solana, SKY underpins a $12.9B TVL ecosystem focused on transparency, scalability, and non-custodial finance.",
         "symbol": "SKY",
         "websiteurl": "https://sky.money/"
     },
@@ -19960,6 +19960,11 @@
         "websiteurl": "https://usual.money"
     },
     {
+        "description": "USD1 is a dollar-backed stablecoin built for everyday use across DeFi and global payments. Issued by World Liberty Financial and backed 1:1 with U.S. dollars and short-term Treasuries, USD1 combines the reliability of traditional finance with the speed and flexibility of blockchain. Live on Ethereum, BNB Chain, and Tron, it supports lending, staking, and liquidity in major DeFi protocols. USD1 is fully collateralized with reserves managed by BitGo, with public audits and transparency at its core. As a top 5 stablecoin by market cap and listed on exchanges like Binance and Bybit, USD1 is designed for both institutional trust and mass adoption. Regulatory compliance, reserve strength, and DAO governance help position USD1 as a stable, scalable foundation for on-chain finance.",
+        "symbol": "USD1",
+        "websiteurl": "https://worldlibertyfinancial.com/"
+    },
+    {
         "description": "The native web 3 currency. A low-risk yield-bearing USD stablecoin built on DeFi markets.",
         "symbol": "USD3",
         "websiteurl": "https://app.reserve.org/ethereum/token/0x0d86883faf4ffd7aeb116390af37746f45b6f378/overview"
@@ -20193,11 +20198,6 @@
         "description": "",
         "symbol": "USDS.SOL",
         "websiteurl": "https://sky.money/"
-    },
-    {
-        "description": "USD1 is a dollar-backed stablecoin built for everyday use across DeFi and global payments. Issued by World Liberty Financial and backed 1:1 with U.S. dollars and short-term Treasuries, USD1 combines the reliability of traditional finance with the speed and flexibility of blockchain. Live on Ethereum, BNB Chain, and Tron, it supports lending, staking, and liquidity in major DeFi protocols. USD1 is fully collateralized with reserves managed by BitGo, with public audits and transparency at its core. As a top 5 stablecoin by market cap and listed on exchanges like Binance and Bybit, USD1 is designed for both institutional trust and mass adoption. Regulatory compliance, reserve strength, and DAO governance help position USD1 as a stable, scalable foundation for on-chain finance.",
-        "symbol": "USD1",
-        "websiteurl": "https://worldlibertyfinancial.com/"
     },
     {
         "description": "Tether (USDT) is a cryptocurrency with a value meant to mirror the value of the U.S. dollar. The idea was to create a stable cryptocurrency that can be used like digital dollars. Coins that serve this purpose of being a stable dollar substitute are called \u201cstable coins.\u201d Tether is the most popular stable coin and even acts as a dollar replacement on many popular exchanges! According to their site, Tether converts cash into digital currency, to anchor or \u201ctether\u201d the value of the coin to the price of national currencies like the US dollar, the Euro, and the Yen. Like other cryptos it uses blockchain. Unlike other cryptos, it is [according to the official Tether site] \u201c100% backed by USD\u201d (USD is held in reserve). The primary use of Tether is that it offers some stability to the otherwise volatile crypto space and offers liquidity to exchanges who can\u2019t deal in dollars and with banks (for example to the sometimes controversial but leading exchange Bitfinex).\r\n\r\nThe digital coins are issued by a company called Tether Limited that is governed by the laws of the British Virgin Islands, according to the legal part of its website. It is incorporated in Hong Kong. It has emerged that Jan Ludovicus van der Velde is the CEO of cryptocurrency exchange Bitfinex, which has been accused of being involved in the price manipulation of bitcoin, as well as tether. Many people trading on exchanges, including Bitfinex, will use tether to buy other cryptocurrencies like bitcoin. Tether Limited argues that using this method to buy virtual currencies allows users to move fiat in and out of an exchange more quickly and cheaply. Also, exchanges typically have rocky relationships with banks, and using Tether is a way to circumvent that.\r\n\r\nUSDT is fairly simple to use. Once on exchanges like Poloniex or Bittrex, it can be used to purchase Bitcoin and other cryptocurrencies. It can be easily transferred from an exchange to any Omni Layer enabled wallet. Tether has no transaction fees, although external wallets and exchanges may charge one. In order to convert USDT to USD and vise versa through the Tether.to Platform, users must pay a small fee. Buying and selling Tether for Bitcoin can be done through a variety of exchanges like the ones mentioned previously or through the Tether.to platform, which also allows the conversion between USD to and from your bank account.\r\n\r\n",
