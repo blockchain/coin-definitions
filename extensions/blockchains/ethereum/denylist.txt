@@ -27,6 +27,10 @@
 # XRP
 0x07E0EDf8ce600FB51d44F51E3348D77D67F298ae
 
+# MNT
+0x3c3a81e81dc49a522a592e7622a7e711c06bf354
+0x3c3a81e81dc49A522A592e7622A7E711c06bf354
+
 # 'move' is shared by:
 # - https://etherscan.io/token/0x3073f7aAA4DB83f95e9FFf17424F71D4751a3073 (Movement): https://www.movementnetwork.xyz/
 # - https://etherscan.io/token/0x3FA729B4548beCBAd4EaB6EF18413470e6D5324C (Mover): https://viamover.com
