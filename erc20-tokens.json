@@ -6084,10 +6084,10 @@
         "website": "https://www.5ire.org/"
     },
     {
-        "address": "0x3c3a81e81dc49a522a592e7622a7e711c06bf354",
+        "address": "0x3c3a81e81dc49A522A592e7622A7E711c06bf354",
         "decimals": 18,
         "displaySymbol": "MNT",
-        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x3c3a81e81dc49a522a592e7622a7e711c06bf354/logo.png",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3c3a81e81dc49A522A592e7622A7E711c06bf354/logo.png",
         "name": "Mantle",
         "symbol": "MNT",
         "website": "https://www.mantle.xyz/"
