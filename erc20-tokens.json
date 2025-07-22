@@ -3206,7 +3206,7 @@
     {
         "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
         "decimals": 6,
-        "displaySymbol": "EURC",
+        "displaySymbol": "EUROC",
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c/logo.png",
         "name": "Euro Coin",
         "symbol": "EURC",
@@ -10616,7 +10616,7 @@
         "displaySymbol": "FLUID",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6f40d4A6237C257fff2dB00FA0510DeEECd303eb/logo.png",
         "name": "Fluid",
-        "symbol": "FLUID",
+        "symbol": "INST",
         "website": "https://fluid.io/"
     },
     {
