@@ -261,7 +261,7 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     tokens = list(map(asdict, tokens))
 
     print(f"Writing {len(tokens)} tokens to {network.output_file}")
-    write_json(tokens, network.output_file)
+    write_json(sorted(tokens, key=lambda x: x['address']), network.output_file)
 
 
 def fill_descriptions_from_overrides():
