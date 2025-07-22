@@ -3206,10 +3206,10 @@
     {
         "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
         "decimals": 6,
-        "displaySymbol": "EUROC",
+        "displaySymbol": "EURC",
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c/logo.png",
         "name": "Euro Coin",
-        "symbol": "EUROC",
+        "symbol": "EURC",
         "website": "https://www.circle.com/en/"
     },
     {
