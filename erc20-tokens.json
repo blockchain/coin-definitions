@@ -3206,10 +3206,10 @@
     {
         "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
         "decimals": 6,
-        "displaySymbol": "EUROC",
+        "displaySymbol": "EURC",
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c/logo.png",
         "name": "Euro Coin",
-        "symbol": "EUROC",
+        "symbol": "EURC",
         "website": "https://www.circle.com/en/"
     },
     {
@@ -13138,6 +13138,15 @@
         "name": "MNEE USD Stablecoin",
         "symbol": "MNEE",
         "website": "https://www.mnee.io/"
+    },
+    {
+        "address": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
+        "decimals": 18,
+        "displaySymbol": "USD1",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d/logo.png",
+        "name": "USD1",
+        "symbol": "USD1",
+        "website": "https://www.worldlibertyfinancial.com"
     },
     {
         "address": "0x8d96B4ab6C741a4C8679AE323a100d74f085BA8F",
