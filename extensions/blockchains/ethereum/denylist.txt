@@ -1581,3 +1581,9 @@
 # - Explorer: https://etherscan.io/token/0x9cdf242Ef7975D8c68D5C1F5B6905801699b1940 (WhiteRock)
 # - CoinGecko: https://www.coingecko.com/en/coins/whiterock
 #
+
+# MNT
+0x3c3a81e81dc49A522A592e7622A7E711c06bf354
+
+# USD1
+0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d

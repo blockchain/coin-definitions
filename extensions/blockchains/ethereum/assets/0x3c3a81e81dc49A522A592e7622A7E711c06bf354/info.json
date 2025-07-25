@@ -1,0 +1,9 @@
+{
+    "name": "Mantle",
+    "website": "https://www.mantle.xyz/",
+    "type": "ERC20",
+    "symbol": "MNT",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x3c3a81e81dc49A522A592e7622A7E711c06bf354"
+}
