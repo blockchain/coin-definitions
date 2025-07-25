@@ -167,7 +167,7 @@ def merge_token_lists(existing_tokens: list[Token], new_tokens: list[Token], coi
         existing_tokens_symbol_map[coin.symbol.lower()] = True
 
     for new_token in new_tokens:
-        found_token_index = next((i for i, t in enumerate(merged_list) if t.address == new_token.address), None)
+        found_token_index = next((i for i, t in enumerate(merged_list) if t.address.lower() == new_token.address.lower()), None)
 
         # Token already existing, we need to update it (except for symbol that is immutable)
         if found_token_index is not None:
@@ -261,7 +261,7 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     tokens = list(map(asdict, tokens))
 
     print(f"Writing {len(tokens)} tokens to {network.output_file}")
-    write_json(tokens, network.output_file)
+    write_json(sorted(tokens, key=lambda x: x['address']), network.output_file)
 
 
 def fill_descriptions_from_overrides():

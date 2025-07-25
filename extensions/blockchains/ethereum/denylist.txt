@@ -27,6 +27,20 @@
 # XRP
 0x07E0EDf8ce600FB51d44F51E3348D77D67F298ae
 
+# 'move' is shared by:
+# - https://etherscan.io/token/0x3073f7aAA4DB83f95e9FFf17424F71D4751a3073 (Movement): https://www.movementnetwork.xyz/
+# - https://etherscan.io/token/0x3FA729B4548beCBAd4EaB6EF18413470e6D5324C (Mover): https://viamover.com
+0x3073f7aAA4DB83f95e9FFf17424F71D4751a3073
+0x3FA729B4548beCBAd4EaB6EF18413470e6D5324C
+
+# 'stars' is shared by:
+# - https://etherscan.io/token/0x04F121600c8C47A754636fc9d75661a9525e05D5 (STARS): https://cryptoallstars.io
+0x04F121600c8C47A754636fc9d75661a9525e05D5
+
+# 'EURC' is shared by:
+# - https://etherscan.io/token/0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c (ERUC): https://cirlcle.com
+0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c
+
 # 'BOND' is shared by:
 # - https://etherscan.io/token/0x0391D2021f89DC339F60Fff84546EA23E337750f (BarnBridge): https://BarnBridge.com
 #   USD Market cap on 2021-06-21T14:54:25.057956: $107,615,916.22

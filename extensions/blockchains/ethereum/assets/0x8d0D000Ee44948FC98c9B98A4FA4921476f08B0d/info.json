@@ -1,0 +1,9 @@
+{
+    "name": "USD1",
+    "website": "https://www.worldlibertyfinancial.com",
+    "type": "ERC20",
+    "symbol": "USD1",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d"
+}
