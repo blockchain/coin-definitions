@@ -14405,7 +14405,7 @@
         "websiteurl": "https://www.paxe.io/"
     },
     {
-        "description": "PAXG is a regulated ERC-20 token on Ethereum, with each token backed by one fine troy ounce of LBMA-accredited physical gold, securely held in professional vaults by Paxos Trust Company. Launched in 2019, PAXG combines the stability of gold with blockchain's speed, divisibility, and transferability. It enables direct ownership of physical gold, redeemable for gold bars, unallocated gold, or fiat, with holdings verifiable via Paxos' lookup tool. Integrated across major exchanges, wallets, and DeFi protocols, PAXG offers a trusted, regulated solution for tokenized gold exposure.",
+        "description": "PAXG is an ERC-20 token on Ethereum, issued by Paxos Trust Company which is regulated by the New York State Department of Financial Services (NYDFS). Each token is backed by one fine troy ounce of LBMA-accredited gold held in vaults, with holdings subject to monthly independent audits. Launched in 2019, PAXG enables direct ownership of physical gold, with redemption options including allocated gold bars, unallocated gold, or fiat currency. Holdings are verifiable via Paxos\u2019 on-chain lookup tool. By combining the historically stable value of gold with with blockchain's speed, divisibility, and transferability, PAXG facilitates tokenized gold exposure across major exchanges, wallets, and DeFi protocols.",
         "symbol": "PAXG",
         "websiteurl": "https://www.paxos.com/paxgold/"
     },
