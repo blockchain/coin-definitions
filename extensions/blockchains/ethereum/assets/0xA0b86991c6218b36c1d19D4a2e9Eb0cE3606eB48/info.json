@@ -1,0 +1,11 @@
+{
+    "id": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 6,
+    "displaySymbol": "USDC",
+    "name": "USDC",
+    "symbol": "USDC",
+    "type": "ERC20",
+    "status": "active",
+    "explorer": "https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "website": "https://centre.io/usdc"
+}

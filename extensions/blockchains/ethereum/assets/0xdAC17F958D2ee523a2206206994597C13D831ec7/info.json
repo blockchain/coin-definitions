@@ -1,0 +1,11 @@
+{
+    "id": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "decimals": 6,
+    "displaySymbol": "USDT",
+    "name": "USDT",
+    "symbol": "USDT",
+    "type": "ERC20",
+    "status": "active",
+    "explorer": "https://etherscan.io/token/0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "website": "https://tether.to"
+}

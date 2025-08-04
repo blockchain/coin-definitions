@@ -1,0 +1,11 @@
+{
+    "id": "0x57e114B691Db790C35207b2e685D4A43181e6061",
+    "decimals": 18,
+    "displaySymbol": "ENA",
+    "name": "Ethena",
+    "symbol": "ENA",
+    "type": "ERC20",
+    "status": "active",
+    "explorer": "https://etherscan.io/token/0x57e114B691Db790C35207b2e685D4A43181e6061",
+    "website": "https://www.ethena.fi/"
+}
