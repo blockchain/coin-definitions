@@ -8301,8 +8301,8 @@
         "address": "0x57e114B691Db790C35207b2e685D4A43181e6061",
         "decimals": 18,
         "displaySymbol": "ENA",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x57e114B691Db790C35207b2e685D4A43181e6061/logo.png",
-        "name": "ENA",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x57e114B691Db790C35207b2e685D4A43181e6061/logo.png",
+        "name": "Ethena",
         "symbol": "ENA",
         "website": "https://www.ethena.fi/"
     },
@@ -14629,7 +14629,7 @@
         "decimals": 6,
         "displaySymbol": "USDC",
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
-        "name": "USD Coin",
+        "name": "USDC",
         "symbol": "USDC",
         "website": "https://centre.io/usdc"
     },
@@ -21802,7 +21802,7 @@
         "decimals": 6,
         "displaySymbol": "USDT",
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
-        "name": "Tether",
+        "name": "USDT",
         "symbol": "USDT",
         "website": "https://tether.to"
     },
