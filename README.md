@@ -170,6 +170,12 @@ Note: when running python scripts, one should set the `COINGECKO_API_KEY` enviro
 
 After any change is made, in order to trigger the process described above for both [chains](#l1-coins) and [tokens](#erc-20-tokens-list), we only need to execute:
 
+Might need to run to install the packages needed by the script
+
+```
+pip3 install -r requirements.txt
+```
+
 ```
 $ bash build.sh
 [+] Updating master lists...

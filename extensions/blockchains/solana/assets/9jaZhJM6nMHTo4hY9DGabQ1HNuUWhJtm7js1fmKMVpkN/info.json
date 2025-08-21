@@ -1,0 +1,11 @@
+{
+"name": "AMC",
+"website": "https://amc-sol.com/",
+"description": "",
+"explorer": "https://solscan.io/token/9jaZhJM6nMHTo4hY9DGabQ1HNuUWhJtm7js1fmKMVpkN",
+"type": "SOLANA_TOKEN",
+"symbol": "AMC",
+"decimals": 9,
+"status": "active",
+"id": "9jaZhJM6nMHTo4hY9DGabQ1HNuUWhJtm7js1fmKMVpkN"
+}
