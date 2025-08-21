@@ -173,7 +173,7 @@ After any change is made, in order to trigger the process described above for bo
 Might need to run to install the packages needed by the script
 
 ```
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ```
