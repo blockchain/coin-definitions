@@ -1,7 +1,7 @@
 {
   "name": "Symbiosis wrapped bitcoin",
   "type": "ERC20",
-  "symbol": "syBTC",
+  "symbol": "SYBTC.BNB",
   "decimals": 8,
   "website": "https://symbiosis.finance/",
   "status": "active",
