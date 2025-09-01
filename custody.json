@@ -790,6 +790,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "INJ.BNB",
+    "displaySymbol": "INJ",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "KAMA.SOL",
     "displaySymbol": "KAMA",
     "type": "SOLANA_TOKEN",
