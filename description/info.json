@@ -3410,7 +3410,7 @@
         "websiteurl": "https://pancakeswap.finance/affiliates-program"
     },
     {
-        "description": "PancakeSwap is an automated market maker (\u201cAMM\u201d) that allows two tokens to be exchanged on the Binance Smart Chain. It is fast, cheap, and allows anyone to participate.",
+        "description": "CAKE is the native token of PancakeSwap, a decentralized exchange (DEX) launched in 2020 on BNB Chain and now operating across major blockchains including Ethereum, Arbitrum, and Solana. CAKE is used for governance, staking, and platform rewards, supporting functions such as liquidity incentives and community voting. The token operates under a deflationary model (\u201cUltrasound CAKE\u201d), whereby more tokens are burned than newly issued each week, leading to a gradual reduction in supply. Approximately 42% of CAKE is currently staked, aligning holders with the long-term sustainability of the protocol.\nPancakeSwap facilitates over $26B in monthly trading volume and generates around $27M in annualized revenue, making it one of the most widely used DEXs globally. The platform has undergone multiple independent audits and continues to expand across blockchains to improve accessibility and liquidity.",
         "symbol": "CAKE.BNB",
         "websiteurl": "https://pancakeswap.finance/affiliates-program"
     },
@@ -4715,7 +4715,7 @@
         "websiteurl": "https://www.carrieverse.com/"
     },
     {
-        "description": "Convex is a protocol that simplifies Curve boosting experience in order to maximize yields. Convex allows Curve liquidity providers to earn trading fees and claim boosted CRV without locking CRV themselves. Liquidity providers can receive boosted CRV and liquidity mining rewards with minimal effort.\r\nIf you would like to stake CRV, Convex lets users receive trading fees as well as a share of boosted CRV received by liquidity providers. This allows for a better balance between liquidity providers and CRV stakers as well as better capital efficiency.\r\n\r\nCurve liquidity providers can deposit their LP tokens into Convex to maximize their CRV earnings with a more efficient boost.\r\n\r\nCurve DAO token stakers will be able to earn additional boosted CRV and CVX tokens through the protocol.\r\n\r\n",
+        "description": "CVX is the governance and reward token of Convex Finance, a protocol launched in 2021 to improve capital efficiency for Curve liquidity providers and CRV holders. By staking LP tokens or CRV with Convex, users gain boosted CRV emissions, protocol fees, and CVX incentives without the complexity of locking CRV directly. CVX holders participate in governance decisions across Convex, Curve, Frax, Prisma, and f(x) Protocol, directing emissions and shaping liquidity flows through its vote-locking mechanism.\nAt its height, Convex secured over $20B in total value locked and became a decisive force in the \u201cCurve Wars,\u201d consolidating influence over CRV and FXS governance. As an ERC-20 token on Ethereum, CVX anchors staking, voting, and ecosystem rewards, with integrations spanning multiple DeFi protocols and deep liquidity across major exchanges.",
         "symbol": "CVX",
         "websiteurl": "https://www.convexfinance.com/"
     },
@@ -10615,7 +10615,7 @@
         "websiteurl": "https://www.LCX.com"
     },
     {
-        "description": "",
+        "description": "LDO is the governance and utility token of Lido DAO, the largest liquid staking protocol on Ethereum. Introduced in 2020 to democratize staking access, LDO grants holders voting rights over validator selection, fee parameters, and protocol upgrades. Through Lido, users stake ETH and receive stETH, a liquid token representing staked ETH plus rewards, widely integrated across DeFi. The DAO has surpassed 9M ETH staked (~33% of the network) and $27B in TVL, with safeguards including audited contracts, a $2M bug bounty, and dual governance that allows stETH holders veto power. Looking ahead, Lido is pursuing Distributed Validator Technology and multichain expansion to deepen decentralization and resilience. Backed by leading exchanges and institutional adoption, LDO anchors the governance of Ethereum\u2019s most widely used staking infrastructure.",
         "symbol": "LDO",
         "websiteurl": "https://stake.lido.fi/"
     },
@@ -14535,7 +14535,7 @@
         "websiteurl": "https://www.neverfuckingleaving.com/"
     },
     {
-        "description": "Pendle is a protocol that enables the tokenization and trading of future yield. With the creation of a novel AMM that supports assets with time decay, Pendle gives users more control over future yield by providing optionality and opportunities for its utilization. ",
+        "description": "PENDLE is the native token of Pendle, a decentralized finance (DeFi) protocol focused on tokenizing and trading future yield. Launched in 2021 on Ethereum and now deployed across Arbitrum, BNB Chain, Optimism, and Base, Pendle enables users to split yield-bearing assets into Principal Tokens (PT) and Yield Tokens (YT), tradable via a purpose-built AMM for time-decaying assets. This unlocks strategies such as fixed yield, yield speculation, and advanced liquidity provision, bridging TradFi-style interest rate derivatives with onchain markets.\nPENDLE powers protocol governance and rewards through vePENDLE, allowing holders to vote on incentive allocations and earn a share of fees. With over $600M in market capitalization and integrations across major DeFi ecosystems, Pendle has established itself as a core yield-management layer.",
         "symbol": "PENDLE",
         "websiteurl": "https://pendle.finance/"
     },

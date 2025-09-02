@@ -451,6 +451,15 @@
     "hwsSettings": null
   },
   {
+    "symbol": "CVX",
+    "displaySymbol": "CVX",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "CUSD",
     "displaySymbol": "cUSD",
     "type": "CELO_TOKEN",
@@ -850,6 +859,15 @@
     "hwsSettings": null
   },
   {
+    "symbol": "LDO",
+    "displaySymbol": "LDO",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "LEND",
     "displaySymbol": "LEND",
     "type": "ERC20",
@@ -1197,6 +1215,15 @@
   {
     "symbol": "PAXG",
     "displaySymbol": "PAXG",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
+  {
+    "symbol": "PENDLE",
+    "displaySymbol": "PENDLE",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 9
