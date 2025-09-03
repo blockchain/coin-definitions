@@ -1,0 +1,11 @@
+{
+  "name": "GameStop (Ondo Tokenized)",
+  "symbol": "GMEon",
+  "type": "ERC20",
+  "description": "GMEon is the Ondo Tokenized version of GameStop, giving tokenholders economic exposure similar to holding GME and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "id": "0x71d24Baeb0A033ec5F90FF65C4210545AF378D97",
+  "explorer": "https://etherscan.io/token/0x71d24Baeb0A033ec5F90FF65C4210545AF378D97",
+  "status": "active",
+  "decimals": 18,
+  "website": "https://ondo.finance/"
+}

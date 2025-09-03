@@ -1,0 +1,11 @@
+{
+  "name": "Tesla (Ondo Tokenized)",
+  "symbol": "TSLAon",
+  "type": "ERC20",
+  "description": "TSLAon is the Ondo Tokenized version of Tesla, giving tokenholders economic exposure similar to holding TSLA and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "id": "0xf6b1117ec07684D3958caD8BEb1b302bfD21103f",
+  "explorer": "https://etherscan.io/token/0xf6b1117ec07684D3958caD8BEb1b302bfD21103f",
+  "status": "active",
+  "decimals": 18,
+  "website": "https://ondo.finance/"
+}

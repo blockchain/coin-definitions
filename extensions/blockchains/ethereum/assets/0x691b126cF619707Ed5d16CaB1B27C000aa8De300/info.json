@@ -1,0 +1,11 @@
+{
+  "name": "Lockheed (Ondo Tokenized)",
+  "symbol": "LMTon",
+  "type": "ERC20",
+  "description": "LMTon is the Ondo Tokenized version of Lockheed, giving tokenholders economic exposure similar to holding LMT and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "id": "0x691b126cF619707Ed5d16CaB1B27C000aa8De300",
+  "explorer": "https://etherscan.io/token/0x691b126cF619707Ed5d16CaB1B27C000aa8De300",
+  "status": "active",
+  "decimals": 18,
+  "website": "https://ondo.finance/"
+}

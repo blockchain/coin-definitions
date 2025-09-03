@@ -1,0 +1,11 @@
+{
+  "name": "Invesco QQQ (Ondo Tokenized)",
+  "symbol": "QQQon",
+  "type": "ERC20",
+  "description": "QQQon is the Ondo Tokenized version of Invesco QQQ, giving tokenholders economic exposure similar to holding QQQ and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+  "id": "0x0e397938C1Aa0680954093495B70A9F5e2249aBa",
+  "explorer": "https://etherscan.io/token/0x0e397938C1Aa0680954093495B70A9F5e2249aBa",
+  "status": "active",
+  "decimals": 18,
+  "website": "https://ondo.finance/"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Ondo U.S. Dollar Token",
+  "symbol": "USDon",
+  "type": "ERC20",
+  "description": null,
+  "id": "0xAcE8E719899F6E91831B18AE746C9A965c2119F1",
+  "explorer": "https://etherscan.io/token/0xAcE8E719899F6E91831B18AE746C9A965c2119F1",
+  "status": "active",
+  "decimals": 18,
+  "website": "https://ondo.finance/"
+}
