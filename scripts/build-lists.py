@@ -261,6 +261,14 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     tokens = list(map(asdict, tokens))
 
     print(f"Writing {len(tokens)} tokens to {network.output_file}")
+
+    # MON-1735: Enrich tokens with description overrides (websiteUrl)
+    info = read_json('./description/info.json')
+    for token in tokens:
+        found_info = next((t for t in info if t['symbol'] == token['symbol']), None)
+        if found_info is not None and found_info.get('websiteurl'):
+            token['website'] = found_info['websiteurl']
+
     write_json(sorted(tokens, key=lambda x: x['address']), network.output_file)
 
 

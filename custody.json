@@ -451,6 +451,15 @@
     "hwsSettings": null
   },
   {
+    "symbol": "CVX",
+    "displaySymbol": "CVX",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "CUSD",
     "displaySymbol": "cUSD",
     "type": "CELO_TOKEN",
@@ -790,6 +799,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "INJ.BNB",
+    "displaySymbol": "INJ",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "KAMA.SOL",
     "displaySymbol": "KAMA",
     "type": "SOLANA_TOKEN",
@@ -834,6 +855,15 @@
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
+    "symbol": "LDO",
+    "displaySymbol": "LDO",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
     },
     "hwsSettings": null
   },
@@ -1185,6 +1215,15 @@
   {
     "symbol": "PAXG",
     "displaySymbol": "PAXG",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
+  {
+    "symbol": "PENDLE",
+    "displaySymbol": "PENDLE",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 9
