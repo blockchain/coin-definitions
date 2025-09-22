@@ -658,6 +658,15 @@
     "hwsSettings": null
   },
   {
+   "symbol": "FARTCOIN.SOL",
+   "displaySymbol": "FARTCOIN",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "FEI",
     "displaySymbol": "FEI",
     "type": "ERC20",
@@ -809,6 +818,24 @@
       "minConfirmations": 30,
       "minWithdrawal": 0
     }
+  },
+  {
+    "symbol": "JTO.SOL",
+    "displaySymbol": "JTO",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
+  {
+    "symbol": "JUP.SOL",
+    "displaySymbol": "JUP",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": null
   },
   {
     "symbol": "KAMA.SOL",
@@ -1337,6 +1364,15 @@
       "minConfirmations": 64,
       "minWithdrawal": 0
     }
+  },
+  {
+    "symbol": "RAY.SOL",
+    "displaySymbol": "RAY",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": null
   },
   {
     "symbol": "REN",
