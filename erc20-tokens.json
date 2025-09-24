@@ -8262,6 +8262,15 @@
         "website": "https://www.wallyeth.xyz"
     },
     {
+        "address": "0x4f8e5DE400DE08B164E7421B3EE387f461beCD1A",
+        "decimals": 18,
+        "displaySymbol": "USDD",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4f8e5DE400DE08B164E7421B3EE387f461beCD1A/logo.png",
+        "name": "Decentralized USD",
+        "symbol": "USDD2",
+        "website": "https://usdd.io/"
+    },
+    {
         "address": "0x4fE83213D56308330EC302a8BD641f1d0113A4Cc",
         "decimals": 18,
         "displaySymbol": "NU",
@@ -15906,7 +15915,7 @@
         "address": "0xA974c709cFb4566686553a20790685A47acEAA33",
         "decimals": 18,
         "displaySymbol": "XIN",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/37dd998/blockchains/ethereum/assets/0xA974c709cFb4566686553a20790685A47acEAA33/logo.png",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA974c709cFb4566686553a20790685A47acEAA33/logo.png",
         "name": "Mixin",
         "symbol": "XIN",
         "website": "https://mixin.one"
@@ -16411,7 +16420,7 @@
         "decimals": 18,
         "displaySymbol": "SPA",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB4A3B0Faf0Ab53df58001804DdA5Bfc6a3D59008/logo.png",
-        "name": "Sperax",
+        "name": "Sperax ",
         "symbol": "SPA",
         "website": "https://sperax.io/"
     },
