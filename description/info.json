@@ -40,7 +40,7 @@
         "websiteurl": "https://1ex.com"
     },
     {
-        "description": "\"What is 1inch Network?\r\n1inch Network is a decentralized exchange (DEX) aggregator to help users discover the best trade prices for tokens. Instead of swapping tokens from a single liquidity pool of a DEX, 1inch will aggregate across different pools and suggest the most efficient way to trade tokens.\r\n\r\nWhy use 1inch?\r\nIf you are a trader trading large amount of tokens, you may not be aware of all the availability liquidity across different DEXes in order to get the best price quote. Price quote offered by DEX fluctuates according to the liquidity pool at any given time. Also, when you are trading large size, every percentage of savings can be magnified with an optimal trading path. 1inch aims to solve all that in a single user friendly interface.\r\n\r\nWhat is Pathfinder?\r\nPathfinder is the discovery and routing algorithm developed by the 1inch team. It is the algorithm the powers the backend to finding the most efficient route to swap a token. For example, if a user wants to sell ETH for WBTC, Pathfinder will explore all DEXes such as Uniswap, Curve, Balancer, DODO, Sushiswap, and more. The result is a recommended route that optimizes fees and liquidity in order to give users the best rate. Users no longer need to check each individual services in order to find the best price.\r\n\r\nWho are the creators of 1inch?\r\n1inch was founded by Sergej Kunz and Anton Bukov. The idea for 1inch was developed at a hackathon in just over 60 hours at New York City. Fast forward today, it is one of the fastest growing DeFi product.\"",
+        "description": "1INCH is the native token of the 1inch Network, a decentralized exchange aggregator founded in 2019 that optimizes trades across multiple blockchains. Launched in 2020, it underpins governance, staking, and ecosystem incentives while powering features like the Pathfinder algorithm for efficient routing, cross-chain swaps, and liquidity provision. The network has expanded beyond aggregation to include a Web3 wallet and developer tools, with decisions guided by the 1inch DAO, making 1INCH central to its community-driven DeFi ecosystem.",
         "symbol": "1INCH",
         "websiteurl": "https://1inch.io/"
     },
@@ -16700,7 +16700,7 @@
         "websiteurl": "https://www.retardedapr.com/"
     },
     {
-        "description": "",
+        "description": "RARE is the native governance and utility token of SuperRare, a curated marketplace for onchain digital art founded in 2018. Launched in 2021, RARE underpins RareDAO, where token holders govern protocol upgrades, treasury allocation, and marketplace policy through decentralized voting. The token also supports staking-based reputation systems and functions as a medium of exchange within the ecosystem. SuperRare sits atop Rare Protocol, an infrastructure layer designed to unify fragmented NFT markets and expand artist royalties, discovery tools, and community curation. By combining a curated marketplace with DAO governance, SuperRare positions RARE at the center of efforts to decentralize and scale the economics of digital creativity.",
         "symbol": "RARE",
         "websiteurl": "https://superrare.com/"
     },
@@ -19875,7 +19875,7 @@
         "websiteurl": "https://trustfi.org/"
     },
     {
-        "description": "The operational token of the Theta protocol. TFUEL powers on-chain operations like payments to relayers for sharing a video stream, or for deploying or interacting with smart contracts. Relayers earn TFUEL for every video stream they relay to other users on the network. You can think of Theta Fuel as the \"gas\" of the protocol. At Mainnet launch on March 15th, TFUEL will be created as a native token on the Theta blockchain.",
+        "description": "TFUEL is the utility token of Theta Network, a layer-1 blockchain and decentralized infrastructure for video, AI, and entertainment. It serves as the network\u2019s gas token, used for transactions, smart contracts, and payments across decentralized streaming and data services. TFUEL can also be staked for rewards and powers the Theta Edge Network, which provides compute, storage, and delivery functions, soon expanding to the hybrid cloud platform Theta EdgeCloud. Supported by an enterprise validator council including Google, Samsung, and Sony, TFUEL underpins Theta\u2019s mission to deliver scalable, low-cost, and secure Web3 infrastructure.",
         "symbol": "TFUEL",
         "websiteurl": "https://www.thetatoken.org/"
     },
@@ -19900,7 +19900,7 @@
         "websiteurl": "https://thena.fi/"
     },
     {
-        "description": "Theta network is a decentralized video streaming network that is powered by blockchain technology. Theta allows users to watch video content and get rewarded with tokens as they share their internet bandwidth and computing resources on a peer-to-peer (P2P) basis. Besides a line-up of institutional investors like Node Capital and DHVC, Theta Network is advised by Steve Chen, co-founder of YouTube, and Justin Kan, co-founder of Twitch. The video streaming services on Theta rely on a distributed network of users who voluntarily contribute their spare bandwidth and computing resources to run Theta\u2019s system, in return for Theta Fuel (TFuel) reward.\r\n\r\nTheta runs on a modified proof-of-stake consensus mechanism as it has a unique multi-Byzantine Fault Tolerance (BFT) which combines a committee of 20-30 Validator nodes with a second later of thousands of Guardian nodes. This acts to speed up approvals and is faster than traditional proof-of-work networks. Theta\u2019s multi-BFT design achieves a healthy balance between consistency, speed, and decentralization.",
+        "description": "THETA is the governance and staking token of Theta Network, a layer-1 blockchain and decentralized infrastructure for video, AI, and entertainment. Its dual-network design combines the Theta Blockchain, supporting payments, staking, and smart contracts, with the Theta Edge Network for compute, storage, and video delivery. THETA secures the proof-of-stake chain and enables governance, working alongside TFUEL, the network\u2019s gas token. With applications like ThetaDrop, Theta Video API, and the upcoming EdgeCloud, and backed by validators such as Google, Samsung, and Sony, THETA underpins a scalable Web3 ecosystem for media and AI innovation.",
         "symbol": "THETA",
         "websiteurl": "https://www.thetatoken.org/"
     },
@@ -20725,7 +20725,7 @@
         "websiteurl": "https://ultrasafe.finance/"
     },
     {
-        "description": "UMA is a decentralized financial contracts platform built to enable Universal Market Access.\r\n\r\nUMA builds infrastructure for \u201cpriceless\u201d financial contracts: DeFi contracts that minimize oracle usage, avoiding many of the security and scalability issues that have plagued decentralized finance. The first contracts built with UMA are priceless synthetic tokens: ERC20 tokens that can track anything while minimizing the need for on-chain price data.\r\n\r\nThe UMA project token powers the system in two ways:\r\n\r\nGovernance: UMA token holders govern what types of contracts can access the system, which asset types are supported, and key system parameters and upgrades.\r\n\r\nPrice requests: the priceless methodology minimizes on-chain price requests but doesn\u2019t eliminate them \u2014 when contract interactions are disputed, UMA token holders fulfill price requests via the Data Verification Mechanism, or DVM.\r\n\r\nUMA tokens enable the holder to participate in community governance and resolve contract disputes through the DVM. The tokens are not an investment opportunity.",
+        "description": "UMA is the governance token of UMA Protocol, an Ethereum-based platform founded in 2018 to make markets fair and accessible through decentralized infrastructure. It secures the Optimistic Oracle, which verifies any data or statement on-chain using a \u201ctrue unless disputed\u201d model. UMA token holders vote on disputes, earn rewards for accurate participation, and govern protocol upgrades and treasury allocations. Integrated with projects like Polymarket, Across, and Story Protocol, UMA serves as both the economic guarantee and governance layer for a decentralized on-chain truth machine.",
         "symbol": "UMA",
         "websiteurl": "https://uma.xyz/"
     },
@@ -23655,7 +23655,7 @@
         "websiteurl": "https://layerzero.network/"
     },
     {
-        "description": "",
+        "description": "ZRX is the governance token of 0x Protocol, a decentralized exchange infrastructure founded in 2016 by Will Warren and Amir Bandeali. Launched in 2017 after a $24M ICO backed by firms like Polychain and Pantera, 0x provides open-source smart contracts that enable permissionless trading of ERC-20 and ERC-721 tokens across multiple applications. ZRX holders govern protocol upgrades and treasury allocations, while the token is also used to incentivize liquidity providers within the ecosystem. Built on Ethereum and audited by independent security firms, 0x has become a core building block for wallets, DEXs, marketplaces, and DeFi platforms integrating decentralized exchange functionality.",
         "symbol": "ZRX",
         "websiteurl": "https://www.0xprotocol.org/"
     },
