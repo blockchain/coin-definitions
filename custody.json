@@ -808,6 +808,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "INJ",
+    "displaySymbol": "INJ",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "INJ.BNB",
     "displaySymbol": "INJ",
     "type": "ERC20",
