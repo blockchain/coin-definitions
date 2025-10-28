@@ -1,7 +1,7 @@
 {
   "id": "0x8b6acf6041a81567f012ff6a4c6d96d5818d74bf",
   "name": "Micron Technology",
-  "symbol": "MUON.BNB",
+  "symbol": "MUON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

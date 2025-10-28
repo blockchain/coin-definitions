@@ -1,7 +1,7 @@
 {
   "id": "0xa9ee28c80f960b889dfbd1902055218cba016f75",
   "name": "NVIDIA",
-  "symbol": "NVDAON.BNB",
+  "symbol": "NVDAON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

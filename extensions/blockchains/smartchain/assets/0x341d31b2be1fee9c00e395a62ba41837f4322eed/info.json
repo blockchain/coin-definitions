@@ -1,7 +1,7 @@
 {
   "id": "0x341d31b2be1fee9c00e395a62ba41837f4322eed",
   "name": "Eli Lilly",
-  "symbol": "LLYON.BNB",
+  "symbol": "LLYON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

@@ -1,7 +1,7 @@
 {
   "id": "0x04b5e199f2ec84f78b111035f57b16bee448db6f",
   "name": "Nike",
-  "symbol": "NKEON.BNB",
+  "symbol": "NKEON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

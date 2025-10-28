@@ -1,7 +1,7 @@
 {
   "id": "0xa7d1e886acf66ec0656df2decb4b7c893a3bab4c",
   "name": "Walmart",
-  "symbol": "WMTON.BNB",
+  "symbol": "WMTON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

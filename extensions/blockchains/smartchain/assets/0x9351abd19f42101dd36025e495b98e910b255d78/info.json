@@ -1,7 +1,7 @@
 {
   "id": "0x9351abd19f42101dd36025e495b98e910b255d78",
   "name": "Palantir Technologies",
-  "symbol": "PLTRON.BNB",
+  "symbol": "PLTRON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

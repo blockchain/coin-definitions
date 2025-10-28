@@ -1,7 +1,7 @@
 {
   "id": "0x9f16e46c73b43bdb70861247d537bee4ea18f639",
   "name": "AMD",
-  "symbol": "AMDON.BNB",
+  "symbol": "AMDON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

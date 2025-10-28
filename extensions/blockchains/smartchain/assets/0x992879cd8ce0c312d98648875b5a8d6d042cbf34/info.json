@@ -1,7 +1,7 @@
 {
   "id": "0x992879cd8ce0c312d98648875b5a8d6d042cbf34",
   "name": "Circle Internet Group",
-  "symbol": "CRCLON.BNB",
+  "symbol": "CRCLON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

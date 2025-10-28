@@ -1,7 +1,7 @@
 {
   "id": "0x629520dee1620def11596f84e85de9f1ff653012",
   "name": "Wells Fargo",
-  "symbol": "WFCON.BNB",
+  "symbol": "WFCON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

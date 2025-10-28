@@ -1,7 +1,7 @@
 {
   "id": "0x94d7754541b829a87321d56121bc544167ac490d",
   "name": "Starbucks",
-  "symbol": "SBUXON.BNB",
+  "symbol": "SBUXON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

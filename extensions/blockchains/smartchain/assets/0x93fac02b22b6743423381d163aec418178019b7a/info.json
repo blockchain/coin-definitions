@@ -1,7 +1,7 @@
 {
   "id": "0x93fac02b22b6743423381d163aec418178019b7a",
   "name": "Figma",
-  "symbol": "FIGON.BNB",
+  "symbol": "FIGON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

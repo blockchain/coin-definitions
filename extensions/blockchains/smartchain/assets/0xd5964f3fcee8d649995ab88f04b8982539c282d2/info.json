@@ -1,7 +1,7 @@
 {
   "id": "0xd5964f3fcee8d649995ab88f04b8982539c282d2",
   "name": "Alibaba",
-  "symbol": "BABAON.BNB",
+  "symbol": "BABAON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

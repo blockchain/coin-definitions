@@ -1,7 +1,7 @@
 {
   "id": "0x1501ec83ffef405b4331cc4f73277a40fb0c627d",
   "name": "Marvell Technology",
-  "symbol": "MRVLON.BNB",
+  "symbol": "MRVLON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

@@ -1,7 +1,7 @@
 {
   "id": "0xef80743f78d98fc2b47a2253b293152ce8b879ba",
   "name": "Airbnb",
-  "symbol": "ABNBON.BNB",
+  "symbol": "ABNBON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

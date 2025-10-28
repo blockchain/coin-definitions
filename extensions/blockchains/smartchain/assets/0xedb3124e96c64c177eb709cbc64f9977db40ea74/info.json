@@ -1,7 +1,7 @@
 {
   "id": "0xedb3124e96c64c177eb709cbc64f9977db40ea74",
   "name": "AppLovin",
-  "symbol": "APPON.BNB",
+  "symbol": "APPON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

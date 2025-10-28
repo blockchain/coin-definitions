@@ -1,7 +1,7 @@
 {
   "id": "0x7af44d51d1fb88c5b74fc71d3cba649bb8099d14",
   "name": "Accenture",
-  "symbol": "ACNON.BNB",
+  "symbol": "ACNON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

@@ -1,7 +1,7 @@
 {
   "id": "0x43d0b380c33cd004a6a69abd61843881a2de4113",
   "name": "Shopify",
-  "symbol": "SHOPON.BNB",
+  "symbol": "SHOPON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

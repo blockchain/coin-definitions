@@ -1,7 +1,7 @@
 {
   "id": "0x38b9a53bfdc5dba58a29bd6992341927c2fca637",
   "name": "iShares MSCI EAFE ETF",
-  "symbol": "EFAON.BNB",
+  "symbol": "EFAON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

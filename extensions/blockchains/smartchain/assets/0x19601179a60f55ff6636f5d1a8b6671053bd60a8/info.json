@@ -1,7 +1,7 @@
 {
   "id": "0x19601179a60f55ff6636f5d1a8b6671053bd60a8",
   "name": "Robinhood Markets",
-  "symbol": "HOODON.BNB",
+  "symbol": "HOODON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

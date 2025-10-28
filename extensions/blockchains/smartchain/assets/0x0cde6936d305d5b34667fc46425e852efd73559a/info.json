@@ -1,7 +1,7 @@
 {
   "id": "0x0cde6936d305d5b34667fc46425e852efd73559a",
   "name": "Invesco QQQ",
-  "symbol": "QQQON.BNB",
+  "symbol": "QQQON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

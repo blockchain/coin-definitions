@@ -1,7 +1,7 @@
 {
   "id": "0xaed5985afc12aa09d87f55b4b1e6bc3b8f7b0208",
   "name": "Chipotle",
-  "symbol": "CMGON.BNB",
+  "symbol": "CMGON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

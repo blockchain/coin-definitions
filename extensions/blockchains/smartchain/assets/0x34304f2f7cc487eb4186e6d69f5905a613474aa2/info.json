@@ -1,7 +1,7 @@
 {
   "id": "0x34304f2f7cc487eb4186e6d69f5905a613474aa2",
   "name": "Cisco Systems",
-  "symbol": "CSCOON.BNB",
+  "symbol": "CSCOON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

@@ -1,7 +1,7 @@
 {
   "id": "0x995add4ba29a628a57930a8a185c62ca044ec090",
   "name": "McDonald's",
-  "symbol": "MCDON.BNB",
+  "symbol": "MCDON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

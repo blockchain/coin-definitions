@@ -1,7 +1,7 @@
 {
   "id": "0x527c6436e1eaa4f2065cde4090f798cb5d031dd6",
   "name": "Arm Holdings plc",
-  "symbol": "ARMON.BNB",
+  "symbol": "ARMON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

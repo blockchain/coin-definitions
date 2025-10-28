@@ -1,7 +1,7 @@
 {
   "id": "0xf99f8f3a95257d82006183bd524efa7aacc9ef7a",
   "name": "PepsiCo",
-  "symbol": "PEPON.BNB",
+  "symbol": "PEPON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",

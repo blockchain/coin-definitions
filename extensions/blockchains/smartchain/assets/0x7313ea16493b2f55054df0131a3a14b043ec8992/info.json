@@ -1,7 +1,7 @@
 {
   "id": "0x7313ea16493b2f55054df0131a3a14b043ec8992",
   "name": "MicroStrategy",
-  "symbol": "MSTRON.BNB",
+  "symbol": "MSTRON",
   "type": "BEP20",
   "decimals": 18,
   "status": "active",
