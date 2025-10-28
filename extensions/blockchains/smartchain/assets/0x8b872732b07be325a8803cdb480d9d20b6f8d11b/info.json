@@ -1,0 +1,9 @@
+{
+  "id": "0x8b872732b07be325a8803cdb480d9d20b6f8d11b",
+  "name": "iShares Silver Trust",
+  "symbol": "SLVON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

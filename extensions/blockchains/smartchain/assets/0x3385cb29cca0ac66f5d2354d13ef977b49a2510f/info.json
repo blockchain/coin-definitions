@@ -1,0 +1,9 @@
+{
+  "id": "0x3385cb29cca0ac66f5d2354d13ef977b49a2510f",
+  "name": "UnitedHealth",
+  "symbol": "UNHON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

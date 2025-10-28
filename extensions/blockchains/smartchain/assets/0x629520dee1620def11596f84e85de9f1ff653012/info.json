@@ -1,0 +1,9 @@
+{
+  "id": "0x629520dee1620def11596f84e85de9f1ff653012",
+  "name": "Wells Fargo",
+  "symbol": "WFCON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

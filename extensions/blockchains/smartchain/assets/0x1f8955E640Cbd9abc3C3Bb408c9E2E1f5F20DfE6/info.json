@@ -1,0 +1,9 @@
+{
+  "id": "0x1f8955E640Cbd9abc3C3Bb408c9E2E1f5F20DfE6",
+  "name": "Ondo U.S. Dollar Token",
+  "symbol": "USDON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

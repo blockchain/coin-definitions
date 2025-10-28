@@ -1,0 +1,9 @@
+{
+  "id": "0xcb2a0f46f67dc4c58a316f1c008edef5c2311795",
+  "name": "iShares Gold Trust",
+  "symbol": "IAUON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "0xde9d6036fca870f7efc5a82722ae694c371ac909",
+  "name": "Uber",
+  "symbol": "UBERON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

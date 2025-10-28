@@ -1,0 +1,9 @@
+{
+  "id": "0x341d31b2be1fee9c00e395a62ba41837f4322eed",
+  "name": "Eli Lilly",
+  "symbol": "LLYON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

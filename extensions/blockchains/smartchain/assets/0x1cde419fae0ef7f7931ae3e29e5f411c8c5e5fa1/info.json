@@ -1,0 +1,9 @@
+{
+  "id": "0x1cde419fae0ef7f7931ae3e29e5f411c8c5e5fa1",
+  "name": "Visa",
+  "symbol": "VON",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

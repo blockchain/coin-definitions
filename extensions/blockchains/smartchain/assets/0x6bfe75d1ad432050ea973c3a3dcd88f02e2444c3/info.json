@@ -1,0 +1,9 @@
+{
+  "id": "0x6bfe75d1ad432050ea973c3a3dcd88f02e2444c3",
+  "name": "Microsoft",
+  "symbol": "MSFTON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

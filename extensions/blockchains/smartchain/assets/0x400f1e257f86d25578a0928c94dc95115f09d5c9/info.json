@@ -1,0 +1,9 @@
+{
+  "id": "0x400f1e257f86d25578a0928c94dc95115f09d5c9",
+  "name": "Procter & Gamble",
+  "symbol": "PGON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

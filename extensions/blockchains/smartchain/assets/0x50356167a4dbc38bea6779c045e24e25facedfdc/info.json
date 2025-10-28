@@ -1,0 +1,9 @@
+{
+  "id": "0x50356167a4dbc38bea6779c045e24e25facedfdc",
+  "name": "Spotify",
+  "symbol": "SPOTON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

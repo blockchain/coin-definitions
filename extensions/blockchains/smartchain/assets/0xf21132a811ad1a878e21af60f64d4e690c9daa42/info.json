@@ -1,0 +1,9 @@
+{
+  "id": "0xf21132a811ad1a878e21af60f64d4e690c9daa42",
+  "name": "Boeing",
+  "symbol": "BAON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

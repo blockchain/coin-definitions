@@ -1,0 +1,9 @@
+{
+  "id": "0x94d7754541b829a87321d56121bc544167ac490d",
+  "name": "Starbucks",
+  "symbol": "SBUXON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "0x5a20886b575058dd7299785f0ea9b1172942a3e0",
+  "name": "Abbott",
+  "symbol": "ABTON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

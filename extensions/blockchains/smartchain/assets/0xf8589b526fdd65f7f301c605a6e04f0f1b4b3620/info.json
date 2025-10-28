@@ -1,0 +1,9 @@
+{
+  "id": "0xf8589b526fdd65f7f301c605a6e04f0f1b4b3620",
+  "name": "Coinbase",
+  "symbol": "COINON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

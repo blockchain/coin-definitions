@@ -1,0 +1,9 @@
+{
+  "id": "0xdabb9aff4cf02f26d2014e4ca9f94ac6fe6572a3",
+  "name": "GameStop",
+  "symbol": "GMEON.BNB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}
