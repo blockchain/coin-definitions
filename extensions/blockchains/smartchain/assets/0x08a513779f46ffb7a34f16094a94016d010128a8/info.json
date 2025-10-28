@@ -1,0 +1,10 @@
+{
+  "id": "0x08a513779f46ffb7a34f16094a94016d010128a8",
+  "name": "Novo Nordisk",
+  "symbol": "NVOON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "NVOon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x0d4f9b25f81163fb4840ba4f434672543823000c",
+  "name": "Goldman Sachs",
+  "symbol": "GSON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "GSon"
+}

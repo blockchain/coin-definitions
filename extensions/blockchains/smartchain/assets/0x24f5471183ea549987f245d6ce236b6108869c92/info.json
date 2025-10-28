@@ -1,0 +1,10 @@
+{
+  "id": "0x24f5471183ea549987f245d6ce236b6108869c92",
+  "name": "Blackrock, Inc.",
+  "symbol": "BLKON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "BLKon"
+}

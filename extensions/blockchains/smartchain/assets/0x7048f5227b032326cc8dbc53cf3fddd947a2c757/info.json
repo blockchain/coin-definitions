@@ -1,0 +1,10 @@
+{
+  "id": "0x7048f5227b032326cc8dbc53cf3fddd947a2c757",
+  "name": "Netflix",
+  "symbol": "NFLXON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "NFLXon"
+}

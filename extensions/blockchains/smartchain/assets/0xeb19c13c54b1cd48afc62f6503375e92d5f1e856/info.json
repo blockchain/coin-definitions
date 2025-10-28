@@ -1,0 +1,10 @@
+{
+  "id": "0xeb19c13c54b1cd48afc62f6503375e92d5f1e856",
+  "name": "ServiceNow",
+  "symbol": "NOWON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "NOWon"
+}

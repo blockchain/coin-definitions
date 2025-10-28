@@ -1,0 +1,10 @@
+{
+  "id": "0x6a708ead771238919d85930b5a0f10454e1c331a",
+  "name": "SPDR S&P 500 ETF",
+  "symbol": "SPYON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "SPYon"
+}

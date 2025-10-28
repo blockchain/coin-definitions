@@ -1,0 +1,10 @@
+{
+  "id": "0x2b1d5cdecc356530a746c5754231efaeaca64022",
+  "name": "Petrobras",
+  "symbol": "PBRON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "PBRon"
+}

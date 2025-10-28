@@ -1,0 +1,10 @@
+{
+  "id": "0x138ed6833ff4e8811e1fea0d005e13726c8886f9",
+  "name": "Snowflake",
+  "symbol": "SNOWON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "SNOWon"
+}

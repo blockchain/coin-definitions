@@ -1,0 +1,10 @@
+{
+  "id": "0x5151a22421ed4277f1e4ca4785a07b035d548a36",
+  "name": "General Electric",
+  "symbol": "GEON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "GEon"
+}

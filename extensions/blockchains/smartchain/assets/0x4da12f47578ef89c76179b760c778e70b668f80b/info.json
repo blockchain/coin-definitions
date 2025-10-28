@@ -1,0 +1,10 @@
+{
+  "id": "0x4da12f47578ef89c76179b760c778e70b668f80b",
+  "name": "Reddit",
+  "symbol": "RDDTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "RDDTon"
+}

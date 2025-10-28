@@ -1,0 +1,10 @@
+{
+  "id": "0x317bf42b43a394860718266dec445dcc9fd9da49",
+  "name": "JPMorgan Chase",
+  "symbol": "JPMON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "JPMon"
+}

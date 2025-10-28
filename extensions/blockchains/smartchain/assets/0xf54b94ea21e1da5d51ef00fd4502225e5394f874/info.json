@@ -1,0 +1,10 @@
+{
+  "id": "0xf54b94ea21e1da5d51ef00fd4502225e5394f874",
+  "name": "iShares Russell 2000 Value ETF",
+  "symbol": "IWNON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "IWNon"
+}

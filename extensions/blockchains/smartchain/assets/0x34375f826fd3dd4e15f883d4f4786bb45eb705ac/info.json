@@ -1,0 +1,10 @@
+{
+  "id": "0x34375f826fd3dd4e15f883d4f4786bb45eb705ac",
+  "name": "Costco",
+  "symbol": "COSTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "COSTon"
+}

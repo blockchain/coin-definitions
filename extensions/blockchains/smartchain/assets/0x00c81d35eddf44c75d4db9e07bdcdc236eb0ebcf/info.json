@@ -1,0 +1,10 @@
+{
+  "id": "0x00c81d35eddf44c75d4db9e07bdcdc236eb0ebcf",
+  "name": "iShares MSCI Emerging Markets ETF",
+  "symbol": "EEMON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "EEMon"
+}
