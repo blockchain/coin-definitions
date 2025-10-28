@@ -2,7 +2,7 @@
   "id": "0xe92be960ae64f6a914ca77014cac9e56de7f36c1",
   "name": "JD.com",
   "symbol": "JDON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

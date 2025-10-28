@@ -2,7 +2,7 @@
   "id": "0xd7df5863a3e742f0c767768cdfcb63f09e0422f6",
   "name": "Meta Platforms",
   "symbol": "METAON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

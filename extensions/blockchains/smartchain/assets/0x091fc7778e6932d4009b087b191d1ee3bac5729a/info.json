@@ -2,7 +2,7 @@
   "id": "0x091fc7778e6932d4009b087b191d1ee3bac5729a",
   "name": "Alphabet Class A",
   "symbol": "GOOGLON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

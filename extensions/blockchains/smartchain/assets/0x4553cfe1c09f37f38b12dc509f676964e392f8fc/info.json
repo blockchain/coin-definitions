@@ -2,7 +2,7 @@
   "id": "0x4553cfe1c09f37f38b12dc509f676964e392f8fc",
   "name": "Amazon",
   "symbol": "AMZNON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

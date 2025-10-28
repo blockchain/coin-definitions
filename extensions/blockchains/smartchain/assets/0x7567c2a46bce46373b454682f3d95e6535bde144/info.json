@@ -2,7 +2,7 @@
   "id": "0x7567c2a46bce46373b454682f3d95e6535bde144",
   "name": "DoorDash",
   "symbol": "DASHON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

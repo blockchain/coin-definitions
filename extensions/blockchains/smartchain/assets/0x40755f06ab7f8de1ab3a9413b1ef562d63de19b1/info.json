@@ -2,7 +2,7 @@
   "id": "0x40755f06ab7f8de1ab3a9413b1ef562d63de19b1",
   "name": "iShares Russell 1000 Growth ETF",
   "symbol": "IWFON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

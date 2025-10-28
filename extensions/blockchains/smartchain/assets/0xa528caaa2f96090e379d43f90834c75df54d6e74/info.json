@@ -2,7 +2,7 @@
   "id": "0xa528caaa2f96090e379d43f90834c75df54d6e74",
   "name": "Intel",
   "symbol": "INTCON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

@@ -2,7 +2,7 @@
   "id": "0xf69e40069ac227c11459e3f4e8a446b3401616b6",
   "name": "iShares 20+ Year Treasury Bond ETF",
   "symbol": "TLTON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

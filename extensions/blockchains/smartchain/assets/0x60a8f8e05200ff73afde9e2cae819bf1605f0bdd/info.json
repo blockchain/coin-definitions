@@ -2,7 +2,7 @@
   "id": "0x60a8f8e05200ff73afde9e2cae819bf1605f0bdd",
   "name": "MercadoLibre",
   "symbol": "MELION.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

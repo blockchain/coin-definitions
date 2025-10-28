@@ -2,7 +2,7 @@
   "id": "0x55b370b704240a914f42b5bbb3195431c031f9f8",
   "name": "S&P Global",
   "symbol": "SPGION.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

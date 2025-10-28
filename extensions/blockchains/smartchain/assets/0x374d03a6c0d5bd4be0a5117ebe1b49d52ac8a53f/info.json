@@ -2,7 +2,7 @@
   "id": "0x374d03a6c0d5bd4be0a5117ebe1b49d52ac8a53f",
   "name": "PayPal",
   "symbol": "PYPLON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

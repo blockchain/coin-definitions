@@ -2,7 +2,7 @@
   "id": "0xd09f7b75b9659b864c6f82bb00ff096f9d277998",
   "name": "Lockheed",
   "symbol": "LMTON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

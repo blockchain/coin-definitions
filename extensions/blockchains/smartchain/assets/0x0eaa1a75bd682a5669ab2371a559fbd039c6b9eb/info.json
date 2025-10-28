@@ -2,7 +2,7 @@
   "id": "0x0eaa1a75bd682a5669ab2371a559fbd039c6b9eb",
   "name": "Palo Alto Networks",
   "symbol": "PANWON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

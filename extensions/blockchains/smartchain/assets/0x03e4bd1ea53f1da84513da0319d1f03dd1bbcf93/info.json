@@ -2,7 +2,7 @@
   "id": "0x03e4bd1ea53f1da84513da0319d1f03dd1bbcf93",
   "name": "Oracle",
   "symbol": "ORCLON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

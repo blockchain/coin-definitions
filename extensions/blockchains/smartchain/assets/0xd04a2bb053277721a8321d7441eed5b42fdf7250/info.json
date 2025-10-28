@@ -2,7 +2,7 @@
   "id": "0xd04a2bb053277721a8321d7441eed5b42fdf7250",
   "name": "Salesforce",
   "symbol": "CRMON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

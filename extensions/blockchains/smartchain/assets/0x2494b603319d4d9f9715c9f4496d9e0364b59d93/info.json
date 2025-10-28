@@ -2,7 +2,7 @@
   "id": "0x2494b603319d4d9f9715c9f4496d9e0364b59d93",
   "name": "Tesla",
   "symbol": "TSLAON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

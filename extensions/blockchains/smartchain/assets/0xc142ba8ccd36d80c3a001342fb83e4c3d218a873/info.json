@@ -2,7 +2,7 @@
   "id": "0xc142ba8ccd36d80c3a001342fb83e4c3d218a873",
   "name": "Super Micro Computer",
   "symbol": "SMCION.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

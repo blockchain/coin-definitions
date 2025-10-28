@@ -2,7 +2,7 @@
   "id": "0xfbd4d681c92ead6af0e49950c8b2e47eeacbb2db",
   "name": "Qualcomm",
   "symbol": "QCOMON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

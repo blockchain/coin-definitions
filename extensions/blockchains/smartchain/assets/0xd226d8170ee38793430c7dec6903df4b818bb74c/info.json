@@ -2,7 +2,7 @@
   "id": "0xd226d8170ee38793430c7dec6903df4b818bb74c",
   "name": "MARA Holdings",
   "symbol": "MARAON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

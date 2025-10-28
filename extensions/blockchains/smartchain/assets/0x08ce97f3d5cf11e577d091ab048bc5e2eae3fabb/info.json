@@ -2,7 +2,7 @@
   "id": "0x08ce97f3d5cf11e577d091ab048bc5e2eae3fabb",
   "name": "iShares Core US Aggregate Bond ETF",
   "symbol": "AGGON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

@@ -2,7 +2,7 @@
   "id": "0xe8ff70859ce4cbd72e4352b4fb45f5bf39d07464",
   "name": "IBM",
   "symbol": "IBMON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

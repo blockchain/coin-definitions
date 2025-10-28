@@ -2,7 +2,7 @@
   "id": "0x4693f6f5ef257381a28afd0673e64d8b32d5c6ad",
   "name": "Hims & Hers Health",
   "symbol": "HIMSON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

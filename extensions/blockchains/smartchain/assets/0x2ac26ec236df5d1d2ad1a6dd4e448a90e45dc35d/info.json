@@ -2,7 +2,7 @@
   "id": "0x2ac26ec236df5d1d2ad1a6dd4e448a90e45dc35d",
   "name": "iShares TIPS Bond ETF",
   "symbol": "TIPON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"

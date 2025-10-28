@@ -2,7 +2,7 @@
   "id": "0x405f38b90bebf1259062cf29da299f3398662bcb",
   "name": "Coca-Cola",
   "symbol": "KOON.BNB",
-  "type": "ERC20",
+  "type": "BEP20",
   "decimals": 18,
   "status": "active",
   "website": "https://ondo.finance/"
