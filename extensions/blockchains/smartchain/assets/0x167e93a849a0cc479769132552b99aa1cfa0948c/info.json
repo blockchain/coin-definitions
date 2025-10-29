@@ -1,0 +1,10 @@
+{
+  "id": "0x167e93a849a0cc479769132552b99aa1cfa0948c",
+  "name": "iShares Core S&P MidCap ETF",
+  "symbol": "IJHON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "IJHon"
+}

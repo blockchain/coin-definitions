@@ -1,0 +1,10 @@
+{
+  "id": "0x5acf40056ed51c8bbcd1b125ef803581ac89a627",
+  "name": "Futu Holdings",
+  "symbol": "FUTUON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "FUTUon"
+}

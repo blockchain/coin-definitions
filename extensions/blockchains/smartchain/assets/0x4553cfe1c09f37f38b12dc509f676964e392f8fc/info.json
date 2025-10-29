@@ -1,0 +1,10 @@
+{
+  "id": "0x4553cfe1c09f37f38b12dc509f676964e392f8fc",
+  "name": "Amazon",
+  "symbol": "AMZNON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "AMZNon"
+}

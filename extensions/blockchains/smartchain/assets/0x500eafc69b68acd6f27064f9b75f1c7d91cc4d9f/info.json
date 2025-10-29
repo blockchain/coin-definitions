@@ -1,0 +1,10 @@
+{
+  "id": "0x500eafc69b68acd6f27064f9b75f1c7d91cc4d9f",
+  "name": "iShares Russell 2000 ETF",
+  "symbol": "IWMON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "IWMon"
+}

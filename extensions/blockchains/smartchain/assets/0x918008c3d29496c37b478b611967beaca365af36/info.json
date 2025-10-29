@@ -1,0 +1,10 @@
+{
+  "id": "0x918008c3d29496c37b478b611967beaca365af36",
+  "name": "iShares Core MSCI EAFE ETF",
+  "symbol": "IEFAON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "IEFAon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x0ed2e3180edf393e6bf8db124bd15ddd54de150a",
+  "name": "Broadcom",
+  "symbol": "AVGOON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "AVGOon"
+}

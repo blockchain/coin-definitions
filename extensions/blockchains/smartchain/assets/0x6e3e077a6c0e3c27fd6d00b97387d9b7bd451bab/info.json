@@ -1,0 +1,10 @@
+{
+  "id": "0x6e3e077a6c0e3c27fd6d00b97387d9b7bd451bab",
+  "name": "Intuit",
+  "symbol": "INTUON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "INTUon"
+}

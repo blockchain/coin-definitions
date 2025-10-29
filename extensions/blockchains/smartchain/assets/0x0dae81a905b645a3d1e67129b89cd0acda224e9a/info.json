@@ -1,0 +1,10 @@
+{
+  "id": "0x0dae81a905b645a3d1e67129b89cd0acda224e9a",
+  "name": "iBoxx $ High Yield Corporate Bond ETF",
+  "symbol": "HYGON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "HYGon"
+}

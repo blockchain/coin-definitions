@@ -1,0 +1,10 @@
+{
+  "id": "0x25ffda07f585c39848db6573e533d7585679c52d",
+  "name": "Mastercard",
+  "symbol": "MAON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "MAon"
+}

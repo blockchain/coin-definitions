@@ -1,0 +1,10 @@
+{
+  "id": "0x8a83c31d6751833b4940b6e871c48d9a15a07b46",
+  "name": "Pfizer",
+  "symbol": "PFEON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "PFEon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0xcf9caf83053213c44dd7027db3e1e4ac98e55f8f",
+  "name": "iShares Core S&P Total US Stock Market ETF",
+  "symbol": "ITOTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "ITOTon"
+}

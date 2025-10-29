@@ -1,0 +1,10 @@
+{
+  "id": "0xd803f8777187d6dee1ea57854aeb957043fb1675",
+  "name": "American Express",
+  "symbol": "AXPON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "AXPon"
+}
