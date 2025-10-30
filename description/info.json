@@ -1505,6 +1505,11 @@
         "websiteurl": "https://www.airswap.io/"
     },
     {
+        "description": "ASTER is the governance and utility token of Aster DEX, a next-generation decentralized exchange offering spot and perpetual trading across BNB Chain, Ethereum, Solana, and Arbitrum. Formed in 2025 through the merger of Astherus and APX Finance, Aster integrates yield products such as asBNB and USDF with MEV-free, one-click trading and professional features like grid and perpetual strategies. ASTER enables staking for revenue sharing, governance over protocol upgrades, and ecosystem incentives, while supporting the development of the upcoming Aster Chain layer-1. Backed by YZi Labs and industry veterans, Aster aims to unify fragmented DeFi markets through high-performance, multi-chain trading infrastructure.",
+        "symbol": "ASTER.BNB",
+        "websiteurl": ""
+    },
+    {
         "description": "Asteroid Shiba is inspired by a real-life event where a Shiba Inu plush toy named \"Asteroid\" served as a zero-gravity indicator during the Polaris Dawn mission. This connection to space travel gives it a narrative that's both whimsical and grounded in a tangible event, differentiating it from other meme coins which might rely solely on internet culture or celebrity endorsements.\r\n\r\nThe coin's mascot, the zero-gravity Shiba Inu, was designed by a young cancer survivor, Liv Perrotto, adding a layer of emotional connection and human interest story that's rare in the crypto space. This backstory not only provides a unique selling point but also a community rallying point.",
         "symbol": "ASTEROID",
         "websiteurl": "https://asteroidshiba-erc.com/"
@@ -16760,7 +16765,7 @@
         "websiteurl": "https://vulcanforged.com/"
     },
     {
-        "description": "Pyth Network is a decentralised oracle network designed to provide real-time financial market data to decentralised applications (dApps) across multiple blockchains.\r\nIt allows developer to secure smart contracts with reliable, low-latency market data from institutional sources, and build apps with high-fidelity oracle feeds designed for mission-critical systems.",
+        "description": "PYTH is the governance and utility token of Pyth Network, a first-party oracle protocol delivering real-time market data to decentralized applications across 40+ blockchains. The PYTH Network was launched in 2021, while the PYTH token was launched later, in November 2023. Pyth sources price feeds for crypto, equities, FX, and commodities directly from over 120 institutional providers, including Binance, Jane Street, and Cboe Global Markets. PYTH enables on-chain governance over oracle parameters, data provider rewards, and new feed listings, while staking by delegators helps secure data accuracy and integrity. Supported by contributors such as Douro Labs and the Pyth Data Association, the network underpins hundreds of DeFi integrations and bridges traditional finance data with decentralized infrastructure.",
         "symbol": "PYTH.SOL",
         "websiteurl": "https://pyth.network/"
     },
