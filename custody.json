@@ -760,6 +760,18 @@
     }
   },
   {
+    "symbol": "PYTH.SOL",
+    "displaySymbol": "PYTH",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "GOAT.SOL",
     "displaySymbol": "GOAT",
     "type": "SOLANA_TOKEN",
