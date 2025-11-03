@@ -361,6 +361,18 @@
     }
   },
   {
+    "symbol": "ASTER.BNB",
+    "displaySymbol": "ASTER",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "CAKE.BNB",
     "displaySymbol": "CAKE",
     "type": "ERC20",
@@ -741,6 +753,18 @@
     "type": "SOLANA_TOKEN",
     "nabuSettings": {
       "custodialPrecision": 5
+    },
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "PYTH.SOL",
+    "displaySymbol": "PYTH",
+    "type": "SOLANA_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 6
     },
     "hwsSettings": {
       "minConfirmations": 1,
