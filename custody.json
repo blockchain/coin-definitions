@@ -1825,6 +1825,18 @@
     }
   },
   {
+    "symbol": "USDT.TON",
+    "displaySymbol": "USDT",
+    "type": "JETTON",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": {
+      "minConfirmations": 5,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "USDT.TRX",
     "displaySymbol": "USDT",
     "type": "ERC20",
