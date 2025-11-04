@@ -257,6 +257,9 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     # Add network suffix before final dump:
     tokens = map(lambda token: token.with_suffix(network), tokens)
 
+    # We clean names
+    tokens = map(lambda token: token.clean_name(), tokens)
+
     # Convert back to plain dicts:
     tokens = list(map(asdict, tokens))
 

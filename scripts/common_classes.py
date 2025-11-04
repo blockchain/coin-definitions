@@ -151,6 +151,10 @@ class Token:
             return False
         return True
 
+    def clean_name(self):
+        self.name = self.name.replace(" (Ondo Tokenized)", "")
+        return self
+
     def with_suffix(self, network):
         if self.should_append_network_suffix(network):
             return replace(self, symbol=f"{self.symbol}.{network.symbol}")
