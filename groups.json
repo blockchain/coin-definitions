@@ -13,7 +13,8 @@
     "parentSymbol":  "USDT",
     "childSymbols": [
       "USDT.TRX",
-      "USDT.SOL"
+      "USDT.SOL",
+      "USDT.TON"
     ]
   },
   {
