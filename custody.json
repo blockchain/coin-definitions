@@ -581,7 +581,7 @@
   },
     {
     "symbol": "DOOD.SOL",
-    "displaySymbol": "Nobody",
+    "displaySymbol": "Doodles",
     "type": "SOLANA_TOKEN",
     "nabuSettings": {
       "custodialPrecision": 9
