@@ -425,7 +425,7 @@
         "websiteurl": "https://aergo.io"
     },
     {
-        "description": "Aerodrome Finance is a next-generation AMM designed to serve as Base's central liquidity hub, combining a powerful liquidity incentive engine, vote-lock governance model, and friendly user experience. Aerodrome inherits the latest features from Velodrome V2.",
+        "description": "AERO is the governance and utility token of Aerodrome Finance, a decentralised exchange and liquidity protocol on the Base network.  Built as an evolution of Velodrome V2, Aerodrome combines an automated market maker (AMM) with vote-lock governance and dynamic liquidity incentives. AERO is used for protocol governance, liquidity rewards, and staking via veAERO, aligning users, liquidity providers, and protocol growth. These mechanisms are designed to encourage community driven govern and to influence how liquidity incentives are allocated across the protocol's trading pools on Base.",
         "symbol": "AERO.BASEETH",
         "websiteurl": "https://aerodrome.finance/"
     },
@@ -21050,7 +21050,7 @@
         "websiteurl": "https://virtua.com/"
     },
     {
-        "description": "Trust Wallet Token (TWT) 511 is a utility token that can only be used within the app. This will be used to incentivize all Trust Wallet users.\r\n\r\nWhat are the Incentives of (TWT)?\r\nGovernance token that will be used by anyone who wants to take part in making decisions for adding new blockchain support, tokens and product features. Will also be collected as fees for submissions to the Trust Wallet repository 59.\r\n\r\nDiscounts on DEX services and purchasing crypto within the app.\r\n\r\nCollectible Marketplace, anyone interested in trading, selling or buying digital collectibles can utilize the token in a user-friendly environment.\r\n\r\nDApp reviews and promotions to incentivize developers to work on DApps that contribute to further adoption of Web 3.0 on mobile devices.\r\n\r\nAffiliate and bounty rewards, the token can be converted to BNB or ETH, that can be used for Network Fees.\r\n\r\nVouching and User reputation, users will be able to vouch for developers of products they enjoy to show the quality of the product to the rest of the Trust Ecosystem.",
+        "description": "TWT is the native utility and governance token of Trust Wallet, a non-custodial, multi-chain mobile wallet supporting networks such as Ethereum, BNB Chain, and TRON. Issued as a BEP-20 asset on BNB Chain, TWT enables governance voting on wallet features, provides in-app benefits like fee discounts, and rewards users for engagement through tasks, referrals, and staking. Originally launched as a BEP-2 token before migrating to BSC in 2020, TWT supports Trust Wallet's mission to expand secure, self-custodial access to Web3 while aligning user participation with product development.",
         "symbol": "TWT.BNB",
         "websiteurl": "https://trustwallet.com/"
     },
@@ -22658,6 +22658,11 @@
         "description": "",
         "symbol": "WCHZ.CHZ",
         "websiteurl": "https://app.kayen.org/trade"
+    },
+    {
+        "description": "WCT is the native governance and utility token of the WalletConnect Network, an open protocol enabling secure wallet-to-app and wallet-to-wallet connectivity across Web3. According to WalletConnect's published data, as of April 23, 2025, the protocol has supported over 185 million connections across more than 30 million users.\nWCT underpins the network's decentralized coordination layer through staking, governance voting, and protocol utility. Launched by the WalletConnect Foundation to transition the protocol toward community ownership, WCT aligns incentives across developers, wallets, and applications while leveraging Ethereum's security as an ERC-20 asset. As WalletConnect continues expanding across over 50,000 integrated apps, WCT serves as the token that governs and sustains activity across the WalletConnect ecosystem.",
+        "symbol": "WCT.OETH",
+        "websiteurl": ""
     },
     {
         "description": "Web4 AI ($WEB4), strives to disrupt the Decentralized Finance (DeFi) cryptocurrency space using Artificial Intelligence (AI). Web4 AI, through its diverse DeFi offerings, aims to quickly establish a strong presence in the DeFi market by creating unique use cases.One of Web4 AI\u2019s unique selling point is that it will offer superior AI trading algorithms for automated AI trading. Secondly the introduction of Web4 Wallet Management to optimize the storage and transaction of digital assets. Thirdly, Web4 AI NFT Generation utilizes AI to generate NFTs that are unique and cannot be replicated, making them highly valuable. Lastly, Web4 AI also intends to branch into non-crypto related use cases such as automated customer service, content creation and so forth.",
