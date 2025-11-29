@@ -1,0 +1,9 @@
+{
+    "name": "TEST TOKEN",
+    "website": "https://test-token.io",
+    "type": "ERC20",
+    "symbol": "TEST",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xa6c6ea2e0140849be02a3a34733cf61bcc691134"
+}
