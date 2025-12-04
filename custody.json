@@ -361,6 +361,18 @@
     }
   },
   {
+    "symbol": "AERO.BASEETH",
+    "displaySymbol": "AERO",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "ASTER.BNB",
     "displaySymbol": "ASTER",
     "type": "ERC20",
@@ -1723,6 +1735,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "TWT.BNB",
+    "displaySymbol": "TWT",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "UMA",
     "displaySymbol": "UMA",
     "type": "ERC20",
@@ -1902,6 +1926,18 @@
     },
     "hwsSettings": {
       "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "WCT.OETH",
+    "displaySymbol": "WCT",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 30,
       "minWithdrawal": 0
     }
   },
