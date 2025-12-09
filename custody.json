@@ -33,6 +33,18 @@
     "hwsSettings": null
   },
   {
+    "symbol": "ADI",
+    "displaySymbol": "ADI",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "AI16Z.SOL",
     "displaySymbol": "AI16Z",
     "type": "SOLANA_TOKEN",
