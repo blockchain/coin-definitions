@@ -13887,6 +13887,15 @@
         "website": "https://labsgroup.io"
     },
     {
+        "address": "0x8b1484d57abbe239bb280661377363b03c89caea",
+        "decimals": 18,
+        "displaySymbol": "ADI",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x8b1484d57abbe239bb280661377363b03c89caea/logo.png",
+        "name": "ADI",
+        "symbol": "ADI",
+        "website": "https://www.adi.foundation/"
+    },
+    {
         "address": "0x8b353021189375591723E7384262F45709A3C3dC",
         "decimals": 18,
         "displaySymbol": "TOMO",
