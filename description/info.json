@@ -390,6 +390,11 @@
         "websiteurl": "https://adamant.finance/"
     },
     {
+        "description": "ADI is the native utility and governance token of ADI Chain, a compliance-native, sovereign Layer-2 blockchain designed to deliver trusted digital infrastructure for governments and institutions in emerging markets. Built with EVM compatibility, GPU-accelerated computing, and AI-driven protocols, ADI Chain supports high-throughput applications with near real-time settlement and native regulatory features across finance, identity, healthcare, and sustainability. The ADI token incentivizes node operators and developers, enables staking for real-world asset tokenization and stablecoin liquidity, and governs protocol upgrades.",
+        "symbol": "ADI",
+        "websiteurl": ""
+    },
+    {
         "description": "",
         "symbol": "ADON.BNB",
         "websiteurl": "https://adonis.network/"
