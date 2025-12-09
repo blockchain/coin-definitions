@@ -1,0 +1,9 @@
+{
+    "name": "ADI",
+    "website": "https://www.adi.foundation/",
+    "type": "ERC20",
+    "symbol": "ADI",
+    "decimals": 18,
+    "status": "active",
+    "id": "0x8b1484d57abbe239bb280661377363b03c89caea"
+}
