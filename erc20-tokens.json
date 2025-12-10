@@ -342,6 +342,15 @@
         "website": "https://like.co/"
     },
     {
+        "address": "0x02a6c1789c3B4FDb1a7a3DfA39F90e5d3c94F4F9",
+        "decimals": 18,
+        "displaySymbol": "PMX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x02a6c1789c3B4FDb1a7a3DfA39F90e5d3c94F4F9/logo.png",
+        "name": "Philip Morris tokenized stock (xStock)",
+        "symbol": "PMX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x02e7F808990638E9e67E1f00313037EDe2362361",
         "decimals": 18,
         "displaySymbol": "KIBSHI",
@@ -403,6 +412,15 @@
         "name": "Huobi BTC",
         "symbol": "HBTC",
         "website": "https://www.hbtc.finance/zh-cn/"
+    },
+    {
+        "address": "0x03183Ce31b1656B72A55fa6056e287f50C35BbEB",
+        "decimals": 18,
+        "displaySymbol": "ACNX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x03183Ce31b1656B72A55fa6056e287f50C35BbEB/logo.png",
+        "name": "Accenture tokenized stock (xStock)",
+        "symbol": "ACNX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x031B8d752d73d7Fe9678ACEf26e818280D0646b4",
@@ -702,6 +720,15 @@
         "website": "https://catecoin.com/"
     },
     {
+        "address": "0x053C784cD87B74f42e0c089f98643E79c1A3ff16",
+        "decimals": 18,
+        "displaySymbol": "CSCOX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x053C784cD87B74f42e0c089f98643E79c1A3ff16/logo.png",
+        "name": "Cisco tokenized stock (xStock)",
+        "symbol": "CSCOX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x054D64b73d3D8A21Af3D764eFd76bCaA774f3Bb2",
         "decimals": 18,
         "displaySymbol": "PPAY",
@@ -763,6 +790,15 @@
         "name": "Eden Coin",
         "symbol": "EDN",
         "website": "http://edenchain.io/"
+    },
+    {
+        "address": "0x0588e851ec0418d660BeE81230d6c678dAF21d46",
+        "decimals": 18,
+        "displaySymbol": "MDTX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0588e851ec0418d660BeE81230d6c678dAF21d46/logo.png",
+        "name": "Medtronic tokenized stock (xStock)",
+        "symbol": "MDTX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x0590cc9232eBF68D81F6707A119898219342ecB9",
@@ -2520,6 +2556,15 @@
         "website": "https://paalai.io/"
     },
     {
+        "address": "0x15059c599C16Fd8f70B633Ade165502D6402CD49",
+        "decimals": 18,
+        "displaySymbol": "LINX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x15059c599C16Fd8f70B633Ade165502D6402CD49/logo.png",
+        "name": "Linde tokenized stock (xStock)",
+        "symbol": "LINX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x151202C9c18e495656f372281F493EB7698961D5",
         "decimals": 18,
         "displaySymbol": "DEB",
@@ -2664,6 +2709,15 @@
         "website": "https://fortknoxster.com"
     },
     {
+        "address": "0x167A6375DA1eFc4a5BE0f470E73eCEfd66245048",
+        "decimals": 18,
+        "displaySymbol": "UNHX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x167A6375DA1eFc4a5BE0f470E73eCEfd66245048/logo.png",
+        "name": "UnitedHealth tokenized stock (xStock)",
+        "symbol": "UNHX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x168e209D7b2F58f1f24b8Ae7B7d35E662bBF11Cc",
         "decimals": 18,
         "displaySymbol": "LAI",
@@ -2806,6 +2860,15 @@
         "name": "CustomContractNetwork",
         "symbol": "CCN",
         "website": "https://www.customcontract.network/"
+    },
+    {
+        "address": "0x17D8186Ed8F68059124190D147174D0f6697dc40",
+        "decimals": 18,
+        "displaySymbol": "MRKX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x17D8186Ed8F68059124190D147174D0f6697dc40/logo.png",
+        "name": "Merck tokenized stock (xStock)",
+        "symbol": "MRKX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x17EF75AA22dD5f6C2763b8304Ab24f40eE54D48a",
@@ -3015,6 +3078,15 @@
         "website": "https://laikachain.dog"
     },
     {
+        "address": "0x19c41EA77b34BbDEe61c3A87A75D1ABDA2ED0be4",
+        "decimals": 18,
+        "displaySymbol": "LLYX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x19c41EA77b34BbDEe61c3A87A75D1ABDA2ED0be4/logo.png",
+        "name": "Eli Lilly tokenized stock (xStock)",
+        "symbol": "LLYX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x19cA83a13b4C4BE43FA82c5E415E16f1D86f57F7",
         "decimals": 18,
         "displaySymbol": "bCEO",
@@ -3076,6 +3148,15 @@
         "name": "Mememe",
         "symbol": "MEMEME",
         "website": "https://mememelabs.me/"
+    },
+    {
+        "address": "0x1Ac765B5BEa23184802C7d2d497f7c33f1444A9e",
+        "decimals": 18,
+        "displaySymbol": "PFEX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1Ac765B5BEa23184802C7d2d497f7c33f1444A9e/logo.png",
+        "name": "Pfizer tokenized stock (xStock)",
+        "symbol": "PFEX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x1B073382E63411E3BcfFE90aC1B9A43feFa1Ec6F",
@@ -3717,6 +3798,15 @@
         "website": "https://formation.fi/"
     },
     {
+        "address": "0x214151022C2a5E380aB80CdaC31f23Ae554a7345",
+        "decimals": 18,
+        "displaySymbol": "CRWDX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x214151022C2a5E380aB80CdaC31f23Ae554a7345/logo.png",
+        "name": "CrowdStrike tokenized stock (xStock)",
+        "symbol": "CRWDX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x2162f572B25f7358db9376AB58a947a4e45CeDE1",
         "decimals": 18,
         "displaySymbol": "LBL",
@@ -3897,6 +3987,15 @@
         "website": "https://olavm.org"
     },
     {
+        "address": "0x2363FD1235C1B6d3A5088DdF8dF3A0b3A30C5293",
+        "decimals": 18,
+        "displaySymbol": "VX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2363FD1235C1B6d3A5088DdF8dF3A0b3A30C5293/logo.png",
+        "name": "Visa tokenized stock (xStock)",
+        "symbol": "VX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x236501327e701692a281934230AF0b6BE8Df3353",
         "decimals": 18,
         "displaySymbol": "FLT",
@@ -3904,6 +4003,15 @@
         "name": "Fluence",
         "symbol": "FLT",
         "website": "https://fluence.network/"
+    },
+    {
+        "address": "0x2380F2673C640fB67E2d6B55B44C62F0E0e69DA9",
+        "decimals": 18,
+        "displaySymbol": "GLDX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2380F2673C640fB67E2d6B55B44C62F0E0e69DA9/logo.png",
+        "name": "Gold tokenized ETF (xStock)",
+        "symbol": "GLDX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x23894DC9da6c94ECb439911cAF7d337746575A72",
@@ -5139,6 +5247,15 @@
         "website": "https://latium.org/"
     },
     {
+        "address": "0x2f9a35aB5dDFBc49927BFdEab98A86c53DC6E763",
+        "decimals": 18,
+        "displaySymbol": "AMBRX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2f9a35aB5dDFBc49927BFdEab98A86c53DC6E763/logo.png",
+        "name": "Amber tokenized stock (xStock)",
+        "symbol": "AMBRX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x3010ccb5419F1EF26D40a7cd3F0d707a0fa127Dc",
         "decimals": 18,
         "displaySymbol": "GEMS",
@@ -5281,6 +5398,15 @@
         "name": "ANGLE",
         "symbol": "ANGLE",
         "website": "https://www.angle.money"
+    },
+    {
+        "address": "0x314938c596F5ce31C3f75307d2979338C346D7F2",
+        "decimals": 18,
+        "displaySymbol": "BACX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x314938c596F5ce31C3f75307d2979338C346D7F2/logo.png",
+        "name": "Bank of America tokenized stock (xStock)",
+        "symbol": "BACX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x3155BA85D5F96b2d030a4966AF206230e46849cb",
@@ -5706,6 +5832,15 @@
         "website": "https://u.network/"
     },
     {
+        "address": "0x3557Ba345B01EFa20A1bdDC61F573BFD87195081",
+        "decimals": 18,
+        "displaySymbol": "AMZNX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3557Ba345B01EFa20A1bdDC61F573BFD87195081/logo.png",
+        "name": "Amazon tokenized stock (xStock)",
+        "symbol": "AMZNX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x358AA737e033F34df7c54306960a38d09AaBd523",
         "decimals": 18,
         "displaySymbol": "ARES",
@@ -5814,6 +5949,15 @@
         "website": "https://ondo.finance/"
     },
     {
+        "address": "0x364f210f430eC2448Fc68A49203040F6124096F0",
+        "decimals": 18,
+        "displaySymbol": "COINX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x364f210f430eC2448Fc68A49203040F6124096F0/logo.png",
+        "name": "Coinbase tokenized stock (xStock)",
+        "symbol": "COINX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x36E45dcfE1d3d85A78c65c3baD4068dEE4f2a25e",
         "decimals": 18,
         "displaySymbol": "TRRUE",
@@ -5848,6 +5992,15 @@
         "name": "Standard",
         "symbol": "xMARK",
         "website": "https://benchmarkprotocol.finance"
+    },
+    {
+        "address": "0x36c424a6EC0e264b1616102Ad63eD2aD7857413e",
+        "decimals": 18,
+        "displaySymbol": "PEPX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x36c424a6EC0e264b1616102Ad63eD2aD7857413e/logo.png",
+        "name": "PepsiCo tokenized stock (xStock)",
+        "symbol": "PEPX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x37E8789bB9996CaC9156cD5F5Fd32599E6b91289",
@@ -5947,6 +6100,15 @@
         "name": "PhoenixDAO Token",
         "symbol": "PHNX",
         "website": "https://phoenixdao.io/"
+    },
+    {
+        "address": "0x38BAC69cbBd28156796e4163B2B6dcb81E336565",
+        "decimals": 18,
+        "displaySymbol": "AVGOX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x38BAC69cbBd28156796e4163B2B6dcb81E336565/logo.png",
+        "name": "Broadcom tokenized stock (xStock)",
+        "symbol": "AVGOX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x38E68A37E401F7271568CecaAc63c6B1e19130B4",
@@ -6334,6 +6496,15 @@
         "name": "Aave USDT",
         "symbol": "aUSDT",
         "website": "https://aave.com/atokens"
+    },
+    {
+        "address": "0x3Ee7E9B3A992fD23CD1C363B0e296856B04ab149",
+        "decimals": 18,
+        "displaySymbol": "GSX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3Ee7E9B3A992fD23CD1C363B0e296856B04ab149/logo.png",
+        "name": "Goldman Sachs tokenized stock (xStock)",
+        "symbol": "GSX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x3F382DbD960E3a9bbCeaE22651E88158d2791550",
@@ -7614,6 +7785,15 @@
         "website": "https://mazze.io"
     },
     {
+        "address": "0x4A4073f2EAF299A1be22254DCD2C41727F6F54a2",
+        "decimals": 18,
+        "displaySymbol": "CRMX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4A4073f2EAF299A1be22254DCD2C41727F6F54a2/logo.png",
+        "name": "Salesforce tokenized stock (xStock)",
+        "symbol": "CRMX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x4AD2118Da8a65eaa81402A3d583FEF6eE76BDf3F",
         "decimals": 18,
         "displaySymbol": "WFCon",
@@ -8127,6 +8307,15 @@
         "website": "https://app.ethena.fi/"
     },
     {
+        "address": "0x4cbf89ED7Bb30b8a860fa86d3c96E9c72931299b",
+        "decimals": 18,
+        "displaySymbol": "TBLLX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4cbf89ED7Bb30b8a860fa86d3c96E9c72931299b/logo.png",
+        "name": "TBLL tokenized ETF (xStock)",
+        "symbol": "TBLLX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x4cfF49d0A19ed6Ff845a9122fa912AbcFB1F68A6",
         "decimals": 18,
         "displaySymbol": "WTK",
@@ -8161,6 +8350,15 @@
         "name": "Sappchain",
         "symbol": "SAPP",
         "website": "https://sappchain.co/"
+    },
+    {
+        "address": "0x4da27a545c0c5B758a6BA100e3a049001de870f5",
+        "decimals": 18,
+        "displaySymbol": "stkAAVE",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4da27a545c0c5B758a6BA100e3a049001de870f5/logo.png",
+        "name": "Staked AAVE",
+        "symbol": "stkAAVE",
+        "website": "https://aave.com"
     },
     {
         "address": "0x4db2c02831c9ac305FF9311Eb661f80f1dF61e07",
@@ -8379,6 +8577,15 @@
         "website": "https://razor.network/"
     },
     {
+        "address": "0x50a1291F69D9d3853Def8209cFb1AF0b46927BE1",
+        "decimals": 18,
+        "displaySymbol": "APPX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x50a1291F69D9d3853Def8209cFb1AF0b46927BE1/logo.png",
+        "name": "AppLovin tokenized stock (xStock)",
+        "symbol": "APPX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x50bC2Ecc0bfDf5666640048038C1ABA7B7525683",
         "decimals": 18,
         "displaySymbol": "cV",
@@ -8449,6 +8656,15 @@
         "name": "Dimitra",
         "symbol": "DMTR",
         "website": "https://dimitra.io"
+    },
+    {
+        "address": "0x521860bB5dF5468358875266B89BFE90d990C6e7",
+        "decimals": 18,
+        "displaySymbol": "DFDVx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x521860bB5dF5468358875266B89BFE90d990C6e7/logo.png",
+        "name": "DFDV tokenized stock (xStock)",
+        "symbol": "DFDVx",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x5218E472cFCFE0b64A064F055B43b4cdC9EfD3A6",
@@ -8557,6 +8773,15 @@
         "name": "Anchor",
         "symbol": "ANCT",
         "website": "https://theanchor.io/"
+    },
+    {
+        "address": "0x548308E91ec9F285C7bFf05295baDBD56a6e4971",
+        "decimals": 18,
+        "displaySymbol": "ORCLX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x548308E91ec9F285C7bFf05295baDBD56a6e4971/logo.png",
+        "name": "Oracle tokenized stock (xStock)",
+        "symbol": "ORCLX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x549020a9Cb845220D66d3E9c6D9F9eF61C981102",
@@ -8692,6 +8917,15 @@
         "name": "Sky",
         "symbol": "SKY",
         "website": "https://sky.money/"
+    },
+    {
+        "address": "0x5621737f42dAE558b81269FcB9E9E70c19Aa6b35",
+        "decimals": 18,
+        "displaySymbol": "MSFTX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5621737f42dAE558b81269FcB9E9E70c19Aa6b35/logo.png",
+        "name": "Microsoft tokenized stock (xStock)",
+        "symbol": "MSFTX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x562E362876c8Aee4744FC2c6aaC8394C312d215d",
@@ -9259,6 +9493,15 @@
         "name": "Snowflake",
         "symbol": "SNOWON",
         "website": "https://ondo.finance/"
+    },
+    {
+        "address": "0x5D642505FE1a28897eb3BaBA665F454755D8daA2",
+        "decimals": 18,
+        "displaySymbol": "AZNX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5D642505FE1a28897eb3BaBA665F454755D8daA2/logo.png",
+        "name": "AstraZeneca tokenized stock (xStock)",
+        "symbol": "AZNX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x5D858bcd53E085920620549214a8b27CE2f04670",
@@ -9943,6 +10186,15 @@
         "name": "Beam",
         "symbol": "BEAM",
         "website": "https://onbeam.com"
+    },
+    {
+        "address": "0x62a48560861B0b451654bFffdb5be6E47aa8ff1B",
+        "decimals": 18,
+        "displaySymbol": "HONX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x62a48560861B0b451654bFffdb5be6E47aa8ff1B/logo.png",
+        "name": "Honeywell tokenized stock (xStock)",
+        "symbol": "HONX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x62cA254a363dc3c748e7E955c20447aB5bF06fF7",
@@ -11241,6 +11493,15 @@
         "website": "https://ondo.finance/"
     },
     {
+        "address": "0x6d482CeC5f9dd1f05CCee9Fd3ff79B246170F8e2",
+        "decimals": 18,
+        "displaySymbol": "PLTRX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6d482CeC5f9dd1f05CCee9Fd3ff79B246170F8e2/logo.png",
+        "name": "Palantir tokenized stock (xStock)",
+        "symbol": "PLTRX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x6dDa263994aAB33F5Ed612294E26f2A13DF0dA05",
         "decimals": 18,
         "displaySymbol": "IQT",
@@ -12024,6 +12285,15 @@
         "website": "http://scamcoin.io"
     },
     {
+        "address": "0x766b0CD6ED6D90B5d49d2c36a3761E9728501BA9",
+        "decimals": 18,
+        "displaySymbol": "HDX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x766b0CD6ED6D90B5d49d2c36a3761E9728501BA9/logo.png",
+        "name": "Home Depot tokenized stock (xStock)",
+        "symbol": "HDX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x7671904eed7f10808B664fc30BB8693FD7237abF",
         "decimals": 18,
         "displaySymbol": "BBR",
@@ -12400,6 +12670,15 @@
         "name": "GenomesDAO GENOME",
         "symbol": "GENOME",
         "website": "https://genomes.io"
+    },
+    {
+        "address": "0x7AEfc9965699fBea943e03264d96e50CD4A97b21",
+        "decimals": 18,
+        "displaySymbol": "WMTX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7AEfc9965699fBea943e03264d96e50CD4A97b21/logo.png",
+        "name": "Walmart tokenized stock (xStock)",
+        "symbol": "WMTX2",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x7B0C06043468469967DBA22d1AF33d77d44056c8",
@@ -12805,6 +13084,15 @@
         "name": "NucleusVision",
         "symbol": "nCash",
         "website": "https://nucleus.vision/"
+    },
+    {
+        "address": "0x80A77a372c1e12AcCdA84299492f404902E2DA67",
+        "decimals": 18,
+        "displaySymbol": "MCDX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x80A77a372c1e12AcCdA84299492f404902E2DA67/logo.png",
+        "name": "McDonald's tokenized stock (xStock)",
+        "symbol": "MCDX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x80CE3027a70e0A928d9268994e9B85d03Bd4CDcf",
@@ -13509,6 +13797,15 @@
         "website": "http://www.tellor.io/"
     },
     {
+        "address": "0x89233399708C18Ac6887F90A2B4Cd8Ba5fEdD06e",
+        "decimals": 18,
+        "displaySymbol": "ABTX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x89233399708C18Ac6887F90A2B4Cd8Ba5fEdD06e/logo.png",
+        "name": "Abbott tokenized stock (xStock)",
+        "symbol": "ABTX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x892F5A0B08BB7B1eeCCCC63EF3916fF201c93664",
         "decimals": 18,
         "displaySymbol": "BLOODY",
@@ -13878,6 +14175,15 @@
         "website": "https://multiplier.finance"
     },
     {
+        "address": "0x8aD3c73F833d3F9A523aB01476625F269aEB7Cf0",
+        "decimals": 18,
+        "displaySymbol": "TSLAX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8aD3c73F833d3F9A523aB01476625F269aEB7Cf0/logo.png",
+        "name": "Tesla tokenized stock (xStock)",
+        "symbol": "TSLAX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x8b0E42F366bA502d787BB134478aDfAE966C8798",
         "decimals": 18,
         "displaySymbol": "LABS",
@@ -14227,6 +14533,15 @@
         "name": "Eesee",
         "symbol": "ESE",
         "website": "https://eesee.io/"
+    },
+    {
+        "address": "0x90A2a4c76b5D8c0bc892A69EA28Aa775a8f2dD48",
+        "decimals": 18,
+        "displaySymbol": "SPYX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x90A2a4c76b5D8c0bc892A69EA28Aa775a8f2dD48/logo.png",
+        "name": "SP500 tokenized ETF (xStock)",
+        "symbol": "SPYX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x90B831fa3Bebf58E9744A14D638E25B4eE06f9Bc",
@@ -14713,6 +15028,15 @@
         "name": "Enjinstarter",
         "symbol": "EJS",
         "website": "https://www.enjinstarter.com/"
+    },
+    {
+        "address": "0x96702be57Cd9777f835117a809C7124fe4ec989A",
+        "decimals": 18,
+        "displaySymbol": "METAX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x96702be57Cd9777f835117a809C7124fe4ec989A/logo.png",
+        "name": "Meta tokenized stock (xStock)",
+        "symbol": "METAX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x967Fb0D760ED3ce53AfE2f0A071674cccAe73550",
@@ -15399,6 +15723,15 @@
         "website": "https://www.eurite.com/"
     },
     {
+        "address": "0x9d275685dC284C8eB1C79f6ABA7a63Dc75ec890a",
+        "decimals": 18,
+        "displaySymbol": "AAPLX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9d275685dC284C8eB1C79f6ABA7a63Dc75ec890a/logo.png",
+        "name": "Apple tokenized stock (xStock)",
+        "symbol": "AAPLX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x9d4C6AD12B55E4645b585209F90Cc26614061E91",
         "decimals": 18,
         "displaySymbol": "BIDUon",
@@ -15822,6 +16155,15 @@
         "website": "https://fees.wtf"
     },
     {
+        "address": "0xA6a65AC27E76cD53cB790473E4345c46e5eBf961",
+        "decimals": 18,
+        "displaySymbol": "NFLXX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA6a65AC27E76cD53cB790473E4345c46e5eBf961/logo.png",
+        "name": "Netflix tokenized stock (xStock)",
+        "symbol": "NFLXX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xA735A3AF76CC30791C61c10d585833829d36CBe0",
         "decimals": 9,
         "displaySymbol": "imgnAI",
@@ -16092,6 +16434,15 @@
         "website": "https://yop.finance/"
     },
     {
+        "address": "0xAE2f842EF90C0d5213259Ab82639D5BBF649b08E",
+        "decimals": 18,
+        "displaySymbol": "MSTRX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAE2f842EF90C0d5213259Ab82639D5BBF649b08E/logo.png",
+        "name": "MicroStrategy tokenized stock (xStock)",
+        "symbol": "MSTRX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xAE788F80F2756A86aa2F410C651F2aF83639B95b",
         "decimals": 18,
         "displaySymbol": "MV",
@@ -16099,6 +16450,15 @@
         "name": "GensoKishi Metaverse",
         "symbol": "MV",
         "website": "https://genso.game/"
+    },
+    {
+        "address": "0xAF072F109A2C173D822a4fe9af311A1B18F83d19",
+        "decimals": 18,
+        "displaySymbol": "TMOX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAF072F109A2C173D822a4fe9af311A1B18F83d19/logo.png",
+        "name": "Thermo Fisher tokenized stock (xStock)",
+        "symbol": "TMOX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xAFCdd4f666c84Fed1d8BD825aA762e3714F652c9",
@@ -16438,7 +16798,7 @@
         "decimals": 18,
         "displaySymbol": "SPA",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB4A3B0Faf0Ab53df58001804DdA5Bfc6a3D59008/logo.png",
-        "name": "Sperax",
+        "name": "Sperax ",
         "symbol": "SPA",
         "website": "https://sperax.io/"
     },
@@ -16893,6 +17253,15 @@
         "website": "https://alchemix.fi/"
     },
     {
+        "address": "0xBC7170a1280Be28513B4e940C681537EB25e39f4",
+        "decimals": 18,
+        "displaySymbol": "CMCSAX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xBC7170a1280Be28513B4e940C681537EB25e39f4/logo.png",
+        "name": "Comcast tokenized stock (xStock)",
+        "symbol": "CMCSAX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xBD100d061E120b2c67A24453CF6368E63f1Be056",
         "decimals": 18,
         "displaySymbol": "iDYP",
@@ -17224,6 +17593,15 @@
         "name": "The Real Estate & Energy Investment Capital",
         "symbol": "QLINDO",
         "website": "https://qlindo.io/"
+    },
+    {
+        "address": "0xC210B2cB65ed3484892167F5e05F7ab496Ab0598",
+        "decimals": 18,
+        "displaySymbol": "LYX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC210B2cB65ed3484892167F5e05F7ab496Ab0598/logo.png",
+        "name": "Bridged LUKSO (Hyperlane)",
+        "symbol": "LYX",
+        "website": "https://lukso.network"
     },
     {
         "address": "0xC237868a9c5729bdF3173dDDacaa336a0a5BB6e0",
@@ -18324,6 +18702,15 @@
         "website": "https://ystar.io"
     },
     {
+        "address": "0xD9FC3E075d45254a1D834fEa18AF8041207DeA0A",
+        "decimals": 18,
+        "displaySymbol": "JPMX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD9FC3E075d45254a1D834fEa18AF8041207DeA0A/logo.png",
+        "name": "JPMorgan Chase tokenized stock (xStock)",
+        "symbol": "JPMX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xDA8a1f5ECCABc80c26EC9ab493715D5b9Ce8FEF9",
         "decimals": 18,
         "displaySymbol": "BOOM",
@@ -18612,6 +18999,15 @@
         "website": "https://www.spx6900.com"
     },
     {
+        "address": "0xE1385FDd5ffB10081Cd52C56584F25EFa9084015",
+        "decimals": 18,
+        "displaySymbol": "HOODX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE1385FDd5ffB10081Cd52C56584F25EFa9084015/logo.png",
+        "name": "Robinhood tokenized stock (xStock)",
+        "symbol": "HOODX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xE17f017475a709De58E976081eB916081ff4c9d5",
         "decimals": 9,
         "displaySymbol": "RMPL",
@@ -18835,6 +19231,15 @@
         "name": "Aurk AI",
         "symbol": "AURK",
         "website": "https://aurk.org/"
+    },
+    {
+        "address": "0xE5f6d3b2405ABdfE6F660e63202B25D23763160d",
+        "decimals": 18,
+        "displaySymbol": "GMEX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE5f6d3b2405ABdfE6F660e63202B25D23763160d/logo.png",
+        "name": "Gamestop tokenized stock (xStock)",
+        "symbol": "GMEX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xE61fDAF474Fac07063f2234Fb9e60C1163Cfa850",
@@ -19132,6 +19537,15 @@
         "name": "EveryCoin",
         "symbol": "EVY",
         "website": "https://www.everycoin.io"
+    },
+    {
+        "address": "0xEEdb0273c5Af792745180e9fF568cD01550fFA13",
+        "decimals": 18,
+        "displaySymbol": "XOMX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEEdb0273c5Af792745180e9fF568cD01550fFA13/logo.png",
+        "name": "Exxon Mobil tokenized stock (xStock)",
+        "symbol": "XOMX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xEF19F4E48830093Ce5bC8b3Ff7f903A0AE3E9Fa1",
@@ -19791,6 +20205,15 @@
         "website": "https://www.yield.app/"
     },
     {
+        "address": "0xF9523E369c5f55ad72DbAA75B0a9b92B3D8b147e",
+        "decimals": 18,
+        "displaySymbol": "NVOX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF9523E369c5f55ad72DbAA75B0a9b92B3D8b147e/logo.png",
+        "name": "Novo Nordisk tokenized stock (xStock)",
+        "symbol": "NVOX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xF970b8E36e23F7fC3FD752EeA86f8Be8D83375A6",
         "decimals": 18,
         "displaySymbol": "RCN",
@@ -19969,6 +20392,15 @@
         "name": "COOK Token",
         "symbol": "COOK",
         "website": "https://www.cook.finance"
+    },
+    {
+        "address": "0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B",
+        "decimals": 6,
+        "displaySymbol": "FOLKS",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xFF7F8F301F7A706E3CfD3D2275f5dc0b9EE8009B/logo.png",
+        "name": "Folks Finance",
+        "symbol": "FOLKS",
+        "website": "https://folks.finance"
     },
     {
         "address": "0xFFC97d72E13E01096502Cb8Eb52dEe56f74DAD7B",
@@ -20520,6 +20952,15 @@
         "website": "https://echolink.info"
     },
     {
+        "address": "0xa753A7395cAe905Cd615Da0B82A53E0560f250af",
+        "decimals": 18,
+        "displaySymbol": "QQQX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa753A7395cAe905Cd615Da0B82A53E0560f250af/logo.png",
+        "name": "Nasdaq tokenized ETF (xStock)",
+        "symbol": "QQQX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xa774FFB4AF6B0A91331C084E1aebAE6Ad535e6F3",
         "decimals": 18,
         "displaySymbol": "flexUSD",
@@ -20608,6 +21049,15 @@
         "name": "Syntropy",
         "symbol": "NOIA",
         "website": "https://www.synternet.com/"
+    },
+    {
+        "address": "0xa90424D5D3E770e8644103AB503ed775dD1318FD",
+        "decimals": 18,
+        "displaySymbol": "PGX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa90424D5D3E770e8644103AB503ed775dD1318FD/logo.png",
+        "name": "Procter & Gamble tokenized stock (xStock)",
+        "symbol": "PGX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xa92E7c82B11d10716aB534051B271D2f6aEf7Df5",
@@ -20943,6 +21393,15 @@
         "website": "https://www.megabonk.com/"
     },
     {
+        "address": "0xad5cdc3340904285B8159089974A99a1A09EB4C0",
+        "decimals": 18,
+        "displaySymbol": "CVXX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xad5cdc3340904285B8159089974A99a1A09EB4C0/logo.png",
+        "name": "Chevron tokenized stock (xStock)",
+        "symbol": "CVXX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xadd39272E83895E7d3f244f696B7a25635F34234",
         "decimals": 18,
         "displaySymbol": "PEPU",
@@ -21229,6 +21688,15 @@
         "name": "Nolus",
         "symbol": "NLS",
         "website": "https://nolus.io/"
+    },
+    {
+        "address": "0xb365Cd2588065F522D379AD19e903304f6B622C6",
+        "decimals": 18,
+        "displaySymbol": "MAX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xb365Cd2588065F522D379AD19e903304f6B622C6/logo.png",
+        "name": "Mastercard tokenized stock (xStock)",
+        "symbol": "MAX2",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xb3999F658C0391d94A37f7FF328F3feC942BcADC",
@@ -21582,6 +22050,15 @@
         "website": "https://www.realhinainu.com/"
     },
     {
+        "address": "0xbD730E618bcD88C82dDeE52e10275CF2f88A4777",
+        "decimals": 18,
+        "displaySymbol": "VTIX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xbD730E618bcD88C82dDeE52e10275CF2f88A4777/logo.png",
+        "name": "Vanguard tokenized ETF (xStock)",
+        "symbol": "VTIX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xbDEC45952B5E234EdDC2981B43eeD360826D5087",
         "decimals": 18,
         "displaySymbol": "MOGX",
@@ -21607,6 +22084,15 @@
         "name": "GYSR",
         "symbol": "GYSR",
         "website": "https://gysr.io"
+    },
+    {
+        "address": "0xbEe6b69345F376598Fe16AbD5592c6F844825E66",
+        "decimals": 18,
+        "displaySymbol": "OPENX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xbEe6b69345F376598Fe16AbD5592c6F844825E66/logo.png",
+        "name": "OPEN tokenized stock (xStock)",
+        "symbol": "OPENX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xbF776e4FCa664D791C4Ee3A71e2722990E003283",
@@ -22255,6 +22741,15 @@
         "name": "Convergence",
         "symbol": "CONV",
         "website": "https://conv.finance/"
+    },
+    {
+        "address": "0xc845b2894dBddd03858fd2D643B4eF725fE0849d",
+        "decimals": 18,
+        "displaySymbol": "NVDAX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc845b2894dBddd03858fd2D643B4eF725fE0849d/logo.png",
+        "name": "NVIDIA tokenized stock (xStock)",
+        "symbol": "NVDAX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xc84F7ABE4904ee4f20a8c5dFA3cC4BF1829330AB",
@@ -23058,6 +23553,15 @@
         "website": "https://sharering.network"
     },
     {
+        "address": "0xd9913208647671Fe0F48F7F260076B2C6F310Aac",
+        "decimals": 18,
+        "displaySymbol": "IBMX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd9913208647671Fe0F48F7F260076B2C6F310Aac/logo.png",
+        "name": "International Business Machines tokenized stock (xStock)",
+        "symbol": "IBMX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xd9ADfB67381D392C6e9671F64cDD9014BFcD74F2",
         "decimals": 18,
         "displaySymbol": "MORRA",
@@ -23211,6 +23715,15 @@
         "website": "https://sky.money/"
     },
     {
+        "address": "0xdCC1a2699441079dA889B1F49e12B69cC791129b",
+        "decimals": 18,
+        "displaySymbol": "KOX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdCC1a2699441079dA889B1F49e12B69cC791129b/logo.png",
+        "name": "Coca-Cola tokenized stock (xStock)",
+        "symbol": "KOX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xdD94842C15abfe4c9bAFE4222adE02896Beb064c",
         "decimals": 18,
         "displaySymbol": "WGP",
@@ -23256,6 +23769,15 @@
         "website": "https://www.atarichain.com/"
     },
     {
+        "address": "0xdb0482cfaD4789798623E64b15eebA01b16e917C",
+        "decimals": 18,
+        "displaySymbol": "JNJX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdb0482cfaD4789798623E64b15eebA01b16e917C/logo.png",
+        "name": "Johnson & Johnson tokenized stock (xStock)",
+        "symbol": "JNJX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xdb0aCC14396D108b3C5574483aCB817855C9dc8d",
         "decimals": 8,
         "displaySymbol": "EMB",
@@ -23281,6 +23803,15 @@
         "name": "Wrapped Zano",
         "symbol": "WZANO",
         "website": "https://zano.org/"
+    },
+    {
+        "address": "0xdbA228936F4079DaF9Aa906fd48a87f2300405F4",
+        "decimals": 18,
+        "displaySymbol": "DHRX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdbA228936F4079DaF9Aa906fd48a87f2300405F4/logo.png",
+        "name": "Danaher tokenized stock (xStock)",
+        "symbol": "DHRX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xdc524e3c6910257744C1F93Cf15E9F472b5bD236",
@@ -23796,6 +24327,15 @@
         "website": "https://runesbridge.xyz/"
     },
     {
+        "address": "0xe92f673Ca36C5E2Efd2DE7628f815f84807e803F",
+        "decimals": 18,
+        "displaySymbol": "GOOGLX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xe92f673Ca36C5E2Efd2DE7628f815f84807e803F/logo.png",
+        "name": "Alphabet tokenized stock (xStock)",
+        "symbol": "GOOGLX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xe9572938bcbf08adceE86Fd12A7C0D08dC4Ab841",
         "decimals": 18,
         "displaySymbol": "INS",
@@ -23839,6 +24379,15 @@
         "name": "Hemule",
         "symbol": "HEMULE",
         "website": "https://hemulebuterin.com"
+    },
+    {
+        "address": "0xeAAd46F4146Ded5a47B55AA7F6c48c191dEAEC88",
+        "decimals": 18,
+        "displaySymbol": "MRVLX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xeAAd46F4146Ded5a47B55AA7F6c48c191dEAEC88/logo.png",
+        "name": "Marvell tokenized stock (xStock)",
+        "symbol": "MRVLX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xeBF4CA5319F406602EEFf68da16261f1216011B5",
@@ -23956,6 +24505,15 @@
         "name": "yffc.finance",
         "symbol": "YFFC",
         "website": "https://yffc.finance/"
+    },
+    {
+        "address": "0xea17Df5Cf6D172224892B5477A16ACb111182478",
+        "decimals": 9,
+        "displaySymbol": "elizaOS",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xea17Df5Cf6D172224892B5477A16ACb111182478/logo.png",
+        "name": "elizaOS",
+        "symbol": "elizaOS",
+        "website": "https://elizaos.ai/"
     },
     {
         "address": "0xea3983Fc6D0fbbC41fb6F6091f68F3e08894dC06",
@@ -24552,6 +25110,15 @@
         "website": "https://ideachaincoin.com/"
     },
     {
+        "address": "0xf8A80D1cb9cFD70D03D655D9dF42339846F3B3C8",
+        "decimals": 18,
+        "displaySymbol": "INTCX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xf8A80D1cb9cFD70D03D655D9dF42339846F3B3C8/logo.png",
+        "name": "Intel tokenized stock (xStock)",
+        "symbol": "INTCX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xf8C3527CC04340b208C854E985240c02F7B7793f",
         "decimals": 18,
         "displaySymbol": "FRONT",
@@ -24750,6 +25317,15 @@
         "website": "https://www.dextools.io/"
     },
     {
+        "address": "0xfBF2398dF672cEE4aFcC2A4A733222331c742a6A",
+        "decimals": 18,
+        "displaySymbol": "ABBVX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xfBF2398dF672cEE4aFcC2A4A733222331c742a6A/logo.png",
+        "name": "AbbVie tokenized stock (xStock)",
+        "symbol": "ABBVX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xfC385A1dF85660a7e041423DB512f779070FCede",
         "decimals": 18,
         "displaySymbol": "ZKL",
@@ -24775,6 +25351,15 @@
         "name": "1World",
         "symbol": "1WO",
         "website": "https://ico.1worldonline.com/"
+    },
+    {
+        "address": "0xfDDDb57878eF9D6f681Ec4381DCB626b9E69AC86",
+        "decimals": 18,
+        "displaySymbol": "TQQQX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xfDDDb57878eF9D6f681Ec4381DCB626b9E69AC86/logo.png",
+        "name": "TQQQ tokenized ETF (xStock)",
+        "symbol": "TQQQX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xfDb46864A7C476F0914c5E82CdED3364a9F56F8a",
@@ -24820,6 +25405,15 @@
         "name": "EHalal",
         "symbol": "HAL",
         "website": ""
+    },
+    {
+        "address": "0xfEbDEd1B0986a8ee107f5AB1a1c5a813491DeCEB",
+        "decimals": 18,
+        "displaySymbol": "CRCLX",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xfEbDEd1B0986a8ee107f5AB1a1c5a813491DeCEB/logo.png",
+        "name": "Circle tokenized stock (xStock)",
+        "symbol": "CRCLX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xfF20817765cB7f73d4bde2e66e067E58D11095C2",
