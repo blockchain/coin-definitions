@@ -10,6 +10,7 @@
   {"symbol": "DKK", "name": "Danish Krone",       "decimals": 2},
   {"symbol": "EUR", "name": "Euro",               "decimals": 2},
   {"symbol": "GBP", "name": "British Pound",      "decimals": 2},
+  {"symbol": "GHS", "name": "Ghanaian Cedi",      "decimals": 2},
   {"symbol": "HKD", "name": "Hong Kong Dollar",   "decimals": 2},
   {"symbol": "HRK", "name": "Croatian Kuna",      "decimals": 2},
   {"symbol": "HUF", "name": "Hungarian Forint",   "decimals": 2},
