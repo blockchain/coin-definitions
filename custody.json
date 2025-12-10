@@ -795,6 +795,15 @@
       "minWithdrawal": 0
     }
   },
+   {
+    "symbol": "GHO",
+    "displaySymbol": "GHO",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
   {
     "symbol": "GIGA.SOL",
     "displaySymbol": "GIGA",
@@ -1992,6 +2001,15 @@
   {
     "symbol": "WLD",
     "displaySymbol": "WLD",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
+  {
+    "symbol": "WLFI",
+    "displaySymbol": "WLFI",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 9

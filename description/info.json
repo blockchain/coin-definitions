@@ -8450,7 +8450,7 @@
         "websiteurl": "http://www.giftedhands.io/"
     },
     {
-        "description": "",
+        "description": "GHO is the native stablecoin of the Aave Protocol, designed as a decentralized, fully backed, multi-collateral asset pegged to the US dollar. Minted against overcollateralized deposits in Aave markets, GHO uses fixed-oracle pricing and DAO-governed interest rates, with all borrowing interest flowing directly to the Aave Treasury. Launched in 2023 under the guidance of Aave Labs and governed entirely by the Aave DAO, GHO provides a transparent, on-chain payment asset deeply integrated into one of DeFi\u2019s largest lending ecosystems. Its multi-collateral facilitators, cross-chain expansion, and predictable rate model position GHO as a decentralized alternative to centralized stablecoins.",
         "symbol": "GHO",
         "websiteurl": "https://gho.xyz/"
     },
@@ -22918,6 +22918,11 @@
         "description": "The mission of the Worldcoin project is to build the world\u2019s largest identity and financial network as a public utility, giving ownership to everyone. A key component of the Worldcoin project is the development of the foundational infrastructure that will be important for a world where AI plays an increasingly large role.\r\n\r\nThe Worldcoin system revolves around World ID, a privacy-preserving global identity network. World ID enables users to verify their humanness online while maintaining their privacy through zero-knowledge proofs.\r\n\r\nUsing World ID, individuals will be able to prove that they are a real, unique human to any platform that integrates with the protocol, including to web3 systems, social networking sites, and governmental programs. This will enable fair airdrops or token/NFT sales, provide protection against bots/sybil attacks on social media, and enable the fairer distribution of limited governmental resources. Furthermore, World ID can also enable global democratic processes and novel forms of governance (e.g., via quadratic voting), and it may eventually show a path to AI-funded UBI. The Worldcoin token (WLD), alongside World ID, will let users participate in governing the Worldcoin protocol. \r\n\r\nTo engage with the Worldcoin protocol, individuals must first download a first wallet app that supports the creation of a World ID. Users visit a physical imaging device called the Orb to get their World ID Orb-verified. Orbs are operated by a network of independent local businesses called Orb Operators. The Orb uses multispectral sensors to verify humanness and uniqueness to issue an Orb-verified World ID, with all images being promptly deleted on-device per default (absent explicit consent to Data Custody). All Orb-verified World IDs holders are entitled to claim recurring grants of free WLD tokens, subject to certain availability restrictions. The WLD token is designed as a utility token with governance properties.\r\n",
         "symbol": "WLD.OETH",
         "websiteurl": "https://worldcoin.org/"
+    },
+    {
+        "description": "WLFI is the governance token of World Liberty Financial, a decentralized finance platform designed to expand global access to capital using open, on-chain infrastructure. The protocol powers USD1, a fully reserved, dollar-pegged stablecoin deployed across Ethereum, BNB Chain, Solana, and Tron, enabling fast, low-cost payments and institutional settlement. WLFI holders participate in protocol governance, shaping decisions on incentives, lending parameters, and cross-border financial operations. Developed with contributions from business leaders and technologists, World Liberty Financial aims to bridge traditional finance and DeFi through transparent, multi-chain stablecoin infrastructure.",
+        "symbol": "WLFI",
+        "websiteurl": ""
     },
     {
         "description": "WLKN is a Token used for operating in the Walken NFT game. WLKN is short for Walken and can be either bought on a cryptocurrency exchange or earned by using Walken.",
