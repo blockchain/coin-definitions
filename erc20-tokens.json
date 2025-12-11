@@ -6618,7 +6618,7 @@
         "address": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
         "decimals": 18,
         "displaySymbol": "GHO",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f/logo.png",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f/logo.png",
         "name": "Gho",
         "symbol": "GHO",
         "website": "https://gho.xyz/"
