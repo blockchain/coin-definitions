@@ -1186,6 +1186,15 @@
     }
   },
   {
+    "symbol": "MORPHO",
+    "displaySymbol": "MORPHO",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "NEAR",
     "displaySymbol": "NEAR",
     "type": "COIN",
