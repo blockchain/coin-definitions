@@ -1850,6 +1850,14 @@
       "custodialPrecision": 9
     },
     "hwsSettings": null
+  }, {
+    "symbol": "TEST.BASEETH",
+    "displaySymbol": "TEST",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
   },
   {
     "symbol": "USDC.MATIC",
