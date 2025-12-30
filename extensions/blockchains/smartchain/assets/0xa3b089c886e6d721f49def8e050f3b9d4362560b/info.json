@@ -1,0 +1,10 @@
+{
+  "id": "0xa3b089c886e6d721f49def8e050f3b9d4362560b",
+  "name": "Verizon",
+  "symbol": "VZON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "VZon"
+}

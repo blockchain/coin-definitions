@@ -1,0 +1,10 @@
+{
+  "id": "0x3fcd741646a9790635b938cdb69af5df356cbaab",
+  "name": "abrdn Physical Palladium Shares ETF",
+  "symbol": "PALLON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "PALLon"
+}

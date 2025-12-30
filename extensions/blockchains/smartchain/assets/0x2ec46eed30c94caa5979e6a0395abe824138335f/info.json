@@ -1,0 +1,10 @@
+{
+  "id": "0x2ec46eed30c94caa5979e6a0395abe824138335f",
+  "name": "Lowe's",
+  "symbol": "LOWON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "LOWon"
+}

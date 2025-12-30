@@ -1,0 +1,10 @@
+{
+  "id": "0xf49046aae76eaeb7ffd3ef116ce0f7cd0f52d93e",
+  "name": "MasTec",
+  "symbol": "MTZON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "MTZon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x0d586b51a90dc999f9bb6a0506da7f034a1d3a2e",
+  "name": "ConocoPhillips",
+  "symbol": "COPON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "COPon"
+}

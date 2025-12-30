@@ -1,0 +1,10 @@
+{
+  "id": "0x47b36ddb9dd12a8411f78226f55e8c3f0d65481f",
+  "name": "PG&E",
+  "symbol": "PCGON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "PCGon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x8ddb97556f6ae98b4d408c56b167139fe1cbe3e8",
+  "name": "Citigroup",
+  "symbol": "CON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "Con"
+}

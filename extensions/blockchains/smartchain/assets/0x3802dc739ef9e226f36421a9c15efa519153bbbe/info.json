@@ -1,0 +1,10 @@
+{
+  "id": "0x3802dc739ef9e226f36421a9c15efa519153bbbe",
+  "name": "ProShares Short QQQ",
+  "symbol": "PSQON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "PSQon"
+}

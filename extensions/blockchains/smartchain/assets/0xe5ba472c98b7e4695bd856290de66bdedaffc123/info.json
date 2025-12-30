@@ -1,0 +1,10 @@
+{
+  "id": "0xe5ba472c98b7e4695bd856290de66bdedaffc123",
+  "name": "Charles Schwab",
+  "symbol": "SCHWON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "SCHWon"
+}

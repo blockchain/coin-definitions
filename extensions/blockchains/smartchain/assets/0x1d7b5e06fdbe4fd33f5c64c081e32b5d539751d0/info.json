@@ -1,0 +1,10 @@
+{
+  "id": "0x1d7b5e06fdbe4fd33f5c64c081e32b5d539751d0",
+  "name": "AMC Entertainment",
+  "symbol": "AMCON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "AMCon"
+}

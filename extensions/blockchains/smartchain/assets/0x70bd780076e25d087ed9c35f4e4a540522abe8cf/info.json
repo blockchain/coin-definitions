@@ -1,0 +1,10 @@
+{
+  "id": "0x70bd780076e25d087ed9c35f4e4a540522abe8cf",
+  "name": "Denison Mines",
+  "symbol": "DNNON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "DNNon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x4d209d275e3492ac08497a7a42915899c4dd5e86",
+  "name": "Exxon Mobil",
+  "symbol": "XOMON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "XOMon"
+}

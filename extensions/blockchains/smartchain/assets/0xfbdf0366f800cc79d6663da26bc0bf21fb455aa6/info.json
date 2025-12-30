@@ -1,0 +1,10 @@
+{
+  "id": "0xfbdf0366f800cc79d6663da26bc0bf21fb455aa6",
+  "name": "Amgen",
+  "symbol": "AMGNON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "AMGNon"
+}

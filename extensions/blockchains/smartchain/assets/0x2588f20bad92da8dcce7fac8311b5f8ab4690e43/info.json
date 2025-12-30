@@ -1,0 +1,10 @@
+{
+  "id": "0x2588f20bad92da8dcce7fac8311b5f8ab4690e43",
+  "name": "T-Mobile US",
+  "symbol": "TMUSON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "TMUSon"
+}

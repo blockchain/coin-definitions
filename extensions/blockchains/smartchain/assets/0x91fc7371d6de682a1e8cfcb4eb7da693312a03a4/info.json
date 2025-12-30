@@ -1,0 +1,10 @@
+{
+  "id": "0x91fc7371d6de682a1e8cfcb4eb7da693312a03a4",
+  "name": "Bilibili",
+  "symbol": "BILION",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "BILIon"
+}

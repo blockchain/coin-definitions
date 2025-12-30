@@ -1,0 +1,10 @@
+{
+  "id": "0xe23f03d2907cdc38a10f6ccdc1a157bf1afe51de",
+  "name": "Sprott Nickel Miners ETF",
+  "symbol": "NIKLON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "NIKLon"
+}

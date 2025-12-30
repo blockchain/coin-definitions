@@ -1,0 +1,10 @@
+{
+  "id": "0x4255279af47cf10efb9a5c8839f90170f4ef759f",
+  "name": "AT&T",
+  "symbol": "TON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "Ton"
+}

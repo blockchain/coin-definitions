@@ -1,0 +1,10 @@
+{
+  "id": "0xec93fe7ff4b09ca3ccafbc4cc9615e62be412780",
+  "name": "Global X Copper Miners ETF",
+  "symbol": "COPXON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "COPXon"
+}

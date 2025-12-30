@@ -1,0 +1,10 @@
+{
+  "id": "0x9cea8a7be1ab0320b709d368ad60d8500f55995f",
+  "name": "Vertiv",
+  "symbol": "VRTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "VRTon"
+}

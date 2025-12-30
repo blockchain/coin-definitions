@@ -1,0 +1,10 @@
+{
+  "id": "0xb1aba049c42b6fe811766eba61f51f11c57acc4b",
+  "name": "Ford Motor",
+  "symbol": "FON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "Fon"
+}

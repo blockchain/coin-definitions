@@ -1,0 +1,10 @@
+{
+  "id": "0x940f442746d9ae699e63c378d52c4494ea02684f",
+  "name": "iShares Flexible Income Active ETF",
+  "symbol": "BINCON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "BINCon"
+}

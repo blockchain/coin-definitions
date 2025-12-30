@@ -1,0 +1,10 @@
+{
+  "id": "0x88672043905bdd272df55a5a7bb1b7e1e693cbc5",
+  "name": "Opera",
+  "symbol": "OPRAON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "OPRAon"
+}

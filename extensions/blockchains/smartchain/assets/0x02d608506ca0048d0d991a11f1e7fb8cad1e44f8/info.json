@@ -1,0 +1,10 @@
+{
+  "id": "0x02d608506ca0048d0d991a11f1e7fb8cad1e44f8",
+  "name": "American Airlines Group",
+  "symbol": "AALON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "AALon"
+}

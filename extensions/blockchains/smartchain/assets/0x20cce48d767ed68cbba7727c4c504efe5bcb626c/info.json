@@ -1,0 +1,10 @@
+{
+  "id": "0x20cce48d767ed68cbba7727c4c504efe5bcb626c",
+  "name": "Grindr",
+  "symbol": "GRNDON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "GRNDon"
+}

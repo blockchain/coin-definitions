@@ -1,0 +1,10 @@
+{
+  "id": "0x84719a1082ed487c7eeac7d69885e3cc2009ea78",
+  "name": "Janus Henderson AAA CLO ETF",
+  "symbol": "JAAAON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "JAAAon"
+}

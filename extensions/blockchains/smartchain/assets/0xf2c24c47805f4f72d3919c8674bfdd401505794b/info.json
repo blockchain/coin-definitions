@@ -1,0 +1,10 @@
+{
+  "id": "0xf2c24c47805f4f72d3919c8674bfdd401505794b",
+  "name": "Vistra",
+  "symbol": "VSTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "VSTon"
+}

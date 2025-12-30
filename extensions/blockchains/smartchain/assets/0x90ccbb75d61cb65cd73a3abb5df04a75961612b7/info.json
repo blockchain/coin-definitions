@@ -1,0 +1,10 @@
+{
+  "id": "0x90ccbb75d61cb65cd73a3abb5df04a75961612b7",
+  "name": "Deere",
+  "symbol": "DEON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "DEon"
+}

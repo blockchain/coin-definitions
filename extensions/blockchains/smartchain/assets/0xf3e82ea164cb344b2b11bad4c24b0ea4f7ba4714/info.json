@@ -1,0 +1,10 @@
+{
+  "id": "0xf3e82ea164cb344b2b11bad4c24b0ea4f7ba4714",
+  "name": "PDD Holdings",
+  "symbol": "PDDON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "PDDon"
+}
