@@ -1,0 +1,9 @@
+{
+  "name": "ConocoPhillips",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "COPON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x8e6a5338eac4b6fe8d51a7653fad3b9da755eea6"
+}

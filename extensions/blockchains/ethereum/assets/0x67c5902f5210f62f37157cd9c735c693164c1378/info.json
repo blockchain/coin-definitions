@@ -1,0 +1,9 @@
+{
+  "name": "RTX",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "RTXON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x67c5902f5210f62f37157cd9c735c693164c1378"
+}

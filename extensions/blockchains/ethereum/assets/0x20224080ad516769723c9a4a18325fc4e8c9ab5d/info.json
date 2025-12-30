@@ -1,0 +1,9 @@
+{
+  "name": "Invesco DB Commodity Index Tracking Fund",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "DBCON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x20224080ad516769723c9a4a18325fc4e8c9ab5d"
+}

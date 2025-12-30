@@ -1,0 +1,9 @@
+{
+  "name": "WisdomTree Floating Rate Treasury Fund",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "USFRON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xfb82561a955bf59b9263301126af490d3799e231"
+}

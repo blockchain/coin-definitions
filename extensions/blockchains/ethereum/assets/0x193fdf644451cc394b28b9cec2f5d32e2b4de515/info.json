@@ -1,0 +1,9 @@
+{
+  "name": "PG&E",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "PCGON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x193fdf644451cc394b28b9cec2f5d32e2b4de515"
+}

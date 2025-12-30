@@ -1,0 +1,9 @@
+{
+  "name": "Ford Motor",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "FON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xf72936fa8afc808c99eb76e620a98ddc6a7a53d1"
+}

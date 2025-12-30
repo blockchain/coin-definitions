@@ -1,0 +1,9 @@
+{
+  "name": "AT&T",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "TON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x3361a73262199873b74d6835760a59b8817fa592"
+}

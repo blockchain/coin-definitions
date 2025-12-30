@@ -1,0 +1,9 @@
+{
+  "name": "VanEck CLO ETF",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "CLOION",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xe8b09e8175aecb35a171fa059647434fe47f114c"
+}

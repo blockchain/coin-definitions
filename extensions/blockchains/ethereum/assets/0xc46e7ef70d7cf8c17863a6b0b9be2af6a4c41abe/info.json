@@ -1,0 +1,9 @@
+{
+  "name": "Citigroup",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "CON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xc46e7ef70d7cf8c17863a6b0b9be2af6a4c41abe"
+}

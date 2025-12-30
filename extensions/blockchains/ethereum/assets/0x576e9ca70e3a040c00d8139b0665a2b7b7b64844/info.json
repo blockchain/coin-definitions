@@ -1,0 +1,9 @@
+{
+  "name": "Bank of America",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "BACON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x576e9ca70e3a040c00d8139b0665a2b7b7b64844"
+}

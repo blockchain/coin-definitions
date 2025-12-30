@@ -1,0 +1,9 @@
+{
+  "name": "Verizon",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "VZON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x0e3d889d5b857c3e6eb361b9c9ae35bb7ddbd254"
+}

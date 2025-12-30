@@ -1,0 +1,9 @@
+{
+  "name": "Texas Instruments",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "TXNON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x58fc9d573ea773ef9a25c3de66f990b87ee5f50e"
+}

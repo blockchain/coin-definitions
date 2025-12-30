@@ -1,0 +1,9 @@
+{
+  "name": "NetEase",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "NTESON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x3d1cf8692a6f2fc9048a9cc1a06abf77f3465f0a"
+}

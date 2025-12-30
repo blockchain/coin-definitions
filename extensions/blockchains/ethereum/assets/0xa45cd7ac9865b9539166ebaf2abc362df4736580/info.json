@@ -1,0 +1,9 @@
+{
+  "name": "ProShares UltraPro QQQ",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "TQQQON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xa45cd7ac9865b9539166ebaf2abc362df4736580"
+}

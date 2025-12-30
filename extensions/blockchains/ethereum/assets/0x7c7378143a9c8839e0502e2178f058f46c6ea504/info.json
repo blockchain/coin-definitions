@@ -1,0 +1,9 @@
+{
+  "name": "AbbVie",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "ABBVON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x7c7378143a9c8839e0502e2178f058f46c6ea504"
+}

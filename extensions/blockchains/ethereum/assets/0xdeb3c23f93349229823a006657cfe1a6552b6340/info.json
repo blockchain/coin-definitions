@@ -1,0 +1,9 @@
+{
+  "name": "T-Mobile US",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "TMUSON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xdeb3c23f93349229823a006657cfe1a6552b6340"
+}

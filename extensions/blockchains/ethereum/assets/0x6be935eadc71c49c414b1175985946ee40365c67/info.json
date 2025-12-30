@@ -1,0 +1,9 @@
+{
+  "name": "Applied Materials",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "AMATON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x6be935eadc71c49c414b1175985946ee40365c67"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Lowe's",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "LOWON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x84328d8b85019fdcecf4c82fbe076bf350fc0cab"
+}

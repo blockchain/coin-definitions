@@ -1,0 +1,9 @@
+{
+  "name": "ProShares UltraPro Short QQQ",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "SQQQON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x0a00c19246fc41b2524d56c87ec44ce8b30ba0f8"
+}

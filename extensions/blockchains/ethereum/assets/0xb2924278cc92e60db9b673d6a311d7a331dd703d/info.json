@@ -1,0 +1,9 @@
+{
+  "name": "Snap",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "SNAPON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xb2924278cc92e60db9b673d6a311d7a331dd703d"
+}
