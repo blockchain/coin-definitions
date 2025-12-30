@@ -1,0 +1,9 @@
+{
+  "name": "Capital One",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "COFON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x3d07c3161f355cb9e5b524bef8d113c96e0263ab"
+}

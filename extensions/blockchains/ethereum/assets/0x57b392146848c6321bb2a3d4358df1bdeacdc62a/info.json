@@ -1,0 +1,9 @@
+{
+  "name": "Vanguard Total Stock Market ETF",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "VTION",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x57b392146848c6321bb2a3d4358df1bdeacdc62a"
+}

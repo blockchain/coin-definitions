@@ -1,0 +1,9 @@
+{
+  "name": "CrowdStrike",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "CRWDON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xcac9aafb2cf51645ae1ab4fb1f35f07d42437f80"
+}
