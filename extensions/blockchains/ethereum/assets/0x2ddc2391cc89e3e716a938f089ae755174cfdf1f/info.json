@@ -1,0 +1,9 @@
+{
+  "name": "Analog Devices",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "ADION",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x2ddc2391cc89e3e716a938f089ae755174cfdf1f"
+}

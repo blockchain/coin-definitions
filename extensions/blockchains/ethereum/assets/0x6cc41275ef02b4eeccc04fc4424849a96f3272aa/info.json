@@ -1,0 +1,9 @@
+{
+  "name": "Block",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "XYZON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x6cc41275ef02b4eeccc04fc4424849a96f3272aa"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Deere",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "DEON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x32d7c413fd3477e86b8ec6b0bb8f3ac510eafaae"
+}
