@@ -1,0 +1,10 @@
+{
+  "id": "0x01486675da0764ee780ea7cb65c33062e9b2d28c",
+  "name": "Moderna",
+  "symbol": "MRNAON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "MRNAon"
+}

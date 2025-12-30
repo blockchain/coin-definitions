@@ -1,0 +1,10 @@
+{
+  "id": "0xfc2067e3e6a289c205151d96ef67a032f339566d",
+  "name": "Invesco DB Commodity Index Tracking Fund",
+  "symbol": "DBCON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "DBCon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x4baf4dc56cf6a525a0874e25cc6372a6a8915135",
+  "name": "MP Materials",
+  "symbol": "MPON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "MPon"
+}

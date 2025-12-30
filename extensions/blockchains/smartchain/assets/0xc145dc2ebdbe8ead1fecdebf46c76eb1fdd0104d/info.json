@@ -1,0 +1,10 @@
+{
+  "id": "0xc145dc2ebdbe8ead1fecdebf46c76eb1fdd0104d",
+  "name": "Carvana",
+  "symbol": "CVNAON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "CVNAon"
+}

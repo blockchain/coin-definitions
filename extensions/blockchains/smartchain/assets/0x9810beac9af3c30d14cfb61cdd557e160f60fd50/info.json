@@ -1,0 +1,10 @@
+{
+  "id": "0x9810beac9af3c30d14cfb61cdd557e160f60fd50",
+  "name": "Li Auto",
+  "symbol": "LION",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "LIon"
+}

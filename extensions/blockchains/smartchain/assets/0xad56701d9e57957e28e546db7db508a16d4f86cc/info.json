@@ -1,0 +1,10 @@
+{
+  "id": "0xad56701d9e57957e28e546db7db508a16d4f86cc",
+  "name": "Terawulf",
+  "symbol": "WULFON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "WULFon"
+}

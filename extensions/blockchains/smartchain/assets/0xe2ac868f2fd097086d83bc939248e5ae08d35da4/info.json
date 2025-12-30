@@ -1,0 +1,10 @@
+{
+  "id": "0xe2ac868f2fd097086d83bc939248e5ae08d35da4",
+  "name": "B2Gold",
+  "symbol": "BTGON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "BTGon"
+}

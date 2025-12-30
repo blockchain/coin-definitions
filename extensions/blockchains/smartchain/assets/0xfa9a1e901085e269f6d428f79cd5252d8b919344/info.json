@@ -1,0 +1,10 @@
+{
+  "id": "0xfa9a1e901085e269f6d428f79cd5252d8b919344",
+  "name": "SPDR Gold Shares",
+  "symbol": "GLDON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "GLDon"
+}

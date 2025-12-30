@@ -1,0 +1,10 @@
+{
+  "id": "0xe42cfb20e00912409b77a602b5bdcff3c7acc5f4",
+  "name": "ProShares UltraPro QQQ",
+  "symbol": "TQQQON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "TQQQon"
+}

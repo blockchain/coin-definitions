@@ -1,0 +1,10 @@
+{
+  "id": "0xc16f47c4a7ed39372b9a0e3e2016cede9b4cb83a",
+  "name": "VanEck Rare Earth and Strategic Metals ETF",
+  "symbol": "REMXON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "REMXon"
+}

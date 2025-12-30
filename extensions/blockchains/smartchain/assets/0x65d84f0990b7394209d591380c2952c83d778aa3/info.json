@@ -1,0 +1,10 @@
+{
+  "id": "0x65d84f0990b7394209d591380c2952c83d778aa3",
+  "name": "Constellation Energy",
+  "symbol": "CEGON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "CEGon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x71507068e98049cba81e9bbc8d901e4a2f4222eb",
+  "name": "SoFi Technologies",
+  "symbol": "SOFION",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "SOFIon"
+}
