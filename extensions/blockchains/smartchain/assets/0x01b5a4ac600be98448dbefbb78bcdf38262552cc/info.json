@@ -1,0 +1,10 @@
+{
+  "id": "0x01b5a4ac600be98448dbefbb78bcdf38262552cc",
+  "name": "Occidental Petroleum",
+  "symbol": "OXYON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "OXYon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0xfc263946439b0d802bf4c5a6fcd34e2885259f91",
+  "name": "KLA",
+  "symbol": "KLACON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "KLACon"
+}

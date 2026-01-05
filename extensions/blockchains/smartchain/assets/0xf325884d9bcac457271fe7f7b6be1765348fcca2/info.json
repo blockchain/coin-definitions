@@ -1,0 +1,10 @@
+{
+  "id": "0xf325884d9bcac457271fe7f7b6be1765348fcca2",
+  "name": "Snap",
+  "symbol": "SNAPON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "SNAPon"
+}

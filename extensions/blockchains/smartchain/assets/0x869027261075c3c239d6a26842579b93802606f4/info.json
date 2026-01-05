@@ -1,0 +1,10 @@
+{
+  "id": "0x869027261075c3c239d6a26842579b93802606f4",
+  "name": "Merck",
+  "symbol": "MRKON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "MRKon"
+}

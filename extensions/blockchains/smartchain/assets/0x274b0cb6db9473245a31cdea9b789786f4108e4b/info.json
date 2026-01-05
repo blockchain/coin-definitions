@@ -1,0 +1,10 @@
+{
+  "id": "0x274b0cb6db9473245a31cdea9b789786f4108e4b",
+  "name": "Caterpillar",
+  "symbol": "CATON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "CATon"
+}

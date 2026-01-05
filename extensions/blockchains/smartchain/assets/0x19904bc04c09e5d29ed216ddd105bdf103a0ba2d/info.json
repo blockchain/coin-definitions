@@ -1,0 +1,10 @@
+{
+  "id": "0x19904bc04c09e5d29ed216ddd105bdf103a0ba2d",
+  "name": "Coupang",
+  "symbol": "CPNGON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "CPNGon"
+}

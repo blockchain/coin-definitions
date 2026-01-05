@@ -1,0 +1,10 @@
+{
+  "id": "0xc2dd31b1b3a2f515ce0d48de712c6744c3475170",
+  "name": "Vanguard Value ETF",
+  "symbol": "VTVON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "VTVon"
+}

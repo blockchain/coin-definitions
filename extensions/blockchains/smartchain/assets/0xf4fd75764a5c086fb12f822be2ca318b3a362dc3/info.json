@@ -1,0 +1,10 @@
+{
+  "id": "0xf4fd75764a5c086fb12f822be2ca318b3a362dc3",
+  "name": "WisdomTree Floating Rate Treasury Fund",
+  "symbol": "USFRON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "USFRon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x53a8c5fc5643b437779742f494691e6b7c660a8b",
+  "name": "Capital One",
+  "symbol": "COFON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "COFon"
+}

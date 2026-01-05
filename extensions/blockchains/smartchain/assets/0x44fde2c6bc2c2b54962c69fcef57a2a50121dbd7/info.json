@@ -1,0 +1,10 @@
+{
+  "id": "0x44fde2c6bc2c2b54962c69fcef57a2a50121dbd7",
+  "name": "RTX",
+  "symbol": "RTXON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "RTXon"
+}

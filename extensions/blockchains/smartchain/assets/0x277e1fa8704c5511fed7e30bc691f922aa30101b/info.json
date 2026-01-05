@@ -1,0 +1,10 @@
+{
+  "id": "0x277e1fa8704c5511fed7e30bc691f922aa30101b",
+  "name": "Rivian Automotive",
+  "symbol": "RIVNON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "RIVNon"
+}

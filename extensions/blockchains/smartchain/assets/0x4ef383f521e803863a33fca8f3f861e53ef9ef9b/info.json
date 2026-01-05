@@ -1,0 +1,10 @@
+{
+  "id": "0x4ef383f521e803863a33fca8f3f861e53ef9ef9b",
+  "name": "iShares AAA CLO Active ETF",
+  "symbol": "CLOAON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "CLOAon"
+}
