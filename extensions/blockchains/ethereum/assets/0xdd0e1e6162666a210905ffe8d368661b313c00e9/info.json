@@ -1,0 +1,9 @@
+{
+  "name": "Johnson & Johnson",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "JNJON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xdd0e1e6162666a210905ffe8d368661b313c00e9"
+}

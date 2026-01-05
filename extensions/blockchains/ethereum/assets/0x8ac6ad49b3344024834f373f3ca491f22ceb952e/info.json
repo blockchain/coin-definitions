@@ -1,0 +1,9 @@
+{
+  "name": "B2Gold",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "BTGON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x8ac6ad49b3344024834f373f3ca491f22ceb952e"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Bilibili",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "BILION",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x7e08ce07aca80cefe61ebbfa0cedfe5c7b07edb9"
+}

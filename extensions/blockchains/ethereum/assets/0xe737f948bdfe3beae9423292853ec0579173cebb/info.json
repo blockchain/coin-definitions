@@ -1,0 +1,9 @@
+{
+  "name": "Charles Schwab",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "SCHWON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xe737f948bdfe3beae9423292853ec0579173cebb"
+}
