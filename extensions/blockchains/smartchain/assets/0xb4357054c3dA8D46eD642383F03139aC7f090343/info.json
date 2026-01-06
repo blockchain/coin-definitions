@@ -1,0 +1,10 @@
+{
+  "name": "Old Port3 Network",
+  "type": "ERC20",
+  "symbol": "PORT3.BNB",
+  "displaySymbol": "OLDPORT3",
+  "decimals": 18,
+  "website": "https://port3.io",
+  "status": "active",
+  "id": "0xb4357054c3dA8D46eD642383F03139aC7f090343"
+}
