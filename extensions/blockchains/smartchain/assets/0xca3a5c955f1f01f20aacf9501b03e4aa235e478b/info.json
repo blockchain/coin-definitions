@@ -1,0 +1,10 @@
+{
+  "id": "0xca3a5c955f1f01f20aacf9501b03e4aa235e478b",
+  "name": "Texas Instruments",
+  "symbol": "TXNON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "TXNon"
+}

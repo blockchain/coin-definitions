@@ -1,0 +1,10 @@
+{
+  "id": "0x158734153f354cb326ee690c3d55f810dcb0fc90",
+  "name": "Vanguard Total Stock Market ETF",
+  "symbol": "VTION",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "VTIon"
+}

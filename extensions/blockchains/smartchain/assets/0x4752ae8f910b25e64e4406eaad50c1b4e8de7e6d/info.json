@@ -1,0 +1,10 @@
+{
+  "id": "0x4752ae8f910b25e64e4406eaad50c1b4e8de7e6d",
+  "name": "Plug Power",
+  "symbol": "PLUGON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "PLUGon"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Home Depot",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "HDON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x7dbd435aa4ecab5471cfcef4527a022fef0b7e1c"
+}

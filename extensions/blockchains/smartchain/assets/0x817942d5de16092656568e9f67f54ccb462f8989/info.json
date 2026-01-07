@@ -1,0 +1,10 @@
+{
+  "id": "0x817942d5de16092656568e9f67f54ccb462f8989",
+  "name": "Gemini Space Station",
+  "symbol": "GEMION",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "GEMIon"
+}

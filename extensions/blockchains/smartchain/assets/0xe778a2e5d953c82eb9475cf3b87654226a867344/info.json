@@ -1,0 +1,10 @@
+{
+  "id": "0xe778a2e5d953c82eb9475cf3b87654226a867344",
+  "name": "Block",
+  "symbol": "XYZON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "XYZon"
+}

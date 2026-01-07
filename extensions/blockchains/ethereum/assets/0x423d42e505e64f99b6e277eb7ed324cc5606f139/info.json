@@ -1,0 +1,9 @@
+{
+  "name": "SPDR Gold Shares",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "GLDON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x423d42e505e64f99b6e277eb7ed324cc5606f139"
+}

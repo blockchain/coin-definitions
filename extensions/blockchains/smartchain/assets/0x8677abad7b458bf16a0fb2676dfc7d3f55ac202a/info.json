@@ -1,0 +1,10 @@
+{
+  "id": "0x8677abad7b458bf16a0fb2676dfc7d3f55ac202a",
+  "name": "AbbVie",
+  "symbol": "ABBVON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "ABBVon"
+}

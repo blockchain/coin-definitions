@@ -1,0 +1,10 @@
+{
+  "id": "0x94174e3d1335db402dd03a092f7aa7ac2cb32be4",
+  "name": "United States Oil Fund",
+  "symbol": "USOON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "USOon"
+}

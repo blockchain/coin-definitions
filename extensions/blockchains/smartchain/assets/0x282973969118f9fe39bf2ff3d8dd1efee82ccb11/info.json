@@ -1,0 +1,10 @@
+{
+  "id": "0x282973969118f9fe39bf2ff3d8dd1efee82ccb11",
+  "name": "NetEase",
+  "symbol": "NTESON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "NTESon"
+}

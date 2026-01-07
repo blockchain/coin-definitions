@@ -1,0 +1,10 @@
+{
+  "id": "0xc008c5f579ec1450f20099c39f587547e27c7523",
+  "name": "iShares 0-3 Month Treasury Bond ETF",
+  "symbol": "SGOVON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "SGOVon"
+}

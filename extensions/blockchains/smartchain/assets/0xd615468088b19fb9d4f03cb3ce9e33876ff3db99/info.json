@@ -1,0 +1,10 @@
+{
+  "id": "0xd615468088b19fb9d4f03cb3ce9e33876ff3db99",
+  "name": "Bank of America",
+  "symbol": "BACON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "BACon"
+}
