@@ -3,7 +3,7 @@ import glob
 import itertools
 import json
 import sys
-from dataclasses import asdict
+from dataclasses import asdict, replace
 from datetime import datetime
 from urllib.parse import urljoin
 
@@ -226,6 +226,9 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     extensions = [Asset.from_dict(info) for key, info in read_assets(extensions_path)]
     extensions = map(lambda ext: Token.from_asset(ext, network.chain), extensions)
     tokens = sorted(set(extensions) | set(tokens), key=lambda t: t.address)
+
+    # We make sure all new tokens are uppercase
+    tokens = [replace(t, symbol=t.symbol.upper()) for t in tokens]
 
     print(f"Reading existing assets in {network.output_file}")
     current_tokens = list(
