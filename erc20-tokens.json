@@ -23735,11 +23735,11 @@
     {
         "address": "0xcc7ab8d78dBA187dC95bF3bB86e65E0C26d0041f",
         "decimals": 18,
-        "displaySymbol": "SPACE",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xcc7ab8d78dBA187dC95bF3bB86e65E0C26d0041f/logo.png",
+        "displaySymbol": "OLDSPACE",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xcc7ab8d78dBA187dC95bF3bB86e65E0C26d0041f/logo.png",
         "name": "Spacelens",
-        "symbol": "SPACE",
-        "website": "https://spacetoken.spacelens.com/"
+        "symbol": "OLDSPACE",
+        "website": "https://spacetoken.spacelens.com"
     },
     {
         "address": "0xccB365D2e11aE4D6d74715c680f56cf58bF4bF10",
