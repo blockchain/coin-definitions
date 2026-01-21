@@ -14121,6 +14121,15 @@
         "website": "https://www.agorahub.io/"
     },
     {
+        "address": "0x87acFA3fD7A6e0d48677D070644D76905C2bDC00",
+        "decimals": 18,
+        "displaySymbol": "SPACE",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x87acFA3fD7A6e0d48677D070644D76905C2bDC00/logo.png",
+        "name": "Spacecoin",
+        "symbol": "SPACE",
+        "website": "https://spacecoin.org"
+    },
+    {
         "address": "0x87eDfFDe3E14c7a66c9b9724747a1C5696b742e6",
         "decimals": 18,
         "displaySymbol": "SWAG",
@@ -23735,11 +23744,11 @@
     {
         "address": "0xcc7ab8d78dBA187dC95bF3bB86e65E0C26d0041f",
         "decimals": 18,
-        "displaySymbol": "SPACE",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xcc7ab8d78dBA187dC95bF3bB86e65E0C26d0041f/logo.png",
+        "displaySymbol": "OLDSPACE",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xcc7ab8d78dBA187dC95bF3bB86e65E0C26d0041f/logo.png",
         "name": "Spacelens",
-        "symbol": "SPACE",
-        "website": "https://spacetoken.spacelens.com/"
+        "symbol": "OLDSPACE",
+        "website": "https://spacetoken.spacelens.com"
     },
     {
         "address": "0xccB365D2e11aE4D6d74715c680f56cf58bF4bF10",
