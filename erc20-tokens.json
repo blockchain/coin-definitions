@@ -14121,6 +14121,15 @@
         "website": "https://www.agorahub.io/"
     },
     {
+        "address": "0x87acFA3fD7A6e0d48677D070644D76905C2bDC00",
+        "decimals": 18,
+        "displaySymbol": "SPACE",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x87acFA3fD7A6e0d48677D070644D76905C2bDC00/logo.png",
+        "name": "Spacecoin",
+        "symbol": "SPACE",
+        "website": "https://spacetoken.spacelens.com/"
+    },
+    {
         "address": "0x87eDfFDe3E14c7a66c9b9724747a1C5696b742e6",
         "decimals": 18,
         "displaySymbol": "SWAG",

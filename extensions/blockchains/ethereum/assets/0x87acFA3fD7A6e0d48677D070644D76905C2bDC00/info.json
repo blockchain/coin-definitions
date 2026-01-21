@@ -1,0 +1,12 @@
+{
+    "name": "Spacecoin",
+    "type": "ERC20",
+    "symbol": "SPACE",
+    "displaySymbol": "SPACE",
+    "decimals": 18,
+    "website": "https://spacecoin.org",
+    "description": "SPACE is the native utility and governance token of Spacecoin",
+    "explorer": "https://etherscan.io/token/0x87acFA3fD7A6e0d48677D070644D76905C2bDC00",
+    "status": "active",
+    "id": "0x87acFA3fD7A6e0d48677D070644D76905C2bDC00"
+}
