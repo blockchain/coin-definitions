@@ -1,0 +1,10 @@
+{
+    "name": "BitGo Holdings",
+    "website": "https://ondo.finance/",
+    "type": "ERC20",
+    "symbol": "BTGOON",
+    "decimals": 18,
+    "status": "active",
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/smartchain/assets/0x5fA699c0c1319b8D86489AF77dFDe4Fa97B47DF8/logo.png",
+    "id": "0x510Dd21055188Eda378714DE3bb5591Ffa0CC468"
+  }

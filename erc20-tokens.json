@@ -8892,6 +8892,15 @@
         "website": "https://www.leadcoin.network/"
     },
     {
+        "address": "0x510Dd21055188Eda378714DE3bb5591Ffa0CC468",
+        "decimals": 18,
+        "displaySymbol": "BTGOON",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x510Dd21055188Eda378714DE3bb5591Ffa0CC468/logo.png",
+        "name": "BitGo Holdings",
+        "symbol": "BTGOON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
         "decimals": 18,
         "displaySymbol": "LINK",

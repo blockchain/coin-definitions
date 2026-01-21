@@ -1,0 +1,10 @@
+{
+    "id": "0x5fA699c0c1319b8D86489AF77dFDe4Fa97B47DF8",
+    "name": "BitGo Holdings",
+    "symbol": "BTGOON",
+    "type": "BEP20",
+    "decimals": 18,
+    "status": "active",
+    "website": "https://ondo.finance/",
+    "displaySymbol": "BTGOon"
+  }
