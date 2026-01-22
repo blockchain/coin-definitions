@@ -1,0 +1,10 @@
+{
+  "name": "McDonald's",
+  "displaySymbol": "MCDon",
+  "symbol": "MCDON",
+  "id": "EUbJjmDt8JA222M91bVLZs211siZ2jzbFArH9N3ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

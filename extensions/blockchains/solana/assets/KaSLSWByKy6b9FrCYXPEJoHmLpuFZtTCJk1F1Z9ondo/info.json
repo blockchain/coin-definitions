@@ -1,0 +1,10 @@
+{
+  "name": "iShares 20+ Year Treasury Bond ETF",
+  "displaySymbol": "TLTon",
+  "symbol": "TLTON",
+  "id": "KaSLSWByKy6b9FrCYXPEJoHmLpuFZtTCJk1F1Z9ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

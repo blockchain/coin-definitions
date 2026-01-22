@@ -1,0 +1,10 @@
+{
+  "name": "ASML Holding NV",
+  "displaySymbol": "ASMLon",
+  "symbol": "ASMLON",
+  "id": "1eLZPRsn8bAKmoxsqDMH9Q2m2k7GMNp6RLSQGm8ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

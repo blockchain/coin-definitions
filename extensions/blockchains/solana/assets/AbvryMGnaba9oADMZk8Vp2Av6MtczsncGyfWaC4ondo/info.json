@@ -1,0 +1,10 @@
+{
+  "name": "iShares MSCI EAFE ETF",
+  "displaySymbol": "EFAon",
+  "symbol": "EFAON",
+  "id": "AbvryMGnaba9oADMZk8Vp2Av6MtczsncGyfWaC4ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

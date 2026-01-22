@@ -1,0 +1,10 @@
+{
+  "name": "Petrobras",
+  "displaySymbol": "PBRon",
+  "symbol": "PBRON",
+  "id": "GRciFCqJ5y2hbiD6U5mGkohY65BZTXGuGUrCqf7ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

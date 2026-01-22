@@ -1,0 +1,10 @@
+{
+  "name": "Wells Fargo",
+  "displaySymbol": "WFCon",
+  "symbol": "WFCON",
+  "id": "L6ZE5qCpVVSqLePz64CrwkgyWoPF9M7tB8BeFH4ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

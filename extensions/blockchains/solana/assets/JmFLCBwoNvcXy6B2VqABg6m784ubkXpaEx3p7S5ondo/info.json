@@ -1,0 +1,10 @@
+{
+  "name": "Snowflake",
+  "displaySymbol": "SNOWon",
+  "symbol": "SNOWON",
+  "id": "JmFLCBwoNvcXy6B2VqABg6m784ubkXpaEx3p7S5ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

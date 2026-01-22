@@ -1,0 +1,10 @@
+{
+  "name": "Merck",
+  "displaySymbol": "MRKon",
+  "symbol": "MRKON",
+  "id": "bn1fb8dwzafGePqNPrM8m8cbAKQiFqeEPuZkPySondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

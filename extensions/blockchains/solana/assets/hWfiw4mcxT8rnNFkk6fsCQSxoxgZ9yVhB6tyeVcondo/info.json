@@ -1,0 +1,10 @@
+{
+  "name": "SPDR Gold Shares",
+  "displaySymbol": "GLDon",
+  "symbol": "GLDON",
+  "id": "hWfiw4mcxT8rnNFkk6fsCQSxoxgZ9yVhB6tyeVcondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

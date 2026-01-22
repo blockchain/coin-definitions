@@ -1,0 +1,10 @@
+{
+  "name": "Chipotle",
+  "displaySymbol": "CMGon",
+  "symbol": "CMGON",
+  "id": "5owVsVFSHACQuippFYdLp3qWRobp2EGcwxMmsr6ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

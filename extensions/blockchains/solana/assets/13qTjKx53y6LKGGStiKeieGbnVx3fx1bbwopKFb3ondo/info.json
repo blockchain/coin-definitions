@@ -1,0 +1,10 @@
+{
+  "name": "iShares Core US Aggregate Bond ETF",
+  "displaySymbol": "AGGon",
+  "symbol": "AGGON",
+  "id": "13qTjKx53y6LKGGStiKeieGbnVx3fx1bbwopKFb3ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

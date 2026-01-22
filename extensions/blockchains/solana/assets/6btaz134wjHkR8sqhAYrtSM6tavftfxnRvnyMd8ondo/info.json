@@ -1,0 +1,10 @@
+{
+  "name": "Costco",
+  "displaySymbol": "COSTon",
+  "symbol": "COSTON",
+  "id": "6btaz134wjHkR8sqhAYrtSM6tavftfxnRvnyMd8ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

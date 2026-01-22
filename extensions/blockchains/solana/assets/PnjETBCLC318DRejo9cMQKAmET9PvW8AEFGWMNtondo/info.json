@@ -1,0 +1,10 @@
+{
+  "name": "PDD Holdings",
+  "displaySymbol": "PDDon",
+  "symbol": "PDDON",
+  "id": "PnjETBCLC318DRejo9cMQKAmET9PvW8AEFGWMNtondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

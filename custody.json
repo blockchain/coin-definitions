@@ -1585,6 +1585,15 @@
     }
   },
   {
+    "symbol": "SPACE",
+    "displaySymbol": "SPACE",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "SPX",
     "displaySymbol": "SPX",
     "type": "ERC20",

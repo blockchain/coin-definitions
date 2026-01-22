@@ -1,0 +1,10 @@
+{
+  "name": "Robinhood Markets",
+  "displaySymbol": "HOODon",
+  "symbol": "HOODON",
+  "id": "BVdXGvmgi6A9oAiwWvBvP76fyTqcCNRJMM7zMN6ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

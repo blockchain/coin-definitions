@@ -1,0 +1,10 @@
+{
+  "name": "Boeing",
+  "displaySymbol": "BAon",
+  "symbol": "BAON",
+  "id": "1YVZ4LGpq8CAhpdpm3mgy7GgPb83gJczCpxLUQ3ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Apple",
+  "displaySymbol": "AAPLon",
+  "symbol": "AAPLON",
+  "id": "123mYEnRLM2LLYsJW3K6oyYh8uP1fngj732iG638ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

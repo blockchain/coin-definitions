@@ -1,0 +1,10 @@
+{
+  "name": "iShares Core S&P MidCap ETF",
+  "displaySymbol": "IJHon",
+  "symbol": "IJHON",
+  "id": "cfPLN9WXD2BTkbZhRZMVXPmVSiRo44hJWRtnaC8ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

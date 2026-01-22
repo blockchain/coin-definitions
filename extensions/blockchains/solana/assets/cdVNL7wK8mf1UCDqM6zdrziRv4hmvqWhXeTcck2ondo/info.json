@@ -1,0 +1,10 @@
+{
+  "name": "iShares Core MSCI Emerging Markets ETF",
+  "displaySymbol": "IEMGon",
+  "symbol": "IEMGON",
+  "id": "cdVNL7wK8mf1UCDqM6zdrziRv4hmvqWhXeTcck2ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}
