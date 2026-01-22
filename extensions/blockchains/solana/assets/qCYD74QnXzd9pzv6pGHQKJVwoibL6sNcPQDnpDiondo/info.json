@@ -1,0 +1,10 @@
+{
+  "name": "Exxon Mobil",
+  "displaySymbol": "XOMon",
+  "symbol": "XOMON",
+  "id": "qCYD74QnXzd9pzv6pGHQKJVwoibL6sNcPQDnpDiondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

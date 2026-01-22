@@ -1,0 +1,10 @@
+{
+  "name": "SPDR S&P 500 ETF",
+  "displaySymbol": "SPYon",
+  "symbol": "SPYON",
+  "id": "k18WJUULWheRkSpSquYGdNNmtuE2Vbw1hpuUi92ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Reddit",
+  "displaySymbol": "RDDTon",
+  "symbol": "RDDTON",
+  "id": "HXFrTf9v9NdjGUTnx4sojR3Cf92hoBsQFUxKTN7ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

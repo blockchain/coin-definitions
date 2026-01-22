@@ -1,0 +1,10 @@
+{
+  "name": "Lowe's",
+  "displaySymbol": "LOWon",
+  "symbol": "LOWON",
+  "id": "edLdFJVVR532qhcrNTJjLAmhmyV7NsctbWVokMBondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

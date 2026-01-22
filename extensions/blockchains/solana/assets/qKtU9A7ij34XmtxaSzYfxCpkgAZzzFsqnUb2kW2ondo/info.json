@@ -1,0 +1,10 @@
+{
+  "name": "ProShares Short QQQ",
+  "displaySymbol": "PSQon",
+  "symbol": "PSQON",
+  "id": "qKtU9A7ij34XmtxaSzYfxCpkgAZzzFsqnUb2kW2ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

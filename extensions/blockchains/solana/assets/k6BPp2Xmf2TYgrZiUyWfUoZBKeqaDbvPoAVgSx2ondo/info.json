@@ -1,0 +1,10 @@
+{
+  "name": "iShares TIPS Bond ETF",
+  "displaySymbol": "TIPon",
+  "symbol": "TIPON",
+  "id": "k6BPp2Xmf2TYgrZiUyWfUoZBKeqaDbvPoAVgSx2ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

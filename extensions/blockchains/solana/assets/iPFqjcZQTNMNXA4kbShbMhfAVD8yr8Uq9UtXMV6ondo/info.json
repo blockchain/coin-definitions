@@ -1,0 +1,10 @@
+{
+  "name": "Starbucks",
+  "displaySymbol": "SBUXon",
+  "symbol": "SBUXON",
+  "id": "iPFqjcZQTNMNXA4kbShbMhfAVD8yr8Uq9UtXMV6ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

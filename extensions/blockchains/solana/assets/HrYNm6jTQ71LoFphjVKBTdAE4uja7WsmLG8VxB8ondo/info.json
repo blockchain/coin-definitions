@@ -1,0 +1,10 @@
+{
+  "name": "Invesco QQQ",
+  "displaySymbol": "QQQon",
+  "symbol": "QQQON",
+  "id": "HrYNm6jTQ71LoFphjVKBTdAE4uja7WsmLG8VxB8ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

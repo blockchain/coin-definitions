@@ -1,0 +1,10 @@
+{
+  "name": "Oracle",
+  "displaySymbol": "ORCLon",
+  "symbol": "ORCLON",
+  "id": "GmDADFpfwjfzZq9MfCafMDTS69MgVjtzD7Fd9a4ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

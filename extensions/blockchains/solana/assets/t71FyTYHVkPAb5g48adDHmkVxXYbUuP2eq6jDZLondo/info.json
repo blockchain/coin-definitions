@@ -1,0 +1,10 @@
+{
+  "name": "iShares AAA CLO Active ETF",
+  "displaySymbol": "CLOAon",
+  "symbol": "CLOAON",
+  "id": "t71FyTYHVkPAb5g48adDHmkVxXYbUuP2eq6jDZLondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "JD.com",
+  "displaySymbol": "JDon",
+  "symbol": "JDON",
+  "id": "E1aUS5nyv7kaBzdQzPVJW5zfaMgoUJpKYzdnFS2ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

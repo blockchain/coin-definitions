@@ -1,0 +1,10 @@
+{
+  "name": "iShares Russell 2000 Value ETF",
+  "displaySymbol": "IWNon",
+  "symbol": "IWNON",
+  "id": "DX7g7WNjDpVzNK9CG81v7wb6ZbiNzYfkdzH2Xs5ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

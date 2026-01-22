@@ -1,0 +1,10 @@
+{
+  "name": "Bilibili",
+  "displaySymbol": "BILIon",
+  "symbol": "BILION",
+  "id": "14kLsQVmc64qZexYuR4XGop9y8BeMkd77pJUm1Rhondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

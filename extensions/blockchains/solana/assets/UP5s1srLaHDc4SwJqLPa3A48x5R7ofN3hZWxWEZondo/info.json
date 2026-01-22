@@ -1,0 +1,10 @@
+{
+  "name": "PG&E",
+  "displaySymbol": "PCGon",
+  "symbol": "PCGON",
+  "id": "UP5s1srLaHDc4SwJqLPa3A48x5R7ofN3hZWxWEZondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

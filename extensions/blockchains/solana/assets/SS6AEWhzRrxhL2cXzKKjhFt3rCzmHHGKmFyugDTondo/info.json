@@ -1,0 +1,10 @@
+{
+  "name": "Amgen",
+  "displaySymbol": "AMGNon",
+  "symbol": "AMGNON",
+  "id": "SS6AEWhzRrxhL2cXzKKjhFt3rCzmHHGKmFyugDTondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

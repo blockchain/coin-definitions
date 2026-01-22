@@ -1,0 +1,10 @@
+{
+  "name": "Walmart",
+  "displaySymbol": "WMTon",
+  "symbol": "WMTON",
+  "id": "LZddqAqKqJW9oMZSjTxCUmbmzBRQtv9gMkD9hZ3ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

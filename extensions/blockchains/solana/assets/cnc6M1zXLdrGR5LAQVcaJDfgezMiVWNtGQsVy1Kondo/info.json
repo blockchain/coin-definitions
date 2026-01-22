@@ -1,0 +1,10 @@
+{
+  "name": "Charles Schwab",
+  "displaySymbol": "SCHWon",
+  "symbol": "SCHWON",
+  "id": "cnc6M1zXLdrGR5LAQVcaJDfgezMiVWNtGQsVy1Kondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

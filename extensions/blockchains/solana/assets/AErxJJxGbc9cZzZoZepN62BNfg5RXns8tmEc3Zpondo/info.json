@@ -1,0 +1,10 @@
+{
+  "name": "Caterpillar",
+  "displaySymbol": "CATon",
+  "symbol": "CATON",
+  "id": "AErxJJxGbc9cZzZoZepN62BNfg5RXns8tmEc3Zpondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

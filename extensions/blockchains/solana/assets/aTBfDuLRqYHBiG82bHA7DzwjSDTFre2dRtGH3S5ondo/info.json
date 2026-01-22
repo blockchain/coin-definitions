@@ -1,0 +1,10 @@
+{
+  "name": "General Electric",
+  "displaySymbol": "GEon",
+  "symbol": "GEON",
+  "id": "aTBfDuLRqYHBiG82bHA7DzwjSDTFre2dRtGH3S5ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

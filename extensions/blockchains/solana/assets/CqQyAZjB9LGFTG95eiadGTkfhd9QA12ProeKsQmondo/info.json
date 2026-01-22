@@ -1,0 +1,10 @@
+{
+  "name": "Deere",
+  "displaySymbol": "DEon",
+  "symbol": "DEON",
+  "id": "CqQyAZjB9LGFTG95eiadGTkfhd9QA12ProeKsQmondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

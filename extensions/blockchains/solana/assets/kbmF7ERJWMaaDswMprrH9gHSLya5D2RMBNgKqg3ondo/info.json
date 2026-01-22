@@ -1,0 +1,10 @@
+{
+  "name": "Toyota",
+  "displaySymbol": "TMon",
+  "symbol": "TMON",
+  "id": "kbmF7ERJWMaaDswMprrH9gHSLya5D2RMBNgKqg3ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

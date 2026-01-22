@@ -1,0 +1,10 @@
+{
+  "name": "Vanguard Value ETF",
+  "displaySymbol": "VTVon",
+  "symbol": "VTVON",
+  "id": "KuiYLPVq65qixD9TgvxBC576C4gG6vVTCdbh2zFondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

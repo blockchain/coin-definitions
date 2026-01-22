@@ -1,0 +1,10 @@
+{
+  "name": "Johnson & Johnson",
+  "displaySymbol": "JNJon",
+  "symbol": "JNJON",
+  "id": "KUXt7LzHWSQXp5eyqMZRxWjAP6yM8BUh4LRHwiwondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}
