@@ -1,0 +1,10 @@
+{
+  "name": "iShares Gold Trust",
+  "displaySymbol": "IAUon",
+  "symbol": "IAUON",
+  "id": "M77ZvkZ8zW5udRbuJCbuwSwavRa7bGAZYMTwru8ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

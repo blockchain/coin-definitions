@@ -1,0 +1,10 @@
+{
+  "name": "American Express",
+  "displaySymbol": "AXPon",
+  "symbol": "AXPON",
+  "id": "1WxT6NdK7uqpfXuKpALxL2n3f7Rq61XXeHA8UM4ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

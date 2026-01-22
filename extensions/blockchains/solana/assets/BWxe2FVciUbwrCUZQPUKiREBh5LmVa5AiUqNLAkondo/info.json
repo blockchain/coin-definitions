@@ -1,0 +1,10 @@
+{
+  "name": "Block",
+  "displaySymbol": "XYZon",
+  "symbol": "XYZON",
+  "id": "BWxe2FVciUbwrCUZQPUKiREBh5LmVa5AiUqNLAkondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

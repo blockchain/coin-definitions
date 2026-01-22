@@ -1,0 +1,10 @@
+{
+  "name": "VanEck CLO ETF",
+  "displaySymbol": "CLOIon",
+  "symbol": "CLOION",
+  "id": "ucQ3VfWAx9pkCN4Kg84zE56FtB4FJN2kQH4ArYYondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

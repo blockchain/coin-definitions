@@ -1,0 +1,10 @@
+{
+  "name": "Goldman Sachs",
+  "displaySymbol": "GSon",
+  "symbol": "GSON",
+  "id": "BchJRy2snmhJZf3rQ9LJ3ePs2BGfYgfvQNo31d2ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

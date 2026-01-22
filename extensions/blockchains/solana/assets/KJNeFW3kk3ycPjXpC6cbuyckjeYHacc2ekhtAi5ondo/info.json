@@ -1,0 +1,10 @@
+{
+  "name": "Uber",
+  "displaySymbol": "UBERon",
+  "symbol": "UBERON",
+  "id": "KJNeFW3kk3ycPjXpC6cbuyckjeYHacc2ekhtAi5ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

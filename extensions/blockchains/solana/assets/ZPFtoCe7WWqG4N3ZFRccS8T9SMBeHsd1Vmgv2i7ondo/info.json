@@ -1,0 +1,10 @@
+{
+  "name": "Ondo U.S. Dollar Toke",
+  "displaySymbol": "USDon",
+  "symbol": "USDON",
+  "id": "ZPFtoCe7WWqG4N3ZFRccS8T9SMBeHsd1Vmgv2i7ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

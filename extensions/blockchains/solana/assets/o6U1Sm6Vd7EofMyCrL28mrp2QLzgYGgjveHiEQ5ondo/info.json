@@ -1,0 +1,10 @@
+{
+  "name": "WisdomTree Floating Rate Treasury Fund",
+  "displaySymbol": "USFRon",
+  "symbol": "USFRON",
+  "id": "o6U1Sm6Vd7EofMyCrL28mrp2QLzgYGgjveHiEQ5ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

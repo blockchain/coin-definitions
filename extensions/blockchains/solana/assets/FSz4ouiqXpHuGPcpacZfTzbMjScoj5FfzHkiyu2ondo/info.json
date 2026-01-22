@@ -1,0 +1,10 @@
+{
+  "name": "MicroStrategy",
+  "displaySymbol": "MSTRon",
+  "symbol": "MSTRON",
+  "id": "FSz4ouiqXpHuGPcpacZfTzbMjScoj5FfzHkiyu2ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

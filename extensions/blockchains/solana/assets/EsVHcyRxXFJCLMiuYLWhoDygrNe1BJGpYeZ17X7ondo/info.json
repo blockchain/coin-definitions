@@ -1,0 +1,10 @@
+{
+  "name": "Mastercard",
+  "displaySymbol": "MAon",
+  "symbol": "MAON",
+  "id": "EsVHcyRxXFJCLMiuYLWhoDygrNe1BJGpYeZ17X7ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

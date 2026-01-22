@@ -1,0 +1,10 @@
+{
+  "name": "JPMorgan Chase",
+  "displaySymbol": "JPMon",
+  "symbol": "JPMON",
+  "id": "E5Gczsavxcomqf6Cw1sGCKLabL1xYD2FzKxVoB4ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

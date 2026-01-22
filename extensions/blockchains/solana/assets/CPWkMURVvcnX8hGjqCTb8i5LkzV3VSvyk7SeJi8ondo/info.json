@@ -1,0 +1,10 @@
+{
+  "name": "iShares Core S&P Total US Stock Market ETF",
+  "displaySymbol": "ITOTon",
+  "symbol": "ITOTON",
+  "id": "CPWkMURVvcnX8hGjqCTb8i5LkzV3VSvyk7SeJi8ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

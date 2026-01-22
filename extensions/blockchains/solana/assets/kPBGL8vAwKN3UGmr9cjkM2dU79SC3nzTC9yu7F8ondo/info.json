@@ -1,0 +1,10 @@
+{
+  "name": "UnitedHealth",
+  "displaySymbol": "UNHon",
+  "symbol": "UNHON",
+  "id": "kPBGL8vAwKN3UGmr9cjkM2dU79SC3nzTC9yu7F8ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

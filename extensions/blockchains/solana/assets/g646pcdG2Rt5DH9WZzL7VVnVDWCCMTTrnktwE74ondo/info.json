@@ -1,0 +1,10 @@
+{
+  "name": "Nike",
+  "displaySymbol": "NKEon",
+  "symbol": "NKEON",
+  "id": "g646pcdG2Rt5DH9WZzL7VVnVDWCCMTTrnktwE74ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

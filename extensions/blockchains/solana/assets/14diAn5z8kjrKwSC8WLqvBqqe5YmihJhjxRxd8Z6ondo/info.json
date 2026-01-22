@@ -1,0 +1,10 @@
+{
+  "name": "AMD",
+  "displaySymbol": "AMDon",
+  "symbol": "AMDON",
+  "id": "14diAn5z8kjrKwSC8WLqvBqqe5YmihJhjxRxd8Z6ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

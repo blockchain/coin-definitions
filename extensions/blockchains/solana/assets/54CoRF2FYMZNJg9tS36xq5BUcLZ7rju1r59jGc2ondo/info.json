@@ -1,0 +1,10 @@
+{
+  "name": "Baidu",
+  "displaySymbol": "BIDUon",
+  "symbol": "BIDUON",
+  "id": "54CoRF2FYMZNJg9tS36xq5BUcLZ7rju1r59jGc2ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

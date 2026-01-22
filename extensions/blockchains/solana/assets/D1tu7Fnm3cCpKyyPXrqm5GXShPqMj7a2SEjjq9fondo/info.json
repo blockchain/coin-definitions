@@ -1,0 +1,10 @@
+{
+  "name": "ProShares UltraPro Short QQQ",
+  "displaySymbol": "SQQQon",
+  "symbol": "SQQQON",
+  "id": "D1tu7Fnm3cCpKyyPXrqm5GXShPqMj7a2SEjjq9fondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

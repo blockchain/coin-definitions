@@ -1,0 +1,10 @@
+{
+  "name": "B2Gold",
+  "displaySymbol": "BTGon",
+  "symbol": "BTGON",
+  "id": "cBnVXDyZgaaLZM18wAmqsUKnRUFAEJWbq6VuUoaondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Spotify",
+  "displaySymbol": "SPOTon",
+  "symbol": "SPOTON",
+  "id": "jzCvs2Pk8tDcfsFRqnEMjurgaQW4iQfEkandUR8ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

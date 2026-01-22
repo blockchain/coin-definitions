@@ -1,0 +1,10 @@
+{
+  "name": "Eli Lilly",
+  "displaySymbol": "LLYon",
+  "symbol": "LLYON",
+  "id": "eGGxZwNSfuNKRqQLKaz2hc4QkA2mau7skyxPdj7ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

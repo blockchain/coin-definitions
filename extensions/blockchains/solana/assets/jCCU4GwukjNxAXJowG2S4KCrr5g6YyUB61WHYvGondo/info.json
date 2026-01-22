@@ -1,0 +1,10 @@
+{
+  "name": "Vanguard Total Stock Market ETF",
+  "displaySymbol": "VTIon",
+  "symbol": "VTION",
+  "id": "jCCU4GwukjNxAXJowG2S4KCrr5g6YyUB61WHYvGondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

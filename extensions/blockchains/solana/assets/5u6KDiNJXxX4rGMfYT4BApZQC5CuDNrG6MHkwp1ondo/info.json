@@ -1,0 +1,10 @@
+{
+  "name": "Coinbase",
+  "displaySymbol": "COINon",
+  "symbol": "COINON",
+  "id": "5u6KDiNJXxX4rGMfYT4BApZQC5CuDNrG6MHkwp1ondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

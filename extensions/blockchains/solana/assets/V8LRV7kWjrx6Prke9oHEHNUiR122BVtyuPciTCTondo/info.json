@@ -1,0 +1,10 @@
+{
+  "name": "Sprott Nickel Miners ETF",
+  "displaySymbol": "NIKLon",
+  "symbol": "NIKLON",
+  "id": "V8LRV7kWjrx6Prke9oHEHNUiR122BVtyuPciTCTondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}
