@@ -1561,6 +1561,24 @@
     "hwsSettings": null
   },
   {
+    "symbol": "SNEK.ADA",
+    "displaySymbol": "SNEK",
+    "type": "CARDANO_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 0
+    },
+    "hwsSettings": null
+  },
+  {
+    "symbol": "NIGHT.ADA",
+    "displaySymbol": "NIGHT",
+    "type": "CARDANO_TOKEN",
+    "nabuSettings": {
+      "custodialPrecision": 6
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "SNX",
     "displaySymbol": "SNX",
     "type": "ERC20",
