@@ -224,8 +224,6 @@ def load_ref(
         ref = chains_dict.get("SOL").get(original_symbol)
     elif currency_type == "JETTON":
         ref = chains_dict.get("TON").get(original_symbol)
-    elif currency_type == "CARDANO_TOKEN":
-        ref = chains_dict.get("ADA").get(original_symbol)
     return ref
 
 
