@@ -23732,6 +23732,15 @@
         "symbol": "SPO",
         "website": "https://spores.app/"
     },
+   {
+        "address": "0xda7ad9dea9397cffddae2f8a052b82f1484252b3",
+        "decimals": 18,
+        "displaySymbol": "RIVER",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xcbd55D4fFc43467142761A764763652b48b969ff/logo.png",
+        "name": "AstroTools",
+        "symbol": "TESTVRIVER",
+        "website": "https://app.astrotools.io/"
+    },
     {
         "address": "0xcbd55D4fFc43467142761A764763652b48b969ff",
         "decimals": 18,
