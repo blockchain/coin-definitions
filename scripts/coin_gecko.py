@@ -248,7 +248,7 @@ class CoinGeckoAPIClient:
         coin_infos = CoinGeckoAPIClient.get_coin_info(coin_ids)
         return {coin_id: Description(
             description=BeautifulSoup(coin_info.description['en'], 'html.parser').get_text(),
-            website=coin_info.links.homepage[0]
+            website=coin_info.links.homepage[0] if coin_info.links.homepage else ""
         ) for coin_id, coin_info in coin_infos.items()}
 
 
