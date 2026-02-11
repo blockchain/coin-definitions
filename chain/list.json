@@ -70,5 +70,11 @@
     "displayName": "Cardano",
     "native": "ADA",
     "tokens": "chain/cardano/tokens.json"
+  },
+  {
+    "chain": "hyperliquid",
+    "displayName": "Hyperliquid",
+    "native": "HYPE",
+    "tokens": "chain/hyperliquid/tokens.json"
   }
 ]

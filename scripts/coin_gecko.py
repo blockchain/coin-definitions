@@ -44,6 +44,7 @@ coin_mappings = {
     "FIL": "filecoin",
     "FSN": "fsn",
     "HBAR": "hedera-hashgraph",
+    "HYPE": "hyperliquid",
     "IOTX": "iotex",
     "IRIS": "iris-network",
     "JUNO": "juno-network",
@@ -89,6 +90,7 @@ network_mappings = {
     "CELO": "celo",
     "CHZ": "chiliz",
     "ETH": "ethereum",
+    "HYPE": "hyperevm",
     "MATIC": "polygon-pos",
     "OETH": "optimistic-ethereum",
     "SOL": "solana",
@@ -246,7 +248,7 @@ class CoinGeckoAPIClient:
         coin_infos = CoinGeckoAPIClient.get_coin_info(coin_ids)
         return {coin_id: Description(
             description=BeautifulSoup(coin_info.description['en'], 'html.parser').get_text(),
-            website=coin_info.links.homepage[0]
+            website=coin_info.links.homepage[0] if coin_info.links.homepage else ""
         ) for coin_id, coin_info in coin_infos.items()}
 
 
@@ -368,6 +370,7 @@ def fetch_missing_tokens_for_network(network, tokens):
             address = coin_info.detail_platforms[coingecko_platform].contract_address
             if Web3.is_address(address):
                 address = Web3.to_checksum_address(address)
+            links = coin_info.links.homepage
             new_tokens.append(Token(
                 address=address,
                 decimals=coin_info.detail_platforms[coingecko_platform].decimal_place,
@@ -375,6 +378,6 @@ def fetch_missing_tokens_for_network(network, tokens):
                 logo=coin_info.image.large,
                 name=coin_info.name,
                 symbol=coin_info.symbol.upper(),
-                website=coin_info.links.homepage[0]
+                website=links[0] if links else ""
             ))
     return new_tokens

@@ -100,5 +100,11 @@ NETWORKS = [
         symbol="ADA",
         output_file="chain/cardano/tokens.json",
         explorer_url="https://cardanoscan.com/token/"
-    )
+    ),
+    Network(
+        chain="hyperliquid",
+        symbol="HYPE",
+        output_file="chain/hyperliquid/tokens.json",
+        explorer_url="https://hyperevmscan.io/token/"
+    ),
 ]

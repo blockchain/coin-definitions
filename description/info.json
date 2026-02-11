@@ -1275,6 +1275,11 @@
         "websiteurl": "https://anoncast.org/"
     },
     {
+        "description": "HeyAnon is an AI DeFi protocol designed to simplify DeFi interactions and aggregate essential project-related information. By combining conversational AI with real-time data aggregation, HeyAnon enables users to manage DeFi operations, stay informed about project updates, and analyze trends across various platforms and protocols. It integrates natural language processing to process user prompts, executes complex DeFi actions, and delivers near real-time insights from multiple information streams.",
+        "symbol": "ANON.HYPE",
+        "websiteurl": "https://heyanon.ai/"
+    },
+    {
         "description": "i'm not retarded i'm ansom",
         "symbol": "ANSOM.SOL",
         "websiteurl": "https://ansom.io/"
@@ -3445,6 +3450,11 @@
         "websiteurl": "https://brandpad.finance/"
     },
     {
+        "description": "brBTC is Bedrock's innovative BTC yield product, designed to maximize returns by leveraging multiple restaking protocols. Launching natively on both Ethereum and BNB, brBTC is a Liquid Restaking Token (LRT) that combines the power of diverse BTC derivative assets with Bedrock's advanced restaking strategies.\r\n\r\nWith brBTC, users can deposit a variety of BTC derivatives to generate yield from a curated selection of restaking protocols. This product provides a seamless, efficient, and secure way to earn rewards from BTC assets across two major blockchain ecosystems.",
+        "symbol": "BRBTC.HYPE",
+        "websiteurl": "https://www.bedrock.technology/"
+    },
+    {
         "description": "Blockchains are quickly becoming the modern equivalent of what apps were to smartphones when they took off a decade ago. There\u2019s a blockchain for everything - from cloud storage (Siacoin) to identity verification (Civic). But the original point of Bitcoin, the very cryptocurrency was to overturn the traditional banking system. An interestingly named token - Bread, is here to bring us back on track for this original goal. Bread technology intends to reinvent and revolutionize banking as we know it. By building a blockchain synced, Bitcoin-based wallet, the idea here is to decentralise banking and make it accessible to everyone.\r\n\r\nWith a blockchain connected, easy to use Bitcoin wallet, Bread makes it easy for you to transition to a truly decentralised banking service.It also provides portfolio management tools to offer a comprehensive banking experience. Purchases made using its BRD token attract loyalty points and rewards, giving customers another lucrative reason to use the Bread wallet app.\r\n\r\nBread was officially launched in 2014 itself and even raised VC funding to the tune of $7 million in August 2017. It then went the ICO route in December 2017, where it made available 88 million BRD tokens. $32 million was raised in the price, with BRD being valued at the rate of 900 for every 1 ETH at the time. As of June 2018, just over 6 months later, its value had fallen to above 1600 for every 1 ETH.\r\n\r\nA decentralised banking system was Bitcoin\u2019s original vision that is either taking too long to fruition, or we\u2019ve become an impatient audience. Whatever the case, Bread wants to accelerate the transition. A significant decision the Bread team took was to introduce the BRD token - which, with its cheap rates and loyalty/discount offerings, may emerge as the primary incentive for users joining the platform. If this is indeed the case, expect a spike in the value of the BRD cryptocurrency, something investors right now would be eyeing closely. Having said that, its fall in value since the ICO is certainly a cause for concern, and investors are advised to do their research and analyse before taking decisions.",
         "symbol": "BRD",
         "websiteurl": "https://token.breadapp.com/en/"
@@ -4822,6 +4832,11 @@
     {
         "description": "Deployed on Ethereum layer 1 (L1) and governed by Mantle, mETH Protocol has, since late 2023, been providing users with access to $mETH, a value-accumulating receipt token that is highly composable across a range of DeFi applications on Mantle Network L2, offering exposure to additional yield-bearing opportunities. Users stake ETH with mETH Protocol and receive yield-bearing $mETH, and unstake $mETH to receive the underlying principal staked ETH and accumulated rewards. \r\n\r\nSince the inception of mETH Protocol, Mantle's mission has been to deliver the most user-friendly and rewarding $mETH experience. Thanks to ecosystem-wide adoption, $mETH users are able to trade on Mantle DEXs, earn yield by providing liquidity to $mETH liquidity pools, and generate yield within decentralized money markets. With $mETH's increasing adoption and composability within Mantle Ecosystem dApps, the protocol now ranks as the fourth largest ETH LSP by TVL. The introduction of $cmETH, a permissionless, composable liquid restaking token that unlocks restaking opportunities on Mantle, and $COOK, the protocol's upcoming governance token, mETH Protocol enters its next phase with further enhanced offerings. Through these features, mETH Protocol provides its users with capital efficiency, convenience, and a wide range of yield-bearing opportunities within Mantle Ecosystem dApps, all in a design that has been created to maximize security with non-custodial core smart contracts and off-chain services that enforce sanity bounds and risk limits.",
         "symbol": "CMETH",
+        "websiteurl": "https://www.mantle.xyz/meth"
+    },
+    {
+        "description": "Deployed on Ethereum layer 1 (L1) and governed by Mantle, mETH Protocol has, since late 2023, been providing users with access to $mETH, a value-accumulating receipt token that is highly composable across a range of DeFi applications on Mantle Network L2, offering exposure to additional yield-bearing opportunities. Users stake ETH with mETH Protocol and receive yield-bearing $mETH, and unstake $mETH to receive the underlying principal staked ETH and accumulated rewards. \r\n\r\nSince the inception of mETH Protocol, Mantle's mission has been to deliver the most user-friendly and rewarding $mETH experience. Thanks to ecosystem-wide adoption, $mETH users are able to trade on Mantle DEXs, earn yield by providing liquidity to $mETH liquidity pools, and generate yield within decentralized money markets. With $mETH's increasing adoption and composability within Mantle Ecosystem dApps, the protocol now ranks as the fourth largest ETH LSP by TVL. The introduction of $cmETH, a permissionless, composable liquid restaking token that unlocks restaking opportunities on Mantle, and $COOK, the protocol's upcoming governance token, mETH Protocol enters its next phase with further enhanced offerings. Through these features, mETH Protocol provides its users with capital efficiency, convenience, and a wide range of yield-bearing opportunities within Mantle Ecosystem dApps, all in a design that has been created to maximize security with non-custodial core smart contracts and off-chain services that enforce sanity bounds and risk limits.",
+        "symbol": "CMETH.HYPE",
         "websiteurl": "https://www.mantle.xyz/meth"
     },
     {
@@ -8060,6 +8075,11 @@
         "websiteurl": "https://fetch.ai/"
     },
     {
+        "description": "",
+        "symbol": "FEUSD.HYPE",
+        "websiteurl": "https://usefelix.xyz/"
+    },
+    {
         "description": "RealFevr is a company established in 2015 in the fantasy markets with a football fantasy leagues game that currently has over 2 Million downloads on iOS and Android. With the fantasy leagues concept proven, RealFevr is now working towards being one of the NFT industry leaders by having the first-ever fully licensed Football Video NFTs Marketplace. Its NFTs will also be integrated into the FEVR Battle Arena, a new trading moments game (Play and Earn) that\u2019s currently in its alpha testing stage.\r\n\r\nRealFevr currently has 3 important ecosystem pillars:\r\n\r\n\ud83d\udcb0 NFT Marketplace - where you can buy and sell sports video digital collectibles www.realfevr.com/marketplace\r\n\r\n\ud83c\udfae FEVR Battle Arena - upcoming Play-and-Earn NFT game.\r\n\r\n\ud83d\udcf1 Fantasy Leagues - our fantasy football app with over 2.5M+ downloads\r\n       Download it on  App Store or Google Play, invite your friends and start playing! \r\n\r\n$FEVR is the token that unlocks all incentives within our ecosystem.\r\nThe main goal of the FEVR token is to open the door to web3, where you, the user, are the centerpiece of the network and the main beneficiary of RealFevr's products. \r\n\r\nWhat's coming in the near future:\r\n\r\n- FEVR Battle Arena Game\r\n- Marketplace Challenges & Achievements\r\n- Public User Profiles & Leaderboards\r\n- Marketplace V3, Multitoken (FEVR on the marketplace)\r\n- NFT Bidding and User Notifications\r\n- Experience (LVL) System in-game and in-marketplace\r\n- NFT Fusion (By burning NFTs)\r\n- New Litepaper\r\n- New Sports Related Partnerships (Clubs, Leagues and Athletes)\r\n- New Web3 Partnerships (Ex CEXs and other projects)\r\n- Blockchain integration into Fantasy Leagues\r\n- New Ecosystem Products (Currently we have 3, but we already have concepts of 2 more)\r\n- Mass Marketing",
         "symbol": "FEVR.BNB",
         "websiteurl": "https://www.realfevr.com/fevr/"
@@ -10515,6 +10535,11 @@
         "websiteurl": ""
     },
     {
+        "description": "Hyperliquid is a performant L1 optimized from the ground up. The vision is a fully onchain open financial system with user built applications interfacing with performant native components, all without compromising end user experience. \r\n\r\nThe Hyperliquid L1 is performant enough to operate an entire ecosystem of permissionless financial applications \u2013 every order, cancel, trade, and liquidation happens transparently on-chain with block latency <1 second. The chain currently supports 100k orders / second.\r\n\r\nThe Hyperliquid L1 uses a custom consensus algorithm called HyperBFT which is heavily inspired by Hotstuff and its successors. Both the algorithm and networking stack are optimized from the ground up to support the L1. \r\n\r\nThe flagship native application is a fully onchain order book perpetuals exchange, the Hyperliquid DEX. Further developments include a native token standard, spot trading, permissionless liquidity, etc.",
+        "symbol": "HYPE",
+        "websiteurl": "https://hyperliquid.xyz/"
+    },
+    {
         "description": "In HYPER, you create your own coins with your own private keys through your own effort via virtually mining it into existence. HYPER is built with self-custody, censorship resistance & pure DeFi DNA at its core.",
         "symbol": "HYPER",
         "websiteurl": "https://app.hyper.win"
@@ -11815,6 +11840,11 @@
         "websiteurl": "https://kittenhaimer.ai/"
     },
     {
+        "description": "",
+        "symbol": "KHYPE.HYPE",
+        "websiteurl": "https://kinetiq.xyz/"
+    },
+    {
         "description": "Kiba Inu is a community driven ERC20 token that is on a mission to continue to grow to be known worldwide. The Journey starts today, will you change your life forever?\r\n\r\n$KIBA is inspired by Kiba Inuzuka, one of the main supporting characters of the Naruto anime/manga series. He always has his trusted canine companion, Akamaru, by his side.\r\n\r\nKiba Inuzuka is loyal to his comrades and will do anything to protect them. This is the energy the $KIBA token aims to embody - a strong, supportive community that wants to grow together.",
         "symbol": "KIBA",
         "websiteurl": "https://kibainu.org/"
@@ -12033,6 +12063,11 @@
         "description": "Kenshi delivers a versatile and user-friendly platform for crafting tailor-made blockchain solutions. Featuring the Kenshi Deep Index, the Kenshi Custom Oracle Network, the Kenshi Blockchain IoT SDK, and a low-code ecosystem, Kenshi facilitates seamless interaction between Web 2.0 and Web 3.0 data.",
         "symbol": "KNS.ARBETH",
         "websiteurl": "https://kenshi.io"
+    },
+    {
+        "description": "Kinetiq is a liquid staking protocol built natively on Hyperliquid, enabling users to stake the native token of the Hyperliquid blockchain (HYPE) and receive Kinetiq Staked HYPE (kHYPE) in return.\r\n\r\nkHYPE enables staking participation while retaining full liquidity and capital efficiency \u2014 earning staking rewards while staying active across DeFi.\r\n\r\nBehind the scenes, all staked HYPE is automatically delegated to the top-performing Hyperliquid validators, selected by StakeHub\u2014 Kinetiq\u2019s autonomous validator scoring and delegation system.",
+        "symbol": "KNTQ.HYPE",
+        "websiteurl": "https://kinetiq.xyz/"
     },
     {
         "description": "This is the native token for a new decentralised swap similar to pancake swap focusing on bep20 coins, and to get the faith back in token trading after recent events in the crypto market, the main goal is to appeal to the masses by simplifying crypto trading full stop and protecting from extortion and fraud. Including Rewards/staking for holders, all from a physical office in/ near London, with a real development and marketing team behind us. And the very best community. Office run on solar power. 1/10th supply donated to charities.",
@@ -12592,6 +12627,11 @@
     {
         "description": "Chainlink is a framework for building Decentralized Oracle Networks (DONs) that bring real-world data onto blockchain networks, enabling the creation of hybrid smart contracts. These DONs provide decentralized services such as Price Feeds, Proof of Reserve, Verifiable Randomness, Keepers, and the ability to connect to any web API.\u00a0\r\n\r\nIt aims to ensure that the external information (pricing, weather data, event outcomes, etc.) and off-chain computations (randomness, transaction automation, fair ordering, etc.) fed to on-chain smart contracts are reliable and tamper-proof.",
         "symbol": "LINK.BNB",
+        "websiteurl": "https://chain.link/"
+    },
+    {
+        "description": "Chainlink is the industry-standard decentralized oracle network that solves the \"oracle problem\" by connecting smart contracts with real-world data. Blockchains cannot access external information on their own, so Chainlink acts as a secure bridge, enabling smart contracts to react to real-world events using verified, tamper-proof data. It is widely considered one of the first decentralized oracle networks and is the market leader in bringing off-chain data on-chain.\r\n\r\nThe platform operates through a decentralized network of nodes that fetch, validate, and deliver data to smart contracts. When a contract requests information like a stock price, a committee of independent nodes retrieves and aggregates the data to reach consensus, then delivers a single trustworthy answer. Chainlink offers a suite of services including Data Feeds for asset prices, CCIP for cross-chain token transfers and messaging, Automation for triggering smart contract functions, and Proof of Reserve for verifying asset collateralization.\r\n\r\nChainlink has established itself as critical infrastructure for both DeFi and institutional adoption, with partnerships including Swift, Euroclear, Mastercard, UBS, ANZ, Fidelity International, and J.P. Morgan. Its institutional products include the Chainlink Runtime Environment for tokenized asset workflows, Confidential Compute for privacy-preserving computation, and the Automated Compliance Engine for embedding regulatory rules into smart contracts.\r\n\r\nThe LINK token is the native asset used to pay node operators for services, fund subscription accounts, and incentivize network security through staking. Node operators stake LINK as collateral, which can be slashed if they provide inaccurate data. Chainlink was co-founded in 2017 by Sergey Nazarov and Steve Ellis, who co-authored the white paper with Ari Juels, and raised $32 million in its September 2017 ICO.",
+        "symbol": "LINK.HYPE",
         "websiteurl": "https://chain.link/"
     },
     {
@@ -14505,6 +14545,11 @@
         "websiteurl": "https://viamover.com/"
     },
     {
+        "description": "Movement Network is a secure and scalable blockchain designed to make Move programming accessible to developers everywhere. With high-performance execution and security, Movement delivers the infrastructure for the next generation of decentralized applications and unleashes opportunity and financial empowerment for anyone, anywhere.\r\n\r\n$MOVE is the native token of Movement Network, for transaction fees and staking to secure the network. The Movement M1 (Layer 1) Network is powered by the Move programming language, unleashing opportunity, accessibility, and financial empowerment for anyone, anywhere.",
+        "symbol": "MOVE.HYPE",
+        "websiteurl": "https://www.movementnetwork.xyz/"
+    },
+    {
         "description": "Moxie is the economic engine of Farcaster. \r\nThe Moxie protocol enables efficient markets on Farcaster, the leading decentralized social network. \r\nDevelopers build with Moxie to integrate economic incentives into their Farcaster apps, frames, and actions. \r\n\r\nThe Moxie token, MOXIE, is required in order to use the protocol. A core function of the protocol is enabling Moxie-backed Fan Tokens for any individual or community on Farcaster. Fans get access to special features and benefits in a thriving full loop economy.\r\n\r\n53,206 Farcaster Members earned Airdrop 1 which is distributed over 180 days. During the vesting period Farcaster Members are able to use their unvested MOXIE to buy Fan Tokens on Farcaster in the Moxie Protocol, locking their MOXIE tokens in contracts.\r\n\r\n1,236 Farcaster Members applied to and were accepted into the Moxie Builders Program, supporting the launch.",
         "symbol": "MOXIE.BASEETH",
         "websiteurl": "https://www.moxie.xyz/"
@@ -15142,6 +15187,11 @@
     {
         "description": "Neiro is a dog-themed meme coin that positions itself as the successor to Dogecoin, drawing inspiration from internet culture and the broader meme coin phenomenon. Adopted by the same owner as Kabosu, the original Doge, Neiro embodies the spirit of community-driven projects. Launched on the Ethereum blockchain, Neiro aims to create a playful and engaging ecosystem for its users while maintaining a commitment to charitable initiatives, particularly those focused on animal welfare. The project has gained traction within the cryptocurrency community, especially after receiving attention from notable figures, including Vitalik Buterin, who acknowledged the project and made a significant donation to an animal welfare fund. As a meme coin, users should be mindful of its volatility and speculative nature.",
         "symbol": "NEIRO",
+        "websiteurl": "https://www.neiroeth.io/"
+    },
+    {
+        "description": "Neiro is an ERC-20 token deployed on Ethereum. It is a memecoin dedicated to the newly-adopted Shiba Inu dog from the woman who previously owned the famous Kabosu, face of the Doge meme.\r\n\r\nAfter being rugged by its developer, a powerful community has come together to support this legendary dog. Neiro is 100% owned and by a community of hard-working and passionate holders.\r\n\r\nNeiro is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. the coin is completely useless and for entertainment purposes only.",
+        "symbol": "NEIRO.HYPE",
         "websiteurl": "https://www.neiroeth.io/"
     },
     {
@@ -17076,6 +17126,11 @@
     },
     {
         "description": "Pendle is a protocol that enables the tokenization and trading of future yield. With the creation of a novel AMM that supports assets with time decay, Pendle gives users more control over future yield by providing optionality and opportunities for its utilization. ",
+        "symbol": "PENDLE.HYPE",
+        "websiteurl": "https://pendle.finance/"
+    },
+    {
+        "description": "Pendle is a protocol that enables the tokenization and trading of future yield. With the creation of a novel AMM that supports assets with time decay, Pendle gives users more control over future yield by providing optionality and opportunities for its utilization. ",
         "symbol": "PENDLE.OETH",
         "websiteurl": "https://pendle.finance/"
     },
@@ -17083,6 +17138,11 @@
         "description": "Welcome to $PENG, the icy addition to the Solana blockchain!",
         "symbol": "PENG.SOL",
         "websiteurl": "https://pengsol.xyz/"
+    },
+    {
+        "description": "PENGU is the official coin of Pudgy Penguins.\r\n\r\nPudgy Penguins has become the face of crypto with one of the most influential communities in the industry. From large companies wearing the Penguin, to being featured in ETF commercials, to garnering millions of followers and over 100 billion views, the Pengu has become a cultural icon making PENGU the world\u2019s social currency.\r\n\r\nPENGU allows for the ever-expanding Pudgy Penguin fanbase and the hundreds of millions of people outside of crypto that see and share the Pudgy Penguin everyday, to join The Huddle. PENGU is a symbol for community, memes, and good vibes.\r\n\r\nBelieve in Pengu. Believe in the Prophecy.",
+        "symbol": "PENGU.HYPE",
+        "websiteurl": "https://pengu.pudgypenguins.com/"
     },
     {
         "description": "$PENGU is a cryptocurrency designed to complement the Pudgy Penguins ecosystem. Operating on the Solana blockchain, $PENGU embodies the playful and inclusive ethos of the Pudgy Penguins NFT project. Although it lacks inherent utility, the token aims to deepen community engagement and act as a cultural emblem for one of the most celebrated NFT collections.",
@@ -18150,6 +18210,11 @@
         "websiteurl": "https://purplepepe.life/"
     },
     {
+        "description": "$PURR is the first spot launch on the Hyperliquid L1. There is no sale and no planned utility for $PURR. The max supply of $PURR was 1 billion. 500 million $PURR were distributed proportionally to points holders. 400 million $PURR initially deployed as Hyperliquidity (HIP-2) were burned. $PURR is deflationary, as trading fees paid in $PURR are burned.",
+        "symbol": "PURR.HYPE",
+        "websiteurl": "https://app.hyperliquid.xyz/trade/PURR/USDC"
+    },
+    {
         "description": "PUSD is a completely decentralized stablecoin minted by staking Matic on Polygon network. PUSD is the USD-pegged stablecoin used to pay out loans on the PolyQuity protocol.",
         "symbol": "PUSD.MATIC",
         "websiteurl": "https://polyquity.org/"
@@ -18810,6 +18875,11 @@
         "websiteurl": "https://rektcoin.com"
     },
     {
+        "description": "Rekt Brands Inc. encompasses several different verticals spanning art, culture, media, NFTs, and physical goods:\r\n\r\n\r\nRekt Drinks - Rekt Drinks is considered the official drink of web3.  It boasts one of the largest web2 product launches from a web3 brand with 222,456 drinks (flavoured sparkling water) sold out at public launch across 32 different countries in under 48 hours. \r\n\r\n\r\nRektguy NFT collection - a FREE mint launched in 2022 with over $120M of trading volume and a cult-like community, including holders such as Snoop Dogg, Steve Aoki, Bassjackers and Gary Vaynerchuk.\r\n\r\n\r\nRekt Art - OSF is a former trader turned artist who has collaborated with Red Bull, Bybit, Ledger, Sotheby\u2019s, Saatchi Gallery, House of Fine Art & more.\r\nRekt Events - events held throughout the year including NYC, London, Paris, Miami, Lisbon, Dubai, Singapore, Las Vegas, Marfa & Taipei.\r\nRekt Radio - a top crypto podcast produced by Rekt and Rug Radio, hosted by OSF, Mando and Keyboard Monkey. It features the biggest names in crypto including Raoul Pal, Beeple, Bitboy, Su Zhu, Ansem, RookieXBT, TraderMayne, Alex Wice, DCInvestor and more.\r\n\r\n$REKT will be the token that underpins this entire ecosystem, staying true to the project\u2019s memetic routes, while allowing for holders to gain exclusive access to parts of the ecosystem as well as significantly expanding its membership.\r\n",
+        "symbol": "REKT.HYPE",
+        "websiteurl": "https://rektcoin.com"
+    },
+    {
         "description": "What is the project about?\r\n\r\nRelation protocol is a decentralized social graph protocol.\r\nWhat makes your project unique?\r\nelation builds a groundbreaking Web3 social data layer that empowers users with control over their social identities and data. Built on decentralized technology, it offers privacy, ownership, and tokenized incentives. With an integrated semantic graph, AI capabilities, and social assets, Relation is shaping the future of social networking in a decentralized and user-centric manner.\r\n\r\nHistory of your project.\r\nSince 2021 10th Oct\r\nWhat\u2019s next for your project?\r\nBuilding Relation Protocol\r\n\r\nWhat can your token be used for?\r\n1. Network support in future scalability solutions, 2. Social credential validators, 3. Protocol governance, 4. Staking for raising proposals, 5, Payment for protocol services\r\n",
         "symbol": "REL",
         "websiteurl": "https://relationlabs.ai/home"
@@ -19113,6 +19183,11 @@
         "description": "iExec is an open-source, decentralized cloud computing platform, running on Ethereum blockchain. iExec allows decentralized applications (dApps) an on-demand access to computing resources and technologies on iExec cloud. iExec has built a blockchain network where dApps can take advantage of cost effective and high-performance resources such as servers, databases, SaaS applications, web hosting and computer farms. iExec\u2019s native cryptocurrency \u2014 The RLC token is the primary asset used to access services in iExec infrastructure. RLC is short for \u201cRun on Lots of Computers.\u201d\r\n\r\niExec is headquartered at Lyon, France. It was founded by Gilles Fedak and Haiwu He, both are serving as Chief Executive Officer and Head of Asian-Pacific Region of iExec, respectively. Oleg Lodygensky is the Chief Technical Officer. Gilles Fedak received his PhD from the University of Paris Sud in 2003, and has been working as INRIA (Inventeurs du Monde Numerique) research scientist at ENS in Lyon, France. Similarly, Haiwu completed his M.Sc. and PhD from the University of Sciences and Technologies of Lille, France. On April 19, 2017, iExec launched its token sale and raised more than $12 million in exchange for 86,999,784 RLC.\r\n\r\nIn order to support dApps, smart contracts, and their platforms, iExec takes processing-intensive computations off-chain so as to keep a blockchain\u2019s on-chain functions running smoothly. To do this, iExec makes use of XtremWeb-HEP, an open-sourced Desktop Grid Software.  Desktop Grid computing (also known as Volunteer Computing) pools unused computing resources to be used by applications and platforms, and according to iExec\u2019s whitepaper, XtremWeb-HEP \u201cimplements all the needed features\u201d to make this possible on a global scale, including \u201cfault-tolerance, multi-applications, multi-users, hybrid public/private infrastructure, deployment of virtual images, data management, security and accountability, and many more.\u201d Essentially, with this software, dApps can utilize any computing resource in the iExec framework to run their programs.\r\n\r\nIn their whitepaper, the iExec team lays out the project\u2019s competitive landscape and explains these competitors in relation to iExec. They\u2019re quick to note that decentralized cloud storage providers like Filecoin, Storj, and Siacoin are not direct competitors, and it\u2019s easy to see why.  While iExec could theoretically take a step in this direction as it matures, it\u2019s not a storage platform; it\u2019s a computing platform. This does put it in competition with other decentralized computing protocols like Golem and SONM. Both of these, however, are taking aim at a different animal.  Essentially, they\u2019re both building a decentralized supercomputer on blockchain technology, while iExec is targeting dApp development and sustainability.  Both look towards a future of a blockchain-powered, decentralized internet, but their functions, while sometimes similar, are more complementary than conflicting.",
         "symbol": "RLC",
         "websiteurl": "http://iex.ec/"
+    },
+    {
+        "description": "Resolv is a protocol that maintains USR, an overcollateralized stablecoin natively backed by Ether (ETH). USR achieves its peg by hedging its collateral pool and maintaining a tokenized insurance fund called RLP. Users can stake USR to obtain the yield-bearing version called stUSR. USR is minted by depositing liquid assets, such as USDC or USDT, on 1:1 value basis. When USR is redeemed, a user receives a 1:1 equivalent to the notional amount.\r\n\r\nRLP:\r\nETH portfolio backs USR with a more than 100% ratio. Excess part of collateral acts as a backing for RLP - Resolv Liquidity Pool. Key features of RLP:\r\nRLP is designed to protect USR from market and counterparty risks. In exchange, RLP users receive higher portion of profits of the collateral pool.\r\nRLP has a price, representing value of ETH backing a single unit of RLP token;\r\nRLP price can vary. Collateral required for minting or redemption is based on the latest price;",
+        "symbol": "RLP.HYPE",
+        "websiteurl": "https://www.resolv.xyz/"
     },
     {
         "description": "The RLY token is an ERC-20 native token that powers the RLY Network. RLY is multi-chain and can also be obtained on other blockchains through official bridges and canonical swaps maintained by the RLY Network Association. \r\n\r\nRLY is utilized by consumer applications to enable a token economy in order to drive growth, adopt community, and reward engagement. \r\n\r\nRLY Network is an ecosystem of consumer apps powered by RLY Protocol, a token-enabled software suite for developers that facilitates token launching, instant pricing, immediate liquidity, and the opportunity to earn weekly RLY Rewards. \r\n\r\nRLY Protocol is managed by the RLY Network Association, a Swiss-based non-profit. Learn more at rly.network. ",
@@ -20810,6 +20885,11 @@
         "websiteurl": "https://app.solv.finance/solvbtc"
     },
     {
+        "description": "SolvBTC addresses the significant gap in the Bitcoin ecosystem by providing a native yield solution. It fosters an inclusive and efficient BTCFi ecosystem, offering Bitcoin holders unprecedented opportunities for growth and participation.",
+        "symbol": "SOLVBTC.HYPE",
+        "websiteurl": "https://app.solv.finance/solvbtc"
+    },
+    {
         "description": "What Is Solve.Care (SOLVE)?\r\n\r\nSolve.Care is a healthcare platform company that uses blockchain to redefine care coordination, improves access to care, reduces benefit administration costs, and helps reduce fraud and waste in healthcare around the world. \r\n\r\nThe Solve.Care platform allows for digital health networks, called Care Networks, to be built and run for patient-centric care based on medical conditions, economic and social needs, and other tailored eligibility criteria, creating an entire healthcare ecosystem. Using the Solve.Care platform, businesses are able to launch networked, interoperable healthcare dApps, within only weeks or even days.  \r\n\r\nCare Networks on the Solve.Care platform use the SOLVE token, a utility token that is used for inter/intra network payments and transaction fees. It also has additional uses including developer rights, staking, marketplace payments, and platform access fees. \r\n\r\nWho is the Founder of Solve.Care?\r\n\r\nPradeep Goel, the Founder and CEO of Solve.Care, has extensive expertise in healthcare, finance and technology. Prior to Solve.Care, he had been in the CEO, COO, CIO and CTO roles at various innovative technology companies over 25 years\r\n\r\nPradeep was deeply involved in designing and building solutions for public programs such as Medicare/Medicaid, children health insurance and welfare programs, SNAP/TANF, health insurance exchanges and health information exchanges. He has worked for and with commercial insurance companies as the top technology executive, and implemented benefits administration, consumer engagement, claimed medication and payment systems. \r\n\r\nPradeep has built 4 healthcare IT companies and has been at the top of Deloitte\u2019s Technology Fast 500, INC500/5000 fastest growing companies lists multiple times. Pradeep was included in the 100 most promising entrepreneurs globally, complied by Goldman Sachs.\r\n\r\n\r\nWhat Makes Solve.Care Unique?\r\n\r\nThe Solve.Care platform leverages blockchain and full stack capabilities to deliver significant business value to individuals and enterprises. These business values include ease of usage, privacy, security, control and ownership of data, interoperability, auditability, and enhanced trust between parties.\r\n\r\nSolve.Care gives healthcare stakeholders a unique opportunity to build their own dApps to form Care Networks, connecting and synchronizing their participants, making instant payments inside their network, and sharing information immediately to reduce opportunities for fraud. \r\n\r\nSolve.Care is unique because it not only allows networks to run independently, but to also have a fabric underneath that allows them to all communicate.\r\n\r\nAll Care Networks are fully and intrinsically tokenized to manage events, identities, transactions, payments and data sharing using the SOLVE token, which is a combination of transaction fee payment token (like Ethereum as gas), as well as a normal payment currency. The SOLVE token also has a unique property of being able to function inside the Network, either as a variable value token or as a fixed value token (as a stable coin). This property makes it uniquely powerful and appropriate for healthcare usage. \r\n\r\n\r\nSolve.Care has built blockchain healthcare networks for the real-world clients such as Boehringer Ingelheim, Uber Health, Lyft, Aon, Arizona Care Network and others. \r\n\r\nSolve.Care is the first company in the world to successfully deploy digital currency and blockchain technology for value-based payments in US healthcare. (https://solve.foundation/press-release/solve-care-partner-acn-awarded-for-innovation/)\r\n",
         "symbol": "SOLVE",
         "websiteurl": "https://tuumio.com/"
@@ -21330,6 +21410,11 @@
         "websiteurl": "https://stargate.finance/"
     },
     {
+        "description": "",
+        "symbol": "STHYPE.HYPE",
+        "websiteurl": ""
+    },
+    {
         "description": "The Staika token is the governance token of the Staika project and the ticker is marked as STIK.\r\nSTIK can be obtained by purchasing from a designated exchange or by swapping from a DEX(decentralized exchange) or Staika Wallet.\r\nThe use cases of the Staika are as follows:\r\n- Means to receive benefits and rewards within the Staika platform\r\n- Payment methods avaiable within the various services provided by the Staika platform\r\n- Exchange (swap) means for other altcoins\r\n- Payment and exchange methods(swap) for Staika-based Altcoin",
         "symbol": "STIK.SOL",
         "websiteurl": "https://staika.io"
@@ -21593,6 +21678,11 @@
         "description": "Avalon Labs is creating an on-chain financial center for Bitcoin, offering BTC-backed lending, a Bitcoin-backed stablecoin, yield accounts, and a credit card. The goal is to make Bitcoin an active economic asset in global markets through a scalable and accessible network.\r\nUSDa is the flagship CDP (Collateralized Debt Position) product based on Avalon's CeDeFi lending platform. The goal of USDa is to provide the best stablecoin solution for DeFi community with extremely high capital efficiency, stability and deep liquidity from BTC community.\r\nsUSDa is a yield-bearing version of USDa. By staking USDa, users receive sUSDa, which earns yield through borrowing rates and other protocol revenue. This mechanism allows users to generate scalable and sustainable returns, enhancing the value proposition of USDa in both DeFi and CeDeFi ecosystems.",
         "symbol": "SUSDA.BNB",
         "websiteurl": "https://www.avalonfinance.xyz/"
+    },
+    {
+        "description": "",
+        "symbol": "SUSDE.HYPE",
+        "websiteurl": "https://app.ethena.fi/"
     },
     {
         "description": "SushiSwap is a decentralized, multi-chain DEX that allows users to swap a wide range of assets across 40+ blockchain networks. It is powered by the industry's most advanced swap and aggregation stack, providing access to superior liquidity and competitive pricing. SushiSwap also offers smart liquidity solutions for liquidity providers including Smart Pools and no-IL AMM.\r\n\r\nSushi Labs, the development arm of Sushi DAO, continues to innovate by building a multi-DEX ecosystem with projects like Susa, Saru, and Wara with various blockchain networks.\r\n\r\nFor more information, visit https://sushi.com/",
@@ -22078,6 +22168,11 @@
         "description": "Thales is an Ethereum protocol that acts as the liquidity & settlement layer for prediction markets in the likes of sports markets, digital options and similar. This building block is the foundation of novel on-chain initiatives, from a platform for AMM-based positional markets to immersive gamified experiences, and much more.",
         "symbol": "THALES.OETH",
         "websiteurl": "https://www.thales.io/"
+    },
+    {
+        "description": "Theo is an institutional-grade tokenization platform that connects onchain capital to global financial markets. The platform enables access to traditional financial products like Treasury bills through tokenized infrastructure that includes deep liquidity, cross-chain functionality, and full DeFi composability from launch. Theo's first product, thBILL, demonstrates this \"beyond issuance\" approach by launching with complete ecosystem support across multiple chains rather than hoping for adoption over time.",
+        "symbol": "THBILL.HYPE",
+        "websiteurl": "https://theo.xyz"
     },
     {
         "description": "Research & charity token dedicated to the transhumanism movement, investing in the future of humanity through science & technology.",
@@ -22965,6 +23060,11 @@
         "websiteurl": "https://unibright.io"
     },
     {
+        "description": "",
+        "symbol": "UBTC.HYPE",
+        "websiteurl": "https://hyperunit.xyz/"
+    },
+    {
         "description": "The future of Ai powered mixed reality. Africarare has a bold vision to serve over a billion people and break barriers by leveraging the power of AI and mixed reality. With a focus on Africa and communities worldwide, Africarare aims to create an inclusive platform that empowers individuals, brands, and communities to unleash their potential by combining AI and mixed reality technologies, Africarare provides an immersive and interactive experience that transcends geographical boundaries. The platform enables users to connect, collaborate, and explore new possibilities in a dynamic digital environment. Africarare has already achieved successful sales through their NFTs,Onboarded over 34 B2B and B2C brands, the Likes of MTN, NEDBANK that have combined over 250M+ users, the team is operated by one of the prominent agencies in South Africa, having served over 3000 projects. Strategic partnership with Singularity University, with over +1100 organisations onboard. #futureproofAfrica our mission is too create a community of global change makers who can implement solutions to some of Africa and the worlds greatest challenges such as water, education, energy and inequality. Through various initiatives we aim to positively impact a billion people. \r\n\r\nProminent roster of advisors including: Monica Singer, Will Weisman, Tanya Knowles, Benji Rosman, Dr Adam Pantanowitz and others.",
         "symbol": "UBU.MATIC",
         "websiteurl": "https://www.africarare.io/"
@@ -23003,6 +23103,11 @@
         "description": "Underworld is set to launch on BT404 protocol, with a first of its kind native profit sharing Peer-to-Peer marketplace.\r\n\r\nThe BT404 protocol transforms dormant NFTs into active assets, empowering holders to earn passive income by simply listing their selected NFTs, and further allowing collectors to grow their positions.\r\nUnderworld is set to launch on BT404 protocol, with a first of its kind native profit sharing Peer-to-Peer marketplace.\r\n\r\nThe BT404 protocol transforms dormant NFTs into active assets, empowering holders to earn passive income by simply listing their selected NFTs, and further allowing collectors to grow their positions.\r\n\r\n\r\n1 ERC20 $UDW = 1 ERC721 Underworld NFT",
         "symbol": "UDW",
         "websiteurl": "https://www.udw.gg/"
+    },
+    {
+        "description": "",
+        "symbol": "UETH.HYPE",
+        "websiteurl": "https://hyperunit.xyz/"
     },
     {
         "description": "UFO Gaming is a fully decentralized inter-galactic social gaming token. P2E (Play to earn) Metaverse, Virtual land, NFT, Gaming and IDO Launchpad.\r\n\r\n\r\nFor everything $UFO-related, the $UFO token will be required. You will need it to interact with any element of our ecosystem. Our token's usefulness may be divided into three categories:\r\n\r\n\r\n $UFO, Plasma Points and UAP.\r\n\r\n\r\n\u2022  $UFO 100% community owned.\r\n\r\n\u2022  Earn Plasma Points from single staking $UFO or UFO-ETH LP pool in the Cosmos and Redeem Origin UFOep. Origin UFOep is needed to play our first game, \u2018Super Galactic\u2019.\r\n\r\n\u2022  UAP is required to purchase, trade, and fuse (breed) NFTs inside of the game. It can only be obtained by playing Super Galactic.\r\n\r\nLaunchpad: Stake your UFO tokens or own land on the games' dedicated planet to get tiered access to some of the most highly anticipated gaming projects adds to the Dark Metaverse.\r\n\r\n\r\nMulti-chain: Our Dark Metaverse is not only limited to one chain. It will be multichain. UFO will be launching games on some of the most reputable chains, covering a broad genre of games and different niches of L1 and L2s. \r\n\r\n\r\nOne Game, One Planet, Interoperability.\r\n\r\n",
@@ -23191,6 +23296,11 @@
     },
     {
         "description": "A brand new restaking protocol that accepts wrapped BTC tokens in partnership with the BTC staking protocol Babylon chain. The wBTC token on the Ethereum blockchain is supported, allowing all wBTC token holders to enjoy both yield on staking BTC tokens and the security of the Ethereum network.\r\n\r\nThe need for BTC holders to earn yield while safely holding their BTC tokens has been long recognized. The market is anticipating Babylon's Bitcoin Staking Protocol as a prominent solution. While Babylon is designed for restaking on top of the BTC blockchain network, there is also interest in solutions for BTC-pegged tokens like wBTC, BTCB, or other wrapped BTC tokens, rather than just native BTC tokens.\r\n\r\nBedrock's uniBTC provides an innovative restaking solution for wBTC holders to earn BTC restaking rewards without redeeming wBTC. It maintains the high security standards of the Ethereum blockchain, with the entire staking/unstaking process protected by multiple rounds of audited smart contracts.\r\n\r\nWith Bedrock's extensive experience in developing various liquid staking and liquid restaking products, uniBTC offers a viable option for users of wrapped BTC tokens to earn multiple rewards by simply minting their wrapped BTC tokens into uniBTC.",
+        "symbol": "UNIBTC.HYPE",
+        "websiteurl": "https://www.bedrock.technology/"
+    },
+    {
+        "description": "A brand new restaking protocol that accepts wrapped BTC tokens in partnership with the BTC staking protocol Babylon chain. The wBTC token on the Ethereum blockchain is supported, allowing all wBTC token holders to enjoy both yield on staking BTC tokens and the security of the Ethereum network.\r\n\r\nThe need for BTC holders to earn yield while safely holding their BTC tokens has been long recognized. The market is anticipating Babylon's Bitcoin Staking Protocol as a prominent solution. While Babylon is designed for restaking on top of the BTC blockchain network, there is also interest in solutions for BTC-pegged tokens like wBTC, BTCB, or other wrapped BTC tokens, rather than just native BTC tokens.\r\n\r\nBedrock's uniBTC provides an innovative restaking solution for wBTC holders to earn BTC restaking rewards without redeeming wBTC. It maintains the high security standards of the Ethereum blockchain, with the entire staking/unstaking process protected by multiple rounds of audited smart contracts.\r\n\r\nWith Bedrock's extensive experience in developing various liquid staking and liquid restaking products, uniBTC offers a viable option for users of wrapped BTC tokens to earn multiple rewards by simply minting their wrapped BTC tokens into uniBTC.",
         "symbol": "UNIBTC.OETH",
         "websiteurl": "https://www.bedrock.technology/"
     },
@@ -23283,6 +23393,11 @@
         "description": "UpRock serves as the open data layer for AI, transforming the future by democratizing the access to open data that fuels AI innovations. Unlike traditional models where specific tools or platforms dictate data accessibility, UpRock empowers users by enabling them to convert their idle internet bandwidth into a resource for data gathering. This approach not only makes data more accessible but also enriches AI applications\u200b (UpRock)\u200b\u200b (Shiraverse)\u200b with a diverse range of uncensored, global knowledge. Through the Knowledge Abstraction Layer (KAL), UpRock facilitates the flow of raw data, ensuring that AI systems can leverage timely and varied information to drive smarter, more informed decisions across industries.",
         "symbol": "UPT.SOL",
         "websiteurl": "https://uprock.com/"
+    },
+    {
+        "description": "",
+        "symbol": "UPUMP.HYPE",
+        "websiteurl": ""
     },
     {
         "description": "UQC is a decentralised virtual currency based on the ERC20 - token, one of Ethereum Technological trends.  The goal of this blockchain asset is to supplement the development of UQUID Ecosystem. In this virtual revolution, coin holders will have the benefit of instantly and effortlessly cash out their coins.\r\n\r\nThe uquid card project started from 2016 was became the first project to issue prepaid payment cards for bitcoin and altcoins. Uquid cards now support over 100 types of altcoins. The uquid coin was born with the goal of supporting the uquid ecosystem in helping altcoins users to shop online (ebay, amazon) directly through the uquid ecosystem and build up an card-less system by 2020.",
@@ -23401,6 +23516,11 @@
     },
     {
         "description": "USDC is a fully collateralized US dollar stablecoin. USDC is the bridge between dollars and trading on cryptocurrency exchanges. The technology behind CENTRE makes it possible to exchange value between people, businesses and financial institutions just like email between mail services and texts between SMS providers. We believe by removing artificial economic borders, we can create a more inclusive global economy.",
+        "symbol": "USDC.HYPE",
+        "websiteurl": "https://www.circle.com/en/usdc"
+    },
+    {
+        "description": "USDC is a fully collateralized US dollar stablecoin. USDC is the bridge between dollars and trading on cryptocurrency exchanges. The technology behind CENTRE makes it possible to exchange value between people, businesses and financial institutions just like email between mail services and texts between SMS providers. We believe by removing artificial economic borders, we can create a more inclusive global economy.",
         "symbol": "USDC.MATIC",
         "websiteurl": "https://www.circle.com/en/usdc"
     },
@@ -23486,8 +23606,18 @@
     },
     {
         "description": "Ethena is a delta-hedged synthetic dollar with native crypto yield derived from staking and perpetual funding rate",
+        "symbol": "USDE.HYPE",
+        "websiteurl": "https://app.ethena.fi/"
+    },
+    {
+        "description": "Ethena is a delta-hedged synthetic dollar with native crypto yield derived from staking and perpetual funding rate",
         "symbol": "USDE.SOL",
         "websiteurl": "https://app.ethena.fi/"
+    },
+    {
+        "description": "USDH is a fiat-backed digital dollar built natively for Hyperliquid. Designed by Native Markets and issued by Bridge Building Inc, USDH delivers a credible, ecosystem aligned, and native dollar solution. \r\n\r\nUSDH is fully reserved by GENIUS-ready assets such as cash, short-term US treasuries, repo agreements, funds investing in US treasuries and repo agreements (e.g., BlackRock TTTXX), and tokenized versions of the same (e.g., BlackRock BUIDL or Superstate USTB). Cash is held in custody at US-regulated banks, TradFi investment assets are held in custody at JP Morgan Chase, and cryptoassets are held in custody in Bridge\u2019s MPC infrastructure, provisioned by Fireblocks. BPM, a top-40 accounting firm based in San Francisco, reviews and attests to the 1:1 backing of USDH\u2019s reserves each month.\r\n\r\nNative Markets contributes 50% of gross revenue to the Hyperliquid Assistance Fund so the protocol can buy back HYPE. The rest of USDH revenue is used to grow USDH and the Hyperliquid ecosystem. As specified by the Aligned Quote Asset (\u201cAQA\u201d) protocol primitive, the AF contribution is made programmatically, onchain.\r\n",
+        "symbol": "USDH.HYPE",
+        "websiteurl": "https://nativemarkets.com"
     },
     {
         "description": "USDJ is a stablecoin of TRON. It\u2019s generated through decentralized smart contracts on the TRON network. Anyone can pledge TRX as collateral to generate USDJ. USDJ enters into free circulation as any other cryptocurrency does once generated. It is pegged to the US dollar through Collateralized Debt Positions (CDPs), and also has autonomous feedback mechanisms.",
@@ -23603,6 +23733,11 @@
         "description": "Tether (USDT) is a cryptocurrency with a value meant to mirror the value of the U.S. dollar. The idea was to create a stable cryptocurrency that can be used like digital dollars. Coins that serve this purpose of being a stable dollar substitute are called \u201cstable coins.\u201d Tether is the most popular stable coin and even acts as a dollar replacement on many popular exchanges! According to their site, Tether converts cash into digital currency, to anchor or \u201ctether\u201d the value of the coin to the price of national currencies like the US dollar, the Euro, and the Yen. Like other cryptos it uses blockchain. Unlike other cryptos, it is [according to the official Tether site] \u201c100% backed by USD\u201d (USD is held in reserve). The primary use of Tether is that it offers some stability to the otherwise volatile crypto space and offers liquidity to exchanges who can\u2019t deal in dollars and with banks (for example to the sometimes controversial but leading exchange Bitfinex).\r\n\r\nThe digital coins are issued by a company called Tether Limited that is governed by the laws of the British Virgin Islands, according to the legal part of its website. It is incorporated in Hong Kong. It has emerged that Jan Ludovicus van der Velde is the CEO of cryptocurrency exchange Bitfinex, which has been accused of being involved in the price manipulation of bitcoin, as well as tether. Many people trading on exchanges, including Bitfinex, will use tether to buy other cryptocurrencies like bitcoin. Tether Limited argues that using this method to buy virtual currencies allows users to move fiat in and out of an exchange more quickly and cheaply. Also, exchanges typically have rocky relationships with banks, and using Tether is a way to circumvent that.\r\n\r\nUSDT is fairly simple to use. Once on exchanges like Poloniex or Bittrex, it can be used to purchase Bitcoin and other cryptocurrencies. It can be easily transferred from an exchange to any Omni Layer enabled wallet. Tether has no transaction fees, although external wallets and exchanges may charge one. In order to convert USDT to USD and vise versa through the Tether.to Platform, users must pay a small fee. Buying and selling Tether for Bitcoin can be done through a variety of exchanges like the ones mentioned previously or through the Tether.to platform, which also allows the conversion between USD to and from your bank account.\r\n\r\n",
         "symbol": "USDT.TRX",
         "websiteurl": "https://tether.to/"
+    },
+    {
+        "description": "USDT0 ensures fast, secure, and cost-efficient cross-chain transfers all while maintaining a strict 1:1 backing with USDT.",
+        "symbol": "USDT0.HYPE",
+        "websiteurl": "https://usdt0.to/"
     },
     {
         "description": "",
@@ -23755,6 +23890,11 @@
         "websiteurl": "https://app.universalassets.xyz/"
     },
     {
+        "description": "",
+        "symbol": "USOL.HYPE",
+        "websiteurl": ""
+    },
+    {
         "description": "USOon is the Ondo Tokenized version of the United States Oil Fund, giving tokenholders economic exposure similar to holding USO and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
         "symbol": "USOON",
         "websiteurl": ""
@@ -23768,6 +23908,11 @@
         "description": "USOon is the Ondo Tokenized version of the United States Oil Fund, giving tokenholders economic exposure similar to holding USO and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
         "symbol": "USOON.SOL",
         "websiteurl": ""
+    },
+    {
+        "description": "Resolv is a protocol that maintains USR, an overcollateralized stablecoin natively backed by Ether (ETH). USR achieves its peg by hedging its collateral pool and maintaining a tokenized insurance fund called RLP. Users can stake USR to obtain the yield-bearing version called stUSR. USR is minted by depositing liquid assets, such as USDC or USDT, on 1:1 value basis. When USR is redeemed, a user receives a 1:1 equivalent to the notional amount.",
+        "symbol": "USR.HYPE",
+        "websiteurl": "https://www.resolv.xyz/"
     },
     {
         "description": "USD pegged Terra Stablecoin",
@@ -24035,6 +24180,11 @@
         "websiteurl": "https://www.vgxfoundation.com/"
     },
     {
+        "description": "",
+        "symbol": "VHYPE.HYPE",
+        "websiteurl": "https://vhype.ventuals.com/"
+    },
+    {
         "description": "Octavia is a web3 AI Assistant that assists users in Research and Trading, as well as managing crypto communities.",
         "symbol": "VIA.BNB",
         "websiteurl": "https://octavia.one/"
@@ -24113,6 +24263,11 @@
         "description": "VIXCO offers integrated blockchain-based DeFi services with conventional offline POS system and automated AI on the platform.\r\n\r\nImplementation of POS machines and decentralized wallets allows a linear and functional relation between affiliates and consumers for more fundamental consistency on the actual sales and settlement data based on the transparency of the blockchain protocol.\r\n\r\nThe team aims to lead both the on-offline payment market through VIXCO Platform by providing gateway for consumers and affiliates to access financial services in a more secure and fast environment with payments, loans, staking, investment, while still supporting the safest and fastest transactions speed and fees.",
         "symbol": "VIX",
         "websiteurl": "http://vixco.net/"
+    },
+    {
+        "description": "",
+        "symbol": "VKHYPE.HYPE",
+        "websiteurl": "https://kinetiq.xyz/earn/kinetiq-earn"
     },
     {
         "description": "Bankroll Vault Token is the official store of value for the network on the Ethereum blockhain. Supply is capped at 1.8M and the liquidity pool is perpetually supported by the Bankroll ecosystem.",
@@ -24465,6 +24620,11 @@
         "websiteurl": "https://www.wapcoin.wtf/"
     },
     {
+        "description": "",
+        "symbol": "WAPE.HYPE",
+        "websiteurl": "https://apecoin.com/"
+    },
+    {
         "description": "What is the project about?\r\n\r\nWater Rabbit Token ($WAR) is an innovative cryptocurrency developed by Shanvere DAO. Our project's primary objective is to position $WAR as a widely recognized and utilized currency in the digital assets space. We envision $WAR as a trusted medium of exchange, store of value, and unit of account, going beyond the conventional role of cryptocurrencies.\r\n\r\nWhat makes your project unique?\r\n\r\nUnlike many other cryptocurrencies, $WAR is not simply another 'memecoin'. It is a part of a greater mission to reshape the landscape of digital currencies. We are actively collaborating with top-tier institutions to establish $WAR as a credible and trusted financial instrument in the digital economy. Our vision and partnerships set us apart, giving us a unique positioning in the cryptosphere.\r\n\r\nHistory of your project.\r\n\r\nThe $WAR project was launched on the 27th of July, 2022, beginning its journey on the Binance Smart Chain. Our token has since been listed on various platforms, including Pancakeswap, Poocoin, Bogged.finance, and P2B, thus gaining significant exposure and recognition in the cryptocurrency market.\r\n\r\nWhat\u2019s next for your project?\r\n\r\nThe future of $WAR is full of potential and expansion. We are continuously working towards forming new strategic partnerships, increasing our token's utility, and further enhancing its recognition as a valid currency. Our vision is for $WAR to be more than just another cryptocurrency, but an integral part of the evolving financial landscape.\r\n\r\nWhat can your token be used for?\r\n\r\n$WAR's primary use case is to function as a digital currency. Users can leverage it as a medium of exchange, store of value, and unit of account. Our ongoing collaborations with top institutions aim to significantly expand the utility of $WAR, making it a versatile token within the digital asset ecosystem. As we progress, we expect to see $WAR adopted in various financial and commercial scenarios, driving its value and significance in the digital ",
         "symbol": "WAR.BNB",
         "websiteurl": "https://waterrabbittoken.com/"
@@ -24620,6 +24780,11 @@
         "websiteurl": "https://www.ether.fi/"
     },
     {
+        "description": "Ether.fi's eETH is a decentralized, non-custodial liquid staking token that enables Ethereum holders to earn staking rewards while maintaining full liquidity and control over their assets. eETH along with its wrapped non-rebasing version, weETH, integrates seamlessly with the Ethereum ecosystem, offering users a flexible and secure way to contribute to network validation and participate in the DeFi space. ",
+        "symbol": "WEETH.HYPE",
+        "websiteurl": "https://www.ether.fi/"
+    },
+    {
         "description": "",
         "symbol": "WEETHS",
         "websiteurl": "https://app.ether.fi/eeth"
@@ -24758,6 +24923,11 @@
         "description": "WHY is a bipolar Elephant, RAMPAGE after FOMO (In the dream). Dancing and Happi all the daytime.(In real life) $BNB",
         "symbol": "WHY.BNB",
         "websiteurl": "https://www.madphant.com/"
+    },
+    {
+        "description": "",
+        "symbol": "WHYPE.HYPE",
+        "websiteurl": "https://hyperfoundation.org/"
     },
     {
         "description": "This is a meme coin run by communty members. A DISCORD AND TWITCH EMOTE DEPICTING PEEPO WEARING MULTI-COLORED CYCLING SUNGLASSES. THE EMOTE WAS POSTED TO FRANKERFACEZ IN APRIL 2020 AND BECAME INCREASINGLY POPULARIZED ON TWITCH IN THE FOLLOWING YEARS. IT IS USED TO CONVEY COOLNESS AND IS USED TO REACT WHEN SOMETHING COOL HAPPENS. A MEME DRIVEN CULT! A CULT DRIVEN MEME! PUT SHADES ON ADN JOIN THE CULT",
@@ -25130,6 +25300,11 @@
         "websiteurl": "https://wolfsafepoorpeople.com/"
     },
     {
+        "description": "Reservoir is a multicollateral yield bearing stablecoin backed by RWAs and onchain strategies (tbills, overcollateralized onchain lending, funding rate strategies). This flexible infrastructure allows for consistently high yields paid out to through varying market conditions and sets up Reservoir to be the primary candidate for looping strategies. Reservoir is live on Ethereum & Berachain and recently crossed $250m in TVL.",
+        "symbol": "WSRUSD.HYPE",
+        "websiteurl": "https://reservoir.xyz/"
+    },
+    {
         "description": "$WSTA is a wrapped version of $STA token, currently at 1:1. It works similar to WETH with the unique feature of \"\"safe deflation\"\", as opposed  to $STA which can be taken advantage of as a result of the deflationary feature. $WSTA can safely enable burning of $STA, and can be safely used on other DEX aggregators such as Balancer, 1inch, Matcha, etc.",
         "symbol": "WSTA",
         "websiteurl": "https://stateratoken.com"
@@ -25158,6 +25333,11 @@
         "description": "wstUSDT (wrapped stUSDT) is a non-rebasing version of stUSDT. Unlike the stUSDT balance, which increases as you receive staking rewards, the wstUSDT balance stays the same while the stUSDT balance updates inside the wrapper. However, the exchange rate between wstUSDT and stUSDT will be adjusted accordingly.",
         "symbol": "WSTUSDT.TRX",
         "websiteurl": "https://stusdt.io/"
+    },
+    {
+        "description": "What is Resolv?\r\nResolv is a protocol maintaining USR, a stablecoin natively backed by Ether (ETH) and pegged to US Dollar.\r\n\r\nThe protocol's main features include:\r\n\r\nIssuance and redemption of USR against other tokens;\r\n\r\nMaintaining sufficent backing by ETH at all times. This is achieved by hedging ETH price with short perpetual futures positions;\r\n\r\nMaintaining RLP (Resolv Liquidity Pool), a liquid insurance pool designed to keep USR overcollateralized.\r\n\r\nBoth USR and RLP can be minted and redeemed by users in exchange for collateral deposited on 1:1 basis.",
+        "symbol": "WSTUSR.HYPE",
+        "websiteurl": "https://resolv.xyz/"
     },
     {
         "description": "",
@@ -25323,6 +25503,11 @@
         "description": "Arcana Network is a leading Chain Abstraction Protocol powered by a modular Layer 1.\r\nArcana\u2019s Chain Abstraction eliminates asset fragmentation and the friction of bridging between chains.\r\nIt offers users a Unified Balance of their USDC, USDT, and ETH balances across chains, allowing them to spend their entire balance on any chain instantly, without bridging\u2014a seamless, bridgeless, and near-instant experience.\r\n\r\nWeb3 ecosystem has exploded with 100s of L1s, L2s, rollups, sidechains, and appchains, adding immense friction for users trying new chains, while chains struggle to attract and retain users and maintain TVL. Arcana solves this by providing unified balances, auto-funding gas fees with stablecoins, and near-instant multi-chain transactions. \r\n\r\nIn addition to these, $XAR\u2019s Chain Abstraction Protocol does three things extremely well compared to other protocols:\r\n\r\n- EOA Wallet-Based Orchestration: Users can bring existing wallet addresses without locking funds or depositing into new accounts\u2014maintaining full self-custody of assets.\r\n- Gas Efficiency: Upto 5X lower gas fees compared to smart contract-based chain abstraction protocols\r\n- Universal Addresses: Arcana does not create app-specific wallets that require users to deposit tokens. So users assets remain in a single wallet, accessible across apps \u2014even on apps that do not support chain abstraction.\r\n\r\nThe Chain Abstraction protocol is live on Testnet, with a Mainnet release planned for Q1 2025. Users can experience Chain Abstraction through Arcana Wallet, a Chrome extension launched in Oct 2024, or via the SDK integrated by app developers.\r\n\r\n\r\nWho Are the Founders of Arcana Network?\r\n\r\nFounded in 2021 by CEO, Mayur Relekar, and Co-founders Aravindh Kumar and Abhishek Chaudhary, Arcana Network aims to be the most developer-focused chain abstraction protocol enabling high performance and user-friendly apps.\r\nMayur is a seasoned 3x entrepreneur who previously served as a venture studio's chief product officer. The founders have been building and experimenting in the Web3 space across different verticals since 2018 and founded Arcana based on the challenges they had faced as Web3 developers.\r\n\r\n\r\nArcana\u2019s Other Products Include:\r\n1. Arcana Auth SDK:  An easy way for developers to onboard users and provide them with a non-custodial wallet. Users can log in using their email or social accounts and instantly receive a secure in-app wallet\u2014no passwords, seed phrases, or installations required. It\u2019s the fastest decentralized social login in Web3, with a sub-5-second login time\r\n2. Arcana Gasless: ERC-4337-based Account Abstraction, enabling developers to sponsor gas fees for users.\r\n3. SendIt: The \u201cPayPal of crypto.\u201d SendIt allows users to send crypto to an email address, simplifying crypto payments and making them accessible to everyone.\r\n\r\nAcross these previously launched products, Arcana has experienced tremendous growth. Arcana Auth has generated over 4 Million wallets with 5,000+ apps deployed, since its launch in February 2023. SendIt has onboarded over 500,000 users, who have completed more than 5 Million transactions, since August 2023.\r\n\r\nSince its inception in 2021, Arcana has raised 4.5Mn+ USD from leading investors and founders in the ecosystem such as Balaji Srinivasan, Founders of Polygon, Polygon Ventures, Woodstock, Republic Crypto, Digital Currency Group, Fenbushi, and 40+ investors.\r\nArcana\u2019s native token, $XAR, had its Reg D public token sale on the Republic platform on November 29, 2023, and is listed on Bybit, Gate, and MEXC.",
         "symbol": "XAR",
         "websiteurl": "https://arcana.network/"
+    },
+    {
+        "description": "",
+        "symbol": "XAUT0.HYPE",
+        "websiteurl": "https://gold.usdt0.to/transfer"
     },
     {
         "description": "Each XAU\u20ae token represents ownership of one troy fine ounce of physical gold on a specific gold bar. XAU\u20ae, which is available as an ERC-20 token on the Ethereum blockchain and as a TRC20 token on the TRON blockchain, can be transferred to any on-chain address from the purchasers\u2019 Tether wallet. Furthermore, Tether Gold (XAU\u20ae) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage, safely held in a Switzerland vault, adopting best in class security and anti-threat measures. Today, Tether Gold (XAU\u20ae) is the best way to hold Gold. ",
@@ -25668,6 +25853,11 @@
         "description": "XSGD is the world's first Travel Rule compliant stablecoin - backed by the Singapore-Dollar. XSGD is part of the StraitsX stablecoin initiative for SEA by Xfers.",
         "symbol": "XSGD.MATIC",
         "websiteurl": "https://www.straitsx.com/sg/xsgd"
+    },
+    {
+        "description": "SolvBTC.BBN is a yield-bearing token that represents staked SolvBTC plus all future Babylon staking rewards and Solv Points. As a liquid token, SolvBTC.BBN stays accessible across multiple networks and unlocks more DeFi yield opportunities.\r\nSolv Protocol is a Unified Bitcoin Liquidity Matrix, aimed at bridging Bitcoin's trillion-dollar economy to DeFi by unifying its fragmented liquidity through SolvBTC. SolvBTC provides Bitcoin holders with access to Liquid Staking Tokens, offering a simple and efficient way to earn yields on their Bitcoin across any chain. By staking with Solv, your Bitcoin remains liquid, allowing you to leverage a wide range of DeFi applications.",
+        "symbol": "XSOLVBTC.HYPE",
+        "websiteurl": "https://app.solv.finance/babylon"
     },
     {
         "description": "XT Smart Chain\r\nIntroduction\uff1a\r\nXT Smart Chain is a decentralized, energy-efficient public chain. It is compatible with smart contracts and supports high-performance transactions. The endogenous token of the XT smart chain is XT, which adopts the HPoS consensus mechanism, which has low transaction costs, Features such as low transaction latency and high transaction concurrency.\r\n\r\nThe mission of XT Smart Chain is not only a public chain, but also focuses on discovering and supporting high-potential developers and innovative projects. Relying on the world's largest trading ecosystem, XSC is committed to becoming the birthplace of innovative technologies and innovative businesses. , To build a complete ecological cycle of technology development, application promotion, and trading.\r\n\r\nXT Smart Chain Features\uff1a\r\nAn open and decentralized network to maintain the security of the network and assets.\r\nSupport EVM programmability and smart contract compatibility to reduce development or migration costs.\r\nMeta transaction function: fee reduction, effectively reducing the cost of developers and users on the chain.\r\nSupport cross-chain asset transfer and optimize user experience.",

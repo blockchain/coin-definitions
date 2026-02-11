@@ -1,0 +1,9 @@
+{
+  "name": "USD Coin",
+  "website": "https://www.circle.com/usdc",
+  "type": "ERC20",
+  "symbol": "USDC",
+  "decimals": 6,
+  "status": "active",
+  "id": "0xb88339CB7199b77E23DB6E890353E22632Ba630f"
+}
