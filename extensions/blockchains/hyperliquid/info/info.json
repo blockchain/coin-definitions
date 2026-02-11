@@ -1,0 +1,7 @@
+{
+    "name": "Hyperliquid",
+    "symbol": "HYPE",
+    "type": "COIN", 
+    "decimals": 18,
+    "status": "active"
+}
