@@ -888,6 +888,15 @@
     },
     "hwsSettings": null
   },
+    {
+    "symbol": "HYPE",
+    "displaySymbol": "HYPE",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
   {
     "symbol": "INJ",
     "displaySymbol": "INJ",

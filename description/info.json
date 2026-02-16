@@ -10535,7 +10535,7 @@
         "websiteurl": ""
     },
     {
-        "description": "Hyperliquid is a performant L1 optimized from the ground up. The vision is a fully onchain open financial system with user built applications interfacing with performant native components, all without compromising end user experience. \r\n\r\nThe Hyperliquid L1 is performant enough to operate an entire ecosystem of permissionless financial applications \u2013 every order, cancel, trade, and liquidation happens transparently on-chain with block latency <1 second. The chain currently supports 100k orders / second.\r\n\r\nThe Hyperliquid L1 uses a custom consensus algorithm called HyperBFT which is heavily inspired by Hotstuff and its successors. Both the algorithm and networking stack are optimized from the ground up to support the L1. \r\n\r\nThe flagship native application is a fully onchain order book perpetuals exchange, the Hyperliquid DEX. Further developments include a native token standard, spot trading, permissionless liquidity, etc.",
+        "description": "HYPE is the native utility and governance token of Hyperliquid, a Layer-1 blockchain designed to support decentralized trading and financial applications. The network features an on-chain order book and a custom consensus mechanism to enable low-latency execution and rapid transaction finality. HYPE is used for staking, governance, and network operations, supporting the coordination and security of the Hyperliquid ecosystem.",
         "symbol": "HYPE",
         "websiteurl": "https://hyperliquid.xyz/"
     },
