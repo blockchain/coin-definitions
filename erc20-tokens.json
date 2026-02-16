@@ -3240,6 +3240,15 @@
         "website": "https://mememelabs.me/"
     },
     {
+        "address": "0x1Aad217B8F78dbA5E6693460e8470F8b1A3977f3",
+        "decimals": 18,
+        "displaySymbol": "STRCx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1Aad217B8F78dbA5E6693460e8470F8b1A3977f3/logo.png",
+        "name": "Strategy PP Variable xStock",
+        "symbol": "STRCX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x1Ac765B5BEa23184802C7d2d497f7c33f1444A9e",
         "decimals": 18,
         "displaySymbol": "PFEX",
@@ -3445,6 +3454,15 @@
         "name": "X2Y2Token",
         "symbol": "X2Y2",
         "website": "https://x2y2.io/"
+    },
+    {
+        "address": "0x1Ec8eaa3f68261e793C48486b12092336A03c479",
+        "decimals": 18,
+        "displaySymbol": "AUTO",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1Ec8eaa3f68261e793C48486b12092336A03c479/logo.png",
+        "name": "AUTOfinance",
+        "symbol": "AUTO2",
+        "website": "https://app.auto.finance"
     },
     {
         "address": "0x1F35a281036Be57E64e7E7A2A556b4f888A1b829",
@@ -4129,6 +4147,15 @@
         "name": "Smart Reward Token",
         "symbol": "SRT",
         "website": "http://www.srcorp.io/"
+    },
+    {
+        "address": "0x22E1991e5f82736A2a990322a46aac0e95826c5B",
+        "decimals": 18,
+        "displaySymbol": "BTBTx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x22E1991e5f82736A2a990322a46aac0e95826c5B/logo.png",
+        "name": "Bit Digital xStock",
+        "symbol": "BTBTX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x23352036E911A22Cfc692B5E2E196692658ADED9",
@@ -6057,6 +6084,15 @@
         "website": "https://www.chihiro-inu.com"
     },
     {
+        "address": "0x3522513E5F146a2006e2901b05f16B2821485E19",
+        "decimals": 18,
+        "displaySymbol": "AMDx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3522513E5F146a2006e2901b05f16B2821485E19/logo.png",
+        "name": "AMD xStock",
+        "symbol": "AMDX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x3543638eD4a9006E4840B105944271Bcea15605D",
         "decimals": 18,
         "displaySymbol": "UUU",
@@ -6342,6 +6378,15 @@
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x38BAC69cbBd28156796e4163B2B6dcb81E336565/logo.png",
         "name": "Broadcom tokenized stock (xStock)",
         "symbol": "AVGOX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
+        "address": "0x38E0445308E7FcD5230F2DF6b52B36DD4FF313b6",
+        "decimals": 18,
+        "displaySymbol": "STRKx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x38E0445308E7FcD5230F2DF6b52B36DD4FF313b6/logo.png",
+        "name": "Strategy PP Fixed xStock",
+        "symbol": "STRKX",
         "website": "https://assets.backed.fi/products"
     },
     {
@@ -11745,6 +11790,15 @@
         "website": "https://lpntoken.io"
     },
     {
+        "address": "0x6a668332825450ACD2e449372057d31b3de16a1E",
+        "decimals": 18,
+        "displaySymbol": "IEMGx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6a668332825450ACD2e449372057d31b3de16a1E/logo.png",
+        "name": "Core MSCI Emerging Markets xStock",
+        "symbol": "IEMGX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x6a8fee0E33Cb65a7E8D21BadCA62E87639ef74B3",
         "decimals": 18,
         "displaySymbol": "PDX",
@@ -11877,6 +11931,15 @@
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6d482CeC5f9dd1f05CCee9Fd3ff79B246170F8e2/logo.png",
         "name": "Palantir tokenized stock (xStock)",
         "symbol": "PLTRX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
+        "address": "0x6d5edEEbBc6A4099Eb8bb289EB3b80D799f7b28C",
+        "decimals": 18,
+        "displaySymbol": "VTx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6d5edEEbBc6A4099Eb8bb289EB3b80D799f7b28C/logo.png",
+        "name": "Vanguard Total World xStock",
+        "symbol": "VTX",
         "website": "https://assets.backed.fi/products"
     },
     {
@@ -16884,6 +16947,15 @@
         "website": "https://www.localcoinswap.com/"
     },
     {
+        "address": "0xAA28cB97D7f7E172f54deE950743886D2d65447d",
+        "decimals": 18,
+        "displaySymbol": "IJRx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAA28cB97D7f7E172f54deE950743886D2d65447d/logo.png",
+        "name": "S&P Small Cap xStock",
+        "symbol": "IJRX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xAA6624D7363Ef8284aA8ce4e18146dEd5f421b2c",
         "decimals": 18,
         "displaySymbol": "0DOG",
@@ -20673,6 +20745,15 @@
         "website": "https://bird-dog.vip/"
     },
     {
+        "address": "0xF6D87E523512704C29E9b7cA3e9e6226bDCE3EA1",
+        "decimals": 18,
+        "displaySymbol": "SCHFx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF6D87E523512704C29E9b7cA3e9e6226bDCE3EA1/logo.png",
+        "name": "Schwab International Equity xStock",
+        "symbol": "SCHFX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xF70a642bD387F94380fFb90451C2c81d4Eb82CBc",
         "decimals": 18,
         "displaySymbol": "STAR",
@@ -22084,6 +22165,15 @@
         "name": "stETH",
         "symbol": "stETH",
         "website": "https://www.lido.fi"
+    },
+    {
+        "address": "0xaeB681B69E5094E04d11BCeF51A71358A374C3ED",
+        "decimals": 18,
+        "displaySymbol": "BMNRx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xaeB681B69E5094E04d11BCeF51A71358A374C3ED/logo.png",
+        "name": "Bitmine xStock",
+        "symbol": "BMNRX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xaeC2E87E0A235266D9C5ADc9DEb4b2E29b54D009",
@@ -24525,6 +24615,15 @@
         "website": "https://www.atarichain.com/"
     },
     {
+        "address": "0xdadfb355c6110eda0908740d52c834d6C2BCDDc7",
+        "decimals": 18,
+        "displaySymbol": "IWMx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdadfb355c6110eda0908740d52c834d6C2BCDDc7/logo.png",
+        "name": "Russell 2000 xStock",
+        "symbol": "IWMX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xdb0482cfaD4789798623E64b15eebA01b16e917C",
         "decimals": 18,
         "displaySymbol": "JNJX",
@@ -25162,6 +25261,15 @@
         "name": "Inscribe",
         "symbol": "INS",
         "website": "https://inscribe.app/"
+    },
+    {
+        "address": "0xe95ab205e333443D7970336D5fD827eF9eD97608",
+        "decimals": 18,
+        "displaySymbol": "TONXx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xe95ab205e333443D7970336D5fD827eF9eD97608/logo.png",
+        "name": "TON xStock",
+        "symbol": "TONXX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xe9689028eDE16c2FDFE3D11855D28f8E3fC452a3",
