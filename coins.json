@@ -288,6 +288,15 @@
     "website": "https://hedera.com/"
   },
   {
+    "symbol": "HYPE",
+    "displaySymbol": "HYPE",
+    "name": "Hyperliquid",
+    "key": "hyperliquid",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/hyperliquid/info/logo.png",
+    "website": "https://app.hyperliquid.xyz/"
+  },
+  {
     "symbol": "ICP",
     "displaySymbol": "ICP",
     "name": "Internet Computer",

@@ -44,6 +44,7 @@
   {"symbol": "ETH", "name": "Scroll"},
   {"symbol": "ETH", "name": "Sepolia Testnet"},
   {"symbol": "ETH", "name": "ZkSync Era"},
+  {"symbol": "ETH", "name": "MegaETH"},
   {"symbol": "EVMOS", "name": "Evmos"},
   {"symbol": "EVMOS", "name": "Native Evmos"},
   {"symbol": "EWT", "name": "Energy Web Token"},
