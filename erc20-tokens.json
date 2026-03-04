@@ -11171,10 +11171,10 @@
     {
         "address": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
         "decimals": 6,
-        "displaySymbol": "XAUt",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x68749665FF8D2d112Fa859AA293F07A622782F38/logo.png",
+        "displaySymbol": "XAUT",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x68749665FF8D2d112Fa859AA293F07A622782F38/logo.png",
         "name": "Tether Gold",
-        "symbol": "XAUt",
+        "symbol": "XAUT",
         "website": "https://gold.tether.to/"
     },
     {
