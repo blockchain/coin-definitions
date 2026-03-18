@@ -1,0 +1,9 @@
+{
+  "name": "Enphase Energy (Ondo Tokenized)",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "ENPHON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x4f3b49ac895a29c0908c57538932967cdc8e3c80"
+}

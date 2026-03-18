@@ -1,0 +1,9 @@
+{
+  "name": "Western Digital (Ondo Tokenized)",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "WDCON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x44e89d34601b8d0155e16634d2553ef7f54dbab2"
+}
