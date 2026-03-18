@@ -1,0 +1,10 @@
+{
+  "id": "0x30bd85fd4286c5c9857679f5b188f737b4a7b8c0",
+  "name": "Regeneron Pharmaceuticals (Ondo Tokenized)",
+  "symbol": "REGNON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "REGNon"
+}

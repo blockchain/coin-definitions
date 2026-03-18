@@ -1,0 +1,10 @@
+{
+  "id": "0x54b92fd77229269ff6484942c123cca72f2d6fec",
+  "name": "Fidelity Solana Fund (Ondo Tokenized)",
+  "symbol": "FSOLON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "FSOLon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x240eb4859b4537d250cf784cc758c404da5fe4bd",
+  "name": "Franklin High Yield Corporate ETF (Ondo Tokenized)",
+  "symbol": "FLHYON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "FLHYon"
+}

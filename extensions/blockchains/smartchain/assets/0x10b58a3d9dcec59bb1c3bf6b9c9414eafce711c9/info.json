@@ -1,0 +1,10 @@
+{
+  "id": "0x10b58a3d9dcec59bb1c3bf6b9c9414eafce711c9",
+  "name": "Vanguard Real Estate ETF (Ondo Tokenized)",
+  "symbol": "VNQON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "VNQon"
+}

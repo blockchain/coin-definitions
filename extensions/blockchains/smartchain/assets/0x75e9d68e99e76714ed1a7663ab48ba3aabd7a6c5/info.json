@@ -1,0 +1,10 @@
+{
+  "id": "0x75e9d68e99e76714ed1a7663ab48ba3aabd7a6c5",
+  "name": "PIMCO 0-5 Year High Yield Corporate Bond Index ETF (Ondo Tokenized)",
+  "symbol": "HYSON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "HYSon"
+}

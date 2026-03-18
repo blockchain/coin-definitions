@@ -1,0 +1,10 @@
+{
+  "id": "0x40d8e1fbaf69173c47fa493feb50a84eec6b57ee",
+  "name": "IonQ (Ondo Tokenized)",
+  "symbol": "IONQON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "IONQon"
+}

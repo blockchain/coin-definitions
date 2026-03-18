@@ -1,0 +1,10 @@
+{
+  "id": "0x2aea1d415d45ccf3eabe565d45dcaf4ea2035b9c",
+  "name": "GE Vernova (Ondo Tokenized)",
+  "symbol": "GEVON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "GEVon"
+}

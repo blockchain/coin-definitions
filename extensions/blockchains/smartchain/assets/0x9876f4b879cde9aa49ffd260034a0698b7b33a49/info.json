@@ -1,0 +1,10 @@
+{
+  "id": "0x9876f4b879cde9aa49ffd260034a0698b7b33a49",
+  "name": "iShares MSCI Brazil ETF (Ondo Tokenized)",
+  "symbol": "EWZON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "EWZon"
+}

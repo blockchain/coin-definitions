@@ -1,0 +1,10 @@
+{
+  "id": "0x0585756aafb241b0f8a9df62db26c566091bde0b",
+  "name": "Coherent (Ondo Tokenized)",
+  "symbol": "COHRON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "COHRon"
+}

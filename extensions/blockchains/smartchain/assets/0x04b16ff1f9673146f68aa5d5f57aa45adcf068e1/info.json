@@ -1,0 +1,10 @@
+{
+  "id": "0x04b16ff1f9673146f68aa5d5f57aa45adcf068e1",
+  "name": "iShares Ethereum Trust ETF (Ondo Tokenized)",
+  "symbol": "ETHAON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "ETHAon"
+}

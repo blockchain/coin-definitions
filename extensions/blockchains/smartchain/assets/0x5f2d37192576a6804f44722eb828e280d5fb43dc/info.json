@@ -1,0 +1,10 @@
+{
+  "id": "0x5f2d37192576a6804f44722eb828e280d5fb43dc",
+  "name": "US Brent Oil Fund (Ondo Tokenized)",
+  "symbol": "BNOON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "BNOon"
+}
