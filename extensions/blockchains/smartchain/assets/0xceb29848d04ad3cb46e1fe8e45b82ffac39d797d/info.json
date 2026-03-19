@@ -1,0 +1,10 @@
+{
+  "id": "0xceb29848d04ad3cb46e1fe8e45b82ffac39d797d",
+  "name": "Western Digital (Ondo Tokenized)",
+  "symbol": "WDCON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "WDCon"
+}

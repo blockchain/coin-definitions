@@ -1,0 +1,10 @@
+{
+  "id": "0xa5351c9bf08055e03642b6b8649a0f7e895501bf",
+  "name": "US Natural Gas Fund (Ondo Tokenized)",
+  "symbol": "UNGON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "UNGon"
+}

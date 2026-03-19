@@ -1,0 +1,10 @@
+{
+  "id": "0x23e39d94807a8bb7e3f8294b4911d04ee26dce39",
+  "name": "Redwire (Ondo Tokenized)",
+  "symbol": "RDWON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "RDWon"
+}

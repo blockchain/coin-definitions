@@ -1,0 +1,10 @@
+{
+  "id": "0xa486a0a05250e8621ba3b26c3bbc517145eba619",
+  "name": "iShares 7-10 Year Treasury Bond ETF (Ondo Tokenized)",
+  "symbol": "IEFON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "IEFon"
+}

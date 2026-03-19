@@ -1,0 +1,10 @@
+{
+  "id": "0x551f8db0da800c910e12cf991eac306714481685",
+  "name": "iShares MSCI Chile ETF (Ondo Tokenized)",
+  "symbol": "ECHON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "ECHon"
+}

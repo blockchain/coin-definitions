@@ -1,0 +1,10 @@
+{
+  "id": "0x0b790abd6594918de1022233b7cc79badb84d92a",
+  "name": "Albemarle (Ondo Tokenized)",
+  "symbol": "ALBON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "ALBon"
+}

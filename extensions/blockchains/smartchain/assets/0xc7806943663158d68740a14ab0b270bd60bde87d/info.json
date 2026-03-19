@@ -1,0 +1,10 @@
+{
+  "id": "0xc7806943663158d68740a14ab0b270bd60bde87d",
+  "name": "Global X Uranium ETF (Ondo Tokenized)",
+  "symbol": "URAON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "URAon"
+}

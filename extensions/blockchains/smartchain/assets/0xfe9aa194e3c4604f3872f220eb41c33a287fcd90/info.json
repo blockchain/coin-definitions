@@ -1,0 +1,10 @@
+{
+  "id": "0xfe9aa194e3c4604f3872f220eb41c33a287fcd90",
+  "name": "Union Pacific Corporation (Ondo Tokenized)",
+  "symbol": "UNPON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "UNPon"
+}

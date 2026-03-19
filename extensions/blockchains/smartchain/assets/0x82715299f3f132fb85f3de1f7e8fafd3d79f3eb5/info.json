@@ -1,0 +1,10 @@
+{
+  "id": "0x82715299f3f132fb85f3de1f7e8fafd3d79f3eb5",
+  "name": "iShares MSCI Japan ETF (Ondo Tokenized)",
+  "symbol": "EWJON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "EWJon"
+}

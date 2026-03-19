@@ -1,0 +1,10 @@
+{
+  "id": "0x48187890d16aee64798e02c5bed510f4db5694a9",
+  "name": "Franklin US Large Cap Multifactor Index ETF (Ondo Tokenized)",
+  "symbol": "FLQLON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "FLQLon"
+}

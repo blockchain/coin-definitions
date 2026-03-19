@@ -1,0 +1,10 @@
+{
+  "id": "0x3ec23f52f6573fc0587a0631dd8c3b107f6bcb35",
+  "name": "abrdn Physical Platinum Shares ETF (Ondo Tokenized)",
+  "symbol": "PPLTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "PPLTon"
+}

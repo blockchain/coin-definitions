@@ -1,0 +1,10 @@
+{
+  "id": "0x92d504158a8dc69de989db5ede3230d958fb8630",
+  "name": "Exodus Movement (Ondo Tokenized)",
+  "symbol": "EXODON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "EXODon"
+}

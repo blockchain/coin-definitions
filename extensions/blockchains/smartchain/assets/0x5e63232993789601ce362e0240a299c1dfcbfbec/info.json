@@ -1,0 +1,10 @@
+{
+  "id": "0x5e63232993789601ce362e0240a299c1dfcbfbec",
+  "name": "Newmont (Ondo Tokenized)",
+  "symbol": "NEMON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "NEMon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x76e39171cb665a35981e744e2ceb7012f76caeac",
+  "name": "CoreWeave (Ondo Tokenized)",
+  "symbol": "CRWVON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "CRWVon"
+}

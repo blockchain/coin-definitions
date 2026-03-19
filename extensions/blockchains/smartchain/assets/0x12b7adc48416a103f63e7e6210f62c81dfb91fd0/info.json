@@ -1,0 +1,10 @@
+{
+  "id": "0x12b7adc48416a103f63e7e6210f62c81dfb91fd0",
+  "name": "iShares MSCI South Korea ETF (Ondo Tokenized)",
+  "symbol": "EWYON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "EWYon"
+}

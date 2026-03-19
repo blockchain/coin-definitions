@@ -1,0 +1,10 @@
+{
+  "id": "0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1",
+  "name": "iShares China Large-Cap ETF (Ondo Tokenized)",
+  "symbol": "FXION",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "FXIon"
+}

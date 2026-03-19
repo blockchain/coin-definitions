@@ -1,0 +1,10 @@
+{
+  "id": "0x18de24acb876c0b8392d9c55583bb21c0355980b",
+  "name": "Applied Digital (Ondo Tokenized)",
+  "symbol": "APLDON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "APLDon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x15580092796f69825cff4738cac55d05d41eaa42",
+  "name": "abrdn Physical Precious Metals Basket Shares ETF (Ondo Tokenized)",
+  "symbol": "GLTRON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "GLTRon"
+}
