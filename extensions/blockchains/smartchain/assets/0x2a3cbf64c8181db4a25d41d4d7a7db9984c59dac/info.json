@@ -1,0 +1,10 @@
+{
+  "id": "0x2a3cbf64c8181db4a25d41d4d7a7db9984c59dac",
+  "name": "iShares Semiconductor ETF (Ondo Tokenized)",
+  "symbol": "SOXXON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "SOXXon"
+}

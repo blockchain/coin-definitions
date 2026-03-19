@@ -1845,6 +1845,15 @@
         "website": "https://www.bifrostnetwork.com/"
     },
     {
+        "address": "0x0c802acb21cb2aadb2eb5e5090868e1361b26b69",
+        "decimals": 18,
+        "displaySymbol": "NEMON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x0c802acb21cb2aadb2eb5e5090868e1361b26b69/logo.png",
+        "name": "Newmont",
+        "symbol": "NEMON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x0c8276E4FeC072cf7854Be69c70F7773D1610857",
         "decimals": 18,
         "displaySymbol": "COSTon",
@@ -1897,6 +1906,15 @@
         "name": "BEND Token",
         "symbol": "BEND",
         "website": "https://www.benddao.xyz/"
+    },
+    {
+        "address": "0x0d1fa4e1e3719945899ef7b02840627df46af44a",
+        "decimals": 18,
+        "displaySymbol": "ASTSON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x0d1fa4e1e3719945899ef7b02840627df46af44a/logo.png",
+        "name": "AST SpaceMobile",
+        "symbol": "ASTSON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x0d2BB9D68dD4451A09ec94C05E20Bd395022bd8e",
@@ -2032,6 +2050,15 @@
         "name": "Flama",
         "symbol": "FMA",
         "website": "https://flamanet.io/"
+    },
+    {
+        "address": "0x0f8887772262c449793890dcd3bf320308db423b",
+        "decimals": 18,
+        "displaySymbol": "UECON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x0f8887772262c449793890dcd3bf320308db423b/logo.png",
+        "name": "Uranium Energy",
+        "symbol": "UECON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x0f8c45B896784A1E408526B9300519ef8660209c",
@@ -2275,6 +2302,15 @@
         "name": "MX Token",
         "symbol": "MX",
         "website": "https://www.mexc.com/"
+    },
+    {
+        "address": "0x122940c4c5f9ccfae7fa86455a42d3ec140855ce",
+        "decimals": 18,
+        "displaySymbol": "IBITON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x122940c4c5f9ccfae7fa86455a42d3ec140855ce/logo.png",
+        "name": "iShares Bitcoin Trust",
+        "symbol": "IBITON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x122A86b5DFF2D085AfB49600b4cd7375D0d94A5f",
@@ -2988,6 +3024,15 @@
         "website": "https://www.fuzex.co/"
     },
     {
+        "address": "0x185e5fa1b84f94d46ef2a33052ad39bd5f326fd8",
+        "decimals": 18,
+        "displaySymbol": "EXODON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x185e5fa1b84f94d46ef2a33052ad39bd5f326fd8/logo.png",
+        "name": "Exodus Movement",
+        "symbol": "EXODON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x1864cE27E9F7517047933CaAE530674e8C70b8A7",
         "decimals": 18,
         "displaySymbol": "PIB",
@@ -3240,6 +3285,15 @@
         "website": "https://mememelabs.me/"
     },
     {
+        "address": "0x1Aad217B8F78dbA5E6693460e8470F8b1A3977f3",
+        "decimals": 18,
+        "displaySymbol": "STRCx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1Aad217B8F78dbA5E6693460e8470F8b1A3977f3/logo.png",
+        "name": "Strategy PP Variable xStock",
+        "symbol": "STRCX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x1Ac765B5BEa23184802C7d2d497f7c33f1444A9e",
         "decimals": 18,
         "displaySymbol": "PFEX",
@@ -3447,6 +3501,15 @@
         "website": "https://x2y2.io/"
     },
     {
+        "address": "0x1Ec8eaa3f68261e793C48486b12092336A03c479",
+        "decimals": 18,
+        "displaySymbol": "AUTO",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1Ec8eaa3f68261e793C48486b12092336A03c479/logo.png",
+        "name": "AUTOfinance",
+        "symbol": "AUTO2",
+        "website": "https://app.auto.finance"
+    },
+    {
         "address": "0x1F35a281036Be57E64e7E7A2A556b4f888A1b829",
         "decimals": 18,
         "displaySymbol": "MZK",
@@ -3600,6 +3663,15 @@
         "website": "https://vesper.finance/"
     },
     {
+        "address": "0x1b468d5535ed7c19ce42f0073db7fdf441028131",
+        "decimals": 18,
+        "displaySymbol": "ALBON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x1b468d5535ed7c19ce42f0073db7fdf441028131/logo.png",
+        "name": "Albemarle",
+        "symbol": "ALBON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x1b5036bEc1B82D44d52Fa953A370b3c6Cd9328B5",
         "decimals": 18,
         "displaySymbol": "ELAN",
@@ -3726,6 +3798,15 @@
         "website": "https://waves.tech/"
     },
     {
+        "address": "0x1cb673005fc58447d881486919c14d8e7c741bb1",
+        "decimals": 18,
+        "displaySymbol": "FGDLON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x1cb673005fc58447d881486919c14d8e7c741bb1/logo.png",
+        "name": "Franklin Responsibly Sourced Gold ETF",
+        "symbol": "FGDLON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x1cc7047E15825F639E0752Eb1b89E4225F5327F2",
         "decimals": 18,
         "displaySymbol": "PLX",
@@ -3834,6 +3915,15 @@
         "website": "https://chainguardians.io/"
     },
     {
+        "address": "0x1fb5a8dcd70be750a97eaf8a47bbe74ab7d3183e",
+        "decimals": 18,
+        "displaySymbol": "WMON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x1fb5a8dcd70be750a97eaf8a47bbe74ab7d3183e/logo.png",
+        "name": "Waste Management",
+        "symbol": "WMON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x1fc5EF0337AEA85C5f9198853a6E3A579a7A6987",
         "decimals": 18,
         "displaySymbol": "REAP",
@@ -3841,6 +3931,15 @@
         "name": "ReapChain",
         "symbol": "REAP",
         "website": "https://www.reapchain.com/"
+    },
+    {
+        "address": "0x1fe2126bc05e4bb0468c4a198e930c889e1054a3",
+        "decimals": 18,
+        "displaySymbol": "SOXXON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x1fe2126bc05e4bb0468c4a198e930c889e1054a3/logo.png",
+        "name": "iShares Semiconductor ETF",
+        "symbol": "SOXXON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x2001f2A0Cf801EcFda622f6C28fb6E10d803D969",
@@ -4068,6 +4167,15 @@
         "website": "http://c-diamondcastle.com/"
     },
     {
+        "address": "0x224b381cfae8ccaf2e4d32d827467c2331ce04be",
+        "decimals": 18,
+        "displaySymbol": "FSOLON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x224b381cfae8ccaf2e4d32d827467c2331ce04be/logo.png",
+        "name": "Fidelity Solana Fund",
+        "symbol": "FSOLON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x22514fFb0d7232a56F0c24090E7B68f179FAA940",
         "decimals": 18,
         "displaySymbol": "QORPO",
@@ -4129,6 +4237,15 @@
         "name": "Smart Reward Token",
         "symbol": "SRT",
         "website": "http://www.srcorp.io/"
+    },
+    {
+        "address": "0x22E1991e5f82736A2a990322a46aac0e95826c5B",
+        "decimals": 18,
+        "displaySymbol": "BTBTx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x22E1991e5f82736A2a990322a46aac0e95826c5B/logo.png",
+        "name": "Bit Digital xStock",
+        "symbol": "BTBTX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0x23352036E911A22Cfc692B5E2E196692658ADED9",
@@ -5193,6 +5310,15 @@
         "website": "https://hex.com"
     },
     {
+        "address": "0x2b7727076b9c9b1834a2f95b81f12eedd30db9f1",
+        "decimals": 18,
+        "displaySymbol": "COHRON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x2b7727076b9c9b1834a2f95b81f12eedd30db9f1/logo.png",
+        "name": "Coherent",
+        "symbol": "COHRON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x2b867efD2dE4Ad2B583Ca0CB3dF9C4040Ef4D329",
         "decimals": 9,
         "displaySymbol": "LBlock",
@@ -5319,6 +5445,15 @@
         "website": "https://cere.network/"
     },
     {
+        "address": "0x2dd57b497c777d9825a5902114be81df98ede958",
+        "decimals": 18,
+        "displaySymbol": "FXION",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x2dd57b497c777d9825a5902114be81df98ede958/logo.png",
+        "name": "iShares China Large-Cap ETF",
+        "symbol": "FXION",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x2ddc2391cc89e3e716a938f089ae755174cfdf1f",
         "decimals": 18,
         "displaySymbol": "ADION",
@@ -5425,6 +5560,15 @@
         "name": "ValiDAO",
         "symbol": "VDO",
         "website": "https://validao.xyz"
+    },
+    {
+        "address": "0x2f2e4b09b99fbf018f600e031aafd9da6347cc75",
+        "decimals": 18,
+        "displaySymbol": "IONQON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x2f2e4b09b99fbf018f600e031aafd9da6347cc75/logo.png",
+        "name": "IonQ",
+        "symbol": "IONQON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x2f4eb47A1b1F4488C71fc10e39a4aa56AF33Dd49",
@@ -5614,6 +5758,15 @@
         "name": "THORChain ETH.RUNE",
         "symbol": "RUNE",
         "website": "https://thorchain.org"
+    },
+    {
+        "address": "0x318dcb4f07c3e6ccecc12a252100fb3bf76eeb02",
+        "decimals": 18,
+        "displaySymbol": "APLDON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x318dcb4f07c3e6ccecc12a252100fb3bf76eeb02/logo.png",
+        "name": "Applied Digital",
+        "symbol": "APLDON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x31b6100F5F4466e6dAeb1edb2f2cE6e548cF8938",
@@ -5868,6 +6021,15 @@
         "website": "https://xbanking.org"
     },
     {
+        "address": "0x33ac34da58168de69ce74a66fbad81a88f974bd5",
+        "decimals": 18,
+        "displaySymbol": "REGNON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x33ac34da58168de69ce74a66fbad81a88f974bd5/logo.png",
+        "name": "Regeneron Pharmaceuticals",
+        "symbol": "REGNON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x33fEfc811A86474A832d38926428a1DADE431F25",
         "decimals": 8,
         "displaySymbol": "PNC",
@@ -6057,6 +6219,15 @@
         "website": "https://www.chihiro-inu.com"
     },
     {
+        "address": "0x3522513E5F146a2006e2901b05f16B2821485E19",
+        "decimals": 18,
+        "displaySymbol": "AMDx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3522513E5F146a2006e2901b05f16B2821485E19/logo.png",
+        "name": "AMD xStock",
+        "symbol": "AMDX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x3543638eD4a9006E4840B105944271Bcea15605D",
         "decimals": 18,
         "displaySymbol": "UUU",
@@ -6237,6 +6408,15 @@
         "website": "https://assets.backed.fi/products"
     },
     {
+        "address": "0x36e3b8d9aad0e51ac08e56a75a8f6005bf68535b",
+        "decimals": 18,
+        "displaySymbol": "RKLBON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x36e3b8d9aad0e51ac08e56a75a8f6005bf68535b/logo.png",
+        "name": "Rocket Lab",
+        "symbol": "RKLBON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x37E8789bB9996CaC9156cD5F5Fd32599E6b91289",
         "decimals": 18,
         "displaySymbol": "AID",
@@ -6345,6 +6525,15 @@
         "website": "https://assets.backed.fi/products"
     },
     {
+        "address": "0x38E0445308E7FcD5230F2DF6b52B36DD4FF313b6",
+        "decimals": 18,
+        "displaySymbol": "STRKx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x38E0445308E7FcD5230F2DF6b52B36DD4FF313b6/logo.png",
+        "name": "Strategy PP Fixed xStock",
+        "symbol": "STRKX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x38E68A37E401F7271568CecaAc63c6B1e19130B4",
         "decimals": 18,
         "displaySymbol": "BANANA",
@@ -6432,6 +6621,15 @@
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x398f7f759380f3d309b9fc0e6cb3d36e0d67818d/logo.png",
         "name": "Trip.com Group",
         "symbol": "TCOMON",
+        "website": "https://ondo.finance/"
+    },
+    {
+        "address": "0x39930751d4569f7dd45d1ba46e82cd3680ec2e0a",
+        "decimals": 18,
+        "displaySymbol": "UNPON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x39930751d4569f7dd45d1ba46e82cd3680ec2e0a/logo.png",
+        "name": "Union Pacific Corporation",
+        "symbol": "UNPON",
         "website": "https://ondo.finance/"
     },
     {
@@ -6802,6 +7000,15 @@
         "name": "Piccolo Inu",
         "symbol": "PINU",
         "website": "https://www.piccoloinu.com/"
+    },
+    {
+        "address": "0x3a16af9ef328d087cc781053a2a2a27549ae6768",
+        "decimals": 18,
+        "displaySymbol": "RDWON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x3a16af9ef328d087cc781053a2a2a27549ae6768/logo.png",
+        "name": "Redwire",
+        "symbol": "RDWON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x3a1Bda28AdB5B0a812a7CF10A1950c920F79BcD3",
@@ -7425,6 +7632,15 @@
         "website": "https://spankchain.com/"
     },
     {
+        "address": "0x42d6e274b8631e5289a8f853e8d1a7baeff3c8d1",
+        "decimals": 18,
+        "displaySymbol": "CIBRON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x42d6e274b8631e5289a8f853e8d1a7baeff3c8d1/logo.png",
+        "name": "First Trust NASDAQ Cybersecurity ETF",
+        "symbol": "CIBRON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x43044f861ec040DB59A7e324c40507adDb673142",
         "decimals": 18,
         "displaySymbol": "CAP",
@@ -7540,6 +7756,15 @@
         "name": "basedAI",
         "symbol": "BASEDAI",
         "website": "https://getbased.ai"
+    },
+    {
+        "address": "0x44e89d34601b8d0155e16634d2553ef7f54dbab2",
+        "decimals": 18,
+        "displaySymbol": "WDCON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x44e89d34601b8d0155e16634d2553ef7f54dbab2/logo.png",
+        "name": "Western Digital",
+        "symbol": "WDCON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x44ff8620b8cA30902395A7bD3F2407e1A091BF73",
@@ -8730,6 +8955,15 @@
         "website": "http://digix.io/"
     },
     {
+        "address": "0x4f3b49ac895a29c0908c57538932967cdc8e3c80",
+        "decimals": 18,
+        "displaySymbol": "ENPHON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x4f3b49ac895a29c0908c57538932967cdc8e3c80/logo.png",
+        "name": "Enphase Energy",
+        "symbol": "ENPHON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x4f5fa8f2d12e5eB780f6082Dd656C565C48E0f24",
         "decimals": 18,
         "displaySymbol": "GUM",
@@ -9054,6 +9288,15 @@
         "website": "https://luffytoken.com/"
     },
     {
+        "address": "0x54021fde36b7c4c4f9c35b02fb9a153ed8f5938a",
+        "decimals": 18,
+        "displaySymbol": "EWZON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x54021fde36b7c4c4f9c35b02fb9a153ed8f5938a/logo.png",
+        "name": "iShares MSCI Brazil ETF",
+        "symbol": "EWZON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x544c42fBB96B39B21DF61cf322b5EDC285EE7429",
         "decimals": 18,
         "displaySymbol": "INSUR",
@@ -9106,6 +9349,15 @@
         "name": "Bitget Token",
         "symbol": "BGB",
         "website": "https://partner.bitget.com/bg/2LAE9K"
+    },
+    {
+        "address": "0x54c1ff361b402f66c13107421e6a431c3375ef24",
+        "decimals": 18,
+        "displaySymbol": "FLHYON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x54c1ff361b402f66c13107421e6a431c3375ef24/logo.png",
+        "name": "Franklin High Yield Corporate ETF",
+        "symbol": "FLHYON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x55296f69f40Ea6d20E478533C15A6B08B654E758",
@@ -9511,6 +9763,15 @@
         "name": "Morpho",
         "symbol": "MORPHO",
         "website": "https://morpho.org/"
+    },
+    {
+        "address": "0x58a2edf0169ede82904e47a0e2a3a4008edebb60",
+        "decimals": 18,
+        "displaySymbol": "LUNRON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x58a2edf0169ede82904e47a0e2a3a4008edebb60/logo.png",
+        "name": "Intuitive Machines",
+        "symbol": "LUNRON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x58aEA10748a00D1781D6651f9d78A414EA32CA46",
@@ -10044,6 +10305,15 @@
         "website": "https://stpay.org/"
     },
     {
+        "address": "0x5c424b9b60383fce7fe7069d2a2b1047bcd04a73",
+        "decimals": 18,
+        "displaySymbol": "SHYON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x5c424b9b60383fce7fe7069d2a2b1047bcd04a73/logo.png",
+        "name": "iShares 1-3 Year Treasury Bond ETF",
+        "symbol": "SHYON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x5c64031C62061865E5FD0F53d3CDaeF80f72E99D",
         "decimals": 18,
         "displaySymbol": "GARD",
@@ -10494,6 +10764,15 @@
         "website": "https://smartshare.vip/#/"
     },
     {
+        "address": "0x625fb557cad6d4638dae420626f3f08a485b43a8",
+        "decimals": 18,
+        "displaySymbol": "EWJON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x625fb557cad6d4638dae420626f3f08a485b43a8/logo.png",
+        "name": "iShares MSCI Japan ETF",
+        "symbol": "EWJON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x626E8036dEB333b408Be468F951bdB42433cBF18",
         "decimals": 18,
         "displaySymbol": "AIOZ",
@@ -10917,6 +11196,15 @@
         "website": "https://bns.finance/"
     },
     {
+        "address": "0x66908813cd7676269494b2c6f6dbab8b4f9e95df",
+        "decimals": 18,
+        "displaySymbol": "CRWVON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x66908813cd7676269494b2c6f6dbab8b4f9e95df/logo.png",
+        "name": "CoreWeave",
+        "symbol": "CRWVON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x66B3037aa8Dd64c3eF1AEE13a4D1F2509F672D1C",
         "decimals": 18,
         "displaySymbol": "NAP",
@@ -11140,6 +11428,15 @@
         "name": "Zaibot",
         "symbol": "ZAI",
         "website": "https://www.zaibot.io/"
+    },
+    {
+        "address": "0x68622855dcf14ced1b0cc2a69cc34843708e2e0f",
+        "decimals": 18,
+        "displaySymbol": "ITAON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x68622855dcf14ced1b0cc2a69cc34843708e2e0f/logo.png",
+        "name": "iShares US Aerospace and Defense ETF",
+        "symbol": "ITAON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x6863bE0e7CF7ce860A574760e9020D519a8bDC47",
@@ -11745,6 +12042,15 @@
         "website": "https://lpntoken.io"
     },
     {
+        "address": "0x6a668332825450ACD2e449372057d31b3de16a1E",
+        "decimals": 18,
+        "displaySymbol": "IEMGx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6a668332825450ACD2e449372057d31b3de16a1E/logo.png",
+        "name": "Core MSCI Emerging Markets xStock",
+        "symbol": "IEMGX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0x6a8fee0E33Cb65a7E8D21BadCA62E87639ef74B3",
         "decimals": 18,
         "displaySymbol": "PDX",
@@ -11877,6 +12183,15 @@
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6d482CeC5f9dd1f05CCee9Fd3ff79B246170F8e2/logo.png",
         "name": "Palantir tokenized stock (xStock)",
         "symbol": "PLTRX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
+        "address": "0x6d5edEEbBc6A4099Eb8bb289EB3b80D799f7b28C",
+        "decimals": 18,
+        "displaySymbol": "VTx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6d5edEEbBc6A4099Eb8bb289EB3b80D799f7b28C/logo.png",
+        "name": "Vanguard Total World xStock",
+        "symbol": "VTX",
         "website": "https://assets.backed.fi/products"
     },
     {
@@ -12069,6 +12384,15 @@
         "website": "https://www.cheqd.io/"
     },
     {
+        "address": "0x70b4082f4e3f9067db9a2aa7520c77719e8626ee",
+        "decimals": 18,
+        "displaySymbol": "FFOGON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x70b4082f4e3f9067db9a2aa7520c77719e8626ee/logo.png",
+        "name": "Franklin Focused Growth ETF",
+        "symbol": "FFOGON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x70da48f4B7e83c386ef983D4CEF4e58c2c09D8Ac",
         "decimals": 8,
         "displaySymbol": "XQC",
@@ -12094,6 +12418,15 @@
         "name": "XSGD",
         "symbol": "XSGD",
         "website": "https://www.straitsx.com/sg/xsgd"
+    },
+    {
+        "address": "0x70ec0f5b23404c0cd6f29ce88f4af00a0b0d895d",
+        "decimals": 18,
+        "displaySymbol": "CAPRON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x70ec0f5b23404c0cd6f29ce88f4af00a0b0d895d/logo.png",
+        "name": "Capricor Therapeutics",
+        "symbol": "CAPRON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x710287D1D39DCf62094A83EBB3e736e79400068a",
@@ -12201,6 +12534,15 @@
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x71d24Baeb0A033ec5F90FF65C4210545AF378D97/logo.png",
         "name": "GameStop",
         "symbol": "GMEON",
+        "website": "https://ondo.finance/"
+    },
+    {
+        "address": "0x71e2400cf1cb83204f33794ed326636a71a9aafc",
+        "decimals": 18,
+        "displaySymbol": "SNDKON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x71e2400cf1cb83204f33794ed326636a71a9aafc/logo.png",
+        "name": "SanDisk",
+        "symbol": "SNDKON",
         "website": "https://ondo.finance/"
     },
     {
@@ -12534,6 +12876,15 @@
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x74a03d741226f738098C35da8188E57acA50d146/logo.png",
         "name": "Coca-Cola",
         "symbol": "KOON",
+        "website": "https://ondo.finance/"
+    },
+    {
+        "address": "0x74c8f41f57948bfd8aa0d48c882d69d12d1cc579",
+        "decimals": 18,
+        "displaySymbol": "ECHON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x74c8f41f57948bfd8aa0d48c882d69d12d1cc579/logo.png",
+        "name": "iShares MSCI Chile ETF",
+        "symbol": "ECHON",
         "website": "https://ondo.finance/"
     },
     {
@@ -13336,6 +13687,15 @@
         "name": "PEACE COIN",
         "symbol": "PCE",
         "website": "https://www.peace-coin.org/"
+    },
+    {
+        "address": "0x7c488cfc874ca9f34e7bdbd0410c27ce6d6af5f9",
+        "decimals": 18,
+        "displaySymbol": "UNGON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x7c488cfc874ca9f34e7bdbd0410c27ce6d6af5f9/logo.png",
+        "name": "US Natural Gas Fund",
+        "symbol": "UNGON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x7c7378143a9c8839e0502e2178f058f46c6ea504",
@@ -14805,6 +15165,15 @@
         "website": "https://www.mnee.io/"
     },
     {
+        "address": "0x8ce34f749796f82a6990ffa2d80622ef75ca7ad5",
+        "decimals": 18,
+        "displaySymbol": "NOCON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x8ce34f749796f82a6990ffa2d80622ef75ca7ad5/logo.png",
+        "name": "Northrop Grumman",
+        "symbol": "NOCON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x8cefd49b703de9c0486d9bf6cb559f0895268ee8",
         "decimals": 18,
         "displaySymbol": "CLOAON",
@@ -14929,6 +15298,15 @@
         "name": "Alvara Protocol",
         "symbol": "ALVA",
         "website": "https://alvara.xyz/"
+    },
+    {
+        "address": "0x8e82a0d7347329703fb6c6a745b1c2b3abb1658c",
+        "decimals": 18,
+        "displaySymbol": "SEDGON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x8e82a0d7347329703fb6c6a745b1c2b3abb1658c/logo.png",
+        "name": "SolarEdge Technologies",
+        "symbol": "SEDGON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x8eD955a2b7d2C3a17a9d05dACa95E01818f8C11e",
@@ -15696,6 +16074,15 @@
         "website": "https://shibaswap.com"
     },
     {
+        "address": "0x98284fbc11edd7540e29b896a49817bbe52ddcbd",
+        "decimals": 18,
+        "displaySymbol": "ETHAON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x98284fbc11edd7540e29b896a49817bbe52ddcbd/logo.png",
+        "name": "iShares Ethereum Trust ETF",
+        "symbol": "ETHAON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x982b50E55394641cA975a0eEc630b120b671391a",
         "decimals": 9,
         "displaySymbol": "ECOTERRA",
@@ -16200,6 +16587,15 @@
         "website": "https://xswap.app"
     },
     {
+        "address": "0x9b56f5ed5a94ae3266b7ff21953e6626f94008f1",
+        "decimals": 18,
+        "displaySymbol": "ETNON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x9b56f5ed5a94ae3266b7ff21953e6626f94008f1/logo.png",
+        "name": "Eaton",
+        "symbol": "ETNON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x9b6443b0fB9C241A7fdAC375595cEa13e6B7807A",
         "decimals": 18,
         "displaySymbol": "RCC",
@@ -16306,6 +16702,15 @@
         "name": "GATENet",
         "symbol": "GATE",
         "website": "https://gatenet.io/"
+    },
+    {
+        "address": "0x9ddb2524782684942fad28b44e76552cb7f3f548",
+        "decimals": 18,
+        "displaySymbol": "BNOON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x9ddb2524782684942fad28b44e76552cb7f3f548/logo.png",
+        "name": "US Brent Oil Fund",
+        "symbol": "BNOON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x9e18d5BAB2FA94a6A95F509Ecb38F8F68322AbD3",
@@ -16882,6 +17287,15 @@
         "name": "LocalCoinSwap (LCS)",
         "symbol": "LCS",
         "website": "https://www.localcoinswap.com/"
+    },
+    {
+        "address": "0xAA28cB97D7f7E172f54deE950743886D2d65447d",
+        "decimals": 18,
+        "displaySymbol": "IJRx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAA28cB97D7f7E172f54deE950743886D2d65447d/logo.png",
+        "name": "S&P Small Cap xStock",
+        "symbol": "IJRX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xAA6624D7363Ef8284aA8ce4e18146dEd5f421b2c",
@@ -20673,6 +21087,15 @@
         "website": "https://bird-dog.vip/"
     },
     {
+        "address": "0xF6D87E523512704C29E9b7cA3e9e6226bDCE3EA1",
+        "decimals": 18,
+        "displaySymbol": "SCHFx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF6D87E523512704C29E9b7cA3e9e6226bDCE3EA1/logo.png",
+        "name": "Schwab International Equity xStock",
+        "symbol": "SCHFX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xF70a642bD387F94380fFb90451C2c81d4Eb82CBc",
         "decimals": 18,
         "displaySymbol": "STAR",
@@ -21213,6 +21636,15 @@
         "website": "https://harvest.finance/"
     },
     {
+        "address": "0xa043fdc5a6e2e381e3532d5a97404b82fb7a0af8",
+        "decimals": 18,
+        "displaySymbol": "GEVON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xa043fdc5a6e2e381e3532d5a97404b82fb7a0af8/logo.png",
+        "name": "GE Vernova",
+        "symbol": "GEVON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xa06bC25B5805d5F8d82847D191Cb4Af5A3e873E0",
         "decimals": 18,
         "displaySymbol": "aLINK",
@@ -21372,6 +21804,15 @@
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xa2c1c0b4683a871187d4565eb63abf9aef5947ee/logo.png",
         "name": "Moderna",
         "symbol": "MRNAON",
+        "website": "https://ondo.finance/"
+    },
+    {
+        "address": "0xa2ec76139028f279a1c790d323c57cc4158098d6",
+        "decimals": 18,
+        "displaySymbol": "IEFON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xa2ec76139028f279a1c790d323c57cc4158098d6/logo.png",
+        "name": "iShares 7-10 Year Treasury Bond ETF",
+        "symbol": "IEFON",
         "website": "https://ondo.finance/"
     },
     {
@@ -21571,6 +22012,15 @@
         "name": "EchoLink",
         "symbol": "EKO",
         "website": "https://echolink.info"
+    },
+    {
+        "address": "0xa6cdb19b22b03e03ea89e133a8a46adc3017aa6d",
+        "decimals": 18,
+        "displaySymbol": "INDAON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xa6cdb19b22b03e03ea89e133a8a46adc3017aa6d/logo.png",
+        "name": "iShares MSCI India ETF",
+        "symbol": "INDAON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xa753A7395cAe905Cd615Da0B82A53E0560f250af",
@@ -22086,6 +22536,15 @@
         "website": "https://www.lido.fi"
     },
     {
+        "address": "0xaeB681B69E5094E04d11BCeF51A71358A374C3ED",
+        "decimals": 18,
+        "displaySymbol": "BMNRx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xaeB681B69E5094E04d11BCeF51A71358A374C3ED/logo.png",
+        "name": "Bitmine xStock",
+        "symbol": "BMNRX",
+        "website": "https://assets.backed.fi/products"
+    },
+    {
         "address": "0xaeC2E87E0A235266D9C5ADc9DEb4b2E29b54D009",
         "decimals": 0,
         "displaySymbol": "SNGLS",
@@ -22407,6 +22866,15 @@
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xb51db25c920c16f2865c37011c3eec91db946b07/logo.png",
         "name": "Gemini Space Station",
         "symbol": "GEMION",
+        "website": "https://ondo.finance/"
+    },
+    {
+        "address": "0xb53894f82a6b2d3b7365f24932b5bde1c5fb51ff",
+        "decimals": 18,
+        "displaySymbol": "STXON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xb53894f82a6b2d3b7365f24932b5bde1c5fb51ff/logo.png",
+        "name": "Seagate",
+        "symbol": "STXON",
         "website": "https://ondo.finance/"
     },
     {
@@ -22905,6 +23373,15 @@
         "website": "https://spiderdao.io"
     },
     {
+        "address": "0xbca31049ab4782f0ffa9cffcb2cf48e8d6de4fb8",
+        "decimals": 18,
+        "displaySymbol": "OIHON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xbca31049ab4782f0ffa9cffcb2cf48e8d6de4fb8/logo.png",
+        "name": "VanEck Oil Services ETF",
+        "symbol": "OIHON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xbd1848e1491d4308Ad18287A745DD4DB2A4BD55B",
         "decimals": 18,
         "displaySymbol": "MOMA",
@@ -22912,6 +23389,15 @@
         "name": "MOchi MArket",
         "symbol": "MOMA",
         "website": "https://mochi.market/"
+    },
+    {
+        "address": "0xbd660e96d45e7c175512d1ed0ccc119cb980b81a",
+        "decimals": 18,
+        "displaySymbol": "EWYON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xbd660e96d45e7c175512d1ed0ccc119cb980b81a/logo.png",
+        "name": "iShares MSCI South Korea ETF",
+        "symbol": "EWYON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xbdC7c08592Ee4aa51D06C27Ee23D5087D65aDbcD",
@@ -23028,6 +23514,15 @@
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xbf54eb503bb350583d11f4348086dc3608fa245c/logo.png",
         "name": "Sprott Nickel Miners ETF",
         "symbol": "NIKLON",
+        "website": "https://ondo.finance/"
+    },
+    {
+        "address": "0xbfe6e76a2fe099392064fbb3e868558c82beb917",
+        "decimals": 18,
+        "displaySymbol": "VFSON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xbfe6e76a2fe099392064fbb3e868558c82beb917/logo.png",
+        "name": "VinFast Auto",
+        "symbol": "VFSON",
         "website": "https://ondo.finance/"
     },
     {
@@ -23292,6 +23787,15 @@
         "website": "https://papashiba.finance"
     },
     {
+        "address": "0xc4e6e80295154d3968519851f73f8dc1a227286f",
+        "decimals": 18,
+        "displaySymbol": "ENLVON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xc4e6e80295154d3968519851f73f8dc1a227286f/logo.png",
+        "name": "Enlivex Therapeutics",
+        "symbol": "ENLVON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC",
         "decimals": 18,
         "displaySymbol": "HOP",
@@ -23308,6 +23812,15 @@
         "name": "Endor Protocol Token",
         "symbol": "EDR",
         "website": "https://www.endor.com"
+    },
+    {
+        "address": "0xc53d2e7321ab83b28af2360559aa303676a23f98",
+        "decimals": 18,
+        "displaySymbol": "FLQLON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xc53d2e7321ab83b28af2360559aa303676a23f98/logo.png",
+        "name": "Franklin US Large Cap Multifactor Index ETF",
+        "symbol": "FLQLON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xc555D625828c4527d477e595fF1Dd5801B4a600e",
@@ -23515,6 +24028,15 @@
         "name": "The Graph",
         "symbol": "GRT",
         "website": "https://thegraph.com/"
+    },
+    {
+        "address": "0xc95c9e3fa311664b5e744b3c2716547bec2ba7da",
+        "decimals": 18,
+        "displaySymbol": "QUBTON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xc95c9e3fa311664b5e744b3c2716547bec2ba7da/logo.png",
+        "name": "Quantum Computing",
+        "symbol": "QUBTON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xc96DF921009B790dfFcA412375251ed1A2b75c60",
@@ -23787,6 +24309,15 @@
         "website": "https://compound.finance/"
     },
     {
+        "address": "0xccae8843e26259278c200c6506f6e5a3bdd524cd",
+        "decimals": 18,
+        "displaySymbol": "VNQON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xccae8843e26259278c200c6506f6e5a3bdd524cd/logo.png",
+        "name": "Vanguard Real Estate ETF",
+        "symbol": "VNQON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xcccD1Ba9f7acD6117834E0D28F25645dECb1736a",
         "decimals": 18,
         "displaySymbol": "ECOX",
@@ -23884,6 +24415,15 @@
         "name": "Refereum",
         "symbol": "RFR",
         "website": "https://refereum.com/"
+    },
+    {
+        "address": "0xd0a265a32d0211a7f61f11de014b854f7ce716f8",
+        "decimals": 18,
+        "displaySymbol": "GLTRON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xd0a265a32d0211a7f61f11de014b854f7ce716f8/logo.png",
+        "name": "abrdn Physical Precious Metals Basket Shares ETF",
+        "symbol": "GLTRON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xd0a6053f087E87a25dC60701ba6E663b1a548E85",
@@ -24109,6 +24649,15 @@
         "name": "Cindicator Token",
         "symbol": "CND",
         "website": "https://cindicator.com/"
+    },
+    {
+        "address": "0xd4c6cce0cadf2fe4c0af9ee6777989efd8fb7670",
+        "decimals": 18,
+        "displaySymbol": "PAVEON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xd4c6cce0cadf2fe4c0af9ee6777989efd8fb7670/logo.png",
+        "name": "Global X US Infrastructure Development ETF",
+        "symbol": "PAVEON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xd4fa1460F537bb9085d22C7bcCB5DD450Ef28e3a",
@@ -24507,6 +25056,15 @@
         "website": "https://www.stcoins.com/"
     },
     {
+        "address": "0xda81da76070a7377eaeeb2978f0e13c5d57fadb7",
+        "decimals": 18,
+        "displaySymbol": "SCCOON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xda81da76070a7377eaeeb2978f0e13c5d57fadb7/logo.png",
+        "name": "Southern Copper",
+        "symbol": "SCCOON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xdab396cCF3d84Cf2D07C4454e10C8A6F5b008D2b",
         "decimals": 18,
         "displaySymbol": "GFI",
@@ -24523,6 +25081,15 @@
         "name": "Atari Token",
         "symbol": "ATRI",
         "website": "https://www.atarichain.com/"
+    },
+    {
+        "address": "0xdadfb355c6110eda0908740d52c834d6C2BCDDc7",
+        "decimals": 18,
+        "displaySymbol": "IWMx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdadfb355c6110eda0908740d52c834d6C2BCDDc7/logo.png",
+        "name": "Russell 2000 xStock",
+        "symbol": "IWMX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xdb0482cfaD4789798623E64b15eebA01b16e917C",
@@ -24921,6 +25488,15 @@
         "website": "https://www.spiko.xyz"
     },
     {
+        "address": "0xe4babaa960ba7d37860f3fe00d7b95d3868e8edc",
+        "decimals": 18,
+        "displaySymbol": "NBISON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xe4babaa960ba7d37860f3fe00d7b95d3868e8edc/logo.png",
+        "name": "Nebius Group",
+        "symbol": "NBISON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xe5018913F2fdf33971864804dDB5fcA25C539032",
         "decimals": 18,
         "displaySymbol": "OLM",
@@ -24991,6 +25567,15 @@
         "name": "Ludos Protocol",
         "symbol": "LUD",
         "website": "http://ludos.one/"
+    },
+    {
+        "address": "0xe668e08a6f5792cef0e63e9d98524968fdb5882f",
+        "decimals": 18,
+        "displaySymbol": "GLXYON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xe668e08a6f5792cef0e63e9d98524968fdb5882f/logo.png",
+        "name": "Galaxy Digital",
+        "symbol": "GLXYON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xe6fd75ff38Adca4B97FBCD938c86b98772431867",
@@ -25162,6 +25747,15 @@
         "name": "Inscribe",
         "symbol": "INS",
         "website": "https://inscribe.app/"
+    },
+    {
+        "address": "0xe95ab205e333443D7970336D5fD827eF9eD97608",
+        "decimals": 18,
+        "displaySymbol": "TONXx",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xe95ab205e333443D7970336D5fD827eF9eD97608/logo.png",
+        "name": "TON xStock",
+        "symbol": "TONXX",
+        "website": "https://assets.backed.fi/products"
     },
     {
         "address": "0xe9689028eDE16c2FDFE3D11855D28f8E3fC452a3",
@@ -25342,6 +25936,33 @@
         "name": "Unido",
         "symbol": "UDO",
         "website": "https://www.unido.us/"
+    },
+    {
+        "address": "0xeaa2287290544ed9f481012aa348619a4d2f9e51",
+        "decimals": 18,
+        "displaySymbol": "KWEBON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xeaa2287290544ed9f481012aa348619a4d2f9e51/logo.png",
+        "name": "KraneShares CSI China Internet ETF",
+        "symbol": "KWEBON",
+        "website": "https://ondo.finance/"
+    },
+    {
+        "address": "0xeb08d539be0f6a6c90ea24276196e348f5688a02",
+        "decimals": 18,
+        "displaySymbol": "FCXON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xeb08d539be0f6a6c90ea24276196e348f5688a02/logo.png",
+        "name": "Freeport-McMoRan",
+        "symbol": "FCXON",
+        "website": "https://ondo.finance/"
+    },
+    {
+        "address": "0xec169f9ac2161723a2d4febd9748bb529d6c12b5",
+        "decimals": 18,
+        "displaySymbol": "HYSON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xec169f9ac2161723a2d4febd9748bb529d6c12b5/logo.png",
+        "name": "PIMCO 0-5 Year High Yield Corporate Bond Index ETF",
+        "symbol": "HYSON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xec53bF9167f50cDEB3Ae105f56099aaaB9061F83",
@@ -25612,6 +26233,15 @@
         "name": "BioCrypt",
         "symbol": "BIO",
         "website": "https://BioCrypt.Tech"
+    },
+    {
+        "address": "0xf1883461ec7bd883a3668749c5cf5f351080d059",
+        "decimals": 18,
+        "displaySymbol": "PPLTON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xf1883461ec7bd883a3668749c5cf5f351080d059/logo.png",
+        "name": "abrdn Physical Platinum Shares ETF",
+        "symbol": "PPLTON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xf192957AE52dB3eb088654403CC2eDeD014ae556",
@@ -26118,6 +26748,15 @@
         "website": "https://www.swellnetwork.io/"
     },
     {
+        "address": "0xf98ec282300892b3518b5cb996012b18d9b7d435",
+        "decimals": 18,
+        "displaySymbol": "URAON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xf98ec282300892b3518b5cb996012b18d9b7d435/logo.png",
+        "name": "Global X Uranium ETF",
+        "symbol": "URAON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xf9FBE825BFB2bF3E387af0Dc18caC8d87F29DEa8",
         "decimals": 18,
         "displaySymbol": "BOTS",
@@ -26352,6 +26991,15 @@
         "website": "https://lunyr.com/"
     },
     {
+        "address": "0xfa690b2b6f6b4da518035f1d0aa8b968c23341bb",
+        "decimals": 18,
+        "displaySymbol": "INCEON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xfa690b2b6f6b4da518035f1d0aa8b968c23341bb/logo.png",
+        "name": "Franklin Income Equity Focus ETF",
+        "symbol": "INCEON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xfa9f0bf8baa9a3d5e0a8e5c0aeaf186acabef63d",
         "decimals": 18,
         "displaySymbol": "CPNGON",
@@ -26376,6 +27024,15 @@
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xfb82561a955bf59b9263301126af490d3799e231/logo.png",
         "name": "WisdomTree Floating Rate Treasury Fund",
         "symbol": "USFRON",
+        "website": "https://ondo.finance/"
+    },
+    {
+        "address": "0xfc003a764a7b5054cc6fdb6b511f35dec8022751",
+        "decimals": 18,
+        "displaySymbol": "VRTXON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xfc003a764a7b5054cc6fdb6b511f35dec8022751/logo.png",
+        "name": "Vertex Pharmaceuticals",
+        "symbol": "VRTXON",
         "website": "https://ondo.finance/"
     },
     {

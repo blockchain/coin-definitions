@@ -1,0 +1,10 @@
+{
+  "id": "0x4d3442d884202584f1729bca20db05472b886b52",
+  "name": "Northrop Grumman (Ondo Tokenized)",
+  "symbol": "NOCON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "NOCon"
+}

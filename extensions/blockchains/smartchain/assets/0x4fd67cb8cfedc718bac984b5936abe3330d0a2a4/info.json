@@ -1,0 +1,10 @@
+{
+  "id": "0x4fd67cb8cfedc718bac984b5936abe3330d0a2a4",
+  "name": "SanDisk (Ondo Tokenized)",
+  "symbol": "SNDKON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "SNDKon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x31d6011023d6c7695efc29bb016830f3f36de40a",
+  "name": "VanEck Oil Services ETF (Ondo Tokenized)",
+  "symbol": "OIHON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "OIHon"
+}

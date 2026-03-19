@@ -1,0 +1,10 @@
+{
+  "id": "0x45abf29515bc23f8c0ed2a06584444ce473a75fb",
+  "name": "AST SpaceMobile (Ondo Tokenized)",
+  "symbol": "ASTSON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "ASTSon"
+}

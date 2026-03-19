@@ -1,0 +1,10 @@
+{
+  "id": "0x30938154e2697694f41592c2e48459287debe4bf",
+  "name": "Enphase Energy (Ondo Tokenized)",
+  "symbol": "ENPHON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "ENPHon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x1d2eaaf0ae00382893aa4318bd88d1cd0e9b858a",
+  "name": "VinFast Auto (Ondo Tokenized)",
+  "symbol": "VFSON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "VFSon"
+}

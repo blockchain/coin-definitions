@@ -1,0 +1,10 @@
+{
+  "id": "0xee0d57462f20434030b8262204c00c0ea0399c41",
+  "name": "Franklin Responsibly Sourced Gold ETF (Ondo Tokenized)",
+  "symbol": "FGDLON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "FGDLon"
+}

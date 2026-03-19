@@ -1,0 +1,10 @@
+{
+  "id": "0x966ebcba3c51e81f5cf159a1eabefd2327ab5e8d",
+  "name": "Seagate (Ondo Tokenized)",
+  "symbol": "STXON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "STXon"
+}

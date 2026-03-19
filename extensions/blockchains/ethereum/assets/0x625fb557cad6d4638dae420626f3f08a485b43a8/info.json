@@ -1,0 +1,9 @@
+{
+  "name": "iShares MSCI Japan ETF (Ondo Tokenized)",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "EWJON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x625fb557cad6d4638dae420626f3f08a485b43a8"
+}

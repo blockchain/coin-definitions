@@ -1,0 +1,9 @@
+{
+  "name": "iShares Ethereum Trust ETF (Ondo Tokenized)",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "ETHAON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x98284fbc11edd7540e29b896a49817bbe52ddcbd"
+}

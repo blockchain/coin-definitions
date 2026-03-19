@@ -1,0 +1,10 @@
+{
+  "id": "0x88b90f45bd6a4f97f7d85d280ed64a40880e4935",
+  "name": "iShares US Aerospace and Defense ETF (Ondo Tokenized)",
+  "symbol": "ITAON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "ITAon"
+}
