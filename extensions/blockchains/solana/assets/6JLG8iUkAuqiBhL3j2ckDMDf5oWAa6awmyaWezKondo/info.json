@@ -1,0 +1,10 @@
+{
+  "displaySymbol": "IBITon",
+  "symbol": "IBITON",
+  "name": "iShares Bitcoin Trust (Ondo Tokenized)",
+  "id": "6JLG8iUkAuqiBhL3j2ckDMDf5oWAa6awmyaWezKondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

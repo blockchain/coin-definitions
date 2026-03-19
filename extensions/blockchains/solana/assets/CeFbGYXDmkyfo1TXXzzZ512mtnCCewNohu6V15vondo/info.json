@@ -1,0 +1,10 @@
+{
+  "displaySymbol": "FXIon",
+  "symbol": "FXION",
+  "name": "iShares China Large-Cap ETF (Ondo Tokenized)",
+  "id": "CeFbGYXDmkyfo1TXXzzZ512mtnCCewNohu6V15vondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

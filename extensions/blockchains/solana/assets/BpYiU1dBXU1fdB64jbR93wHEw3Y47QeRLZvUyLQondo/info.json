@@ -1,0 +1,10 @@
+{
+  "displaySymbol": "ETNon",
+  "symbol": "ETNON",
+  "name": "Eaton (Ondo Tokenized)",
+  "id": "BpYiU1dBXU1fdB64jbR93wHEw3Y47QeRLZvUyLQondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

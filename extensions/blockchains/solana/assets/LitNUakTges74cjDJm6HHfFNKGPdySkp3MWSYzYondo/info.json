@@ -1,0 +1,10 @@
+{
+  "displaySymbol": "ETHAon",
+  "symbol": "ETHAON",
+  "name": "iShares Ethereum Trust (Ondo Tokenized)",
+  "id": "LitNUakTges74cjDJm6HHfFNKGPdySkp3MWSYzYondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}
