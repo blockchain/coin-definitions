@@ -1,0 +1,9 @@
+{
+  "name": "iShares Bitcoin Trust (Ondo Tokenized)",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "IBITON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x122940c4c5f9ccfae7fa86455a42d3ec140855ce"
+}

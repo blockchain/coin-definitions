@@ -1,0 +1,9 @@
+{
+  "name": "iShares MSCI India ETF (Ondo Tokenized)",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "INDAON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xa6cdb19b22b03e03ea89e133a8a46adc3017aa6d"
+}

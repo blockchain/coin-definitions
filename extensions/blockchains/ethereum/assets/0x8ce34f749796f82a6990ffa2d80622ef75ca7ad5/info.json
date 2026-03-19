@@ -1,0 +1,9 @@
+{
+  "name": "Northrop Grumman (Ondo Tokenized)",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "NOCON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x8ce34f749796f82a6990ffa2d80622ef75ca7ad5"
+}

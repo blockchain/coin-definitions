@@ -1,0 +1,9 @@
+{
+  "name": "iShares MSCI Chile ETF (Ondo Tokenized)",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "ECHON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x74c8f41f57948bfd8aa0d48c882d69d12d1cc579"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Fidelity Solana Fund (Ondo Tokenized)",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "FSOLON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x224b381cfae8ccaf2e4d32d827467c2331ce04be"
+}
