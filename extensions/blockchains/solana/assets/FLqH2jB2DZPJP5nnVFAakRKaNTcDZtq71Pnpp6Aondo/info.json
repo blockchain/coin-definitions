@@ -1,0 +1,10 @@
+{
+  "displaySymbol": "WDCon",
+  "symbol": "WDCON",
+  "name": "Western Digital (Ondo Tokenized)",
+  "id": "FLqH2jB2DZPJP5nnVFAakRKaNTcDZtq71Pnpp6Aondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

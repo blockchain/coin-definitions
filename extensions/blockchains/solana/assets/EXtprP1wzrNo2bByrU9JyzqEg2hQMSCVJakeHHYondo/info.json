@@ -1,0 +1,10 @@
+{
+  "displaySymbol": "STXon",
+  "symbol": "STXON",
+  "name": "Seagate (Ondo Tokenized)",
+  "id": "EXtprP1wzrNo2bByrU9JyzqEg2hQMSCVJakeHHYondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

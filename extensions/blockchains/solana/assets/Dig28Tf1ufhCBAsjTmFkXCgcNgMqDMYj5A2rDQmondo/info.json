@@ -1,0 +1,10 @@
+{
+  "displaySymbol": "NEMon",
+  "symbol": "NEMON",
+  "name": "Newmont (Ondo Tokenized)",
+  "id": "Dig28Tf1ufhCBAsjTmFkXCgcNgMqDMYj5A2rDQmondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}
