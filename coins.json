@@ -614,7 +614,7 @@
   {
     "symbol": "XRP",
     "displaySymbol": "XRP",
-    "name": "Ripple",
+    "name": "XRP",
     "key": "ripple",
     "decimals": 6,
     "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ripple/info/logo.png",
