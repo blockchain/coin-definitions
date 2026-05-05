@@ -1,0 +1,10 @@
+{
+  "id": "0x71E9dc9DEbc18650BD2342B93623B88C2aD00c89",
+  "name": "Stretch (STRC)",
+  "symbol": "STRCON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "STRCon"
+}

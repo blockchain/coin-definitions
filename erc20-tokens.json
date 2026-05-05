@@ -26064,6 +26064,15 @@
         "website": "https://PERL.eco"
     },
     {
+        "address": "0xecabe1ff8a9e1dc55899cf58dac8497ece5ae84c",
+        "decimals": 18,
+        "displaySymbol": "STRCON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xecabe1ff8a9e1dc55899cf58dac8497ece5ae84c/logo.png",
+        "name": "Stretch (STRC)",
+        "symbol": "STRCON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xed0d5747A9AB03a75fBfEC3228cd55848245B75d",
         "decimals": 6,
         "displaySymbol": "NGM",
