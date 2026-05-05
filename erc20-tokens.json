@@ -1566,6 +1566,15 @@
         "website": "https://iqeon.io/"
     },
     {
+        "address": "0x0DC4F92879B7670e5f4e4e6e3c801D229129D90D",
+        "decimals": 18,
+        "displaySymbol": "wARS",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0DC4F92879B7670e5f4e4e6e3c801D229129D90D/logo.png",
+        "name": "Argentine Peso",
+        "symbol": "WARS",
+        "website": "https://www.ripio.com/es/criptos/stablecoins-locales"
+    },
+    {
         "address": "0x0DceE5F694E492F0DD842a7FBE5BEd4C6E4665a6",
         "decimals": 18,
         "displaySymbol": "CATBOY",
@@ -5985,6 +5994,15 @@
         "website": "https://ondo.finance/"
     },
     {
+        "address": "0x337E7456B420bD3481e7FA61fA9850343d610d34",
+        "decimals": 18,
+        "displaySymbol": "wMXN",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x337E7456B420bD3481e7FA61fA9850343d610d34/logo.png",
+        "name": "Mexican Peso",
+        "symbol": "WMXN",
+        "website": "https://www.ripio.com/es/criptos/stablecoins-locales"
+    },
+    {
         "address": "0x339ce23a355ed6D513DD3e1462975C4eCD86823a",
         "decimals": 18,
         "displaySymbol": "PGon",
@@ -8631,6 +8649,15 @@
         "website": "https://mbn.global"
     },
     {
+        "address": "0x4F34c8b3b5FB6D98Da888F0feA543d4d9C9F2eBE",
+        "decimals": 18,
+        "displaySymbol": "wPEN",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4F34c8b3b5FB6D98Da888F0feA543d4d9C9F2eBE/logo.png",
+        "name": "Peruvian Sol",
+        "symbol": "WPEN",
+        "website": "https://www.ripio.com/es/criptos/stablecoins-locales"
+    },
+    {
         "address": "0x4F9254C83EB525f9FCf346490bbb3ed28a81C667",
         "decimals": 18,
         "displaySymbol": "CELR",
@@ -10681,6 +10708,15 @@
         "name": "QASH",
         "symbol": "QASH",
         "website": "https://liquid.com/"
+    },
+    {
+        "address": "0x61D450a098b6a7f69fC4b98CE68198fe59768651",
+        "decimals": 18,
+        "displaySymbol": "wCLP",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x61D450a098b6a7f69fC4b98CE68198fe59768651/logo.png",
+        "name": "Chilean Peso",
+        "symbol": "WCLP",
+        "website": "https://www.ripio.com/es/criptos/stablecoins-locales"
     },
     {
         "address": "0x61E90A50137E1F645c9eF4a0d3A4f01477738406",
@@ -13770,6 +13806,15 @@
         "website": "https://ondo.finance/"
     },
     {
+        "address": "0x7deF4573628021500c3207994935a51801fB56bE",
+        "decimals": 18,
+        "displaySymbol": "AKITA",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7deF4573628021500c3207994935a51801fB56bE/logo.png",
+        "name": "Akita",
+        "symbol": "AKITA2",
+        "website": "https://akita.network"
+    },
+    {
         "address": "0x7e08ce07aca80cefe61ebbfa0cedfe5c7b07edb9",
         "decimals": 18,
         "displaySymbol": "BILION",
@@ -14992,6 +15037,15 @@
         "name": "DeFiChain",
         "symbol": "DFI",
         "website": "https://defichain.com/"
+    },
+    {
+        "address": "0x8a1D45e102e886510e891d2Ec656a708991e2D76",
+        "decimals": 18,
+        "displaySymbol": "wCOP",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8a1D45e102e886510e891d2Ec656a708991e2D76/logo.png",
+        "name": "Colombian Peso",
+        "symbol": "WCOP",
+        "website": "https://www.ripio.com/es/criptos/stablecoins-locales"
     },
     {
         "address": "0x8a23C6BaadB88512b30475C83Df6A63881e33e1E",
@@ -19555,6 +19609,15 @@
         "name": "RealTract",
         "symbol": "RET",
         "website": "https://realtract.network/"
+    },
+    {
+        "address": "0xD76f5Faf6888e24D9F04Bf92a0c8B921FE4390e0",
+        "decimals": 18,
+        "displaySymbol": "wBRL",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD76f5Faf6888e24D9F04Bf92a0c8B921FE4390e0/logo.png",
+        "name": "Brazilian Real",
+        "symbol": "WBRL",
+        "website": "https://www.ripio.com/es/criptos/stablecoins-locales"
     },
     {
         "address": "0xD7B7d3C0bdA57723Fb54ab95Fd8F9EA033AF37f2",
@@ -25999,6 +26062,15 @@
         "name": "Perlin",
         "symbol": "PERL",
         "website": "https://PERL.eco"
+    },
+    {
+        "address": "0xecabe1ff8a9e1dc55899cf58dac8497ece5ae84c",
+        "decimals": 18,
+        "displaySymbol": "STRCON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xecabe1ff8a9e1dc55899cf58dac8497ece5ae84c/logo.png",
+        "name": "Stretch (STRC)",
+        "symbol": "STRCON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xed0d5747A9AB03a75fBfEC3228cd55848245B75d",
