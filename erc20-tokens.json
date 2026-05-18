@@ -17446,7 +17446,7 @@
         "decimals": 18,
         "displaySymbol": "ADX",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xADE00C28244d5CE17D72E40330B1c318cD12B7c3/logo.png",
-        "name": "Ambire AdEx",
+        "name": "heyAura",
         "symbol": "ADX",
         "website": "https://www.adex.network/"
     },
@@ -22774,7 +22774,7 @@
         "decimals": 18,
         "displaySymbol": "ZIG",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xb2617246d0c6c0087f18703d576831899ca94f01/logo.png",
-        "name": "ZigCoin",
+        "name": "ZigCoin (ZIG)",
         "symbol": "ZIG",
         "website": "https://zignaly.com/"
     },
