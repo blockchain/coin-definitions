@@ -58,6 +58,7 @@
   {"symbol": "GRS", "name": "Groestlcoin"},
   {"symbol": "HOO", "name": "Hoo Token"},
   {"symbol": "HT", "name": "Huobi ECO Chain"},
+  {"symbol": "HYPE", "name": "HypeEVM"},
   {"symbol": "ICX", "name": "ICON"},
   {"symbol": "INJ", "name": "Injective"},
   {"symbol": "INJ", "name": "NativeInjective"},
