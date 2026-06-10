@@ -21785,6 +21785,21 @@
         "websiteurl": "https://spartanprotocol.org"
     },
     {
+        "description": "SPCXon is the Ondo Tokenized version of SpaceX, giving tokenholders economic exposure similar to holding SpaceX shares and reinvesting any distributions, where applicable. Ondo tokenized assets enable non-US retail and institutional users around the world to instantly mint and redeem tokenized exposure to U.S. equities and other eligible assets, 24 hours a day, five days a week, with access to traditional market liquidity where available. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "SPCXON",
+        "websiteurl": ""
+    },
+    {
+        "description": "SPCXon is the Ondo Tokenized version of SpaceX, giving tokenholders economic exposure similar to holding SpaceX shares and reinvesting any distributions, where applicable. Ondo tokenized assets enable non-US retail and institutional users around the world to instantly mint and redeem tokenized exposure to U.S. equities and other eligible assets, 24 hours a day, five days a week, with access to traditional market liquidity where available. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "SPCXON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "SPCXon is the Ondo Tokenized version of SpaceX, giving tokenholders economic exposure similar to holding SpaceX shares and reinvesting any distributions, where applicable. Ondo tokenized assets enable non-US retail and institutional users around the world to instantly mint and redeem tokenized exposure to U.S. equities and other eligible assets, 24 hours a day, five days a week, with access to traditional market liquidity where available. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "SPCXON.SOL",
+        "websiteurl": ""
+    },
+    {
         "description": "Spectral is developing a Machine Intelligence Network to generate autonomous onchain agents.",
         "symbol": "SPEC",
         "websiteurl": "https://www.spectrallabs.xyz/"
