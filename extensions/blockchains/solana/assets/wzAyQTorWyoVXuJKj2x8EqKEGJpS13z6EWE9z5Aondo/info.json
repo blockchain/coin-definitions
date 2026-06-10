@@ -1,0 +1,10 @@
+{
+  "name": "SpaceX (Ondo Tokenized)",
+  "displaySymbol": "SPCXon",
+  "symbol": "SPCXON",
+  "id": "wzAyQTorWyoVXuJKj2x8EqKEGJpS13z6EWE9z5Aondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

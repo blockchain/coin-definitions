@@ -24138,6 +24138,15 @@
         "website": "https://rss3.io"
     },
     {
+        "address": "0xc9eef266834730340A55B6CC24621B31BAF55581",
+        "decimals": 18,
+        "displaySymbol": "SPCXON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xc9eef266834730340A55B6CC24621B31BAF55581/logo.png",
+        "name": "SpaceX",
+        "symbol": "SPCXON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xcA2796F9F61dc7b238Aab043971e49c6164DF375",
         "decimals": 18,
         "displaySymbol": "YEED",
