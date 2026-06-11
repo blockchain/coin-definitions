@@ -1672,6 +1672,18 @@
     }
   },
   {
+    "symbol": "SUI",
+    "displaySymbol": "SUI",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 300,
+      "minWithdrawal": 0
+    }
+  },
+  {
     "symbol": "SUSHI",
     "displaySymbol": "SUSHI",
     "type": "ERC20",
