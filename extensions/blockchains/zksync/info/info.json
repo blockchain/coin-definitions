@@ -1,0 +1,9 @@
+{
+  "name": "Ethereum",
+  "symbol": "ZKETH",
+  "displaySymbol": "ETH",
+  "type": "COIN",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://zksync.io/"
+}

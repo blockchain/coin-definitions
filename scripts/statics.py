@@ -107,4 +107,10 @@ NETWORKS = [
         output_file="chain/hyperliquid/tokens.json",
         explorer_url="https://hyperevmscan.io/token/"
     ),
+    Network(
+        chain="zksync",
+        symbol="ZKETH",
+        output_file="chain/zksync/tokens.json",
+        explorer_url="https://explorer.zksync.io/address/"
+    ),
 ]

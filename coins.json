@@ -648,6 +648,15 @@
     "website": "https://zilliqa.com"
   },
   {
+    "symbol": "ZKETH",
+    "displaySymbol": "ETH",
+    "name": "Ethereum",
+    "key": "zksync",
+    "decimals": 18,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/zksync/info/logo.png",
+    "website": "https://zksync.io/"
+  },
+  {
     "symbol": "gBNB",
     "displaySymbol": "gBNB",
     "name": "BNB Greenfield",

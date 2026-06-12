@@ -76,5 +76,11 @@
     "displayName": "Hyperliquid",
     "native": "HYPE",
     "tokens": "chain/hyperliquid/tokens.json"
+  },
+  {
+    "chain": "zksync",
+    "displayName": "zkSync Era",
+    "native": "ZKETH",
+    "tokens": "chain/zksync/tokens.json"
   }
 ]

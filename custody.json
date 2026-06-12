@@ -685,6 +685,15 @@
     }
   },
   {
+    "symbol": "ZKETH",
+    "displaySymbol": "ETH",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "ETC",
     "displaySymbol": "ETC",
     "type": "COIN",
@@ -1659,6 +1668,18 @@
     },
     "hwsSettings": {
       "minConfirmations": 8,
+      "minWithdrawal": 0
+    }
+  },
+  {
+    "symbol": "SUI",
+    "displaySymbol": "SUI",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": {
+      "minConfirmations": 300,
       "minWithdrawal": 0
     }
   },
