@@ -541,8 +541,8 @@
   },
   {
     "symbol": "TON",
-    "displaySymbol": "TON",
-    "name": "The Open Network",
+    "displaySymbol": "GRAM",
+    "name": "Gram",
     "key": "ton",
     "decimals": 9,
     "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ton/info/logo.png",

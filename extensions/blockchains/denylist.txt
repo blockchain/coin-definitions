@@ -118,6 +118,7 @@
   {"symbol": "tMATIC", "name": "Polygon Mumbai Testnet"},
   {"symbol": "tNTRN", "name": "Neutron Testnet"},
   {"symbol": "TOMO", "name": "TomoChain"},
+  {"symbol": "TON", "name": "The Open Network"},
   {"symbol": "TORI", "name": "Teritori"},
   {"symbol": "TT", "name": "ThunderCore (TT)"},
   {"symbol": "USDC", "name": "Noble"},
