@@ -542,7 +542,7 @@
   {
     "symbol": "TON",
     "displaySymbol": "GRAM",
-    "name": "Gram",
+    "name": "Gram (prev. Toncoin)",
     "key": "ton",
     "decimals": 9,
     "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ton/info/logo.png",
