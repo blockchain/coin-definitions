@@ -1760,7 +1760,7 @@
   },
   {
     "symbol": "TON",
-    "displaySymbol": "TON",
+    "displaySymbol": "GRAM",
     "type": "COIN",
     "nabuSettings": {
       "custodialPrecision": 9
