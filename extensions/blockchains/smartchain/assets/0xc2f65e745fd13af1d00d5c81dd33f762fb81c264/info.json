@@ -1,0 +1,10 @@
+{
+  "id": "0xc2f65e745fd13af1d00d5c81dd33f762fb81c264",
+  "name": "Camtek",
+  "symbol": "CAMTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "CAMTon"
+}

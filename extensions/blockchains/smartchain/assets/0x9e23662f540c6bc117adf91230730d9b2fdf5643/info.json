@@ -1,0 +1,10 @@
+{
+  "id": "0x9e23662f540c6bc117adf91230730d9b2fdf5643",
+  "name": "Vanguard Energy ETF",
+  "symbol": "VDEON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "VDEon"
+}

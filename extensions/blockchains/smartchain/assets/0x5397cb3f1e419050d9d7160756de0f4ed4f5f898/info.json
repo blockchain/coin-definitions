@@ -1,0 +1,10 @@
+{
+  "id": "0x5397cb3f1e419050d9d7160756de0f4ed4f5f898",
+  "name": "Enbridge",
+  "symbol": "ENBON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "ENBon"
+}

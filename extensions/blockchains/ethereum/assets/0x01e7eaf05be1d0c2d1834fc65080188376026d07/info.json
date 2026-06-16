@@ -1,0 +1,9 @@
+{
+  "name": "Nokia",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "NOKON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x01e7eaf05be1d0c2d1834fc65080188376026d07"
+}

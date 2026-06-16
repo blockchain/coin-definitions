@@ -1,0 +1,10 @@
+{
+  "id": "0x70afc3a600f843d2018df16b0b316e4bc9c603e9",
+  "name": "Amphenol",
+  "symbol": "APHON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "APHon"
+}

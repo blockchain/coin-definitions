@@ -1,0 +1,10 @@
+{
+  "id": "0x8a5f83a4b3ad2b9604f53c4ddf8dce1329f9d433",
+  "name": "Nova",
+  "symbol": "NVMION",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "NVMIon"
+}

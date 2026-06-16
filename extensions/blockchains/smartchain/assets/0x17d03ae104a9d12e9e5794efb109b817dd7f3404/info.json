@@ -1,0 +1,10 @@
+{
+  "id": "0x17d03ae104a9d12e9e5794efb109b817dd7f3404",
+  "name": "Bloom Energy",
+  "symbol": "BEON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "BEon"
+}

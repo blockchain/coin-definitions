@@ -1,0 +1,10 @@
+{
+  "id": "0x0c50323af81d5c33822c6add256fb9093d42bc74",
+  "name": "AXT",
+  "symbol": "AXTION",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "AXTIon"
+}

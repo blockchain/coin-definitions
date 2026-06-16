@@ -1,0 +1,10 @@
+{
+  "displaySymbol": "CPERon",
+  "symbol": "CPERON",
+  "name": "US Copper Index Fund",
+  "id": "hpkpc1Xenv5oEpVefk3woWjZa9rxaJxaEaVVA4Fondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}

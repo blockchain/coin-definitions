@@ -1,0 +1,10 @@
+{
+  "id": "0x2291e5361f4ef7bb0d6703377bf497bfe4325152",
+  "name": "Global X Blockchain ETF",
+  "symbol": "BKCHON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "BKCHon"
+}

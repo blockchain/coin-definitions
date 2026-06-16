@@ -1,0 +1,10 @@
+{
+  "id": "0x847ef23a3f99af79a185ce033e1664165b846eea",
+  "name": "Hesai Group",
+  "symbol": "HSAION",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "HSAIon"
+}

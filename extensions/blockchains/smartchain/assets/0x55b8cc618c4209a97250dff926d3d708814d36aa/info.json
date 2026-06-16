@@ -1,0 +1,10 @@
+{
+  "id": "0x55b8cc618c4209a97250dff926d3d708814d36aa",
+  "name": "Alpha and Omega Semiconductor",
+  "symbol": "AOSLON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "AOSLon"
+}

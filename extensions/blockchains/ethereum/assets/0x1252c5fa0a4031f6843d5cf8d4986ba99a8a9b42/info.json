@@ -1,0 +1,9 @@
+{
+  "name": "iShares MSCI EAFE Value ETF",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "EFVON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x1252c5fa0a4031f6843d5cf8d4986ba99a8a9b42"
+}

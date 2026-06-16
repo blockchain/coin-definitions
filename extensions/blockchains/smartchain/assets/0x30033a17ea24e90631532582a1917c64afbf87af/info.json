@@ -1,0 +1,10 @@
+{
+  "id": "0x30033a17ea24e90631532582a1917c64afbf87af",
+  "name": "Ouster",
+  "symbol": "OUSTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "OUSTon"
+}

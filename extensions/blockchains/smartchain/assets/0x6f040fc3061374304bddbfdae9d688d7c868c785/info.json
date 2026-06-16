@@ -1,0 +1,10 @@
+{
+  "id": "0x6f040fc3061374304bddbfdae9d688d7c868c785",
+  "name": "Teradyne",
+  "symbol": "TERON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "TERon"
+}

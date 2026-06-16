@@ -1,0 +1,10 @@
+{
+  "id": "0x8b68b3d3173c406d2c5f4f2107d54e6562a23120",
+  "name": "CEVA",
+  "symbol": "CEVAON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "CEVAon"
+}

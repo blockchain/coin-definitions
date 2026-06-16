@@ -1,0 +1,10 @@
+{
+  "id": "0xd41699aa1bfc1c5f172c27f387372bd30717a5db",
+  "name": "MKS Inc.",
+  "symbol": "MKSION",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "MKSIon"
+}

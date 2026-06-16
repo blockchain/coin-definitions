@@ -1,0 +1,10 @@
+{
+  "id": "0x484ce83bb55b50d70236c7d1e29e0ba7524f905b",
+  "name": "nVent Electric",
+  "symbol": "NVTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "NVTon"
+}

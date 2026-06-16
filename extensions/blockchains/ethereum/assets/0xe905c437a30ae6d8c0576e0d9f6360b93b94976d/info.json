@@ -1,0 +1,9 @@
+{
+  "name": "iShares 3-7 Year Treasury Bond ETF",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "IEION",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xe905c437a30ae6d8c0576e0d9f6360b93b94976d"
+}

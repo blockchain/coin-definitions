@@ -1,0 +1,10 @@
+{
+  "id": "0xac38a6608868e2f487d7993ea7339c69e5ab077b",
+  "name": "Cleveland-Cliffs",
+  "symbol": "CLFON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "CLFon"
+}

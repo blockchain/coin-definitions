@@ -1,0 +1,10 @@
+{
+  "id": "0x879fc0d8dfdb13b4af3513d9838f82c4df8f57e8",
+  "name": "iShares Systematic Alternatives Active ETF",
+  "symbol": "IALTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "IALTon"
+}

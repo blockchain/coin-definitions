@@ -1,0 +1,9 @@
+{
+  "name": "AMETEK",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "AMEON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x113fae6e1103a4c09250c8697a6a4be6ca987d06"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x96a1b43c8146e6d1f6e66b226a3c520cbe3d8a50",
+  "name": "iShares US Equity Factor Rotation Active ETF",
+  "symbol": "DYNFON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "DYNFon"
+}

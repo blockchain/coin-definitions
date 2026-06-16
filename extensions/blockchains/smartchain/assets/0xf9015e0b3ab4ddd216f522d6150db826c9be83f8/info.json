@@ -1,0 +1,10 @@
+{
+  "id": "0xf9015e0b3ab4ddd216f522d6150db826c9be83f8",
+  "name": "Planet Labs",
+  "symbol": "PLON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "PLon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0xfadde620010736a5074a4269894cb52b0a9a91de",
+  "name": "SLB",
+  "symbol": "SLBON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "SLBon"
+}

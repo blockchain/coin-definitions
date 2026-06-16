@@ -1,0 +1,9 @@
+{
+  "name": "Nucor",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "NUEON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x167f8d6b357fa9fff9b1286e519bd32d4504757e"
+}

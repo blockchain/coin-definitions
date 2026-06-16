@@ -1,0 +1,10 @@
+{
+  "id": "0x1fe12abdf560c753acbc63533519d74801e04958",
+  "name": "Global X S&P 500 Covered Call ETF",
+  "symbol": "XYLDON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "XYLDon"
+}

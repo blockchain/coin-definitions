@@ -1,0 +1,9 @@
+{
+  "name": "Hewlett Packard Enterprise",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "HPEON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xe67abca57e1504a26bd2ed209f2e0c09543fd7eb"
+}

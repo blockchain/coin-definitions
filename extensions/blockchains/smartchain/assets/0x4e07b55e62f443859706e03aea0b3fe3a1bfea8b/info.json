@@ -1,0 +1,10 @@
+{
+  "id": "0x4e07b55e62f443859706e03aea0b3fe3a1bfea8b",
+  "name": "iShares 3-7 Year Treasury Bond ETF",
+  "symbol": "IEION",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "IEIon"
+}

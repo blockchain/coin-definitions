@@ -1,0 +1,10 @@
+{
+  "id": "0xd41829dec8b51119176ee0a6b73bc8b2718546a9",
+  "name": "iShares Floating Rate Loan Active ETF",
+  "symbol": "BRLNON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "BRLNon"
+}

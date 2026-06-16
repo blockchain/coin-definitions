@@ -1,0 +1,10 @@
+{
+  "id": "0x492e678c1ea048c70edc635047cdbb87ff5362a2",
+  "name": "Hewlett Packard Enterprise",
+  "symbol": "HPEON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "HPEon"
+}

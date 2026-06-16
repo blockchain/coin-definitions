@@ -1,0 +1,10 @@
+{
+  "id": "0x8b46599e0e80a34f37e97df58e741ca904cdfabd",
+  "name": "STMicroelectronics",
+  "symbol": "STMON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "STMon"
+}

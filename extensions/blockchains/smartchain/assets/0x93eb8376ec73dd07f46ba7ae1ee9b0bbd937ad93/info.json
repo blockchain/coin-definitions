@@ -1,0 +1,10 @@
+{
+  "id": "0x93eb8376ec73dd07f46ba7ae1ee9b0bbd937ad93",
+  "name": "iShares Euro High Yield Corporate Bond USD Hedged ETF",
+  "symbol": "EUHYON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "EUHYon"
+}

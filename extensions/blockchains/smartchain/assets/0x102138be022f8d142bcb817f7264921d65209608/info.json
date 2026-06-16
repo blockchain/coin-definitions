@@ -1,0 +1,10 @@
+{
+  "id": "0x102138be022f8d142bcb817f7264921d65209608",
+  "name": "Flex",
+  "symbol": "FLEXON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "FLEXon"
+}

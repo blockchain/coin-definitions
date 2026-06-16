@@ -1,0 +1,10 @@
+{
+  "id": "0x5fb339393773414039295ea97a92614fed85d556",
+  "name": "iShares Defense Industrials Active ETF",
+  "symbol": "IDEFON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "IDEFon"
+}

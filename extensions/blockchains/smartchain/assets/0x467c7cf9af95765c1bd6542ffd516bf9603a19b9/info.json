@@ -1,0 +1,10 @@
+{
+  "id": "0x467c7cf9af95765c1bd6542ffd516bf9603a19b9",
+  "name": "Defiance Quantum ETF",
+  "symbol": "QTUMON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "QTUMon"
+}

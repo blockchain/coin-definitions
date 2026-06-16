@@ -1,0 +1,10 @@
+{
+  "id": "0xd381aec27daaccc87f102ff4ad6652f8b5f20ba0",
+  "name": "Powell Industries",
+  "symbol": "POWLON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "POWLon"
+}
