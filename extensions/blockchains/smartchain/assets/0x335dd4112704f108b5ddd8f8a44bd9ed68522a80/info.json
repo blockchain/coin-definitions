@@ -1,0 +1,10 @@
+{
+  "id": "0x335dd4112704f108b5ddd8f8a44bd9ed68522a80",
+  "name": "Direxion Daily Semi Bear 3X ETF",
+  "symbol": "SOXSON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "SOXSon"
+}

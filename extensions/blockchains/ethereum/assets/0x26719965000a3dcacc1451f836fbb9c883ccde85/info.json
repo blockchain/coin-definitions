@@ -1,0 +1,9 @@
+{
+  "name": "Emerson Electric",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "EMRON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x26719965000a3dcacc1451f836fbb9c883ccde85"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0xfeb0793eea97585eb3a541f3fd53450d225b2b87",
+  "name": "Cloudflare",
+  "symbol": "NETON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "NETon"
+}

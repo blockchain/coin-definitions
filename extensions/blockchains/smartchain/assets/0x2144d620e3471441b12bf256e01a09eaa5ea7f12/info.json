@@ -1,0 +1,10 @@
+{
+  "id": "0x2144d620e3471441b12bf256e01a09eaa5ea7f12",
+  "name": "Penguin Solutions",
+  "symbol": "PENGON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "PENGon"
+}

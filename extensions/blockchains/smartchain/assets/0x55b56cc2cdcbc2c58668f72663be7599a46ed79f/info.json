@@ -1,0 +1,10 @@
+{
+  "id": "0x55b56cc2cdcbc2c58668f72663be7599a46ed79f",
+  "name": "Wolfspeed",
+  "symbol": "WOLFON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "WOLFon"
+}

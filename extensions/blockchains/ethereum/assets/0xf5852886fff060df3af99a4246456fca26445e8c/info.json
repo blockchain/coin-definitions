@@ -1,0 +1,9 @@
+{
+  "name": "STMicroelectronics",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "STMON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xf5852886fff060df3af99a4246456fca26445e8c"
+}

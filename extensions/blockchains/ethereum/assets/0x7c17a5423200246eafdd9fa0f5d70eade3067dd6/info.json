@@ -1,0 +1,9 @@
+{
+  "name": "TE Connectivity",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "TELON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x7c17a5423200246eafdd9fa0f5d70eade3067dd6"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Planet Labs",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "PLON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xa656c5dd6b64b3acb6e32af8a876a48b5748f858"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x686f8264625fe4e51f520db856003a4dd52a49ff",
+  "name": "Tsakos Energy Navigation",
+  "symbol": "TENON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "TENon"
+}

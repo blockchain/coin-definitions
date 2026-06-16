@@ -1,0 +1,10 @@
+{
+  "id": "0xca626a74420aaaf285987da23d829f9159ab867c",
+  "name": "Sprott Uranium Miners ETF",
+  "symbol": "URNMON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "URNMon"
+}

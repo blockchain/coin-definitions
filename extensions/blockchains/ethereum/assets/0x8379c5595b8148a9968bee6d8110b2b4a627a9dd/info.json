@@ -1,0 +1,9 @@
+{
+  "name": "ACM Research",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "ACMRON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x8379c5595b8148a9968bee6d8110b2b4a627a9dd"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x8d941ebb4921f8d43cfa65233b14a547f96559fc",
+  "name": "Jabil",
+  "symbol": "JBLON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "JBLon"
+}

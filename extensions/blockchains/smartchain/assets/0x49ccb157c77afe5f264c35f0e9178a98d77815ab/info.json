@@ -1,0 +1,10 @@
+{
+  "id": "0x49ccb157c77afe5f264c35f0e9178a98d77815ab",
+  "name": "Rambus",
+  "symbol": "RMBSON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "RMBSon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0xd60b0276640a693ece55660afac0383ca6433882",
+  "name": "Primoris Services",
+  "symbol": "PRIMON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "PRIMon"
+}

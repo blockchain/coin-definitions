@@ -1,0 +1,10 @@
+{
+  "id": "0x6a4c1b7aa18638fac4c8e0d1961405e27c25baf1",
+  "name": "Global X Silver Miners ETF",
+  "symbol": "SILON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "SILon"
+}

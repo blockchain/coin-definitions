@@ -1,0 +1,9 @@
+{
+  "name": "GlobalFoundries",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "GFSON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xb326821b68313082f00a1a4d6fa3f924d3e826dc"
+}

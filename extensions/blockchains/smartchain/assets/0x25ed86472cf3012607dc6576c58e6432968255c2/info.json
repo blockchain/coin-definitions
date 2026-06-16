@@ -1,0 +1,10 @@
+{
+  "id": "0x25ed86472cf3012607dc6576c58e6432968255c2",
+  "name": "Core Scientific",
+  "symbol": "CORZON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "CORZon"
+}

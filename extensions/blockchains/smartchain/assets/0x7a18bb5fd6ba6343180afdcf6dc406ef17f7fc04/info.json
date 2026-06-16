@@ -1,0 +1,10 @@
+{
+  "id": "0x7a18bb5fd6ba6343180afdcf6dc406ef17f7fc04",
+  "name": "Halliburton",
+  "symbol": "HALON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "HALon"
+}

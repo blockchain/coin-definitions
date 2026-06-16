@@ -1,0 +1,10 @@
+{
+  "id": "0x47bfe4921bd74c66c6b0c35c517abdfb5e3bafb3",
+  "name": "FuelCell Energy",
+  "symbol": "FCELON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "FCELon"
+}

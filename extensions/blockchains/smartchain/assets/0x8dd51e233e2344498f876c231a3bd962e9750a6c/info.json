@@ -1,0 +1,10 @@
+{
+  "id": "0x8dd51e233e2344498f876c231a3bd962e9750a6c",
+  "name": "iShares Global Government Bond USD Hedged Active ETF",
+  "symbol": "GGOVON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "GGOVon"
+}

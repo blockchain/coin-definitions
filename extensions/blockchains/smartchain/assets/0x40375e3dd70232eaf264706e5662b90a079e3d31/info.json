@@ -1,0 +1,10 @@
+{
+  "id": "0x40375e3dd70232eaf264706e5662b90a079e3d31",
+  "name": "iShares MSCI EAFE Value ETF",
+  "symbol": "EFVON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "EFVon"
+}

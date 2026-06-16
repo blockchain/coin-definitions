@@ -1,0 +1,10 @@
+{
+  "id": "0x2206e07410a8fe9ef595e7184b2e9d160fdb7211",
+  "name": "USA Rare Earth",
+  "symbol": "USARON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "USARon"
+}

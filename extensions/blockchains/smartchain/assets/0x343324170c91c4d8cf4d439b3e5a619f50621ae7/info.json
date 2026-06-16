@@ -1,0 +1,10 @@
+{
+  "id": "0x343324170c91c4d8cf4d439b3e5a619f50621ae7",
+  "name": "Tower Semiconductor",
+  "symbol": "TSEMON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "TSEMon"
+}

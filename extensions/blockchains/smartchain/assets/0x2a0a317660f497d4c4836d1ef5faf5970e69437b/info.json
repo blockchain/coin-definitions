@@ -1,0 +1,10 @@
+{
+  "id": "0x2a0a317660f497d4c4836d1ef5faf5970e69437b",
+  "name": "Leonardo DRS",
+  "symbol": "DRSON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "DRSon"
+}

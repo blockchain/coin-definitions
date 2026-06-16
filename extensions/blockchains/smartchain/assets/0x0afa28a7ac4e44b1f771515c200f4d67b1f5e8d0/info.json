@@ -1,0 +1,10 @@
+{
+  "id": "0x0afa28a7ac4e44b1f771515c200f4d67b1f5e8d0",
+  "name": "Trane Technologies",
+  "symbol": "TTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "TTon"
+}

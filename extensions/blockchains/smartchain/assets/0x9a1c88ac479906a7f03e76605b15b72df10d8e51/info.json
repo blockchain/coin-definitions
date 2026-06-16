@@ -1,0 +1,10 @@
+{
+  "id": "0x9a1c88ac479906a7f03e76605b15b72df10d8e51",
+  "name": "EQT",
+  "symbol": "EQTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "EQTon"
+}

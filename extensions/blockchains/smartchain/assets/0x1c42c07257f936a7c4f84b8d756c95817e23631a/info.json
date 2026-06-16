@@ -1,0 +1,10 @@
+{
+  "id": "0x1c42c07257f936a7c4f84b8d756c95817e23631a",
+  "name": "Hubbell",
+  "symbol": "HUBBON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "HUBBon"
+}

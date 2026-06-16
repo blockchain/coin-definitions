@@ -1,0 +1,10 @@
+{
+  "id": "0x7b695132b165cb6703f0212bbb1e91a782526156",
+  "name": "Celestica",
+  "symbol": "CLSON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "CLSon"
+}

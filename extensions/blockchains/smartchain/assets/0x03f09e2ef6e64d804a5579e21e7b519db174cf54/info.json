@@ -1,0 +1,10 @@
+{
+  "id": "0x03f09e2ef6e64d804a5579e21e7b519db174cf54",
+  "name": "SPDR Bloomberg 1-3 Month T-Bill ETF",
+  "symbol": "BILON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "BILon"
+}

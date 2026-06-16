@@ -1,0 +1,9 @@
+{
+  "name": "Teradyne",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "TERON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x1d1b9ae25722d0b27db23171cfee0c269b203695"
+}

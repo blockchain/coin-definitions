@@ -1,0 +1,10 @@
+{
+  "id": "0x5417b7cfdb8a187004067297ebf1491c8d6d5c09",
+  "name": "Power Integrations",
+  "symbol": "POWION",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "POWIon"
+}

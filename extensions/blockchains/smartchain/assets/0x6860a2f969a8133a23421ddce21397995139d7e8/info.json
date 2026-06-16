@@ -1,0 +1,10 @@
+{
+  "id": "0x6860a2f969a8133a23421ddce21397995139d7e8",
+  "name": "iShares High Yield Active ETF",
+  "symbol": "BRHYON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "BRHYon"
+}

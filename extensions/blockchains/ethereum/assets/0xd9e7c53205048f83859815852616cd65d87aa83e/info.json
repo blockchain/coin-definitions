@@ -1,0 +1,9 @@
+{
+  "name": "iShares J.P. Morgan EM Local Currency Bond ETF",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "LEMBON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xd9e7c53205048f83859815852616cd65d87aa83e"
+}

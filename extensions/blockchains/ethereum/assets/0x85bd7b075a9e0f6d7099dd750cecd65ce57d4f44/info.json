@@ -1,0 +1,9 @@
+{
+  "name": "TaskUs",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "TASKON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x85bd7b075a9e0f6d7099dd750cecd65ce57d4f44"
+}

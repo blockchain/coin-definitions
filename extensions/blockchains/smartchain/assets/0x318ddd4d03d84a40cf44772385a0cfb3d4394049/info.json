@@ -1,0 +1,10 @@
+{
+  "id": "0x318ddd4d03d84a40cf44772385a0cfb3d4394049",
+  "name": "United Microelectronics",
+  "symbol": "UMCON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "UMCon"
+}

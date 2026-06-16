@@ -1,0 +1,10 @@
+{
+  "id": "0x2bc97b1c5f83f080798ee9e38da5fbf621454fcf",
+  "name": "Global X Space Tech ETF",
+  "symbol": "ORBXON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "ORBXon"
+}

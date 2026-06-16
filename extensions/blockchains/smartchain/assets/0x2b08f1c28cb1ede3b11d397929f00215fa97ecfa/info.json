@@ -1,0 +1,10 @@
+{
+  "id": "0x2b08f1c28cb1ede3b11d397929f00215fa97ecfa",
+  "name": "Global X MSCI Argentina ETF",
+  "symbol": "ARGTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "ARGTon"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Hubbell",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "HUBBON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x24e7504246dfdd7e866936e2816bfbea73bd890a"
+}

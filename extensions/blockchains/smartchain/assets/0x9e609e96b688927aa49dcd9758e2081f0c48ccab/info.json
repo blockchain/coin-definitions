@@ -1,0 +1,10 @@
+{
+  "id": "0x9e609e96b688927aa49dcd9758e2081f0c48ccab",
+  "name": "iShares Investment Grade Systematic Bond ETF",
+  "symbol": "IGEBON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "IGEBon"
+}

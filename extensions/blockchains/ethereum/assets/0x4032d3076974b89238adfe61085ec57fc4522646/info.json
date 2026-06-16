@@ -1,0 +1,9 @@
+{
+  "name": "Invesco PHLX Semiconductor ETF",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "SOXQON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x4032d3076974b89238adfe61085ec57fc4522646"
+}

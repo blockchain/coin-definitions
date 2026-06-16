@@ -1,0 +1,10 @@
+{
+  "id": "0x7a5bd36047a9d15c90fa79b0654de8dd9d6ebbb1",
+  "name": "AMETEK",
+  "symbol": "AMEON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "AMEon"
+}

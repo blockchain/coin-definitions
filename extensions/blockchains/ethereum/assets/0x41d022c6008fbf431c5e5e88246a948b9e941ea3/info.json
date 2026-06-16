@@ -1,0 +1,9 @@
+{
+  "name": "Symbotic",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "SYMON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x41d022c6008fbf431c5e5e88246a948b9e941ea3"
+}

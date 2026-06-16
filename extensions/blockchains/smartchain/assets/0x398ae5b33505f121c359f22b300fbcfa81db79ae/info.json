@@ -1,0 +1,10 @@
+{
+  "id": "0x398ae5b33505f121c359f22b300fbcfa81db79ae",
+  "name": "iShares Large Cap Core Active ETF",
+  "symbol": "BLCRON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "BLCRon"
+}
