@@ -1,0 +1,10 @@
+{
+  "id": "0x790cfb394b1f399a3543ba1f835dde114a387eeb",
+  "name": "iShares US Industry Rotation Active ETF",
+  "symbol": "INROON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "INROon"
+}

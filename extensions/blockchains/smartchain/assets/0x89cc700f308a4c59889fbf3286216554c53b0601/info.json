@@ -1,0 +1,10 @@
+{
+  "id": "0x89cc700f308a4c59889fbf3286216554c53b0601",
+  "name": "Hyperliquid Strategies",
+  "symbol": "PURRON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "PURRon"
+}

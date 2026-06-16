@@ -1,0 +1,10 @@
+{
+  "id": "0x66a1409fe303d00209202933e3d31ee43aaab39d",
+  "name": "Aurora Innovation",
+  "symbol": "AURON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "AURon"
+}

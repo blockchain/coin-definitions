@@ -1,0 +1,9 @@
+{
+  "name": "Global X NASDAQ 100 Covered Call ETF",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "QYLDON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xa7776b3d801a6626807e0db357c7ee2a8962903b"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "iShares Total Return Active ETF",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "BRTRON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x3d45d340a30f49f036142e5e4d8993b9ad4e3f9a"
+}

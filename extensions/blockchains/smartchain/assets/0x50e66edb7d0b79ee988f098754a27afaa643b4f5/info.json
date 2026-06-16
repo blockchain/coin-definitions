@@ -1,0 +1,10 @@
+{
+  "id": "0x50e66edb7d0b79ee988f098754a27afaa643b4f5",
+  "name": "Worthington Steel",
+  "symbol": "WSON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "WSon"
+}

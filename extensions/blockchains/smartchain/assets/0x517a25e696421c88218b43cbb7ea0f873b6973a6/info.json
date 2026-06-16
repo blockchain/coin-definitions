@@ -1,0 +1,10 @@
+{
+  "id": "0x517a25e696421c88218b43cbb7ea0f873b6973a6",
+  "name": "Innodata",
+  "symbol": "INODON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "INODon"
+}

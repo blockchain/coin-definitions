@@ -1,0 +1,10 @@
+{
+  "id": "0x23def658ea0b4081161d9ab8fdfeef5345bcafbd",
+  "name": "iShares International Country Rotation Active ETF",
+  "symbol": "COROON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "COROon"
+}

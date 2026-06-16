@@ -1,0 +1,9 @@
+{
+  "name": "iShares US Technology ETF",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "IYWON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x1577d4ae114b6f217453b754aeac164db44832da"
+}

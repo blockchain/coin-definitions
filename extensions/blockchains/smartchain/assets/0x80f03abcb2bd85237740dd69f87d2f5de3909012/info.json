@@ -1,0 +1,10 @@
+{
+  "id": "0x80f03abcb2bd85237740dd69f87d2f5de3909012",
+  "name": "Lattice Semiconductor",
+  "symbol": "LSCCON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "LSCCon"
+}

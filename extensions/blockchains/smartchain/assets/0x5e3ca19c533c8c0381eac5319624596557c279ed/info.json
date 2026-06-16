@@ -1,0 +1,10 @@
+{
+  "id": "0x5e3ca19c533c8c0381eac5319624596557c279ed",
+  "name": "Keel Infrastructure",
+  "symbol": "KEELON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "KEELon"
+}

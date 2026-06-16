@@ -1,0 +1,10 @@
+{
+  "id": "0x33f3df3cea2a8c4828e88f30be932850cf749739",
+  "name": "Nordic American Tankers",
+  "symbol": "NATON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "NATon"
+}

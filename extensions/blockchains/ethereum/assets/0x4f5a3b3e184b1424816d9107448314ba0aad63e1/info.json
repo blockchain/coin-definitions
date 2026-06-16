@@ -1,0 +1,9 @@
+{
+  "name": "Cloudflare",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "NETON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x4f5a3b3e184b1424816d9107448314ba0aad63e1"
+}

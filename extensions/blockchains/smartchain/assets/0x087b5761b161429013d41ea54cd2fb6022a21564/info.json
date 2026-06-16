@@ -1,0 +1,10 @@
+{
+  "id": "0x087b5761b161429013d41ea54cd2fb6022a21564",
+  "name": "Roundhill Memory ETF",
+  "symbol": "DRAMON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "DRAMon"
+}

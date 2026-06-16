@@ -1,0 +1,9 @@
+{
+  "name": "SAP",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "SAPON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xcafd1c0ee8b392cb446e3e745a4adeff7a861995"
+}

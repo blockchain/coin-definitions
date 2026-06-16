@@ -1,0 +1,9 @@
+{
+  "name": "RoboStrategy",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "BOTON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x0e05ba0756c504b69aaa642f7379cd1af7c63969"
+}

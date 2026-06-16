@@ -1,0 +1,10 @@
+{
+  "id": "0x37ff203ac221313b620d047eddd7bd6f68d656a6",
+  "name": "VeriSign",
+  "symbol": "VRSNON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "VRSNon"
+}

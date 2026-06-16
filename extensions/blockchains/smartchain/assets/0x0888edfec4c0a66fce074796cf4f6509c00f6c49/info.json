@@ -1,0 +1,10 @@
+{
+  "id": "0x0888edfec4c0a66fce074796cf4f6509c00f6c49",
+  "name": "US Copper Index Fund",
+  "symbol": "CPERON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "CPERon"
+}

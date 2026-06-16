@@ -1,0 +1,10 @@
+{
+  "id": "0xbeeef4361f6603edacef5205b343c6bb6473a099",
+  "name": "iShares US Technology ETF",
+  "symbol": "IYWON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "IYWon"
+}

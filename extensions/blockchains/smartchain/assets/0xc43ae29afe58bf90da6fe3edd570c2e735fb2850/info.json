@@ -1,0 +1,10 @@
+{
+  "id": "0xc43ae29afe58bf90da6fe3edd570c2e735fb2850",
+  "name": "RoboStrategy",
+  "symbol": "BOTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "BOTon"
+}

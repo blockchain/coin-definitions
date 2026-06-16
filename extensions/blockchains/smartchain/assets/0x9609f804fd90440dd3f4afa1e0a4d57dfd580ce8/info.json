@@ -1,0 +1,10 @@
+{
+  "id": "0x9609f804fd90440dd3f4afa1e0a4d57dfd580ce8",
+  "name": "iShares S&P Small-Cap 600 Value ETF",
+  "symbol": "IJSON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "IJSon"
+}

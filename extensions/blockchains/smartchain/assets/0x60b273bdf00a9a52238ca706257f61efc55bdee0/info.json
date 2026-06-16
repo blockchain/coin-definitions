@@ -1,0 +1,10 @@
+{
+  "id": "0x60b273bdf00a9a52238ca706257f61efc55bdee0",
+  "name": "Emerson Electric",
+  "symbol": "EMRON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "EMRon"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0xe9518cb0010c717db69001f1418eff9e97330137",
+  "name": "Nokia",
+  "symbol": "NOKON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "NOKon"
+}

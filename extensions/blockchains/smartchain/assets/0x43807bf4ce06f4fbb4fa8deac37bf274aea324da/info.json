@@ -1,0 +1,10 @@
+{
+  "id": "0x43807bf4ce06f4fbb4fa8deac37bf274aea324da",
+  "name": "Lincoln Electric",
+  "symbol": "LECOON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "LECOon"
+}

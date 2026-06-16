@@ -1,0 +1,10 @@
+{
+  "id": "0x5d1a9d8aa362a6424b65fcb601e52fefce5b4efa",
+  "name": "General Dynamics",
+  "symbol": "GDON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "GDon"
+}

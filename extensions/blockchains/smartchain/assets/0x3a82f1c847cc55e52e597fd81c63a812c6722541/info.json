@@ -1,0 +1,10 @@
+{
+  "id": "0x3a82f1c847cc55e52e597fd81c63a812c6722541",
+  "name": "Hut 8",
+  "symbol": "HUTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "HUTon"
+}

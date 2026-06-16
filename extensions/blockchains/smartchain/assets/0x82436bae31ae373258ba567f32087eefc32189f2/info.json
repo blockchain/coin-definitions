@@ -1,0 +1,10 @@
+{
+  "id": "0x82436bae31ae373258ba567f32087eefc32189f2",
+  "name": "WESCO International",
+  "symbol": "WCCON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "WCCon"
+}

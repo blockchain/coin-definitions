@@ -1,0 +1,9 @@
+{
+  "name": "Rambus",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "RMBSON",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xae1c6e353cdc9dc3cc01124ffb62a0d0ce64a401"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0xbc34d36b70e5a256f3d16f9ca9d3ca3838f6cc4f",
+  "name": "iShares Aaa - A Rated Corporate Bond ETF",
+  "symbol": "QLTAON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "QLTAon"
+}

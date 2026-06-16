@@ -1,0 +1,10 @@
+{
+  "id": "0xc79fc7af952c8b41c6b7b7657dd24f44f7c10f2a",
+  "name": "Symbotic",
+  "symbol": "SYMON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "SYMon"
+}

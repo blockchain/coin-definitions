@@ -1,0 +1,10 @@
+{
+  "id": "0x2155f5344ba7763f80420de617af41e56de0552b",
+  "name": "Nucor",
+  "symbol": "NUEON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "NUEon"
+}

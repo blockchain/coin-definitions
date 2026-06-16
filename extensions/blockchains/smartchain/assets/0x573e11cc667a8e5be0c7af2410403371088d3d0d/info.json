@@ -1,0 +1,10 @@
+{
+  "id": "0x573e11cc667a8e5be0c7af2410403371088d3d0d",
+  "name": "Astera Labs",
+  "symbol": "ALABON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "ALABon"
+}

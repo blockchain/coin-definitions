@@ -1,0 +1,10 @@
+{
+  "id": "0x5cb7671740877723c9ad55348a751d7b57052e07",
+  "name": "MaxLinear",
+  "symbol": "MXLON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "MXLon"
+}

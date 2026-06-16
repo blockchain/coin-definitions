@@ -1,0 +1,10 @@
+{
+  "id": "0x25a4dbae9a0cd8c75656d6b50ffdf4900cc20d8f",
+  "name": "Corning",
+  "symbol": "GLWON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "GLWon"
+}

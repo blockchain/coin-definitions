@@ -1,0 +1,10 @@
+{
+  "id": "0x5c50ffd365c852f5e72bfbc2c1ae621e2aca5ece",
+  "name": "TE Connectivity",
+  "symbol": "TELON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "TELon"
+}

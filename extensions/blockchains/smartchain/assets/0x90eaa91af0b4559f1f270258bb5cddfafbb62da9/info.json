@@ -1,0 +1,10 @@
+{
+  "id": "0x90eaa91af0b4559f1f270258bb5cddfafbb62da9",
+  "name": "Steel Dynamics",
+  "symbol": "STLDON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "STLDon"
+}

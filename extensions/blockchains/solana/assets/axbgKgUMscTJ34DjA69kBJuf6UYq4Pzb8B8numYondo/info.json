@@ -1,0 +1,10 @@
+{
+  "displaySymbol": "HPEon",
+  "symbol": "HPEON",
+  "name": "Hewlett Packard Enterprise",
+  "id": "axbgKgUMscTJ34DjA69kBJuf6UYq4Pzb8B8numYondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 6,
+  "status": "active",
+  "website": "https://ondo.finance"
+}
