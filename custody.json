@@ -605,7 +605,7 @@
   },
     {
     "symbol": "DOOD.SOL",
-    "displaySymbol": "$DOOD",
+    "displaySymbol": "DOOD",
     "type": "SOLANA_TOKEN",
     "nabuSettings": {
       "custodialPrecision": 9

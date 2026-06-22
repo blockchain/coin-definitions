@@ -1,7 +1,7 @@
 {
     "name": "Doodles",
     "symbol": "DOOD",
-    "displaySymbol": "$DOOD",
+    "displaySymbol": "DOOD",
     "type": "SPL",
     "decimals": 9,
     "status": "active",
