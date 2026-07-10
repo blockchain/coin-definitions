@@ -24732,6 +24732,15 @@
         "website": "https://libermx.com/"
     },
     {
+        "address": "0xc0fe36f4ffbdf1b38e192215073590a68f9a2af7",
+        "decimals": 18,
+        "displaySymbol": "SKHYON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0xc0fe36f4ffbdf1b38e192215073590a68f9a2af7/logo.png",
+        "name": "SK Hynix",
+        "symbol": "SKHYON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xc11158c5dA9db1D553ED28f0C2BA1CbEDD42CFcb",
         "decimals": 18,
         "displaySymbol": "PAW",
