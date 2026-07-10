@@ -1,0 +1,10 @@
+{
+  "name": "SK Hynix (Ondo Tokenized)",
+  "displaySymbol": "SKHYon",
+  "symbol": "SKHYON",
+  "id": "Huyb2fyDDjSuDKCRWsN9ci2rmcgPo6NFiLbx9ZDondo",
+  "type": "SOLANA_TOKEN",
+  "decimals": 9,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}
