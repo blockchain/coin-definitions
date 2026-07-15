@@ -1,0 +1,10 @@
+{
+  "id": "0x4268f2bfb23a7496504aa5ed1ee325248586299f",
+  "name": "SK Hynix (Ondo Tokenized)",
+  "symbol": "SKHYON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/",
+  "displaySymbol": "SKHYon"
+}
