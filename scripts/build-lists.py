@@ -131,7 +131,10 @@ def fetch_tokens(chain):
 
 
 def fetch_prices():
-    coins = fetch_coins()
+    # Use published coins.json rather than rescanning Trust Wallet assets.
+    # Auto-bump does not rebuild coins.json, and assets often introduce L1
+    # symbol collisions (e.g. multiple chains using ETH) that would abort CI.
+    coins = list(map(Coin.from_dict, read_json(FINAL_BLOCKCHAINS_LIST)))
 
     prices = {
         "timestamp": datetime.now().isoformat(),
