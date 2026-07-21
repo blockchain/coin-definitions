@@ -1,12 +1,16 @@
+import hashlib
 import itertools
 import operator
+import os
 from dataclasses import dataclass
 from functools import reduce
 from typing import List
 
 from common_classes import Coin, Token
-from statics import EXT_PRICES
+from statics import BC_REPO_ROOT, EXT_PRICES
 from utils import read_json
+
+EXT_FIATS = "extensions/fiats/"
 
 
 class CheckResult:
@@ -131,6 +135,24 @@ class Group:
     parentSymbol: str
     childSymbols: List[str]
 
+
+@dataclass
+class Fiat:
+    symbol: str
+    name: str
+    decimals: int
+    logo: str
+
+    def __str__(self):
+        return f"[FIAT {self.symbol}]"
+
+    def logo_path(self):
+        return os.path.join(EXT_FIATS, self.symbol, "logo.png")
+
+    def expected_logo_url(self):
+        return BC_REPO_ROOT + self.logo_path()
+
+
 def find_duplicates(items, key):
     groups = itertools.groupby(sorted(items, key=key), key)
     groups = [(symbol, list(items)) for symbol, items in groups]
@@ -140,6 +162,40 @@ def find_duplicates(items, key):
 def check_logo(coin):
     if coin.logo is None:
         yield Warning(coin, "No logo")
+
+
+def check_fiats(fiats: List[Fiat]):
+    duplicates = find_duplicates(fiats, lambda f: f.symbol.upper())
+    for symbol, items in duplicates:
+        yield Error(symbol, f"Duplicate fiat symbol: {items}")
+
+    content_hashes = {}
+    for fiat in fiats:
+        if fiat.symbol.upper() != fiat.symbol:
+            yield Error(fiat, "Contains mix of lower and upper case letters")
+
+        if not isinstance(fiat.decimals, int) or fiat.decimals < 0:
+            yield Error(fiat, f"Invalid decimals: {fiat.decimals}")
+
+        if not fiat.name:
+            yield Error(fiat, "Missing name")
+
+        expected_logo = fiat.expected_logo_url()
+        if fiat.logo != expected_logo:
+            yield Error(fiat, f"Invalid logo URL, expected {expected_logo}")
+
+        logo_path = fiat.logo_path()
+        if not os.path.exists(logo_path):
+            yield Error(fiat, f"Logo file not found: {logo_path}")
+            continue
+
+        with open(logo_path, "rb") as logo_file:
+            digest = hashlib.sha256(logo_file.read()).hexdigest()
+
+        if digest in content_hashes:
+            yield Error(fiat, f"Duplicate logo content (same as {content_hashes[digest]})")
+        else:
+            content_hashes[digest] = fiat.symbol
 
 
 def check_groups(
@@ -283,6 +339,7 @@ def main():
     other_tokens = [token for chain_tokens in chains.values() for token in chain_tokens]
 
     custody_currencies = list(map(lambda x: CustodyCurrency(**x), read_json("custody.json")))
+    fiats = list(map(lambda x: Fiat(**x), read_json("fiat.json")))
 
     combined = sorted(itertools.chain(coins, eth_erc20_tokens, other_tokens), key=lambda x: x.symbol)
     duplicates = find_duplicates(combined, lambda t: t.symbol.upper())
@@ -294,10 +351,14 @@ def main():
     print(f"{len(eth_erc20_tokens)} ETH tokens")
     for (k, v) in chains.items():
         print(f"{len(v)} {k} tokens")
+    print(f"{len(fiats)} fiats")
     print(f"Total: {len(combined)}")
 
     prices = read_json(EXT_PRICES)['prices']
-    issues = list(check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices, groups))
+    issues = list(itertools.chain(
+        check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices, groups),
+        check_fiats(fiats),
+    ))
 
     print("")
     print(reduce(operator.add, map(lambda i: "\n- " + str(i), issues)))
