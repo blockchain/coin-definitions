@@ -147,7 +147,7 @@ class Fiat:
         return f"[FIAT {self.symbol}]"
 
     def logo_path(self):
-        return os.path.join(EXT_FIATS, self.symbol, "logo.svg")
+        return os.path.join(EXT_FIATS, self.symbol, "logo.png")
 
     def expected_logo_url(self):
         return BC_REPO_ROOT + self.logo_path()
