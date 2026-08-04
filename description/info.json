@@ -27900,6 +27900,11 @@
         "websiteurl": "https://vvs.finance/"
     },
     {
+        "description": "Venice Token (VVV) is the native utility token of Venice | Private AI for Unlimited Creative Freedom, a leading privacy-first, uncensored generative AI platform. Built on Ethereum Layer 2 Base, Venice provides private/anonymous access to open-source and third-party AI models for text, image, video, audio, code generation, and agentic workflows. It emphasizes zero data retention, no censorship, and permissionless access.\r\n\r\nThe VVV token serves as the platform's capital asset. Users stake it to earn yield, access API inference capacity, and mint DIEM tokens (each providing ~$1 daily API credits). This model supports autonomous AI agents and developers by reducing friction and costs compared to closed-source alternatives. Venice launched its app in 2024 and the VVV token in January 2025. It has grown a large user base focused on privacy and creative freedom.",
+        "symbol": "VVV.BASEETH",
+        "websiteurl": "https://venice.ai/"
+    },
+    {
         "description": "Vectorspace AI provides high-value correlation matrix datasets to give researchers the ability to accelerate their data-driven innovation and discoveries using patent-protected NLP/NLU. Clients save time in the research loop by quickly testing hypotheses and running experiments with higher throughput. Vectorspace AI originated in the Life Sciences dept. of Lawrence Berkeley National Laboratory (LBNL) where the founders developed the patents that drive the company\u2019s innovation for a variety of academic institutions. Visit https://vectorspace.ai\r\n\r\n",
         "symbol": "VXV",
         "websiteurl": "https://vectorspacebio.science/"
