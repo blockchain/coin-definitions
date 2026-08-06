@@ -2009,7 +2009,7 @@
     "displaySymbol": "VVV",
     "type": "ERC20",
     "nabuSettings": {
-      "custodialPrecision": 9
+      "custodialPrecision": 18
     },
     "hwsSettings": null
   },
