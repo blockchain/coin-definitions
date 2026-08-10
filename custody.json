@@ -701,7 +701,7 @@
       "custodialPrecision": 9
     },
     "hwsSettings": {
-      "minConfirmations": 10000,
+      "minConfirmations": 3000,
       "minWithdrawal": 0
     }
   },
@@ -1998,6 +1998,15 @@
   {
     "symbol": "VIRTUAL.BASEETH",
     "displaySymbol": "VIRTUAL",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
+  {
+    "symbol": "VVV.BASEETH",
+    "displaySymbol": "VVV",
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 9
