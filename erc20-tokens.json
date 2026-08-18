@@ -2430,6 +2430,15 @@
         "website": "https://www.mexc.com/"
     },
     {
+        "address": "0x1201dCFc7c0b2cE46C7604Bf104234AB42A56Bbd",
+        "decimals": 18,
+        "displaySymbol": "OPAIPON",
+        "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x1201dCFc7c0b2cE46C7604Bf104234AB42A56Bbd/logo.png",
+        "name": "OpenAI Exposure Note",
+        "symbol": "OPAIPON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x122940c4c5f9ccfae7fa86455a42d3ec140855ce",
         "decimals": 18,
         "displaySymbol": "IBITON",

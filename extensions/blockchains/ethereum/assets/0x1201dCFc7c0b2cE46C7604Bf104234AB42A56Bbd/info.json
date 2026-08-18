@@ -1,0 +1,9 @@
+{
+  "id": "0x1201dCFc7c0b2cE46C7604Bf104234AB42A56Bbd",
+  "name": "OpenAI Exposure Note (Ondo Tokenized)",
+  "symbol": "OPAIPON",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}
