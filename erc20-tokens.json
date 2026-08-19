@@ -175,7 +175,7 @@
         "decimals": 18,
         "displaySymbol": "SKL",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7/logo.png",
-        "name": "SKALE Network",
+        "name": "SKALE",
         "symbol": "SKL",
         "website": "https://skale.space/"
     },
@@ -751,7 +751,7 @@
         "decimals": 18,
         "displaySymbol": "MUon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x050362Ab1072Cb2Ce74d74770E22A3203Ad04ee5/logo.png",
-        "name": "Micron Technology",
+        "name": "Micron Technology (Ondo)",
         "symbol": "MUON",
         "website": "https://ondo.finance/"
     },
@@ -958,7 +958,7 @@
         "decimals": 18,
         "displaySymbol": "ITOTon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0692481C369E2BDc728A69ae31b848343a4567Be/logo.png",
-        "name": "iShares Core S&P Total US Stock Market ETF",
+        "name": "iShares Core S&P Total US Stock Market (Ondo)",
         "symbol": "ITOTON",
         "website": "https://ondo.finance/"
     },
@@ -1903,7 +1903,7 @@
         "decimals": 18,
         "displaySymbol": "YFI",
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e/logo.png",
-        "name": "yearn.finance",
+        "name": "Yearn",
         "symbol": "YFI",
         "website": "https://yearn.fi/"
     },
@@ -2335,7 +2335,7 @@
         "decimals": 18,
         "displaySymbol": "TAIKO",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x10dea67478c5F8C5E2D90e5E9B26dBe60c54d800/logo.png",
-        "name": "Taiko Token",
+        "name": "Taiko",
         "symbol": "TAIKO",
         "website": "https://taiko.xyz/"
     },
@@ -2353,7 +2353,7 @@
         "decimals": 18,
         "displaySymbol": "1INCH",
         "logo": "https://raw.githubusercontent.com/blockchain/coin-definitions/master/extensions/blockchains/ethereum/assets/0x111111111117dC0aa78b770fA6A738034120C302/logo.png",
-        "name": "1INCH Token",
+        "name": "1inch",
         "symbol": "1INCH",
         "website": "https://1inch.io/"
     },
@@ -2578,7 +2578,7 @@
         "decimals": 18,
         "displaySymbol": "SFP",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x12e2b8033420270db2F3b328E32370Cb5B2Ca134/logo.png",
-        "name": "SafePal Token",
+        "name": "SafePal",
         "symbol": "SFP",
         "website": "https://www.safepal.com/"
     },
@@ -2857,7 +2857,7 @@
         "decimals": 18,
         "displaySymbol": "Cake",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x152649eA73beAb28c5b49B26eb48f7EAD6d4c898/logo.png",
-        "name": "PancakeSwap Token",
+        "name": "PancakeSwap",
         "symbol": "CAKE",
         "website": "https://pancakeswap.finance/affiliates-program"
     },
@@ -5305,7 +5305,7 @@
         "decimals": 8,
         "displaySymbol": "WAXP",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2A79324c19Ef2B89Ea98b23BC669B7E7c9f8A517/logo.png",
-        "name": "WAXP Token",
+        "name": "WAX",
         "symbol": "WAXP",
         "website": "https://wax.io/"
     },
@@ -5476,7 +5476,7 @@
         "decimals": 18,
         "displaySymbol": "TIPon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2Df38cA485D01fC15e4FD85847ed26b7EF871c1c/logo.png",
-        "name": "iShares TIPS Bond ETF",
+        "name": "iShares TIPS Bond (Ondo)",
         "symbol": "TIPON",
         "website": "https://ondo.finance/"
     },
@@ -6691,7 +6691,7 @@
         "decimals": 18,
         "displaySymbol": "CRCLon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x3632DEa96A953C11dac2f00b4A05a32CD1063fAE/logo.png",
-        "name": "Circle Internet Group",
+        "name": "Circle Internet Group (Ondo)",
         "symbol": "CRCLON",
         "website": "https://ondo.finance/"
     },
@@ -7699,7 +7699,7 @@
         "decimals": 18,
         "displaySymbol": "EFAon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4111b60bc87F2Bd1e81E783E271D7F0ec6EE088B/logo.png",
-        "name": "iShares MSCI EAFE ETF",
+        "name": "iShares MSCI EAFE (Ondo)",
         "symbol": "EFAON",
         "website": "https://ondo.finance/"
     },
@@ -8122,7 +8122,7 @@
         "decimals": 18,
         "displaySymbol": "ACX",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F/logo.png",
-        "name": "Across Protocol Token",
+        "name": "Across Protocol",
         "symbol": "ACX",
         "website": "https://across.to/"
     },
@@ -8428,7 +8428,7 @@
         "decimals": 18,
         "displaySymbol": "WOO",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4691937a7508860F876c9c0a2a617E7d9E945D4B/logo.png",
-        "name": "WOO Network",
+        "name": "WOO",
         "symbol": "WOO",
         "website": "https://woox.io/"
     },
@@ -8635,7 +8635,7 @@
         "decimals": 18,
         "displaySymbol": "CTSI",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x491604c0FDF08347Dd1fa4Ee062a822A5DD06B5D/logo.png",
-        "name": "Cartesi Token",
+        "name": "Cartesi",
         "symbol": "CTSI",
         "website": "https://cartesi.io/"
     },
@@ -9094,7 +9094,7 @@
         "decimals": 18,
         "displaySymbol": "CELR",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4F9254C83EB525f9FCf346490bbb3ed28a81C667/logo.png",
-        "name": "CelerToken",
+        "name": "Celer Network",
         "symbol": "CELR",
         "website": "https://www.celer.network/"
     },
@@ -9391,7 +9391,7 @@
         "decimals": 18,
         "displaySymbol": "CVX",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B/logo.png",
-        "name": "Convex Token",
+        "name": "Convex Finance",
         "symbol": "CVX",
         "website": "https://www.convexfinance.com/"
     },
@@ -9427,7 +9427,7 @@
         "decimals": 18,
         "displaySymbol": "IAUon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x4f0CA3df1c2e6b943cf82E649d576ffe7B2fABCF/logo.png",
-        "name": "iShares Gold Trust",
+        "name": "iShares Gold Trust (Ondo)",
         "symbol": "IAUON",
         "website": "https://ondo.finance/"
     },
@@ -10309,7 +10309,7 @@
         "decimals": 18,
         "displaySymbol": "LPT",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x58b6A8A3302369DAEc383334672404Ee733aB239/logo.png",
-        "name": "Livepeer Token",
+        "name": "Livepeer",
         "symbol": "LPT",
         "website": "https://livepeer.org/"
     },
@@ -10759,7 +10759,7 @@
         "decimals": 18,
         "displaySymbol": "SAFE",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5aFE3855358E112B5647B952709E6165e1c1eEEe/logo.png",
-        "name": "Safe token",
+        "name": "Safe",
         "symbol": "SAFE",
         "website": "https://safe.global/"
     },
@@ -10831,7 +10831,7 @@
         "decimals": 18,
         "displaySymbol": "WFLOW",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x5c147e74D63B1D31AA3Fd78Eb229B65161983B2b/logo.png",
-        "name": "Wrapped Flow",
+        "name": "Flow",
         "symbol": "WFLOW",
         "website": "https://flow.com/"
     },
@@ -11407,7 +11407,7 @@
         "decimals": 18,
         "displaySymbol": "IVVon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x62cA254a363dc3c748e7E955c20447aB5bF06fF7/logo.png",
-        "name": "iShares Core S&P 500 ETF",
+        "name": "iShares Core S&P 500 (Ondo)",
         "symbol": "IVVON",
         "website": "https://ondo.finance/"
     },
@@ -11524,7 +11524,7 @@
         "decimals": 18,
         "displaySymbol": "SYRUP",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66/logo.png",
-        "name": "Syrup Token",
+        "name": "Maple Finance",
         "symbol": "SYRUP",
         "website": "https://syrup.fi/"
     },
@@ -11614,7 +11614,7 @@
         "decimals": 18,
         "displaySymbol": "BORG",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x64d0f55Cd8C7133a9D7102b13987235F486F2224/logo.png",
-        "name": "SwissBorg Token",
+        "name": "SwissBorg",
         "symbol": "BORG",
         "website": "https://swissborg.com/en/"
     },
@@ -12559,7 +12559,7 @@
         "decimals": 18,
         "displaySymbol": "LQTY",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D/logo.png",
-        "name": "LQTY Token",
+        "name": "Liquity",
         "symbol": "LQTY",
         "website": "https://www.liquity.org/"
     },
@@ -12577,7 +12577,7 @@
         "decimals": 18,
         "displaySymbol": "RNDR",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24/logo.png",
-        "name": "Render Token",
+        "name": "Render",
         "symbol": "RNDR",
         "website": "http://renderfoundation.com"
     },
@@ -13144,7 +13144,7 @@
         "decimals": 18,
         "displaySymbol": "UDS",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x712bd4Beb54C6B958267d9dB0259abdBb0BFF606/logo.png",
-        "name": "UndeadServiceToken",
+        "name": "Undeads Games",
         "symbol": "UDS",
         "website": "https://undeads.com/"
     },
@@ -13504,7 +13504,7 @@
         "decimals": 18,
         "displaySymbol": "MAV",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7448c7456a97769F6cD04F1E83A4a23cCdC46aBD/logo.png",
-        "name": "Maverick Token",
+        "name": "Maverick Protocol",
         "symbol": "MAV",
         "website": "https://www.mav.xyz/"
     },
@@ -14901,7 +14901,7 @@
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8390a1DA07E376ef7aDd4Be859BA74Fb83aA02D5/logo.png",
         "name": "GROK",
         "symbol": "GROK",
-        "website": "https://www.grok-erc.com/"
+        "website": "https://grokoneth.meme"
     },
     {
         "address": "0x83984d6142934bb535793A82ADB0a46EF0F66B6d",
@@ -15979,7 +15979,7 @@
         "decimals": 18,
         "displaySymbol": "IWFon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8d05432C2786e3F93f1a9A62b9572DBf54f3ea06/logo.png",
-        "name": "iShares Russell 1000 Growth ETF",
+        "name": "iShares Russell 1000 Growth (Ondo)",
         "symbol": "IWFON",
         "website": "https://ondo.finance/"
     },
@@ -16150,7 +16150,7 @@
         "decimals": 18,
         "displaySymbol": "REQ",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8f8221aFbB33998d8584A2B05749bA73c37a938a/logo.png",
-        "name": "Request Token",
+        "name": "Request",
         "symbol": "REQ",
         "website": "https://request.network"
     },
@@ -16510,7 +16510,7 @@
         "decimals": 18,
         "displaySymbol": "DUSK",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x940a2dB1B7008B6C776d4faaCa729d6d4A4AA551/logo.png",
-        "name": "Dusk Network",
+        "name": "Dusk",
         "symbol": "DUSK",
         "website": "https://dusk.network/"
     },
@@ -16996,7 +16996,7 @@
         "decimals": 18,
         "displaySymbol": "TLTon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x992651BFeB9A0DCC4457610E284ba66D86489d4d/logo.png",
-        "name": "iShares 20+ Year Treasury Bond ETF",
+        "name": "iShares 20+ Year Treasury Bond (Ondo)",
         "symbol": "TLTON",
         "website": "https://ondo.finance/"
     },
@@ -17104,7 +17104,7 @@
         "decimals": 18,
         "displaySymbol": "HUNT",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5/logo.png",
-        "name": "HuntToken",
+        "name": "Hunt Town",
         "symbol": "HUNT",
         "website": "https://hunt.town"
     },
@@ -17248,7 +17248,7 @@
         "decimals": 18,
         "displaySymbol": "CHEX",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9Ce84F6A69986a83d92C324df10bC8E64771030f/logo.png",
-        "name": "Chintai Exchange Token",
+        "name": "Chintai",
         "symbol": "CHEX",
         "website": "https://chintai.io/"
     },
@@ -17761,7 +17761,7 @@
         "decimals": 8,
         "displaySymbol": "CRO",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b/logo.png",
-        "name": "Crypto.com Coin",
+        "name": "Cronos",
         "symbol": "CRO",
         "website": "https://cronos-pos.org/"
     },
@@ -18211,7 +18211,7 @@
         "decimals": 18,
         "displaySymbol": "QANX",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAAA9214F675316182Eaa21C85f0Ca99160CC3AAA/logo.png",
-        "name": "QANX Token",
+        "name": "QANplatform",
         "symbol": "QANX",
         "website": "https://www.qanplatform.com/"
     },
@@ -18256,7 +18256,7 @@
         "decimals": 18,
         "displaySymbol": "ORDER",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xABD4C63d2616A5201454168269031355f4764337/logo.png",
-        "name": "Orderly Network (ORDER)",
+        "name": "Orderly",
         "symbol": "ORDER",
         "website": "https://orderly.network/"
     },
@@ -18292,7 +18292,7 @@
         "decimals": 18,
         "displaySymbol": "ADX",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xADE00C28244d5CE17D72E40330B1c318cD12B7c3/logo.png",
-        "name": "Ambire AdEx",
+        "name": "heyAura",
         "symbol": "ADX",
         "website": "https://www.adex.network/"
     },
@@ -18400,7 +18400,7 @@
         "decimals": 18,
         "displaySymbol": "USDon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAcE8E719899F6E91831B18AE746C9A965c2119F1/logo.png",
-        "name": "Ondo U.S. Dollar Token",
+        "name": "U.S. Dollar (Ondo)",
         "symbol": "USDON",
         "website": "https://ondo.finance/"
     },
@@ -18463,7 +18463,7 @@
         "decimals": 18,
         "displaySymbol": "STG",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6/logo.png",
-        "name": "StargateToken",
+        "name": "Stargate Finance",
         "symbol": "STG",
         "website": "https://stargate.finance/"
     },
@@ -18490,7 +18490,7 @@
         "decimals": 18,
         "displaySymbol": "W",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xB0fFa8000886e57F86dd5264b9582b2Ad87b2b91/logo.png",
-        "name": "Wormhole Token",
+        "name": "Wormhole",
         "symbol": "W",
         "website": "https://wormhole.com/"
     },
@@ -19021,7 +19021,7 @@
         "decimals": 18,
         "displaySymbol": "BAND",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55/logo.png",
-        "name": "Band Protocol",
+        "name": "Band",
         "symbol": "BAND",
         "website": "https://bandprotocol.com/"
     },
@@ -19975,7 +19975,7 @@
         "decimals": 18,
         "displaySymbol": "HIMSon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xCa468554e5C0423Ee858fe3942c9568C51FcAa79/logo.png",
-        "name": "Hims & Hers Health",
+        "name": "Hims & Hers Health (Ondo)",
         "symbol": "HIMSON",
         "website": "https://ondo.finance/"
     },
@@ -20056,7 +20056,7 @@
         "decimals": 18,
         "displaySymbol": "T",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xCdF7028ceAB81fA0C6971208e83fa7872994beE5/logo.png",
-        "name": "Threshold Network Token",
+        "name": "Threshold",
         "symbol": "T",
         "website": "https://threshold.network/"
     },
@@ -20749,7 +20749,7 @@
         "decimals": 18,
         "displaySymbol": "COW",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xDEf1CA1fb7FBcDC777520aa7f396b4E015F497aB/logo.png",
-        "name": "CoW Protocol Token",
+        "name": "CoW Protocol",
         "symbol": "COW",
         "website": "https://cow.fi"
     },
@@ -20929,7 +20929,7 @@
         "decimals": 18,
         "displaySymbol": "FCT",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE1bAD922F84b198A08292FB600319300ae32471b/logo.png",
-        "name": "[FCT] FirmaChain Token",
+        "name": "FirmaChain",
         "symbol": "FCT",
         "website": "https://firmachain.org/"
     },
@@ -21172,7 +21172,7 @@
         "decimals": 18,
         "displaySymbol": "GT",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xE66747a101bFF2dBA3697199DCcE5b743b454759/logo.png",
-        "name": "Gatechain Token",
+        "name": "GateToken",
         "symbol": "GT",
         "website": "https://gatechain.io/"
     },
@@ -21316,7 +21316,7 @@
         "decimals": 18,
         "displaySymbol": "QKC",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664/logo.png",
-        "name": "QuarkChain Token",
+        "name": "QuarkChain",
         "symbol": "QKC",
         "website": "https://quarkchain.io/"
     },
@@ -21433,7 +21433,7 @@
         "decimals": 18,
         "displaySymbol": "HEZ",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEEF9f339514298C6A857EfCfC1A762aF84438dEE/logo.png",
-        "name": "Hermez Network Token",
+        "name": "Hermez Network",
         "symbol": "HEZ",
         "website": "https://hermez.io/"
     },
@@ -21811,7 +21811,7 @@
         "decimals": 18,
         "displaySymbol": "SLVon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF3e4872e6a4cF365888D93b6146a2bAA7348F1A4/logo.png",
-        "name": "iShares Silver Trust",
+        "name": "iShares Silver Trust (Ondo)",
         "symbol": "SLVON",
         "website": "https://ondo.finance/"
     },
@@ -21820,7 +21820,7 @@
         "decimals": 18,
         "displaySymbol": "MRVLon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xF404E5f887dBd5508e16a1198fCDD5DE1A4296B8/logo.png",
-        "name": "Marvell Technology",
+        "name": "Marvell Technology (Ondo)",
         "symbol": "MRVLON",
         "website": "https://ondo.finance/"
     },
@@ -22270,7 +22270,7 @@
         "decimals": 18,
         "displaySymbol": "IEFAon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xFEFf7a377A86462F5a2A872009722C154707F09e/logo.png",
-        "name": "iShares Core MSCI EAFE ETF",
+        "name": "iShares Core MSCI EAFE (Ondo)",
         "symbol": "IEFAON",
         "website": "https://ondo.finance/"
     },
@@ -22513,7 +22513,7 @@
         "decimals": 18,
         "displaySymbol": "SPYon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xFeDC5f4a6c38211c1338aa411018DFAf26612c08/logo.png",
-        "name": "SPDR S&P 500 ETF",
+        "name": "SPDR S&P 500 (Ondo)",
         "symbol": "SPYON",
         "website": "https://ondo.finance/"
     },
@@ -22819,7 +22819,7 @@
         "decimals": 18,
         "displaySymbol": "UST",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa47c8bf37f92aBed4A126BDA807A7b7498661acD/logo.png",
-        "name": "UST Token",
+        "name": "TerraClassicUSD",
         "symbol": "UST",
         "website": "https://terra.money"
     },
@@ -22954,7 +22954,7 @@
         "decimals": 18,
         "displaySymbol": "AVA",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xa6C0c097741D55ECd9a3A7DeF3A8253fD022ceB9/logo.png",
-        "name": "Travala.com",
+        "name": "AVA (Travala)",
         "symbol": "AVA",
         "website": "https://www.travala.com"
     },
@@ -23188,7 +23188,7 @@
         "decimals": 18,
         "displaySymbol": "TRAC",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F/logo.png",
-        "name": "Trace Token",
+        "name": "OriginTrail",
         "symbol": "TRAC",
         "website": "https://origintrail.io/"
     },
@@ -23593,7 +23593,7 @@
         "decimals": 18,
         "displaySymbol": "FET",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85/logo.png",
-        "name": "Fetch.ai",
+        "name": "Artificial Superintelligence Alliance",
         "symbol": "FET",
         "website": "https://fetch.ai/"
     },
@@ -23737,7 +23737,7 @@
         "decimals": 18,
         "displaySymbol": "ZIG",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xb2617246d0c6c0087f18703d576831899ca94f01/logo.png",
-        "name": "ZigCoin",
+        "name": "ZIGChain",
         "symbol": "ZIG",
         "website": "https://zignaly.com/"
     },
@@ -24187,7 +24187,7 @@
         "decimals": 18,
         "displaySymbol": "GOOGLon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xbA47214eDd2bb43099611b208f75E4b42FDcfEDc/logo.png",
-        "name": "Alphabet Class A",
+        "name": "Alphabet Class A (Ondo)",
         "symbol": "GOOGLON",
         "website": "https://ondo.finance/"
     },
@@ -25330,7 +25330,7 @@
         "decimals": 18,
         "displaySymbol": "IEMGon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xcDD60D15125bf3362b6838D2506b0Fa33bc1a515/logo.png",
-        "name": "iShares Core MSCI Emerging Markets ETF",
+        "name": "iShares Core MSCI Emerging Markets (Ondo)",
         "symbol": "IEMGON",
         "website": "https://ondo.finance/"
     },
@@ -25906,7 +25906,7 @@
         "decimals": 18,
         "displaySymbol": "BB",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xd459ECeddafcc1d876a3be7290A2E16e801073a3/logo.png",
-        "name": "BounceBit Token",
+        "name": "BounceBit",
         "symbol": "BB",
         "website": "https://www.bouncebit.io/"
     },
@@ -26896,7 +26896,7 @@
         "decimals": 8,
         "displaySymbol": "GMT",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xe3c408BD53c31C085a1746AF401A4042954ff740/logo.png",
-        "name": "GreenMetaverseToken",
+        "name": "GMT",
         "symbol": "GMT",
         "website": "https://www.stepn.com/"
     },
@@ -27310,7 +27310,7 @@
         "decimals": 18,
         "displaySymbol": "OMI",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xeD35af169aF46a02eE13b9d79Eb57d6D68C1749e/logo.png",
-        "name": "OMI Token",
+        "name": "ECOMI",
         "symbol": "OMI",
         "website": "https://ecomi.notion.site/"
     },
@@ -28570,7 +28570,7 @@
         "decimals": 18,
         "displaySymbol": "AGGon",
         "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xfF7CF16aA2fFc463b996DB2f7B7cf0130336899D/logo.png",
-        "name": "iShares Core US Aggregate Bond ETF",
+        "name": "iShares Core US Aggregate Bond (Ondo)",
         "symbol": "AGGON",
         "website": "https://ondo.finance/"
     },
