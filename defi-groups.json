@@ -1,0 +1,3086 @@
+[
+  {
+    "parentSymbol": "AALON",
+    "childSymbols": [
+      "AALON.BNB",
+      "AALON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AAOION",
+    "childSymbols": [
+      "AAOION.BNB",
+      "AAOION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AAONON",
+    "childSymbols": [
+      "AAONON.BNB",
+      "AAONON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AAPLON",
+    "childSymbols": [
+      "AAPLON.BNB",
+      "AAPLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ABBVON",
+    "childSymbols": [
+      "ABBVON.BNB",
+      "ABBVON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ABNBON",
+    "childSymbols": [
+      "ABNBON.BNB",
+      "ABNBON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ABTON",
+    "childSymbols": [
+      "ABTON.BNB",
+      "ABTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ACHRON",
+    "childSymbols": [
+      "ACHRON.BNB",
+      "ACHRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ACLSON",
+    "childSymbols": [
+      "ACLSON.BNB",
+      "ACLSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ACMRON",
+    "childSymbols": [
+      "ACMRON.BNB",
+      "ACMRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ACNON",
+    "childSymbols": [
+      "ACNON.BNB",
+      "ACNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ADBEON",
+    "childSymbols": [
+      "ADBEON.BNB",
+      "ADBEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ADION",
+    "childSymbols": [
+      "ADION.BNB",
+      "ADION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AEHRON",
+    "childSymbols": [
+      "AEHRON.BNB",
+      "AEHRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AGGON",
+    "childSymbols": [
+      "AGGON.BNB",
+      "AGGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AGON",
+    "childSymbols": [
+      "AGON.BNB",
+      "AGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AIPON",
+    "childSymbols": [
+      "AIPON.BNB",
+      "AIPON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AIQON",
+    "childSymbols": [
+      "AIQON.BNB",
+      "AIQON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ALABON",
+    "childSymbols": [
+      "ALABON.BNB",
+      "ALABON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ALBON",
+    "childSymbols": [
+      "ALBON.BNB",
+      "ALBON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ALOYON",
+    "childSymbols": [
+      "ALOYON.BNB",
+      "ALOYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AMATON",
+    "childSymbols": [
+      "AMATON.BNB",
+      "AMATON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AMCON",
+    "childSymbols": [
+      "AMCON.BNB",
+      "AMCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AMDON",
+    "childSymbols": [
+      "AMDON.BNB",
+      "AMDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AMEON",
+    "childSymbols": [
+      "AMEON.BNB",
+      "AMEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AMGNON",
+    "childSymbols": [
+      "AMGNON.BNB",
+      "AMGNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AMKRON",
+    "childSymbols": [
+      "AMKRON.BNB",
+      "AMKRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AMZNON",
+    "childSymbols": [
+      "AMZNON.BNB",
+      "AMZNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ANETON",
+    "childSymbols": [
+      "ANETON.BNB",
+      "ANETON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AOSLON",
+    "childSymbols": [
+      "AOSLON.BNB",
+      "AOSLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "APHON",
+    "childSymbols": [
+      "APHON.BNB",
+      "APHON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "APLDON",
+    "childSymbols": [
+      "APLDON.BNB",
+      "APLDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "APOON",
+    "childSymbols": [
+      "APOON.BNB",
+      "APOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "APPON",
+    "childSymbols": [
+      "APPON.BNB",
+      "APPON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ARGTON",
+    "childSymbols": [
+      "ARGTON.BNB",
+      "ARGTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ARMON",
+    "childSymbols": [
+      "ARMON.BNB",
+      "ARMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ARQQON",
+    "childSymbols": [
+      "ARQQON.BNB",
+      "ARQQON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ASMLON",
+    "childSymbols": [
+      "ASMLON.BNB",
+      "ASMLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ASTSON",
+    "childSymbols": [
+      "ASTSON.BNB",
+      "ASTSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ATKRON",
+    "childSymbols": [
+      "ATKRON.BNB",
+      "ATKRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AURON",
+    "childSymbols": [
+      "AURON.BNB",
+      "AURON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AVGOON",
+    "childSymbols": [
+      "AVGOON.BNB",
+      "AVGOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AXPON",
+    "childSymbols": [
+      "AXPON.BNB",
+      "AXPON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "AXTION",
+    "childSymbols": [
+      "AXTION.BNB",
+      "AXTION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BABAON",
+    "childSymbols": [
+      "BABAON.BNB",
+      "BABAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BACON",
+    "childSymbols": [
+      "BACON.BNB",
+      "BACON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BAION",
+    "childSymbols": [
+      "BAION.BNB",
+      "BAION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BAON",
+    "childSymbols": [
+      "BAON.BNB",
+      "BAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BBAION",
+    "childSymbols": [
+      "BBAION.BNB",
+      "BBAION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BEON",
+    "childSymbols": [
+      "BEON.BNB",
+      "BEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BIDUON",
+    "childSymbols": [
+      "BIDUON.BNB",
+      "BIDUON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BILION",
+    "childSymbols": [
+      "BILION.BNB",
+      "BILION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BILON",
+    "childSymbols": [
+      "BILON.BNB",
+      "BILON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BINCON",
+    "childSymbols": [
+      "BINCON.BNB",
+      "BINCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BKCHON",
+    "childSymbols": [
+      "BKCHON.BNB",
+      "BKCHON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BLCRON",
+    "childSymbols": [
+      "BLCRON.BNB",
+      "BLCRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BLKON",
+    "childSymbols": [
+      "BLKON.BNB",
+      "BLKON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BLSHON",
+    "childSymbols": [
+      "BLSHON.BNB",
+      "BLSHON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BMNRON",
+    "childSymbols": [
+      "BMNRON.BNB",
+      "BMNRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BNOON",
+    "childSymbols": [
+      "BNOON.BNB",
+      "BNOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BOTON",
+    "childSymbols": [
+      "BOTON.BNB",
+      "BOTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BOTZON",
+    "childSymbols": [
+      "BOTZON.BNB",
+      "BOTZON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BRHYON",
+    "childSymbols": [
+      "BRHYON.BNB",
+      "BRHYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BRLNON",
+    "childSymbols": [
+      "BRLNON.BNB",
+      "BRLNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BRTRON",
+    "childSymbols": [
+      "BRTRON.BNB",
+      "BRTRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BTDRON",
+    "childSymbols": [
+      "BTDRON.BNB",
+      "BTDRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BTGON",
+    "childSymbols": [
+      "BTGON.BNB",
+      "BTGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BTGOON",
+    "childSymbols": [
+      "BTGOON.BNB",
+      "BTGOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BWETON",
+    "childSymbols": [
+      "BWETON.BNB",
+      "BWETON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "BZON",
+    "childSymbols": [
+      "BZON.BNB",
+      "BZON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CAMTON",
+    "childSymbols": [
+      "CAMTON.BNB",
+      "CAMTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CAPRON",
+    "childSymbols": [
+      "CAPRON.BNB",
+      "CAPRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CATON",
+    "childSymbols": [
+      "CATON.BNB",
+      "CATON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CBRSON",
+    "childSymbols": [
+      "CBRSON.BNB",
+      "CBRSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CCJON",
+    "childSymbols": [
+      "CCJON.BNB",
+      "CCJON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CEGON",
+    "childSymbols": [
+      "CEGON.BNB",
+      "CEGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CEVAON",
+    "childSymbols": [
+      "CEVAON.BNB",
+      "CEVAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CIBRON",
+    "childSymbols": [
+      "CIBRON.BNB",
+      "CIBRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CIENON",
+    "childSymbols": [
+      "CIENON.BNB",
+      "CIENON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CIFRON",
+    "childSymbols": [
+      "CIFRON.BNB",
+      "CIFRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CLFON",
+    "childSymbols": [
+      "CLFON.BNB",
+      "CLFON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CLOAON",
+    "childSymbols": [
+      "CLOAON.BNB",
+      "CLOAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CLOION",
+    "childSymbols": [
+      "CLOION.BNB",
+      "CLOION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CLSON",
+    "childSymbols": [
+      "CLSON.BNB",
+      "CLSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CMGON",
+    "childSymbols": [
+      "CMGON.BNB",
+      "CMGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "COFON",
+    "childSymbols": [
+      "COFON.BNB",
+      "COFON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "COHRON",
+    "childSymbols": [
+      "COHRON.BNB",
+      "COHRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "COHUON",
+    "childSymbols": [
+      "COHUON.BNB",
+      "COHUON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "COINON",
+    "childSymbols": [
+      "COINON.BNB",
+      "COINON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CON2",
+    "childSymbols": [
+      "CON2.BNB",
+      "CON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "COPON",
+    "childSymbols": [
+      "COPON.BNB",
+      "COPON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "COPXON",
+    "childSymbols": [
+      "COPXON.BNB",
+      "COPXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "COROON",
+    "childSymbols": [
+      "COROON.BNB",
+      "COROON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CORZON",
+    "childSymbols": [
+      "CORZON.BNB",
+      "CORZON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "COSTON",
+    "childSymbols": [
+      "COSTON.BNB",
+      "COSTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CPERON",
+    "childSymbols": [
+      "CPERON.BNB",
+      "CPERON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CPNGON",
+    "childSymbols": [
+      "CPNGON.BNB",
+      "CPNGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CRCLON",
+    "childSymbols": [
+      "CRCLON.BNB",
+      "CRCLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CRDOON",
+    "childSymbols": [
+      "CRDOON.BNB",
+      "CRDOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CRMON",
+    "childSymbols": [
+      "CRMON.BNB",
+      "CRMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CRWDON",
+    "childSymbols": [
+      "CRWDON.BNB",
+      "CRWDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CRWVON",
+    "childSymbols": [
+      "CRWVON.BNB",
+      "CRWVON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CSCOON",
+    "childSymbols": [
+      "CSCOON.BNB",
+      "CSCOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CVNAON",
+    "childSymbols": [
+      "CVNAON.BNB",
+      "CVNAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "CVXON",
+    "childSymbols": [
+      "CVXON.BNB",
+      "CVXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "DASHON",
+    "childSymbols": [
+      "DASHON.BNB",
+      "DASHON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "DBCON",
+    "childSymbols": [
+      "DBCON.BNB",
+      "DBCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "DELLON",
+    "childSymbols": [
+      "DELLON.BNB",
+      "DELLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "DEON",
+    "childSymbols": [
+      "DEON.BNB",
+      "DEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "DGRWON",
+    "childSymbols": [
+      "DGRWON.BNB",
+      "DGRWON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "DGXXON",
+    "childSymbols": [
+      "DGXXON.BNB",
+      "DGXXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "DISON",
+    "childSymbols": [
+      "DISON.BNB",
+      "DISON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "DNNON",
+    "childSymbols": [
+      "DNNON.BNB",
+      "DNNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "DRAMON",
+    "childSymbols": [
+      "DRAMON.BNB",
+      "DRAMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "DRSON",
+    "childSymbols": [
+      "DRSON.BNB",
+      "DRSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "DTCRON",
+    "childSymbols": [
+      "DTCRON.BNB",
+      "DTCRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "DYNFON",
+    "childSymbols": [
+      "DYNFON.BNB",
+      "DYNFON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ECHON",
+    "childSymbols": [
+      "ECHON.BNB",
+      "ECHON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ECOON",
+    "childSymbols": [
+      "ECOON.BNB",
+      "ECOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "EEMON",
+    "childSymbols": [
+      "EEMON.BNB",
+      "EEMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "EFAON",
+    "childSymbols": [
+      "EFAON.BNB",
+      "EFAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "EFVON",
+    "childSymbols": [
+      "EFVON.BNB",
+      "EFVON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "EMRON",
+    "childSymbols": [
+      "EMRON.BNB",
+      "EMRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ENBON",
+    "childSymbols": [
+      "ENBON.BNB",
+      "ENBON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ENLVON",
+    "childSymbols": [
+      "ENLVON.BNB",
+      "ENLVON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ENPHON",
+    "childSymbols": [
+      "ENPHON.BNB",
+      "ENPHON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ENTGON",
+    "childSymbols": [
+      "ENTGON.BNB",
+      "ENTGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "EQIXON",
+    "childSymbols": [
+      "EQIXON.BNB",
+      "EQIXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "EQTON",
+    "childSymbols": [
+      "EQTON.BNB",
+      "EQTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ETHAON",
+    "childSymbols": [
+      "ETHAON.BNB",
+      "ETHAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ETNON",
+    "childSymbols": [
+      "ETNON.BNB",
+      "ETNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "EUHYON",
+    "childSymbols": [
+      "EUHYON.BNB",
+      "EUHYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "EWJON",
+    "childSymbols": [
+      "EWJON.BNB",
+      "EWJON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "EWYON",
+    "childSymbols": [
+      "EWYON.BNB",
+      "EWYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "EWZON",
+    "childSymbols": [
+      "EWZON.BNB",
+      "EWZON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "EXODON",
+    "childSymbols": [
+      "EXODON.BNB",
+      "EXODON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "EXTRON",
+    "childSymbols": [
+      "EXTRON.BNB",
+      "EXTRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FCELON",
+    "childSymbols": [
+      "FCELON.BNB",
+      "FCELON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FCXON",
+    "childSymbols": [
+      "FCXON.BNB",
+      "FCXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FFOGON",
+    "childSymbols": [
+      "FFOGON.BNB",
+      "FFOGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FGDLON",
+    "childSymbols": [
+      "FGDLON.BNB",
+      "FGDLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FIGON",
+    "childSymbols": [
+      "FIGON.BNB",
+      "FIGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FIGRON",
+    "childSymbols": [
+      "FIGRON.BNB",
+      "FIGRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FLEXON",
+    "childSymbols": [
+      "FLEXON.BNB",
+      "FLEXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FLHYON",
+    "childSymbols": [
+      "FLHYON.BNB",
+      "FLHYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FLNCON",
+    "childSymbols": [
+      "FLNCON.BNB",
+      "FLNCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FLQLON",
+    "childSymbols": [
+      "FLQLON.BNB",
+      "FLQLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FNON",
+    "childSymbols": [
+      "FNON.BNB",
+      "FNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FON",
+    "childSymbols": [
+      "FON.BNB",
+      "FON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FORMON",
+    "childSymbols": [
+      "FORMON.BNB",
+      "FORMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FPSON",
+    "childSymbols": [
+      "FPSON.BNB",
+      "FPSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FSOLON",
+    "childSymbols": [
+      "FSOLON.BNB",
+      "FSOLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FTGCON",
+    "childSymbols": [
+      "FTGCON.BNB",
+      "FTGCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FUTUON",
+    "childSymbols": [
+      "FUTUON.BNB",
+      "FUTUON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "FXION",
+    "childSymbols": [
+      "FXION.BNB",
+      "FXION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GDON",
+    "childSymbols": [
+      "GDON.BNB",
+      "GDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GEMION",
+    "childSymbols": [
+      "GEMION.BNB",
+      "GEMION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GEON",
+    "childSymbols": [
+      "GEON.BNB",
+      "GEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GEVON",
+    "childSymbols": [
+      "GEVON.BNB",
+      "GEVON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GFSON",
+    "childSymbols": [
+      "GFSON.BNB",
+      "GFSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GGOVON",
+    "childSymbols": [
+      "GGOVON.BNB",
+      "GGOVON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GLDON",
+    "childSymbols": [
+      "GLDON.BNB",
+      "GLDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GLTRON",
+    "childSymbols": [
+      "GLTRON.BNB",
+      "GLTRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GLWON",
+    "childSymbols": [
+      "GLWON.BNB",
+      "GLWON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GLXYON",
+    "childSymbols": [
+      "GLXYON.BNB",
+      "GLXYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GMEON",
+    "childSymbols": [
+      "GMEON.BNB",
+      "GMEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GNRCON",
+    "childSymbols": [
+      "GNRCON.BNB",
+      "GNRCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GOOGLON",
+    "childSymbols": [
+      "GOOGLON.BNB",
+      "GOOGLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GRABON",
+    "childSymbols": [
+      "GRABON.BNB",
+      "GRABON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GRNDON",
+    "childSymbols": [
+      "GRNDON.BNB",
+      "GRNDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "GSON",
+    "childSymbols": [
+      "GSON.BNB",
+      "GSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "HALON",
+    "childSymbols": [
+      "HALON.BNB",
+      "HALON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "HDON",
+    "childSymbols": [
+      "HDON.BNB",
+      "HDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "HIION",
+    "childSymbols": [
+      "HIION.BNB",
+      "HIION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "HIMSON",
+    "childSymbols": [
+      "HIMSON.BNB",
+      "HIMSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "HIMXON",
+    "childSymbols": [
+      "HIMXON.BNB",
+      "HIMXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "HIVEON",
+    "childSymbols": [
+      "HIVEON.BNB",
+      "HIVEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "HLITON",
+    "childSymbols": [
+      "HLITON.BNB",
+      "HLITON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "HOODON",
+    "childSymbols": [
+      "HOODON.BNB",
+      "HOODON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "HPEON",
+    "childSymbols": [
+      "HPEON.BNB",
+      "HPEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "HSAION",
+    "childSymbols": [
+      "HSAION.BNB",
+      "HSAION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "HUBBON",
+    "childSymbols": [
+      "HUBBON.BNB",
+      "HUBBON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "HUTON",
+    "childSymbols": [
+      "HUTON.BNB",
+      "HUTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "HYGON",
+    "childSymbols": [
+      "HYGON.BNB",
+      "HYGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "HYSON",
+    "childSymbols": [
+      "HYSON.BNB",
+      "HYSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IALTON",
+    "childSymbols": [
+      "IALTON.BNB",
+      "IALTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IAUON",
+    "childSymbols": [
+      "IAUON.BNB",
+      "IAUON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IBITON",
+    "childSymbols": [
+      "IBITON.BNB",
+      "IBITON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IBMON",
+    "childSymbols": [
+      "IBMON.BNB",
+      "IBMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ICHRON",
+    "childSymbols": [
+      "ICHRON.BNB",
+      "ICHRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IDEFON",
+    "childSymbols": [
+      "IDEFON.BNB",
+      "IDEFON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IEFAON",
+    "childSymbols": [
+      "IEFAON.BNB",
+      "IEFAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IEFON",
+    "childSymbols": [
+      "IEFON.BNB",
+      "IEFON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IEION",
+    "childSymbols": [
+      "IEION.BNB",
+      "IEION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IEMGON",
+    "childSymbols": [
+      "IEMGON.BNB",
+      "IEMGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IGEBON",
+    "childSymbols": [
+      "IGEBON.BNB",
+      "IGEBON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IGVON",
+    "childSymbols": [
+      "IGVON.BNB",
+      "IGVON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IJHON",
+    "childSymbols": [
+      "IJHON.BNB",
+      "IJHON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IJSON",
+    "childSymbols": [
+      "IJSON.BNB",
+      "IJSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "INCEON",
+    "childSymbols": [
+      "INCEON.BNB",
+      "INCEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "INDAON",
+    "childSymbols": [
+      "INDAON.BNB",
+      "INDAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "INODON",
+    "childSymbols": [
+      "INODON.BNB",
+      "INODON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "INROON",
+    "childSymbols": [
+      "INROON.BNB",
+      "INROON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "INSWON",
+    "childSymbols": [
+      "INSWON.BNB",
+      "INSWON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "INTCON",
+    "childSymbols": [
+      "INTCON.BNB",
+      "INTCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "INTUON",
+    "childSymbols": [
+      "INTUON.BNB",
+      "INTUON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IONQON",
+    "childSymbols": [
+      "IONQON.BNB",
+      "IONQON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IRDMON",
+    "childSymbols": [
+      "IRDMON.BNB",
+      "IRDMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IRENON",
+    "childSymbols": [
+      "IRENON.BNB",
+      "IRENON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ISRGON",
+    "childSymbols": [
+      "ISRGON.BNB",
+      "ISRGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ITAON",
+    "childSymbols": [
+      "ITAON.BNB",
+      "ITAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ITOTON",
+    "childSymbols": [
+      "ITOTON.BNB",
+      "ITOTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IVVON",
+    "childSymbols": [
+      "IVVON.BNB",
+      "IVVON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IWFON",
+    "childSymbols": [
+      "IWFON.BNB",
+      "IWFON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IWMON",
+    "childSymbols": [
+      "IWMON.BNB",
+      "IWMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IWNON",
+    "childSymbols": [
+      "IWNON.BNB",
+      "IWNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "IYWON",
+    "childSymbols": [
+      "IYWON.BNB",
+      "IYWON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "JAAAON",
+    "childSymbols": [
+      "JAAAON.BNB",
+      "JAAAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "JBLON",
+    "childSymbols": [
+      "JBLON.BNB",
+      "JBLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "JDON",
+    "childSymbols": [
+      "JDON.BNB",
+      "JDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "JNJON",
+    "childSymbols": [
+      "JNJON.BNB",
+      "JNJON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "JPMON",
+    "childSymbols": [
+      "JPMON.BNB",
+      "JPMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "KEELON",
+    "childSymbols": [
+      "KEELON.BNB",
+      "KEELON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "KEYSON",
+    "childSymbols": [
+      "KEYSON.BNB",
+      "KEYSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "KLACON",
+    "childSymbols": [
+      "KLACON.BNB",
+      "KLACON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "KOON",
+    "childSymbols": [
+      "KOON.BNB",
+      "KOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "KOPNON",
+    "childSymbols": [
+      "KOPNON.BNB",
+      "KOPNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "KWEBON",
+    "childSymbols": [
+      "KWEBON.BNB",
+      "KWEBON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LASRON",
+    "childSymbols": [
+      "LASRON.BNB",
+      "LASRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LECOON",
+    "childSymbols": [
+      "LECOON.BNB",
+      "LECOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LEMBON",
+    "childSymbols": [
+      "LEMBON.BNB",
+      "LEMBON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LINON",
+    "childSymbols": [
+      "LINON.BNB",
+      "LINON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LION",
+    "childSymbols": [
+      "LION.BNB",
+      "LION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LITEON",
+    "childSymbols": [
+      "LITEON.BNB",
+      "LITEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LITON",
+    "childSymbols": [
+      "LITON.BNB",
+      "LITON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LLYON",
+    "childSymbols": [
+      "LLYON.BNB",
+      "LLYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LMTON",
+    "childSymbols": [
+      "LMTON.BNB",
+      "LMTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LOWON",
+    "childSymbols": [
+      "LOWON.BNB",
+      "LOWON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LPTHON",
+    "childSymbols": [
+      "LPTHON.BNB",
+      "LPTHON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LRCXON",
+    "childSymbols": [
+      "LRCXON.BNB",
+      "LRCXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LSCCON",
+    "childSymbols": [
+      "LSCCON.BNB",
+      "LSCCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LUNRON",
+    "childSymbols": [
+      "LUNRON.BNB",
+      "LUNRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "LWLGON",
+    "childSymbols": [
+      "LWLGON.BNB",
+      "LWLGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MAON",
+    "childSymbols": [
+      "MAON.BNB",
+      "MAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MARAON",
+    "childSymbols": [
+      "MARAON.BNB",
+      "MARAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MBLYON",
+    "childSymbols": [
+      "MBLYON.BNB",
+      "MBLYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MCDON",
+    "childSymbols": [
+      "MCDON.BNB",
+      "MCDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MEION",
+    "childSymbols": [
+      "MEION.BNB",
+      "MEION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MELION",
+    "childSymbols": [
+      "MELION.BNB",
+      "MELION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "METAON",
+    "childSymbols": [
+      "METAON.BNB",
+      "METAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MKSION",
+    "childSymbols": [
+      "MKSION.BNB",
+      "MKSION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MPON",
+    "childSymbols": [
+      "MPON.BNB",
+      "MPON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MRKON",
+    "childSymbols": [
+      "MRKON.BNB",
+      "MRKON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MRNAON",
+    "childSymbols": [
+      "MRNAON.BNB",
+      "MRNAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MRVLON",
+    "childSymbols": [
+      "MRVLON.BNB",
+      "MRVLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MSFTON",
+    "childSymbols": [
+      "MSFTON.BNB",
+      "MSFTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MSTRON",
+    "childSymbols": [
+      "MSTRON.BNB",
+      "MSTRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MTSION",
+    "childSymbols": [
+      "MTSION.BNB",
+      "MTSION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MTZON",
+    "childSymbols": [
+      "MTZON.BNB",
+      "MTZON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MUON",
+    "childSymbols": [
+      "MUON.BNB",
+      "MUON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MXLON",
+    "childSymbols": [
+      "MXLON.BNB",
+      "MXLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "MYRGON",
+    "childSymbols": [
+      "MYRGON.BNB",
+      "MYRGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NATON",
+    "childSymbols": [
+      "NATON.BNB",
+      "NATON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NBISON",
+    "childSymbols": [
+      "NBISON.BNB",
+      "NBISON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NEEON",
+    "childSymbols": [
+      "NEEON.BNB",
+      "NEEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NEMON",
+    "childSymbols": [
+      "NEMON.BNB",
+      "NEMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NETON",
+    "childSymbols": [
+      "NETON.BNB",
+      "NETON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NFLXON",
+    "childSymbols": [
+      "NFLXON.BNB",
+      "NFLXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NIKLON",
+    "childSymbols": [
+      "NIKLON.BNB",
+      "NIKLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NIOON",
+    "childSymbols": [
+      "NIOON.BNB",
+      "NIOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NKEON",
+    "childSymbols": [
+      "NKEON.BNB",
+      "NKEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NNEON",
+    "childSymbols": [
+      "NNEON.BNB",
+      "NNEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NOCON",
+    "childSymbols": [
+      "NOCON.BNB",
+      "NOCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NOKON",
+    "childSymbols": [
+      "NOKON.BNB",
+      "NOKON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NOWON",
+    "childSymbols": [
+      "NOWON.BNB",
+      "NOWON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NTESON",
+    "childSymbols": [
+      "NTESON.BNB",
+      "NTESON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NUEON",
+    "childSymbols": [
+      "NUEON.BNB",
+      "NUEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NVDAON",
+    "childSymbols": [
+      "NVDAON.BNB",
+      "NVDAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NVMION",
+    "childSymbols": [
+      "NVMION.BNB",
+      "NVMION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NVOON",
+    "childSymbols": [
+      "NVOON.BNB",
+      "NVOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NVTON",
+    "childSymbols": [
+      "NVTON.BNB",
+      "NVTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NVTSON",
+    "childSymbols": [
+      "NVTSON.BNB",
+      "NVTSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "OIHON",
+    "childSymbols": [
+      "OIHON.BNB",
+      "OIHON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "OIION",
+    "childSymbols": [
+      "OIION.BNB",
+      "OIION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "OKLOON",
+    "childSymbols": [
+      "OKLOON.BNB",
+      "OKLOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ONDSON",
+    "childSymbols": [
+      "ONDSON.BNB",
+      "ONDSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ONON",
+    "childSymbols": [
+      "ONON.BNB",
+      "ONON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ONTOON",
+    "childSymbols": [
+      "ONTOON.BNB",
+      "ONTOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "OPAIPON",
+    "childSymbols": []
+  },
+  {
+    "parentSymbol": "OPENON",
+    "childSymbols": [
+      "OPENON.BNB",
+      "OPENON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "OPRAON",
+    "childSymbols": [
+      "OPRAON.BNB",
+      "OPRAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ORBXON",
+    "childSymbols": [
+      "ORBXON.BNB",
+      "ORBXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ORCLON",
+    "childSymbols": [
+      "ORCLON.BNB",
+      "ORCLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "OSCRON",
+    "childSymbols": [
+      "OSCRON.BNB",
+      "OSCRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "OUSTON",
+    "childSymbols": [
+      "OUSTON.BNB",
+      "OUSTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "OXYON",
+    "childSymbols": [
+      "OXYON.BNB",
+      "OXYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PALLON",
+    "childSymbols": [
+      "PALLON.BNB",
+      "PALLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PANWON",
+    "childSymbols": [
+      "PANWON.BNB",
+      "PANWON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PAVEON",
+    "childSymbols": [
+      "PAVEON.BNB",
+      "PAVEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PBRON",
+    "childSymbols": [
+      "PBRON.BNB",
+      "PBRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PCGON",
+    "childSymbols": [
+      "PCGON.BNB",
+      "PCGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PDBCON",
+    "childSymbols": [
+      "PDBCON.BNB",
+      "PDBCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PDDON",
+    "childSymbols": [
+      "PDDON.BNB",
+      "PDDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PENGON",
+    "childSymbols": [
+      "PENGON.BNB",
+      "PENGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PEPON",
+    "childSymbols": [
+      "PEPON.BNB",
+      "PEPON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PFEON",
+    "childSymbols": [
+      "PFEON.BNB",
+      "PFEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PGON",
+    "childSymbols": [
+      "PGON.BNB",
+      "PGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PINSON",
+    "childSymbols": [
+      "PINSON.BNB",
+      "PINSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PLON",
+    "childSymbols": [
+      "PLON.BNB",
+      "PLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PLTRON",
+    "childSymbols": [
+      "PLTRON.BNB",
+      "PLTRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PLUGON",
+    "childSymbols": [
+      "PLUGON.BNB",
+      "PLUGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "POWION",
+    "childSymbols": [
+      "POWION.BNB",
+      "POWION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "POWLON",
+    "childSymbols": [
+      "POWLON.BNB",
+      "POWLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PPLTON",
+    "childSymbols": [
+      "PPLTON.BNB",
+      "PPLTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PRIMON",
+    "childSymbols": [
+      "PRIMON.BNB",
+      "PRIMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PSQON",
+    "childSymbols": [
+      "PSQON.BNB",
+      "PSQON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PURRON",
+    "childSymbols": [
+      "PURRON.BNB",
+      "PURRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PWRON",
+    "childSymbols": [
+      "PWRON.BNB",
+      "PWRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "PYPLON",
+    "childSymbols": [
+      "PYPLON.BNB",
+      "PYPLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "QBTSON",
+    "childSymbols": [
+      "QBTSON.BNB",
+      "QBTSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "QCOMON",
+    "childSymbols": [
+      "QCOMON.BNB",
+      "QCOMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "QLTAON",
+    "childSymbols": [
+      "QLTAON.BNB",
+      "QLTAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "QQQON",
+    "childSymbols": [
+      "QQQON.BNB",
+      "QQQON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "QTUMON",
+    "childSymbols": [
+      "QTUMON.BNB",
+      "QTUMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "QUBTON",
+    "childSymbols": [
+      "QUBTON.BNB",
+      "QUBTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "QYLDON",
+    "childSymbols": [
+      "QYLDON.BNB",
+      "QYLDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "RDDTON",
+    "childSymbols": [
+      "RDDTON.BNB",
+      "RDDTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "RDWON",
+    "childSymbols": [
+      "RDWON.BNB",
+      "RDWON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "REGNON",
+    "childSymbols": [
+      "REGNON.BNB",
+      "REGNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "REMXON",
+    "childSymbols": [
+      "REMXON.BNB",
+      "REMXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "RGTION",
+    "childSymbols": [
+      "RGTION.BNB",
+      "RGTION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "RIOTON",
+    "childSymbols": [
+      "RIOTON.BNB",
+      "RIOTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "RIVNON",
+    "childSymbols": [
+      "RIVNON.BNB",
+      "RIVNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "RKLBON",
+    "childSymbols": [
+      "RKLBON.BNB",
+      "RKLBON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "RMBSON",
+    "childSymbols": [
+      "RMBSON.BNB",
+      "RMBSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ROKON",
+    "childSymbols": [
+      "ROKON.BNB",
+      "ROKON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "RTXON",
+    "childSymbols": [
+      "RTXON.BNB",
+      "RTXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SAPON",
+    "childSymbols": [
+      "SAPON.BNB",
+      "SAPON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SATAON",
+    "childSymbols": [
+      "SATAON.BNB",
+      "SATAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SBETON",
+    "childSymbols": [
+      "SBETON.BNB",
+      "SBETON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SBUXON",
+    "childSymbols": [
+      "SBUXON.BNB",
+      "SBUXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SCCOON",
+    "childSymbols": [
+      "SCCOON.BNB",
+      "SCCOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SCHWON",
+    "childSymbols": [
+      "SCHWON.BNB",
+      "SCHWON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SEDGON",
+    "childSymbols": [
+      "SEDGON.BNB",
+      "SEDGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SGOVON",
+    "childSymbols": [
+      "SGOVON.BNB",
+      "SGOVON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SHLDON",
+    "childSymbols": [
+      "SHLDON.BNB",
+      "SHLDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SHOPON",
+    "childSymbols": [
+      "SHOPON.BNB",
+      "SHOPON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SHYON",
+    "childSymbols": [
+      "SHYON.BNB",
+      "SHYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SILON",
+    "childSymbols": [
+      "SILON.BNB",
+      "SILON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SKHYON",
+    "childSymbols": [
+      "SKHYON.BNB",
+      "SKHYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SLBON",
+    "childSymbols": [
+      "SLBON.BNB",
+      "SLBON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SLVON",
+    "childSymbols": [
+      "SLVON.BNB",
+      "SLVON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SMCION",
+    "childSymbols": [
+      "SMCION.BNB",
+      "SMCION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SMRON",
+    "childSymbols": [
+      "SMRON.BNB",
+      "SMRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SNAPON",
+    "childSymbols": [
+      "SNAPON.BNB",
+      "SNAPON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SNDKON",
+    "childSymbols": [
+      "SNDKON.BNB",
+      "SNDKON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SNOWON",
+    "childSymbols": [
+      "SNOWON.BNB",
+      "SNOWON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SOFION",
+    "childSymbols": [
+      "SOFION.BNB",
+      "SOFION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SOON2",
+    "childSymbols": [
+      "SOON.BNB",
+      "SOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SOUNON",
+    "childSymbols": [
+      "SOUNON.BNB",
+      "SOUNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SOXLON",
+    "childSymbols": [
+      "SOXLON.BNB",
+      "SOXLON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SOXQON",
+    "childSymbols": [
+      "SOXQON.BNB",
+      "SOXQON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SOXSON",
+    "childSymbols": [
+      "SOXSON.BNB",
+      "SOXSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SOXXON",
+    "childSymbols": [
+      "SOXXON.BNB",
+      "SOXXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SPCXON",
+    "childSymbols": [
+      "SPCXON.BNB",
+      "SPCXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SPGION",
+    "childSymbols": [
+      "SPGION.BNB",
+      "SPGION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SPOTON",
+    "childSymbols": [
+      "SPOTON.BNB",
+      "SPOTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SPYON",
+    "childSymbols": [
+      "SPYON.BNB",
+      "SPYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SQQQON",
+    "childSymbols": [
+      "SQQQON.BNB",
+      "SQQQON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "STLDON",
+    "childSymbols": [
+      "STLDON.BNB",
+      "STLDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "STMON",
+    "childSymbols": [
+      "STMON.BNB",
+      "STMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "STNGON",
+    "childSymbols": [
+      "STNGON.BNB",
+      "STNGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "STRCON",
+    "childSymbols": [
+      "STRCON.BNB",
+      "STRCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "STXON",
+    "childSymbols": [
+      "STXON.BNB",
+      "STXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SWKSON",
+    "childSymbols": [
+      "SWKSON.BNB",
+      "SWKSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SYMON",
+    "childSymbols": [
+      "SYMON.BNB",
+      "SYMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TASKON",
+    "childSymbols": [
+      "TASKON.BNB",
+      "TASKON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TCOMON",
+    "childSymbols": [
+      "TCOMON.BNB",
+      "TCOMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TELON",
+    "childSymbols": [
+      "TELON.BNB",
+      "TELON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TENON",
+    "childSymbols": [
+      "TENON.BNB",
+      "TENON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TERON",
+    "childSymbols": [
+      "TERON.BNB",
+      "TERON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TIPON",
+    "childSymbols": [
+      "TIPON.BNB",
+      "TIPON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TLNON",
+    "childSymbols": [
+      "TLNON.BNB",
+      "TLNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TLTON",
+    "childSymbols": [
+      "TLTON.BNB",
+      "TLTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TMON",
+    "childSymbols": [
+      "TMON.BNB",
+      "TMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TMOON",
+    "childSymbols": [
+      "TMOON.BNB",
+      "TMOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TMUSON",
+    "childSymbols": [
+      "TMUSON.BNB",
+      "TMUSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TNKON",
+    "childSymbols": [
+      "TNKON.BNB",
+      "TNKON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TON2",
+    "childSymbols": [
+      "TON.BNB",
+      "TON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TQQQON",
+    "childSymbols": [
+      "TQQQON.BNB",
+      "TQQQON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TSEMON",
+    "childSymbols": [
+      "TSEMON.BNB",
+      "TSEMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TSLAON",
+    "childSymbols": [
+      "TSLAON.BNB",
+      "TSLAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TSMON",
+    "childSymbols": [
+      "TSMON.BNB",
+      "TSMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TTMION",
+    "childSymbols": [
+      "TTMION.BNB",
+      "TTMION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TTON",
+    "childSymbols": [
+      "TTON.BNB",
+      "TTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "TXNON",
+    "childSymbols": [
+      "TXNON.BNB",
+      "TXNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "UAMYON",
+    "childSymbols": [
+      "UAMYON.BNB",
+      "UAMYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "UBERON",
+    "childSymbols": [
+      "UBERON.BNB",
+      "UBERON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "UCTTON",
+    "childSymbols": [
+      "UCTTON.BNB",
+      "UCTTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "UECON",
+    "childSymbols": [
+      "UECON.BNB",
+      "UECON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "UMCON",
+    "childSymbols": [
+      "UMCON.BNB",
+      "UMCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "UNGON",
+    "childSymbols": [
+      "UNGON.BNB",
+      "UNGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "UNHON",
+    "childSymbols": [
+      "UNHON.BNB",
+      "UNHON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "UNPON",
+    "childSymbols": [
+      "UNPON.BNB",
+      "UNPON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "URAON",
+    "childSymbols": [
+      "URAON.BNB",
+      "URAON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "URNMON",
+    "childSymbols": [
+      "URNMON.BNB",
+      "URNMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "USARON",
+    "childSymbols": [
+      "USARON.BNB",
+      "USARON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "USDON",
+    "childSymbols": [
+      "USDON.BNB",
+      "USDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "USFRON",
+    "childSymbols": [
+      "USFRON.BNB",
+      "USFRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "USOON",
+    "childSymbols": [
+      "USOON.BNB",
+      "USOON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "UUUUON",
+    "childSymbols": [
+      "UUUUON.BNB",
+      "UUUUON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VCXON",
+    "childSymbols": [
+      "VCXON.BNB",
+      "VCXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VDEON",
+    "childSymbols": [
+      "VDEON.BNB",
+      "VDEON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VFSON",
+    "childSymbols": [
+      "VFSON.BNB",
+      "VFSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VICRON",
+    "childSymbols": [
+      "VICRON.BNB",
+      "VICRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VNQON",
+    "childSymbols": [
+      "VNQON.BNB",
+      "VNQON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VON",
+    "childSymbols": [
+      "VON2.BNB",
+      "VON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VPGON",
+    "childSymbols": [
+      "VPGON.BNB",
+      "VPGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VRSNON",
+    "childSymbols": [
+      "VRSNON.BNB",
+      "VRSNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VRTON",
+    "childSymbols": [
+      "VRTON.BNB",
+      "VRTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VRTXON",
+    "childSymbols": [
+      "VRTXON.BNB",
+      "VRTXON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VSHON",
+    "childSymbols": [
+      "VSHON.BNB",
+      "VSHON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VSTON",
+    "childSymbols": [
+      "VSTON.BNB",
+      "VSTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VTION",
+    "childSymbols": [
+      "VTION.BNB",
+      "VTION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VTVON",
+    "childSymbols": [
+      "VTVON.BNB",
+      "VTVON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "VZON",
+    "childSymbols": [
+      "VZON.BNB",
+      "VZON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "WCCON",
+    "childSymbols": [
+      "WCCON.BNB",
+      "WCCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "WDCON",
+    "childSymbols": [
+      "WDCON.BNB",
+      "WDCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "WFCON",
+    "childSymbols": [
+      "WFCON.BNB",
+      "WFCON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "WLKON",
+    "childSymbols": [
+      "WLKON.BNB",
+      "WLKON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "WMBON",
+    "childSymbols": [
+      "WMBON.BNB",
+      "WMBON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "WMON",
+    "childSymbols": [
+      "WMON.BNB",
+      "WMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "WMTON",
+    "childSymbols": [
+      "WMTON.BNB",
+      "WMTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "WOLFON",
+    "childSymbols": [
+      "WOLFON.BNB",
+      "WOLFON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "WSON",
+    "childSymbols": [
+      "WSON.BNB",
+      "WSON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "WULFON",
+    "childSymbols": [
+      "WULFON.BNB",
+      "WULFON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "WYFION",
+    "childSymbols": [
+      "WYFION.BNB",
+      "WYFION.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "XOMON",
+    "childSymbols": [
+      "XOMON.BNB",
+      "XOMON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "XYLDON",
+    "childSymbols": [
+      "XYLDON.BNB",
+      "XYLDON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "XYZON",
+    "childSymbols": [
+      "XYZON.BNB",
+      "XYZON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "YEARON",
+    "childSymbols": [
+      "YEARON.BNB",
+      "YEARON.SOL"
+    ]
+  }
+]

@@ -1,0 +1,6607 @@
+[
+  {
+    "symbol": "AALON",
+    "displaySymbol": "AALON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AALON.BNB",
+    "displaySymbol": "AALon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AALON.SOL",
+    "displaySymbol": "AALon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AAOION",
+    "displaySymbol": "AAOION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AAOION.BNB",
+    "displaySymbol": "AAOIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AAOION.SOL",
+    "displaySymbol": "AAOIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AAONON",
+    "displaySymbol": "AAONON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AAONON.BNB",
+    "displaySymbol": "AAONon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AAONON.SOL",
+    "displaySymbol": "AAONon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AAPLON",
+    "displaySymbol": "AAPLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AAPLON.BNB",
+    "displaySymbol": "AAPLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AAPLON.SOL",
+    "displaySymbol": "AAPLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ABBVON",
+    "displaySymbol": "ABBVON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ABBVON.BNB",
+    "displaySymbol": "ABBVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ABBVON.SOL",
+    "displaySymbol": "ABBVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ABNBON",
+    "displaySymbol": "ABNBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ABNBON.BNB",
+    "displaySymbol": "ABNBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ABNBON.SOL",
+    "displaySymbol": "ABNBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ABTON",
+    "displaySymbol": "ABTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ABTON.BNB",
+    "displaySymbol": "ABTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ABTON.SOL",
+    "displaySymbol": "ABTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ACHRON",
+    "displaySymbol": "ACHRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ACHRON.BNB",
+    "displaySymbol": "ACHRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ACHRON.SOL",
+    "displaySymbol": "ACHRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ACLSON",
+    "displaySymbol": "ACLSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ACLSON.BNB",
+    "displaySymbol": "ACLSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ACLSON.SOL",
+    "displaySymbol": "ACLSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ACMRON",
+    "displaySymbol": "ACMRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ACMRON.BNB",
+    "displaySymbol": "ACMRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ACMRON.SOL",
+    "displaySymbol": "ACMRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ACNON",
+    "displaySymbol": "ACNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ACNON.BNB",
+    "displaySymbol": "ACNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ACNON.SOL",
+    "displaySymbol": "ACNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ADBEON",
+    "displaySymbol": "ADBEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ADBEON.BNB",
+    "displaySymbol": "ADBEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ADBEON.SOL",
+    "displaySymbol": "ADBEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ADION",
+    "displaySymbol": "ADION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ADION.BNB",
+    "displaySymbol": "ADIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ADION.SOL",
+    "displaySymbol": "ADIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AEHRON",
+    "displaySymbol": "AEHRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AEHRON.BNB",
+    "displaySymbol": "AEHRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AEHRON.SOL",
+    "displaySymbol": "AEHRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AGGON",
+    "displaySymbol": "AGGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AGGON.BNB",
+    "displaySymbol": "AGGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AGGON.SOL",
+    "displaySymbol": "AGGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AGON",
+    "displaySymbol": "AGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AGON.BNB",
+    "displaySymbol": "AGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AGON.SOL",
+    "displaySymbol": "AGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AIPON",
+    "displaySymbol": "AIPON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AIPON.BNB",
+    "displaySymbol": "AIPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AIPON.SOL",
+    "displaySymbol": "AIPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AIQON",
+    "displaySymbol": "AIQON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AIQON.BNB",
+    "displaySymbol": "AIQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AIQON.SOL",
+    "displaySymbol": "AIQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ALABON",
+    "displaySymbol": "ALABON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ALABON.BNB",
+    "displaySymbol": "ALABon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ALABON.SOL",
+    "displaySymbol": "ALABon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ALBON",
+    "displaySymbol": "ALBON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ALBON.BNB",
+    "displaySymbol": "ALBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ALBON.SOL",
+    "displaySymbol": "ALBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ALOYON",
+    "displaySymbol": "ALOYON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ALOYON.BNB",
+    "displaySymbol": "ALOYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ALOYON.SOL",
+    "displaySymbol": "ALOYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMATON",
+    "displaySymbol": "AMATON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMATON.BNB",
+    "displaySymbol": "AMATon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMATON.SOL",
+    "displaySymbol": "AMATon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMCON",
+    "displaySymbol": "AMCON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMCON.BNB",
+    "displaySymbol": "AMCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMCON.SOL",
+    "displaySymbol": "AMCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMDON",
+    "displaySymbol": "AMDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMDON.BNB",
+    "displaySymbol": "AMDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMDON.SOL",
+    "displaySymbol": "AMDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMEON",
+    "displaySymbol": "AMEON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMEON.BNB",
+    "displaySymbol": "AMEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMEON.SOL",
+    "displaySymbol": "AMEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMGNON",
+    "displaySymbol": "AMGNON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMGNON.BNB",
+    "displaySymbol": "AMGNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMGNON.SOL",
+    "displaySymbol": "AMGNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMKRON",
+    "displaySymbol": "AMKRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMKRON.BNB",
+    "displaySymbol": "AMKRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMKRON.SOL",
+    "displaySymbol": "AMKRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMZNON",
+    "displaySymbol": "AMZNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMZNON.BNB",
+    "displaySymbol": "AMZNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AMZNON.SOL",
+    "displaySymbol": "AMZNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ANETON",
+    "displaySymbol": "ANETON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ANETON.BNB",
+    "displaySymbol": "ANETon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ANETON.SOL",
+    "displaySymbol": "ANETon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AOSLON",
+    "displaySymbol": "AOSLON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AOSLON.BNB",
+    "displaySymbol": "AOSLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AOSLON.SOL",
+    "displaySymbol": "AOSLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "APHON",
+    "displaySymbol": "APHON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "APHON.BNB",
+    "displaySymbol": "APHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "APHON.SOL",
+    "displaySymbol": "APHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "APLDON",
+    "displaySymbol": "APLDON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "APLDON.BNB",
+    "displaySymbol": "APLDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "APLDON.SOL",
+    "displaySymbol": "APLDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "APOON",
+    "displaySymbol": "APOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "APOON.BNB",
+    "displaySymbol": "APOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "APOON.SOL",
+    "displaySymbol": "APOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "APPON",
+    "displaySymbol": "APPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "APPON.BNB",
+    "displaySymbol": "APPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "APPON.SOL",
+    "displaySymbol": "APPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ARGTON",
+    "displaySymbol": "ARGTON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ARGTON.BNB",
+    "displaySymbol": "ARGTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ARGTON.SOL",
+    "displaySymbol": "ARGTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ARMON",
+    "displaySymbol": "ARMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ARMON.BNB",
+    "displaySymbol": "ARMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ARMON.SOL",
+    "displaySymbol": "ARMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ARQQON",
+    "displaySymbol": "ARQQON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ARQQON.BNB",
+    "displaySymbol": "ARQQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ARQQON.SOL",
+    "displaySymbol": "ARQQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ASMLON",
+    "displaySymbol": "ASMLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ASMLON.BNB",
+    "displaySymbol": "ASMLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ASMLON.SOL",
+    "displaySymbol": "ASMLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ASTSON",
+    "displaySymbol": "ASTSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ASTSON.BNB",
+    "displaySymbol": "ASTSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ASTSON.SOL",
+    "displaySymbol": "ASTSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ATKRON",
+    "displaySymbol": "ATKRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ATKRON.BNB",
+    "displaySymbol": "ATKRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ATKRON.SOL",
+    "displaySymbol": "ATKRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AURON",
+    "displaySymbol": "AURON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AURON.BNB",
+    "displaySymbol": "AURon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AURON.SOL",
+    "displaySymbol": "AURon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AVGOON",
+    "displaySymbol": "AVGOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AVGOON.BNB",
+    "displaySymbol": "AVGOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AVGOON.SOL",
+    "displaySymbol": "AVGOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AXPON",
+    "displaySymbol": "AXPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AXPON.BNB",
+    "displaySymbol": "AXPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AXPON.SOL",
+    "displaySymbol": "AXPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AXTION",
+    "displaySymbol": "AXTION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AXTION.BNB",
+    "displaySymbol": "AXTIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "AXTION.SOL",
+    "displaySymbol": "AXTIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BABAON",
+    "displaySymbol": "BABAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BABAON.BNB",
+    "displaySymbol": "BABAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BABAON.SOL",
+    "displaySymbol": "BABAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BACON",
+    "displaySymbol": "BACON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BACON.BNB",
+    "displaySymbol": "BACon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BACON.SOL",
+    "displaySymbol": "BACon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BAION",
+    "displaySymbol": "BAION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BAION.BNB",
+    "displaySymbol": "BAIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BAION.SOL",
+    "displaySymbol": "BAIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BAON",
+    "displaySymbol": "BAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BAON.BNB",
+    "displaySymbol": "BAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BAON.SOL",
+    "displaySymbol": "BAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BBAION",
+    "displaySymbol": "BBAION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BBAION.BNB",
+    "displaySymbol": "BBAIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BBAION.SOL",
+    "displaySymbol": "BBAIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BEON",
+    "displaySymbol": "BEON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BEON.BNB",
+    "displaySymbol": "BEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BEON.SOL",
+    "displaySymbol": "BEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BIDUON",
+    "displaySymbol": "BIDUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BIDUON.BNB",
+    "displaySymbol": "BIDUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BIDUON.SOL",
+    "displaySymbol": "BIDUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BILION",
+    "displaySymbol": "BILION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BILION.BNB",
+    "displaySymbol": "BILIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BILION.SOL",
+    "displaySymbol": "BILIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BILON",
+    "displaySymbol": "BILON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BILON.BNB",
+    "displaySymbol": "BILon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BILON.SOL",
+    "displaySymbol": "BILon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BINCON",
+    "displaySymbol": "BINCON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BINCON.BNB",
+    "displaySymbol": "BINCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BINCON.SOL",
+    "displaySymbol": "BINCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BKCHON",
+    "displaySymbol": "BKCHON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BKCHON.BNB",
+    "displaySymbol": "BKCHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BKCHON.SOL",
+    "displaySymbol": "BKCHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BLCRON",
+    "displaySymbol": "BLCRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BLCRON.BNB",
+    "displaySymbol": "BLCRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BLCRON.SOL",
+    "displaySymbol": "BLCRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BLKON",
+    "displaySymbol": "BLKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BLKON.BNB",
+    "displaySymbol": "BLKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BLKON.SOL",
+    "displaySymbol": "BLKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BLSHON",
+    "displaySymbol": "BLSHON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BLSHON.BNB",
+    "displaySymbol": "BLSHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BLSHON.SOL",
+    "displaySymbol": "BLSHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BMNRON",
+    "displaySymbol": "BMNRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BMNRON.BNB",
+    "displaySymbol": "BMNRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BMNRON.SOL",
+    "displaySymbol": "BMNRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BNOON",
+    "displaySymbol": "BNOON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BNOON.BNB",
+    "displaySymbol": "BNOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BNOON.SOL",
+    "displaySymbol": "BNOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BOTON",
+    "displaySymbol": "BOTON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BOTON.BNB",
+    "displaySymbol": "BOTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BOTON.SOL",
+    "displaySymbol": "BOTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BOTZON",
+    "displaySymbol": "BOTZON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BOTZON.BNB",
+    "displaySymbol": "BOTZon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BOTZON.SOL",
+    "displaySymbol": "BOTZon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BRHYON",
+    "displaySymbol": "BRHYON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BRHYON.BNB",
+    "displaySymbol": "BRHYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BRHYON.SOL",
+    "displaySymbol": "BRHYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BRLNON",
+    "displaySymbol": "BRLNON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BRLNON.BNB",
+    "displaySymbol": "BRLNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BRLNON.SOL",
+    "displaySymbol": "BRLNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BRTRON",
+    "displaySymbol": "BRTRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BRTRON.BNB",
+    "displaySymbol": "BRTRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BRTRON.SOL",
+    "displaySymbol": "BRTRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BTDRON",
+    "displaySymbol": "BTDRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BTDRON.BNB",
+    "displaySymbol": "BTDRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BTDRON.SOL",
+    "displaySymbol": "BTDRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BTGON",
+    "displaySymbol": "BTGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BTGON.BNB",
+    "displaySymbol": "BTGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BTGON.SOL",
+    "displaySymbol": "BTGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BTGOON",
+    "displaySymbol": "BTGOON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BTGOON.BNB",
+    "displaySymbol": "BTGOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BTGOON.SOL",
+    "displaySymbol": "BTGOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BWETON",
+    "displaySymbol": "BWETON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BWETON.BNB",
+    "displaySymbol": "BWETon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BWETON.SOL",
+    "displaySymbol": "BWETon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BZON",
+    "displaySymbol": "BZON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BZON.BNB",
+    "displaySymbol": "BZon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "BZON.SOL",
+    "displaySymbol": "BZon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CAMTON",
+    "displaySymbol": "CAMTON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CAMTON.BNB",
+    "displaySymbol": "CAMTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CAMTON.SOL",
+    "displaySymbol": "CAMTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CAPRON",
+    "displaySymbol": "CAPRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CAPRON.BNB",
+    "displaySymbol": "CAPRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CAPRON.SOL",
+    "displaySymbol": "CAPRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CATON",
+    "displaySymbol": "CATON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CATON.BNB",
+    "displaySymbol": "CATon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CATON.SOL",
+    "displaySymbol": "CATon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CBRSON",
+    "displaySymbol": "CBRSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CBRSON.BNB",
+    "displaySymbol": "CBRSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CBRSON.SOL",
+    "displaySymbol": "CBRSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CCJON",
+    "displaySymbol": "CCJON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CCJON.BNB",
+    "displaySymbol": "CCJon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CCJON.SOL",
+    "displaySymbol": "CCJon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CEGON",
+    "displaySymbol": "CEGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CEGON.BNB",
+    "displaySymbol": "CEGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CEGON.SOL",
+    "displaySymbol": "CEGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CEVAON",
+    "displaySymbol": "CEVAON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CEVAON.BNB",
+    "displaySymbol": "CEVAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CEVAON.SOL",
+    "displaySymbol": "CEVAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CIBRON",
+    "displaySymbol": "CIBRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CIBRON.BNB",
+    "displaySymbol": "CIBRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CIBRON.SOL",
+    "displaySymbol": "CIBRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CIENON",
+    "displaySymbol": "CIENON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CIENON.BNB",
+    "displaySymbol": "CIENon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CIENON.SOL",
+    "displaySymbol": "CIENon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CIFRON",
+    "displaySymbol": "CIFRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CIFRON.BNB",
+    "displaySymbol": "CIFRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CIFRON.SOL",
+    "displaySymbol": "CIFRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CLFON",
+    "displaySymbol": "CLFON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CLFON.BNB",
+    "displaySymbol": "CLFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CLFON.SOL",
+    "displaySymbol": "CLFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CLOAON",
+    "displaySymbol": "CLOAON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CLOAON.BNB",
+    "displaySymbol": "CLOAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CLOAON.SOL",
+    "displaySymbol": "CLOAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CLOION",
+    "displaySymbol": "CLOION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CLOION.BNB",
+    "displaySymbol": "CLOIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CLOION.SOL",
+    "displaySymbol": "CLOIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CLSON",
+    "displaySymbol": "CLSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CLSON.BNB",
+    "displaySymbol": "CLSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CLSON.SOL",
+    "displaySymbol": "CLSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CMGON",
+    "displaySymbol": "CMGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CMGON.BNB",
+    "displaySymbol": "CMGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CMGON.SOL",
+    "displaySymbol": "CMGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COFON",
+    "displaySymbol": "COFON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COFON.BNB",
+    "displaySymbol": "COFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COFON.SOL",
+    "displaySymbol": "COFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COHRON",
+    "displaySymbol": "COHRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COHRON.BNB",
+    "displaySymbol": "COHRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COHRON.SOL",
+    "displaySymbol": "COHRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COHUON",
+    "displaySymbol": "COHUON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COHUON.BNB",
+    "displaySymbol": "COHUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COHUON.SOL",
+    "displaySymbol": "COHUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COINON",
+    "displaySymbol": "COINon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COINON.BNB",
+    "displaySymbol": "COINon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COINON.SOL",
+    "displaySymbol": "COINon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CON.SOL",
+    "displaySymbol": "Con",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CON2",
+    "displaySymbol": "CON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CON2.BNB",
+    "displaySymbol": "Con",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COPON",
+    "displaySymbol": "COPON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COPON.BNB",
+    "displaySymbol": "COPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COPON.SOL",
+    "displaySymbol": "COPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COPXON",
+    "displaySymbol": "COPXON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COPXON.BNB",
+    "displaySymbol": "COPXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COPXON.SOL",
+    "displaySymbol": "COPXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COROON",
+    "displaySymbol": "COROON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COROON.BNB",
+    "displaySymbol": "COROon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COROON.SOL",
+    "displaySymbol": "COROon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CORZON",
+    "displaySymbol": "CORZON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CORZON.BNB",
+    "displaySymbol": "CORZon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CORZON.SOL",
+    "displaySymbol": "CORZon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COSTON",
+    "displaySymbol": "COSTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COSTON.BNB",
+    "displaySymbol": "COSTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "COSTON.SOL",
+    "displaySymbol": "COSTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CPERON",
+    "displaySymbol": "CPERON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CPERON.BNB",
+    "displaySymbol": "CPERon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CPERON.SOL",
+    "displaySymbol": "CPERon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CPNGON",
+    "displaySymbol": "CPNGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CPNGON.BNB",
+    "displaySymbol": "CPNGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CPNGON.SOL",
+    "displaySymbol": "CPNGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRCLON",
+    "displaySymbol": "CRCLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRCLON.BNB",
+    "displaySymbol": "CRCLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRCLON.SOL",
+    "displaySymbol": "CRCLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRDOON",
+    "displaySymbol": "CRDOON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRDOON.BNB",
+    "displaySymbol": "CRDOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRDOON.SOL",
+    "displaySymbol": "CRDOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRMON",
+    "displaySymbol": "CRMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRMON.BNB",
+    "displaySymbol": "CRMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRMON.SOL",
+    "displaySymbol": "CRMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRWDON",
+    "displaySymbol": "CRWDON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRWDON.BNB",
+    "displaySymbol": "CRWDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRWDON.SOL",
+    "displaySymbol": "CRWDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRWVON",
+    "displaySymbol": "CRWVON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRWVON.BNB",
+    "displaySymbol": "CRWVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CRWVON.SOL",
+    "displaySymbol": "CRWVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CSCOON",
+    "displaySymbol": "CSCOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CSCOON.BNB",
+    "displaySymbol": "CSCOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CSCOON.SOL",
+    "displaySymbol": "CSCOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CVNAON",
+    "displaySymbol": "CVNAON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CVNAON.BNB",
+    "displaySymbol": "CVNAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CVNAON.SOL",
+    "displaySymbol": "CVNAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CVXON",
+    "displaySymbol": "CVXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CVXON.BNB",
+    "displaySymbol": "CVXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "CVXON.SOL",
+    "displaySymbol": "CVXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DASHON",
+    "displaySymbol": "DASHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DASHON.BNB",
+    "displaySymbol": "DASHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DASHON.SOL",
+    "displaySymbol": "DASHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DBCON",
+    "displaySymbol": "DBCON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DBCON.BNB",
+    "displaySymbol": "DBCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DBCON.SOL",
+    "displaySymbol": "DBCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DELLON",
+    "displaySymbol": "DELLON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DELLON.BNB",
+    "displaySymbol": "DELLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DELLON.SOL",
+    "displaySymbol": "DELLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DEON",
+    "displaySymbol": "DEON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DEON.BNB",
+    "displaySymbol": "DEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DEON.SOL",
+    "displaySymbol": "DEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DGRWON",
+    "displaySymbol": "DGRWON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DGRWON.BNB",
+    "displaySymbol": "DGRWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DGRWON.SOL",
+    "displaySymbol": "DGRWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DGXXON",
+    "displaySymbol": "DGXXON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DGXXON.BNB",
+    "displaySymbol": "DGXXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DGXXON.SOL",
+    "displaySymbol": "DGXXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DISON",
+    "displaySymbol": "DISon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DISON.BNB",
+    "displaySymbol": "DISon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DISON.SOL",
+    "displaySymbol": "DISon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DNNON",
+    "displaySymbol": "DNNON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DNNON.BNB",
+    "displaySymbol": "DNNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DNNON.SOL",
+    "displaySymbol": "DNNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DRAMON",
+    "displaySymbol": "DRAMON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DRAMON.BNB",
+    "displaySymbol": "DRAMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DRAMON.SOL",
+    "displaySymbol": "DRAMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DRSON",
+    "displaySymbol": "DRSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DRSON.BNB",
+    "displaySymbol": "DRSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DRSON.SOL",
+    "displaySymbol": "DRSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DTCRON",
+    "displaySymbol": "DTCRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DTCRON.BNB",
+    "displaySymbol": "DTCRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DTCRON.SOL",
+    "displaySymbol": "DTCRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DYNFON",
+    "displaySymbol": "DYNFON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DYNFON.BNB",
+    "displaySymbol": "DYNFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "DYNFON.SOL",
+    "displaySymbol": "DYNFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ECHON",
+    "displaySymbol": "ECHON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ECHON.BNB",
+    "displaySymbol": "ECHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ECHON.SOL",
+    "displaySymbol": "ECHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ECOON",
+    "displaySymbol": "ECOON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ECOON.BNB",
+    "displaySymbol": "ECOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ECOON.SOL",
+    "displaySymbol": "ECOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EEMON",
+    "displaySymbol": "EEMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EEMON.BNB",
+    "displaySymbol": "EEMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EEMON.SOL",
+    "displaySymbol": "EEMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EFAON",
+    "displaySymbol": "EFAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EFAON.BNB",
+    "displaySymbol": "EFAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EFAON.SOL",
+    "displaySymbol": "EFAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EFVON",
+    "displaySymbol": "EFVON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EFVON.BNB",
+    "displaySymbol": "EFVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EFVON.SOL",
+    "displaySymbol": "EFVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EMRON",
+    "displaySymbol": "EMRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EMRON.BNB",
+    "displaySymbol": "EMRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EMRON.SOL",
+    "displaySymbol": "EMRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ENBON",
+    "displaySymbol": "ENBON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ENBON.BNB",
+    "displaySymbol": "ENBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ENBON.SOL",
+    "displaySymbol": "ENBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ENLVON",
+    "displaySymbol": "ENLVON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ENLVON.BNB",
+    "displaySymbol": "ENLVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ENLVON.SOL",
+    "displaySymbol": "ENLVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ENPHON",
+    "displaySymbol": "ENPHON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ENPHON.BNB",
+    "displaySymbol": "ENPHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ENPHON.SOL",
+    "displaySymbol": "ENPHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ENTGON",
+    "displaySymbol": "ENTGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ENTGON.BNB",
+    "displaySymbol": "ENTGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ENTGON.SOL",
+    "displaySymbol": "ENTGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EQIXON",
+    "displaySymbol": "EQIXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EQIXON.BNB",
+    "displaySymbol": "EQIXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EQIXON.SOL",
+    "displaySymbol": "EQIXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EQTON",
+    "displaySymbol": "EQTON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EQTON.BNB",
+    "displaySymbol": "EQTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EQTON.SOL",
+    "displaySymbol": "EQTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ETHAON",
+    "displaySymbol": "ETHAON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ETHAON.BNB",
+    "displaySymbol": "ETHAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ETHAON.SOL",
+    "displaySymbol": "ETHAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ETNON",
+    "displaySymbol": "ETNON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ETNON.BNB",
+    "displaySymbol": "ETNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ETNON.SOL",
+    "displaySymbol": "ETNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EUHYON",
+    "displaySymbol": "EUHYON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EUHYON.BNB",
+    "displaySymbol": "EUHYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EUHYON.SOL",
+    "displaySymbol": "EUHYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EWJON",
+    "displaySymbol": "EWJON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EWJON.BNB",
+    "displaySymbol": "EWJon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EWJON.SOL",
+    "displaySymbol": "EWJon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EWYON",
+    "displaySymbol": "EWYON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EWYON.BNB",
+    "displaySymbol": "EWYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EWYON.SOL",
+    "displaySymbol": "EWYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EWZON",
+    "displaySymbol": "EWZON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EWZON.BNB",
+    "displaySymbol": "EWZon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EWZON.SOL",
+    "displaySymbol": "EWZon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EXODON",
+    "displaySymbol": "EXODON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EXODON.BNB",
+    "displaySymbol": "EXODon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EXODON.SOL",
+    "displaySymbol": "EXODon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EXTRON",
+    "displaySymbol": "EXTRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EXTRON.BNB",
+    "displaySymbol": "EXTRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "EXTRON.SOL",
+    "displaySymbol": "EXTRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FCELON",
+    "displaySymbol": "FCELON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FCELON.BNB",
+    "displaySymbol": "FCELon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FCELON.SOL",
+    "displaySymbol": "FCELon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FCXON",
+    "displaySymbol": "FCXON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FCXON.BNB",
+    "displaySymbol": "FCXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FCXON.SOL",
+    "displaySymbol": "FCXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FFOGON",
+    "displaySymbol": "FFOGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FFOGON.BNB",
+    "displaySymbol": "FFOGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FFOGON.SOL",
+    "displaySymbol": "FFOGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FGDLON",
+    "displaySymbol": "FGDLON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FGDLON.BNB",
+    "displaySymbol": "FGDLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FGDLON.SOL",
+    "displaySymbol": "FGDLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FIGON",
+    "displaySymbol": "FIGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FIGON.BNB",
+    "displaySymbol": "FIGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FIGON.SOL",
+    "displaySymbol": "FIGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FIGRON",
+    "displaySymbol": "FIGRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FIGRON.BNB",
+    "displaySymbol": "FIGRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FIGRON.SOL",
+    "displaySymbol": "FIGRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FLEXON",
+    "displaySymbol": "FLEXON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FLEXON.BNB",
+    "displaySymbol": "FLEXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FLEXON.SOL",
+    "displaySymbol": "FLEXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FLHYON",
+    "displaySymbol": "FLHYON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FLHYON.BNB",
+    "displaySymbol": "FLHYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FLHYON.SOL",
+    "displaySymbol": "FLHYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FLNCON",
+    "displaySymbol": "FLNCON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FLNCON.BNB",
+    "displaySymbol": "FLNCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FLNCON.SOL",
+    "displaySymbol": "FLNCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FLQLON",
+    "displaySymbol": "FLQLON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FLQLON.BNB",
+    "displaySymbol": "FLQLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FLQLON.SOL",
+    "displaySymbol": "FLQLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FNON",
+    "displaySymbol": "FNON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FNON.BNB",
+    "displaySymbol": "FNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FNON.SOL",
+    "displaySymbol": "FNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FON",
+    "displaySymbol": "FON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FON.BNB",
+    "displaySymbol": "Fon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FON.SOL",
+    "displaySymbol": "Fon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FORMON",
+    "displaySymbol": "FORMON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FORMON.BNB",
+    "displaySymbol": "FORMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FORMON.SOL",
+    "displaySymbol": "FORMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FPSON",
+    "displaySymbol": "FPSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FPSON.BNB",
+    "displaySymbol": "FPSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FPSON.SOL",
+    "displaySymbol": "FPSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FSOLON",
+    "displaySymbol": "FSOLON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FSOLON.BNB",
+    "displaySymbol": "FSOLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FSOLON.SOL",
+    "displaySymbol": "FSOLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FTGCON",
+    "displaySymbol": "FTGCON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FTGCON.BNB",
+    "displaySymbol": "FTGCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FTGCON.SOL",
+    "displaySymbol": "FTGCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FUTUON",
+    "displaySymbol": "FUTUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FUTUON.BNB",
+    "displaySymbol": "FUTUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FUTUON.SOL",
+    "displaySymbol": "FUTUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FXION",
+    "displaySymbol": "FXION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FXION.BNB",
+    "displaySymbol": "FXIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "FXION.SOL",
+    "displaySymbol": "FXIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GDON",
+    "displaySymbol": "GDON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GDON.BNB",
+    "displaySymbol": "GDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GDON.SOL",
+    "displaySymbol": "GDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GEMION",
+    "displaySymbol": "GEMION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GEMION.BNB",
+    "displaySymbol": "GEMIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GEMION.SOL",
+    "displaySymbol": "GEMIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GEON",
+    "displaySymbol": "GEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GEON.BNB",
+    "displaySymbol": "GEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GEON.SOL",
+    "displaySymbol": "GEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GEVON",
+    "displaySymbol": "GEVON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GEVON.BNB",
+    "displaySymbol": "GEVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GEVON.SOL",
+    "displaySymbol": "GEVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GFSON",
+    "displaySymbol": "GFSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GFSON.BNB",
+    "displaySymbol": "GFSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GFSON.SOL",
+    "displaySymbol": "GFSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GGOVON",
+    "displaySymbol": "GGOVON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GGOVON.BNB",
+    "displaySymbol": "GGOVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GGOVON.SOL",
+    "displaySymbol": "GGOVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GLDON",
+    "displaySymbol": "GLDON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GLDON.BNB",
+    "displaySymbol": "GLDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GLDON.SOL",
+    "displaySymbol": "GLDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GLTRON",
+    "displaySymbol": "GLTRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GLTRON.BNB",
+    "displaySymbol": "GLTRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GLTRON.SOL",
+    "displaySymbol": "GLTRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GLWON",
+    "displaySymbol": "GLWON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GLWON.BNB",
+    "displaySymbol": "GLWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GLWON.SOL",
+    "displaySymbol": "GLWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GLXYON",
+    "displaySymbol": "GLXYON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GLXYON.BNB",
+    "displaySymbol": "GLXYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GLXYON.SOL",
+    "displaySymbol": "GLXYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GMEON",
+    "displaySymbol": "GMEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GMEON.BNB",
+    "displaySymbol": "GMEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GMEON.SOL",
+    "displaySymbol": "GMEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GNRCON",
+    "displaySymbol": "GNRCON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GNRCON.BNB",
+    "displaySymbol": "GNRCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GNRCON.SOL",
+    "displaySymbol": "GNRCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GOOGLON",
+    "displaySymbol": "GOOGLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GOOGLON.BNB",
+    "displaySymbol": "GOOGLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GOOGLON.SOL",
+    "displaySymbol": "GOOGLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GRABON",
+    "displaySymbol": "GRABON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GRABON.BNB",
+    "displaySymbol": "GRABon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GRABON.SOL",
+    "displaySymbol": "GRABon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GRNDON",
+    "displaySymbol": "GRNDON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GRNDON.BNB",
+    "displaySymbol": "GRNDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GRNDON.SOL",
+    "displaySymbol": "GRNDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GSON",
+    "displaySymbol": "GSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GSON.BNB",
+    "displaySymbol": "GSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "GSON.SOL",
+    "displaySymbol": "GSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HALON",
+    "displaySymbol": "HALON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HALON.BNB",
+    "displaySymbol": "HALon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HALON.SOL",
+    "displaySymbol": "HALon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HDON",
+    "displaySymbol": "HDON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HDON.BNB",
+    "displaySymbol": "HDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HDON.SOL",
+    "displaySymbol": "HDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HIION",
+    "displaySymbol": "HIION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HIION.BNB",
+    "displaySymbol": "HIIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HIION.SOL",
+    "displaySymbol": "HIIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HIMSON",
+    "displaySymbol": "HIMSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HIMSON.BNB",
+    "displaySymbol": "HIMSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HIMSON.SOL",
+    "displaySymbol": "HIMSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HIMXON",
+    "displaySymbol": "HIMXON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HIMXON.BNB",
+    "displaySymbol": "HIMXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HIMXON.SOL",
+    "displaySymbol": "HIMXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HIVEON",
+    "displaySymbol": "HIVEON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HIVEON.BNB",
+    "displaySymbol": "HIVEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HIVEON.SOL",
+    "displaySymbol": "HIVEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HLITON",
+    "displaySymbol": "HLITON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HLITON.BNB",
+    "displaySymbol": "HLITon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HLITON.SOL",
+    "displaySymbol": "HLITon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HOODON",
+    "displaySymbol": "HOODon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HOODON.BNB",
+    "displaySymbol": "HOODon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HOODON.SOL",
+    "displaySymbol": "HOODon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HPEON",
+    "displaySymbol": "HPEON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HPEON.BNB",
+    "displaySymbol": "HPEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HPEON.SOL",
+    "displaySymbol": "HPEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HSAION",
+    "displaySymbol": "HSAION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HSAION.BNB",
+    "displaySymbol": "HSAIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HSAION.SOL",
+    "displaySymbol": "HSAIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HUBBON",
+    "displaySymbol": "HUBBON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HUBBON.BNB",
+    "displaySymbol": "HUBBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HUBBON.SOL",
+    "displaySymbol": "HUBBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HUTON",
+    "displaySymbol": "HUTON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HUTON.BNB",
+    "displaySymbol": "HUTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HUTON.SOL",
+    "displaySymbol": "HUTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HYGON",
+    "displaySymbol": "HYGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HYGON.BNB",
+    "displaySymbol": "HYGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HYGON.SOL",
+    "displaySymbol": "HYGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HYSON",
+    "displaySymbol": "HYSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HYSON.BNB",
+    "displaySymbol": "HYSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "HYSON.SOL",
+    "displaySymbol": "HYSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IALTON",
+    "displaySymbol": "IALTON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IALTON.BNB",
+    "displaySymbol": "IALTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IALTON.SOL",
+    "displaySymbol": "IALTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IAUON",
+    "displaySymbol": "IAUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IAUON.BNB",
+    "displaySymbol": "IAUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IAUON.SOL",
+    "displaySymbol": "IAUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IBITON",
+    "displaySymbol": "IBITON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IBITON.BNB",
+    "displaySymbol": "IBITon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IBITON.SOL",
+    "displaySymbol": "IBITon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IBMON",
+    "displaySymbol": "IBMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IBMON.BNB",
+    "displaySymbol": "IBMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IBMON.SOL",
+    "displaySymbol": "IBMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ICHRON",
+    "displaySymbol": "ICHRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ICHRON.BNB",
+    "displaySymbol": "ICHRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ICHRON.SOL",
+    "displaySymbol": "ICHRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IDEFON",
+    "displaySymbol": "IDEFON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IDEFON.BNB",
+    "displaySymbol": "IDEFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IDEFON.SOL",
+    "displaySymbol": "IDEFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IEFAON",
+    "displaySymbol": "IEFAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IEFAON.BNB",
+    "displaySymbol": "IEFAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IEFAON.SOL",
+    "displaySymbol": "IEFAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IEFON",
+    "displaySymbol": "IEFON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IEFON.BNB",
+    "displaySymbol": "IEFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IEFON.SOL",
+    "displaySymbol": "IEFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IEION",
+    "displaySymbol": "IEION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IEION.BNB",
+    "displaySymbol": "IEIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IEION.SOL",
+    "displaySymbol": "IEIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IEMGON",
+    "displaySymbol": "IEMGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IEMGON.BNB",
+    "displaySymbol": "IEMGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IEMGON.SOL",
+    "displaySymbol": "IEMGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IGEBON",
+    "displaySymbol": "IGEBON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IGEBON.BNB",
+    "displaySymbol": "IGEBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IGEBON.SOL",
+    "displaySymbol": "IGEBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IGVON",
+    "displaySymbol": "IGVON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IGVON.BNB",
+    "displaySymbol": "IGVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IGVON.SOL",
+    "displaySymbol": "IGVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IJHON",
+    "displaySymbol": "IJHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IJHON.BNB",
+    "displaySymbol": "IJHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IJHON.SOL",
+    "displaySymbol": "IJHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IJSON",
+    "displaySymbol": "IJSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IJSON.BNB",
+    "displaySymbol": "IJSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IJSON.SOL",
+    "displaySymbol": "IJSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INCEON",
+    "displaySymbol": "INCEON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INCEON.BNB",
+    "displaySymbol": "INCEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INCEON.SOL",
+    "displaySymbol": "INCEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INDAON",
+    "displaySymbol": "INDAON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INDAON.BNB",
+    "displaySymbol": "INDAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INDAON.SOL",
+    "displaySymbol": "INDAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INODON",
+    "displaySymbol": "INODON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INODON.BNB",
+    "displaySymbol": "INODon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INODON.SOL",
+    "displaySymbol": "INODon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INROON",
+    "displaySymbol": "INROON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INROON.BNB",
+    "displaySymbol": "INROon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INROON.SOL",
+    "displaySymbol": "INROon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INSWON",
+    "displaySymbol": "INSWON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INSWON.BNB",
+    "displaySymbol": "INSWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INSWON.SOL",
+    "displaySymbol": "INSWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INTCON",
+    "displaySymbol": "INTCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INTCON.BNB",
+    "displaySymbol": "INTCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INTCON.SOL",
+    "displaySymbol": "INTCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INTUON",
+    "displaySymbol": "INTUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INTUON.BNB",
+    "displaySymbol": "INTUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "INTUON.SOL",
+    "displaySymbol": "INTUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IONQON",
+    "displaySymbol": "IONQON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IONQON.BNB",
+    "displaySymbol": "IONQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IONQON.SOL",
+    "displaySymbol": "IONQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IRDMON",
+    "displaySymbol": "IRDMON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IRDMON.BNB",
+    "displaySymbol": "IRDMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IRDMON.SOL",
+    "displaySymbol": "IRDMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IRENON",
+    "displaySymbol": "IRENON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IRENON.BNB",
+    "displaySymbol": "IRENon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IRENON.SOL",
+    "displaySymbol": "IRENon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ISRGON",
+    "displaySymbol": "ISRGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ISRGON.BNB",
+    "displaySymbol": "ISRGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ISRGON.SOL",
+    "displaySymbol": "ISRGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ITAON",
+    "displaySymbol": "ITAON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ITAON.BNB",
+    "displaySymbol": "ITAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ITAON.SOL",
+    "displaySymbol": "ITAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ITOTON",
+    "displaySymbol": "ITOTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ITOTON.BNB",
+    "displaySymbol": "ITOTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ITOTON.SOL",
+    "displaySymbol": "ITOTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IVVON",
+    "displaySymbol": "IVVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IVVON.BNB",
+    "displaySymbol": "IVVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IVVON.SOL",
+    "displaySymbol": "IVVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IWFON",
+    "displaySymbol": "IWFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IWFON.BNB",
+    "displaySymbol": "IWFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IWFON.SOL",
+    "displaySymbol": "IWFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IWMON",
+    "displaySymbol": "IWMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IWMON.BNB",
+    "displaySymbol": "IWMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IWMON.SOL",
+    "displaySymbol": "IWMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IWNON",
+    "displaySymbol": "IWNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IWNON.BNB",
+    "displaySymbol": "IWNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IWNON.SOL",
+    "displaySymbol": "IWNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IYWON",
+    "displaySymbol": "IYWON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IYWON.BNB",
+    "displaySymbol": "IYWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "IYWON.SOL",
+    "displaySymbol": "IYWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JAAAON",
+    "displaySymbol": "JAAAON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JAAAON.BNB",
+    "displaySymbol": "JAAAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JAAAON.SOL",
+    "displaySymbol": "JAAAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JBLON",
+    "displaySymbol": "JBLON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JBLON.BNB",
+    "displaySymbol": "JBLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JBLON.SOL",
+    "displaySymbol": "JBLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JDON",
+    "displaySymbol": "JDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JDON.BNB",
+    "displaySymbol": "JDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JDON.SOL",
+    "displaySymbol": "JDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JNJON",
+    "displaySymbol": "JNJON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JNJON.BNB",
+    "displaySymbol": "JNJon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JNJON.SOL",
+    "displaySymbol": "JNJon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JPMON",
+    "displaySymbol": "JPMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JPMON.BNB",
+    "displaySymbol": "JPMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "JPMON.SOL",
+    "displaySymbol": "JPMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KEELON",
+    "displaySymbol": "KEELON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KEELON.BNB",
+    "displaySymbol": "KEELon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KEELON.SOL",
+    "displaySymbol": "KEELon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KEYSON",
+    "displaySymbol": "KEYSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KEYSON.BNB",
+    "displaySymbol": "KEYSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KEYSON.SOL",
+    "displaySymbol": "KEYSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KLACON",
+    "displaySymbol": "KLACON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KLACON.BNB",
+    "displaySymbol": "KLACon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KLACON.SOL",
+    "displaySymbol": "KLACon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KOON",
+    "displaySymbol": "KOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KOON.BNB",
+    "displaySymbol": "KOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KOON.SOL",
+    "displaySymbol": "KOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KOPNON",
+    "displaySymbol": "KOPNON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KOPNON.BNB",
+    "displaySymbol": "KOPNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KOPNON.SOL",
+    "displaySymbol": "KOPNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KWEBON",
+    "displaySymbol": "KWEBON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KWEBON.BNB",
+    "displaySymbol": "KWEBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "KWEBON.SOL",
+    "displaySymbol": "KWEBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LASRON",
+    "displaySymbol": "LASRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LASRON.BNB",
+    "displaySymbol": "LASRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LASRON.SOL",
+    "displaySymbol": "LASRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LECOON",
+    "displaySymbol": "LECOON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LECOON.BNB",
+    "displaySymbol": "LECOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LECOON.SOL",
+    "displaySymbol": "LECOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LEMBON",
+    "displaySymbol": "LEMBON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LEMBON.BNB",
+    "displaySymbol": "LEMBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LEMBON.SOL",
+    "displaySymbol": "LEMBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LINON",
+    "displaySymbol": "LINon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LINON.BNB",
+    "displaySymbol": "LINon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LINON.SOL",
+    "displaySymbol": "LINon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LION",
+    "displaySymbol": "LION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LION.BNB",
+    "displaySymbol": "LIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LION.SOL",
+    "displaySymbol": "LIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LITEON",
+    "displaySymbol": "LITEON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LITEON.BNB",
+    "displaySymbol": "LITEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LITEON.SOL",
+    "displaySymbol": "LITEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LITON",
+    "displaySymbol": "LITON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LITON.BNB",
+    "displaySymbol": "LITon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LITON.SOL",
+    "displaySymbol": "LITon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LLYON",
+    "displaySymbol": "LLYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LLYON.BNB",
+    "displaySymbol": "LLYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LLYON.SOL",
+    "displaySymbol": "LLYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LMTON",
+    "displaySymbol": "LMTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LMTON.BNB",
+    "displaySymbol": "LMTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LMTON.SOL",
+    "displaySymbol": "LMTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LOWON",
+    "displaySymbol": "LOWON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LOWON.BNB",
+    "displaySymbol": "LOWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LOWON.SOL",
+    "displaySymbol": "LOWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LPTHON",
+    "displaySymbol": "LPTHON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LPTHON.BNB",
+    "displaySymbol": "LPTHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LPTHON.SOL",
+    "displaySymbol": "LPTHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LRCXON",
+    "displaySymbol": "LRCXON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LRCXON.BNB",
+    "displaySymbol": "LRCXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LRCXON.SOL",
+    "displaySymbol": "LRCXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LSCCON",
+    "displaySymbol": "LSCCON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LSCCON.BNB",
+    "displaySymbol": "LSCCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LSCCON.SOL",
+    "displaySymbol": "LSCCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LUNRON",
+    "displaySymbol": "LUNRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LUNRON.BNB",
+    "displaySymbol": "LUNRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LUNRON.SOL",
+    "displaySymbol": "LUNRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LWLGON",
+    "displaySymbol": "LWLGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LWLGON.BNB",
+    "displaySymbol": "LWLGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "LWLGON.SOL",
+    "displaySymbol": "LWLGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MAON",
+    "displaySymbol": "MAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MAON.BNB",
+    "displaySymbol": "MAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MAON.SOL",
+    "displaySymbol": "MAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MARAON",
+    "displaySymbol": "MARAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MARAON.BNB",
+    "displaySymbol": "MARAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MARAON.SOL",
+    "displaySymbol": "MARAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MBLYON",
+    "displaySymbol": "MBLYON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MBLYON.BNB",
+    "displaySymbol": "MBLYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MBLYON.SOL",
+    "displaySymbol": "MBLYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MCDON",
+    "displaySymbol": "MCDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MCDON.BNB",
+    "displaySymbol": "MCDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MCDON.SOL",
+    "displaySymbol": "MCDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MEION",
+    "displaySymbol": "MEION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MEION.BNB",
+    "displaySymbol": "MEIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MEION.SOL",
+    "displaySymbol": "MEIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MELION",
+    "displaySymbol": "MELIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MELION.BNB",
+    "displaySymbol": "MELIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MELION.SOL",
+    "displaySymbol": "MELIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "METAON",
+    "displaySymbol": "METAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "METAON.BNB",
+    "displaySymbol": "METAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "METAON.SOL",
+    "displaySymbol": "METAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MKSION",
+    "displaySymbol": "MKSION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MKSION.BNB",
+    "displaySymbol": "MKSIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MKSION.SOL",
+    "displaySymbol": "MKSIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MPON",
+    "displaySymbol": "MPON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MPON.BNB",
+    "displaySymbol": "MPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MPON.SOL",
+    "displaySymbol": "MPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MRKON",
+    "displaySymbol": "MRKON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MRKON.BNB",
+    "displaySymbol": "MRKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MRKON.SOL",
+    "displaySymbol": "MRKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MRNAON",
+    "displaySymbol": "MRNAON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MRNAON.BNB",
+    "displaySymbol": "MRNAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MRNAON.SOL",
+    "displaySymbol": "MRNAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MRVLON",
+    "displaySymbol": "MRVLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MRVLON.BNB",
+    "displaySymbol": "MRVLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MRVLON.SOL",
+    "displaySymbol": "MRVLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MSFTON",
+    "displaySymbol": "MSFTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MSFTON.BNB",
+    "displaySymbol": "MSFTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MSFTON.SOL",
+    "displaySymbol": "MSFTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MSTRON",
+    "displaySymbol": "MSTRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MSTRON.BNB",
+    "displaySymbol": "MSTRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MSTRON.SOL",
+    "displaySymbol": "MSTRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MTSION",
+    "displaySymbol": "MTSION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MTSION.BNB",
+    "displaySymbol": "MTSIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MTSION.SOL",
+    "displaySymbol": "MTSIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MTZON",
+    "displaySymbol": "MTZON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MTZON.BNB",
+    "displaySymbol": "MTZon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MTZON.SOL",
+    "displaySymbol": "MTZon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MUON",
+    "displaySymbol": "MUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MUON.BNB",
+    "displaySymbol": "MUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MUON.SOL",
+    "displaySymbol": "MUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MXLON",
+    "displaySymbol": "MXLON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MXLON.BNB",
+    "displaySymbol": "MXLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MXLON.SOL",
+    "displaySymbol": "MXLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MYRGON",
+    "displaySymbol": "MYRGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MYRGON.BNB",
+    "displaySymbol": "MYRGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "MYRGON.SOL",
+    "displaySymbol": "MYRGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NATON",
+    "displaySymbol": "NATON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NATON.BNB",
+    "displaySymbol": "NATon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NATON.SOL",
+    "displaySymbol": "NATon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NBISON",
+    "displaySymbol": "NBISON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NBISON.BNB",
+    "displaySymbol": "NBISon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NBISON.SOL",
+    "displaySymbol": "NBISon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NEEON",
+    "displaySymbol": "NEEON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NEEON.BNB",
+    "displaySymbol": "NEEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NEEON.SOL",
+    "displaySymbol": "NEEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NEMON",
+    "displaySymbol": "NEMON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NEMON.BNB",
+    "displaySymbol": "NEMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NEMON.SOL",
+    "displaySymbol": "NEMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NETON",
+    "displaySymbol": "NETON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NETON.BNB",
+    "displaySymbol": "NETon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NETON.SOL",
+    "displaySymbol": "NETon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NFLXON",
+    "displaySymbol": "NFLXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NFLXON.BNB",
+    "displaySymbol": "NFLXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NFLXON.SOL",
+    "displaySymbol": "NFLXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NIKLON",
+    "displaySymbol": "NIKLON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NIKLON.BNB",
+    "displaySymbol": "NIKLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NIKLON.SOL",
+    "displaySymbol": "NIKLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NIOON",
+    "displaySymbol": "NIOON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NIOON.BNB",
+    "displaySymbol": "NIOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NIOON.SOL",
+    "displaySymbol": "NIOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NKEON",
+    "displaySymbol": "NKEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NKEON.BNB",
+    "displaySymbol": "NKEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NKEON.SOL",
+    "displaySymbol": "NKEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NNEON",
+    "displaySymbol": "NNEON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NNEON.BNB",
+    "displaySymbol": "NNEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NNEON.SOL",
+    "displaySymbol": "NNEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NOCON",
+    "displaySymbol": "NOCON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NOCON.BNB",
+    "displaySymbol": "NOCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NOCON.SOL",
+    "displaySymbol": "NOCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NOKON",
+    "displaySymbol": "NOKON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NOKON.BNB",
+    "displaySymbol": "NOKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NOKON.SOL",
+    "displaySymbol": "NOKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NOWON",
+    "displaySymbol": "NOWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NOWON.BNB",
+    "displaySymbol": "NOWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NOWON.SOL",
+    "displaySymbol": "NOWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NTESON",
+    "displaySymbol": "NTESON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NTESON.BNB",
+    "displaySymbol": "NTESon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NTESON.SOL",
+    "displaySymbol": "NTESon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NUEON",
+    "displaySymbol": "NUEON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NUEON.BNB",
+    "displaySymbol": "NUEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NUEON.SOL",
+    "displaySymbol": "NUEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVDAON",
+    "displaySymbol": "NVDAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVDAON.BNB",
+    "displaySymbol": "NVDAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVDAON.SOL",
+    "displaySymbol": "NVDAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVMION",
+    "displaySymbol": "NVMION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVMION.BNB",
+    "displaySymbol": "NVMIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVMION.SOL",
+    "displaySymbol": "NVMIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVOON",
+    "displaySymbol": "NVOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVOON.BNB",
+    "displaySymbol": "NVOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVOON.SOL",
+    "displaySymbol": "NVOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVTON",
+    "displaySymbol": "NVTON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVTON.BNB",
+    "displaySymbol": "NVTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVTON.SOL",
+    "displaySymbol": "NVTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVTSON",
+    "displaySymbol": "NVTSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVTSON.BNB",
+    "displaySymbol": "NVTSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "NVTSON.SOL",
+    "displaySymbol": "NVTSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OIHON",
+    "displaySymbol": "OIHON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OIHON.BNB",
+    "displaySymbol": "OIHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OIHON.SOL",
+    "displaySymbol": "OIHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OIION",
+    "displaySymbol": "OIION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OIION.BNB",
+    "displaySymbol": "OIIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OIION.SOL",
+    "displaySymbol": "OIIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OKLOON",
+    "displaySymbol": "OKLOON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OKLOON.BNB",
+    "displaySymbol": "OKLOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OKLOON.SOL",
+    "displaySymbol": "OKLOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ONDSON",
+    "displaySymbol": "ONDSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ONDSON.BNB",
+    "displaySymbol": "ONDSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ONDSON.SOL",
+    "displaySymbol": "ONDSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ONON",
+    "displaySymbol": "ONON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ONON.BNB",
+    "displaySymbol": "ONon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ONON.SOL",
+    "displaySymbol": "ONon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ONTOON",
+    "displaySymbol": "ONTOON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ONTOON.BNB",
+    "displaySymbol": "ONTOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ONTOON.SOL",
+    "displaySymbol": "ONTOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OPAIPON",
+    "displaySymbol": "OPAIPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OPENON",
+    "displaySymbol": "OPENON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OPENON.BNB",
+    "displaySymbol": "OPENon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OPENON.SOL",
+    "displaySymbol": "OPENon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OPRAON",
+    "displaySymbol": "OPRAON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OPRAON.BNB",
+    "displaySymbol": "OPRAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OPRAON.SOL",
+    "displaySymbol": "OPRAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ORBXON",
+    "displaySymbol": "ORBXON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ORBXON.BNB",
+    "displaySymbol": "ORBXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ORBXON.SOL",
+    "displaySymbol": "ORBXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ORCLON",
+    "displaySymbol": "ORCLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ORCLON.BNB",
+    "displaySymbol": "ORCLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ORCLON.SOL",
+    "displaySymbol": "ORCLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OSCRON",
+    "displaySymbol": "OSCRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OSCRON.BNB",
+    "displaySymbol": "OSCRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OSCRON.SOL",
+    "displaySymbol": "OSCRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OUSTON",
+    "displaySymbol": "OUSTON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OUSTON.BNB",
+    "displaySymbol": "OUSTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OUSTON.SOL",
+    "displaySymbol": "OUSTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OXYON",
+    "displaySymbol": "OXYON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OXYON.BNB",
+    "displaySymbol": "OXYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "OXYON.SOL",
+    "displaySymbol": "OXYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PALLON",
+    "displaySymbol": "PALLON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PALLON.BNB",
+    "displaySymbol": "PALLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PALLON.SOL",
+    "displaySymbol": "PALLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PANWON",
+    "displaySymbol": "PANWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PANWON.BNB",
+    "displaySymbol": "PANWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PANWON.SOL",
+    "displaySymbol": "PANWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PAVEON",
+    "displaySymbol": "PAVEON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PAVEON.BNB",
+    "displaySymbol": "PAVEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PAVEON.SOL",
+    "displaySymbol": "PAVEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PBRON",
+    "displaySymbol": "PBRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PBRON.BNB",
+    "displaySymbol": "PBRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PBRON.SOL",
+    "displaySymbol": "PBRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PCGON",
+    "displaySymbol": "PCGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PCGON.BNB",
+    "displaySymbol": "PCGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PCGON.SOL",
+    "displaySymbol": "PCGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PDBCON",
+    "displaySymbol": "PDBCON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PDBCON.BNB",
+    "displaySymbol": "PDBCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PDBCON.SOL",
+    "displaySymbol": "PDBCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PDDON",
+    "displaySymbol": "PDDON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PDDON.BNB",
+    "displaySymbol": "PDDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PDDON.SOL",
+    "displaySymbol": "PDDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PENGON",
+    "displaySymbol": "PENGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PENGON.BNB",
+    "displaySymbol": "PENGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PENGON.SOL",
+    "displaySymbol": "PENGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PEPON",
+    "displaySymbol": "PEPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PEPON.BNB",
+    "displaySymbol": "PEPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PEPON.SOL",
+    "displaySymbol": "PEPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PFEON",
+    "displaySymbol": "PFEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PFEON.BNB",
+    "displaySymbol": "PFEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PFEON.SOL",
+    "displaySymbol": "PFEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PGON",
+    "displaySymbol": "PGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PGON.BNB",
+    "displaySymbol": "PGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PGON.SOL",
+    "displaySymbol": "PGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PINSON",
+    "displaySymbol": "PINSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PINSON.BNB",
+    "displaySymbol": "PINSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PINSON.SOL",
+    "displaySymbol": "PINSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PLON",
+    "displaySymbol": "PLON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PLON.BNB",
+    "displaySymbol": "PLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PLON.SOL",
+    "displaySymbol": "PLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PLTRON",
+    "displaySymbol": "PLTRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PLTRON.BNB",
+    "displaySymbol": "PLTRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PLTRON.SOL",
+    "displaySymbol": "PLTRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PLUGON",
+    "displaySymbol": "PLUGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PLUGON.BNB",
+    "displaySymbol": "PLUGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PLUGON.SOL",
+    "displaySymbol": "PLUGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "POWION",
+    "displaySymbol": "POWION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "POWION.BNB",
+    "displaySymbol": "POWIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "POWION.SOL",
+    "displaySymbol": "POWIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "POWLON",
+    "displaySymbol": "POWLON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "POWLON.BNB",
+    "displaySymbol": "POWLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "POWLON.SOL",
+    "displaySymbol": "POWLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PPLTON",
+    "displaySymbol": "PPLTON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PPLTON.BNB",
+    "displaySymbol": "PPLTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PPLTON.SOL",
+    "displaySymbol": "PPLTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PRIMON",
+    "displaySymbol": "PRIMON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PRIMON.BNB",
+    "displaySymbol": "PRIMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PRIMON.SOL",
+    "displaySymbol": "PRIMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PSQON",
+    "displaySymbol": "PSQON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PSQON.BNB",
+    "displaySymbol": "PSQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PSQON.SOL",
+    "displaySymbol": "PSQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PURRON",
+    "displaySymbol": "PURRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PURRON.BNB",
+    "displaySymbol": "PURRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PURRON.SOL",
+    "displaySymbol": "PURRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PWRON",
+    "displaySymbol": "PWRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PWRON.BNB",
+    "displaySymbol": "PWRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PWRON.SOL",
+    "displaySymbol": "PWRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PYPLON",
+    "displaySymbol": "PYPLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PYPLON.BNB",
+    "displaySymbol": "PYPLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "PYPLON.SOL",
+    "displaySymbol": "PYPLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QBTSON",
+    "displaySymbol": "QBTSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QBTSON.BNB",
+    "displaySymbol": "QBTSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QBTSON.SOL",
+    "displaySymbol": "QBTSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QCOMON",
+    "displaySymbol": "QCOMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QCOMON.BNB",
+    "displaySymbol": "QCOMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QCOMON.SOL",
+    "displaySymbol": "QCOMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QLTAON",
+    "displaySymbol": "QLTAON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QLTAON.BNB",
+    "displaySymbol": "QLTAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QLTAON.SOL",
+    "displaySymbol": "QLTAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QQQON",
+    "displaySymbol": "QQQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QQQON.BNB",
+    "displaySymbol": "QQQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QQQON.SOL",
+    "displaySymbol": "QQQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QTUMON",
+    "displaySymbol": "QTUMON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QTUMON.BNB",
+    "displaySymbol": "QTUMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QTUMON.SOL",
+    "displaySymbol": "QTUMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QUBTON",
+    "displaySymbol": "QUBTON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QUBTON.BNB",
+    "displaySymbol": "QUBTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QUBTON.SOL",
+    "displaySymbol": "QUBTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QYLDON",
+    "displaySymbol": "QYLDON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QYLDON.BNB",
+    "displaySymbol": "QYLDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "QYLDON.SOL",
+    "displaySymbol": "QYLDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RDDTON",
+    "displaySymbol": "RDDTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RDDTON.BNB",
+    "displaySymbol": "RDDTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RDDTON.SOL",
+    "displaySymbol": "RDDTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RDWON",
+    "displaySymbol": "RDWON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RDWON.BNB",
+    "displaySymbol": "RDWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RDWON.SOL",
+    "displaySymbol": "RDWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "REGNON",
+    "displaySymbol": "REGNON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "REGNON.BNB",
+    "displaySymbol": "REGNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "REGNON.SOL",
+    "displaySymbol": "REGNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "REMXON",
+    "displaySymbol": "REMXON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "REMXON.BNB",
+    "displaySymbol": "REMXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "REMXON.SOL",
+    "displaySymbol": "REMXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RGTION",
+    "displaySymbol": "RGTION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RGTION.BNB",
+    "displaySymbol": "RGTIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RGTION.SOL",
+    "displaySymbol": "RGTIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RIOTON",
+    "displaySymbol": "RIOTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RIOTON.BNB",
+    "displaySymbol": "RIOTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RIOTON.SOL",
+    "displaySymbol": "RIOTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RIVNON",
+    "displaySymbol": "RIVNON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RIVNON.BNB",
+    "displaySymbol": "RIVNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RIVNON.SOL",
+    "displaySymbol": "RIVNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RKLBON",
+    "displaySymbol": "RKLBON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RKLBON.BNB",
+    "displaySymbol": "RKLBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RKLBON.SOL",
+    "displaySymbol": "RKLBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RMBSON",
+    "displaySymbol": "RMBSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RMBSON.BNB",
+    "displaySymbol": "RMBSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RMBSON.SOL",
+    "displaySymbol": "RMBSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ROKON",
+    "displaySymbol": "ROKON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ROKON.BNB",
+    "displaySymbol": "ROKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "ROKON.SOL",
+    "displaySymbol": "ROKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RTXON",
+    "displaySymbol": "RTXON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RTXON.BNB",
+    "displaySymbol": "RTXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "RTXON.SOL",
+    "displaySymbol": "RTXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SAPON",
+    "displaySymbol": "SAPON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SAPON.BNB",
+    "displaySymbol": "SAPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SAPON.SOL",
+    "displaySymbol": "SAPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SATAON",
+    "displaySymbol": "SATAON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SATAON.BNB",
+    "displaySymbol": "SATAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SATAON.SOL",
+    "displaySymbol": "SATAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SBETON",
+    "displaySymbol": "SBETon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SBETON.BNB",
+    "displaySymbol": "SBETon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SBETON.SOL",
+    "displaySymbol": "SBETon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SBUXON",
+    "displaySymbol": "SBUXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SBUXON.BNB",
+    "displaySymbol": "SBUXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SBUXON.SOL",
+    "displaySymbol": "SBUXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SCCOON",
+    "displaySymbol": "SCCOON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SCCOON.BNB",
+    "displaySymbol": "SCCOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SCCOON.SOL",
+    "displaySymbol": "SCCOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SCHWON",
+    "displaySymbol": "SCHWON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SCHWON.BNB",
+    "displaySymbol": "SCHWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SCHWON.SOL",
+    "displaySymbol": "SCHWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SEDGON",
+    "displaySymbol": "SEDGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SEDGON.BNB",
+    "displaySymbol": "SEDGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SEDGON.SOL",
+    "displaySymbol": "SEDGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SGOVON",
+    "displaySymbol": "SGOVON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SGOVON.BNB",
+    "displaySymbol": "SGOVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SGOVON.SOL",
+    "displaySymbol": "SGOVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SHLDON",
+    "displaySymbol": "SHLDON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SHLDON.BNB",
+    "displaySymbol": "SHLDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SHLDON.SOL",
+    "displaySymbol": "SHLDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SHOPON",
+    "displaySymbol": "SHOPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SHOPON.BNB",
+    "displaySymbol": "SHOPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SHOPON.SOL",
+    "displaySymbol": "SHOPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SHYON",
+    "displaySymbol": "SHYON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SHYON.BNB",
+    "displaySymbol": "SHYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SHYON.SOL",
+    "displaySymbol": "SHYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SILON",
+    "displaySymbol": "SILON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SILON.BNB",
+    "displaySymbol": "SILon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SILON.SOL",
+    "displaySymbol": "SILon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SKHYON",
+    "displaySymbol": "SKHYON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SKHYON.BNB",
+    "displaySymbol": "SKHYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SKHYON.SOL",
+    "displaySymbol": "SKHYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SLBON",
+    "displaySymbol": "SLBON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SLBON.BNB",
+    "displaySymbol": "SLBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SLBON.SOL",
+    "displaySymbol": "SLBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SLVON",
+    "displaySymbol": "SLVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SLVON.BNB",
+    "displaySymbol": "SLVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SLVON.SOL",
+    "displaySymbol": "SLVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SMCION",
+    "displaySymbol": "SMCIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SMCION.BNB",
+    "displaySymbol": "SMCIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SMCION.SOL",
+    "displaySymbol": "SMCIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SMRON",
+    "displaySymbol": "SMRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SMRON.BNB",
+    "displaySymbol": "SMRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SMRON.SOL",
+    "displaySymbol": "SMRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SNAPON",
+    "displaySymbol": "SNAPON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SNAPON.BNB",
+    "displaySymbol": "SNAPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SNAPON.SOL",
+    "displaySymbol": "SNAPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SNDKON",
+    "displaySymbol": "SNDKON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SNDKON.BNB",
+    "displaySymbol": "SNDKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SNDKON.SOL",
+    "displaySymbol": "SNDKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SNOWON",
+    "displaySymbol": "SNOWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SNOWON.BNB",
+    "displaySymbol": "SNOWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SNOWON.SOL",
+    "displaySymbol": "SNOWon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOFION",
+    "displaySymbol": "SOFION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOFION.BNB",
+    "displaySymbol": "SOFIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOFION.SOL",
+    "displaySymbol": "SOFIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOON.BNB",
+    "displaySymbol": "SOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOON.SOL",
+    "displaySymbol": "SOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOON2",
+    "displaySymbol": "SOON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOUNON",
+    "displaySymbol": "SOUNON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOUNON.BNB",
+    "displaySymbol": "SOUNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOUNON.SOL",
+    "displaySymbol": "SOUNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOXLON",
+    "displaySymbol": "SOXLON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOXLON.BNB",
+    "displaySymbol": "SOXLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOXLON.SOL",
+    "displaySymbol": "SOXLon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOXQON",
+    "displaySymbol": "SOXQON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOXQON.BNB",
+    "displaySymbol": "SOXQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOXQON.SOL",
+    "displaySymbol": "SOXQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOXSON",
+    "displaySymbol": "SOXSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOXSON.BNB",
+    "displaySymbol": "SOXSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOXSON.SOL",
+    "displaySymbol": "SOXSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOXXON",
+    "displaySymbol": "SOXXON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOXXON.BNB",
+    "displaySymbol": "SOXXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SOXXON.SOL",
+    "displaySymbol": "SOXXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SPCXON",
+    "displaySymbol": "SPCXON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SPCXON.BNB",
+    "displaySymbol": "SPCXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SPCXON.SOL",
+    "displaySymbol": "SPCXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SPGION",
+    "displaySymbol": "SPGIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SPGION.BNB",
+    "displaySymbol": "SPGIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SPGION.SOL",
+    "displaySymbol": "SPGIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SPOTON",
+    "displaySymbol": "SPOTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SPOTON.BNB",
+    "displaySymbol": "SPOTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SPOTON.SOL",
+    "displaySymbol": "SPOTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SPYON",
+    "displaySymbol": "SPYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SPYON.BNB",
+    "displaySymbol": "SPYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SPYON.SOL",
+    "displaySymbol": "SPYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SQQQON",
+    "displaySymbol": "SQQQON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SQQQON.BNB",
+    "displaySymbol": "SQQQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SQQQON.SOL",
+    "displaySymbol": "SQQQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STLDON",
+    "displaySymbol": "STLDON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STLDON.BNB",
+    "displaySymbol": "STLDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STLDON.SOL",
+    "displaySymbol": "STLDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STMON",
+    "displaySymbol": "STMON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STMON.BNB",
+    "displaySymbol": "STMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STMON.SOL",
+    "displaySymbol": "STMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STNGON",
+    "displaySymbol": "STNGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STNGON.BNB",
+    "displaySymbol": "STNGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STNGON.SOL",
+    "displaySymbol": "STNGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STRCON",
+    "displaySymbol": "STRCON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STRCON.BNB",
+    "displaySymbol": "STRCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STRCON.SOL",
+    "displaySymbol": "STRCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STXON",
+    "displaySymbol": "STXON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STXON.BNB",
+    "displaySymbol": "STXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "STXON.SOL",
+    "displaySymbol": "STXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SWKSON",
+    "displaySymbol": "SWKSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SWKSON.BNB",
+    "displaySymbol": "SWKSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SWKSON.SOL",
+    "displaySymbol": "SWKSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SYMON",
+    "displaySymbol": "SYMON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SYMON.BNB",
+    "displaySymbol": "SYMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "SYMON.SOL",
+    "displaySymbol": "SYMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TASKON",
+    "displaySymbol": "TASKON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TASKON.BNB",
+    "displaySymbol": "TASKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TASKON.SOL",
+    "displaySymbol": "TASKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TCOMON",
+    "displaySymbol": "TCOMON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TCOMON.BNB",
+    "displaySymbol": "TCOMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TCOMON.SOL",
+    "displaySymbol": "TCOMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TELON",
+    "displaySymbol": "TELON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TELON.BNB",
+    "displaySymbol": "TELon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TELON.SOL",
+    "displaySymbol": "TELon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TENON",
+    "displaySymbol": "TENON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TENON.BNB",
+    "displaySymbol": "TENon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TENON.SOL",
+    "displaySymbol": "TENon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TERON",
+    "displaySymbol": "TERON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TERON.BNB",
+    "displaySymbol": "TERon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TERON.SOL",
+    "displaySymbol": "TERon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TIPON",
+    "displaySymbol": "TIPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TIPON.BNB",
+    "displaySymbol": "TIPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TIPON.SOL",
+    "displaySymbol": "TIPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TLNON",
+    "displaySymbol": "TLNON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TLNON.BNB",
+    "displaySymbol": "TLNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TLNON.SOL",
+    "displaySymbol": "TLNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TLTON",
+    "displaySymbol": "TLTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TLTON.BNB",
+    "displaySymbol": "TLTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TLTON.SOL",
+    "displaySymbol": "TLTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TMON",
+    "displaySymbol": "TMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TMON.BNB",
+    "displaySymbol": "TMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TMON.SOL",
+    "displaySymbol": "TMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TMOON",
+    "displaySymbol": "TMOON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TMOON.BNB",
+    "displaySymbol": "TMOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TMOON.SOL",
+    "displaySymbol": "TMOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TMUSON",
+    "displaySymbol": "TMUSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TMUSON.BNB",
+    "displaySymbol": "TMUSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TMUSON.SOL",
+    "displaySymbol": "TMUSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TNKON",
+    "displaySymbol": "TNKON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TNKON.BNB",
+    "displaySymbol": "TNKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TNKON.SOL",
+    "displaySymbol": "TNKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TON.BNB",
+    "displaySymbol": "Ton",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TON.SOL",
+    "displaySymbol": "Ton",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TON2",
+    "displaySymbol": "TON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TQQQON",
+    "displaySymbol": "TQQQON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TQQQON.BNB",
+    "displaySymbol": "TQQQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TQQQON.SOL",
+    "displaySymbol": "TQQQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TSEMON",
+    "displaySymbol": "TSEMON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TSEMON.BNB",
+    "displaySymbol": "TSEMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TSEMON.SOL",
+    "displaySymbol": "TSEMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TSLAON",
+    "displaySymbol": "TSLAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TSLAON.BNB",
+    "displaySymbol": "TSLAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TSLAON.SOL",
+    "displaySymbol": "TSLAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TSMON",
+    "displaySymbol": "TSMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TSMON.BNB",
+    "displaySymbol": "TSMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TSMON.SOL",
+    "displaySymbol": "TSMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TTMION",
+    "displaySymbol": "TTMION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TTMION.BNB",
+    "displaySymbol": "TTMIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TTMION.SOL",
+    "displaySymbol": "TTMIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TTON",
+    "displaySymbol": "TTON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TTON.BNB",
+    "displaySymbol": "TTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TTON.SOL",
+    "displaySymbol": "TTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TXNON",
+    "displaySymbol": "TXNON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TXNON.BNB",
+    "displaySymbol": "TXNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "TXNON.SOL",
+    "displaySymbol": "TXNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UAMYON",
+    "displaySymbol": "UAMYON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UAMYON.BNB",
+    "displaySymbol": "UAMYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UAMYON.SOL",
+    "displaySymbol": "UAMYon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UBERON",
+    "displaySymbol": "UBERon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UBERON.BNB",
+    "displaySymbol": "UBERon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UBERON.SOL",
+    "displaySymbol": "UBERon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UCTTON",
+    "displaySymbol": "UCTTON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UCTTON.BNB",
+    "displaySymbol": "UCTTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UCTTON.SOL",
+    "displaySymbol": "UCTTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UECON",
+    "displaySymbol": "UECON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UECON.BNB",
+    "displaySymbol": "UECon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UECON.SOL",
+    "displaySymbol": "UECon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UMCON",
+    "displaySymbol": "UMCON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UMCON.BNB",
+    "displaySymbol": "UMCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UMCON.SOL",
+    "displaySymbol": "UMCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UNGON",
+    "displaySymbol": "UNGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UNGON.BNB",
+    "displaySymbol": "UNGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UNGON.SOL",
+    "displaySymbol": "UNGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UNHON",
+    "displaySymbol": "UNHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UNHON.BNB",
+    "displaySymbol": "UNHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UNHON.SOL",
+    "displaySymbol": "UNHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UNPON",
+    "displaySymbol": "UNPON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UNPON.BNB",
+    "displaySymbol": "UNPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UNPON.SOL",
+    "displaySymbol": "UNPon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "URAON",
+    "displaySymbol": "URAON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "URAON.BNB",
+    "displaySymbol": "URAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "URAON.SOL",
+    "displaySymbol": "URAon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "URNMON",
+    "displaySymbol": "URNMON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "URNMON.BNB",
+    "displaySymbol": "URNMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "URNMON.SOL",
+    "displaySymbol": "URNMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "USARON",
+    "displaySymbol": "USARON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "USARON.BNB",
+    "displaySymbol": "USARon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "USARON.SOL",
+    "displaySymbol": "USARon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "USDON",
+    "displaySymbol": "USDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "USDON.BNB",
+    "displaySymbol": "USDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "USDON.SOL",
+    "displaySymbol": "USDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "USFRON",
+    "displaySymbol": "USFRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "USFRON.BNB",
+    "displaySymbol": "USFRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "USFRON.SOL",
+    "displaySymbol": "USFRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "USOON",
+    "displaySymbol": "USOON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "USOON.BNB",
+    "displaySymbol": "USOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "USOON.SOL",
+    "displaySymbol": "USOon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UUUUON",
+    "displaySymbol": "UUUUON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UUUUON.BNB",
+    "displaySymbol": "UUUUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "UUUUON.SOL",
+    "displaySymbol": "UUUUon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VCXON",
+    "displaySymbol": "VCXON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VCXON.BNB",
+    "displaySymbol": "VCXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VCXON.SOL",
+    "displaySymbol": "VCXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VDEON",
+    "displaySymbol": "VDEON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VDEON.BNB",
+    "displaySymbol": "VDEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VDEON.SOL",
+    "displaySymbol": "VDEon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VFSON",
+    "displaySymbol": "VFSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VFSON.BNB",
+    "displaySymbol": "VFSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VFSON.SOL",
+    "displaySymbol": "VFSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VICRON",
+    "displaySymbol": "VICRON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VICRON.BNB",
+    "displaySymbol": "VICRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VICRON.SOL",
+    "displaySymbol": "VICRon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VNQON",
+    "displaySymbol": "VNQON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VNQON.BNB",
+    "displaySymbol": "VNQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VNQON.SOL",
+    "displaySymbol": "VNQon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VON",
+    "displaySymbol": "Von",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VON.SOL",
+    "displaySymbol": "Von",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VON2.BNB",
+    "displaySymbol": "Von",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VPGON",
+    "displaySymbol": "VPGON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VPGON.BNB",
+    "displaySymbol": "VPGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VPGON.SOL",
+    "displaySymbol": "VPGon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VRSNON",
+    "displaySymbol": "VRSNON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VRSNON.BNB",
+    "displaySymbol": "VRSNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VRSNON.SOL",
+    "displaySymbol": "VRSNon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VRTON",
+    "displaySymbol": "VRTON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VRTON.BNB",
+    "displaySymbol": "VRTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VRTON.SOL",
+    "displaySymbol": "VRTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VRTXON",
+    "displaySymbol": "VRTXON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VRTXON.BNB",
+    "displaySymbol": "VRTXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VRTXON.SOL",
+    "displaySymbol": "VRTXon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VSHON",
+    "displaySymbol": "VSHON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VSHON.BNB",
+    "displaySymbol": "VSHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VSHON.SOL",
+    "displaySymbol": "VSHon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VSTON",
+    "displaySymbol": "VSTON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VSTON.BNB",
+    "displaySymbol": "VSTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VSTON.SOL",
+    "displaySymbol": "VSTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VTION",
+    "displaySymbol": "VTION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VTION.BNB",
+    "displaySymbol": "VTIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VTION.SOL",
+    "displaySymbol": "VTIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VTVON",
+    "displaySymbol": "VTVON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VTVON.BNB",
+    "displaySymbol": "VTVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VTVON.SOL",
+    "displaySymbol": "VTVon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VZON",
+    "displaySymbol": "VZON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VZON.BNB",
+    "displaySymbol": "VZon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "VZON.SOL",
+    "displaySymbol": "VZon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WCCON",
+    "displaySymbol": "WCCON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WCCON.BNB",
+    "displaySymbol": "WCCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WCCON.SOL",
+    "displaySymbol": "WCCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WDCON",
+    "displaySymbol": "WDCON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WDCON.BNB",
+    "displaySymbol": "WDCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WDCON.SOL",
+    "displaySymbol": "WDCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WFCON",
+    "displaySymbol": "WFCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WFCON.BNB",
+    "displaySymbol": "WFCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WFCON.SOL",
+    "displaySymbol": "WFCon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WLKON",
+    "displaySymbol": "WLKON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WLKON.BNB",
+    "displaySymbol": "WLKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WLKON.SOL",
+    "displaySymbol": "WLKon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WMBON",
+    "displaySymbol": "WMBON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WMBON.BNB",
+    "displaySymbol": "WMBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WMBON.SOL",
+    "displaySymbol": "WMBon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WMON",
+    "displaySymbol": "WMON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WMON.BNB",
+    "displaySymbol": "WMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WMON.SOL",
+    "displaySymbol": "WMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WMTON",
+    "displaySymbol": "WMTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WMTON.BNB",
+    "displaySymbol": "WMTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WMTON.SOL",
+    "displaySymbol": "WMTon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WOLFON",
+    "displaySymbol": "WOLFON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WOLFON.BNB",
+    "displaySymbol": "WOLFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WOLFON.SOL",
+    "displaySymbol": "WOLFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WSON",
+    "displaySymbol": "WSON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WSON.BNB",
+    "displaySymbol": "WSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WSON.SOL",
+    "displaySymbol": "WSon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WULFON",
+    "displaySymbol": "WULFON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WULFON.BNB",
+    "displaySymbol": "WULFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WULFON.SOL",
+    "displaySymbol": "WULFon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WYFION",
+    "displaySymbol": "WYFION",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WYFION.BNB",
+    "displaySymbol": "WYFIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "WYFION.SOL",
+    "displaySymbol": "WYFIon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "XOMON",
+    "displaySymbol": "XOMON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "XOMON.BNB",
+    "displaySymbol": "XOMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "XOMON.SOL",
+    "displaySymbol": "XOMon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "XYLDON",
+    "displaySymbol": "XYLDON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "XYLDON.BNB",
+    "displaySymbol": "XYLDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "XYLDON.SOL",
+    "displaySymbol": "XYLDon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "XYZON",
+    "displaySymbol": "XYZON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "XYZON.BNB",
+    "displaySymbol": "XYZon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "XYZON.SOL",
+    "displaySymbol": "XYZon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "YEARON",
+    "displaySymbol": "YEARON",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "YEARON.BNB",
+    "displaySymbol": "YEARon",
+    "type": "ERC20"
+  },
+  {
+    "symbol": "YEARON.SOL",
+    "displaySymbol": "YEARon",
+    "type": "ERC20"
+  }
+]
