@@ -7,7 +7,7 @@ from functools import reduce
 from typing import List
 
 from common_classes import Coin, Token
-from statics import BC_REPO_ROOT, EXT_PRICES
+from statics import CURRENCY_LOGOS_ROOT, EXT_PRICES
 from utils import read_json
 
 EXT_FIATS = "extensions/fiats/"
@@ -150,7 +150,7 @@ class Fiat:
         return os.path.join(EXT_FIATS, self.symbol, "logo.png")
 
     def expected_logo_url(self):
-        return BC_REPO_ROOT + self.logo_path()
+        return CURRENCY_LOGOS_ROOT + f"fiat/{self.symbol}.png"
 
 
 def find_duplicates(items, key):
