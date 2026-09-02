@@ -301,6 +301,32 @@ def get_price_from_ref(
         raise Exception("Unexpected type")
 
 
+def check_defi_groups(
+        groups: List[Group],
+        coins_dict: dict[str, Coin],
+        eth_erc20_tokens_dict: dict[str, Token],
+        chains_dict: dict[str, dict[str, Token]]
+):
+    # Mirrors check_groups' structural checks for non-custodial DeFi groups (e.g. Ondo
+    # tokenized-stock symbols spread across ETH/BNB/SOL). This is intentionally kept
+    # separate from custody.json/groups.json and has no price dependency: these assets
+    # aren't custodial, so there's no withdrawal-safety price invariant to enforce here,
+    # and the dotted-suffix-must-match-parent rule doesn't hold once a symbol collision
+    # forces a different disambiguated name on one network (e.g. parent TON2, child TON.BNB).
+    # Unlike check_groups, an empty childSymbols list is allowed: a token that's only ever
+    # been issued on one network still gets a group of its own, just with no siblings yet.
+    # All DeFi symbols are ERC20-family (native suffix picks the chain), so there's no
+    # per-symbol type to look up - resolution goes straight to the real per-chain lists.
+    for group in groups:
+        if group.parentSymbol in group.childSymbols:
+            yield Error(group.parentSymbol, f"also present in childSymbols")
+
+        for symbol in [group.parentSymbol] + group.childSymbols:
+            ref = load_ref("ERC20", symbol, coins_dict, eth_erc20_tokens_dict, chains_dict)
+            if ref is None:
+                yield Error(symbol, f"defined in defi-groups.json but reference not found")
+
+
 def check_currencies(
         custody_currencies: list[CustodyCurrency],
         coins: list[Coin],
@@ -341,6 +367,8 @@ def main():
     custody_currencies = list(map(lambda x: CustodyCurrency(**x), read_json("custody.json")))
     fiats = list(map(lambda x: Fiat(**x), read_json("fiat.json")))
 
+    defi_groups = list(map(lambda x: Group(**x), read_json("defi-groups.json")))
+
     combined = sorted(itertools.chain(coins, eth_erc20_tokens, other_tokens), key=lambda x: x.symbol)
     duplicates = find_duplicates(combined, lambda t: t.symbol.upper())
 
@@ -355,9 +383,13 @@ def main():
     print(f"Total: {len(combined)}")
 
     prices = read_json(EXT_PRICES)['prices']
+    coins_dict = {x.symbol: x for x in coins}
+    eth_erc20_tokens_dict = {x.symbol: x for x in eth_erc20_tokens}
+    chains_dict = {k: {t.symbol: t for t in v} for k, v in chains.items()}
     issues = list(itertools.chain(
         check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices, groups),
         check_fiats(fiats),
+        check_defi_groups(defi_groups, coins_dict, eth_erc20_tokens_dict, chains_dict),
     ))
 
     print("")
