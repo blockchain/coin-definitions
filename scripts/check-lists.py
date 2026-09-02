@@ -137,13 +137,6 @@ class Group:
 
 
 @dataclass
-class DefiCurrency:
-    symbol: str
-    displaySymbol: str
-    type: str
-
-
-@dataclass
 class Fiat:
     symbol: str
     name: str
@@ -310,7 +303,6 @@ def get_price_from_ref(
 
 def check_defi_groups(
         groups: List[Group],
-        defi_currencies: list[DefiCurrency],
         coins_dict: dict[str, Coin],
         eth_erc20_tokens_dict: dict[str, Token],
         chains_dict: dict[str, dict[str, Token]]
@@ -323,18 +315,14 @@ def check_defi_groups(
     # forces a different disambiguated name on one network (e.g. parent TON2, child TON.BNB).
     # Unlike check_groups, an empty childSymbols list is allowed: a token that's only ever
     # been issued on one network still gets a group of its own, just with no siblings yet.
-    defi_by_symbol = {c.symbol: c for c in defi_currencies}
-
+    # All DeFi symbols are ERC20-family (native suffix picks the chain), so there's no
+    # per-symbol type to look up - resolution goes straight to the real per-chain lists.
     for group in groups:
         if group.parentSymbol in group.childSymbols:
             yield Error(group.parentSymbol, f"also present in childSymbols")
 
         for symbol in [group.parentSymbol] + group.childSymbols:
-            defi_currency = defi_by_symbol.get(symbol)
-            if defi_currency is None:
-                yield Error(symbol, f"defined in defi-groups.json but not in defi.json")
-                continue
-            ref = load_ref(defi_currency.type, symbol, coins_dict, eth_erc20_tokens_dict, chains_dict)
+            ref = load_ref("ERC20", symbol, coins_dict, eth_erc20_tokens_dict, chains_dict)
             if ref is None:
                 yield Error(symbol, f"defined in defi-groups.json but reference not found")
 
@@ -380,7 +368,6 @@ def main():
     fiats = list(map(lambda x: Fiat(**x), read_json("fiat.json")))
 
     defi_groups = list(map(lambda x: Group(**x), read_json("defi-groups.json")))
-    defi_currencies = list(map(lambda x: DefiCurrency(**x), read_json("defi.json")))
 
     combined = sorted(itertools.chain(coins, eth_erc20_tokens, other_tokens), key=lambda x: x.symbol)
     duplicates = find_duplicates(combined, lambda t: t.symbol.upper())
@@ -402,7 +389,7 @@ def main():
     issues = list(itertools.chain(
         check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices, groups),
         check_fiats(fiats),
-        check_defi_groups(defi_groups, defi_currencies, coins_dict, eth_erc20_tokens_dict, chains_dict),
+        check_defi_groups(defi_groups, coins_dict, eth_erc20_tokens_dict, chains_dict),
     ))
 
     print("")
