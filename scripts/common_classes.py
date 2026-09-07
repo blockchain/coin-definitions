@@ -1,9 +1,8 @@
 import os
 import re
 from dataclasses import dataclass, replace, fields, is_dataclass
-from urllib.parse import urljoin
 
-from statics import CURRENCY_LOGOS_ROOT, EXT_BLOCKCHAINS, BLOCKCHAINS, TW_REPO_ROOT
+from statics import CURRENCY_LOGOS_ROOT, EXT_BLOCKCHAINS, BLOCKCHAINS
 
 
 def build_dataclass_from_dict(cls, dict_):
@@ -78,10 +77,10 @@ class Coin:
 
     @staticmethod
     def build_currency_logo(key):
-        if os.path.exists(os.path.join(EXT_BLOCKCHAINS, key, "info", "logo.png")):
+        # the local files still decide whether a coin has a logo, not where it lives
+        if os.path.exists(os.path.join(EXT_BLOCKCHAINS, key, "info", "logo.png")) \
+                or os.path.exists(os.path.join(BLOCKCHAINS, key, "info", "logo.png")):
             return CURRENCY_LOGOS_ROOT + f"coin/{key}.png"
-        elif os.path.exists(os.path.join(BLOCKCHAINS, key, "info", "logo.png")):
-            return TW_REPO_ROOT + os.path.join("blockchains", key, "info", "logo.png")
         else:
             return None
 
@@ -124,12 +123,7 @@ class Token:
 
     @staticmethod
     def build_token_logo(address, chain):
-        if os.path.exists(os.path.join(f"extensions/blockchains/{chain}/assets/", address, "logo.png")):
-            # our own images are served from the CDN; the ones we still hotlink are not
-            return CURRENCY_LOGOS_ROOT + f"token/{chain}/{address}.png"
-        base_path = TW_REPO_ROOT + f"blockchains/{chain}/assets/"
-        asset_path = urljoin(base_path, address + "/")
-        return urljoin(asset_path, "logo.png")
+        return CURRENCY_LOGOS_ROOT + f"token/{chain}/{address}.png"
 
     @staticmethod
     def from_asset(asset, chain):
