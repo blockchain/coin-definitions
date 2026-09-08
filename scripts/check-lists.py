@@ -2,7 +2,7 @@ import hashlib
 import itertools
 import operator
 import os
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from functools import reduce
 from typing import List
 
@@ -134,6 +134,10 @@ class Chain:
 class Group:
     parentSymbol: str
     childSymbols: List[str]
+    # Only meaningful in defi-groups.json: for a composite Ondo token, the parentSymbols of the
+    # other (single-stock) defi groups making up its basket. Empty for single-stock tokens and
+    # unused in groups.json.
+    constituentSymbols: List[str] = field(default_factory=list)
 
 
 @dataclass
@@ -317,6 +321,12 @@ def check_defi_groups(
     # been issued on one network still gets a group of its own, just with no siblings yet.
     # All DeFi symbols are ERC20-family (native suffix picks the chain), so there's no
     # per-symbol type to look up - resolution goes straight to the real per-chain lists.
+    #
+    # A composite Ondo token (e.g. a basket of several stocks) lists its basket members via
+    # constituentSymbols instead of being backed by one stock: those must each already exist as
+    # their own defi group (i.e. as some other group's parentSymbol) - a constituent is never an
+    # arbitrary token reference, and it can't point back at its own composite group.
+    parent_symbols = {group.parentSymbol for group in groups}
     for group in groups:
         if group.parentSymbol in group.childSymbols:
             yield Error(group.parentSymbol, f"also present in childSymbols")
@@ -325,6 +335,15 @@ def check_defi_groups(
             ref = load_ref("ERC20", symbol, coins_dict, eth_erc20_tokens_dict, chains_dict)
             if ref is None:
                 yield Error(symbol, f"defined in defi-groups.json but reference not found")
+
+        for constituent in group.constituentSymbols:
+            if constituent == group.parentSymbol:
+                yield Error(group.parentSymbol, f"constituentSymbols can't reference itself")
+            elif constituent not in parent_symbols:
+                yield Error(
+                    group.parentSymbol,
+                    f"constituentSymbols entry {constituent} is not a parentSymbol of any defi group"
+                )
 
 
 def check_currencies(
