@@ -330,3 +330,27 @@ Ondo's tokenized-stock tokens (e.g. `AAPLON`, `TSLAON` — the `{TICKER}ON` nami
 3. Watch out for symbol collisions: if Ondo's `{TICKER}ON` symbol collides with a pre-existing token on one network (as happened with AT&T/`TON2`, Southern Co/`SOON2`, Citigroup/`CON2`, Visa/`VON2`), Ondo uses a different literal symbol on that network. `parentSymbol` and `childSymbols` don't need to share a common prefix — just use whatever literal symbols actually exist.
 4. [Rebuild and check the output files](#rebuild-and-check-the-output-files). `check_defi_groups()` only verifies structure (parent not also listed as a child, every symbol resolvable via `load_ref()`) — there's no price-equality check here, since these aren't custodial assets.
 
+#### Composite tokens (a basket of several stocks)
+
+Ondo also issues composite tokens: a single token backed by a basket of *several different*
+underlying stocks rather than one (e.g. an `EXMPLON` token backed by `AAPLON` + `MSFTON` +
+`NVDAON`). This is a different relationship from `childSymbols` above, which is always the *same*
+stock repeated across chains — a composite token uses the separate `constituentSymbols` field:
+
+```json
+{
+  "parentSymbol": "EXMPLON",
+  "childSymbols": ["EXMPLON.BNB", "EXMPLON.SOL"],
+  "constituentSymbols": ["AAPLON", "MSFTON", "NVDAON"]
+}
+```
+
+- Every entry in `constituentSymbols` must be the `parentSymbol` of some *other* group already
+  defined in `defi-groups.json` — i.e. each basket member must be a real, independently-tracked
+  Ondo token in its own right, not an arbitrary token reference. `check_defi_groups()` enforces
+  this (and that a group can't list itself as its own constituent).
+- `constituentSymbols` is omitted (or empty) for ordinary single-stock tokens.
+- Give a composite token its own description in `extensions/overrides.json` — the standard
+  single-stock template ("is the Ondo Tokenized version of {STOCK}...") doesn't apply; describe it
+  as a basket referencing its constituents instead.
+
