@@ -1,0 +1,10 @@
+{
+  "id": "0x97B2FD5fC2F3e0dfD72D45734e360961528B6c63",
+  "name": "iShares High Yield Systematic Bond ETF (Ondo Tokenized)",
+  "symbol": "HYDBON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "displaySymbol": "HYDBon",
+  "website": "https://ondo.finance/"
+}

@@ -3330,6 +3330,36 @@
         "websiteurl": "https://blerf.live/"
     },
     {
+        "description": "BLKDIGon: The Ondo Diversified Growth Powered by BlackRock portfolio seeks balanced, moderate-risk growth through a BlackRock-modeled allocation of roughly 70% equities and 30% fixed income and alternatives. The portfolio offers exposure to iShares equity strategies across U.S. and international markets, fixed income, and alternatives including Bitcoin. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BLKDIGON",
+        "websiteurl": ""
+    },
+    {
+        "description": "BLKDIGon: The Ondo Diversified Growth Powered by BlackRock portfolio seeks balanced, moderate-risk growth through a BlackRock-modeled allocation of roughly 70% equities and 30% fixed income and alternatives. The portfolio offers exposure to iShares equity strategies across U.S. and international markets, fixed income, and alternatives including Bitcoin. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BLKDIGON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "BLKGRWon: The Ondo High Growth Powered by BlackRock portfolio targets significant long-term capital appreciation through a BlackRock-modeled, equity-led allocation of roughly 95% equities and 5% Bitcoin. The portfolio offers exposure to iShares equity strategies across U.S. and international markets alongside a Bitcoin allocation. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BLKGRWON",
+        "websiteurl": ""
+    },
+    {
+        "description": "BLKGRWon: The Ondo High Growth Powered by BlackRock portfolio targets significant long-term capital appreciation through a BlackRock-modeled, equity-led allocation of roughly 95% equities and 5% Bitcoin. The portfolio offers exposure to iShares equity strategies across U.S. and international markets alongside a Bitcoin allocation. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BLKGRWON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "BLKHIon: The Ondo High Income Powered by BlackRock portfolio delivers global fixed income exposure. The token offers access to a BlackRock-modeled portfolio of iShares fixed income ETFs spanning flexible and total-return income, securitized debt, investment-grade credit, short duration, and high yield. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BLKHION",
+        "websiteurl": ""
+    },
+    {
+        "description": "BLKHIon: The Ondo High Income Powered by BlackRock portfolio delivers global fixed income exposure. The token offers access to a BlackRock-modeled portfolio of iShares fixed income ETFs spanning flexible and total-return income, securitized debt, investment-grade credit, short duration, and high yield. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BLKHION.BNB",
+        "websiteurl": ""
+    },
+    {
         "description": "BLKon is the Ondo Tokenized version of Blackrock, Inc., giving tokenholders economic exposure similar to holding BLK and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
         "symbol": "BLKON",
         "websiteurl": ""
@@ -3893,6 +3923,16 @@
         "description": "cum to me all u brainlets\r\n\r\nBrainlet is a decentralized meme token on the Solana blockchain. Its mission is to give back to the crypto community.\r\n\r\nBrainlet  Token is a very fun meme token project , Zero tax, pure simplicity, growing stronger by the day.\r\nWe\u2019re here to add a splash of color to the blockchain scene and create memorable experiences for our community.\r\n\r\nAt Brainlet, we believe in bringing joy and excitement to the SOL network. Our mission is to create a vibrant and inclusive community where members can unleash their creativity, share positive vibes, and ride the crypto wave together.",
         "symbol": "BRAINLET.SOL",
         "websiteurl": "https://brainlet.community/"
+    },
+    {
+        "description": "BRAINon: The Ondo AI Leaders Portfolio provides modified market-cap exposure to the artificial intelligence value chain spanning semiconductors and compute, AI infrastructure, power and energy, and AI thematic ETFs. Roughly 85% is allocated to individual stocks and 15% to ETFs. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BRAINON",
+        "websiteurl": ""
+    },
+    {
+        "description": "BRAINon: The Ondo AI Leaders Portfolio provides modified market-cap exposure to the artificial intelligence value chain spanning semiconductors and compute, AI infrastructure, power and energy, and AI thematic ETFs. Roughly 85% is allocated to individual stocks and 15% to ETFs. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BRAINON.BNB",
+        "websiteurl": ""
     },
     {
         "description": "BrandPad is the most secure multi-chain IDO platform in the community allowing projects to procure funds by launching rug-free assets. This platform will help in fulfilling dreams of new creators by making their tokens a success along with ultimate security to the investors which is our foremost priority.",
@@ -12065,6 +12105,21 @@
         "websiteurl": "https://hxro.com/"
     },
     {
+        "description": "HYDBon is the Ondo Tokenized version of the iShares High Yield Systematic Bond ETF, giving tokenholders economic exposure similar to holding HYDB and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "HYDBON",
+        "websiteurl": ""
+    },
+    {
+        "description": "HYDBon is the Ondo Tokenized version of the iShares High Yield Systematic Bond ETF, giving tokenholders economic exposure similar to holding HYDB and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "HYDBON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "HYDBon is the Ondo Tokenized version of the iShares High Yield Systematic Bond ETF, giving tokenholders economic exposure similar to holding HYDB and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "HYDBON.SOL",
+        "websiteurl": ""
+    },
+    {
         "description": "Hydra's design is improved over its predecessors in the following ways:\r\nHydra's LP is paired with DragonX:  Hydra borrows the price appreciation of DragonX because the tokens are bonded together. DragonX is a deflationary token with programmatic buy and burn, tokens that are paired with it historically have done very well. \r\nHydra mining uses TitanX: Unlike Hyper and TitanX, which require ETH to start miners, Hydra uses TitanX. Because there is so much TitanX in circulation, users can participate without selling TitanX down to Ethereum. This will enhance participation.  \r\nHydra uses the DragonX vault: Possibly the most distinct and important element to Hydra is its mechanism for burning TitanX. Rather than using a standard burn by sending tokens to the dead address, Hydra sends its burned TitanX to the DragonX vault, increasing the DragonX share of the TitanX Ethereum payouts. \r\nHydra burns DragonX directly: The Hydra protocol sets aside a percentage of the TitanX used to start miners to burn DragonX off the market. This reduced the supply of DragonX forever it also makes the DragonX based buy and burn more effective. \r\nHydra favors short compounding cycles: Unlike Hyper and TitanX which gave bonuses to early adopters, Hydra favors users that compound their proceeds over time. Hydra leaves more for new entrants and boosts miner profitability over the long term.",
         "symbol": "HYDRA",
         "websiteurl": "https://app.hydra.win"
@@ -15340,6 +15395,16 @@
         "websiteurl": "https://www.madcoin.vip/"
     },
     {
+        "description": "MAG7Xon: The Ondo Magnificent 7 + Crypto Portfolio implements an aggressive growth strategy by pairing the mega-cap technology stocks known as the \"Magnificent Seven\" with leading crypto assets. The portfolio holds an 80% equal-weight allocation to Apple, Microsoft, Alphabet, Amazon, NVIDIA, Meta, and Tesla, with the remaining 20% split between Bitcoin (15%) and Ethereum (5%). Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "MAG7XON",
+        "websiteurl": ""
+    },
+    {
+        "description": "MAG7Xon: The Ondo Magnificent 7 + Crypto Portfolio implements an aggressive growth strategy by pairing the mega-cap technology stocks known as the \"Magnificent Seven\" with leading crypto assets. The portfolio holds an 80% equal-weight allocation to Apple, Microsoft, Alphabet, Amazon, NVIDIA, Meta, and Tesla, with the remaining 20% split between Bitcoin (15%) and Ethereum (5%). Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "MAG7XON.BNB",
+        "websiteurl": ""
+    },
+    {
         "description": "MAGA The Hat Movement on the Blockchain ",
         "symbol": "MAGA",
         "websiteurl": "https://maga-hat.vip/"
@@ -17338,6 +17403,21 @@
         "description": "",
         "symbol": "NEAR.BNB",
         "websiteurl": "https://www.binance.com/en/collateral-btokens"
+    },
+    {
+        "description": "NEARon is the Ondo Tokenized version of the iShares Short Duration Bond Active ETF, giving tokenholders economic exposure similar to holding NEAR and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "NEARON",
+        "websiteurl": ""
+    },
+    {
+        "description": "NEARon is the Ondo Tokenized version of the iShares Short Duration Bond Active ETF, giving tokenholders economic exposure similar to holding NEAR and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "NEARON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "NEARon is the Ondo Tokenized version of the iShares Short Duration Bond Active ETF, giving tokenholders economic exposure similar to holding NEAR and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "NEARON.SOL",
+        "websiteurl": ""
     },
     {
         "description": "NEEon is the Ondo Tokenized version of the NextEra Energy, giving tokenholders economic exposure similar to holding NEE and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
@@ -22580,6 +22660,21 @@
         "websiteurl": "https://metados.com/"
     },
     {
+        "description": "SECUon is the Ondo Tokenized version of the iShares Securitized Income Active ETF, giving tokenholders economic exposure similar to holding SECU and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "SECUON",
+        "websiteurl": ""
+    },
+    {
+        "description": "SECUon is the Ondo Tokenized version of the iShares Securitized Income Active ETF, giving tokenholders economic exposure similar to holding SECU and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "SECUON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "SECUon is the Ondo Tokenized version of the iShares Securitized Income Active ETF, giving tokenholders economic exposure similar to holding SECU and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "SECUON.SOL",
+        "websiteurl": ""
+    },
+    {
         "description": "Smoking Eagle Dog is a funny meme composed of a Dog and Eagle mix smoking a cigarette.  Holders of SED gain access to a strong community filled with connections and networking opportunities. SED aims to be the top Solana meme coin by uniting holders and growing the community as one.  Though SED is a funny meme we are also working on new advancements like a clothing line as well as distribution of tobacco and marijuana products.",
         "symbol": "SED.SOL",
         "websiteurl": "https://smokingeagledog.xyz/"
@@ -24915,6 +25010,21 @@
         "websiteurl": "https://syrup.fi/"
     },
     {
+        "description": "SYSBon is the Ondo Tokenized version of the iShares Systematic Bond ETF, giving tokenholders economic exposure similar to holding SYSB and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "SYSBON",
+        "websiteurl": ""
+    },
+    {
+        "description": "SYSBon is the Ondo Tokenized version of the iShares Systematic Bond ETF, giving tokenholders economic exposure similar to holding SYSB and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "SYSBON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "SYSBon is the Ondo Tokenized version of the iShares Systematic Bond ETF, giving tokenholders economic exposure similar to holding SYSB and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "SYSBON.SOL",
+        "websiteurl": ""
+    },
+    {
         "description": "What is the project about? Santa Coin is a philanthropic cryptocurrency that promotes the festive spirit of Christmas all year round, providing AI-powered tools to its community, supporting charitable causes, and fostering sustainable practices.\r\n\r\n\r\nWhat makes your project unique? Santa Coin stands out by uniquely merging the spirit of giving and the power of AI technology in the cryptocurrency space; it's a memecoin designed not just for transactions, but to provide value through AI-driven tools, while promoting a culture of philanthropy and sustainability, celebrating the joy of Christmas all year round.\r\n\r\n\r\nHistory of your project. Santa Coin was founded in October 2021 as an holiday memecoin originally exciting users with its P2E racing game but now evolving into a giant memecoin using a set of AI tools to excite users again.\r\n\r\n\r\nWhat\u2019s next for your project? The team will focus on the development of SantaGPT, an AI tool for generating festive content and market analysis. This tool is anticipated to provide users with unique, AI-generated content, enhancing the overall user experience.\r\n\r\n\r\nWhat can your token be used for? Holding Santa Coin gives users access to an array of AI-powered tools, including SantaGPT, an AI tool for generating festive content and market analysis, and an AI image generator. These tools can be used by businesses, content creators, developers, and individual users alike. By owning Santa Coin, holders indirectly support charitable causes and environmental initiatives, as a portion of the project's tokenomics is allocated to these endeavors.\r\n\r\n\r\n",
         "symbol": "Santa.BNB",
         "websiteurl": "https://santacoin.io/"
@@ -27137,6 +27247,21 @@
     {
         "description": "",
         "symbol": "USHIBA",
+        "websiteurl": ""
+    },
+    {
+        "description": "USHYon is the Ondo Tokenized version of the iShares Broad USD High Yield Corporate Bond ETF, giving tokenholders economic exposure similar to holding USHY and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "USHYON",
+        "websiteurl": ""
+    },
+    {
+        "description": "USHYon is the Ondo Tokenized version of the iShares Broad USD High Yield Corporate Bond ETF, giving tokenholders economic exposure similar to holding USHY and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "USHYON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "USHYon is the Ondo Tokenized version of the iShares Broad USD High Yield Corporate Bond ETF, giving tokenholders economic exposure similar to holding USHY and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "USHYON.SOL",
         "websiteurl": ""
     },
     {
@@ -29573,6 +29698,26 @@
         "description": "YIELD, a licensed and regulated FinTech company, offers a mobile app and web platform designed to provide the easiest way to invest in DeFi using crypto or traditional currencies, regardless of your financial or technological level of expertise.",
         "symbol": "YLD",
         "websiteurl": "https://www.yield.app/"
+    },
+    {
+        "description": "YLD5on: The Ondo 5% Targeted Income TR Portfolio aims to generate monthly income stream from exposure to select high-yield preferred shares, covered-call equity income, corporate bonds, and Real Estate Investment Trusts (REITs). The portfolio is systematically calibrated to an approximate 5% yield. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "YLD5ON",
+        "websiteurl": ""
+    },
+    {
+        "description": "YLD5on: The Ondo 5% Targeted Income TR Portfolio aims to generate monthly income stream from exposure to select high-yield preferred shares, covered-call equity income, corporate bonds, and Real Estate Investment Trusts (REITs). The portfolio is systematically calibrated to an approximate 5% yield. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "YLD5ON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "YLD8on: The Ondo 8% Targeted Income TR Portfolio seeks to generate an elevated monthly income stream by providing exposure to income-generating investments across high-yield preferred shares, covered-call equity income, corporate bonds, and Real Estate Investment Trusts (REITs). The portfolio is calibrated to an approximate 8% yield. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "YLD8ON",
+        "websiteurl": ""
+    },
+    {
+        "description": "YLD8on: The Ondo 8% Targeted Income TR Portfolio seeks to generate an elevated monthly income stream by providing exposure to income-generating investments across high-yield preferred shares, covered-call equity income, corporate bonds, and Real Estate Investment Trusts (REITs). The portfolio is calibrated to an approximate 8% yield. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "YLD8ON.BNB",
+        "websiteurl": ""
     },
     {
         "description": "A Safe, Secure, Eco-Friendly, DeFi Cryptocurrency Engineered with the Lowest Trading Fees Available as well as Automatic Rewards for Life!\r\n\r\nNot just your average altcoin, YoCoin (YOCO) is YOUR coin!\r\n\r\nIt is a 100% community driven and fair launched cryptocurrency. An ultra-fast global payments system. And features protocol static rewards with dynamic DeFi liquidity. YOCO is a long-term investment opportunity developed to generate its own interest from low trading fees.\r\n\r\nEngineered by a forward-thinking development team for the benefit of the people, it's been future proofed for safety and success.\r\n\r\nWe aim to be one of the safest long-term stores of value!\r\n\r\nEngineered by a forward-thinking development team for the benefit of the people, it's been future proofed for safety and success. Our team is diverse with members from around the world.\r\n\r\nWe are composed of software and website developers, crypto miners, entrepreneurs, business owners, and stock and crypto enthusiasts. We love DeFi and heavily support the crypto space.\r\n\r\nOur team firmly believes that cryptocurrency is the future.",
