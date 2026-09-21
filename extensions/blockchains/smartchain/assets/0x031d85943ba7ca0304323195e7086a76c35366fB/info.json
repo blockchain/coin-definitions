@@ -1,0 +1,10 @@
+{
+  "id": "0x031d85943ba7ca0304323195e7086a76c35366fB",
+  "name": "iShares Short Duration Bond Active ETF (Ondo Tokenized)",
+  "symbol": "NEARON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "displaySymbol": "NEARon",
+  "website": "https://ondo.finance/"
+}

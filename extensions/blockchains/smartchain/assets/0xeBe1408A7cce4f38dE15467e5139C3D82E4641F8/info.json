@@ -1,0 +1,10 @@
+{
+  "id": "0xeBe1408A7cce4f38dE15467e5139C3D82E4641F8",
+  "name": "iShares Systematic Bond ETF (Ondo Tokenized)",
+  "symbol": "SYSBON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "displaySymbol": "SYSBon",
+  "website": "https://ondo.finance/"
+}

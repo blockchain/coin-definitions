@@ -3082,5 +3082,184 @@
       "YEARON.BNB",
       "YEARON.SOL"
     ]
+  },
+  {
+    "parentSymbol": "MAG7XON",
+    "childSymbols": [
+      "MAG7XON.BNB"
+    ],
+    "constituentSymbols": [
+      "AAPLON",
+      "AMZNON",
+      "ETHAON",
+      "GOOGLON",
+      "IBITON",
+      "METAON",
+      "MSFTON",
+      "NVDAON",
+      "TSLAON"
+    ]
+  },
+  {
+    "parentSymbol": "BRAINON",
+    "childSymbols": [
+      "BRAINON.BNB"
+    ],
+    "constituentSymbols": [
+      "ALABON",
+      "AMATON",
+      "AMDON",
+      "ANETON",
+      "ARMON",
+      "ASMLON",
+      "AVGOON",
+      "BAION",
+      "BEON",
+      "BOTZON",
+      "CEGON",
+      "CIENON",
+      "CIFRON",
+      "COHRON",
+      "CRDOON",
+      "CRWVON",
+      "DELLON",
+      "DRAMON",
+      "DTCRON",
+      "ETNON",
+      "FNON",
+      "GEVON",
+      "GLWON",
+      "IGVON",
+      "IRENON",
+      "KLACON",
+      "LITEON",
+      "LRCXON",
+      "MRVLON",
+      "MUON",
+      "NBISON",
+      "NVDAON",
+      "SMCION",
+      "TSMON",
+      "VRTON",
+      "VSTON"
+    ]
+  },
+  {
+    "parentSymbol": "YLD5ON",
+    "childSymbols": [
+      "YLD5ON.BNB"
+    ],
+    "constituentSymbols": [
+      "AGGON",
+      "HYGON",
+      "JAAAON",
+      "QLTAON",
+      "QYLDON",
+      "SATAON",
+      "SGOVON",
+      "STRCON",
+      "VNQON",
+      "XYLDON"
+    ]
+  },
+  {
+    "parentSymbol": "YLD8ON",
+    "childSymbols": [
+      "YLD8ON.BNB"
+    ],
+    "constituentSymbols": [
+      "AGGON",
+      "HYGON",
+      "JAAAON",
+      "QLTAON",
+      "QYLDON",
+      "SATAON",
+      "SGOVON",
+      "STRCON",
+      "VNQON",
+      "XYLDON"
+    ]
+  },
+  {
+    "parentSymbol": "BLKDIGON",
+    "childSymbols": [
+      "BLKDIGON.BNB"
+    ],
+    "constituentSymbols": [
+      "BAION",
+      "BLCRON",
+      "BRTRON",
+      "COROON",
+      "DYNFON",
+      "IALTON",
+      "IBITON",
+      "INROON"
+    ]
+  },
+  {
+    "parentSymbol": "BLKGRWON",
+    "childSymbols": [
+      "BLKGRWON.BNB"
+    ],
+    "constituentSymbols": [
+      "BAION",
+      "BLCRON",
+      "COROON",
+      "DYNFON",
+      "IBITON",
+      "INROON"
+    ]
+  },
+  {
+    "parentSymbol": "BLKHION",
+    "childSymbols": [
+      "BLKHION.BNB"
+    ],
+    "constituentSymbols": [
+      "BINCON",
+      "BRTRON",
+      "HYDBON",
+      "IGEBON",
+      "NEARON",
+      "QLTAON",
+      "SECUON",
+      "SYSBON",
+      "USHYON"
+    ]
+  },
+  {
+    "parentSymbol": "HYDBON",
+    "childSymbols": [
+      "HYDBON.BNB",
+      "HYDBON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "NEARON",
+    "childSymbols": [
+      "NEARON.BNB",
+      "NEARON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SECUON",
+    "childSymbols": [
+      "SECUON.BNB",
+      "SECUON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "SYSBON",
+    "childSymbols": [
+      "SYSBON.BNB",
+      "SYSBON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "USHYON",
+    "childSymbols": [
+      "USHYON.BNB",
+      "USHYON.SOL"
+    ]
   }
 ]

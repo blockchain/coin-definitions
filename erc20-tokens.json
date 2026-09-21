@@ -7227,6 +7227,15 @@
         "website": "https://emblem.pro"
     },
     {
+        "address": "0x3D68E46bA86ebe702B2399245730DdE2f7e4B077",
+        "decimals": 18,
+        "displaySymbol": "YLD5on",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x3D68E46bA86ebe702B2399245730DdE2f7e4B077.png",
+        "name": "Ondo 5 Targeted Income TR Portfolio",
+        "symbol": "YLD5ON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x3D7975EcCFc61a2102b08925CbBa0a4D4dBB6555",
         "decimals": 18,
         "displaySymbol": "USDD",
@@ -12033,6 +12042,15 @@
         "website": "https://www.gnosis.io/"
     },
     {
+        "address": "0x6830f7BBFD274e393a32846918DA9De210879AE4",
+        "decimals": 18,
+        "displaySymbol": "USHYon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x6830f7BBFD274e393a32846918DA9De210879AE4.png",
+        "name": "iShares Broad USD High Yield Corporate Bond ETF",
+        "symbol": "USHYON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x68350d30D9F58C81aaaA41929f1bfC52FFf4Ea49",
         "decimals": 18,
         "displaySymbol": "RPZX",
@@ -12877,6 +12895,15 @@
         "name": "SynFutures",
         "symbol": "F",
         "website": "https://www.synfutures.com/"
+    },
+    {
+        "address": "0x6e17534A1Fc047907d8f422Ca166944d6469e053",
+        "decimals": 18,
+        "displaySymbol": "BLKDIGon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x6e17534A1Fc047907d8f422Ca166944d6469e053.png",
+        "name": "Ondo Diversified Growth Powered by BlackRock",
+        "symbol": "BLKDIGON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x6e5970DBd6fc7eb1f29C6D2eDF2bC4c36124C0C1",
@@ -13932,6 +13959,15 @@
         "website": "https://edoge-cto.vip/"
     },
     {
+        "address": "0x787769d6Fc857169F5243ef66d3f0a954149d3BA",
+        "decimals": 18,
+        "displaySymbol": "BLKHIon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x787769d6Fc857169F5243ef66d3f0a954149d3BA.png",
+        "name": "Ondo High Income Powered by BlackRock",
+        "symbol": "BLKHION",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x7884F51dC1410387371ce61747CB6264E1dAeE0B",
         "decimals": 10,
         "displaySymbol": "BDOT",
@@ -14245,6 +14281,15 @@
         "name": "DeFiWizard",
         "symbol": "DWZ",
         "website": "https://defiwizard.xyz/"
+    },
+    {
+        "address": "0x7E37ac5d67ebe99851193CD036D7725b6730c53D",
+        "decimals": 18,
+        "displaySymbol": "NEARon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x7E37ac5d67ebe99851193CD036D7725b6730c53D.png",
+        "name": "iShares Short Duration Bond Active ETF",
+        "symbol": "NEARON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x7E7Ef0ee0305c1C195fcAe22FD7b207a813EEF86",
@@ -14578,6 +14623,15 @@
         "name": "Messier",
         "symbol": "M87",
         "website": "https://messier.app/"
+    },
+    {
+        "address": "0x806Adf5Ef67EF4032Bcc8444f96ec777D2F43f66",
+        "decimals": 18,
+        "displaySymbol": "SECUon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x806Adf5Ef67EF4032Bcc8444f96ec777D2F43f66.png",
+        "name": "iShares Securitized Income Active ETF",
+        "symbol": "SECUON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x808507121B80c02388fAd14726482e061B8da827",
@@ -15606,6 +15660,15 @@
         "website": "https://monai.dev/"
     },
     {
+        "address": "0x8C2feFb7a5C26D44aA66Ae3023D96Af2EbAcAEBD",
+        "decimals": 18,
+        "displaySymbol": "SYSBon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x8C2feFb7a5C26D44aA66Ae3023D96Af2EbAcAEBD.png",
+        "name": "iShares Systematic Bond ETF",
+        "symbol": "SYSBON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x8C543AED163909142695f2d2aCd0D55791a9Edb9",
         "decimals": 18,
         "displaySymbol": "VLX",
@@ -15622,6 +15685,15 @@
         "name": "Swipe",
         "symbol": "SXP",
         "website": "https://solar.org"
+    },
+    {
+        "address": "0x8D7A1FCFaf626f8db3852c12D4cdC863D9441283",
+        "decimals": 18,
+        "displaySymbol": "BRAINon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x8D7A1FCFaf626f8db3852c12D4cdC863D9441283.png",
+        "name": "Ondo AI Leaders Portfolio",
+        "symbol": "BRAINON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x8D8129963291740dDDd917ab01af18c7aed4BA58",
@@ -17746,6 +17818,15 @@
         "name": "Cirus",
         "symbol": "CIRUS",
         "website": "https://cirusfoundation.com"
+    },
+    {
+        "address": "0xA045c4477fb0a0630A50e7915a7fb4d82eDE362B",
+        "decimals": 18,
+        "displaySymbol": "YLD8on",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xA045c4477fb0a0630A50e7915a7fb4d82eDE362B.png",
+        "name": "Ondo 8 Targeted Income TR Portfolio",
+        "symbol": "YLD8ON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xA0Ef786Bf476fE0810408CaBA05E536aC800ff86",
@@ -21409,6 +21490,15 @@
         "name": "Neiro",
         "symbol": "NEIROETH",
         "website": "https://www.neirocoin.com/"
+    },
+    {
+        "address": "0xEE69f45715bfa6A4cffe2bB7e0D71093B9D58705",
+        "decimals": 18,
+        "displaySymbol": "MAG7Xon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xEE69f45715bfa6A4cffe2bB7e0D71093B9D58705.png",
+        "name": "Ondo Magnificent 7 and Crypto Portfolio",
+        "symbol": "MAG7XON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xEEAcC51Af745846DDf46012B46C6910ea9b12898",
@@ -25209,6 +25299,15 @@
         "website": "https://swg.io/"
     },
     {
+        "address": "0xc90341Cb9cb8D65AF044FaB23b659b7b4279399B",
+        "decimals": 18,
+        "displaySymbol": "BLKGRWon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xc90341Cb9cb8D65AF044FaB23b659b7b4279399B.png",
+        "name": "Ondo High Growth Powered by BlackRock",
+        "symbol": "BLKGRWON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
         "decimals": 18,
         "displaySymbol": "GRT",
@@ -26800,6 +26899,15 @@
         "name": "Zum Token",
         "symbol": "ZUM",
         "website": "https://zum-token.com/"
+    },
+    {
+        "address": "0xe109dFbF450eC2b9944900830b8DA22EaA59F1A3",
+        "decimals": 18,
+        "displaySymbol": "HYDBon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xe109dFbF450eC2b9944900830b8DA22EaA59F1A3.png",
+        "name": "iShares High Yield Systematic Bond ETF",
+        "symbol": "HYDBON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xe172fb6b867f873db7cb2d7435b95a07e5defe81",

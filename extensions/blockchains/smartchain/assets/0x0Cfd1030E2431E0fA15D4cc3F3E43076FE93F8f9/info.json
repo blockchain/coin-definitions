@@ -1,0 +1,10 @@
+{
+  "id": "0x0Cfd1030E2431E0fA15D4cc3F3E43076FE93F8f9",
+  "name": "Ondo 5 Targeted Income TR Portfolio",
+  "symbol": "YLD5ON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "displaySymbol": "YLD5on",
+  "website": "https://ondo.finance/"
+}
