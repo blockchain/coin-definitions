@@ -12042,6 +12042,15 @@
         "website": "https://www.gnosis.io/"
     },
     {
+        "address": "0x6830f7BBFD274e393a32846918DA9De210879AE4",
+        "decimals": 18,
+        "displaySymbol": "USHYon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x6830f7BBFD274e393a32846918DA9De210879AE4.png",
+        "name": "iShares Broad USD High Yield Corporate Bond ETF",
+        "symbol": "USHYON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x68350d30D9F58C81aaaA41929f1bfC52FFf4Ea49",
         "decimals": 18,
         "displaySymbol": "RPZX",
@@ -14274,6 +14283,15 @@
         "website": "https://defiwizard.xyz/"
     },
     {
+        "address": "0x7E37ac5d67ebe99851193CD036D7725b6730c53D",
+        "decimals": 18,
+        "displaySymbol": "NEARon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x7E37ac5d67ebe99851193CD036D7725b6730c53D.png",
+        "name": "iShares Short Duration Bond Active ETF",
+        "symbol": "NEARON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x7E7Ef0ee0305c1C195fcAe22FD7b207a813EEF86",
         "decimals": 9,
         "displaySymbol": "FIONA",
@@ -14605,6 +14623,15 @@
         "name": "Messier",
         "symbol": "M87",
         "website": "https://messier.app/"
+    },
+    {
+        "address": "0x806Adf5Ef67EF4032Bcc8444f96ec777D2F43f66",
+        "decimals": 18,
+        "displaySymbol": "SECUon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x806Adf5Ef67EF4032Bcc8444f96ec777D2F43f66.png",
+        "name": "iShares Securitized Income Active ETF",
+        "symbol": "SECUON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x808507121B80c02388fAd14726482e061B8da827",
@@ -15631,6 +15658,15 @@
         "name": "Monai",
         "symbol": "MONAI",
         "website": "https://monai.dev/"
+    },
+    {
+        "address": "0x8C2feFb7a5C26D44aA66Ae3023D96Af2EbAcAEBD",
+        "decimals": 18,
+        "displaySymbol": "SYSBon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x8C2feFb7a5C26D44aA66Ae3023D96Af2EbAcAEBD.png",
+        "name": "iShares Systematic Bond ETF",
+        "symbol": "SYSBON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x8C543AED163909142695f2d2aCd0D55791a9Edb9",
@@ -26863,6 +26899,15 @@
         "name": "Zum Token",
         "symbol": "ZUM",
         "website": "https://zum-token.com/"
+    },
+    {
+        "address": "0xe109dFbF450eC2b9944900830b8DA22EaA59F1A3",
+        "decimals": 18,
+        "displaySymbol": "HYDBon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xe109dFbF450eC2b9944900830b8DA22EaA59F1A3.png",
+        "name": "iShares High Yield Systematic Bond ETF",
+        "symbol": "HYDBON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xe172fb6b867f873db7cb2d7435b95a07e5defe81",
