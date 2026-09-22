@@ -1,0 +1,10 @@
+{
+  "id": "0xB0D7D4b65A654d43F91272Bb94E011Ce6812A2eF",
+  "name": "iShares Securitized Income Active ETF (Ondo Tokenized)",
+  "symbol": "SECUON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "displaySymbol": "SECUon",
+  "website": "https://ondo.finance/"
+}

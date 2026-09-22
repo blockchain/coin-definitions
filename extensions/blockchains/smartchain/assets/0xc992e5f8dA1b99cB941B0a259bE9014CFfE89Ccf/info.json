@@ -1,0 +1,10 @@
+{
+  "id": "0xc992e5f8dA1b99cB941B0a259bE9014CFfE89Ccf",
+  "name": "iShares Broad USD High Yield Corporate Bond ETF (Ondo Tokenized)",
+  "symbol": "USHYON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "displaySymbol": "USHYon",
+  "website": "https://ondo.finance/"
+}

@@ -3,6 +3,9 @@ from dataclasses import dataclass
 TW_REPO_ROOT = "https://raw.githubusercontent.com/trustwallet/assets/master/"
 BC_REPO_ROOT = "https://raw.githubusercontent.com/blockchain/coin-definitions/master/"
 
+# service-wallet-frontend-static-assets/public/static/asset/currency/, served by our CDN
+CURRENCY_LOGOS_ROOT = "https://login.blockchain.com/static/asset/currency/"
+
 BLOCKCHAINS = "assets/blockchains/"
 
 EXT_BLOCKCHAINS = "extensions/blockchains/"

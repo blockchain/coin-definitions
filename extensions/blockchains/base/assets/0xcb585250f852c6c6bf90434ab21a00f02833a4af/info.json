@@ -1,0 +1,10 @@
+{
+    "name": "Coinbase Wrapped XRP",
+    "website": "https://www.coinbase.com/campaigns/wrapped-assets",
+    "type": "ERC20",
+    "symbol": "CBXRP",
+    "decimals": 6,
+    "displaySymbol": "CBXRP",
+    "status": "active",
+    "id": "0xcb585250f852c6c6bf90434ab21a00f02833a4af"
+}
