@@ -694,6 +694,15 @@
     "hwsSettings": null
   },
   {
+    "symbol": "HOODETH",
+    "displaySymbol": "ETH",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "ETC",
     "displaySymbol": "ETC",
     "type": "COIN",
