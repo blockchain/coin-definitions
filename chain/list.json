@@ -82,5 +82,11 @@
     "displayName": "zkSync Era",
     "native": "ZKETH",
     "tokens": "chain/zksync/tokens.json"
+  },
+  {
+    "chain": "robinhoodchain",
+    "displayName": "Robinhood Chain",
+    "native": "HOODETH",
+    "tokens": "chain/robinhoodchain/tokens.json"
   }
 ]
