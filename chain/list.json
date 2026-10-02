@@ -84,9 +84,9 @@
     "tokens": "chain/zksync/tokens.json"
   },
   {
-    "chain": "robinhood",
+    "chain": "robinhoodchain",
     "displayName": "Robinhood Chain",
     "native": "HOODETH",
-    "tokens": "chain/robinhood/tokens.json"
+    "tokens": "chain/robinhoodchain/tokens.json"
   }
 ]

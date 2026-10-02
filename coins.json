@@ -291,9 +291,9 @@
     "symbol": "HOODETH",
     "displaySymbol": "ETH",
     "name": "Ethereum",
-    "key": "robinhood",
+    "key": "robinhoodchain",
     "decimals": 18,
-    "logo": "https://login.blockchain.com/static/asset/currency/coin/robinhood.png",
+    "logo": "https://login.blockchain.com/static/asset/currency/coin/robinhoodchain.png",
     "website": "https://robinhood.com"
   },
   {
