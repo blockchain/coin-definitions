@@ -288,6 +288,15 @@
     "website": "https://hedera.com/"
   },
   {
+    "symbol": "HOODETH",
+    "displaySymbol": "ETH",
+    "name": "Ethereum",
+    "key": "robinhoodchain",
+    "decimals": 18,
+    "logo": "https://login.blockchain.com/static/asset/currency/coin/robinhoodchain.png",
+    "website": "https://robinhood.com"
+  },
+  {
     "symbol": "HYPE",
     "displaySymbol": "HYPE",
     "name": "Hyperliquid",
