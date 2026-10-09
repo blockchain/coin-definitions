@@ -1006,6 +1006,15 @@
     "hwsSettings": null
   },
   {
+    "symbol": "LAPTOP.BASEETH",
+    "displaySymbol": "LAPTOP",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "LDO",
     "displaySymbol": "LDO",
     "type": "ERC20",
@@ -1554,6 +1563,15 @@
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
+    "symbol": "RSC.BASEETH",
+    "displaySymbol": "RSC",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
     },
     "hwsSettings": null
   },
