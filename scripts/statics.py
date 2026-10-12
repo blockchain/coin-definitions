@@ -116,4 +116,10 @@ NETWORKS = [
         output_file="chain/zksync/tokens.json",
         explorer_url="https://explorer.zksync.io/address/"
     ),
+    Network(
+        chain="robinhoodchain",
+        symbol="HOODETH",
+        output_file="chain/robinhoodchain/tokens.json",
+        explorer_url="https://robin.etherscan.io/token/",
+    ),
 ]

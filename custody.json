@@ -694,6 +694,15 @@
     "hwsSettings": null
   },
   {
+    "symbol": "HOODETH",
+    "displaySymbol": "ETH",
+    "type": "COIN",
+    "nabuSettings": {
+      "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
     "symbol": "ETC",
     "displaySymbol": "ETC",
     "type": "COIN",
@@ -993,6 +1002,15 @@
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
+    "symbol": "LAPTOP.BASEETH",
+    "displaySymbol": "LAPTOP",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
     },
     "hwsSettings": null
   },
@@ -1545,6 +1563,15 @@
     "type": "ERC20",
     "nabuSettings": {
       "custodialPrecision": 8
+    },
+    "hwsSettings": null
+  },
+  {
+    "symbol": "RSC.BASEETH",
+    "displaySymbol": "RSC",
+    "type": "ERC20",
+    "nabuSettings": {
+      "custodialPrecision": 9
     },
     "hwsSettings": null
   },
