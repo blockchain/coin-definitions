@@ -7227,10 +7227,10 @@
         "website": "https://emblem.pro"
     },
     {
-        "address": "0x3D68E46bA86ebe702B2399245730DdE2f7e4B077",
+        "address": "0x3D68E46BA86EBE702B2399245730DDE2F7E4B077",
         "decimals": 18,
         "displaySymbol": "YLD5on",
-        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x3D68E46bA86ebe702B2399245730DdE2f7e4B077.png",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x3D68E46BA86EBE702B2399245730DDE2F7E4B077.png",
         "name": "Ondo 5 Targeted Income TR Portfolio",
         "symbol": "YLD5ON",
         "website": "https://ondo.finance/"
@@ -12609,6 +12609,15 @@
         "website": "https://sav3.org/"
     },
     {
+        "address": "0x6E17534A1FC047907D8F422CA166944D6469E053",
+        "decimals": 18,
+        "displaySymbol": "BLKDIGon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x6E17534A1FC047907D8F422CA166944D6469E053.png",
+        "name": "Ondo Diversified Growth Powered by BlackRock",
+        "symbol": "BLKDIGON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x6E2a43be0B1d33b726f0CA3b8de60b3482b8b050",
         "decimals": 18,
         "displaySymbol": "ARKM",
@@ -12895,15 +12904,6 @@
         "name": "SynFutures",
         "symbol": "F",
         "website": "https://www.synfutures.com/"
-    },
-    {
-        "address": "0x6e17534A1Fc047907d8f422Ca166944d6469e053",
-        "decimals": 18,
-        "displaySymbol": "BLKDIGon",
-        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x6e17534A1Fc047907d8f422Ca166944d6469e053.png",
-        "name": "Ondo Diversified Growth Powered by BlackRock",
-        "symbol": "BLKDIGON",
-        "website": "https://ondo.finance/"
     },
     {
         "address": "0x6e5970DBd6fc7eb1f29C6D2eDF2bC4c36124C0C1",
@@ -13959,10 +13959,10 @@
         "website": "https://edoge-cto.vip/"
     },
     {
-        "address": "0x787769d6Fc857169F5243ef66d3f0a954149d3BA",
+        "address": "0x787769D6FC857169F5243EF66D3F0A954149D3BA",
         "decimals": 18,
         "displaySymbol": "BLKHIon",
-        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x787769d6Fc857169F5243ef66d3f0a954149d3BA.png",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x787769D6FC857169F5243EF66D3F0A954149D3BA.png",
         "name": "Ondo High Income Powered by BlackRock",
         "symbol": "BLKHION",
         "website": "https://ondo.finance/"
@@ -15687,10 +15687,10 @@
         "website": "https://solar.org"
     },
     {
-        "address": "0x8D7A1FCFaf626f8db3852c12D4cdC863D9441283",
+        "address": "0x8D7A1FCFAF626F8DB3852C12D4CDC863D9441283",
         "decimals": 18,
         "displaySymbol": "BRAINon",
-        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x8D7A1FCFaf626f8db3852c12D4cdC863D9441283.png",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x8D7A1FCFAF626F8DB3852C12D4CDC863D9441283.png",
         "name": "Ondo AI Leaders Portfolio",
         "symbol": "BRAINON",
         "website": "https://ondo.finance/"
@@ -17820,10 +17820,10 @@
         "website": "https://cirusfoundation.com"
     },
     {
-        "address": "0xA045c4477fb0a0630A50e7915a7fb4d82eDE362B",
+        "address": "0xA045C4477FB0A0630A50E7915A7FB4D82EDE362B",
         "decimals": 18,
         "displaySymbol": "YLD8on",
-        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xA045c4477fb0a0630A50e7915a7fb4d82eDE362B.png",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xA045C4477FB0A0630A50E7915A7FB4D82EDE362B.png",
         "name": "Ondo 8 Targeted Income TR Portfolio",
         "symbol": "YLD8ON",
         "website": "https://ondo.finance/"
@@ -19854,6 +19854,15 @@
         "website": "https://apm-coin.com"
     },
     {
+        "address": "0xC90341CB9CB8D65AF044FAB23B659B7B4279399B",
+        "decimals": 18,
+        "displaySymbol": "BLKGRWon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xC90341CB9CB8D65AF044FAB23B659B7B4279399B.png",
+        "name": "Ondo High Growth Powered by BlackRock",
+        "symbol": "BLKGRWON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xC96dE26018A54D51c097160568752c4E3BD6C364",
         "decimals": 8,
         "displaySymbol": "FBTC",
@@ -21492,10 +21501,10 @@
         "website": "https://www.neirocoin.com/"
     },
     {
-        "address": "0xEE69f45715bfa6A4cffe2bB7e0D71093B9D58705",
+        "address": "0xEE69F45715BFA6A4CFFE2BB7E0D71093B9D58705",
         "decimals": 18,
         "displaySymbol": "MAG7Xon",
-        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xEE69f45715bfa6A4cffe2bB7e0D71093B9D58705.png",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xEE69F45715BFA6A4CFFE2BB7E0D71093B9D58705.png",
         "name": "Ondo Magnificent 7 and Crypto Portfolio",
         "symbol": "MAG7XON",
         "website": "https://ondo.finance/"
@@ -25297,15 +25306,6 @@
         "name": "SmartWorld Global Token",
         "symbol": "SWGT",
         "website": "https://swg.io/"
-    },
-    {
-        "address": "0xc90341Cb9cb8D65AF044FaB23b659b7b4279399B",
-        "decimals": 18,
-        "displaySymbol": "BLKGRWon",
-        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xc90341Cb9cb8D65AF044FaB23b659b7b4279399B.png",
-        "name": "Ondo High Growth Powered by BlackRock",
-        "symbol": "BLKGRWON",
-        "website": "https://ondo.finance/"
     },
     {
         "address": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
