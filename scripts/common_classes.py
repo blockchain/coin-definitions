@@ -2,7 +2,7 @@ import os
 import re
 from dataclasses import dataclass, replace, fields, is_dataclass
 
-from statics import CURRENCY_LOGOS_ROOT, EXT_BLOCKCHAINS, BLOCKCHAINS
+from statics import CURRENCY_LOGOS_ROOT, EXT_BLOCKCHAINS, BLOCKCHAINS, TW_REPO_ROOT, BC_REPO_ROOT
 
 
 def build_dataclass_from_dict(cls, dict_):
@@ -124,6 +124,17 @@ class Token:
     @staticmethod
     def build_token_logo(address, chain):
         return CURRENCY_LOGOS_ROOT + f"token/{chain}/{address}.png"
+
+    @staticmethod
+    def build_source_logo(address, chain):
+        asset_path = os.path.join(chain, "assets", address, "logo.png")
+        ext_path = os.path.join(EXT_BLOCKCHAINS, asset_path)
+        if os.path.exists(ext_path):
+            return BC_REPO_ROOT + ext_path
+        if os.path.exists(os.path.join(BLOCKCHAINS, asset_path)):
+            # assets/ is the Trust Wallet repo checked out as a submodule
+            return TW_REPO_ROOT + os.path.join("blockchains", asset_path)
+        return None
 
     @staticmethod
     def from_asset(asset, chain):

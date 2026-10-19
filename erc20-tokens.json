@@ -175,7 +175,7 @@
         "decimals": 18,
         "displaySymbol": "SKL",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7.png",
-        "name": "SKALE Network",
+        "name": "SKALE",
         "symbol": "SKL",
         "website": "https://skale.space/"
     },
@@ -1903,7 +1903,7 @@
         "decimals": 18,
         "displaySymbol": "YFI",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e.png",
-        "name": "yearn.finance",
+        "name": "Yearn",
         "symbol": "YFI",
         "website": "https://yearn.fi/"
     },
@@ -2335,7 +2335,7 @@
         "decimals": 18,
         "displaySymbol": "TAIKO",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x10dea67478c5F8C5E2D90e5E9B26dBe60c54d800.png",
-        "name": "Taiko Token",
+        "name": "Taiko",
         "symbol": "TAIKO",
         "website": "https://taiko.xyz/"
     },
@@ -2353,7 +2353,7 @@
         "decimals": 18,
         "displaySymbol": "1INCH",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x111111111117dC0aa78b770fA6A738034120C302.png",
-        "name": "1INCH Token",
+        "name": "1inch",
         "symbol": "1INCH",
         "website": "https://1inch.io/"
     },
@@ -2578,7 +2578,7 @@
         "decimals": 18,
         "displaySymbol": "SFP",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x12e2b8033420270db2F3b328E32370Cb5B2Ca134.png",
-        "name": "SafePal Token",
+        "name": "SafePal",
         "symbol": "SFP",
         "website": "https://www.safepal.com/"
     },
@@ -2857,7 +2857,7 @@
         "decimals": 18,
         "displaySymbol": "Cake",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x152649eA73beAb28c5b49B26eb48f7EAD6d4c898.png",
-        "name": "PancakeSwap Token",
+        "name": "PancakeSwap",
         "symbol": "CAKE",
         "website": "https://pancakeswap.finance/affiliates-program"
     },
@@ -5305,7 +5305,7 @@
         "decimals": 8,
         "displaySymbol": "WAXP",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x2A79324c19Ef2B89Ea98b23BC669B7E7c9f8A517.png",
-        "name": "WAXP Token",
+        "name": "WAX",
         "symbol": "WAXP",
         "website": "https://wax.io/"
     },
@@ -8131,7 +8131,7 @@
         "decimals": 18,
         "displaySymbol": "ACX",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F.png",
-        "name": "Across Protocol Token",
+        "name": "Across Protocol",
         "symbol": "ACX",
         "website": "https://across.to/"
     },
@@ -8437,7 +8437,7 @@
         "decimals": 18,
         "displaySymbol": "WOO",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x4691937a7508860F876c9c0a2a617E7d9E945D4B.png",
-        "name": "WOO Network",
+        "name": "WOO",
         "symbol": "WOO",
         "website": "https://woox.io/"
     },
@@ -8644,7 +8644,7 @@
         "decimals": 18,
         "displaySymbol": "CTSI",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x491604c0FDF08347Dd1fa4Ee062a822A5DD06B5D.png",
-        "name": "Cartesi Token",
+        "name": "Cartesi",
         "symbol": "CTSI",
         "website": "https://cartesi.io/"
     },
@@ -9103,7 +9103,7 @@
         "decimals": 18,
         "displaySymbol": "CELR",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x4F9254C83EB525f9FCf346490bbb3ed28a81C667.png",
-        "name": "CelerToken",
+        "name": "Celer Network",
         "symbol": "CELR",
         "website": "https://www.celer.network/"
     },
@@ -9400,7 +9400,7 @@
         "decimals": 18,
         "displaySymbol": "CVX",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B.png",
-        "name": "Convex Token",
+        "name": "Convex Finance",
         "symbol": "CVX",
         "website": "https://www.convexfinance.com/"
     },
@@ -10318,7 +10318,7 @@
         "decimals": 18,
         "displaySymbol": "LPT",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x58b6A8A3302369DAEc383334672404Ee733aB239.png",
-        "name": "Livepeer Token",
+        "name": "Livepeer",
         "symbol": "LPT",
         "website": "https://livepeer.org/"
     },
@@ -10768,7 +10768,7 @@
         "decimals": 18,
         "displaySymbol": "SAFE",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x5aFE3855358E112B5647B952709E6165e1c1eEEe.png",
-        "name": "Safe token",
+        "name": "Safe",
         "symbol": "SAFE",
         "website": "https://safe.global/"
     },
@@ -10840,7 +10840,7 @@
         "decimals": 18,
         "displaySymbol": "WFLOW",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x5c147e74D63B1D31AA3Fd78Eb229B65161983B2b.png",
-        "name": "Wrapped Flow",
+        "name": "Flow",
         "symbol": "WFLOW",
         "website": "https://flow.com/"
     },
@@ -11533,7 +11533,7 @@
         "decimals": 18,
         "displaySymbol": "SYRUP",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x643C4E15d7d62Ad0aBeC4a9BD4b001aA3Ef52d66.png",
-        "name": "Syrup Token",
+        "name": "Maple Finance",
         "symbol": "SYRUP",
         "website": "https://syrup.fi/"
     },
@@ -11623,7 +11623,7 @@
         "decimals": 18,
         "displaySymbol": "BORG",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x64d0f55Cd8C7133a9D7102b13987235F486F2224.png",
-        "name": "SwissBorg Token",
+        "name": "SwissBorg",
         "symbol": "BORG",
         "website": "https://swissborg.com/en/"
     },
@@ -12577,7 +12577,7 @@
         "decimals": 18,
         "displaySymbol": "LQTY",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D.png",
-        "name": "LQTY Token",
+        "name": "Liquity",
         "symbol": "LQTY",
         "website": "https://www.liquity.org/"
     },
@@ -12595,7 +12595,7 @@
         "decimals": 18,
         "displaySymbol": "RNDR",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24.png",
-        "name": "Render Token",
+        "name": "Render",
         "symbol": "RNDR",
         "website": "http://renderfoundation.com"
     },
@@ -13171,7 +13171,7 @@
         "decimals": 18,
         "displaySymbol": "UDS",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x712bd4Beb54C6B958267d9dB0259abdBb0BFF606.png",
-        "name": "UndeadServiceToken",
+        "name": "Undeads Games",
         "symbol": "UDS",
         "website": "https://undeads.com/"
     },
@@ -13531,7 +13531,7 @@
         "decimals": 18,
         "displaySymbol": "MAV",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x7448c7456a97769F6cD04F1E83A4a23cCdC46aBD.png",
-        "name": "Maverick Token",
+        "name": "Maverick Protocol",
         "symbol": "MAV",
         "website": "https://www.mav.xyz/"
     },
@@ -14955,7 +14955,7 @@
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x8390a1DA07E376ef7aDd4Be859BA74Fb83aA02D5.png",
         "name": "GROK",
         "symbol": "GROK",
-        "website": "https://www.grok-erc.com/"
+        "website": "https://grokoneth.meme"
     },
     {
         "address": "0x83984d6142934bb535793A82ADB0a46EF0F66B6d",
@@ -16222,7 +16222,7 @@
         "decimals": 18,
         "displaySymbol": "REQ",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x8f8221aFbB33998d8584A2B05749bA73c37a938a.png",
-        "name": "Request Token",
+        "name": "Request",
         "symbol": "REQ",
         "website": "https://request.network"
     },
@@ -16582,7 +16582,7 @@
         "decimals": 18,
         "displaySymbol": "DUSK",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x940a2dB1B7008B6C776d4faaCa729d6d4A4AA551.png",
-        "name": "Dusk Network",
+        "name": "Dusk",
         "symbol": "DUSK",
         "website": "https://dusk.network/"
     },
@@ -17176,7 +17176,7 @@
         "decimals": 18,
         "displaySymbol": "HUNT",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5.png",
-        "name": "HuntToken",
+        "name": "Hunt Town",
         "symbol": "HUNT",
         "website": "https://hunt.town"
     },
@@ -17320,7 +17320,7 @@
         "decimals": 18,
         "displaySymbol": "CHEX",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x9Ce84F6A69986a83d92C324df10bC8E64771030f.png",
-        "name": "Chintai Exchange Token",
+        "name": "Chintai",
         "symbol": "CHEX",
         "website": "https://chintai.io/"
     },
@@ -17842,7 +17842,7 @@
         "decimals": 8,
         "displaySymbol": "CRO",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b.png",
-        "name": "Crypto.com Coin",
+        "name": "Cronos",
         "symbol": "CRO",
         "website": "https://cronos-pos.org/"
     },
@@ -18292,7 +18292,7 @@
         "decimals": 18,
         "displaySymbol": "QANX",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xAAA9214F675316182Eaa21C85f0Ca99160CC3AAA.png",
-        "name": "QANX Token",
+        "name": "QANplatform",
         "symbol": "QANX",
         "website": "https://www.qanplatform.com/"
     },
@@ -18337,7 +18337,7 @@
         "decimals": 18,
         "displaySymbol": "ORDER",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xABD4C63d2616A5201454168269031355f4764337.png",
-        "name": "Orderly Network (ORDER)",
+        "name": "Orderly",
         "symbol": "ORDER",
         "website": "https://orderly.network/"
     },
@@ -18373,7 +18373,7 @@
         "decimals": 18,
         "displaySymbol": "ADX",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xADE00C28244d5CE17D72E40330B1c318cD12B7c3.png",
-        "name": "Ambire AdEx",
+        "name": "heyAura",
         "symbol": "ADX",
         "website": "https://www.adex.network/"
     },
@@ -18481,7 +18481,7 @@
         "decimals": 18,
         "displaySymbol": "USDon",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xAcE8E719899F6E91831B18AE746C9A965c2119F1.png",
-        "name": "Ondo U.S. Dollar Token",
+        "name": "U.S. Dollar (Ondo)",
         "symbol": "USDON",
         "website": "https://ondo.finance/"
     },
@@ -18544,7 +18544,7 @@
         "decimals": 18,
         "displaySymbol": "STG",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6.png",
-        "name": "StargateToken",
+        "name": "Stargate Finance",
         "symbol": "STG",
         "website": "https://stargate.finance/"
     },
@@ -18571,7 +18571,7 @@
         "decimals": 18,
         "displaySymbol": "W",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xB0fFa8000886e57F86dd5264b9582b2Ad87b2b91.png",
-        "name": "Wormhole Token",
+        "name": "Wormhole",
         "symbol": "W",
         "website": "https://wormhole.com/"
     },
@@ -19102,7 +19102,7 @@
         "decimals": 18,
         "displaySymbol": "BAND",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55.png",
-        "name": "Band Protocol",
+        "name": "Band",
         "symbol": "BAND",
         "website": "https://bandprotocol.com/"
     },
@@ -20146,7 +20146,7 @@
         "decimals": 18,
         "displaySymbol": "T",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xCdF7028ceAB81fA0C6971208e83fa7872994beE5.png",
-        "name": "Threshold Network Token",
+        "name": "Threshold",
         "symbol": "T",
         "website": "https://threshold.network/"
     },
@@ -20839,7 +20839,7 @@
         "decimals": 18,
         "displaySymbol": "COW",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xDEf1CA1fb7FBcDC777520aa7f396b4E015F497aB.png",
-        "name": "CoW Protocol Token",
+        "name": "CoW Protocol",
         "symbol": "COW",
         "website": "https://cow.fi"
     },
@@ -21019,7 +21019,7 @@
         "decimals": 18,
         "displaySymbol": "FCT",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xE1bAD922F84b198A08292FB600319300ae32471b.png",
-        "name": "[FCT] FirmaChain Token",
+        "name": "FirmaChain",
         "symbol": "FCT",
         "website": "https://firmachain.org/"
     },
@@ -21262,7 +21262,7 @@
         "decimals": 18,
         "displaySymbol": "GT",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xE66747a101bFF2dBA3697199DCcE5b743b454759.png",
-        "name": "Gatechain Token",
+        "name": "GateToken",
         "symbol": "GT",
         "website": "https://gatechain.io/"
     },
@@ -21406,7 +21406,7 @@
         "decimals": 18,
         "displaySymbol": "QKC",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664.png",
-        "name": "QuarkChain Token",
+        "name": "QuarkChain",
         "symbol": "QKC",
         "website": "https://quarkchain.io/"
     },
@@ -21532,7 +21532,7 @@
         "decimals": 18,
         "displaySymbol": "HEZ",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xEEF9f339514298C6A857EfCfC1A762aF84438dEE.png",
-        "name": "Hermez Network Token",
+        "name": "Hermez Network",
         "symbol": "HEZ",
         "website": "https://hermez.io/"
     },
@@ -22918,7 +22918,7 @@
         "decimals": 18,
         "displaySymbol": "UST",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xa47c8bf37f92aBed4A126BDA807A7b7498661acD.png",
-        "name": "UST Token",
+        "name": "TerraClassicUSD",
         "symbol": "UST",
         "website": "https://terra.money"
     },
@@ -23053,7 +23053,7 @@
         "decimals": 18,
         "displaySymbol": "AVA",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xa6C0c097741D55ECd9a3A7DeF3A8253fD022ceB9.png",
-        "name": "Travala.com",
+        "name": "AVA (Travala)",
         "symbol": "AVA",
         "website": "https://www.travala.com"
     },
@@ -23287,7 +23287,7 @@
         "decimals": 18,
         "displaySymbol": "TRAC",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F.png",
-        "name": "Trace Token",
+        "name": "OriginTrail",
         "symbol": "TRAC",
         "website": "https://origintrail.io/"
     },
@@ -23692,7 +23692,7 @@
         "decimals": 18,
         "displaySymbol": "FET",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85.png",
-        "name": "Fetch.ai",
+        "name": "Artificial Superintelligence Alliance",
         "symbol": "FET",
         "website": "https://fetch.ai/"
     },
@@ -23836,7 +23836,7 @@
         "decimals": 18,
         "displaySymbol": "ZIG",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xb2617246d0c6c0087f18703d576831899ca94f01.png",
-        "name": "ZigCoin",
+        "name": "ZIGChain",
         "symbol": "ZIG",
         "website": "https://zignaly.com/"
     },
@@ -25434,6 +25434,15 @@
         "website": "https://ondo.finance/"
     },
     {
+        "address": "0xcE24439F2D9C6a2289F741120FE202248B666666",
+        "decimals": 18,
+        "displaySymbol": "U",
+        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xcE24439F2D9C6a2289F741120FE202248B666666/logo.png",
+        "name": "United Stables",
+        "symbol": "U",
+        "website": "https://u.tech/"
+    },
+    {
         "address": "0xcE246eEa10988C495B4A90a905Ee9237a0f91543",
         "decimals": 18,
         "displaySymbol": "VCX",
@@ -27004,7 +27013,7 @@
         "decimals": 8,
         "displaySymbol": "GMT",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xe3c408BD53c31C085a1746AF401A4042954ff740.png",
-        "name": "GreenMetaverseToken",
+        "name": "GMT",
         "symbol": "GMT",
         "website": "https://www.stepn.com/"
     },
@@ -27418,7 +27427,7 @@
         "decimals": 18,
         "displaySymbol": "OMI",
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xeD35af169aF46a02eE13b9d79Eb57d6D68C1749e.png",
-        "name": "OMI Token",
+        "name": "ECOMI",
         "symbol": "OMI",
         "website": "https://ecomi.notion.site/"
     },
