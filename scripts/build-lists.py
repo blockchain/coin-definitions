@@ -9,8 +9,8 @@ from urllib.parse import urljoin
 
 from coin_gecko import fetch_coin_prices, fetch_token_prices, fetch_coin_descriptions, fetch_token_descriptions, fetch_missing_tokens_for_network, get_coin_by_chain_and_address
 from common_classes import Asset, Blockchain, Coin, Token
-from statics import BLOCKCHAINS, EXT_BLOCKCHAINS_DENYLIST, EXT_BLOCKCHAINS, EXT_PRICES, FINAL_BLOCKCHAINS_LIST, \
-    NETWORKS, EXT_OVERRIDES
+from statics import BLOCKCHAINS, CURRENCY_LOGOS_ROOT, EXT_BLOCKCHAINS_DENYLIST, EXT_BLOCKCHAINS, EXT_PRICES, \
+    FINAL_BLOCKCHAINS_LIST, NETWORKS, EXT_OVERRIDES
 
 from utils import filter_cardano_tokens_by_price
 
@@ -191,6 +191,20 @@ def merge_token_lists(existing_tokens: list[Token], new_tokens: list[Token], coi
     return sorted(merged_list, key=lambda t: t.address)
 
 
+def published_logos(current_tokens: list[Token]) -> set[str]:
+    return {token.logo for token in current_tokens
+            if token.logo and token.logo.startswith(CURRENCY_LOGOS_ROOT)}
+
+
+def repoint_unpublished_logos(tokens: list[Token], published: set[str], chain: str) -> list[Token]:
+    def logo_for(token):
+        if token.logo in published:
+            return token.logo
+        return Token.build_source_logo(token.address, chain) or token.logo
+
+    return [replace(token, logo=logo_for(token)) for token in tokens]
+
+
 def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     print(f"Generating token files for network \"{network.chain}\"")
     tokens = fetch_tokens(network.chain)
@@ -237,6 +251,8 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     current_tokens = list(
         map(lambda x: Token(**x).without_suffix(network), read_json(network.output_file)))
 
+    published = published_logos(current_tokens)
+
     # For Ethereum, we need to fetch the coins as well because ETH tokens don't have suffix
     extras = list(map(lambda x: Coin.from_dict(x), read_json("coins.json"))) if network.chain == 'ethereum' else []
 
@@ -245,6 +261,8 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
         tokens = merge_token_lists(existing_tokens=current_tokens, new_tokens=tokens, coins=extras)
     else:
         tokens = list(set(tokens) | set(current_tokens))
+
+    tokens = repoint_unpublished_logos(tokens, published, network.chain)
 
     # Look for duplicates:
     # For ethereum we also check collisions with coins as ethereum tokens does not have suffixes
