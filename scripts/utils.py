@@ -95,7 +95,7 @@ def get_cardano_tokens_by_id(tokens, coin_list):
             policy_id = asset_id
             asset_name_hex = coin.symbol.upper().encode("utf-8").hex()
 
-        # scenario-3: as the asset_id (polic_id + asset_name_hex)
+        # scenario-3: as the asset_id (policy_id + asset_name_hex)
         else:
             policy_id = asset_id[:56]
             asset_name_hex = asset_id[56:]
