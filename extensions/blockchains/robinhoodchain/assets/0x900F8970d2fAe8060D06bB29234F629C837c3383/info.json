@@ -1,0 +1,10 @@
+{
+  "id": "0x900F8970d2fAe8060D06bB29234F629C837c3383",
+  "name": "BitMine Immersion Technologies",
+  "symbol": "BMNRON",
+  "displaySymbol": "BMNRon",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "0x43Cac729218C62210D71D66B7F0eC93990D8d8cc",
+  "name": "Robinhood Markets",
+  "symbol": "HOODON",
+  "displaySymbol": "HOODon",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

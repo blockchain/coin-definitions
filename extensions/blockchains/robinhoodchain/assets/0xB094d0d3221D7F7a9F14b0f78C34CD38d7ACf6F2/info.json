@@ -1,0 +1,10 @@
+{
+  "id": "0xB094d0d3221D7F7a9F14b0f78C34CD38d7ACf6F2",
+  "name": "GameStop",
+  "symbol": "GMEON",
+  "displaySymbol": "GMEon",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

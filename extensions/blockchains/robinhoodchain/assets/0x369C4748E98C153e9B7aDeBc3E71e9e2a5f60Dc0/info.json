@@ -1,0 +1,10 @@
+{
+  "id": "0x369C4748E98C153e9B7aDeBc3E71e9e2a5f60Dc0",
+  "name": "Circle Internet Group",
+  "symbol": "CRCLON",
+  "displaySymbol": "CRCLon",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

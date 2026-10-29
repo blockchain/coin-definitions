@@ -1,0 +1,10 @@
+{
+  "id": "0xB197F36C25BA9b66960688882A4dC595C6b04309",
+  "name": "Tesla",
+  "symbol": "TSLAON",
+  "displaySymbol": "TSLAon",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

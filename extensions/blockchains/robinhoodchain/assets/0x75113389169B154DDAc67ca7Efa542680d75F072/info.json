@@ -1,0 +1,10 @@
+{
+  "id": "0x75113389169B154DDAc67ca7Efa542680d75F072",
+  "name": "iShares China Large-Cap ETF",
+  "symbol": "FXION",
+  "displaySymbol": "FXIon",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}
