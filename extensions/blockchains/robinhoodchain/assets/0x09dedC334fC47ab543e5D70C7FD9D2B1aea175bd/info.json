@@ -1,0 +1,10 @@
+{
+  "id": "0x09dedC334fC47ab543e5D70C7FD9D2B1aea175bd",
+  "name": "MicroStrategy",
+  "symbol": "MSTRON",
+  "displaySymbol": "MSTRon",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

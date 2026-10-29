@@ -1,0 +1,10 @@
+{
+  "id": "0x9Bf86418CaF2b7a939603d6c24219a77Bf7F9b33",
+  "name": "Apple",
+  "symbol": "AAPLON",
+  "displaySymbol": "AAPLon",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

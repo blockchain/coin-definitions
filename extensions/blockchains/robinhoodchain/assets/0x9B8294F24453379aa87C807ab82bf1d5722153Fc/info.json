@@ -1,0 +1,10 @@
+{
+  "id": "0x9B8294F24453379aa87C807ab82bf1d5722153Fc",
+  "name": "SpaceX",
+  "symbol": "SPCXON",
+  "displaySymbol": "SPCXon",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

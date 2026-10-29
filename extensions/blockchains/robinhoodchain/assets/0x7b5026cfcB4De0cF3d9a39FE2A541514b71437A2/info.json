@@ -1,0 +1,10 @@
+{
+  "id": "0x7b5026cfcB4De0cF3d9a39FE2A541514b71437A2",
+  "name": "Meta Platforms",
+  "symbol": "METAON",
+  "displaySymbol": "METAon",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}
