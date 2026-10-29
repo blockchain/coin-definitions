@@ -24,7 +24,8 @@
     "parentSymbol": "AAPLON",
     "childSymbols": [
       "AAPLON.BNB",
-      "AAPLON.SOL"
+      "AAPLON.SOL",
+      "AAPLON.HOODETH"
     ]
   },
   {
@@ -409,7 +410,8 @@
     "parentSymbol": "BMNRON",
     "childSymbols": [
       "BMNRON.BNB",
-      "BMNRON.SOL"
+      "BMNRON.SOL",
+      "BMNRON.HOODETH"
     ]
   },
   {
@@ -668,7 +670,8 @@
     "parentSymbol": "CPERON",
     "childSymbols": [
       "CPERON.BNB",
-      "CPERON.SOL"
+      "CPERON.SOL",
+      "CPERON.HOODETH"
     ]
   },
   {
@@ -682,7 +685,8 @@
     "parentSymbol": "CRCLON",
     "childSymbols": [
       "CRCLON.BNB",
-      "CRCLON.SOL"
+      "CRCLON.SOL",
+      "CRCLON.HOODETH"
     ]
   },
   {
@@ -1081,7 +1085,8 @@
     "parentSymbol": "FXION",
     "childSymbols": [
       "FXION.BNB",
-      "FXION.SOL"
+      "FXION.SOL",
+      "FXION.HOODETH"
     ]
   },
   {
@@ -1158,7 +1163,8 @@
     "parentSymbol": "GMEON",
     "childSymbols": [
       "GMEON.BNB",
-      "GMEON.SOL"
+      "GMEON.SOL",
+      "GMEON.HOODETH"
     ]
   },
   {
@@ -1172,7 +1178,8 @@
     "parentSymbol": "GOOGLON",
     "childSymbols": [
       "GOOGLON.BNB",
-      "GOOGLON.SOL"
+      "GOOGLON.SOL",
+      "GOOGLON.HOODETH"
     ]
   },
   {
@@ -1249,7 +1256,8 @@
     "parentSymbol": "HOODON",
     "childSymbols": [
       "HOODON.BNB",
-      "HOODON.SOL"
+      "HOODON.SOL",
+      "HOODON.HOODETH"
     ]
   },
   {
@@ -1746,7 +1754,8 @@
     "parentSymbol": "METAON",
     "childSymbols": [
       "METAON.BNB",
-      "METAON.SOL"
+      "METAON.SOL",
+      "METAON.HOODETH"
     ]
   },
   {
@@ -1795,7 +1804,8 @@
     "parentSymbol": "MSTRON",
     "childSymbols": [
       "MSTRON.BNB",
-      "MSTRON.SOL"
+      "MSTRON.SOL",
+      "MSTRON.HOODETH"
     ]
   },
   {
@@ -1942,7 +1952,8 @@
     "parentSymbol": "NVDAON",
     "childSymbols": [
       "NVDAON.BNB",
-      "NVDAON.SOL"
+      "NVDAON.SOL",
+      "NVDAON.HOODETH"
     ]
   },
   {
@@ -2254,7 +2265,8 @@
     "parentSymbol": "QQQON",
     "childSymbols": [
       "QQQON.BNB",
-      "QQQON.SOL"
+      "QQQON.SOL",
+      "QQQON.HOODETH"
     ]
   },
   {
@@ -2548,7 +2560,8 @@
     "parentSymbol": "SPCXON",
     "childSymbols": [
       "SPCXON.BNB",
-      "SPCXON.SOL"
+      "SPCXON.SOL",
+      "SPCXON.HOODETH"
     ]
   },
   {
@@ -2569,7 +2582,8 @@
     "parentSymbol": "SPYON",
     "childSymbols": [
       "SPYON.BNB",
-      "SPYON.SOL"
+      "SPYON.SOL",
+      "SPYON.HOODETH"
     ]
   },
   {
@@ -2737,7 +2751,8 @@
     "parentSymbol": "TSLAON",
     "childSymbols": [
       "TSLAON.BNB",
-      "TSLAON.SOL"
+      "TSLAON.SOL",
+      "TSLAON.HOODETH"
     ]
   },
   {

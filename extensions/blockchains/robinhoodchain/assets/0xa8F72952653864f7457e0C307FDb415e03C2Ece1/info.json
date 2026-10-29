@@ -1,0 +1,10 @@
+{
+  "id": "0xa8F72952653864f7457e0C307FDb415e03C2Ece1",
+  "name": "US Copper Index Fund",
+  "symbol": "CPERON",
+  "displaySymbol": "CPERon",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

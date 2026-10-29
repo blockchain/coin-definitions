@@ -1,0 +1,10 @@
+{
+  "id": "0x300fE8a40701cE81460503fB886f9eD81A3B5e14",
+  "name": "Invesco QQQ",
+  "symbol": "QQQON",
+  "displaySymbol": "QQQon",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}

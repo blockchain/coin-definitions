@@ -1,0 +1,10 @@
+{
+  "id": "0xf1b95AE4E7700b962714702EA53784Dc8492a856",
+  "name": "NVIDIA",
+  "symbol": "NVDAON",
+  "displaySymbol": "NVDAon",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "website": "https://ondo.finance/"
+}
