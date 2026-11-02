@@ -3345,6 +3345,11 @@
         "websiteurl": ""
     },
     {
+        "description": "BLKDIGon: The Ondo Diversified Growth Powered by BlackRock portfolio seeks balanced, moderate-risk growth through a BlackRock-modeled allocation of roughly 70% equities and 30% fixed income and alternatives. The portfolio offers exposure to iShares equity strategies across U.S. and international markets, fixed income, and alternatives including Bitcoin. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BLKDIGON.SOL",
+        "websiteurl": ""
+    },
+    {
         "description": "BLKGRWon: The Ondo High Growth Powered by BlackRock portfolio targets significant long-term capital appreciation through a BlackRock-modeled, equity-led allocation of roughly 95% equities and 5% Bitcoin. The portfolio offers exposure to iShares equity strategies across U.S. and international markets alongside a Bitcoin allocation. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
         "symbol": "BLKGRWON",
         "websiteurl": ""
@@ -3355,6 +3360,11 @@
         "websiteurl": ""
     },
     {
+        "description": "BLKGRWon: The Ondo High Growth Powered by BlackRock portfolio targets significant long-term capital appreciation through a BlackRock-modeled, equity-led allocation of roughly 95% equities and 5% Bitcoin. The portfolio offers exposure to iShares equity strategies across U.S. and international markets alongside a Bitcoin allocation. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BLKGRWON.SOL",
+        "websiteurl": ""
+    },
+    {
         "description": "BLKHIon: The Ondo High Income Powered by BlackRock portfolio delivers global fixed income exposure. The token offers access to a BlackRock-modeled portfolio of iShares fixed income ETFs spanning flexible and total-return income, securitized debt, investment-grade credit, short duration, and high yield. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
         "symbol": "BLKHION",
         "websiteurl": ""
@@ -3362,6 +3372,11 @@
     {
         "description": "BLKHIon: The Ondo High Income Powered by BlackRock portfolio delivers global fixed income exposure. The token offers access to a BlackRock-modeled portfolio of iShares fixed income ETFs spanning flexible and total-return income, securitized debt, investment-grade credit, short duration, and high yield. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
         "symbol": "BLKHION.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "BLKHIon: The Ondo High Income Powered by BlackRock portfolio delivers global fixed income exposure. The token offers access to a BlackRock-modeled portfolio of iShares fixed income ETFs spanning flexible and total-return income, securitized debt, investment-grade credit, short duration, and high yield. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BLKHION.SOL",
         "websiteurl": ""
     },
     {
@@ -3942,6 +3957,11 @@
     {
         "description": "BRAINon: The Ondo AI Leaders Portfolio provides modified market-cap exposure to the artificial intelligence value chain spanning semiconductors and compute, AI infrastructure, power and energy, and AI thematic ETFs. Roughly 85% is allocated to individual stocks and 15% to ETFs. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
         "symbol": "BRAINON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "BRAINon: The Ondo AI Leaders Portfolio provides modified market-cap exposure to the artificial intelligence value chain spanning semiconductors and compute, AI infrastructure, power and energy, and AI thematic ETFs. Roughly 85% is allocated to individual stocks and 15% to ETFs. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BRAINON.SOL",
         "websiteurl": ""
     },
     {
@@ -15447,6 +15467,11 @@
     {
         "description": "MAG7Xon: The Ondo Magnificent 7 + Crypto Portfolio implements an aggressive growth strategy by pairing the mega-cap technology stocks known as the \"Magnificent Seven\" with leading crypto assets. The portfolio holds an 80% equal-weight allocation to Apple, Microsoft, Alphabet, Amazon, NVIDIA, Meta, and Tesla, with the remaining 20% split between Bitcoin (15%) and Ethereum (5%). Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
         "symbol": "MAG7XON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "MAG7Xon: The Ondo Magnificent 7 + Crypto Portfolio implements an aggressive growth strategy by pairing the mega-cap technology stocks known as the \"Magnificent Seven\" with leading crypto assets. The portfolio holds an 80% equal-weight allocation to Apple, Microsoft, Alphabet, Amazon, NVIDIA, Meta, and Tesla, with the remaining 20% split between Bitcoin (15%) and Ethereum (5%). Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "MAG7XON.SOL",
         "websiteurl": ""
     },
     {
@@ -29790,6 +29815,11 @@
         "websiteurl": ""
     },
     {
+        "description": "YLD5on: The Ondo 5% Targeted Income TR Portfolio aims to generate monthly income stream from exposure to select high-yield preferred shares, covered-call equity income, corporate bonds, and Real Estate Investment Trusts (REITs). The portfolio is systematically calibrated to an approximate 5% yield. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "YLD5ON.SOL",
+        "websiteurl": ""
+    },
+    {
         "description": "YLD8on: The Ondo 8% Targeted Income TR Portfolio seeks to generate an elevated monthly income stream by providing exposure to income-generating investments across high-yield preferred shares, covered-call equity income, corporate bonds, and Real Estate Investment Trusts (REITs). The portfolio is calibrated to an approximate 8% yield. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
         "symbol": "YLD8ON",
         "websiteurl": ""
@@ -29797,6 +29827,11 @@
     {
         "description": "YLD8on: The Ondo 8% Targeted Income TR Portfolio seeks to generate an elevated monthly income stream by providing exposure to income-generating investments across high-yield preferred shares, covered-call equity income, corporate bonds, and Real Estate Investment Trusts (REITs). The portfolio is calibrated to an approximate 8% yield. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
         "symbol": "YLD8ON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "YLD8on: The Ondo 8% Targeted Income TR Portfolio seeks to generate an elevated monthly income stream by providing exposure to income-generating investments across high-yield preferred shares, covered-call equity income, corporate bonds, and Real Estate Investment Trusts (REITs). The portfolio is calibrated to an approximate 8% yield. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "YLD8ON.SOL",
         "websiteurl": ""
     },
     {
