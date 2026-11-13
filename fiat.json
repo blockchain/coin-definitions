@@ -20,6 +20,7 @@
   {"symbol": "JPY", "name": "Japanese Yen",       "decimals": 0, "logo": "https://login.blockchain.com/static/asset/currency/fiat/JPY.png"},
   {"symbol": "KRW", "name": "South Korean Won",   "decimals": 0, "logo": "https://login.blockchain.com/static/asset/currency/fiat/KRW.png"},
   {"symbol": "MXN", "name": "Mexican Peso",       "decimals": 2, "logo": "https://login.blockchain.com/static/asset/currency/fiat/MXN.png"},
+  {"symbol": "MYR", "name": "Malaysian Ringgit",  "decimals": 2, "logo": "https://login.blockchain.com/static/asset/currency/fiat/MYR.png"},
   {"symbol": "NGN", "name": "Nigerian Naira",     "decimals": 2, "logo": "https://login.blockchain.com/static/asset/currency/fiat/NGN.png"},
   {"symbol": "NZD", "name": "New Zealand Dollar", "decimals": 2, "logo": "https://login.blockchain.com/static/asset/currency/fiat/NZD.png"},
   {"symbol": "PEN", "name": "Peruvian Sol",       "decimals": 2, "logo": "https://login.blockchain.com/static/asset/currency/fiat/PEN.png"},
@@ -32,5 +33,6 @@
   {"symbol": "THB", "name": "Thai Baht",          "decimals": 2, "logo": "https://login.blockchain.com/static/asset/currency/fiat/THB.png"},
   {"symbol": "TRY", "name": "Turkish Lira",       "decimals": 2, "logo": "https://login.blockchain.com/static/asset/currency/fiat/TRY.png"},
   {"symbol": "TWD", "name": "New Taiwan Dollar",  "decimals": 2, "logo": "https://login.blockchain.com/static/asset/currency/fiat/TWD.png"},
-  {"symbol": "USD", "name": "US Dollar",          "decimals": 2, "logo": "https://login.blockchain.com/static/asset/currency/fiat/USD.png"}
+  {"symbol": "USD", "name": "US Dollar",          "decimals": 2, "logo": "https://login.blockchain.com/static/asset/currency/fiat/USD.png"},
+  {"symbol": "ZAR", "name": "South African Rand", "decimals": 2, "logo": "https://login.blockchain.com/static/asset/currency/fiat/ZAR.png"}
 ]
