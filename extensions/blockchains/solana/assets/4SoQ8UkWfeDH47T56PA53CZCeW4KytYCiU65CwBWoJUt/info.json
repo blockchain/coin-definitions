@@ -1,0 +1,10 @@
+{
+  "name": "Mantle",
+  "website": "https://www.mantle.xyz/",
+  "displaySymbol": "MNT",
+  "symbol": "MNT",
+  "id": "4SoQ8UkWfeDH47T56PA53CZCeW4KytYCiU65CwBWoJUt",
+  "type": "SOLANA_TOKEN",
+  "decimals": 9,
+  "status": "active"
+}
