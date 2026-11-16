@@ -1,0 +1,10 @@
+{
+  "id": "0x6E2BE4514B705c9faD357E6E556c67C710190bb9",
+  "name": "Innovator ZFEB ETF (Ondo Tokenized)",
+  "symbol": "ZFEBON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "displaySymbol": "ZFEBon",
+  "website": "https://ondo.finance/"
+}

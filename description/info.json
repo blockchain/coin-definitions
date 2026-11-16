@@ -3105,6 +3105,21 @@
         "websiteurl": "https://beefy.com/"
     },
     {
+        "description": "BIG5on: The Ondo Big 5 Core Allocation Portfolio (BIG5on) combines five of the most in-demand assets in a single token: the S&P 500, Nasdaq-100, gold, bitcoin, and ether. It\u2019s built by Ondo and rebalanced quarterly back to its target weights. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BIG5ON",
+        "websiteurl": ""
+    },
+    {
+        "description": "BIG5on: The Ondo Big 5 Core Allocation Portfolio (BIG5on) combines five of the most in-demand assets in a single token: the S&P 500, Nasdaq-100, gold, bitcoin, and ether. It\u2019s built by Ondo and rebalanced quarterly back to its target weights. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BIG5ON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "BIG5on: The Ondo Big 5 Core Allocation Portfolio (BIG5on) combines five of the most in-demand assets in a single token: the S&P 500, Nasdaq-100, gold, bitcoin, and ether. It\u2019s built by Ondo and rebalanced quarterly back to its target weights. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "BIG5ON.SOL",
+        "websiteurl": ""
+    },
+    {
         "description": "Big Time is a free-to-play, multiplayer action RPG game that combines fast-action combat and an adventure through time and space.\r\n \r\nExplore ancient mysteries and futuristic civilizations as you battle your way through history. Pick up rare collectibles Loot, Cosmetics and Tokens as you fight and defeat enemies. Collect and trade your Collectibles to decorate your avatar and personal metaverse, where you can hang out with your friends.\r\n\r\nExpand your personal metaverse and production capabilities with SPACE to join our in-game creator economy. \r\n\r\nPlay for free, collect in-game items and tokens, produce Collectibles, or hang out with friends...  Limitless environments and Adventure Instances give you INFINITE possibilities. The gameplay options are endless. ",
         "symbol": "BIGTIME",
         "websiteurl": "https://bigtime.gg/"
@@ -24260,6 +24275,21 @@
         "websiteurl": "https://spyro.vip/"
     },
     {
+        "description": "SPYSHIELDon: The Ondo US 500 Capital Shielded Portfolio (SPYSHIELDon) seeks to protect principal while participating in the upside of the S&P 500. It holds a ladder of 12 ETFs, each designed to buffer 100% of the S&P 500's downside (via SPY) over a one-year outcome period, in exchange for capped upside. The goal is a smoother return path than the S&P 500, providing an alternative to traditional fixed income. It\u2019s built by Ondo and rebalanced quarterly back to its target weights. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "SPYSHIELDON",
+        "websiteurl": ""
+    },
+    {
+        "description": "SPYSHIELDon: The Ondo US 500 Capital Shielded Portfolio (SPYSHIELDon) seeks to protect principal while participating in the upside of the S&P 500. It holds a ladder of 12 ETFs, each designed to buffer 100% of the S&P 500's downside (via SPY) over a one-year outcome period, in exchange for capped upside. The goal is a smoother return path than the S&P 500, providing an alternative to traditional fixed income. It\u2019s built by Ondo and rebalanced quarterly back to its target weights. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "SPYSHIELDON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "SPYSHIELDon: The Ondo US 500 Capital Shielded Portfolio (SPYSHIELDon) seeks to protect principal while participating in the upside of the S&P 500. It holds a ladder of 12 ETFs, each designed to buffer 100% of the S&P 500's downside (via SPY) over a one-year outcome period, in exchange for capped upside. The goal is a smoother return path than the S&P 500, providing an alternative to traditional fixed income. It\u2019s built by Ondo and rebalanced quarterly back to its target weights. Additional restrictions apply. Learn more at ondo.finance/intelligent-portfolios.",
+        "symbol": "SPYSHIELDON.SOL",
+        "websiteurl": ""
+    },
+    {
         "description": "SPYon is the Ondo Tokenized version of the SPDR S&P 500 ETF, giving tokenholders economic exposure similar to holding SPY and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
         "symbol": "SPYon",
         "websiteurl": ""
@@ -29910,6 +29940,36 @@
         "websiteurl": "https://www.zap.tech/"
     },
     {
+        "description": "ZAPRon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr April, giving tokenholders economic exposure similar to holding ZAPR and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZAPRON",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZAPRon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr April, giving tokenholders economic exposure similar to holding ZAPR and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZAPRON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZAPRon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr April, giving tokenholders economic exposure similar to holding ZAPR and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZAPRON.SOL",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZAUGon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr August, giving tokenholders economic exposure similar to holding ZAUG and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZAUGON",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZAUGon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr August, giving tokenholders economic exposure similar to holding ZAUG and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZAUGON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZAUGon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr August, giving tokenholders economic exposure similar to holding ZAUG and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZAUGON.SOL",
+        "websiteurl": ""
+    },
+    {
         "description": "ZILLIONXO is a simple utility token created with an existence on Binance Smart Chain.\r\nAs the name suggests, this token encompasses the entire crypto universe in one\r\ncircle. It can be used to transact directly among the users. It is available on DEX\r\nand CEX platforms. \r\n\r\nThe primary function being paying for different kinds of\r\ntransactions flawlessly. ZILLIONXO is not restricted to any particular domain, it can be\r\nutilised for all sorts of online payments\r\n\r\nZILLIONXO aim is to be a community governed decentralised platform that eliminates\r\nthird-party platforms charges such as Software as a service, transactional\r\nplatforms, and high fee payment gateways.\r\n\r\n1. ZILLIONXO will enable direct real-time peer-to-peer business and consumer\r\nconnectivity, service delivery, and low fee stable currency and\r\nCryptocurrency payment processing at a fraction of a cost.\r\n\r\n2. It will enable free cross-chain asset transfer for retail payments and rewards.\r\n\r\n3. ZILLIONXO is all in one decentralised platform will enable small retailers to create\r\nfree online stores with one click and connect with consumers in real-time\r\nwithout needing the third-party platform. The platform will enable real-time\r\nbusiness payment settlement. The platform will charge a fixed transaction\r\nfee of 0.57%, whereas token holder will only pay 0.47%.\r\n\r\n4. ZILLIONXO will be the blockchain for e-commerce and point of sale transactions.\r\n\r\n5. ZILLIONXO Mobile application will be integrated with stable currency infrastrcuture\r\nto process low fee payments.\r\n\r\n",
         "symbol": "ZAX.BNB",
         "websiteurl": "https://www.zillionxo.io/"
@@ -29953,6 +30013,21 @@
         "description": "Unizen is an operating system for cross-chain enabled exchange applications. Applications on Unizen are referred to as modules that gets onboarded onto the ecosystem. This allows traders to access a plethora of trading products both decentralized and centralized, by interacting with the full product innovation or through Unizen's trade aggregation algorithms. \r\n\r\nUnizen provides a simple interface that caters to all trading personas to acquire any asset, for the best fees across a multitude of liquidity pools. Unizen CeFi module is powered by Binance Cloud, which let's users execute trades against Binance-shared liquidity on the platform.\r\n\r\nZCX is the native utility token that is used for:\r\n\r\n* Dynamic Multi-Asset Staking\r\n* Reduced trading fees\r\n* Exchange Governance\r\n* Direct Access to ZenX Labs Portfolio\r\n",
         "symbol": "ZCX",
         "websiteurl": "https://unizen.io/"
+    },
+    {
+        "description": "ZDEKon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr December, giving tokenholders economic exposure similar to holding ZDEK and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZDEKON",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZDEKon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr December, giving tokenholders economic exposure similar to holding ZDEK and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZDEKON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZDEKon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr December, giving tokenholders economic exposure similar to holding ZDEK and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZDEKON.SOL",
+        "websiteurl": ""
     },
     {
         "description": "Zcash is a decentralized and open-source cryptocurrency that offers privacy and selective transparency of transactions. Zcash payments are published on a public blockchain, but the sender, recipient, and amount of a transaction remain private.\r\n\r\nZcash is based on peer-reviewed cryptographic research, and built by a security-specialized engineering team on an open source platform based on Bitcoin Core's battle-tested codebase. Our improvement over Bitcoin is the addition of privacy. Zcash uses advanced cryptographic techniques, namely zero-knowledge proofs, to guarantee the validity of transactions without revealing additional information about them.\r\n\r\nHow Zcash works\r\n\r\nZcash encrypts the contents of shielded transactions. Since the payment information is encrypted, the protocol uses a novel cryptographic method to verify their validity.\r\n\r\nZcash uses a zero-knowledge proof construction called a zk-SNARK, developed by our team of experienced cryptographers based on recent breakthroughs in cryptography. These constructions allow the network to maintain a secure ledger of balances without disclosing the parties or amounts involved. Instead of publicly demonstrating spend-authority and transaction values, the transaction metadata is encrypted and zk-SNARKs are used to prove that nobody is cheating or stealing.\r\n\r\nZcash also enables users to send public payments which work similarly to Bitcoin. With the support for both shielded and transparent addresses, users can choose to send Zcash privately or publicly. Zcash payments sent from a shielded address to a transparent address reveal the received balance, while payments from a transparent address to a shielded address protect the receiving value. \r\n\r\nCheck out CoinBureau for guide on What is ZCash.",
@@ -30080,6 +30155,21 @@
         "websiteurl": "https://www.zeta.markets/"
     },
     {
+        "description": "ZFEBon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr February, giving tokenholders economic exposure similar to holding ZFEB and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZFEBON",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZFEBon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr February, giving tokenholders economic exposure similar to holding ZFEB and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZFEBON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZFEBon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr February, giving tokenholders economic exposure similar to holding ZFEB and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZFEBON.SOL",
+        "websiteurl": ""
+    },
+    {
         "description": "Zignaly is a social crypto investment platform. Invest in crypto by using signals, copying experts or fully delegated mode with profit sharing (PAMM). Avoid monthly subscriptions and pay only a portion of the profit as success fee.",
         "symbol": "ZIG",
         "websiteurl": "https://zignaly.com/"
@@ -30115,6 +30205,51 @@
         "websiteurl": "https://zipswap.fi/"
     },
     {
+        "description": "ZJANon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr January, giving tokenholders economic exposure similar to holding ZJAN and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZJANON",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZJANon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr January, giving tokenholders economic exposure similar to holding ZJAN and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZJANON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZJANon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr January, giving tokenholders economic exposure similar to holding ZJAN and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZJANON.SOL",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZJULon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr July, giving tokenholders economic exposure similar to holding ZJUL and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZJULON",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZJULon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr July, giving tokenholders economic exposure similar to holding ZJUL and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZJULON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZJULon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr July, giving tokenholders economic exposure similar to holding ZJUL and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZJULON.SOL",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZJUNon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr June, giving tokenholders economic exposure similar to holding ZJUN and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZJUNON",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZJUNon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr June, giving tokenholders economic exposure similar to holding ZJUN and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZJUNON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZJUNon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr June, giving tokenholders economic exposure similar to holding ZJUN and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZJUNON.SOL",
+        "websiteurl": ""
+    },
+    {
         "description": "Based on ZK-Rollups technology, L2 Labs has launched ZKSpace, a full-featured protocol of Layer-2, including DEX, payment, and NFT function, and it transfers all tokens (including protocols ERC20 and ERC721) onto Layer-2 using ZK-Rollups technology. The consistent state of Layer1 and Layer2 is guaranteed based on continuously generated zero-knowledge proofs, so as to make all token swaps, transfers, and NFT minting and trading on Layer 2, realizing real-time trading with low Gas fees (no need to wait for one-block confirmation). As well, it also has infinite scalability, getting rid of the limit on TPS and one-block confirmation on Ethereum. In addition, users can enjoy CEX and a smooth trading experience like traditional e-commerce platforms and can guarantee asset security of their own in real-time.\r\n\r\nZKSwap is a token swap protocol based on Automated Market Maker (AMM). Through ZK-Rollup technology, the full set of Uniswap functions are realized in Layer-2, while providing unlimited scalability and privacy. ZKSwap offers swap infrastructure and transactions with ultra-high throughput and zero gas fees to liquidity providers and traders",
         "symbol": "ZKB",
         "websiteurl": "https://zkbase.org"
@@ -30145,9 +30280,69 @@
         "websiteurl": "https://zkml.systems"
     },
     {
+        "description": "ZMARon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr March, giving tokenholders economic exposure similar to holding ZMAR and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZMARON",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZMARon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr March, giving tokenholders economic exposure similar to holding ZMAR and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZMARON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZMARon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr March, giving tokenholders economic exposure similar to holding ZMAR and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZMARON.SOL",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZMAYon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr May, giving tokenholders economic exposure similar to holding ZMAY and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZMAYON",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZMAYon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr May, giving tokenholders economic exposure similar to holding ZMAY and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZMAYON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZMAYon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr May, giving tokenholders economic exposure similar to holding ZMAY and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZMAYON.SOL",
+        "websiteurl": ""
+    },
+    {
         "description": "ZND is a comprehensive financial ecosystem comprised of various platforms, each tailored to distinct target groups. The foundation of this ecosystem is zondacrypto, a cryptocurrency exchange launched in 2014, which has since become one of the largest in Central Europe. Another significant platform within the ZND ecosystem is zondacrypto Pay, a payment processor that enables entrepreneurs, marketplaces, and platforms to accept cryptocurrency payments for their goods and services.\r\nThe most recent addition to the ecosystem, launched in December 2023, is the ZND platform, an innovative digital asset management solution created in collaboration with ICEO Venture Builder and Zondacrypto. It focuses on four essential pillars for users engaged in the cryptocurrency market: Trade, Earn, Borrow, and Explore. The platform is designed with simplicity in mind, allowing even those with minimal experience to easily navigate and participate in trading and other activities.\r\nAt the core of this ecosystem is the ZND Token, which functions as the primary settlement unit across all platforms. The token represents trust and loyalty within the community, serving as a reward for key engagement mechanisms throughout the ecosystem.\r\nThe ZND Token is a versatile asset within the ZND ecosystem, offering multiple utilities that enhance user engagement and market stability.\r\nIn the \"Earn\" service, users can lock their crypto assets like BTC or ETH and choose to receive rewards in $ZND, with flexible reward structures giving up to 20% $ZND additional bonus. This farming mechanism offers a seamless way to accumulate $ZND without direct market purchases, increasing demand for the token.\r\nThe Staking Program allows users to freeze $ZND for long-term rewards, offering high APRs, loyalty-based benefits, and early withdrawal options with penalty fees. This program withdraws significant $ZND from circulation, contributing to market stability. \r\n\r\nThe Loyalty Program encourages platform activity by offering exclusive rewards, such as special pool bonuses filled from penalty fees and trading costs. Loyalty tiers unlock greater perks, fostering deeper community engagement.\r\n\r\nFinally, the Token Burning mechanism ensures $ZND remains a deflationary asset, with periodic burns reducing the token supply and supporting long-term growth.",
         "symbol": "ZND",
         "websiteurl": "https://znd.co/"
+    },
+    {
+        "description": "ZNOVon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr November, giving tokenholders economic exposure similar to holding ZNOV and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZNOVON",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZNOVon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr November, giving tokenholders economic exposure similar to holding ZNOV and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZNOVON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZNOVon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr November, giving tokenholders economic exposure similar to holding ZNOV and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZNOVON.SOL",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZOCTon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr October, giving tokenholders economic exposure similar to holding ZOCT and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZOCTON",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZOCTon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr October, giving tokenholders economic exposure similar to holding ZOCT and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZOCTON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZOCTon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr October, giving tokenholders economic exposure similar to holding ZOCT and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZOCTON.SOL",
+        "websiteurl": ""
     },
     {
         "description": "$ZOOMER is a team driven Solana-based Meme Coin, previously taken over by the community and organized to onboard both 'boomers' and 'zoomers' into cryptocurrency through content creation and community building.",
@@ -30213,6 +30408,21 @@
         "description": "ZRX is the governance token of 0x Protocol, a decentralized exchange infrastructure founded in 2016 by Will Warren and Amir Bandeali. Launched in 2017 after a $24M ICO backed by firms like Polychain and Pantera, 0x provides open-source smart contracts that enable permissionless trading of ERC-20 and ERC-721 tokens across multiple applications. ZRX holders govern protocol upgrades and treasury allocations, while the token is also used to incentivize liquidity providers within the ecosystem. Built on Ethereum and audited by independent security firms, 0x has become a core building block for wallets, DEXs, marketplaces, and DeFi platforms integrating decentralized exchange functionality.",
         "symbol": "ZRX",
         "websiteurl": "https://www.0xprotocol.org/"
+    },
+    {
+        "description": "ZSEPon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr September, giving tokenholders economic exposure similar to holding ZSEP and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZSEPON",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZSEPon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr September, giving tokenholders economic exposure similar to holding ZSEP and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZSEPON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "ZSEPon is the Ondo Tokenized version of the Innovator Equity Defined Protection ETF - 1 Yr September, giving tokenholders economic exposure similar to holding ZSEP and reinvesting any dividends. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ZSEPON.SOL",
+        "websiteurl": ""
     },
     {
         "description": "Zefi Lending is an innovative platform designed to provide users with on-chain collateralized lending services. By leveraging blockchain technology and deploying on a high-performance Layer 2 solution, Zefi Lending aims to enhance financial efficiency and accessibility for users in the DeFi ecosystem.\u2028\r\n\r\nThe primary purpose of Zefi Lending is to empower users by enabling them to utilize their cryptocurrency assets effectively.\u2028\u2028Zefi Lending operates on a user-friendly interface that simplifies the borrowing and lending process. Key functionalities include:\u2028\r\n\r\n1. Collateralized Loans: Users can deposit their cryptocurrencies as collateral to secure loans, enabling them to access liquidity without selling their assets.\u2028\r\n\r\n2. Interest Earning: Users who deposit tokens into the platform can earn competitive interest rates, providing a passive income stream.\u2028\r\n\r\n3. High Performance: By deploying on a high-performance L2 solution, Zefi Lending ensures faster transactions and lower fees, enhancing the overall user experience.\r\n\r\nZefi Lending offers significant utility for both individual users and the broader DeFi ecosystem:\u2028\r\n\r\n1\uff0cEnhanced Liquidity: Users can access funds while retaining ownership of their assets, facilitating better cash flow.\u2028\r\n\r\n2\uff0cPassive Income Generation: The ability to earn interest on deposits makes it an attractive option for users looking to maximize their crypto holdings.\u2028\r\n\r\n3\uff0cDecentralized Finance Accessibility: Zefi Lending democratizes access to financial services, providing tools traditionally available only through centralized institutions.\r\n",

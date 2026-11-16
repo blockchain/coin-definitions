@@ -1,0 +1,9 @@
+{
+  "name": "Ondo US 500 Capital Shielded Portfolio",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "SPYSHIELDon",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x15E9752e8E41aDB5F4831DbF46Dd1CA2488423e1"
+}
