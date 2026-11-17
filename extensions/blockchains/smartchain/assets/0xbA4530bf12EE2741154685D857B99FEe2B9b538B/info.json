@@ -1,0 +1,10 @@
+{
+  "id": "0xbA4530bf12EE2741154685D857B99FEe2B9b538B",
+  "name": "Ondo Big 5 Core Allocation Portfolio",
+  "symbol": "BIG5ON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "displaySymbol": "BIG5on",
+  "website": "https://ondo.finance/"
+}

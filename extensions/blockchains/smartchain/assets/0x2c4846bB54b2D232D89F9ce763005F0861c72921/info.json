@@ -1,0 +1,10 @@
+{
+  "id": "0x2c4846bB54b2D232D89F9ce763005F0861c72921",
+  "name": "Innovator ZSEP ETF (Ondo Tokenized)",
+  "symbol": "ZSEPON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "displaySymbol": "ZSEPon",
+  "website": "https://ondo.finance/"
+}

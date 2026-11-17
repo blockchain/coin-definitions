@@ -999,6 +999,15 @@
         "website": "https://chai.money/"
     },
     {
+        "address": "0x06B6F0126abA22D67c7cB42Bffd39B9F9e1d62A4",
+        "decimals": 18,
+        "displaySymbol": "ZDEKon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x06B6F0126abA22D67c7cB42Bffd39B9F9e1d62A4.png",
+        "name": "Innovator ZDEK ETF",
+        "symbol": "ZDEKON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x06B964d96f5dCF7Eae9d7C559B09EDCe244d4B8E",
         "decimals": 18,
         "displaySymbol": "USUALX",
@@ -2916,6 +2925,15 @@
         "website": "https://www.hxacoin.io/"
     },
     {
+        "address": "0x15E9752e8E41aDB5F4831DbF46Dd1CA2488423e1",
+        "decimals": 18,
+        "displaySymbol": "SPYSHIELDon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x15E9752e8E41aDB5F4831DbF46Dd1CA2488423e1.png",
+        "name": "Ondo US 500 Capital Shielded Portfolio",
+        "symbol": "SPYSHIELDON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x15FA5d3DBD11a831b72B92C1705BC9F801E233CB",
         "decimals": 18,
         "displaySymbol": "PXP",
@@ -4437,6 +4455,15 @@
         "website": "https://company.qorpo.world/"
     },
     {
+        "address": "0x22545EF4C4199B939B14cCB3fDE2012015Fd17Fc",
+        "decimals": 18,
+        "displaySymbol": "ZNOVon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x22545EF4C4199B939B14cCB3fDE2012015Fd17Fc.png",
+        "name": "Innovator ZNOV ETF",
+        "symbol": "ZNOVON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "decimals": 8,
         "displaySymbol": "WBTC",
@@ -5679,6 +5706,15 @@
         "website": "https://cream.finance/"
     },
     {
+        "address": "0x2baD73c08C6C7173818A40F88af8c0f03ef93DAB",
+        "decimals": 18,
+        "displaySymbol": "ZMAYon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x2baD73c08C6C7173818A40F88af8c0f03ef93DAB.png",
+        "name": "Innovator ZMAY ETF",
+        "symbol": "ZMAYON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x2baac9330Cf9aC479D819195794d79AD0c7616e3",
         "decimals": 18,
         "displaySymbol": "ADB",
@@ -6568,6 +6604,15 @@
         "name": "AMD xStock",
         "symbol": "AMDX",
         "website": "https://assets.backed.fi/products"
+    },
+    {
+        "address": "0x352D94C7f290ADBF3848B3672ed3e709197804Ae",
+        "decimals": 18,
+        "displaySymbol": "ZJULon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x352D94C7f290ADBF3848B3672ed3e709197804Ae.png",
+        "name": "Innovator ZJUL ETF",
+        "symbol": "ZJULON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x3543638eD4a9006E4840B105944271Bcea15605D",
@@ -8125,6 +8170,15 @@
         "name": "DODO",
         "symbol": "DODO",
         "website": "https://dodoex.io/"
+    },
+    {
+        "address": "0x43f35D6e2b15b218346E940a74328FA9184E96BF",
+        "decimals": 18,
+        "displaySymbol": "ZMARon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x43f35D6e2b15b218346E940a74328FA9184E96BF.png",
+        "name": "Innovator ZMAR ETF",
+        "symbol": "ZMARON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x44108f0223A3C3028F5Fe7AEC7f9bb2E66beF82F",
@@ -12681,6 +12735,15 @@
         "website": "https://ode.money"
     },
     {
+        "address": "0x6F866BdEe4B603bc907098ad596552a7AF0f1de3",
+        "decimals": 18,
+        "displaySymbol": "BIG5on",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x6F866BdEe4B603bc907098ad596552a7AF0f1de3.png",
+        "name": "Ondo Big 5 Core Allocation Portfolio",
+        "symbol": "BIG5ON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x6F919D67967a97EA36195A2346d9244E60FE0dDB",
         "decimals": 18,
         "displaySymbol": "BLOC",
@@ -12822,6 +12885,15 @@
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x6c51001149c7782820c107adce650692ab6c5378.png",
         "name": "Vicor",
         "symbol": "VICRON",
+        "website": "https://ondo.finance/"
+    },
+    {
+        "address": "0x6c5A43855A0Bc58e43c5E9ddCe09Bc076A34eD1E",
+        "decimals": 18,
+        "displaySymbol": "ZSEPon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x6c5A43855A0Bc58e43c5E9ddCe09Bc076A34eD1E.png",
+        "name": "Innovator ZSEP ETF",
+        "symbol": "ZSEPON",
         "website": "https://ondo.finance/"
     },
     {
@@ -14047,6 +14119,15 @@
         "name": "BTRST",
         "symbol": "BTRST",
         "website": "https://www.usebraintrust.com"
+    },
+    {
+        "address": "0x79B01000711aF924e87d2957c15D45b7Bc6D1D29",
+        "decimals": 18,
+        "displaySymbol": "ZFEBon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x79B01000711aF924e87d2957c15D45b7Bc6D1D29.png",
+        "name": "Innovator ZFEB ETF",
+        "symbol": "ZFEBON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0x79C7EF95aD32DcD5ECadB231568Bb03dF7824815",
@@ -18612,6 +18693,15 @@
         "website": "https://beefy.com/"
     },
     {
+        "address": "0xB1c221417855F7D7ccCffFC859d2C23318D434B8",
+        "decimals": 18,
+        "displaySymbol": "ZOCTon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xB1c221417855F7D7ccCffFC859d2C23318D434B8.png",
+        "name": "Innovator ZOCT ETF",
+        "symbol": "ZOCTON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xB1e9157c2Fdcc5a856C8DA8b2d89b6C32b3c1229",
         "decimals": 18,
         "displaySymbol": "ZEFU",
@@ -19258,6 +19348,15 @@
         "name": "Ebakus",
         "symbol": "EBK",
         "website": "https://www.ebakus.com/"
+    },
+    {
+        "address": "0xBE43B372F38283189d25deB817Cbc403dbF07A3e",
+        "decimals": 18,
+        "displaySymbol": "ZAPRon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xBE43B372F38283189d25deB817Cbc403dbF07A3e.png",
+        "name": "Innovator ZAPR ETF",
+        "symbol": "ZAPRON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xBEA0000029AD1c77D3d5D23Ba2D8893dB9d1Efab",
@@ -19926,6 +20025,15 @@
         "website": "https://genify.xyz/"
     },
     {
+        "address": "0xCB93963EeF139D7b9C2Bd9bE7E8aa35140F79806",
+        "decimals": 18,
+        "displaySymbol": "ZAUGon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xCB93963EeF139D7b9C2Bd9bE7E8aa35140F79806.png",
+        "name": "Innovator ZAUG ETF",
+        "symbol": "ZAUGON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0xCBdE0453d4E7D748077c1b0Ac2216C011DD2f406",
         "decimals": 9,
         "displaySymbol": "TERMINUS",
@@ -20509,6 +20617,15 @@
         "name": "Fautor",
         "symbol": "FTR",
         "website": "https://fautor.foundation"
+    },
+    {
+        "address": "0xD6EC2d5D63FEA8b7e40ce38776463c315973B075",
+        "decimals": 18,
+        "displaySymbol": "ZJUNon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xD6EC2d5D63FEA8b7e40ce38776463c315973B075.png",
+        "name": "Innovator ZJUN ETF",
+        "symbol": "ZJUNON",
+        "website": "https://ondo.finance/"
     },
     {
         "address": "0xD6a55C63865AffD67E2FB9f284F87b7a9E5FF3bD",
@@ -26142,6 +26259,15 @@
         "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xd68fa0978c257aace5bec5246b201b56e838d45d.png",
         "name": "General Dynamics",
         "symbol": "GDON",
+        "website": "https://ondo.finance/"
+    },
+    {
+        "address": "0xd6AB7B5eDB140f2103Db5876D8D95675CD5cB498",
+        "decimals": 18,
+        "displaySymbol": "ZJANon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0xd6AB7B5eDB140f2103Db5876D8D95675CD5cB498.png",
+        "name": "Innovator ZJAN ETF",
+        "symbol": "ZJANON",
         "website": "https://ondo.finance/"
     },
     {

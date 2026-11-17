@@ -1,0 +1,10 @@
+{
+  "id": "0x11b664414291512f3b13C7127768bA16fBEa35a5",
+  "name": "Innovator ZAUG ETF (Ondo Tokenized)",
+  "symbol": "ZAUGON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "displaySymbol": "ZAUGon",
+  "website": "https://ondo.finance/"
+}

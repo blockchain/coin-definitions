@@ -1,0 +1,10 @@
+{
+  "id": "0x5821C1EcbC33341709EF1Dd01FE1A8145BC248A8",
+  "name": "Ondo US 500 Capital Shielded Portfolio",
+  "symbol": "SPYSHIELDON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "displaySymbol": "SPYSHIELDon",
+  "website": "https://ondo.finance/"
+}
