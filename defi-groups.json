@@ -3250,6 +3250,41 @@
     ]
   },
   {
+    "parentSymbol": "SPYSHIELDON",
+    "childSymbols": [
+      "SPYSHIELDON.BNB",
+      "SPYSHIELDON.SOL"
+    ],
+    "constituentSymbols": [
+      "ZAPRON",
+      "ZAUGON",
+      "ZDEKON",
+      "ZFEBON",
+      "ZJANON",
+      "ZJULON",
+      "ZJUNON",
+      "ZMARON",
+      "ZMAYON",
+      "ZNOVON",
+      "ZOCTON",
+      "ZSEPON"
+    ]
+  },
+  {
+    "parentSymbol": "BIG5ON",
+    "childSymbols": [
+      "BIG5ON.BNB",
+      "BIG5ON.SOL"
+    ],
+    "constituentSymbols": [
+      "ETHAON",
+      "GLDON",
+      "IBITON",
+      "QQQON",
+      "SPYON"
+    ]
+  },
+  {
     "parentSymbol": "HYDBON",
     "childSymbols": [
       "HYDBON.BNB",
@@ -3282,6 +3317,90 @@
     "childSymbols": [
       "USHYON.BNB",
       "USHYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ZJANON",
+    "childSymbols": [
+      "ZJANON.BNB",
+      "ZJANON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ZFEBON",
+    "childSymbols": [
+      "ZFEBON.BNB",
+      "ZFEBON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ZMARON",
+    "childSymbols": [
+      "ZMARON.BNB",
+      "ZMARON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ZAPRON",
+    "childSymbols": [
+      "ZAPRON.BNB",
+      "ZAPRON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ZMAYON",
+    "childSymbols": [
+      "ZMAYON.BNB",
+      "ZMAYON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ZJUNON",
+    "childSymbols": [
+      "ZJUNON.BNB",
+      "ZJUNON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ZJULON",
+    "childSymbols": [
+      "ZJULON.BNB",
+      "ZJULON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ZAUGON",
+    "childSymbols": [
+      "ZAUGON.BNB",
+      "ZAUGON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ZSEPON",
+    "childSymbols": [
+      "ZSEPON.BNB",
+      "ZSEPON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ZOCTON",
+    "childSymbols": [
+      "ZOCTON.BNB",
+      "ZOCTON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ZNOVON",
+    "childSymbols": [
+      "ZNOVON.BNB",
+      "ZNOVON.SOL"
+    ]
+  },
+  {
+    "parentSymbol": "ZDEKON",
+    "childSymbols": [
+      "ZDEKON.BNB",
+      "ZDEKON.SOL"
     ]
   }
 ]

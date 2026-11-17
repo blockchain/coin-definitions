@@ -1,0 +1,10 @@
+{
+  "id": "0x16b384878990f94Fe3A6A18E5E46a5Eff1A50A08",
+  "name": "Innovator ZJUL ETF (Ondo Tokenized)",
+  "symbol": "ZJULON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "displaySymbol": "ZJULon",
+  "website": "https://ondo.finance/"
+}

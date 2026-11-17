@@ -1,0 +1,10 @@
+{
+  "id": "0x4F1a7E696E2550FFFd3C241FfAFa3cfbe603078a",
+  "name": "Innovator ZOCT ETF (Ondo Tokenized)",
+  "symbol": "ZOCTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "displaySymbol": "ZOCTon",
+  "website": "https://ondo.finance/"
+}
