@@ -1,0 +1,9 @@
+{
+  "name": "Anthropic (Ondo Tokenized)",
+  "website": "https://ondo.finance/",
+  "type": "ERC20",
+  "symbol": "ANTon",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x43a0943893474F246aA58e9921d975aD60Adee59"
+}

@@ -8172,6 +8172,15 @@
         "website": "https://dodoex.io/"
     },
     {
+        "address": "0x43a0943893474F246aA58e9921d975aD60Adee59",
+        "decimals": 18,
+        "displaySymbol": "ANTon",
+        "logo": "https://login.blockchain.com/static/asset/currency/token/ethereum/0x43a0943893474F246aA58e9921d975aD60Adee59.png",
+        "name": "Anthropic",
+        "symbol": "ANTON",
+        "website": "https://ondo.finance/"
+    },
+    {
         "address": "0x43f35D6e2b15b218346E940a74328FA9184E96BF",
         "decimals": 18,
         "displaySymbol": "ZMARon",
