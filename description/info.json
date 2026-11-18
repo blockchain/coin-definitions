@@ -1490,6 +1490,21 @@
         "websiteurl": "https://aragon.org/"
     },
     {
+        "description": "ANTon is the Ondo Tokenized version of Anthropic, giving tokenholders economic exposure similar to holding Anthropic shares and reinvesting any dividends. ANTon is not the same as holding Anthropic shares. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ANTON",
+        "websiteurl": ""
+    },
+    {
+        "description": "ANTon is the Ondo Tokenized version of Anthropic, giving tokenholders economic exposure similar to holding Anthropic shares and reinvesting any dividends. ANTon is not the same as holding Anthropic shares. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ANTON.BNB",
+        "websiteurl": ""
+    },
+    {
+        "description": "ANTon is the Ondo Tokenized version of Anthropic, giving tokenholders economic exposure similar to holding Anthropic shares and reinvesting any dividends. ANTon is not the same as holding Anthropic shares. Ondo tokenized stocks enable non-US retail and institutional users around the world to instantly mint and redeem tokenized U.S. stocks and ETFs, 24 hours a day, five days a week with full access to traditional exchange liquidity. Additional restrictions apply. Learn more at ondo.finance/global-markets.",
+        "symbol": "ANTON.SOL",
+        "websiteurl": ""
+    },
+    {
         "description": "Anvil is a system of Ethereum-based smart contracts that manages collateral and issues fully secured credit. A primary example is a letter of credit (LOC), analogous to a paper bank cheque drawing verified funds, providing an economic guarantee of payment.\r\n\r\nAnvil enables transparency and trustless verification of assets, thereby reducing counterparty risk. The protocol is designed for maximum efficiency and extensibility to incorporate collateral throughout decentralized and traditional finance. \r\n\r\nWhat can Anvil be used for?\r\nAnvil is a unified protocol for asset provision, designed explicitly for safety, simplicity, and composability as a primitive building block in the development of other applications. \r\n\r\nPayments: LOCs offer security for both online and in-store digital payment transactions.\r\n\r\nCounterparty credit: LOCs can be accepted on centralized exchanges to secure instant deposits for immediate trading or more efficient liquidity provision.\r\n\r\nAsset bridging: LOCs can facilitate immediate cross-platform transactions. LOCs can also secure deposit or withdrawal transactions on layer 2 (L2) implementations. In instances where a platform integrates Anvil LOCs, immediate, on-demand asset transfers can be safely executed.",
         "symbol": "ANVL",
         "websiteurl": "https://www.anvil.xyz"
