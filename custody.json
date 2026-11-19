@@ -2227,7 +2227,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 24,
+      "minWithdrawal": 10000
+    }
   },
   {
     "symbol": "ZETA",
