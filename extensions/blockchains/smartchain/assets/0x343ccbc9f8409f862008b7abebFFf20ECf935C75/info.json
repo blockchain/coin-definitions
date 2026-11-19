@@ -1,0 +1,10 @@
+{
+  "id": "0x343ccbc9f8409f862008b7abebFFf20ECf935C75",
+  "name": "Anthropic (Ondo Tokenized)",
+  "symbol": "ANTON",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "displaySymbol": "ANTon",
+  "website": "https://ondo.finance/"
+}

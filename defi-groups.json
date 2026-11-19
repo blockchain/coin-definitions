@@ -3402,5 +3402,12 @@
       "ZDEKON.BNB",
       "ZDEKON.SOL"
     ]
+  },
+  {
+    "parentSymbol": "ANTON",
+    "childSymbols": [
+      "ANTON.BNB",
+      "ANTON.SOL"
+    ]
   }
 ]
