@@ -30,7 +30,10 @@
     "nabuSettings": {
       "custodialPrecision": 6
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 1000000
+    }
   },
   {
     "symbol": "ADI",
@@ -160,7 +163,7 @@
       "custodialPrecision": 8
     },
     "hwsSettings": {
-      "minConfirmations": 512,
+      "minConfirmations": 1,
       "minWithdrawal": 0
     }
   },
@@ -244,7 +247,7 @@
       "custodialPrecision": 8
     },
     "hwsSettings": {
-      "minConfirmations": 64,
+      "minConfirmations": 1,
       "minWithdrawal": 0
     }
   },
@@ -416,7 +419,7 @@
       "custodialPrecision": 9
     },
     "hwsSettings": {
-      "minConfirmations": 30,
+      "minConfirmations": 1,
       "minWithdrawal": 0
     }
   },
@@ -691,7 +694,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "HOODETH",
@@ -913,7 +919,10 @@
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 5,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "INJ",
@@ -1091,7 +1100,7 @@
       "custodialPrecision": 8
     },
     "hwsSettings": {
-      "minConfirmations": 12,
+      "minConfirmations": 24,
       "minWithdrawal": 5460
     }
   },
@@ -1127,7 +1136,7 @@
       "custodialPrecision": 8
     },
     "hwsSettings": {
-      "minConfirmations": 128,
+      "minConfirmations": 16,
       "minWithdrawal": 0
     }
   },
@@ -1238,8 +1247,8 @@
       "custodialPrecision": 9
     },
     "hwsSettings": {
-      "minConfirmations": 100,
-      "minWithdrawal": 10000000000000000000000
+      "minConfirmations": 1,
+      "minWithdrawal": 0
     }
   },
   {
@@ -1306,7 +1315,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 1,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "OGN",
@@ -1656,7 +1668,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 1,
-      "minWithdrawal": 0.1
+      "minWithdrawal": 0
     }
   },
   {
@@ -1706,7 +1718,7 @@
       "custodialPrecision": 6
     },
     "hwsSettings": {
-      "minConfirmations": 8,
+      "minConfirmations": 1,
       "minWithdrawal": 0
     }
   },
@@ -1718,7 +1730,7 @@
       "custodialPrecision": 9
     },
     "hwsSettings": {
-      "minConfirmations": 300,
+      "minConfirmations": 1,
       "minWithdrawal": 0
     }
   },
@@ -1838,7 +1850,7 @@
       "custodialPrecision": 6
     },
     "hwsSettings": {
-      "minConfirmations": 300,
+      "minConfirmations": 30,
       "minWithdrawal": 0
     }
   },
@@ -2227,7 +2239,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 24,
+      "minWithdrawal": 10000
+    }
   },
   {
     "symbol": "ZETA",
