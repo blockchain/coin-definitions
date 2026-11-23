@@ -163,7 +163,7 @@
       "custodialPrecision": 8
     },
     "hwsSettings": {
-      "minConfirmations": 1,
+      "minConfirmations": 512,
       "minWithdrawal": 0
     }
   },
@@ -247,7 +247,7 @@
       "custodialPrecision": 8
     },
     "hwsSettings": {
-      "minConfirmations": 1,
+      "minConfirmations": 64,
       "minWithdrawal": 0
     }
   },
@@ -419,7 +419,7 @@
       "custodialPrecision": 9
     },
     "hwsSettings": {
-      "minConfirmations": 1,
+      "minConfirmations": 30,
       "minWithdrawal": 0
     }
   },
@@ -695,7 +695,7 @@
       "custodialPrecision": 8
     },
     "hwsSettings": {
-      "minConfirmations": 1,
+      "minConfirmations": 128,
       "minWithdrawal": 0
     }
   },
@@ -1136,7 +1136,7 @@
       "custodialPrecision": 8
     },
     "hwsSettings": {
-      "minConfirmations": 16,
+      "minConfirmations": 128,
       "minWithdrawal": 0
     }
   },
@@ -1247,7 +1247,7 @@
       "custodialPrecision": 9
     },
     "hwsSettings": {
-      "minConfirmations": 1,
+      "minConfirmations": 100,
       "minWithdrawal": 10000000000000000000000
     }
   },
@@ -1316,7 +1316,7 @@
       "custodialPrecision": 8
     },
     "hwsSettings": {
-      "minConfirmations": 1,
+      "minConfirmations": 64,
       "minWithdrawal": 0
     }
   },
@@ -1718,7 +1718,7 @@
       "custodialPrecision": 6
     },
     "hwsSettings": {
-      "minConfirmations": 1,
+      "minConfirmations": 8,
       "minWithdrawal": 0
     }
   },
@@ -1730,7 +1730,7 @@
       "custodialPrecision": 9
     },
     "hwsSettings": {
-      "minConfirmations": 1,
+      "minConfirmations": 300,
       "minWithdrawal": 0
     }
   },
@@ -1850,7 +1850,7 @@
       "custodialPrecision": 6
     },
     "hwsSettings": {
-      "minConfirmations": 30,
+      "minConfirmations": 300,
       "minWithdrawal": 0
     }
   },
