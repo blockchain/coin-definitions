@@ -32,7 +32,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 30,
-      "minWithdrawal": 1000000
+      "minWithdrawal": 0
     }
   },
   {
@@ -1248,7 +1248,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 1,
-      "minWithdrawal": 0
+      "minWithdrawal": 10000000000000000000000
     }
   },
   {
@@ -1668,7 +1668,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 1,
-      "minWithdrawal": 0
+      "minWithdrawal": 0.1
     }
   },
   {
@@ -2241,7 +2241,7 @@
     },
     "hwsSettings": {
       "minConfirmations": 24,
-      "minWithdrawal": 10000
+      "minWithdrawal": 0
     }
   },
   {
