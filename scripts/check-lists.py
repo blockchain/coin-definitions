@@ -7,7 +7,7 @@ from functools import reduce
 from typing import List
 
 from common_classes import Coin, Token
-from statics import CURRENCY_LOGOS_ROOT, EXT_PRICES
+from statics import CURRENCY_LOGOS_ROOT, EXT_HWS_OPTIONAL, EXT_PRICES
 from utils import read_json
 
 EXT_FIATS = "extensions/fiats/"
@@ -64,11 +64,19 @@ class CustodyCurrency:
     def __str__(self):
         return f"[{self.symbol}, {self.type}]"
 
-    def check(self, ref: Token | Coin, prices: dict[str, float]):
+    def check(self, ref: Token | Coin, prices: dict[str, float], hws_optional: set[str]):
         yield from self.check_symbol()
         yield from self.check_precision(ref)
+        yield from self.check_hws_settings(hws_optional)
         yield from self.check_min_confirmations()
         yield from self.check_price(ref, prices)
+
+    def check_hws_settings(self, hws_optional: set[str]):
+        if self.type != "COIN" or self.removed or self.symbol in hws_optional:
+            return
+
+        if self.hwsSettings is None:
+            yield Error(self, f"hwsSettings is null; set it, or add {self.symbol} to {EXT_HWS_OPTIONAL}")
 
     def check_symbol(self):
         # Ignore display differences if they match after removing the suffix:
@@ -352,7 +360,8 @@ def check_currencies(
         eth_erc20_tokens: list[Token],
         chains: dict[str, list[Token]],
         prices: dict[str, float],
-        groups: List[Group]
+        groups: List[Group],
+        hws_optional: set[str]
 ):
     coins_dict = {x.symbol: x for x in coins}
     eth_erc20_tokens_dict = {x.symbol: x for x in eth_erc20_tokens}
@@ -371,7 +380,7 @@ def check_currencies(
             yield Error(currency, "Reference not found")
             continue
 
-        yield from itertools.chain(check_logo(ref), currency.check(ref, prices))
+        yield from itertools.chain(check_logo(ref), currency.check(ref, prices, hws_optional))
 
 
 def main():
@@ -402,11 +411,12 @@ def main():
     print(f"Total: {len(combined)}")
 
     prices = read_json(EXT_PRICES)['prices']
+    hws_optional = set(read_json(EXT_HWS_OPTIONAL))
     coins_dict = {x.symbol: x for x in coins}
     eth_erc20_tokens_dict = {x.symbol: x for x in eth_erc20_tokens}
     chains_dict = {k: {t.symbol: t for t in v} for k, v in chains.items()}
     issues = list(itertools.chain(
-        check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices, groups),
+        check_currencies(custody_currencies, coins, eth_erc20_tokens, chains, prices, groups, hws_optional),
         check_fiats(fiats),
         check_defi_groups(defi_groups, coins_dict, eth_erc20_tokens_dict, chains_dict),
     ))

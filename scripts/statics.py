@@ -11,6 +11,8 @@ BLOCKCHAINS = "assets/blockchains/"
 EXT_BLOCKCHAINS = "extensions/blockchains/"
 EXT_BLOCKCHAINS_DENYLIST = "extensions/blockchains/denylist.txt"
 
+EXT_HWS_OPTIONAL = "extensions/hws-optional.json"
+
 EXT_PRICES = "extensions/prices.json"
 EXT_OVERRIDES= "extensions/overrides.json"
 
