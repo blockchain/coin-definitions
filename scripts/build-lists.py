@@ -248,6 +248,9 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     extensions = map(lambda ext: Token.from_asset(ext, network.chain), extensions)
     tokens = sorted(set(extensions) | set(tokens), key=lambda t: t.address)
 
+    # We make sure all new tokens are uppercase
+    tokens = [replace(t, symbol=t.symbol.upper()) for t in tokens]
+
     print(f"Reading existing assets in {network.output_file}")
     current_tokens = list(
         map(lambda x: Token(**x).without_suffix(network), read_json(network.output_file)))
@@ -263,8 +266,9 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     else:
         tokens = list(set(tokens) | set(current_tokens))
 
-    # Symbols are uppercase only; displaySymbol keeps its original case
-    tokens = [replace(t, symbol=t.symbol.upper()) for t in tokens]
+    # Symbols are ids: an existing token keeps the symbol it was published with
+    published_symbols = {t.address.lower(): t.symbol for t in current_tokens}
+    tokens = [replace(t, symbol=published_symbols.get(t.address.lower(), t.symbol)) for t in tokens]
 
     tokens = repoint_unpublished_logos(tokens, published, network.chain)
 
