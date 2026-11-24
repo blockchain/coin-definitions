@@ -1,0 +1,11 @@
+{
+    "name": "My Wallet Coin",
+    "website": "https://mywallet.io",
+    "type": "JETTON",
+    "symbol": "MY",
+    "displaySymbol": "MY",
+    "decimals": 9,
+    "status": "active",
+    "id": "EQCFVNlRb-NHHDQfv3Q9xvDXBLJlay855_xREsq5ZDX6KN-w",
+    "logo": "https://mywallet.io/logo-256-blue.png"
+}

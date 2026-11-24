@@ -1,0 +1,11 @@
+{
+    "name": "DYOR Coin",
+    "website": "https://dyor.io/coin",
+    "type": "JETTON",
+    "symbol": "FCK",
+    "displaySymbol": "DYOR",
+    "decimals": 15,
+    "status": "active",
+    "id": "EQCQZpelevHNsbw5IUtwSa4Cs8kqWww0KsYeDri9kwS18eCz",
+    "logo": "https://coin-images.coingecko.com/coins/images/31361/large/DYOR_Coin_Logo.png?1720182357"
+}
