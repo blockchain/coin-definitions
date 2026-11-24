@@ -1,0 +1,6 @@
+# 'gram' - we have this in coins.json instead
+EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c
+# - https://tonscan.org/jetton/EQC47093oX5Xhb0xuk2lCr2RhS8rj-vul61u4W2UH5ORmG_O (Gram): https://gramcoin.org
+
+# 'antx' - Anthropic xStock (tokenized NASDAQ:ANT), on hold pending review
+EQBfYiMWCUDvFdzfVt-0QcsUMOUTQlS6HdNKh429jsq4AkvH
