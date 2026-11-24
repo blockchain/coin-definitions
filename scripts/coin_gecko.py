@@ -363,8 +363,8 @@ def fetch_missing_tokens_for_network(network, tokens):
             if coin_info is None:
                 # print(f"Got None coin_info for {coin_id}")
                 continue
-            usd_24h_volume = (coin_info.market_data.total_volume or {}).get('usd', 0)
-            usd_mkcap = (coin_info.market_data.market_cap or {}).get('usd', 0)
+            usd_24h_volume = coin_info.market_data.total_volume.get('usd', 0)
+            usd_mkcap = coin_info.market_data.market_cap.get('usd', 0)
             if usd_24h_volume < 750_000 and usd_mkcap < 30_000_000:
                 # print(f"Skipping {coin_id} due to low USD volume ({usd_24h_volume}) and market cap ({usd_mkcap})")
                 continue
