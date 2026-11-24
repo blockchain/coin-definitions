@@ -30,7 +30,10 @@
     "nabuSettings": {
       "custodialPrecision": 6
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 30,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "ADI",
@@ -691,7 +694,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 128,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "HOODETH",
@@ -913,7 +919,10 @@
     "nabuSettings": {
       "custodialPrecision": 9
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 5,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "INJ",
@@ -1091,7 +1100,7 @@
       "custodialPrecision": 8
     },
     "hwsSettings": {
-      "minConfirmations": 12,
+      "minConfirmations": 24,
       "minWithdrawal": 5460
     }
   },
@@ -1306,7 +1315,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 64,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "OGN",
@@ -2227,7 +2239,10 @@
     "nabuSettings": {
       "custodialPrecision": 8
     },
-    "hwsSettings": null
+    "hwsSettings": {
+      "minConfirmations": 24,
+      "minWithdrawal": 0
+    }
   },
   {
     "symbol": "ZETA",
