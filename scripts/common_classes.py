@@ -31,6 +31,7 @@ class Asset:
     status: str
     website: str = ""
     displaySymbol: str = None
+    logo: str = None
 
     @classmethod
     def from_dict(cls, dict_):
@@ -142,7 +143,7 @@ class Token:
             address=asset.id,
             decimals=asset.decimals,
             displaySymbol=asset.displaySymbol or asset.symbol,
-            logo=Token.build_token_logo(asset.id, chain),
+            logo=asset.logo or Token.build_token_logo(asset.id, chain),
             name=asset.name,
             symbol=asset.symbol,
             website=asset.website

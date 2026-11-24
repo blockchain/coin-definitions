@@ -130,18 +130,22 @@ def fetch_tokens(chain):
     return list(tokens)
 
 
-def fetch_prices():
+def fetch_prices(networks=NETWORKS):
     # Use published coins.json rather than rescanning Trust Wallet assets.
     # Auto-bump does not rebuild coins.json, and assets often introduce L1
     # symbol collisions (e.g. multiple chains using ETH) that would abort CI.
     coins = list(map(Coin.from_dict, read_json(FINAL_BLOCKCHAINS_LIST)))
 
+    stale = {n.symbol for n in networks}
+    kept = {} if networks == NETWORKS else {
+        k: v for k, v in read_json(EXT_PRICES)["prices"].items() if k.rsplit('.', 1)[-1] not in stale}
+
     prices = {
         "timestamp": datetime.now().isoformat(),
-        "prices": fetch_coin_prices(coins)
+        "prices": {**kept, **fetch_coin_prices(coins)}
     }
 
-    for network in NETWORKS:
+    for network in networks:
         tokens = fetch_tokens(network.chain)
         all_token_prices = fetch_token_prices(network, tokens)
         # TrustWallet symbols aren't unique, so we key tokens by {address}.{network} to track token prices correctly.
@@ -198,7 +202,7 @@ def published_logos(current_tokens: list[Token]) -> set[str]:
 
 def repoint_unpublished_logos(tokens: list[Token], published: set[str], chain: str) -> list[Token]:
     def logo_for(token):
-        if token.logo in published:
+        if token.logo in published or not token.logo.startswith(CURRENCY_LOGOS_ROOT):
             return token.logo
         return Token.build_source_logo(token.address, chain) or token.logo
 
@@ -244,9 +248,6 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
     extensions = map(lambda ext: Token.from_asset(ext, network.chain), extensions)
     tokens = sorted(set(extensions) | set(tokens), key=lambda t: t.address)
 
-    # We make sure all new tokens are uppercase
-    tokens = [replace(t, symbol=t.symbol.upper()) for t in tokens]
-
     print(f"Reading existing assets in {network.output_file}")
     current_tokens = list(
         map(lambda x: Token(**x).without_suffix(network), read_json(network.output_file)))
@@ -261,6 +262,9 @@ def build_tokens_list(network, fill_from_coingecko=False, ci=False):
         tokens = merge_token_lists(existing_tokens=current_tokens, new_tokens=tokens, coins=extras)
     else:
         tokens = list(set(tokens) | set(current_tokens))
+
+    # Symbols are uppercase only; displaySymbol keeps its original case
+    tokens = [replace(t, symbol=t.symbol.upper()) for t in tokens]
 
     tokens = repoint_unpublished_logos(tokens, published, network.chain)
 
@@ -322,12 +326,12 @@ def fill_descriptions_from_overrides():
     write_json(sorted(descriptions_list, key=lambda x: x['symbol']), './description/info.json')
 
 
-def fetch_descriptions():
+def fetch_descriptions(networks=NETWORKS):
     coins = list(map(lambda x: Coin.from_dict(x), read_json("coins.json")))
     print(f"Fetching descriptions for {len(coins)} coins")
     descriptions = fetch_coin_descriptions(coins)
 
-    for network in NETWORKS:
+    for network in networks:
         tokens = list(map(lambda x: Token.from_dict(x), read_json(network.output_file)))
         print(f"Fetching descriptions for {len(tokens)} {network.symbol} tokens")
         descriptions.update(fetch_token_descriptions(network, tokens))
@@ -359,18 +363,21 @@ def main():
     parser.add_argument('--fetch-descriptions', action='store_true')
     parser.add_argument('--fill-descriptions-from-overrides', action='store_true')
     parser.add_argument('--fill-from-coingecko', action='store_true')
+    parser.add_argument('--chain', action='append', choices=[n.chain for n in NETWORKS])
     args = parser.parse_args()
 
+    networks = [n for n in NETWORKS if n.chain in args.chain] if args.chain else NETWORKS
+
     if args.fetch_prices:
-        fetch_prices()
+        fetch_prices(networks)
     elif args.fetch_descriptions:
-        fetch_descriptions()
+        fetch_descriptions(networks)
     elif args.fill_descriptions_from_overrides:
         fill_descriptions_from_overrides()
     else:
-        if not args.ci:
+        if not args.ci and not args.chain:
             build_coins_list()
-        for network in NETWORKS:
+        for network in networks:
             build_tokens_list(network, args.fill_from_coingecko, args.ci)
 
 
